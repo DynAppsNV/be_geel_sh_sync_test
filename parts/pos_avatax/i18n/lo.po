@@ -1,0 +1,114 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pos_avatax
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 17:45+0000\n"
+"PO-Revision-Date: 2026-06-13 10:24+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/pos_avatax/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: pos_avatax
+#: model:ir.model.fields,field_description:pos_avatax.field_pos_order__avatax_unique_code
+#, fuzzy
+msgid "Avalara Code"
+msgstr "ລະຫັດ Avalara"
+
+#. module: pos_avatax
+#. odoo-python
+#: code:addons/pos_avatax/models/pos_order.py:0
+#, fuzzy
+msgid ""
+"Avatax requires your current location or a customer to be set on the order "
+"with a proper zip, state and country."
+msgstr ""
+"Avatax ຕ້ອງການໃຫ້ທ່ານກຳນົດສະຖານທີ່ປັດຈຸບັນ ຫຼື ກຳນົດລູກຄ້າໃນຄຳສັ່ງຊື້ ພ້ອມກັບລະຫັດໄປສະນີ, ແຂວງ/ລັດ ແ"
+"ລະ ປະເທດທີ່ຖືກຕ້ອງ."
+
+#. module: pos_avatax
+#: model:ir.model.fields,field_description:pos_avatax.field_account_fiscal_position__display_name
+#: model:ir.model.fields,field_description:pos_avatax.field_pos_order__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: pos_avatax
+#. odoo-javascript
+#: code:addons/pos_avatax/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid ""
+"Enable to load Avatax taxes, please verify partner information and Avatax "
+"API configuration."
+msgstr ""
+"ເປີດນຳໃຊ້ເພື່ອໂຫລດພາສີ Avatax, ກະລຸນາກວດສອບຂໍ້ມູນຄູ່ຄ້າ ແລະ ການຕັ້ງຄ່າ Avatax API."
+
+#. module: pos_avatax
+#. odoo-javascript
+#: code:addons/pos_avatax/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Error while loading Avatax taxes"
+msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ກຳລັງໂຫລດພາສີ Avatax"
+
+#. module: pos_avatax
+#: model:ir.model,name:pos_avatax.model_account_fiscal_position
+#, fuzzy
+msgid "Fiscal Position"
+msgstr "ສະຖານະທາງພາສີ"
+
+#. module: pos_avatax
+#: model:ir.model.fields,field_description:pos_avatax.field_account_fiscal_position__id
+#: model:ir.model.fields,field_description:pos_avatax.field_pos_order__id
+#, fuzzy
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: pos_avatax
+#: model:ir.model.fields,field_description:pos_avatax.field_pos_order__is_avatax
+#, fuzzy
+msgid "Is Avatax"
+msgstr "ແມ່ນ Avatax"
+
+#. module: pos_avatax
+#: model:ir.model.fields,field_description:pos_avatax.field_pos_order__is_tax_computed_externally
+#, fuzzy
+msgid "Is Tax Computed Externally"
+msgstr "ແມ່ນການຄິດໄລ່ພາສີຈາກພາຍນອກ"
+
+#. module: pos_avatax
+#: model:ir.model,name:pos_avatax.model_pos_order
+#, fuzzy
+msgid "Point of Sale Orders"
+msgstr "ໃບສັ່ງຊື້ຈຸດຂາຍ"
+
+#. module: pos_avatax
+#: model:ir.model.fields,help:pos_avatax.field_pos_order__is_tax_computed_externally
+#, fuzzy
+msgid ""
+"Technical field to determine if tax is calculated using an external service "
+"instead of Odoo."
+msgstr ""
+"ຟີວທາງດ້ານເຕັກນິກເພື່ອລະບຸວ່າ ພາສີຖືກຄິດໄລ່ໂດຍການໃຊ້ບໍລິການຈາກພາຍນອກແທນທີ່ຈະເປັນ Odoo."
+
+#. module: pos_avatax
+#. odoo-javascript
+#: code:addons/pos_avatax/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Updating Avatax taxes..."
+msgstr "ກຳລັງອັບເດດພາສີ Avatax..."
+
+#. module: pos_avatax
+#: model:ir.model.fields,help:pos_avatax.field_pos_order__avatax_unique_code
+#, fuzzy
+msgid "Use this code to cross-reference in the Avalara portal."
+msgstr "ໃຊ້ລະຫັດນີ້ເພື່ອອ້າງອີງໃນພໍທັລ Avalara."

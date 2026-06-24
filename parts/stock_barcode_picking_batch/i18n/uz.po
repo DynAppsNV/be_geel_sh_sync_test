@@ -1,0 +1,315 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_barcode_picking_batch
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:48+0000\n"
+"PO-Revision-Date: 2025-10-08 18:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_move_line_product_selector_inherit
+#, fuzzy
+msgid "<i class=\"fa fa-lg fa-truck\" title=\"Transfer\"/>"
+msgstr "<i class=\"fa fa-lg fa-truck\" title=\"O‘tkazma\"/>"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_picking_view_kanban
+#, fuzzy
+msgid ""
+"<span class=\"fa fa-external-link-square ms-1\" title=\"Open Batch Picking\"/"
+">"
+msgstr ""
+"<span class=\"fa fa-external-link-square ms-1\" title=\"Ommaviy terish "
+"oynasini ochish\"/>"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+#, fuzzy
+msgid "Allocation"
+msgstr "Taqsimlash"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_picking_batch_form
+#, fuzzy
+msgid "Barcode"
+msgstr "Shtrix-kod"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.actions.client,name:stock_barcode_picking_batch.stock_barcode_picking_batch_client_action
+#, fuzzy
+msgid "Barcode Batch Picking Client Action"
+msgstr "Shtrix-kod orqali ommaviy terish mijoz harakati"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__batch_id
+#, fuzzy
+msgid "Batch Transfer"
+msgstr "Ommaviy o‘tkazma"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__batch_name
+#, fuzzy
+msgid "Batch Transfer Name"
+msgstr "Ommaviy o‘tkazma nomi"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.actions.act_window,name:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+#, fuzzy
+msgid "Batch Transfers"
+msgstr "Ommaviy o‘tkazmalar"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/kanban/stock_barcode_kanban_renderer.xml:0
+#, fuzzy
+msgid "Batches"
+msgstr "Partiyalar"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+#, fuzzy
+msgid "Cancel Batch Transfer"
+msgstr "Ommaviy o‘tkazmani bekor qilish"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_barcode_cancel_operation
+#, fuzzy
+msgid "Cancel Operation"
+msgstr "Amalni bekor qilish"
+
+#. module: stock_barcode_picking_batch
+#. odoo-python
+#: code:addons/stock_barcode_picking_batch/models/stock_picking_batch.py:0
+#, fuzzy
+msgid "Cancel this batch transfer?"
+msgstr "Ushbu ommaviy o‘tkazmani bekor qilasizmi?"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+#, fuzzy
+msgid "Confirm"
+msgstr "Tasdiqlash"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+#, fuzzy
+msgid "Description"
+msgstr "Tavsif"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+#, fuzzy
+msgid "Discard"
+msgstr "Bekor qilish"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__display_batch_button
+#, fuzzy
+msgid "Display Batch Button"
+msgstr "Partiya tugmasini ko‘rsatish"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__display_name
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_type__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_type__group_lines_by_product
+#, fuzzy
+msgid "Group batch lines"
+msgstr "Partiya satrlarini guruhlash"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__id
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_type__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
+#, fuzzy
+msgid "Lines"
+msgstr "Satrlar"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_picking_type__group_lines_by_product
+#, fuzzy
+msgid ""
+"Lines of same product at same location appear grouped. Not to use for "
+"cluster picking"
+msgstr ""
+"Bir xil joydagi bir xil mahsulot satrlari guruhlangan holda ko‘rinadi. "
+"Klaster terish uchun foydalanilmaydi"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+#, fuzzy
+msgid "No batch transfer found"
+msgstr "Hech qanday ommaviy o‘tkazma topilmadi"
+
+#. module: stock_barcode_picking_batch
+#. odoo-python
+#: code:addons/stock_barcode_picking_batch/models/stock_picking_batch.py:0
+#, fuzzy
+msgid "Open picking batch form"
+msgstr "Terish partiyasi shaklini ochish"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking_type
+#, fuzzy
+msgid "Picking Type"
+msgstr "Terish turi"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+#, fuzzy
+msgid "Print Batch Transfer"
+msgstr "Ommaviy o‘tkazmani chop etish"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+#, fuzzy
+msgid "Print Product Labels"
+msgstr "Mahsulot yorliqlarini chop etish"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_move_line
+#, fuzzy
+msgid "Product Moves (Stock Move Line)"
+msgstr "Mahsulot harakatlari (Zaxira harakati satri)"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+#, fuzzy
+msgid "Scan the package %s"
+msgstr "%s paketini skanerlang"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+#, fuzzy
+msgid "The Batch Transfer has been validated"
+msgstr "Ommaviy o‘tkazma tasdiqlandi"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+#, fuzzy
+msgid "The batch picking has been cancelled"
+msgstr "Ommaviy terish bekor qilindi"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
+#, fuzzy
+msgid ""
+"The goal of the batch transfer is to group operations that may\n"
+"            (needs to) be done together in order to increase their "
+"efficiency.\n"
+"            It may also be useful to assign jobs (one person = one batch) "
+"or\n"
+"            help the timing management of operations (tasks to be done at "
+"1pm)."
+msgstr ""
+"Ommaviy o‘tkazmaning maqsadi samaradorlikni oshirish uchun birgalikda "
+"bajarilishi mumkin (yoki kerak) bo‘lgan operatsiyalarni guruhlashdir. "
+"Shuningdek, bu vazifalarni taqsimlash (bir kishi = bir partiya) yoki "
+"operatsiyalarning vaqtini boshqarishga yordam berish (masalan, soat 13:00 da "
+"bajariladigan vazifalar) uchun ham foydali bo‘lishi mumkin."
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_move_line__picking_id
+#, fuzzy
+msgid "The stock operation where the packing has been made"
+msgstr "Qadoqlash amalga oshirilgan ombor operatsiyasi"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+msgid "This batch is already cancelled"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+msgid "This batch is already done"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
+msgid ""
+"This batch transfer is still in draft, scans are disabled until the batch is "
+"confirmed"
+msgstr ""
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__picking_id
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_move_line_product_selector_inherit
+#, fuzzy
+msgid "Transfer"
+msgstr "O‘tkazma"
+
+#. module: stock_barcode_picking_batch
+#. odoo-javascript
+#: code:addons/stock_barcode_picking_batch/static/src/kanban/stock_barcode_kanban_renderer.xml:0
+#, fuzzy
+msgid "Transfers"
+msgstr "O‘tkazmalar"
+
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__picking_type_code
+#, fuzzy
+msgid "Type of Operation"
+msgstr "Operatsiya turi"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
+#, fuzzy
+msgid "Unbatch Transfer"
+msgstr "O‘tkazmani ajratish"
+
+#. module: stock_barcode_picking_batch
+#. odoo-python
+#: code:addons/stock_barcode_picking_batch/models/stock_picking.py:0
+#, fuzzy
+msgid ""
+"You cannot validate a transfer if no quantities are reserved nor done. You "
+"can use the info button on the top right corner of your screen to remove the "
+"transfer in question from the batch."
+msgstr ""
+"Agar hech qanday miqdor band qilinmagan yoki bajarilmagan bo‘lsa, o‘tkazmani "
+"tasdiqlay olmaysiz. Ekraningizning yuqori o‘ng burchagidagi ma'lumot "
+"tugmasidan foydalanib, ushbu o‘tkazmani partiyadan olib tashlashingiz mumkin."

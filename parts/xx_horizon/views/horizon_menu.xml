@@ -1,0 +1,39 @@
+<odoo>
+    <menuitem
+        id="menu_horizon_root"
+        name="Horizon"
+        sequence="999"
+        web_icon="xx_horizon,static/description/icon.png"
+    />
+
+    <record id="action_sync_records" model="ir.actions.act_window">
+        <field name="name">Sync Records</field>
+        <field name="res_model">xx.sync.record</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="view_sync_record_tree" />
+        <field name="target">current</field>
+    </record>
+
+    <menuitem
+        id="menu_sync_records"
+        name="Sync Records"
+        parent="menu_horizon_root"
+        action="action_sync_records"
+        sequence="0"
+    />
+
+    <record id="action_xx_horizon_settings" model="ir.actions.act_window">
+        <field name="name">Horizon Sync Settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem
+        id="menu_xx_horizon_settings"
+        name="Settings"
+        parent="menu_horizon_root"
+        action="action_xx_horizon_settings"
+        sequence="1"
+    />
+</odoo>

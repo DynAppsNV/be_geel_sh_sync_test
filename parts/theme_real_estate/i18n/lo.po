@@ -1,0 +1,1005 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * theme_real_estate
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-17 17:38+0000\n"
+"PO-Revision-Date: 2026-06-06 20:16+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"theme_real_estate/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel_minimal
+msgid ""
+"\" A top choice for real estate. <br/>Expert guidance, great deals, and "
+"exceptional support throughout. \""
+msgstr ""
+"\" ທາງເລືອກອັນດັບໜຶ່ງສຳລັບອະສັງຫາລິມະຊັບ. <br/>ຄຳແນະນຳຈາກຜູ້ຊ່ຽວຊານ, ຂໍ້ສະເໜີທີ່ດີ, ແລະ "
+"ການຊ່ວຍເຫຼືອທີ່ດີເລີດຕະຫຼອດຂັ້ນຕອນ. \""
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel_minimal
+msgid ""
+"\" Exceptional results and service! <br/>They made finding and buying our "
+"home a smooth experience. \""
+msgstr ""
+"\" ຜົນຮັບ ແລະ ການບໍລິການທີ່ດີເລີດ! <br/>ພວກເຂົາເຮັດໃຫ້ການຄົ້ນຫາ ແລະ "
+"ການຊື້ເຮືອນຂອງພວກເຮົາເປັນປະສົບການທີ່ລາບລື່ນ. \""
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel_minimal
+msgid ""
+"\" Their service was outstanding. <br/>Professional, reliable, and truly "
+"understanding our needs. \""
+msgstr ""
+"\" ການບໍລິການຂອງພວກເຂົາແມ່ນໂດດເດັ່ນຫຼາຍ. <br/>ມີຄວາມເປັນມືອາຊີບ, ເຊື່ອຖືໄດ້ ແລະ "
+"ເຂົ້າໃຈຄວາມຕ້ອງການຂອງພວກເຮົາແທ້ໆ. \""
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "14K"
+msgstr "14K"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid ""
+"<a href=\"#\" class=\"btn btn-secondary o_translate_inline\">Explore our "
+"services</a>"
+msgstr ""
+"<a href=\"#\" class=\"btn btn-secondary "
+"o_translate_inline\">ສຳຫຼວດການບໍລິການຂອງພວກເຮົາ</a>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_banner
+msgid "<b>Real Estate Agency.<br/>Near You.</b>"
+msgstr "<b>ຕົວແທນອະສັງຫາລິມະຊັບ.<br/>ໃກ້ຕົວທ່ານ.</b>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_empowerment
+msgid ""
+"<br/>Connecting you with the perfect property through personalized guidance."
+"<br/><br/>"
+msgstr ""
+"<br/>ເຊື່ອມຕໍ່ທ່ານກັບອະສັງຫາລິມະຊັບທີ່ສົມບູນແບບ ໂດຍຜ່ານການແນະນຳທີ່ເໝາະສົມກັບທ່ານ.<br/><br/>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_split_intro
+msgid ""
+"<br/>Discover your ideal home with our expert real estate services. We guide "
+"you through every step of the buying or selling process, offering "
+"personalized support and in-depth market knowledge. Whether you're searching "
+"for a new house or an investment property, we're here to help you make "
+"informed decisions and find a space you'll love.<br/><br/>"
+msgstr ""
+"<br/>ຄົ້ນພົບເຮືອນໃນຝັນຂອງທ່ານດ້ວຍການບໍລິການອະສັງຫາລິມະຊັບຈາກຜູ້ຊ່ຽວຊານ. "
+"ພວກເຮົາແນະນຳທ່ານໃນທຸກຂັ້ນຕອນຂອງການຊື້ ຫຼື ຂາຍ, ພ້ອມທັງໃຫ້ການຊ່ວຍເຫຼືອ ແລະ ຂໍ້ມູນຕະຫຼາດທີ່ເຈາະເລິກ. "
+"ບໍ່ວ່າທ່ານຈະກຳລັງຊອກຫາເຮືອນໃໝ່ ຫຼື ອະສັງຫາລິມະຊັບເພື່ອການລົງທຶນ, "
+"ພວກເຮົາຍິນດີຊ່ວຍໃຫ້ທ່ານຕັດສິນໃຈຢ່າງຖືກຕ້ອງ ແລະ ຄົ້ນຫາພື້ນທີ່ທີ່ທ່ານຮັກ.<br/><br/>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cover
+msgid ""
+"<font class=\"text-o-color-2\">ESTATE ®</font><br/>Your easy home search, "
+"all in one"
+msgstr ""
+"<font class=\"text-o-color-2\">ESTATE ®</font><br/>ການຄົ້ນຫາເຮືອນທີ່ງ່າຍດາຍຂອງທ່ານ, "
+"ລວມທຸກຢ່າງໃນບ່ອນດຽວ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_striped_top
+msgid ""
+"<font class=\"text-o-color-2\">ESTATE®.</font> Your Easy Home Search, All in "
+"One"
+msgstr ""
+"<font class=\"text-o-color-2\">ESTATE®.</font> ການຄົ້ນຫາເຮືອນທີ່ງ່າຍດາຍຂອງທ່ານ, "
+"ລວມທຸກຢ່າງໃນບ່ອນດຽວ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_empowerment
+msgid ""
+"<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/>  Prime "
+"properties"
+msgstr ""
+"<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/"
+">  ອະສັງຫາລິມະຊັບຊັ້ນດີ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_title
+msgid "A Deep Dive into Properties and Innovation"
+msgstr "ເຈາະເລິກກ່ຽວກັບອະສັງຫາລິມະຊັບ ແລະ ນະວັດຕະກຳ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_benefits
+msgid ""
+"Access unique and high-value properties that are not widely available, "
+"giving you an edge in finding exceptional real estate opportunities."
+msgstr ""
+"ເຂົ້າເຖິງອະສັງຫາລິມະຊັບທີ່ໂດດເດັ່ນ ແລະ ມີມູນຄ່າສູງ ເຊິ່ງບໍ່ມີຢູ່ທົ່ວໄປໃນຕະຫຼາດ, "
+"ຊ່ວຍໃຫ້ທ່ານມີໂອກາດດີກວ່າໃນການຄົ້ນຫາອະສັງຫາລິມະຊັບທີ່ດີເລີດ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid ""
+"Amazing team! smiling, always nice to talk with, they always have the best "
+"advices for you, adapted to your needs!"
+msgstr ""
+"ທີມງານທີ່ຍອດຢ້ຽມ! ຍິ້ມແຍ້ມແຈ່ມໃສ, ສົນທະນາດ້ວຍຄວາມເປັນກັນເອງ, "
+"ພວກເຂົາມີຄຳແນະນຳທີ່ດີທີ່ສຸດໃຫ້ທ່ານສະເໝີ ແລະ ແທດເໝາະກັບຄວາມຕ້ອງການຂອງທ່ານ!"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_image
+msgid "Are you thinking of selling?"
+msgstr "ທ່ານກຳລັງຄິດທີ່ຈະຂາຍແມ່ນບໍ?"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_block
+msgid ""
+"At <b>Odoo Travel Agency</b> our agents are more than a consultant, they are "
+"fellow <b>travelers with a passion</b> to help you explore the world. With "
+"more than 75 years combined experience you can be sure we are devoted to "
+"finding the best solutions for your travel plans."
+msgstr ""
+"ທີ່ <b>ຕົວແທນການທ່ອງທ່ຽວ Odoo</b> ຕົວແທນຂອງພວກເຮົາເປັນຫຼາຍກວ່າທີ່ປຶກສາ, ພວກເຂົາແມ່ນ "
+"<b>ເພື່ອນຮ່ວມທາງທີ່ມີຄວາມມຸ່ງໝັ້ນ</b> ທີ່ຈະຊ່ວຍໃຫ້ທ່ານອອກໄປສຳຫຼວດໂລກ. ດ້ວຍປະສົບການລວມກັນຫຼາຍກວ່າ "
+"75 ປີ, ທ່ານສາມາດໝັ້ນໃຈໄດ້ວ່າພວກເຮົາທຸ່ມເທເພື່ອຄົ້ນຫາທາງເລືອກທີ່ດີທີ່ສຸດສຳລັບແຜນການເດີນທາງຂອງທ່ານ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid "Bored with your interior?"
+msgstr "ເບື່ອການຕົບແຕ່ງພາຍໃນແບບເກົ່າແລ້ວແມ່ນບໍ?"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_intro_pill
+msgid "Browse properties"
+msgstr "ເລືອກເບິ່ງອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "Carefully handpicked by our experts"
+msgstr "ຄັດສັນຢ່າງພິຖີພິຖັນໂດຍຜູ້ຊ່ຽວຊານຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid "Charming Suburban Home"
+msgstr "ເຮືອນເຂດຊານເມືອງທີ່ມີສະເໜ່"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Commercial Property Management"
+msgstr "ການບໍລິຫານອະສັງຫາລິມະຊັບເພື່ອການພາານິດ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid ""
+"Comprehensive management services for residential properties, including "
+"tenant screening, rent collection, and maintenance coordination."
+msgstr ""
+"ການບໍລິການຈັດການທີ່ຄົບວົງຈອນສຳລັບເຮືອນພັກອາໄສ, ລວມທັງການຄັດເລືອກຜູ້ເຊົ່າ, ການເກັບຄ່າເຊົ່າ ແລະ "
+"ການປະສານງານການບຳລຸງຮັກສາ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_empowerment
+msgid "Contact an agent"
+msgstr "ຕິດຕໍ່ຕົວແທນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cta_box
+msgid "Contact us"
+msgstr "ຕິດຕໍ່ພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid "Contemporary Penthouse"
+msgstr "ເພັ້ນເຮົ້າມື້ນຳສະໄໝ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid "Customer, bought a house"
+msgstr "ລູກຄ້າ, ຊື້ເຮືອນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid "Customer, bought an appartement"
+msgstr "ລູກຄ້າ, ຊື້ອາພາດເມັນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid "Customer, sold an appartement"
+msgstr "ລູກຄ້າ, ຂາຍອາພາດເມັນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_benefits
+msgid "Dedicated Client Support"
+msgstr "ການຊ່ວຍເຫຼືອລູກຄ້າທີ່ທຸ່ມເທ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid ""
+"Dedicated services for rental properties, from marketing and tenant "
+"placement to ongoing maintenance and tenant relations."
+msgstr ""
+"ການບໍລິການສະເພາະສຳລັບອະສັງຫາລິມະຊັບໃຫ້ເຊົ່າ, ຕັ້ງແຕ່ການຕະຫຼາດ ແລະ ການຫາຜູ້ເຊົ່າ "
+"ໄປຈົນເຖິງການບຳລຸງຮັກສາ ແລະ ການສ້າງສາຍສຳພັນກັບຜູ້ເຊົ່າ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_images
+msgid "Discover Your Dream Property with Us"
+msgstr "ຄົ້ນພົບອະສັງຫາລິມະຊັບໃນຝັນຂອງທ່ານກັບພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid ""
+"Discover modern elegance in this chic penthouse, featuring sleek "
+"architecture, top-of-the-line amenities, and breathtaking cityscape views, "
+"ideal for those who appreciate luxury and style."
+msgstr ""
+"ຄົ້ນພົບຄວາມສະຫງ່າງາມທີ່ທັນສະໄໝໃນເພັ້ນເຮົ້ານີ້, ໂດດເດັ່ນດ້ວຍສະຖາປັດຕະຍາກຳທີ່ສວຍງາມ, "
+"ສິ່ງອຳນວຍຄວາມສະດວກລະດັບພຣີມຽມ ແລະ ວິວເມືອງທີ່ໜ້າຕື່ນຕາຕື່ນໃຈ, ເໝາະສຳລັບຜູ້ທີ່ມັກຄວາມຫຼູຫຼາ ແລະ "
+"ມີສະໄຕລ໌."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "Discover our latest properties"
+msgstr "ຄົ້ນພົບອະສັງຫາລິມະຊັບໃໝ່ລ່າສຸດຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cta_box
+msgid "Discover our properties"
+msgstr "ຄົ້ນພົບອະສັງຫາລິມະຊັບຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid ""
+"Discover our tailor-made services to embellish the decoration of your home."
+msgstr "ຄົ້ນພົບການບໍລິການທີ່ອອກແບບມາສະເພາະ ເພື່ອເພີ່ມຄວາມສວຍງາມໃຫ້ກັບການຕົບແຕ່ງເຮືອນຂອງທ່ານ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_intro_pill
+msgid "Discover our<br/>new properties"
+msgstr "ຄົ້ນພົບ<br/>ອະສັງຫາລິມະຊັບໃໝ່ຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_striped_center_top
+msgid ""
+"Discover premium real estate services, from buying and selling homes to "
+"vacation accommodations and property management."
+msgstr ""
+"ຄົ້ນພົບການບໍລິການອະສັງຫາລິມະຊັບລະດັບພຣີມຽມ, ຕັ້ງແຕ່ການຊື້ ແລະ ຂາຍເຮືອນ ໄປຈົນເຖິງທີ່ພັກຕາກອາກາດ "
+"ແລະ ການບໍລິຫານຈັດການອະສັງຫາລິມະຊັບ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_carousel_intro
+msgid ""
+"Discover your perfect home with our expert real estate services that offer a "
+"seamless experience from search to closing."
+msgstr ""
+"ຄົ້ນຫາເຮືອນທີ່ສົມບູນແບບຂອງທ່ານດ້ວຍການບໍລິການອະສັງຫາລິມະຊັບທີ່ເປັນມືອາຊີບ "
+"ເຊິ່ງມອບປະສົບການທີ່ລາບລື່ນຕັ້ງແຕ່ການຄົ້ນຫາໄປຈົນເຖິງການປິດການຂາຍ."
+
+#. module: theme_real_estate
+#: model:ir.model.fields,field_description:theme_real_estate.field_theme_utils__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_images
+msgid "Diverse property listings to match your lifestyle"
+msgstr "ລາຍການອະສັງຫາລິມະຊັບທີ່ຫຼາກຫຼາຍເພື່ອຕອບໂຈດໄລຟ໌ສະໄຕລ໌ຂອງທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_features_wall
+msgid "Dream Home Search"
+msgstr "ຄົ້ນຫາເຮືອນໃນຝັນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid ""
+"Elegant, modern sophisticated architecture with an impressive in large scale "
+"home designed with the finest imported finishes. Marble and wood floors..."
+msgstr ""
+"ສະຖາປັດຕະຍາກຳທີ່ສະຫງ່າງາມ ແລະ ທັນສະໄໝ ໃນເຮືອນຂະໜາດໃຫຍ່ທີ່ໜ້າປະທັບໃຈ "
+"ອອກແບບດ້ວຍວັດສະດຸຕົບແຕ່ງນຳເຂົ້າທີ່ດີທີ່ສຸດ. ພື້ນຫີນອ່ອນ ແລະ ໄມ້..."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid ""
+"End-to-end support for home buyers and sellers, including property searches, "
+"negotiations, and closing coordination."
+msgstr ""
+"ການຊ່ວຍເຫຼືອຄົບວົງຈອນສຳລັບຜູ້ຊື້ ແລະ ຜູ້ຂາຍເຮືອນ, ລວມທັງການຄົ້ນຫາອະສັງຫາລິມະຊັບ, ການເຈລະຈາ ແລະ "
+"ການປະສານງານການປິດການຂາຍ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_carousel_intro
+msgid ""
+"Enhance your property journey with our personalized advice and diverse "
+"listings."
+msgstr ""
+"ຍົກລະດັບການເດີນທາງໃນການຫາອະສັງຫາລິມະຊັບຂອງທ່ານ ດ້ວຍຄຳແນະນຳທີ່ເໝາະສົມ ແລະ "
+"ລາຍການທີ່ມີຄວາມຫຼາກຫຼາຍ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid ""
+"Enjoy the comfort of this delightful suburban home with a spacious yard, "
+"cozy interior, and family-friendly neighborhood, perfect for making lasting "
+"memories."
+msgstr ""
+"ເພີດເພີນກັບຄວາມສະບາຍຂອງເຮືອນເຂດຊານເມືອງທີ່ໜ້າຮັກນີ້ ພ້ອມດ້ວຍເດີ່ນບ້ານທີ່ກວ້າງຂວາງ, "
+"ການຕົບແຕ່ງພາຍໃນທີ່ອົບອຸ່ນ ແລະ ສະພາບແວດລ້ອມທີ່ເໝາະສຳລັບຄອບຄົວ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_benefits
+msgid "Exclusive Listings"
+msgstr "ລາຍການພິເສດສະເພາະ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_features_wall
+msgid ""
+"Experience a smooth real estate transaction with our expert guidance and "
+"support throughout the buying and selling process."
+msgstr ""
+"ສຳຜັດກັບການເຮັດທຸລະກຳອະສັງຫາລິມະຊັບທີ່ລາບລື່ນ ດ້ວຍການແນະນຳຈາກຜູ້ຊ່ຽວຊານ ແລະ "
+"ການຊ່ວຍເຫຼືອຕະຫຼອດຂັ້ນຕອນການຊື້ ແລະ ຂາຍ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid ""
+"Experience city living at its finest in this expansive urban loft, featuring "
+"high ceilings, open-plan living spaces, and modern finishes, all in a prime "
+"location."
+msgstr ""
+"ສຳຜັດກັບການໃຊ້ຊີວິດໃນເມືອງທີ່ດີທີ່ສຸດໃນຫ້ອງສະໄຕລ໌ລອຟທ໌ (Loft) ທີ່ກວ້າງຂວາງ, ເພດານສູງ, "
+"ພື້ນທີ່ໃຊ້ສອຍແບບເປີດໂລ່ງ ແລະ ການຕົບແຕ່ງທີ່ທັນສະໄໝ ໃນທຳເລທີ່ດີທີ່ສຸດ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_images
+msgid "Expert Guidance for Buying, Selling, and Renting Homes"
+msgstr "ຄຳແນະນຳຈາກຜູ້ຊ່ຽວຊານສຳລັບການຊື້, ຂາຍ ແລະ ເຊົ່າເຮືອນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_features_wall
+msgid "Expert Property Valuation"
+msgstr "ການປະເມີນມູນຄ່າອະສັງຫາລິມະຊັບໂດຍຜູ້ຊ່ຽວຊານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid ""
+"Expert management for commercial properties, focusing on maximizing "
+"occupancy, lease administration, and facility management."
+msgstr ""
+"ການບໍລິຫານຈັດການອະສັງຫາລິມະຊັບເພື່ອການພາານິດໂດຍຜູ້ຊ່ຽວຊານ, ເນັ້ນການເພີ່ມອັດຕາການເຊົ່າ, "
+"ການບໍລິຫານສັນຍາເຊົ່າ ແລະ ການຈັດການສິ່ງອຳນວຍຄວາມສະດວກ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid "Explore Our Featured Properties"
+msgstr "ສຳຫຼວດອະສັງຫາລິມະຊັບທີ່ໂດດເດັ່ນຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_images_mosaic
+msgid "Explore Our Property Listings"
+msgstr "ສຳຫຼວດລາຍການອະສັງຫາລິມະຊັບຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_carousel_intro
+msgid ""
+"Explore more and find real estate solutions that fit your goals, crafted to "
+"provide a smooth and successful property experience."
+msgstr ""
+"ສຳຫຼວດເພີ່ມເຕີມເພື່ອຊອກຫາທາງອອກດ້ານອະສັງຫາລິມະຊັບທີ່ຕອບໂຈດເປົ້າໝາຍຂອງທ່ານ, "
+"ເພື່ອມອບປະສົບການທີ່ລາບລື່ນ ແລະ ປະສົບຄວາມສຳເລັດ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid ""
+"Explore our comprehensive range of real estate services designed to meet all "
+"your property needs, whether buying, selling, or renting."
+msgstr ""
+"ສຳຫຼວດການບໍລິການອະສັງຫາລິມະຊັບທີ່ຄົບວົງຈອນຂອງພວກເຮົາ "
+"ເຊິ່ງອອກແບບມາເພື່ອຕອບສະໜອງທຸກຄວາມຕ້ອງການຂອງທ່ານ, ບໍ່ວ່າຈະເປັນການຊື້, ຂາຍ ຫຼື ເຊົ່າ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_shape_image
+msgid ""
+"Explore our range of real estate services tailored to your needs. Whether "
+"buying, selling, or renting, our expert team provides personalized guidance "
+"and support to help you make informed decisions and achieve your property "
+"goals."
+msgstr ""
+"ສຳຫຼວດການບໍລິການອະສັງຫາລິມະຊັບທີ່ຫຼາກຫຼາຍຂອງພວກເຮົາ. ບໍ່ວ່າຈະເປັນການຊື້, ຂາຍ ຫຼື ເຊົ່າ, "
+"ທີມງານຜູ້ຊ່ຽວຊານຂອງພວກເຮົາມີຄຳແນະນຳ ແລະ ການຊ່ວຍເຫຼືອເພື່ອໃຫ້ທ່ານຕັດສິນໃຈໄດ້ຢ່າງຖືກຕ້ອງ ແລະ "
+"ບັນລຸເປົ້າໝາຍຂອງທ່ານ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_unveil
+msgid ""
+"Explore stunning properties and beautiful interiors to discover your perfect "
+"space."
+msgstr ""
+"ສຳຫຼວດອະສັງຫາລິມະຊັບທີ່ໜ້າຕື່ນຕາຕື່ນໃຈ ແລະ ການຕົບແຕ່ງພາຍໃນທີ່ສວຍງາມ "
+"ເພື່ອຄົ້ນຫາພື້ນທີ່ທີ່ສົມບູນແບບຂອງທ່ານ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_carousel_intro
+msgid "Explore your ideal property"
+msgstr "ສຳຫຼວດອະສັງຫາລິມະຊັບໃນອຸດົມຄະຕິຂອງທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_striped_center_top
+msgid "Find Your Dream Home"
+msgstr "ຄົ້ນຫາເຮືອນໃນຝັນຂອງທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_images
+msgid "Find the perfect property with our dedicated team"
+msgstr "ຄົ້ນຫາອະສັງຫາລິມະຊັບທີ່ສົມບູນແບບກັບທີມງານທີ່ທຸ່ມເທຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_unveil
+msgid "Find your dream home"
+msgstr "ຄົ້ນຫາເຮືອນໃນຝັນຂອງທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quadrant
+msgid ""
+"Find your dream property with our real estate services. Whether you’re "
+"looking to buy, sell, or rent, we offer expert guidance and personalized "
+"solutions.<br/><br/> Your perfect home is just a click away."
+msgstr ""
+"ຄົ້ນຫາອະສັງຫາລິມະຊັບໃນຝັນດ້ວຍການບໍລິການຂອງພວກເຮົາ. ບໍ່ວ່າທ່ານຈະຊື້, ຂາຍ ຫຼື ເຊົ່າ, "
+"ພວກເຮົາມີຄຳແນະນຳຈາກຜູ້ຊ່ຽວຊານ ແລະ ທາງອອກທີ່ເໝາະກັບທ່ານ.<br/><br/> "
+"ເຮືອນທີ່ສົມບູນແບບຂອງທ່ານຢູ່ໃກ້ພຽງແຕ່ການກົດເທົ່ານັ້ນ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_images_mosaic
+msgid "Find your ideal home with our newest real estate offerings."
+msgstr "ຄົ້ນຫາເຮືອນໃນອຸດົມຄະຕິຂອງທ່ານດ້ວຍຂໍ້ສະເໜີອະສັງຫາລິມະຊັບໃໝ່ລ່າສຸດຂອງພວກເຮົາ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_card_offset
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_freegrid
+msgid ""
+"Find your perfect home or investment property with our comprehensive real "
+"estate services. We guide you through every step, from buying and selling to "
+"property management."
+msgstr ""
+"ຄົ້ນຫາເຮືອນ ຫຼື ອະສັງຫາລິມະຊັບເພື່ອການລົງທຶນທີ່ສົມບູນແບບ ດ້ວຍການບໍລິການທີ່ຄົບວົງຈອນຂອງພວກເຮົາ. "
+"ພວກເຮົາແນະນຳທ່ານໃນທຸກຂັ້ນຕອນ ຕັ້ງແຕ່ການຊື້, ຂາຍ ໄປຈົນເຖິງການບໍລິຫານຈັດການ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_features_wall
+msgid ""
+"Find your perfect home with our personalized search services, tailored to "
+"match your lifestyle and preferences."
+msgstr ""
+"ຄົ້ນຫາເຮືອນທີ່ສົມບູນແບບດ້ວຍການບໍລິການຄົ້ນຫາທີ່ອອກແບບມາເພື່ອທ່ານໂດຍສະເພາະ ໃຫ້ແທດເໝາະກັບໄລຟ໌ສະໄຕລ໌ "
+"ແລະ ຄວາມມັກຂອງທ່ານ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_split_intro
+msgid "Find your<br/>perfect place"
+msgstr "ຄົ້ນຫາ<br/>ສະຖານທີ່ທີ່ສົມບູນແບບຂອງທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_carousel_intro
+msgid "Finding your dream home made easy"
+msgstr "ການຄົ້ນຫາເຮືອນໃນຝັນກາຍເປັນເລື່ອງງ່າຍ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_empowerment
+msgid "Finding your dream home<br/>with expert real estate services"
+msgstr "ຄົ້ນຫາເຮືອນໃນຝັນຂອງທ່ານ<br/>ດ້ວຍການບໍລິການອະສັງຫາລິມະຊັບຈາກຜູ້ຊ່ຽວຊານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid ""
+"From start to finish, they were extremely professional, friendly, helpful "
+"and easy to do business with. Very happy with the experience and the company."
+msgstr ""
+"ຕັ້ງແຕ່ຕົ້ນຈົນຈົບ, ພວກເຂົາມີຄວາມເປັນມືອາຊີບຫຼາຍ, ເປັນກັນເອງ, ຊ່ວຍເຫຼືອດີ ແລະ ຮ່ວມງານນຳໄດ້ງ່າຍ. "
+"ຮູ້ສຶກພໍໃຈຫຼາຍກັບປະສົບການ ແລະ ບໍລິສັດນີ້."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_features_wall
+msgid ""
+"Get accurate and comprehensive property valuations from our experienced team "
+"to help you make informed decisions."
+msgstr ""
+"ຮັບການປະເມີນມູນຄ່າອະສັງຫາລິມະຊັບທີ່ຖືກຕ້ອງ ແລະ ຄົບຖ້ວນ ຈາກທີມງານທີ່ມີປະສົບການ "
+"ເພື່ອຊ່ວຍໃຫ້ທ່ານຕັດສິນໃຈໄດ້ຢ່າງໝັ້ນໃຈ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Home Buying and Selling Assistance"
+msgstr "ການຊ່ວຍເຫຼືອໃນການຊື້ ແລະ ຂາຍເຮືອນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_striped_center_top
+msgid "Homes built with care"
+msgstr "ເຮືອນທີ່ສ້າງຂຶ້ນດ້ວຍຄວາມໃສ່ໃຈ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "House On The Hill"
+msgstr "ເຮືອນເທິງເນີນເຂົາ"
+
+#. module: theme_real_estate
+#: model:ir.model.fields,field_description:theme_real_estate.field_theme_utils__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid ""
+"Indulge in opulence with this stunning waterfront villa, boasting panoramic "
+"views, a private pool, and exquisite design elements that offer a serene and "
+"exclusive living experience."
+msgstr ""
+"ສຳຜັດກັບຄວາມຫຼູຫຼາໃນວິນລາແຄມນ້ຳທີ່ສວຍງາມ, ໂດດເດັ່ນດ້ວຍວິວພາໂນຣາມາ, ສະລອຍນ້ຳສ່ວນຕົວ ແລະ "
+"ການອອກແບບທີ່ປະນີດ ເພື່ອມອບປະສົບການການໃຊ້ຊີວິດທີ່ສະຫງົບ ແລະ ເປັນສ່ວນຕົວ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid "Innovation and Service"
+msgstr "ນະວັດຕະກຳ ແລະ ການບໍລິການ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cta_box
+msgid "Looking for a brand new property ? We got you covered<br/><br/>"
+msgstr "ກຳລັງຊອກຫາອະສັງຫາລິມະຊັບໃໝ່ແມ່ນບໍ? ພວກເຮົາພ້ອມຊ່ວຍທ່ານ<br/><br/>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid "Luxurious Waterfront Villa"
+msgstr "ວິນລາແຄມນ້ຳທີ່ຫຼູຫຼາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_image
+msgid ""
+"Make an appointment for a free valuation of your property. We visit the "
+"property, advise you on a realistic asking price and we explain our way of "
+"working. <br/>\n"
+"        You can decide in all freedom whether or not you would like to work "
+"with us for the sale of your property."
+msgstr ""
+"ນັດໝາຍເພື່ອປະເມີນມູນຄ່າອະສັງຫາລິມະຊັບຂອງທ່ານໂດຍບໍ່ເສຍຄ່າ. ພວກເຮົາຈະລົງພື້ນທີ່ຕົວຈິງ, "
+"ໃຫ້ຄຳແນະນຳກ່ຽວກັບລາຄາທີ່ເໝາະສົມ ແລະ ອະທິບາຍວິທີການເຮັດວຽກຂອງພວກເຮົາ. <br/>\n"
+"        ທ່ານສາມາດຕັດສິນໃຈໄດ້ຢ່າງອິດສະຫຼະວ່າຈະຮ່ວມງານກັບພວກເຮົາໃນການຂາຍອະສັງຫາລິມະຊັບຂອງທ່ານຫຼືບໍ່."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_images
+msgid "Market insights and property evaluations you can trust"
+msgstr "ຂໍ້ມູນຕະຫຼາດ ແລະ ການປະເມີນມູນຄ່າທີ່ທ່ານສາມາດເຊື່ອຖືໄດ້"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "Moutain View"
+msgstr "ວິວພູເຂົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_banner
+msgid ""
+"Now you can find more than 5,000+ property choices with our professional "
+"agents!<br/>"
+msgstr ""
+"ຕອນນີ້ທ່ານສາມາດຄົ້ນຫາອະສັງຫາລິມະຊັບຫຼາຍກວ່າ 5,000 ແຫ່ງ ກັບຕົວແທນມືອາຊີບຂອງພວກເຮົາ!<br/>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_picture
+msgid "Open your horizons"
+msgstr "ເປີດຂອບເຂດໃໝ່ຂອງທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Our Real Estate Services"
+msgstr "ການບໍລິການອະສັງຫາລິມະຊັບຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_text
+msgid ""
+"Our decoration experts are at your disposal to guide you step by step in the "
+"design of your interior and will give you the best advice for your interior "
+"design."
+msgstr ""
+"ຜູ້ຊ່ຽວຊານດ້ານການຕົບແຕ່ງຂອງພວກເຮົາ ພ້ອມທີ່ຈະແນະນຳທ່ານແຕ່ລະຂັ້ນຕອນໃນການອອກແບບພາຍໃນ ແລະ "
+"ໃຫ້ຄຳປຶກສາທີ່ດີທີ່ສຸດສຳລັບເຮືອນຂອງທ່ານ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_benefits
+msgid ""
+"Our team provides continuous support throughout the buying or selling "
+"process, ensuring a smooth and stress-free experience."
+msgstr ""
+"ທີມງານຂອງພວກເຮົາໃຫ້ການຊ່ວຍເຫຼືອຢ່າງຕໍ່ເນື່ອງຕະຫຼອດຂັ້ນຕອນການຊື້ ຫຼື ຂາຍ, "
+"ເພື່ອຮັບປະກັນປະສົບການທີ່ລາບລື່ນ ແລະ ບໍ່ມີຄວາມກັງວົນ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "Paradise Residence"
+msgstr "ບ້ານພັກພາຣາໄດຊ໌"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_benefits
+msgid "Personalized Property Searches"
+msgstr "ການຄົ້ນຫາອະສັງຫາລິມະຊັບແບບສ່ວນຕົວ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quotes_carousel
+msgid ""
+"Positive energy, great team spirit, hard workers and awesome people! I "
+"warmly recommend them!"
+msgstr ""
+"ພະລັງງານບວກ, ຈິດວິນຍານຂອງທີມທີ່ດີເລີດ, ເຮັດວຽກໜັກ ແລະ ເປັນຄົນທີ່ຍອດຢ້ຽມ! ຂ້ອຍຂໍແນະນຳພວກເຂົາເລີຍ!"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid ""
+"Professional property valuation and appraisal services to provide accurate "
+"market value assessments for buying or selling."
+msgstr ""
+"ການບໍລິການປະເມີນມູນຄ່າອະສັງຫາລິມະຊັບແບບມືອາຊີບ ເພື່ອໃຫ້ໄດ້ມູນຄ່າຕະຫຼາດທີ່ຖືກຕ້ອງສຳລັບການຊື້ ຫຼື ຂາຍ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_images
+msgid "Professional support for seamless transactions"
+msgstr "ການຊ່ວຍເຫຼືອແບບມືອາຊີບເພື່ອການເຮັດທຸລະກຳທີ່ລາບລື່ນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Property Valuation and Appraisal"
+msgstr "ການປະເມີນມູນຄ່າອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_picture
+msgid "Property on the coasts of the Mediterranean."
+msgstr "ອະສັງຫາລິມະຊັບບໍລິເວນຊາຍຝັ່ງທະເລເມດິເຕີເຣນຽນ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid "Quality and Expertise"
+msgstr "ຄຸນນະພາບ ແລະ ຄວາມຊ່ຽວຊານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quadrant
+msgid "Real Estate"
+msgstr "ອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Real Estate Investment Consulting"
+msgstr "ການໃຫ້ຄຳປຶກສາດ້ານການລົງທຶນອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_freegrid
+msgid "Real Estate Solutions Tailored for You"
+msgstr "ທາງອອກດ້ານອະສັງຫາລິມະຊັບທີ່ອອກແບບມາເພື່ອທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_card_offset
+msgid "Real Estate Solutions for You"
+msgstr "ທາງອອກດ້ານອະສັງຫາລິມະຊັບສຳລັບທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_shape_image
+msgid "Real estate services"
+msgstr "ການບໍລິການອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_carousel_intro
+msgid "Real estate solutions tailored for you"
+msgstr "ທາງອອກດ້ານອະສັງຫາລິມະຊັບທີ່ເໝາະສົມກັບທ່ານ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Rental Property Services"
+msgstr "ການບໍລິການອະສັງຫາລິມະຊັບໃຫ້ເຊົ່າ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Residential Property Management"
+msgstr "ການບໍລິຫານຈັດການເຮືອນພັກອາໄສ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_features_wall
+msgid "Seamless Buying &amp; Selling"
+msgstr "ການຊື້ ແລະ ຂາຍ ທີ່ລາບລື່ນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cover
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_striped_top
+msgid "Search Now"
+msgstr "ຄົ້ນຫາຕອນນີ້"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_empowerment
+msgid "Search for homes"
+msgstr "ຄົ້ນຫາເຮືອນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_banner
+msgid "See properties"
+msgstr "ເບິ່ງອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cards_grid
+msgid "Spacious Urban Loft"
+msgstr "ຫ້ອງສະໄຕລ໌ລອຟທ໌ໃນເມືອງທີ່ກວ້າງຂວາງ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Starting at $1,000"
+msgstr "ເລີ່ມຕົ້ນທີ່ $1,000"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Starting at $2,000"
+msgstr "ເລີ່ມຕົ້ນທີ່ $2,000"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Starting at $300"
+msgstr "ເລີ່ມຕົ້ນທີ່ $300"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Starting at $400/month"
+msgstr "ເລີ່ມຕົ້ນທີ່ $400/ເດືອນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Starting at $500/month"
+msgstr "ເລີ່ມຕົ້ນທີ່ $500/ເດືອນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "Starting at $800/month"
+msgstr "ເລີ່ມຕົ້ນທີ່ $800/ເດືອນ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid ""
+"Strategic advice for real estate investors, including market analysis, "
+"property selection, and investment portfolio management."
+msgstr ""
+"ຄຳແນະນຳດ້ານກົນລະຍຸດສຳລັບນັກລົງທຶນອະສັງຫາລິມະຊັບ, ລວມທັງການວິເຄາະຕະຫຼາດ, "
+"ການຄັດເລືອກອະສັງຫາລິມະຊັບ ແລະ ການບໍລິຫານພອດການລົງທຶນ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid "Sustainable Living Options"
+msgstr "ທາງເລືອກການຢູ່ອາໄສແບບຍືນຍົງ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid "Tailored Property Solutions"
+msgstr "ທາງອອກດ້ານອະສັງຫາລິມະຊັບທີ່ອອກແບບມາສະເພາະ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid ""
+"The house is surrounded by garden terraces that create an intimate ambience. "
+"With no overlooking neighbours, the garden offers real privacy."
+msgstr ""
+"ເຮືອນຖືກລ້ອມຮອບດ້ວຍລະບຽງສວນທີ່ສ້າງບັນຍາກາດທີ່ອົບອຸ່ນ. ໂດຍບໍ່ມີເພື່ອນບ້ານມາລົບກວນສາຍຕາ, "
+"ສວນແຫ່ງນີ້ມອບຄວາມເປັນສ່ວນຕົວຢ່າງແທ້ຈິງ."
+
+#. module: theme_real_estate
+#: model:ir.model,name:theme_real_estate.model_theme_utils
+msgid "Theme Utils"
+msgstr "ເຄື່ອງມືຊ່ວຍເຫຼືອຮູບແບບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_image_title
+msgid ""
+"Transform your real estate journey with our exceptional listings, where "
+"modern design meets practicality. Elevate your property search with options "
+"that blend style and functionality seamlessly."
+msgstr ""
+"ປ່ຽນປະສົບການການຫາອະສັງຫາລິມະຊັບຂອງທ່ານດ້ວຍລາຍການທີ່ຍອດຢ້ຽມຂອງພວກເຮົາ, "
+"ບ່ອນທີ່ການອອກແບບທັນສະໄໝມາພ້ອມກັບການໃຊ້ງານໄດ້ຈິງ. "
+"ຍົກລະດັບການຄົ້ນຫາຂອງທ່ານດ້ວຍທາງເລືອກທີ່ປະສົມປະສານສະໄຕລ໌ ແລະ ປະໂຫຍດໃຊ້ສອຍໄດ້ຢ່າງລົງຕົວ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_freegrid
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_quadrant
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_striped_center_top
+msgid "View Listings"
+msgstr "ເບິ່ງລາຍການອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid "View details"
+msgstr "ເບິ່ງລາຍລະອຽດ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_empowerment
+msgid "View our listings   <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
+msgstr ""
+"ເບິ່ງລາຍການຂອງພວກເຮົາ   <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_call_to_action
+msgid "Want To Become A Real Estate Agent?"
+msgstr "ຢາກກາຍເປັນຕົວແທນອະສັງຫາລິມະຊັບແມ່ນບໍ?"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_three_columns
+msgid ""
+"Waste no time in viewing this truly stunning property. The property's "
+"surroundings really set it apart, offering idyllic sea views overlooking a "
+"park."
+msgstr ""
+"ຢ່າລໍຊ້າທີ່ຈະເຂົ້າຊົມອະສັງຫາລິມະຊັບທີ່ສວຍງາມນີ້. ສະພາບແວດລ້ອມທີ່ໂດດເດັ່ນ ພ້ອມວິວທະເລທີ່ງົດງາມ ແລະ "
+"ສວນສາທາລະນະ ເຮັດໃຫ້ບ່ອນນີ້ພິເສດກວ່າບ່ອນອື່ນ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_text_block
+msgid ""
+"We are <b>Odoo Travel Agency</b>, dedicated to making your vacation dreams "
+"come true! Overwhelmed with too many choices on the internet? We offer you "
+"answers, support, advice, and itineraries that will amaze you with their "
+"<b>thoroughness and thoughtfulness</b>."
+msgstr ""
+"ພວກເຮົາແມ່ນ <b>ຕົວແທນການທ່ອງທ່ຽວ Odoo</b>, "
+"ທີ່ທຸ່ມເທເພື່ອເຮັດໃຫ້ຄວາມຝັນໃນການພັກຜ່ອນຂອງທ່ານເປັນຈິງ! "
+"ຮູ້ສຶກສັບສົນກັບທາງເລືອກທີ່ຫຼາຍເກີນໄປໃນອິນເຕີເນັດແມ່ນບໍ? ພວກເຮົາພ້ອມມອບຄຳຕອບ, ການຊ່ວຍເຫຼືອ, "
+"ຄຳແນະນຳ ແລະ ແຜນການເດີນທາງທີ່ຈະເຮັດໃຫ້ທ່ານປະທັບໃຈດ້ວຍ <b>ຄວາມລະອຽດ ແລະ ຄວາມໃສ່ໃຈ</b>."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_key_benefits
+msgid ""
+"We offer customized property searches based on your specific preferences and "
+"needs, helping you find the perfect home or investment."
+msgstr ""
+"ພວກເຮົາມີບໍລິການຄົ້ນຫາອະສັງຫາລິມະຊັບທີ່ປັບແຕ່ງຕາມຄວາມມັກ ແລະ ຄວາມຕ້ອງການສະເພາະຂອງທ່ານ, "
+"ເພື່ອຊ່ວຍໃຫ້ທ່ານພົບເຮືອນ ຫຼື ການລົງທຶນທີ່ສົມບູນແບບ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid ""
+"We provide personalized real estate services to match your unique needs. Our "
+"team works with you to find the perfect property and guide you through every "
+"step of the process."
+msgstr ""
+"ພວກເຮົາໃຫ້ການບໍລິການອະສັງຫາລິມະຊັບທີ່ເໝາະກັບຄວາມຕ້ອງການສະເພາະຂອງທ່ານ. "
+"ທີມງານຂອງພວກເຮົາຈະຮ່ວມງານກັບທ່ານເພື່ອຄົ້ນຫາອະສັງຫາລິມະຊັບທີ່ດີທີ່ສຸດ ແລະ ແນະນຳທ່ານໃນທຸກຂັ້ນຕອນ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid ""
+"We utilize the latest technology and innovative approaches to enhance your "
+"property search. Our dedicated team ensures a seamless experience from start "
+"to finish."
+msgstr ""
+"ພວກເຮົານຳໃຊ້ເຕັກໂນໂລຊີທີ່ທັນສະໄໝ ແລະ ວິທີການທີ່ສ້າງສັນເພື່ອຍົກລະດັບການຄົ້ນຫາອະສັງຫາລິມະຊັບຂອງທ່ານ. "
+"ທີມງານທີ່ທຸ່ມເທຂອງພວກເຮົາຮັບປະກັນປະສົບການທີ່ລາບລື່ນຕັ້ງແຕ່ຕົ້ນຈົນຈົບ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_call_to_action
+msgid "We'll help you to grow your career and growth."
+msgstr "ພວກເຮົາຈະຊ່ວຍໃຫ້ທ່ານເຕີບໂຕໃນສາຍອາຊີບ ແລະ ກ້າວໜ້າຕໍ່ໄປ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_picture
+msgid ""
+"We’ve selected properties from all types and all areas.<br/>\n"
+"        The house of your dreams is around the corner."
+msgstr ""
+"ພວກເຮົາໄດ້ຄັດສັນອະສັງຫາລິມະຊັບທຸກປະເພດ ແລະ ທຸກພື້ນທີ່.<br/>\n"
+"        ເຮືອນໃນຝັນຂອງທ່ານຢູ່ໃກ້ພຽງເອື້ອມມື."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid "What we offer to our clients"
+msgstr "ສິ່ງທີ່ພວກເຮົາມອບໃຫ້ລູກຄ້າຂອງພວກເຮົາ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_title
+msgid "Where every house becomes a home."
+msgstr "ບ່ອນທີ່ທຸກໆເຮືອນກາຍເປັນບ້ານທີ່ອົບອຸ່ນ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_striped_top
+msgid ""
+"With a simple click, finding your dream home has never been easier. Explore "
+"your future with ease and confidence."
+msgstr ""
+"ພຽງແຕ່ການກົດຄັ້ງດຽວ, ການຄົ້ນຫາເຮືອນໃນຝັນກໍງ່າຍກວ່າທີ່ເຄີຍ. "
+"ສຳຫຼວດອະນາຄົດຂອງທ່ານດ້ວຍຄວາມສະດວກສະບາຍ ແລະ ໝັ້ນໃຈ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_cover
+msgid ""
+"With a simple click, finding your dream home has never been easier.<br/><br/>"
+msgstr "ພຽງແຕ່ການກົດຄັ້ງດຽວ, ການຄົ້ນຫາເຮືອນໃນຝັນກໍງ່າຍກວ່າທີ່ເຄີຍ.<br/><br/>"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid ""
+"With extensive market knowledge and industry experience, we offer insights "
+"and services that help you make informed decisions and secure the best deals."
+msgstr ""
+"ດ້ວຍຄວາມຮູ້ດ້ານຕະຫຼາດທີ່ກວ້າງຂວາງ ແລະ ປະສົບການໃນອຸດສາຫະກຳ, ພວກເຮົາມອບຂໍ້ມູນ ແລະ "
+"ການບໍລິການທີ່ຈະຊ່ວຍໃຫ້ທ່ານຕັດສິນໃຈຢ່າງຖືກຕ້ອງ ແລະ ໄດ້ຮັບຂໍ້ສະເໜີທີ່ດີທີ່ສຸດ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_card_offset
+msgid "Your dream home awaits."
+msgstr "ເຮືອນໃນຝັນຂອງທ່ານກຳລັງລໍຖ້າຢູ່."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_wavy_grid
+msgid ""
+"Your satisfaction and sustainability are our goals. Our experienced agents "
+"are always available to assist, ensuring you find eco-friendly properties "
+"that meet your needs."
+msgstr ""
+"ຄວາມພໍໃຈຂອງທ່ານ ແລະ ຄວາມຍືນຍົງຄືເປົ້າໝາຍຂອງພວກເຮົາ. "
+"ຕົວແທນທີ່ມີປະສົບການຂອງພວກເຮົາພ້ອມຊ່ວຍເຫຼືອສະເໝີ "
+"ເພື່ອຮັບປະກັນວ່າທ່ານຈະພົບອະສັງຫາລິມະຊັບທີ່ເປັນມິດກັບສິ່ງແວດລ້ອມ ແລະ ຕອບໂຈດຄວາມຕ້ອງການຂອງທ່ານ."
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "amazing agents"
+msgstr "ຕົວແທນທີ່ຍອດຢ້ຽມ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_big_number
+msgid "customers satisfaction"
+msgstr "ຄວາມພໍໃຈຂອງລູກຄ້າ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "happy customers"
+msgstr "ລູກຄ້າທີ່ມີຄວາມສຸກ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_numbers
+msgid "properties already sold"
+msgstr "ອະສັງຫາລິມະຊັບທີ່ຂາຍອອກແລ້ວ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "✽  Property Management"
+msgstr "✽  ການບໍລິຫານຈັດການອະສັງຫາລິມະຊັບ"
+
+#. module: theme_real_estate
+#: model_terms:theme.ir.ui.view,arch:theme_real_estate.s_pricelist_boxed
+msgid "✽  Real Estate Consulting"
+msgstr "✽  ການໃຫ້ຄຳປຶກສາດ້ານອະສັງຫາລິມະຊັບ"
+
+#~ msgid "$1,295,000,000"
+#~ msgstr "$1,295,000,000"
+
+#~ msgid "$295,000"
+#~ msgstr "$295,000"
+
+#~ msgid "$455,000"
+#~ msgstr "$455,000"
+
+#~ msgid "142"
+#~ msgstr "142"
+
+#~ msgid "30+"
+#~ msgstr "30+"
+
+#~ msgid "45%"
+#~ msgstr "45%"
+
+#~ msgid "85%"
+#~ msgstr "85%"
+
+#~ msgid "98%"
+#~ msgstr "98%"

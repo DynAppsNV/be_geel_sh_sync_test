@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="ReceiptScreen" t-inherit="point_of_sale.ReceiptScreen" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('notice')]" position="after">
+            <t t-if="currentOrder.company.country_id?.code === 'PE' and this.currentOrder.to_invoice and Object.keys(this.currentOrder.l10n_pe_edi_data).length === 0">
+                <div class="d-flex flex-column align-items-center mb-3 p-1 p-lg-3 border border-warning rounded-3 bg-warning-subtle text-warning fs-3">
+                    <i t-if="!ui.isSmall" class="fa fa-fw fa-2x fa-exclamation-triangle"/>
+                    <span class="fs-3 fw-bolder">
+                        EDI Processing Issue
+                    </span>
+                    <div class="fs-4 fw-bold d-flex justify-content-center align-items-center text-center gap-2">
+                        The electronic invoice process returned an error.
+                        Please review the invoice details from the backend to print the SUNAT compliant electronic document.
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* appointment_hr_recruitment
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: appointment_hr_recruitment
+#: model:mail.template,body_html:appointment_hr_recruitment.email_template_data_applicant_schedule_interview
+#, fuzzy
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <h2>Hello,</h2>\n"
+"    <div style=\"font-size: 13px;\">\n"
+"        Thanks for your application and interest in <t t-"
+"out=\"object.company_id.name or ''\">YourCompany</t>.<br/>\n"
+"        <br/>\n"
+"        I would like to organize a phone interview with you, it should last "
+"about 30 min.\n"
+"        We'll go through your resume and motivations to join the <t t-"
+"out=\"object.company_id.name or ''\">YourCompany</t> team.\n"
+"        You can book a slot in our agenda by cliking on the button below.<br/"
+">\n"
+"    </div>\n"
+"    <br/>\n"
+"    <a t-att-href=\"object._get_interview_invite_url()\" t-attf-"
+"style=\"background-color: {{user.company_id.email_secondary_color or "
+"'#875A7B'}}; text-decoration: none; color: "
+"{{user.company_id.email_primary_color or '#FFFFFF'}}; padding: 8px 16px 8px "
+"16px; border-radius: 5px;\">Schedule my interview</a><br/>\n"
+"    <br/>\n"
+"    Best regards,\n"
+"</div>\n"
+"        "
+msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\"> <h2>Assalomu alaykum,</h2> <div "
+"style=\"font-size: 13px;\"> <t t-out=\"object.company_id.name or "
+"''\">Kompaniyamiz</t>ga bo‘lgan qiziqishingiz va arizangiz uchun tashakkur."
+"<br/> <br/> Siz bilan telefon orqali suhbat o‘tkazmoqchiman, u taxminan 30 "
+"daqiqa davom etadi.         Biz sizning rezyumengizni ko‘rib chiqamiz va <t "
+"t-out=\"object.company_id.name or ''\">Kompaniyamiz</t> jamoasiga qo‘shilish "
+"istagi haqida suhbatlashamiz.         Quyidagi tugmani bosish orqali "
+"kundaligimizdan o‘zingizga qulay vaqtni tanlashingiz mumkin.<br/> </div> <br/"
+"> <a t-att-href=\"object._get_interview_invite_url()\" t-attf-"
+"style=\"background-color: {{user.company_id.email_secondary_color or "
+"'#875A7B'}}; text-decoration: none; color: "
+"{{user.company_id.email_primary_color or '#FFFFFF'}}; padding: 8px 16px 8px "
+"16px; border-radius: 5px;\">Suhbat vaqtini belgilash</a><br/> <br/> Hurmat "
+"bilan, </div>"
+
+#. module: appointment_hr_recruitment
+#: model:ir.model,name:appointment_hr_recruitment.model_hr_applicant
+#, fuzzy
+msgid "Applicant"
+msgstr "Nomzod"
+
+#. module: appointment_hr_recruitment
+#: model:ir.model,website_form_label:appointment_hr_recruitment.model_hr_applicant
+#, fuzzy
+msgid "Apply for a Job"
+msgstr "Ishga ariza berish"
+
+#. module: appointment_hr_recruitment
+#: model:ir.model,name:appointment_hr_recruitment.model_appointment_invite
+#, fuzzy
+msgid "Appointment Invite"
+msgstr "Suhbatga taklif"
+
+#. module: appointment_hr_recruitment
+#: model:mail.template,subject:appointment_hr_recruitment.email_template_data_applicant_schedule_interview
+#, fuzzy
+msgid ""
+"Can we plan an interview together for your {{ (object.job_id.name + ' ') if "
+"object.job_id else '' }}application?"
+msgstr ""
+"{{ (object.job_id.name + ' ') if object.job_id else '' }}lavozimiga "
+"arizangiz bo‘yicha suhbatni rejalashtira olamizmi?"
+
+#. module: appointment_hr_recruitment
+#: model:ir.model.fields,field_description:appointment_hr_recruitment.field_appointment_invite__display_name
+#: model:ir.model.fields,field_description:appointment_hr_recruitment.field_hr_applicant__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: appointment_hr_recruitment
+#: model:ir.model.fields,field_description:appointment_hr_recruitment.field_appointment_invite__id
+#: model:ir.model.fields,field_description:appointment_hr_recruitment.field_hr_applicant__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: appointment_hr_recruitment
+#: model:ir.model.fields,field_description:appointment_hr_recruitment.field_hr_applicant__interview_invite_code
+#, fuzzy
+msgid "Interview Invite Code"
+msgstr "Suhbatga taklif kodi"
+
+#. module: appointment_hr_recruitment
+#: model:appointment.type,name:appointment_hr_recruitment.appointment_type_interviews
+#, fuzzy
+msgid "Interviews availabilities"
+msgstr "Suhbat o‘tkazish imkoniyatlari"
+
+#. module: appointment_hr_recruitment
+#: model:mail.template,name:appointment_hr_recruitment.email_template_data_applicant_schedule_interview
+#, fuzzy
+msgid "Recruitment: Schedule interview"
+msgstr "Ishga qabul qilish: Suhbatni rejalashtirish"
+
+#. module: appointment_hr_recruitment
+#: model:mail.template,description:appointment_hr_recruitment.email_template_data_applicant_schedule_interview
+#, fuzzy
+msgid ""
+"Send this email when you want to schedule an interview with an applicant"
+msgstr ""
+"Nomzod bilan suhbatni rejalashtirmoqchi bo‘lganingizda ushbu xatni yuboring"

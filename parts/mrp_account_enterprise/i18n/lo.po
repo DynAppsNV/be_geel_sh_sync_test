@@ -1,0 +1,408 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * mrp_account
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:02+0000\n"
+"PO-Revision-Date: 2026-06-08 18:26+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"mrp_account_enterprise/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_mrp_production
+msgid "'Cost Analysis - %s ' % object.name"
+msgstr "'ການວິເຄາະຕົ້ນທຶນ - %s ' % object.name"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_product_template
+msgid "'Cost Structure Analysis - %s' % object.name"
+msgstr "'ການວິເຄາະໂຄງສ້າງຕົ້ນທຶນ - %s' % object.name"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid ", from"
+msgstr ", ຈາກ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_production_form_inherit_view6
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.product_product_inherit_form_view_cost_structure
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.product_template_inherit_form_view_cost_structure
+msgid "<span class=\"o_stat_text\">Cost Analysis</span>"
+msgstr "<span class=\"o_stat_text\">ການວິເຄາະຕົ້ນທຶນ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Avg Cost of Components Per Unit</span>"
+msgstr "<span>ຕົ້ນທຶນສ່ວນປະກອບສະເລ່ຍຕໍ່ຫົວໜ່ວຍ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Avg Cost of Operations Per Unit</span>"
+msgstr "<span>ຕົ້ນທຶນການດຳເນີນງານສະເລ່ຍຕໍ່ຫົວໜ່ວຍ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Avg Total Cost Per Unit</span>"
+msgstr "<span>ຕົ້ນທຶນລວມສະເລ່ຍຕໍ່ຫົວໜ່ວຍ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Components</span>"
+msgstr "<span>ສ່ວນປະກອບ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Cost/hour</span>"
+msgstr "<span>ຕົ້ນທຶນ/ຊົ່ວໂມງ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Operation</span>"
+msgstr "<span>ການດຳເນີນງານ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Product</span>"
+msgstr "<span>ສິນຄ້າ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Quantity</span>"
+msgstr "<span>ຈຳນວນ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Resource</span>"
+msgstr "<span>ຊັບພະຍາກອນ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Scraps</span>"
+msgstr "<span>ເສດວັດສະດຸ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Total Cost</span>"
+msgstr "<span>ຕົ້ນທຶນລວມ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Unit Cost</span>"
+msgstr "<span>ຕົ້ນທຶນຕໍ່ຫົວໜ່ວຍ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Unit of Measure</span>"
+msgstr "<span>ຫົວໜ່ວຍວັດແທກ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Working Time</span>"
+msgstr "<span>ເວລາເຮັດວຽກ</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Components</strong>"
+msgstr "<strong>ຕົ້ນທຶນສ່ວນປະກອບລວມ</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Operations</strong>"
+msgstr "<strong>ຕົ້ນທຶນການດຳເນີນງານລວມ</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Scraps</strong>"
+msgstr "<strong>ຕົ້ນທຶນເສດວັດສະດຸລວມ</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Production Cost</strong>"
+msgstr "<strong>ຕົ້ນທຶນການຜະລິດລວມ</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Average Component Cost / Unit"
+msgstr "ຕົ້ນທຶນສ່ວນປະກອບສະເລ່ຍ / ຫົວໜ່ວຍ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Average Operation Cost / Unit"
+msgstr "ຕົ້ນທຶນການດຳເນີນງານສະເລ່ຍ / ຫົວໜ່ວຍ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Average Total Cost / Unit"
+msgstr "ຕົ້ນທຶນລວມສະເລ່ຍ / ຫົວໜ່ວຍ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "By product(s)"
+msgstr "ຕາມຜະລິດຕະພັນພອຍ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__byproduct_cost
+msgid "By-Products Total Cost"
+msgstr "ຕົ້ນທຶນລວມຂອງຜະລິດຕະພັນພອຍ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_component_cost
+msgid "Component Cost / Unit"
+msgstr "ຕົ້ນທຶນສ່ວນປະກອບ / ຫົວໜ່ວຍ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_component_cost
+msgid "Component cost per unit produced (in product UoM) of manufacturing order"
+msgstr ""
+"ຕົ້ນທຶນສ່ວນປະກອບຕໍ່ຫົວໜ່ວຍທີ່ຜະລິດໄດ້ (ໃນຫົວໜ່ວຍວັດແທກສິນຄ້າ) ຂອງຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_cost
+msgid "Cost / Unit"
+msgstr "ຕົ້ນທຶນ / ຫົວໜ່ວຍ"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_mrp_production
+msgid "Cost Analysis"
+msgstr "ການວິເຄາະຕົ້ນທຶນ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost Analysis Report"
+msgstr "ລາຍງານການວິເຄາະຕົ້ນທຶນ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost Breakdown of Products"
+msgstr "ລາຍລະອຽດຕົ້ນທຶນຂອງສິນຄ້າ"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_product_template
+msgid "Cost Structure Analysis"
+msgstr "ການວິເຄາະໂຄງສ້າງຕົ້ນທຶນ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Components"
+msgstr "ຕົ້ນທຶນຂອງສ່ວນປະກອບ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Components per unit (in"
+msgstr "ຕົ້ນທຶນຂອງສ່ວນປະກອບຕໍ່ຫົວໜ່ວຍ (ໃນ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Operations"
+msgstr "ຕົ້ນທຶນຂອງການດຳເນີນງານ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Operations per unit (in"
+msgstr "ຕົ້ນທຶນຂອງການດຳເນີນງານຕໍ່ຫົວໜ່ວຍ (ໃນ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Scraps"
+msgstr "ຕົ້ນທຶນຂອງເສດວັດສະດຸ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_cost
+msgid "Cost per unit produced (in product UoM) of manufacturing order"
+msgstr "ຕົ້ນທຶນຕໍ່ຫົວໜ່ວຍທີ່ຜະລິດໄດ້ (ໃນຫົວໜ່ວຍວັດແທກສິນຄ້າ) ຂອງຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:account.analytic.account,name:mrp_account_enterprise.account_assembly_cycle
+msgid "Costing Account For Cycle of Assembly."
+msgstr "ບັນຊີຕົ້ນທຶນສຳລັບຮອບວຽນການປະກອບ."
+
+#. module: mrp_account_enterprise
+#: model:account.analytic.account,name:mrp_account_enterprise.account_assembly_hours
+msgid "Costing Account For Hours of Assembly."
+msgstr "ບັນຊີຕົ້ນທຶນສຳລັບຊົ່ວໂມງການປະກອບ."
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__currency_id
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_duration
+msgid "Duration of Operations / Unit"
+msgstr "ໄລຍະເວລາການດຳເນີນງານ / ຫົວໜ່ວຍ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__date_finished
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "End Date"
+msgstr "ວັນທີສິ້ນສຸດ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "Group by"
+msgstr "ຈັດກຸ່ມໂດຍ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_report_mrp_account_enterprise_mrp_cost_structure
+msgid "MRP Cost Structure Report"
+msgstr "ລາຍງານໂຄງສ້າງຕົ້ນທຶນ MRP"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__production_id
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "Manufacturing Order"
+msgstr "ຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_mrp_report
+msgid "Manufacturing Report"
+msgstr "ລາຍງານການຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.actions.act_window,help:mrp_account_enterprise.mrp_report_dashboard_action
+msgid "No data yet!"
+msgstr "ຍັງບໍ່ມີຂໍ້ມູນ!"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_operation_cost
+msgid "Operation cost per unit produced (in product UoM) of manufacturing order"
+msgstr ""
+"ຕົ້ນທຶນການດຳເນີນງານຕໍ່ຫົວໜ່ວຍທີ່ຜະລິດໄດ້ (ໃນຫົວໜ່ວຍວັດແທກສິນຄ້າ) ຂອງຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_duration
+msgid "Operation duration (minutes) per unit produced of manufacturing order"
+msgstr "ໄລຍະເວລາການດຳເນີນງານ (ນາທີ) ຕໍ່ຫົວໜ່ວຍທີ່ຜະລິດໄດ້ຂອງຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Order Overview"
+msgstr "ພາບລວມຂອງຄຳສັ່ງ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_product_template
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__product_id
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "Product"
+msgstr "ສິນຄ້າ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_report_mrp_account_enterprise_product_template_cost_structure
+msgid "Product Template Cost Structure Report"
+msgstr "ລາຍງານໂຄງສ້າງຕົ້ນທຶນແມ່ແບບສິນຄ້າ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_product_product
+msgid "Product Variant"
+msgstr "ລຸ້ນສິນຄ້າ"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.act_window,name:mrp_account_enterprise.mrp_report_dashboard_action
+#: model:ir.ui.menu,name:mrp_account_enterprise.mrp_dashboard_menuitem
+msgid "Production Analysis"
+msgstr "ການວິເຄາະການຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__qty_produced
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Quantity Produced"
+msgstr "ຈຳນວນທີ່ຜະລິດໄດ້"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Some of the Manufacturing Order(s) selected are not done yet"
+msgstr "ບາງຄຳສັ່ງຜະລິດທີ່ເລືອກໄວ້ຍັງບໍ່ທັນສຳເລັດເທື່ອ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__component_cost
+msgid "Total Component Cost"
+msgstr "ຕົ້ນທຶນສ່ວນປະກອບລວມ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__total_cost
+msgid "Total Cost"
+msgstr "ຕົ້ນທຶນລວມ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Total Cost per unit (in"
+msgstr "ຕົ້ນທຶນລວມຕໍ່ຫົວໜ່ວຍ (ໃນ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__duration
+msgid "Total Duration of Operations"
+msgstr "ໄລຍະເວລາການດຳເນີນງານລວມ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__operation_cost
+msgid "Total Operation Cost"
+msgstr "ຕົ້ນທຶນການດຳເນີນງານລວມ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_operation_cost
+msgid "Total Operation Cost / Unit"
+msgstr "ຕົ້ນທຶນການດຳເນີນງານລວມ / ຫົວໜ່ວຍ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__component_cost
+msgid "Total cost of components for manufacturing order"
+msgstr "ຕົ້ນທຶນລວມຂອງສ່ວນປະກອບສຳລັບຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__total_cost
+msgid "Total cost of manufacturing order (component + operation costs + subcontracting cost)"
+msgstr ""
+"ຕົ້ນທຶນລວມຂອງຄຳສັ່ງຜະລິດ (ສ່ວນປະກອບ + ຕົ້ນທຶນການດຳເນີນງານ + ຕົ້ນທຶນການຈ້າງນອກ)"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__operation_cost
+msgid "Total cost of operations for manufacturing order"
+msgstr "ຕົ້ນທຶນລວມຂອງການດຳເນີນງານສຳລັບຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__duration
+msgid "Total duration (minutes) of operations for manufacturing order"
+msgstr "ໄລຍະເວລາລວມ (ນາທີ) ຂອງການດຳເນີນງານສຳລັບຄຳສັ່ງຜະລິດ"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__qty_produced
+msgid "Total quantity produced in product's UoM"
+msgstr "ຈຳນວນລວມທີ່ຜະລິດໄດ້ ໃນຫົວໜ່ວຍວັດແທກຂອງສິນຄ້າ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "hours"
+msgstr "ຊົ່ວໂມງ"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "manufacturing order(s)."
+msgstr "ຄຳສັ່ງຜະລິດ."

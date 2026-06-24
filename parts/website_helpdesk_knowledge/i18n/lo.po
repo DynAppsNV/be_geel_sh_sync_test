@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_helpdesk_knowledge
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 18:48+0000\n"
+"PO-Revision-Date: 2026-06-11 17:59+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"website_helpdesk_knowledge/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: website_helpdesk_knowledge
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_knowledge.search_result
+#, fuzzy
+msgid ", by"
+msgstr ", ໂດຍ"
+
+#. module: website_helpdesk_knowledge
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_knowledge.search_result
+#, fuzzy
+msgid "<i class=\"fa fa-fw fa-2x fa-book\" title=\"Knowledge Article\"/>"
+msgstr "<i class=\"fa fa-fw fa-2x fa-book\" title=\"ບົດຄວາມຄວາມຮູ້\"/>"
+
+#. module: website_helpdesk_knowledge
+#: model:ir.model.fields,field_description:website_helpdesk_knowledge.field_helpdesk_team__website_article_id
+#, fuzzy
+msgid "Article"
+msgstr "ບົດຄວາມ"
+
+#. module: website_helpdesk_knowledge
+#: model:ir.model.fields,help:website_helpdesk_knowledge.field_helpdesk_team__website_article_id
+#, fuzzy
+msgid ""
+"Article on which customers will land by default. The search is limited to "
+"this article, unless it is the workspace root, in which case all child "
+"articles are included."
+msgstr ""
+"ບົດຄວາມທີ່ລູກຄ້າຈະເຂົ້າເຖິງໂດຍຄ່າເລີ່ມຕົ້ນ. ການຄົ້ນຫາແມ່ນຖືກຈຳກັດຢູ່ພາຍໃນບົດຄວາມນີ້, ເວັ້ນເສຍແຕ່ວ່າມັນຈະເ"
+"ປັນຮາກຂອງພື້ນທີ່ເຮັດວຽກ, ເຊິ່ງໃນກໍລະນີນັ້ນ ຈະລວມເອົາບົດຄວາມຍ່ອຍທັງໝົດນຳ."
+
+#. module: website_helpdesk_knowledge
+#. odoo-python
+#: code:addons/website_helpdesk_knowledge/models/helpdesk.py:0
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_knowledge.knowledge_base_articles_card
+#, fuzzy
+msgid "Articles"
+msgstr "ບົດຄວາມ"
+
+#. module: website_helpdesk_knowledge
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_knowledge.knowledge_base_articles_card
+#, fuzzy
+msgid "Browse articles"
+msgstr "ເບິ່ງບົດຄວາມ"
+
+#. module: website_helpdesk_knowledge
+#: model:ir.model.fields,field_description:website_helpdesk_knowledge.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:website_helpdesk_knowledge.field_knowledge_article__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: website_helpdesk_knowledge
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_knowledge.knowledge_base_articles_card
+#, fuzzy
+msgid "Favorites"
+msgstr "ລາຍການທີ່ມັກ"
+
+#. module: website_helpdesk_knowledge
+#: model:ir.model,name:website_helpdesk_knowledge.model_helpdesk_team
+#, fuzzy
+msgid "Helpdesk Team"
+msgstr "ທີມງານຊ່ວຍເຫຼືອ"
+
+#. module: website_helpdesk_knowledge
+#: model:ir.model.fields,field_description:website_helpdesk_knowledge.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:website_helpdesk_knowledge.field_knowledge_article__id
+#, fuzzy
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: website_helpdesk_knowledge
+#: model:ir.model,name:website_helpdesk_knowledge.model_knowledge_article
+#, fuzzy
+msgid "Knowledge Article"
+msgstr "ບົດຄວາມຄວາມຮູ້"
+
+#. module: website_helpdesk_knowledge
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_knowledge.knowledge_base_articles_card
+#, fuzzy
+msgid "Quick Links"
+msgstr "ລິ້ງດ່ວນ"
+
+#. module: website_helpdesk_knowledge
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_knowledge.knowledge_base_articles_card
+#, fuzzy
+msgid "Search our documentation for answers to common questions"
+msgstr "ຄົ້ນຫາເອກະສານຂອງພວກເຮົາເພື່ອຫາຄຳຕອບສຳລັບຄຳຖາມທີ່ພົບເລື້ອຍ"
+
+#. module: website_helpdesk_knowledge
+#. odoo-python
+#: code:addons/website_helpdesk_knowledge/models/knowledge_article.py:0
+#, fuzzy
+msgid ""
+"You cannot delete, unpublish or set a parent on an article that is used by a"
+" helpdesk team."
+msgstr ""
+"ທ່ານບໍ່ສາມາດລຶບ, ຍົກເລີກການເຜີຍແຜ່ ຫຼື ກຳນົດບົດຄວາມຫຼັກໃຫ້ກັບບົດຄວາມທີ່ຖືກນຳໃຊ້ໂດຍທີມງານ Helpdesk ໄ"
+"ດ້."

@@ -1,0 +1,386 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_appointment
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "<span> hours</span>"
+msgstr "<span> soat</span>"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "<span>people</span>"
+msgstr "<span>kishi</span>"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_gantt_booking_resource
+#, fuzzy
+msgid "<strong>Duration: </strong>"
+msgstr "<strong>Davomiyligi: </strong>"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_gantt_booking_resource
+#, fuzzy
+msgid "<strong>Phone: </strong>"
+msgstr "<strong>Telefon: </strong>"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_gantt_booking_resource
+#, fuzzy
+msgid "<strong>Start Date: </strong>"
+msgstr "<strong>Boshlanish sanasi: </strong>"
+
+#. module: pos_appointment
+#: model:ir.model.fields,field_description:pos_appointment.field_calendar_event__appointment_status
+#, fuzzy
+msgid "Appointment Status"
+msgstr "Uchrashuv holati"
+
+#. module: pos_appointment
+#: model:ir.model,name:pos_appointment.model_appointment_type
+#: model:ir.model.fields,field_description:pos_appointment.field_pos_config__appointment_type_id
+#: model:ir.model.fields,field_description:pos_appointment.field_res_config_settings__pos_appointment_type_id
+#, fuzzy
+msgid "Appointment Type"
+msgstr "Uchrashuv turi"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.res_config_settings_view_form
+#, fuzzy
+msgid "Appointment type"
+msgstr "Uchrashuv turi"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/gantt_overrides/gantt_renderer.js:0
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.js:0
+#, fuzzy
+msgid "Booked"
+msgstr "Band qilingan"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/components/navbar/navbar.xml:0
+#, fuzzy
+msgid "Booking"
+msgstr "Bron qilish"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_gantt_booking_resource
+#, fuzzy
+msgid "Booking Details"
+msgstr "Bron tafsilotlari"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Booking Name"
+msgstr "Bron nomi"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_graph_pos_appointment
+#, fuzzy
+msgid "Bookings"
+msgstr "Bronlar"
+
+#. module: pos_appointment
+#: model:ir.model,name:pos_appointment.model_calendar_event
+#, fuzzy
+msgid "Calendar Event"
+msgstr "Taqvim tadbiri"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/gantt_overrides/gantt_renderer.js:0
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.js:0
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_kanban
+#, fuzzy
+msgid "Check In"
+msgstr "Ro‘yxatdan o‘tish"
+
+#. module: pos_appointment
+#: model:ir.model,name:pos_appointment.model_res_config_settings
+#, fuzzy
+msgid "Config Settings"
+msgstr "Sozlamalarni moslashtirish"
+
+#. module: pos_appointment
+#. odoo-python
+#: code:addons/pos_appointment/models/calendar_event.py:0
+#, fuzzy
+msgid "Create Booking"
+msgstr "Bron yaratish"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Date"
+msgstr "Sana"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/gantt_overrides/gantt_renderer.js:0
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.js:0
+#, fuzzy
+msgid "Delete"
+msgstr "O‘chirish"
+
+#. module: pos_appointment
+#: model:ir.model.fields,field_description:pos_appointment.field_appointment_type__display_name
+#: model:ir.model.fields,field_description:pos_appointment.field_calendar_event__display_name
+#: model:ir.model.fields,field_description:pos_appointment.field_ir_ui_view__display_name
+#: model:ir.model.fields,field_description:pos_appointment.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_appointment.field_pos_session__display_name
+#: model:ir.model.fields,field_description:pos_appointment.field_res_config_settings__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Duration"
+msgstr "Davomiyligi"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.xml:0
+#, fuzzy
+msgid "Duration:"
+msgstr "Davomiyligi:"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/gantt_overrides/gantt_renderer.js:0
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.xml:0
+#, fuzzy
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#. module: pos_appointment
+#. odoo-python
+#: code:addons/pos_appointment/models/calendar_event.py:0
+#, fuzzy
+msgid "Edit Booking"
+msgstr "Bronni tahrirlash"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_controller.xml:0
+#, fuzzy
+msgid "Evening: 5:00 PM - 12:00 AM"
+msgstr "Kechki: 17:00 - 00:00"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_gantt_booking_resource
+#, fuzzy
+msgid "Event Details"
+msgstr "Tadbir tafsilotlari"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Extra Comments..."
+msgstr "Qo‘shimcha izohlar..."
+
+#. module: pos_appointment
+#: model:ir.model.fields,field_description:pos_appointment.field_appointment_type__id
+#: model:ir.model.fields,field_description:pos_appointment.field_calendar_event__id
+#: model:ir.model.fields,field_description:pos_appointment.field_ir_ui_view__id
+#: model:ir.model.fields,field_description:pos_appointment.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_appointment.field_pos_session__id
+#: model:ir.model.fields,field_description:pos_appointment.field_res_config_settings__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_controller.xml:0
+#, fuzzy
+msgid "Lunch: 11:00 AM - 5:00 PM"
+msgstr "Tushlik: 11:00 - 17:00"
+
+#. module: pos_appointment
+#. odoo-python
+#: code:addons/pos_appointment/models/calendar_event.py:0
+#, fuzzy
+msgid "Manage Bookings"
+msgstr "Bronlarni boshqarish"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_controller.xml:0
+#, fuzzy
+msgid "Morning: 12:00 AM - 11:00 AM"
+msgstr "Ertalabki: 00:00 - 11:00"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/gantt_overrides/gantt_renderer.js:0
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.js:0
+#, fuzzy
+msgid "No Show"
+msgstr "Kelmadi"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_kanban
+#, fuzzy
+msgid "No show"
+msgstr "Kelmagan"
+
+#. module: pos_appointment
+#: model:ir.model.fields,field_description:pos_appointment.field_calendar_event__phone_number
+#, fuzzy
+msgid "Phone number"
+msgstr "Telefon raqami"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.xml:0
+#, fuzzy
+msgid "Phone:"
+msgstr "Telefon:"
+
+#. module: pos_appointment
+#: model:ir.model,name:pos_appointment.model_pos_config
+#, fuzzy
+msgid "Point of Sale Configuration"
+msgstr "Sotuv nuqtasi sozlamalari"
+
+#. module: pos_appointment
+#: model:ir.model,name:pos_appointment.model_pos_session
+#, fuzzy
+msgid "Point of Sale Session"
+msgstr "Sotuv nuqtasi sessiyasi"
+
+#. module: pos_appointment
+#: model:ir.model.fields,field_description:pos_appointment.field_calendar_event__answers
+#, fuzzy
+msgid "Q&A answers"
+msgstr "Savol-javoblar"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Reservation for"
+msgstr "Uchun bron"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Resources"
+msgstr "Resurslar"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_controller.xml:0
+#, fuzzy
+msgid "Select Date"
+msgstr "Sanani tanlang"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "Select Resources"
+msgstr "Resurslarni tanlang"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_controller.xml:0
+#, fuzzy
+msgid "Select hour"
+msgstr "Soatni tanlang"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.xml:0
+#, fuzzy
+msgid "Start Date:"
+msgstr "Boshlanish sanasi:"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/gantt_overrides/gantt_renderer.xml:0
+#, fuzzy
+msgid "Unassigned"
+msgstr "Tayinlanmagan"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/gantt_overrides/gantt_renderer.js:0
+#: model:ir.model,name:pos_appointment.model_ir_ui_view
+#, fuzzy
+msgid "View"
+msgstr "Ko‘rish"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_kanban
+#, fuzzy
+msgid "Waiting"
+msgstr "Kutilmoqda"
+
+#. module: pos_appointment
+#: model:ir.model.fields,field_description:pos_appointment.field_calendar_event__waiting_list_capacity
+#, fuzzy
+msgid "Waiting List Capacity"
+msgstr "Kutish ro‘yxati sig‘imi"
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_form_gantt_booking
+#, fuzzy
+msgid "e.g. \"John Doe\""
+msgstr "Masalan, \"Jon Doe\""
+
+#. module: pos_appointment
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_gantt_booking_resource
+msgid "for:"
+msgstr ""
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_record.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_gantt_booking_resource
+#, fuzzy
+msgid "hours"
+msgstr "soat davomida"
+
+#. module: pos_appointment
+#. odoo-javascript
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_controller.xml:0
+#: code:addons/pos_appointment/static/src/app/kanban_extend/kanban_header.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_appointment.calendar_event_view_kanban
+msgid "p"
+msgstr ""

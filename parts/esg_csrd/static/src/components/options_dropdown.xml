@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="esg_csrd.OptionsDropdown" t-inherit="knowledge.OptionsDropdown" t-inherit-mode="extension">
+        <xpath expr="//DropdownItem[@onSelected.bind='exportAuditReportToPDF']" position="after">
+            <DropdownItem t-if="props.record.data.inherited_esg_report_id?.records.length" onSelected.bind="exportAuditReportToPDF">
+                <i class="fa fa-fw fa-lg fa-file-pdf-o me-2"/>Download ESG Report
+            </DropdownItem>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_report_intrastat_code_form" model="ir.ui.view">
+        <field name="name">account.intrastat.code.form.inherit.xx_intrastat</field>
+        <field name="model">account.intrastat.code</field>
+        <field
+            name="inherit_id"
+            ref="account_intrastat.view_report_intrastat_code_form"
+        />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='description']" position="after">
+                <field name="xx_default_transport" />
+                <field name="xx_default_transaction" />
+            </xpath>
+        </field>
+    </record>
+</odoo>

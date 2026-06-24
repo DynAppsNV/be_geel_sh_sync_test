@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_be_pos_blackbox.pos_session_reports_list_view" model="ir.ui.view">
+        <field name="name">pos.session.list.view</field>
+        <field name="model">pos.session</field>
+        <field name="arch" type="xml">
+            <list string="Point of Sale Session" create="0">
+                <field name="currency_id" column_invisible="True"/>  <!-- Monetary field -->
+                <field name="name" decoration-bf="1"/>
+                <field name="start_at" />
+                <field name="stop_at" />
+                <field name="cash_register_balance_start"/>
+                <field name="cash_register_balance_end_real"/>
+                <field name="state" widget="badge" decoration-info="state in ('opening_control')" decoration-success="state in ('opened', 'closed')" decoration-warning="state == 'closing_control'" />
+            </list>
+        </field>
+    </record>
+</odoo>

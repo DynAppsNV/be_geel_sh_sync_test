@@ -1,0 +1,91 @@
+{
+  "data": {
+    "language": "NL",
+    "vatNo": "BE0000000097",
+    "estNo": "2000000042",
+    "posId": "CPOS0031234567",
+    "posFiscalTicketNo": 5000,
+    "posDateTime": "2024-09-02T09:20:23+02:00",
+    "posSwVersion": "1.8.3",
+    "deviceId": "1631678d-7a85-4ac3-b296-bb4565e873fe",
+    "terminalId": "TER-2-DIN",
+    "bookingPeriodId": "defcd829-a0e5-41ca-a0ae-9eb887f95637",
+    "bookingDate": "2024-09-02",
+    "ticketMedium": "PAPER",
+    "employeeId": "84022899837",
+    "transaction": {
+      "transactionLines": [
+        {
+          "lineType": "SINGLE_PRODUCT",
+          "mainProduct": {
+            "productId": "20001",
+            "productName": "Carpaccio Beef",
+            "departmentId": "20",
+            "departmentName": "Starters",
+            "quantity": 2,
+            "quantityType": "PIECE",
+            "unitPrice": 20,
+            "vats": [
+              {
+                "label": "B",
+                "price": 40,
+                "priceChanges": [
+                  {
+                    "id": "10",
+                    "name": "Discount50P",
+                    "scope": "EVENT",
+                    "type": "PUBLIC",
+                    "amount": -20,
+                    "groupingId": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "lineTotal": 20
+        },
+        {
+          "lineType": "SINGLE_PRODUCT",
+          "mainProduct": {
+            "productId": "10006",
+            "productName": "Dry Martini",
+            "departmentId": "10",
+            "departmentName": "Aperitifs",
+            "quantity": 1,
+            "quantityType": "PIECE",
+            "unitPrice": 12,
+            "vats": [
+              {
+                "label": "A",
+                "price": 12,
+                "priceChanges": [
+                  {
+                    "id": "10",
+                    "name": "Discount50P",
+                    "scope": "EVENT",
+                    "type": "PUBLIC",
+                    "amount": -6,
+                    "groupingId": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "lineTotal": 6
+        }
+      ],
+      "transactionTotal": 26
+    },
+    "financials": [
+      {
+        "id": "15",
+        "name": "BANCONTACT",
+        "type": "CARD_DEBIT",
+        "inputMethod": "AUTOMATIC",
+        "provider": "VISA",
+        "amount": 26,
+        "amountType": "PAYMENT"
+      }
+    ]
+  }
+}

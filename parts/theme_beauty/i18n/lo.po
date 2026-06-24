@@ -1,0 +1,820 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * theme_beauty
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-17 17:38+0000\n"
+"PO-Revision-Date: 2026-06-06 20:17+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/theme_beauty/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_quotes_carousel_minimal
+msgid ""
+"\" A trusted partner for beauty. <br/>Innovative, reliable, and always "
+"setting new trends. \""
+msgstr ""
+"\" ຄູ່ຮ່ວມງານທີ່ເຊື່ອຖືໄດ້ສຳລັບຄວາມງາມ. <br/>ມີນະວັດຕະກຳ, ເຊື່ອຖືໄດ້ ແລະ ສ້າງເທຣນໃໝ່ໆຢູ່ສະເໝີ. \""
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_quotes_carousel_minimal
+msgid ""
+"\" Outstanding results and service! <br/>They consistently elevate our "
+"beauty routine. \""
+msgstr ""
+"\" ຜົນລັບ ແລະ ການບໍລິການທີ່ດີເລີດ! <br/"
+">ພວກເຂົາຊ່ວຍຍົກລະດັບການເບິ່ງແຍງຄວາມງາມຂອງພວກເຮົາຢ່າງຕໍ່ເນື່ອງ. \""
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_quotes_carousel_minimal
+msgid ""
+"\" Their products transformed our look. Effective, high-quality, and "
+"luxurious. \""
+msgstr ""
+"\" ຜະລິດຕະພັນຂອງພວກເຂົາໄດ້ປ່ຽນໂສມໜ້າຂອງພວກເຮົາ. ມີປະສິດທິພາບ, ຄຸນນະພາບສູງ ແລະ ຫຼູຫຼາ. \""
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_text_image
+msgid ""
+"<br/>\n"
+"        Escape from everyday busy reality and treat your body with intensive "
+"care. Beauty and health go hand in hand. Take time to slow down in our "
+"relaxing spa, and everything you’re chasing will come around."
+msgstr ""
+"<br/>\n"
+"        ຫຼົບໜີຈາກຄວາມວຸ່ນວາຍໃນຊີວິດປະຈຳວັນ ແລະ ໃຫ້ຮ່າງກາຍຂອງທ່ານໄດ້ຮັບການບຳລຸງຢ່າງລ້ຳລຶກ. "
+"ຄວາມງາມ ແລະ ສຸຂະພາບຕ້ອງໄປຄຽງຄູ່ກັນ. ໃຊ້ເວລາເພື່ອຜ່ອນຄາຍໃນສະປາຂອງພວກເຮົາ, "
+"ແລ້ວທຸກຢ່າງທີ່ທ່ານກຳລັງຊອກຫາຈະຕາມມາເອງ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_text_cover
+msgid ""
+"<br/>Showcase and manage your cosmetics line online with a user-friendly "
+"platform that simplifies all the steps, from setup to product display, "
+"making it easy to highlight your beauty products.<br/>"
+msgstr ""
+"<br/>ສະແດງ ແລະ ຈັດການກຸ່ມຜະລິດຕະພັນເຄື່ອງສຳອາງຂອງທ່ານທາງອອນລາຍ ດ້ວຍແພລັດຟອມທີ່ໃຊ້ງານງ່າຍ "
+"ເຊິ່ງຊ່ວຍໃຫ້ທຸກຂັ້ນຕອນງ່າຍຂຶ້ນ ຕັ້ງແຕ່ການຕັ້ງຄ່າໄປຈົນເຖິງການສະແດງສິນຄ້າ "
+"ເຮັດໃຫ້ການເນັ້ນຜະລິດຕະພັນຄວາມງາມຂອງທ່ານເປັນເລື່ອງງ່າຍ.<br/>"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_split_intro
+msgid ""
+"<br/>Step into a new era with our advanced products designed to enhance your "
+"unique beauty. From improving your skincare to achieving flawless results, "
+"our solutions provide the foundation for radiant success. Don’t let outdated "
+"routines hold you back any longer.<br/><br/>"
+msgstr ""
+"<br/>ກ້າວເຂົ້າສູ່ຍຸກໃໝ່ດ້ວຍຜະລິດຕະພັນທີ່ທັນສະໄໝ "
+"ເຊິ່ງຖືກອອກແບບມາເພື່ອເສີມສ້າງຄວາມງາມທີ່ເປັນເອກະລັກຂອງທ່ານ. "
+"ຕັ້ງແຕ່ການປັບປຸງການບຳລຸງຜິວໄປຈົນເຖິງຜົນລັບທີ່ສົມບູນແບບ, "
+"ວິທີການຂອງພວກເຮົາຈະເປັນພື້ນຖານສຳລັບຄວາມສຳເລັດທີ່ເປັ່ງປັ່ງ. "
+"ຢ່າປ່ອຍໃຫ້ວິທີການແບບເກົ່າໆມາໜ່ວງດຶງທ່ານໄວ້ອີກຕໍ່ໄປ.<br/><br/>"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_empowerment
+msgid ""
+"<br/>Unleashing beauty with elegance and style, from runway to everyday<br/"
+"><br/>"
+msgstr ""
+"<br/>ປົດປ່ອຍຄວາມງາມດ້ວຍຄວາມສະຫງ່າງາມ ແລະ ມີສະໄຕລ໌, ຕັ້ງແຕ່ເທິງເວທີແຟຊັນຈົນເຖິງຊີວິດປະຈຳວັນ<br/"
+"><br/>"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_big_number
+msgid "<font style=\"color: var(--o-color-1)\">200+</font>"
+msgstr "<font style=\"color: var(--o-color-1)\">200+</font>"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_empowerment
+msgid ""
+"<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/>  Top "
+"Beauty Picks"
+msgstr ""
+"<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/"
+">  ສິນຄ້າຄວາມງາມຍອດນິຍົມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_image_title
+msgid "A Deep Dive into Beauty and Innovation"
+msgstr "ເຈາະເລິກເລື່ອງຄວາມງາມ ແລະ ນະວັດຕະກຳ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid ""
+"A lightweight, long-lasting foundation that provides full coverage while "
+"allowing your skin to breathe."
+msgstr ""
+"ຮອງພື້ນເນື້ອບາງເບົາ, ຕິດທົນດົນ ທີ່ໃຫ້ການປົກປິດຢ່າງເຕັມທີ່ ໃນຂະນະທີ່ຍັງປ່ອຍໃຫ້ຜິວຂອງທ່ານໄດ້ຫາຍໃຈ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid ""
+"A rejuvenating facial treatment designed to reduce wrinkles and fine lines, "
+"leaving your skin looking fresh and youthful."
+msgstr ""
+"ການບຳລຸງຜິວໜ້າເພື່ອຟື້ນຟູຄວາມອ່ອນເຍົາ ທີ່ຖືກອອກແບບມາເພື່ອຫຼຸດຜ່ອນຮອຍຫ່ຽວຢັ້ງ ແລະ ຮອຍແປ້ວ, "
+"ເຮັດໃຫ້ຜິວຂອງທ່ານເບິ່ງສົດຊື່ນ ແລະ ອ່ອນກວ່າໄວ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid ""
+"A revitalizing facial that uses vitamin C and natural extracts to enhance "
+"radiance and even out skin tone."
+msgstr ""
+"ການເຮັດທຣີດເມັ້ນໜ້າເພື່ອຄວາມສົດຊື່ນ ໂດຍໃຊ້ວິຕາມິນຊີ ແລະ ສານສະກັດຈາກທຳມະຊາດ ເພື່ອເສີມຄວາມເປັ່ງປັ່ງ "
+"ແລະ ປັບສີຜິວໃຫ້ສະໝ່ຳສະເໝີ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid "Advanced Beauty Treatments"
+msgstr "ການບຳລຸງຄວາມງາມຂັ້ນສູງ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_company_team
+msgid "Aline"
+msgstr "ອາລີນ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "Anti-Aging Facial"
+msgstr "ການບຳລຸງຜິວໜ້າລົບລ້າງຮອຍຫ່ຽວຢັ້ງ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_quadrant
+msgid "Beauty &amp; Care"
+msgstr "ຄວາມງາມ &amp; ການເບິ່ງແຍງ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_unveil
+msgid "Beauty Redefined"
+msgstr "ນິຍາມໃໝ່ຂອງຄວາມງາມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_striped_center_top
+msgid "Beauty perfected with care"
+msgstr "ຄວາມງາມທີ່ສົມບູນແບບດ້ວຍການໃສ່ໃຈ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_call_to_action
+msgid "Beauty without <br/>expression is boring"
+msgstr "ຄວາມງາມທີ່ປັດສະຈາກ <br/>ການສະແດງອອກແມ່ນເປັນຕາເບື່ອ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_empowerment
+msgid "Book a session"
+msgstr "ຈອງຄິວ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "Brightening Facial"
+msgstr "ການບຳລຸງຜິວໜ້າໃຫ້ຂາວໃສ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_title
+msgid ""
+"Close your eyes and let yourself go in the expert hands of our beauticians."
+msgstr "ຫຼັບຕາລົງ ແລະ ປ່ອຍຕົວໄປກັບມືທີ່ຊ່ຽວຊານຂອງຊ່າງເສີມສວຍຂອງພວກເຮົາ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_intro_pill
+msgid "Confidence and<br/>Timeless Elegance"
+msgstr "ຄວາມໝັ້ນໃຈ ແລະ <br/>ຄວາມສະຫງ່າງາມທີ່ຢູ່ໜື່ອກາລະເວລາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_benefits
+msgid "Custom Beauty Solutions"
+msgstr "ວິທີການບຳລຸງຄວາມງາມແບບສະເພາະຕົວ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid ""
+"Deeply hydrating facial treatment that restores moisture and balances your "
+"skin, perfect for dry or sensitive skin types."
+msgstr ""
+"ການບຳລຸງຜິວໜ້າດ້ວຍການເຕີມຄວາມຊຸ່ມຊື່ນຢ່າງລ້ຳລຶກ ເຊິ່ງຊ່ວຍຟື້ນຟູຄວາມຊຸ່ມຊື່ນ ແລະ ປັບສົມດຸນຂອງຜິວ, "
+"ເໝາະສຳລັບຜິວແຫ້ງ ຫຼື ຜິວທີ່ບອບບາງ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_quadrant
+msgid "Discover Beauty"
+msgstr "ຄົ້ນພົບຄວາມງາມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid ""
+"Discover our exclusive range of high-quality beauty products, crafted with "
+"natural ingredients to enhance your skin's radiance and health."
+msgstr ""
+"ຄົ້ນພົບກຸ່ມຜະລິດຕະພັນຄວາມງາມຄຸນນະພາບສູງສຸດພິເສດຂອງພວກເຮົາ, "
+"ທີ່ຜະລິດດ້ວຍສ່ວນປະສົມຈາກທຳມະຊາດເພື່ອເສີມຄວາມເປັ່ງປັ່ງ ແລະ ສຸຂະພາບຜິວຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cta_box
+msgid "Discover our large<br/>choice of cosmetics !"
+msgstr "ຄົ້ນພົບເຄື່ອງສຳອາງ <br/>ທີ່ມີໃຫ້ເລືອກຫຼາກຫຼາຍຂອງພວກເຮົາ!"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_images_mosaic
+msgid "Discover our latest cosmetic products for radiant and flawless looks."
+msgstr "ຄົ້ນພົບຜະລິດຕະພັນເຄື່ອງສຳອາງໃໝ່ລ້າສຸດຂອງພວກເຮົາ ເພື່ອຄວາມເປັ່ງປັ່ງ ແລະ ຄວາມງາມທີ່ສົມບູນແບບ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_intro_pill
+msgid "Discover our products"
+msgstr "ຄົ້ນພົບຜະລິດຕະພັນຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_freegrid
+msgid ""
+"Discover our range of beauty products designed to bring out the best in you. "
+"From skincare to cosmetics, we offer everything you need to look and feel "
+"your best."
+msgstr ""
+"ຄົ້ນພົບກຸ່ມຜະລິດຕະພັນຄວາມງາມຂອງພວກເຮົາທີ່ຖືກອອກແບບມາເພື່ອດຶງເອົາສິ່ງທີ່ດີທີ່ສຸດໃນຕົວທ່ານອອກມາ. "
+"ຕັ້ງແຕ່ການບຳລຸງຜິວໄປຈົນເຖິງເຄື່ອງສຳອາງ, ພວກເຮົາສະເໜີທຸກຢ່າງທີ່ທ່ານຕ້ອງການເພື່ອໃຫ້ເບິ່ງດີ ແລະ "
+"ຮູ້ສຶກດີທີ່ສຸດ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_shape_image
+msgid ""
+"Discover our range of high-quality cosmetics designed to enhance your "
+"beauty. From skincare essentials to makeup must-haves, our products are "
+"crafted to meet your needs and exceed your expectations."
+msgstr ""
+"ຄົ້ນພົບກຸ່ມເຄື່ອງສຳອາງຄຸນນະພາບສູງຂອງພວກເຮົາທີ່ຖືກອອກແບບມາເພື່ອເສີມສ້າງຄວາມງາມຂອງທ່ານ. "
+"ຕັ້ງແຕ່ສິ່ງຈຳເປັນໃນການບຳລຸງຜິວໄປຈົນເຖິງເຄື່ອງແຕ່ງໜ້າທີ່ຕ້ອງມີ, "
+"ຜະລິດຕະພັນຂອງພວກເຮົາຖືກສ້າງຂຶ້ນເພື່ອຕອບສະໜອງຄວາມຕ້ອງການ ແລະ ເກີນຄວາມຄາດຫວັງຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_images
+msgid "Discover the Beauty Within You"
+msgstr "ຄົ້ນພົບຄວາມງາມທີ່ຢູ່ພາຍໃນຕົວທ່ານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_striped_top
+msgid "Discover the Ultimate Beauty with Top Cosmetics"
+msgstr "ຄົ້ນພົບຄວາມງາມຂັ້ນສູງສຸດດ້ວຍເຄື່ອງສຳອາງຊັ້ນນຳ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_card_offset
+msgid "Discover the beauty within you."
+msgstr "ຄົ້ນພົບຄວາມງາມທີ່ຢູ່ພາຍໃນຕົວທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_images
+msgid "Discover vibrant colors that inspire confidence"
+msgstr "ຄົ້ນພົບສີສັນທີ່ສົດໃສ ເຊິ່ງສ້າງແຮງບັນດານໃຈໃຫ້ກັບຄວາມໝັ້ນໃຈ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_carousel_intro
+msgid "Discover your glow"
+msgstr "ຄົ້ນພົບຄວາມເປັ່ງປັ່ງຂອງທ່ານ"
+
+#. module: theme_beauty
+#: model:ir.model.fields,field_description:theme_beauty.field_theme_utils__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_striped_center_top
+msgid "Embrace Your Genuine Glow"
+msgstr "ເປີດຮັບຄວາມເປັ່ງປັ່ງທີ່ແທ້ຈິງຂອງທ່ານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_freegrid
+msgid "Enhance Your Natural Beauty with Our Products"
+msgstr "ເສີມສ້າງຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານດ້ວຍຜະລິດຕະພັນຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_images
+msgid "Enhance Your Natural Glow with Our Products"
+msgstr "ເສີມສ້າງຄວາມເປັ່ງປັ່ງຕາມທຳມະຊາດຂອງທ່ານດ້ວຍຜະລິດຕະພັນຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid ""
+"Enhance your natural beauty with our range of luxurious cosmetic services "
+"and products. Expertly crafted for every skin type and style."
+msgstr ""
+"ເສີມສ້າງຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານດ້ວຍການບໍລິການ ແລະ ຜະລິດຕະພັນເຄື່ອງສຳອາງທີ່ຫຼູຫຼາຂອງພວກເຮົາ. "
+"ຜະລິດຢ່າງຊ່ຽວຊານສຳລັບທຸກສະພາບຜິວ ແລະ ທຸກສະໄຕລ໌."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_card_offset
+msgid ""
+"Enhance your natural beauty with our range of skincare and cosmetic "
+"products. Our experts provide personalized care to help you look and feel "
+"your best every day."
+msgstr ""
+"ເສີມສ້າງຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານດ້ວຍກຸ່ມຜະລິດຕະພັນບຳລຸງຜິວ ແລະ ເຄື່ອງສຳອາງຂອງພວກເຮົາ. "
+"ຜູ້ຊ່ຽວຊານຂອງພວກເຮົາໃຫ້ການເບິ່ງແຍງແບບສະເພາະຕົວ ເພື່ອຊ່ວຍໃຫ້ທ່ານເບິ່ງດີ ແລະ ຮູ້ສຶກດີທີ່ສຸດໃນທຸກໆມື້."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_unveil
+msgid ""
+"Enhance your natural glow with our premium beauty products and expert "
+"services."
+msgstr ""
+"ເສີມສ້າງຄວາມເປັ່ງປັ່ງຕາມທຳມະຊາດຂອງທ່ານດ້ວຍຜະລິດຕະພັນຄວາມງາມລະດັບພຣີມຽມ ແລະ "
+"ການບໍລິການຈາກຜູ້ຊ່ຽວຊານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_carousel_intro
+msgid ""
+"Enhance your radiance and confidence with our carefully curated products "
+"that bring out your natural beauty, every day."
+msgstr ""
+"ເສີມສ້າງຄວາມເປັ່ງປັ່ງ ແລະ ຄວາມໝັ້ນໃຈຂອງທ່ານດ້ວຍຜະລິດຕະພັນທີ່ພວກເຮົາຄັດສັນມາຢ່າງລະມັດລະວັງ "
+"ເຊິ່ງຈະຊ່ວຍດຶງຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານອອກມາໃນທຸກໆມື້."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_benefits
+msgid ""
+"Enjoy access to special promotions and exclusive deals that elevate your "
+"beauty routine while offering great value."
+msgstr ""
+"ເພີດເພີນໄປກັບການເຂົ້າເຖິງໂປຣໂມຊັນພິເສດ ແລະ ຂໍ້ສະເໜີສຸດພິເສດ "
+"ທີ່ຈະຊ່ວຍຍົກລະດັບການບຳລຸງຄວາມງາມຂອງທ່ານ ໃນຂະນະທີ່ໃຫ້ຄວາມຄຸ້ມຄ່າຢ່າງຫຼວງຫຼາຍ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_product_list
+msgid "Essential oils"
+msgstr "ນ້ຳມັນຫອມລະເຫີຍ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_benefits
+msgid "Exclusive Cosmetics Offers"
+msgstr "ຂໍ້ສະເໜີເຄື່ອງສຳອາງສຸດພິເສດ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid ""
+"Experience cutting-edge beauty treatments, from innovative facial therapies "
+"to advanced body treatments, designed to enhance your natural beauty."
+msgstr ""
+"ສຳຜັດກັບການບຳລຸງຄວາມງາມທີ່ທັນສະໄໝ, ຕັ້ງແຕ່ການເຮັດທຣີດເມັ້ນໜ້າແບບໃໝ່ "
+"ໄປຈົນເຖິງການບຳລຸງຮ່າງກາຍຂັ້ນສູງ, ທີ່ຖືກອອກແບບມາເພື່ອເສີມຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_images
+msgid "Experience the magic of our exclusive beauty line"
+msgstr "ສຳຜັດກັບຄວາມມະຫັດສະຈັນຂອງກຸ່ມຜະລິດຕະພັນຄວາມງາມສຸດພິເສດຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid "Expert Beauty Consultations"
+msgstr "ການປຶກສາດ້ານຄວາມງາມຈາກຜູ້ຊ່ຽວຊານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_benefits
+msgid "Expert Support Anytime"
+msgstr "ການຊ່ວຍເຫຼືອຈາກຜູ້ຊ່ຽວຊານຕະຫຼອດເວລາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_empowerment
+msgid ""
+"Explore Beauty Essentials   <i class=\"fa fa-long-arrow-right\" role=\"img\"/"
+">"
+msgstr ""
+"ສຳຫຼວດສິ່ງຈຳເປັນດ້ານຄວາມງາມ   <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_carousel_intro
+msgid ""
+"Explore more and find beauty products that align with your unique skin "
+"needs, crafted for a flawless finish."
+msgstr ""
+"ສຳຫຼວດເພີ່ມເຕີມ ແລະ ຊອກຫາຜະລິດຕະພັນຄວາມງາມທີ່ກົງກັບຄວາມຕ້ອງການຂອງຜິວທີ່ເປັນເອກະລັກຂອງທ່ານ, "
+"ເຊິ່ງຜະລິດມາເພື່ອຄວາມງາມທີ່ສົມບູນແບບ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_features_wall
+msgid ""
+"Explore our luxurious makeup selection, offering vibrant colors and long-"
+"lasting formulas for a flawless look every day."
+msgstr ""
+"ສຳຫຼວດເຄື່ອງແຕ່ງໜ້າທີ່ຫຼູຫຼາຂອງພວກເຮົາ, ທີ່ມີສີສັນສົດໃສ ແລະ ສູດທີ່ຕິດທົນດົນ "
+"ເພື່ອຄວາມງາມທີ່ສົມບູນແບບໃນທຸກໆມື້."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_product_list
+msgid "Eyeliner"
+msgstr "ອາຍໄລເນີ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cta_box
+msgid "Find the perfect products to express your beauty!<br/><br/>"
+msgstr "ຊອກຫາຜະລິດຕະພັນທີ່ສົມບູນແບບເພື່ອສະແດງຄວາມງາມຂອງທ່ານ!<br/><br/>"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_features_wall
+msgid ""
+"Find your signature scent with our exclusive range of perfumes, crafted to "
+"leave a lasting impression all day long."
+msgstr ""
+"ຄົ້ນຫາຫຼິ່ນຫອມທີ່ເປັນເອກະລັກຂອງທ່ານດ້ວຍກຸ່ມນ້ຳຫອມສຸດພິເສດຂອງພວກເຮົາ, "
+"ທີ່ຖືກສ້າງຂຶ້ນເພື່ອສ້າງຄວາມປະທັບໃຈທີ່ຍາວນານຕະຫຼອດມື້."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_features_wall
+msgid "Fragrances and Scents"
+msgstr "ນ້ຳຫອມ ແລະ ກິ່ນຫອມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_text_cover
+msgid "Get started"
+msgstr "ເລີ່ມຕົ້ນເລີຍ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_striped_center_top
+msgid "Get the Look"
+msgstr "ປ່ຽນລຸກໃໝ່"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid ""
+"High-quality mascara that adds volume and length to your lashes, with a "
+"smudge-proof and long-lasting formula."
+msgstr ""
+"ມາສຄາຣາຄຸນນະພາບສູງ ທີ່ຊ່ວຍເພີ່ມຄວາມໜາ ແລະ ຄວາມຍາວໃຫ້ກັບຂົນຕາຂອງທ່ານ, ດ້ວຍສູດທີ່ບໍ່ເລິ່ມ ແລະ "
+"ຕິດທົນດົນ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "Hydrating Facial"
+msgstr "ການບຳລຸງຜິວໜ້າໃຫ້ຊຸ່ມຊື່ນ"
+
+#. module: theme_beauty
+#: model:ir.model.fields,field_description:theme_beauty.field_theme_utils__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_striped_center_top
+msgid ""
+"Indulge in the finest beauty and health products, where expert care meets "
+"luxurious cosmetics to enhance your natural glow."
+msgstr ""
+"ດື່ມດ່ຳໄປກັບຜະລິດຕະພັນຄວາມງາມ ແລະ ສຸຂະພາບທີ່ດີທີ່ສຸດ, "
+"ບ່ອນທີ່ການເບິ່ງແຍງຢ່າງຊ່ຽວຊານມາພົບກັບເຄື່ອງສຳອາງທີ່ຫຼູຫຼາ ເພື່ອເສີມສ້າງຄວາມເປັ່ງປັ່ງຕາມທຳມະຊາດຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_quadrant
+msgid ""
+"Indulge in the ultimate beauty and health experience. Our range of products "
+"and services, from cosmetics to hair care, are designed to enhance your "
+"natural beauty.<br/><br/> Discover your glow with us."
+msgstr ""
+"ດື່ມດ່ຳໄປກັບປະສົບການຄວາມງາມ ແລະ ສຸຂະພາບຂັ້ນສູງສຸດ. ກຸ່ມຜະລິດຕະພັນ ແລະ ການບໍລິການຂອງພວກເຮົາ, "
+"ຕັ້ງແຕ່ເຄື່ອງສຳອາງໄປຈົນເຖິງການບຳລຸງເສັ້ນຜົມ, ຖືກອອກແບບມາເພື່ອເສີມສ້າງຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານ."
+"<br/><br/> ຄົ້ນພົບຄວາມເປັ່ງປັ່ງຂອງທ່ານໄປກັບພວກເຮົາ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid "Innovation and Style"
+msgstr "ນະວັດຕະກຳ ແລະ ສະໄຕລ໌"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid "Innovative Beauty Treatments for Radiant Results"
+msgstr "ການບຳລຸງຄວາມງາມດ້ວຍນະວັດຕະກຳ ເພື່ອຜົນລັບທີ່ເປັ່ງປັ່ງ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_company_team
+msgid "Iris"
+msgstr "ໄອຣິສ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_call_to_action
+msgid "Join us and enjoy the pleasure of caring for yourself."
+msgstr "ມາຮ່ວມກັບພວກເຮົາ ແລະ ເພີດເພີນໄປກັບຄວາມສຸກໃນການເບິ່ງແຍງຕົນເອງ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_product_list
+msgid "Lipstick"
+msgstr "ລິບສະຕິກ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "Long-Lasting Foundation"
+msgstr "ຮອງພື້ນຕິດທົນດົນ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_images
+msgid "Luxurious cosmetics for a flawless finish"
+msgstr "ເຄື່ອງສຳອາງທີ່ຫຼູຫຼາເພື່ອຄວາມງາມທີ່ສົມບູນແບບ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_product_list
+msgid "Make-up"
+msgstr "ເຄື່ອງແຕ່ງໜ້າ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_company_team
+msgid "Mich"
+msgstr "ມິກ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_features_wall
+msgid "Natural Skincare Products"
+msgstr "ຜະລິດຕະພັນບຳລຸງຜິວຈາກທຳມະຊາດ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "Our Beauty Collection"
+msgstr "ຄໍເລັກຊັນຄວາມງາມຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_empowerment
+msgid "Our Collections"
+msgstr "ຄໍເລັກຊັນຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_images_mosaic
+msgid "Our Newest Beauty Essentials"
+msgstr "ສິ່ງຈຳເປັນດ້ານຄວາມງາມໃໝ່ລ້າສຸດຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid ""
+"Our experts provide tailored skincare consultations, recommending products "
+"and treatments designed specifically for your skin type and concerns."
+msgstr ""
+"ຜູ້ຊ່ຽວຊານຂອງພວກເຮົາໃຫ້ການປຶກສາດ້ານການບຳລຸງຜິວແບບສະເພາະຕົວ, ໂດຍແນະນຳຜະລິດຕະພັນ ແລະ "
+"ການບຳລຸງທີ່ຖືກອອກແບບມາໂດຍສະເພາະສຳລັບສະພາບຜິວ ແລະ ຄວາມກັງວົນຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid ""
+"Our skilled beauty professionals offer personalized consultations to help "
+"you find the perfect look, from makeup tips to skincare routines."
+msgstr ""
+"ຜູ້ຊ່ຽວຊານດ້ານຄວາມງາມທີ່ມີທັກສະຂອງພວກເຮົາໃຫ້ການປຶກສາແບບສະເພາະຕົວ "
+"ເພື່ອຊ່ວຍໃຫ້ທ່ານຊອກຫາລຸກທີ່ສົມບູນແບບ, ຕັ້ງແຕ່ເຄັດລັບການແຕ່ງໜ້າໄປຈົນເຖິງຂັ້ນຕອນການບຳລຸງຜິວ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_benefits
+msgid ""
+"Our team is here to assist you at every stage of your project, ensuring a "
+"smooth and stress-free process for your project."
+msgstr ""
+"ທີມງານຂອງພວກເຮົາຢູ່ທີ່ນີ້ເພື່ອຊ່ວຍເຫຼືອທ່ານໃນທຸກຂັ້ນຕອນຂອງໂຄງການຂອງທ່ານ, "
+"ເພື່ອຮັບປະກັນຂະບວນການທີ່ຮາບລື່ນ ແລະ ບໍ່ມີຄວາມກົດດັນສຳລັບໂຄງການຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_text_image
+msgid "Pamper Yourself"
+msgstr "ຕາມໃຈຕົວເອງ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_product_list
+msgid "Perfume"
+msgstr "ນ້ຳຫອມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid "Personalized Beauty"
+msgstr "ຄວາມງາມແບບສະເພາະຕົວ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid "Personalized Skincare Solutions"
+msgstr "ວິທີການບຳລຸງຜິວແບບສະເພາະຕົວ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cards_grid
+msgid "Premium Beauty Products"
+msgstr "ຜະລິດຕະພັນຄວາມງາມລະດັບພຣີມຽມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_features_wall
+msgid "Premium Makeup Collection"
+msgstr "ຄໍເລັກຊັນເຄື່ອງແຕ່ງໜ້າລະດັບພຣີມຽມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid "Quality and Expertise"
+msgstr "ຄຸນນະພາບ ແລະ ຄວາມຊ່ຽວຊານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_empowerment
+msgid "Radiance by<br/>LuxeAura"
+msgstr "ຄວາມເປັ່ງປັ່ງໂດຍ <br/>LuxeAura"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_carousel_intro
+msgid "Refresh your routine with our exclusive formulas and expert tips."
+msgstr "ເຕີມຄວາມສົດຊື່ນໃຫ້ກັບຊີວິດປະຈຳວັນຂອງທ່ານດ້ວຍສູດພິເສດ ແລະ ເຄັດລັບຈາກຜູ້ຊ່ຽວຊານຂອງພວກເຮົາ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_features_wall
+msgid ""
+"Revitalize your skin with our range of organic, chemical-free skincare "
+"products designed for all skin types."
+msgstr ""
+"ຟື້ນຟູຜິວຂອງທ່ານດ້ວຍກຸ່ມຜະລິດຕະພັນບຳລຸງຜິວແບບອໍແກນິກ ທີ່ປາສະຈາກສານເຄມີ "
+"ເຊິ່ງຖືກອອກແບບມາສຳລັບທຸກສະພາບຜິວ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid ""
+"Richly pigmented matte lipstick available in various shades, providing a "
+"bold, long-lasting finish without drying out your lips."
+msgstr ""
+"ລິບສະຕິກເນື້ອແມັດທີ່ມີເມັດສີເຂັ້ມຂຸ້ນ ມີໃຫ້ເລືອກຫຼາກຫຼາຍສີ, "
+"ໃຫ້ຄວາມງາມທີ່ຕິດທົນດົນໂດຍບໍ່ເຮັດໃຫ້ປາກຂອງທ່ານແຫ້ງ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_freegrid
+msgid "Shop Beauty"
+msgstr "ເລືອກຊື້ສິນຄ້າຄວາມງາມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cta_box
+msgid "Shop now"
+msgstr "ຊື້ເລີຍ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_text_cover
+msgid "Showcase<br/>your products."
+msgstr "ສະແດງ <br/>ຜະລິດຕະພັນຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_product_list
+msgid "Skin gel"
+msgstr "ເຈວບຳລຸງຜິວ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_carousel_intro
+msgid "Skincare solutions crafted for you"
+msgstr "ວິທີການບຳລຸງຜິວທີ່ສ້າງຂຶ້ນເພື່ອທ່ານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_images
+msgid "Skincare solutions for every type and tone"
+msgstr "ວິທີການບຳລຸງຜິວສຳລັບທຸກສະພາບຜິວ ແລະ ທຸກສີຜິວ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid "Sustainable Beauty"
+msgstr "ຄວາມງາມທີ່ຍືນຍົງ"
+
+#. module: theme_beauty
+#: model:ir.model,name:theme_beauty.model_theme_utils
+msgid "Theme Utils"
+msgstr "ເຄື່ອງມືຈັດການທີມ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_company_team
+msgid "Tony"
+msgstr "ໂທນີ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_image_title
+msgid ""
+"Transform your beauty routine with our new collection, where luxury meets "
+"effectiveness. Elevate your look with products that blend skincare and "
+"makeup seamlessly."
+msgstr ""
+"ປ່ຽນແປງຂັ້ນຕອນການບຳລຸງຄວາມງາມຂອງທ່ານດ້ວຍຄໍເລັກຊັນໃໝ່ຂອງພວກເຮົາ, "
+"ບ່ອນທີ່ຄວາມຫຼູຫຼາມາພົບກັບປະສິດທິພາບ. ຍົກລະດັບລຸກຂອງທ່ານດ້ວຍຜະລິດຕະພັນທີ່ປະສົມປະສານການບຳລຸງຜິວ ແລະ "
+"ການແຕ່ງໜ້າເຂົ້າກັນຢ່າງລົງຕົວ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_split_intro
+msgid "Transform your<br/>beauty routine"
+msgstr "ປ່ຽນແປງຂັ້ນຕອນ <br/>ການບຳລຸງຄວາມງາມຂອງທ່ານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_card_offset
+msgid "Unveil Your Natural Beauty"
+msgstr "ເຜີຍຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_carousel_intro
+msgid "Unveiling your natural beauty"
+msgstr "ເຜີຍຄວາມງາມຕາມທຳມະຊາດຂອງທ່ານ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "Velvet Matte Lipstick"
+msgstr "ລິບສະຕິກເນື້ອແມັດກຳມະຫຍີ່"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "Volumizing Mascara"
+msgstr "ມາສຄາຣາເພີ່ມຄວາມໜາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid ""
+"We create customized beauty solutions tailored to your individual needs. Our "
+"team collaborates with you to ensure a flawless and radiant look from start "
+"to finish."
+msgstr ""
+"ພວກເຮົາສ້າງວິທີການບຳລຸງຄວາມງາມແບບສະເພາະຕົວທີ່ປັບໃຫ້ເໝາະສົມກັບຄວາມຕ້ອງການຂອງແຕ່ລະບຸກຄົນ. "
+"ທີມງານຂອງພວກເຮົາຮ່ວມມືກັບທ່ານເພື່ອຮັບປະກັນລຸກທີ່ສົມບູນແບບ ແລະ ເປັ່ງປັ່ງຕັ້ງແຕ່ເລີ່ມຕົ້ນຈົນຈົບ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid ""
+"We offer the latest beauty trends and innovative products. Leveraging "
+"cutting-edge technology, we help you achieve your beauty goals."
+msgstr ""
+"ພວກເຮົາສະເໜີເທຣນຄວາມງາມໃໝ່ລ້າສຸດ ແລະ ຜະລິດຕະພັນທີ່ມີນະວັດຕະກຳ. "
+"ດ້ວຍການນຳໃຊ້ເຕັກໂນໂລຊີທີ່ທັນສະໄໝ, ພວກເຮົາຊ່ວຍໃຫ້ທ່ານບັນລຸເປົ້າໝາຍຄວາມງາມຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_key_benefits
+msgid ""
+"We provide custom pricing based on the unique needs of your project, "
+"ensuring you receive exceptional design services that fit your budget."
+msgstr ""
+"ພວກເຮົາໃຫ້ລາຄາແບບກຳນົດເອງຕາມຄວາມຕ້ອງການທີ່ເປັນເອກະລັກຂອງໂຄງການຂອງທ່ານ, "
+"ເພື່ອຮັບປະກັນວ່າທ່ານຈະໄດ້ຮັບການບໍລິການອອກແບບທີ່ດີເລີດທີ່ເໝາະສົມກັບງົບປະມານຂອງທ່ານ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid "What we offer to our clients"
+msgstr "ສິ່ງທີ່ພວກເຮົາສະເໜີໃຫ້ລູກຄ້າຂອງພວກເຮົາ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid ""
+"With extensive experience and in-depth beauty knowledge, we provide tips and "
+"products that keep you looking your best."
+msgstr ""
+"ດ້ວຍປະສົບການທີ່ກວ້າງຂວາງ ແລະ ຄວາມຮູ້ດ້ານຄວາມງາມທີ່ເລິກເຊິ່ງ, ພວກເຮົາໃຫ້ເຄັດລັບ ແລະ "
+"ຜະລິດຕະພັນທີ່ຊ່ວຍໃຫ້ທ່ານເບິ່ງດີທີ່ສຸດຢູ່ສະເໝີ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_cover
+msgid "Working beauty <br/>from the inside out"
+msgstr "ສ້າງຄວາມງາມ <br/>ຈາກພາຍໃນສູ່ພາຍນອກ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_framed_intro
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_image_hexagonal
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_striped_top
+msgid "Working beauty from the inside out"
+msgstr "ສ້າງຄວາມງາມຈາກພາຍໃນສູ່ພາຍນອກ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_wavy_grid
+msgid ""
+"Your satisfaction is our priority. Our support team is always here to "
+"assist, ensuring you enjoy a smooth and luxurious experience."
+msgstr ""
+"ຄວາມພໍໃຈຂອງທ່ານແມ່ນສິ່ງສຳຄັນທີ່ສຸດຂອງພວກເຮົາ. ທີມງານຊ່ວຍເຫຼືອຂອງພວກເຮົາຢູ່ທີ່ນີ້ສະເໝີເພື່ອຊ່ວຍເຫຼືອ, "
+"ເພື່ອຮັບປະກັນວ່າທ່ານຈະໄດ້ຮັບປະສົບການທີ່ຮາບລື່ນ ແລະ ຫຼູຫຼາ."
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_big_number
+msgid "happy customers"
+msgstr "ລູກຄ້າທີ່ມີຄວາມສຸກ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "✽  Facial Treatments"
+msgstr "✽  ການບຳລຸງຜິວໜ້າ"
+
+#. module: theme_beauty
+#: model_terms:theme.ir.ui.view,arch:theme_beauty.s_pricelist_boxed
+msgid "✽  Makeup Products"
+msgstr "✽  ຜະລິດຕະພັນເຄື່ອງແຕ່ງໜ້າ"
+
+#~ msgid "$100.00"
+#~ msgstr "$100.00"
+
+#~ msgid "$110.00"
+#~ msgstr "$110.00"
+
+#~ msgid "$120.00"
+#~ msgstr "$120.00"
+
+#~ msgid "$25.00"
+#~ msgstr "$25.00"
+
+#~ msgid "$30.00"
+#~ msgstr "$30.00"
+
+#~ msgid "$50.00"
+#~ msgstr "$50.00"
+
+#~ msgid "30+"
+#~ msgstr "30+"
+
+#~ msgid "45%"
+#~ msgstr "45%"

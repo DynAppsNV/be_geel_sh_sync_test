@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="0">
+    <!-- Drilling Examples -->
+    <record id="xx_dashboard_drilling" model="xx.dashboard">
+        <field name="name">Drill Examples</field>
+        <field name="menu_name">Drilling</field>
+    </record>
+
+    <!--    Hidden filter for drilling-->
+    <record id="xx_dyn_custom_filter_7" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drilling" />
+        <field name="filter_name">-- Hidden --</field>
+        <field name="wildcard">_NAME_</field>
+        <field name="query_wildcard_replace">_NAME_</field>
+        <field name="use_odoo_data">false</field>
+        <field name="multiselect">false</field>
+        <field name="hidden">true</field>
+        <field
+            name="manual_selection_ids"
+            eval="[(5,0,0),
+            (0, 0, {'name': 'Drill 1', 'value': '1' , 'sequence': 1}),
+            (0, 0, {'name': 'Drill 2', 'value': '2' , 'sequence': 2})
+      ]"
+        />
+    </record>
+
+    <!--  KPI -->
+    <record id="xx_dashboard_tile_drill_filter" model="xx.dashboard.tile">
+        <field name="sequence">1</field>
+        <field name="name">Drill Filter</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drilling" />
+        <field name="display_type">kpi</field>
+        <field name="font_size_text">24</field>
+        <field name="bg_color_header">#1B3D81</field>
+        <field name="text_align_header">center</field>
+        <field name="width">3</field>
+        <field name="height">1</field>
+        <field name="query">
+            select 'Click to filter' as kpi, '1' as ids;
+        </field>
+        <field name="drill_type">filter</field>
+        <field name="filter_drill" ref="dyn_dashboard.xx_dyn_custom_filter_7" />
+    </record>
+
+    <record id="xx_dashboard_tile_drill_result" model="xx.dashboard.tile">
+        <field name="sequence">2</field>
+        <field name="name">Drill Result</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drilling" />
+        <field name="display_type">kpi</field>
+        <field name="font_size_text">24</field>
+        <field name="bg_color_header">#1B3D81</field>
+        <field name="text_align_header">center</field>
+        <field name="width">3</field>
+        <field name="height">1</field>
+        <field name="query">
+            select _NAME_ as filter, '2' as ids;
+        </field>
+        <field name="drill_type">filter</field>
+        <field name="filter_drill" ref="dyn_dashboard.xx_dyn_custom_filter_7" />
+    </record>
+</odoo>

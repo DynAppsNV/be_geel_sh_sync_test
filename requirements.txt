@@ -1,0 +1,14 @@
+# Do NOT update manually; changes here will be overwritten by Copier
+phonenumbers==9.0.16 # dependency of `account_peppol` module and `data_cleaning`, `voip`, `whatsapp` enterprise modules
+odoo_upgrade @ git+https://github.com/odoo/upgrade-util@master
+paramiko==4.0.0 # dependency of `l10n_be_hr_payroll` enterprise module
+pdfminer.six==20250506 # dependency of `attachment_indexation` module (required for hr, ai, documents, ...)
+PyJWT==2.10.1 # dependency of `l10n_be_hr_payroll_dimona` and `l10n_in_reports` enterprise modules
+xmlsec==1.3.16 # dependency of `l10n_nl_reports` enterprise module
+
+# Add project dependencies here
+arrow  # dependency of `dyn_dashboard`
+pandas  # dependency of `dyn_dashboard`
+PyYAML==6.0.2
+rlPyCairo==0.3.0 ; python_version >= '3.12'
+sqlparse==0.5.3

@@ -1,0 +1,1220 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * mrp_workorder
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:01+0000\n"
+"PO-Revision-Date: 2026-06-08 08:25+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"mrp_workorder/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/wizard/propose_change.py:0
+msgid "%(user_name)s suggests to delete this instruction"
+msgstr "%(user_name)s ແນະນຳໃຫ້ລຶບຄຳແນະນຳນີ້"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/wizard/propose_change.py:0
+msgid "%(user_name)s suggests to use this document as instruction"
+msgstr "%(user_name)s ແນະນຳໃຫ້ໃຊ້ເອກະສານນີ້ເປັນຄຳແນະນຳ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.res_config_settings_view_form
+msgid "<i class=\"fa fa-print\"/> Print barcode commands"
+msgstr "<i class=\"fa fa-print\"/> ພິມຄຳສັ່ງບາໂຄດ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_operation_form_view
+msgid "<span class=\"o_stat_text\">Instructions</span>"
+msgstr "<span class=\"o_stat_text\">ຄຳແນະນຳ</span>"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_ids
+msgid "Activities"
+msgstr "ກິດຈະກຳ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "ການຕົບແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_state
+msgid "Activity State"
+msgstr "ສະຖານະກິດຈະກຳ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
+msgid "Add By-Product"
+msgstr "ເພີ່ມຜະລິດຕະພັນພອຍໄດ້"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Add By-product"
+msgstr "ເພີ່ມຜະລິດຕະພັນພອຍໄດ້"
+
+#. module: mrp_workorder
+#. odoo-python
+#. odoo-javascript
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
+msgid "Add Component"
+msgstr "ເພີ່ມສ່ວນປະກອບ"
+
+#. module: mrp_workorder
+#. odoo-python
+#. odoo-javascript
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Add a Step"
+msgstr "ເພີ່ມຂັ້ນຕອນ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
+msgid "Add product"
+msgstr "ເພີ່ມຜະລິດຕະພັນ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_mrp_workorder_additional_product
+msgid "Additional Product"
+msgstr "ຜະລິດຕະພັນເພີ່ມເຕີມ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__allow_producing_quantity_change
+msgid "Allow Changes to Producing Quantity"
+msgstr "ອະນຸຍາດໃຫ້ປ່ຽນແປງຈຳນວນການຜະລິດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point_test_type__allow_registration
+msgid "Allow Registration"
+msgstr "ອະນຸຍາດໃຫ້ລົງທະບຽນ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_routing_steps_search
+msgid "Archived"
+msgstr "ຈັດເກັບແລ້ວ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Availability"
+msgstr "ຄວາມພ້ອມໃຊ້"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_report_mrp_report_bom_structure
+msgid "BOM Overview Report"
+msgstr "ບົດລາຍງານພາບລວມ BoM"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder___barcode_scanned
+msgid "Barcode Scanned"
+msgstr "ສະແກນບາໂຄດແລ້ວ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/summary_step.xml:0
+msgid "Best Time! Congratulations!"
+msgstr "ເວລາທີ່ດີທີ່ສຸດ! ຂໍສະແດງຄວາມຍິນດີ!"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_mrp_bom
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_id
+msgid "Bill of Material"
+msgstr "ລາຍການວັດສະດຸ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Block"
+msgstr "ບລັອກ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+#: code:addons/mrp_workorder/wizard/propose_change.py:0
+msgid "BoM feedback %s (%s)"
+msgstr "ຄຳຕິຊົມ BoM %s (%s)"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_product_ids
+msgid "Bom Product"
+msgstr "ຜະລິດຕະພັນ BoM"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__mrp_workorder_additional_product__type__byproduct
+msgid "By-Product"
+msgstr "ຜະລິດຕະພັນພອຍໄດ້"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "CONTINUE"
+msgstr "ສືບຕໍ່"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_view_form_tablet
+msgid "CONTINUE PRODUCTION"
+msgstr "ສືບຕໍ່ການຜະລິດ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_uom_category_id
+msgid "Category"
+msgstr "ໝວດໝູ່"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_change_production_qty
+msgid "Change Production Qty"
+msgstr "ປ່ຽນຈຳນວນການຜະລິດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__check_ids
+#: model:ir.model.fields,field_description:mrp_workorder.field_stock_move_line__quality_check_ids
+msgid "Check"
+msgstr "ກວດສອບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_production__check_ids
+msgid "Checks"
+msgstr "ການກວດສອບ"
+
+#. module: mrp_workorder
+#: model:product.attribute,name:mrp_workorder.product_attribute_color_radio
+msgid "Color"
+msgstr "ສີ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__comment
+msgid "Comment"
+msgstr "ຄຳເຫັນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/summary_step.xml:0
+msgid "Completion Time:"
+msgstr "ເວລາທີ່ສຳເລັດ:"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__component_ids
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__mrp_workorder_additional_product__type__component
+msgid "Component"
+msgstr "ສ່ວນປະກອບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_qty_to_do
+msgid "Component Qty To Do"
+msgstr "ຈຳນວນສ່ວນປະກອບທີ່ຕ້ອງເຮັດ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__consumption
+msgid "Consumption"
+msgstr "ການບໍລິໂພກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder_additional_product__product_uom_category_id
+msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
+msgstr ""
+"ການແປງລະຫວ່າງຫົວໜ່ວຍວັດແທກສາມາດເກີດຂຶ້ນໄດ້ພຽງແຕ່ຖ້າມັນຢູ່ໃນໝວດດຽວກັນ. ການແປງຈະຖືກເຮັດຕາມອັດຕາສ່"
+"ວນ."
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__create_uid
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__create_date
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "Creates a new serial/lot number"
+msgstr "ສ້າງເລກຊີຣີ/ເລກລັອດໃໝ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__current_quality_check_id
+msgid "Current Quality Check"
+msgstr "ການກວດສອບຄຸນນະພາບປັດຈຸບັນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__quality_point__source_document__step
+msgid "Custom"
+msgstr "ກຳນົດເອງ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_quality_point__test_type_id
+msgid "Defines the type of the quality control point."
+msgstr "ກຳນົດປະເພດຂອງຈຸດກວດສອບຄຸນນະພາບ."
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Delete this Step"
+msgstr "ລຶບຂັ້ນຕອນນີ້"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__is_deleted
+msgid "Deleted in production"
+msgstr "ລຶບອອກໃນການຜະລິດແລ້ວ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.add_quality_check_from_tablet
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_propose_change_wizard
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__display_name
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.add_quality_check_from_tablet
+msgid "Document"
+msgstr "ເອກະສານ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__qty_done
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__qty_done
+msgid "Done"
+msgstr "ສຳເລັດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder_additional_product__product_tracking
+#: model:ir.model.fields,help:mrp_workorder.field_quality_check__component_tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "ຮັບປະກັນການຕິດຕາມຂອງຜະລິດຕະພັນທີ່ສາມາດເກັບໄວ້ໃນສາງຂອງທ່ານ."
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__finished_lot_id
+msgid "Finished Lot/Serial"
+msgstr "ລັອດ/ຊີຣີ ທີ່ສຳເລັດແລ້ວ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
+msgid "Finished Lot/Serial Number"
+msgstr "ເລກລັອດ/ເລກຊີຣີ ທີ່ສຳເລັດແລ້ວ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__finished_product_check_ids
+msgid "Finished Product Check"
+msgstr "ການກວດສອບຜະລິດຕະພັນສຳເລັດຮູບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__finished_product_sequence
+msgid "Finished Product Sequence Number"
+msgstr "ເລກລຳດັບຜະລິດຕະພັນສຳເລັດຮູບ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
+msgid "Finished Steps"
+msgstr "ຂັ້ນຕອນທີ່ສຳເລັດແລ້ວ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_bom__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ fa-tasks"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/summary_step.xml:0
+msgid "Good Job!"
+msgstr "ເກັ່ງຫຼາຍ!"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_form_inherit_mrp
+msgid "Google Slide Link"
+msgstr "ລິ້ງ Google Slide"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__worksheet_url
+msgid "Google doc URL"
+msgstr "URL ຂອງ Google doc"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__id
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_exception_icon
+msgid "Icon"
+msgstr "ໄອຄອນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_bom__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "ໄອຄອນເພື່ອບົ່ງບອກເຖິງກິດຈະກຳທີ່ຍົກເວັ້ນ."
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__worksheet_document
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__worksheet_document
+msgid "Image/PDF"
+msgstr "ຮູບພາບ/PDF"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder__move_line_id
+#: model:ir.model.fields,help:mrp_workorder.field_quality_check__move_line_id
+msgid "In case of Quality Check by Quantity, Move Line on which the Quality Check applies"
+msgstr ""
+"ໃນກໍລະນີຂອງການກວດສອບຄຸນນະພາບຕາມຈຳນວນ, ຍ້າຍລາຍການທີ່ການກວດສອບຄຸນນະພາບຖືກນຳໃຊ້"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.add_quality_check_from_tablet
+msgid "Instruction"
+msgstr "ຄຳແນະນຳ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+msgid "Instruction:"
+msgstr "ຄຳແນະນຳ:"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_routing_workcenter__quality_point_count
+msgid "Instructions"
+msgstr "ຄຳແນະນຳ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder__move_line_ids
+msgid "Inventory moves for which you must scan a lot number at this work order"
+msgstr "ການເຄື່ອນຍ້າຍສິນຄ້າຄົງຄັງທີ່ທ່ານຕ້ອງສະແກນເລກລັອດໃນໃບສັ່ງວຽກນີ້"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_tracking
+msgid "Is Component Tracked"
+msgstr "ສ່ວນປະກອບຖືກຕິດຕາມຫຼືບໍ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_last_unfinished_wo
+msgid "Is Last Work Order To Process"
+msgstr "ແມ່ນໃບສັ່ງວຽກສຸດທ້າຍທີ່ຈະປະມວນຜົນຫຼືບໍ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_last_lot
+msgid "Is Last lot"
+msgstr "ແມ່ນລັອດສຸດທ້າຍຫຼືບໍ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_first_started_wo
+msgid "Is The first Work Order"
+msgstr "ແມ່ນໃບສັ່ງວຽກທຳອິດຫຼືບໍ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__is_workorder_step
+msgid "Is Workorder Step"
+msgstr "ແມ່ນຂັ້ນຕອນຂອງໃບສັ່ງວຽກຫຼືບໍ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__is_user_working
+msgid "Is the Current User Working"
+msgstr "ຜູ້ໃຊ້ປັດຈຸບັນກຳລັງເຮັດວຽກຢູ່ຫຼືບໍ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__write_uid
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດລ້າສຸດໂດຍ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__write_date
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດລ້າສຸດເມື່ອ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_view_form_tablet
+msgid "Lot"
+msgstr "ລັອດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__lot_id
+msgid "Lot/Serial"
+msgstr "ລັອດ/ຊີຣີ"
+
+#. module: mrp_workorder
+#: model:res.groups,name:mrp_workorder.group_mrp_wo_tablet_timer
+msgid "Manage Work Order timer on Tablet View"
+msgstr "ຈັດການຕົວຈັບເວລາໃບສັ່ງວຽກໃນມຸມມອງແທັບເລັດ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Manufacturing Orders"
+msgstr "ໃບສັ່ງຜະລິດ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "Mark as Done"
+msgstr "ໝາຍວ່າສຳເລັດ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "Mark as Done and Close MO"
+msgstr "ໝາຍວ່າສຳເລັດ ແລະ ປິດໃບສັ່ງຜະລິດ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+msgid "Menu"
+msgstr "ເມນູ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__move_line_ids
+msgid "Moves to Track"
+msgstr "ການເຄື່ອນຍ້າຍທີ່ຈະຕິດຕາມ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "ກຳນົດເວລາຂອງກິດຈະກຳຂ້ອຍ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__note
+msgid "New Instruction"
+msgstr "ຄຳແນະນຳໃໝ່"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/wizard/propose_change.py:0
+msgid "New Instruction suggested by %(user_name)s"
+msgstr "ຄຳແນະນຳໃໝ່ທີ່ແນະນຳໂດຍ %(user_name)s"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+msgid "New Step suggested by %(user_name)s"
+msgstr "ຂັ້ນຕອນໃໝ່ທີ່ແນະນຳໂດຍ %(user_name)s"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/wizard/propose_change.py:0
+msgid "New Title suggested:"
+msgstr "ຊື່ໃໝ່ທີ່ແນະນຳ:"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_view_form_tablet
+msgid "Next"
+msgstr "ຕໍ່ໄປ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "ກິດຈະກຳຕໍ່ໄປໃນປະຕິທິນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "ກຳນົດເວລາຂອງກິດຈະກຳຕໍ່ໄປ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_summary
+msgid "Next Activity Summary"
+msgstr "ສະຫຼຸບກິດຈະກຳຕໍ່ໄປ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_type_id
+msgid "Next Activity Type"
+msgstr "ປະເພດກິດຈະກຳຕໍ່ໄປ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__next_check_id
+msgid "Next Check"
+msgstr "ການກວດສອບຕໍ່ໄປ"
+
+#. module: mrp_workorder
+#: model_terms:ir.actions.act_window,help:mrp_workorder.action_mrp_workorder_show_steps
+msgid "No manufacturing steps defined yet!"
+msgstr "ຍັງບໍ່ທັນມີການກຳນົດຂັ້ນຕອນການຜະລິດເທື່ອ!"
+
+#. module: mrp_workorder
+#: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
+msgid "No work orders to do!"
+msgstr "ບໍ່ມີໃບສັ່ງວຽກທີ່ຕ້ອງເຮັດ!"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_workorder_tree_editable_view_inherit_workorder
+msgid "Open Tablet View"
+msgstr "ເປີດມຸມມອງແທັບເລັດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_alert__workorder_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__workorder_id
+msgid "Operation"
+msgstr "ການປະຕິບັດວຽກ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
+msgid "Operator"
+msgstr "ຜູ້ປະຕິບັດງານ"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.menu_mrp_dashboard
+msgid "Overview"
+msgstr "ພາບລວມ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "PAUSE"
+msgstr "ຢຸດຊົ່ວຄາວ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__quality_point__test_report_type__pdf
+msgid "PDF"
+msgstr "PDF"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__picture
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__picture
+msgid "Picture"
+msgstr "ຮູບພາບ"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.menu_mrp_workorder_production
+msgid "Planning by Production"
+msgstr "ການວາງແຜນຕາມການຜະລິດ"
+
+#. module: mrp_workorder
+#: model:ir.ui.menu,name:mrp_workorder.menu_mrp_workorder_workcenter
+msgid "Planning by Workcenter"
+msgstr "ການວາງແຜນຕາມສູນວຽກ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+msgid "Please ensure the quantity to produce is greater than 0."
+msgstr "ກະລຸນາຮັບປະກັນວ່າຈຳນວນທີ່ຈະຜະລິດແມ່ນຫຼາຍກວ່າ 0."
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+msgid "Please enter a Lot/SN."
+msgstr "ກະລຸນາປ້ອນເລກລັອດ/ຊີຣີ."
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+msgid "Please enter a positive quantity."
+msgstr "ກະລຸນາປ້ອນຈຳນວນທີ່ເປັນຄ່າບວກ."
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+msgid "Please set the quantity you are currently producing. It should be different from zero."
+msgstr "ກະລຸນາກຳນົດຈຳນວນທີ່ທ່ານກຳລັງຜະລິດຢູ່ໃນຕອນນີ້. ມັນຄວນຈະຕ່າງຈາກສູນ."
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+msgid "Please upload a picture."
+msgstr "ກະລຸນາອັບໂຫຼດຮູບພາບ."
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__previous_check_id
+msgid "Previous Check"
+msgstr "ການກວດສອບກ່ອນໜ້າ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_view_form_tablet
+msgid "Print Labels"
+msgstr "ພິມສະຕິກເກີ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_id
+msgid "Product"
+msgstr "ຜະລິດຕະພັນ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "ການເຄື່ອນຍ້າຍຜະລິດຕະພັນ (ລາຍການເຄື່ອນຍ້າຍສະຕັອກ)"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__component_id
+msgid "Product To Register"
+msgstr "ຜະລິດຕະພັນທີ່ຈະລົງທະບຽນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_uom_id
+msgid "Product Uom"
+msgstr "ຫົວໜ່ວຍຜະລິດຕະພັນ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_mrp_production
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_alert__production_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__production_id
+msgid "Production Order"
+msgstr "ໃບສັ່ງຜະລິດ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "Production Workcenter"
+msgstr "ສູນວຽກການຜະລິດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__product_ids
+msgid "Products"
+msgstr "ຜະລິດຕະພັນ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.add_quality_check_from_tablet
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_propose_change_wizard
+msgid "Propose Change"
+msgstr "ສະເໜີການປ່ຽນແປງ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_propose_change
+msgid "Propose a change in the production"
+msgstr "ສະເໜີການປ່ຽນແປງໃນການຜະລິດ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/summary_step.xml:0
+msgid "Quality"
+msgstr "ຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_quality_alert
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_alert_ids
+msgid "Quality Alert"
+msgstr "ການແຈ້ງເຕືອນຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_alert_count
+msgid "Quality Alert Count"
+msgstr "ຈຳນວນການແຈ້ງເຕືອນຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_quality_check
+msgid "Quality Check"
+msgstr "ການກວດສອບຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_check_fail
+msgid "Quality Check Fail"
+msgstr "ການກວດສອບຄຸນນະພາບບໍ່ຜ່ານ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_check_todo
+msgid "Quality Check Todo"
+msgstr "ການກວດສອບຄຸນນະພາບທີ່ຕ້ອງເຮັດ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_quality_point
+msgid "Quality Control Point"
+msgstr "ຈຸດກວດສອບຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_quality_point_test_type
+msgid "Quality Control Test Type"
+msgstr "ປະເພດການທົດສອບຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_routing_workcenter__quality_point_ids
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_point_ids
+msgid "Quality Point"
+msgstr "ຈຸດຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_routing_steps_search
+msgid "Quality Point Steps"
+msgstr "ຂັ້ນຕອນຂອງຈຸດຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_quality_point__product_ids
+msgid "Quality Point will apply to every selected Products."
+msgstr "ຈຸດຄຸນນະພາບຈະຖືກນຳໃຊ້ກັບທຸກໆຜະລິດຕະພັນທີ່ເລືອກ."
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_state
+msgid "Quality State"
+msgstr "ສະຖານະຄຸນນະພາບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_qty
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_view_form_tablet
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
+msgid "Quantity"
+msgstr "ຈຳນວນ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/wizard/propose_change.py:0
+msgid "Reason:"
+msgstr "ເຫດຜົນ:"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "Record production"
+msgstr "ບັນທຶກການຜະລິດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__additional
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__additional
+msgid "Register additional product"
+msgstr "ລົງທະບຽນຜະລິດຕະພັນເພີ່ມເຕີມ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_active
+msgid "Related Bill of Material Active"
+msgstr "ລາຍການວັດສະດຸທີ່ກ່ຽວຂ້ອງທີ່ເປີດໃຊ້ຢູ່"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_remaining_qty
+msgid "Remaining Quantity for Component"
+msgstr "ຈຳນວນທີ່ຍັງເຫຼືອຂອງສ່ວນປະກອບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__propose_change__change_type__remove_step
+msgid "Remove Current Step"
+msgstr "ລຶບຂັ້ນຕອນປັດຈຸບັນອອກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__test_report_type
+msgid "Report Type"
+msgstr "ປະເພດບົດລາຍງານ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__user_id
+msgid "Responsible"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_bom__activity_user_id
+msgid "Responsible User"
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__result
+msgid "Result"
+msgstr "ຜົນໄດ້ຮັບ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Scrap"
+msgstr "ເສດຊາກ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_view_form_tablet
+msgid "Serial"
+msgstr "ຊີຣີ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__propose_change__change_type__set_picture
+msgid "Set Picture"
+msgstr "ຕັ້ງຄ່າຮູບພາບ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Set a New picture"
+msgstr "ຕັ້ງຄ່າຮູບພາບໃໝ່"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_routing_workcenter_tree_view_inherited
+msgid "Show Instructions"
+msgstr "ສະແດງຄຳແນະນຳ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.res_config_settings_view_form
+msgid "Show the timer on the work order screen"
+msgstr "ສະແດງຕົວຈັບເວລາໃນໜ້າຈໍໃບສັ່ງວຽກ"
+
+#. module: mrp_workorder
+#: model:product.template,description_sale:mrp_workorder.product_template_stool
+msgid "Small wooden stool"
+msgstr "ຕັ່ງໄມ້ນ້ອຍ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__quality_point__source_document__operation
+msgid "Specific Page of Operation Worksheet"
+msgstr "ໜ້າສະເພາະຂອງແຜ່ນວຽກການປະຕິບັດງານ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_bom__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"ສະຖານະອີງຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນຄົບກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນແລ້ວ: ກິດຈະກຳໃນອະນາຄົດ."
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__operation_id
+msgid "Step"
+msgstr "ຂັ້ນຕອນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__source_document
+msgid "Step Document"
+msgstr "ເອກະສານຂັ້ນຕອນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__step_id
+msgid "Step to change"
+msgstr "ຂັ້ນຕອນທີ່ຈະປ່ຽນແປງ"
+
+#. module: mrp_workorder
+#: model:ir.actions.act_window,name:mrp_workorder.action_mrp_workorder_show_steps
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_point_count
+msgid "Steps"
+msgstr "ຂັ້ນຕອນ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_stock_move
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__move_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__move_id
+msgid "Stock Move"
+msgstr "ການເຄື່ອນຍ້າຍສະຕັອກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__move_line_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__move_line_id
+msgid "Stock Move Line"
+msgstr "ລາຍການເຄື່ອນຍ້າຍສະຕັອກ"
+
+#. module: mrp_workorder
+#: model:product.template,name:mrp_workorder.product_template_stool
+msgid "Stool"
+msgstr "ຕັ່ງ"
+
+#. module: mrp_workorder
+#: model:product.template,name:mrp_workorder.product_template_stool_foot
+msgid "Stool Foot"
+msgstr "ຂາຕັ່ງ"
+
+#. module: mrp_workorder
+#: model:product.template,name:mrp_workorder.product_template_stool_top
+msgid "Stool Top"
+msgstr "ໜ້າຕັ່ງ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Suggest a Worksheet improvement"
+msgstr "ແນະນຳການປັບປຸງແຜ່ນວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.actions.client,name:mrp_workorder.tablet_client_action
+msgid "Tablet Client Action"
+msgstr "ການດຳເນີນການຂອງລູກຄ້າແທັບເລັດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__test_type
+msgid "Technical name"
+msgstr "ຊື່ທາງເຕັກນິກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__test_type_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__test_type_id
+msgid "Test Type"
+msgstr "ປະເພດການທົດສອບ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+msgid "This workcenter isn't expected to have open workorders during this period. Work hours :"
+msgstr ""
+"ສູນວຽກນີ້ບໍ່ໄດ້ຖືກຄາດໝາຍວ່າຈະມີໃບສັ່ງວຽກທີ່ເປີດຢູ່ໃນໄລຍະເວລານີ້. ເວລາເຮັດວຽກ :"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_res_config_settings__group_mrp_wo_tablet_timer
+msgid "Timer"
+msgstr "ຕົວຈັບເວລາ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__title
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.add_quality_check_from_tablet
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Total Qty"
+msgstr "ຈຳນວນທັງໝົດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_tracking
+msgid "Tracking"
+msgstr "ການຕິດຕາມ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__type
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_workorder_form
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__change_type
+msgid "Type of Change"
+msgstr "ປະເພດຂອງການປ່ຽນແປງ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_bom__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "Unblock"
+msgstr "ປົດບລັອກ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
+msgid "Unit of Measure"
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+
+#. module: mrp_workorder
+#: model:ir.actions.server,name:mrp_workorder.production_order_unplan_server_action
+msgid "Unplan orders"
+msgstr "ຍົກເລີກການວາງແຜນໃບສັ່ງ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_uom_id
+msgid "UoM"
+msgstr "ຫົວໜ່ວຍ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__propose_change__change_type__update_step
+msgid "Update Current Step"
+msgstr "ອັບເດດຂັ້ນຕອນປັດຈຸບັນ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/menuPopup.xml:0
+msgid "Update Instructions"
+msgstr "ອັບເດດຄຳແນະນຳ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_form_inherit_mrp
+msgid "Upload your PDF file."
+msgstr "ອັບໂຫຼດໄຟລ໌ PDF ຂອງທ່ານ."
+
+#. module: mrp_workorder
+#: model_terms:ir.actions.act_window,help:mrp_workorder.action_mrp_workorder_show_steps
+msgid "Use steps to show instructions on a worksheet to operators, or trigger quality checks at specific steps of the work order."
+msgstr ""
+"ໃຊ້ຂັ້ນຕອນເພື່ອສະແດງຄຳແນະນຳໃນແຜ່ນວຽກໃຫ້ກັບຜູ້ປະຕິບັດງານ, ຫຼື ເປີດໃຊ້ການກວດສອບຄຸນນະພາບໃນຂັ້ນຕອນສະ"
+"ເພາະຂອງໃບສັ່ງວຽກ."
+
+#. module: mrp_workorder
+#: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
+msgid ""
+"Use the table work center control panel to register operations in the shop floor directly.\n"
+"            The tablet provides worksheets for your workers and allow them to scrap products, track time,\n"
+"            launch a maintenance request, perform quality tests, etc."
+msgstr ""
+"ໃຊ້ແຜງຄວບຄຸມສູນວຽກເພື່ອລົງທະບຽນການປະຕິບັດງານໃນພື້ນທີ່ການຜະລິດໂດຍກົງ.\n"
+"            ແທັບເລັດຈະໃຫ້ແຜ່ນວຽກສຳລັບຄົນງານຂອງທ່ານ ແລະ ອະນຸຍາດໃຫ້ພວກເຂົາຕັດເສດຊາກຜະລິດຕະພັ"
+"ນ, ຕິດຕາມເວລາ,\n"
+"            ສົ່ງຄຳຮ້ອງຂໍການບຳລຸງຮັກສາ, ປະຕິບັດການທົດສອບຄຸນນະພາບ ແລະ ອື່ນໆ."
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_check_view_form_tablet
+msgid "VALIDATE"
+msgstr "ຢືນຢັນ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder___barcode_scanned
+msgid "Value of the last barcode scanned."
+msgstr "ຄ່າຂອງບາໂຄດສຸດທ້າຍທີ່ສະແກນ."
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/summary_step.xml:0
+msgid "Well done, you're in the Top 10!"
+msgstr "ເກັ່ງຫຼາຍ, ທ່ານຢູ່ໃນ 10 ອັນດັບທຳອິດ!"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_mrp_workcenter
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_alert__workcenter_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__workcenter_id
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_alert_view_search_inherit_mrp_workorder
+msgid "Work Center"
+msgstr "ສູນວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_mrp_routing_workcenter
+msgid "Work Center Usage"
+msgstr "ການນຳໃຊ້ສູນວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.model,name:mrp_workorder.model_mrp_workorder
+msgid "Work Order"
+msgstr "ໃບສັ່ງວຽກ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_form_inherit_mrp
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_tree
+msgid "Work Order Operation"
+msgstr "ການປະຕິບັດງານໃບສັ່ງວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.actions.act_window,name:mrp_workorder.mrp_workorder_action_tablet
+#: model:ir.ui.menu,name:mrp_workorder.mrp_workorder_menu_planning
+msgid "Work Orders"
+msgstr "ໃບສັ່ງວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.actions.server,name:mrp_workorder.action_mrp_workorder_dependencies_workcenter
+msgid "Work Orders Planning"
+msgstr "ການວາງແຜນໃບສັ່ງວຽກ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workcenter_view_kanban_inherit_workorder
+msgid "Work orders"
+msgstr "ໃບສັ່ງວຽກ"
+
+#. module: mrp_workorder
+#: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
+msgid ""
+"Work orders are operations to do as part of a manufacturing order.\n"
+"            Operations are defined in the bill of materials or added in the manufacturing order directly."
+msgstr ""
+"ໃບສັ່ງວຽກແມ່ນການປະຕິບັດງານທີ່ຕ້ອງເຮັດເປັນສ່ວນໜຶ່ງຂອງໃບສັ່ງຜະລິດ.\n"
+"            ການປະຕິບັດງານຖືກກຳນົດໄວ້ໃນລາຍການວັດສະດຸ ຫຼື ເພີ່ມເຂົ້າໃນໃບສັ່ງຜະລິດໂດຍກົງ."
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__working_state
+msgid "Workcenter Status"
+msgstr "ສະຖານະສູນວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__workorder_id
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__workorder_id
+msgid "Workorder"
+msgstr "ໃບສັ່ງວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__worksheet_page
+#: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__worksheet_page
+msgid "Worksheet Page"
+msgstr "ໜ້າແຜ່ນວຽກ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__worksheet_page
+msgid "Worksheet page"
+msgstr "ໜ້າແຜ່ນວຽກ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/summary_step.xml:0
+msgid "Wow, you made the Top 5!"
+msgstr "ວ້າວ, ທ່ານຕິດ 5 ອັນດັບທຳອິດ!"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/wizard/change_production_qty.py:0
+msgid "You cannot update the quantity to do of an ongoing manufacturing order for which quality checks have been performed."
+msgstr ""
+"ທ່ານບໍ່ສາມາດອັບເດດຈຳນວນທີ່ຕ້ອງເຮັດຂອງໃບສັ່ງຜະລິດທີ່ກຳລັງດຳເນີນຢູ່ ເຊິ່ງໄດ້ມີການກວດສອບຄຸນນະພາບແລ້ວ."
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/quality.py:0
+msgid "You did not set a lot/serial number for the final product"
+msgstr "ທ່ານບໍ່ໄດ້ກຳນົດເລກລັອດ/ຊີຣີ ສຳລັບຜະລິດຕະພັນສຸດທ້າຍ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+msgid "You should provide a lot/serial number for the final product"
+msgstr "ທ່ານຄວນລະບຸເລກລັອດ/ຊີຣີ ສຳລັບຜະລິດຕະພັນສຸດທ້າຍ"
+
+#. module: mrp_workorder
+#. odoo-python
+#: code:addons/mrp_workorder/models/mrp_workorder.py:0
+msgid "You still need to do the quality checks!"
+msgstr "ທ່ານຍັງຕ້ອງເຮັດການກວດສອບຄຸນນະພາບ!"
+
+#. module: mrp_workorder
+#: model:ir.model.fields.selection,name:mrp_workorder.selection__quality_point__test_report_type__zpl
+msgid "ZPL"
+msgstr "ZPL"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "back"
+msgstr "ກັບຄືນ"
+
+#. module: mrp_workorder
+#: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
+msgid "menu"
+msgstr "ເມນູ"
+
+#. module: mrp_workorder
+#. odoo-javascript
+#: code:addons/mrp_workorder/static/src/components/summary_step.xml:0
+msgid "minutes"
+msgstr "ນາທີ"
+
+#. module: mrp_workorder
+#: model:ir.model.fields,field_description:mrp_workorder.field_propose_change__title
+msgid "title"
+msgstr "ຫົວຂໍ້"
+
+#. module: mrp_workorder
+#: model:product.template,description_sale:mrp_workorder.product_template_stool_foot
+msgid "wooden stool foot"
+msgstr "ຂາຕັ່ງໄມ້"
+
+#. module: mrp_workorder
+#: model:product.template,description_sale:mrp_workorder.product_template_stool_top
+msgid "wooden stool top"
+msgstr "ໜ້າຕັ່ງໄມ້"

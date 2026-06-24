@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="action_increment_expiration_1y_model" model="ir.actions.server">
+        <field name="name">Increment expiration 1Y</field>
+        <field name="model_id" ref="model_xx_credit_line" />
+        <field name="binding_view_types">list</field>
+        <field name="state">code</field>
+        <field name="code">records.server_action_increment_expiration()</field>
+    </record>
+
+    <record id="credit_line_list_view" model="ir.ui.view">
+        <field name="name">xx.credit.line.list</field>
+        <field name="model">xx.credit.line</field>
+        <field name="arch" type="xml">
+            <list string="Type">
+                <header>
+                    <button
+                        name="server_action_increment_expiration"
+                        string="Increment expiration 1Y"
+                        type="object"
+                        class="oe_highlight"
+                    />
+                </header>
+                <field name="customer_id" />
+                <field name="credit_line_type_id" />
+                <field name="date" />
+                <field name="expiration_date" />
+                <field name="name_insurance_company_id" />
+                <field name="amount" />
+                <field name="currency_id" />
+            </list>
+        </field>
+    </record>
+
+    <record id="credit_line_list_view_embedded" model="ir.ui.view">
+        <field name="model">xx.credit.line</field>
+        <field name="arch" type="xml">
+            <list string="Type">
+                <field name="credit_line_type_id" />
+                <field name="date" />
+                <field name="expiration_date" />
+                <field name="name_insurance_company_id" />
+                <field name="amount" />
+                <field name="currency_id" />
+            </list>
+        </field>
+    </record>
+
+    <record id="credit_line_type_list_view" model="ir.ui.view">
+        <field name="model">xx.credit.line.type</field>
+        <field name="arch" type="xml">
+            <list string="Type">
+                <field name="code" />
+                <field name="description" />
+                <field name="own_risk" />
+            </list>
+        </field>
+    </record>
+
+    <record id="credit_line_form_view" model="ir.ui.view">
+        <field name="model">xx.credit.line</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="customer_id" />
+                        <field name="credit_line_type_id" />
+                        <field name="date" />
+                        <field name="expiration_date" />
+                        <field name="name_insurance_company_id" />
+
+                        <field name="amount" />
+                        <field name="currency_id" />
+
+                        <field name="contract_number" />
+                        <field name="our_reference" />
+                        <field name="insurance_company_reference" />
+
+                        <field name="comments" />
+                        <field name="change_reason" />
+
+                        <field name="attachment_ids" widget="many2many_binary" />
+                    </group>
+                </sheet>
+                <chatter />
+            </form>
+        </field>
+    </record>
+</odoo>

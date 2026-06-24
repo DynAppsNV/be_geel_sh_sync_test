@@ -1,0 +1,542 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_be_intervat
+#
+# Bren Driesen <brdri@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-05 19:51+0000\n"
+"PO-Revision-Date: 2026-05-23 09:38+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19-l10n/"
+"l10n_be_intervat/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/controllers/main.py:0
+msgid ""
+"\n"
+"                        Access error: Only the accounting firm can submit "
+"the VAT return to Intervat via the API.\n"
+"                        To submit it yourself, download the XML file and "
+"upload it on Intervat.\n"
+"                        If you no longer have an accounting firm, remove it "
+"from the Intervat setting to enable API submission.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Toegangsprobleem: Alleen het accountantskantoor kan "
+"de btw-aangifte via de API indienen bij Intervat.\n"
+"Om deze zelf in te dienen, download je het XML-bestand en upload je het op "
+"Intervat.\n"
+"Als je geen accountantskantoor meer hebt, verwijder je dit uit de Intervat-"
+"instellingen om API-indiening mogelijk te maken.\n"
+"                    "
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/controllers/main.py:0
+msgid ""
+"\n"
+"                        Access error: You do not have permission to give "
+"consent for company %s. If you are an accounting firm,\n"
+"                        make sure the Accounting firm field is set in the "
+"Intervat settings. Otherwise, only the client can submit the VAT return "
+"through API.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Toegangsprobleem: Je hebt geen toestemming om "
+"toelating te geven voor bedrijf %s. Als je een accountantskantoor bent, zorg "
+"er dan voor dat het veld 'Accountantskantoor' is ingesteld in de Intervat-"
+"instellingen. Anders kan alleen de klant de btw-aangifte via API indienen.\n"
+"                    "
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/controllers/main.py:0
+msgid ""
+"\n"
+"                    SPF Finances authorization denied.\n"
+"                    Initial consent requires an official mandate.\n"
+"                    Please ask a user with the appropriate rights to perform "
+"the first connection for this client.\n"
+"                    Access will then be unlocked.\n"
+"                "
+msgstr ""
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,help:l10n_be_intervat.field_res_company__l10n_be_intervat_mode
+#: model:ir.model.fields,help:l10n_be_intervat.field_res_config_settings__l10n_be_intervat_mode
+msgid ""
+"\n"
+"            - Production: Connected to the Intervat API in production mode\n"
+"            - Test: Connected to the Intervat API in test mode\n"
+"            - Disabled: Disconnected from the Intervat server\n"
+"        "
+msgstr ""
+"\n"
+"            - Productie: Verbonden met de Intervat API in productiemodus\n"
+"            - Test: Verbonden met de Intervat API in testmodus\n"
+"            - Uitgeschakeld: Verbinding met de Intervat-server verbroken\n"
+"        "
+
+#. module: l10n_be_intervat
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.res_config_settings_view_form
+msgid ""
+"<i title=\"Close connection\" role=\"img\" aria-label=\"Close connection\" "
+"class=\"fa fa-fw fa-sign-out\"/>"
+msgstr ""
+"<i title=\"Close connection\" role=\"img\" aria-label=\"Verbinding "
+"verbreken\" class=\"fa fa-fw fa-sign-out\"/>"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_config_settings__account_representative_id
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.res_config_settings_view_form
+msgid "Accounting Firm"
+msgstr "Accountantskantoor"
+
+#. module: l10n_be_intervat
+#: model:ir.model,name:l10n_be_intervat.model_account_return
+msgid "Accounting Return"
+msgstr "Btw-aangifte"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "An error has occurred when trying to verify your subscription."
+msgstr "Er is een fout opgetreden bij het verifiëren van je abonnement."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/controllers/main.py:0
+msgid "Authentication Error: \n"
+msgstr "Authenticatiefout: \n"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/controllers/main.py:0
+msgid "Authentication Failed"
+msgstr "Authenticatie mislukt"
+
+#. module: l10n_be_intervat
+#: model:ir.model,name:l10n_be_intervat.model_l10n_be_reports_vat_return_lock_wizard
+msgid "Belgian Periodic VAT Report Lock Wizard"
+msgstr "Wizard voor Belgische periodieke btw-aangifte"
+
+#. module: l10n_be_intervat
+#: model:ir.model,name:l10n_be_intervat.model_l10n_be_tax_report_handler
+msgid "Belgian Tax Report Custom Handler"
+msgstr "Aangepaste handler voor Belgische btw-aangifte"
+
+#. module: l10n_be_intervat
+#: model:ir.model,name:l10n_be_intervat.model_certificate_certificate
+msgid "Certificate"
+msgstr "Certificaat"
+
+#. module: l10n_be_intervat
+#: model:ir.model,name:l10n_be_intervat.model_res_company
+msgid "Companies"
+msgstr "Bedrijven"
+
+#. module: l10n_be_intervat
+#: model:ir.model,name:l10n_be_intervat.model_res_config_settings
+msgid "Config Settings"
+msgstr "Configuratie-instellingen"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields.selection,name:l10n_be_intervat.selection__res_company__l10n_be_intervat_mode__disabled
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_account_return__display_name
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_certificate_certificate__display_name
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_reports_vat_return_lock_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_tax_report_handler__display_name
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__display_name
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Error while contacting IAP."
+msgstr "Fout bij het contacteren van IAP."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Error while generating the certificate."
+msgstr "Fout bij het genereren van het certificaat."
+
+#. module: l10n_be_intervat
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.l10n_be_intervat_account_return_kanban_view
+msgid "Fetch from Intervat"
+msgstr "Ophalen uit Intervat"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/controllers/main.py:0
+msgid "Fetching Error: \n"
+msgstr "Fout bij ophalen: \n"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_account_return__id
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_certificate_certificate__id
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_reports_vat_return_lock_wizard__id
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_tax_report_handler__id
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__id
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,help:l10n_be_intervat.field_res_config_settings__l10n_be_intervat_ecb
+msgid "Identification Number for selected type"
+msgstr "Identificatienummer voor geselecteerd type"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid ""
+"If you just submitted your declaration, you might need to wait until "
+"tomorrow to fetch the documents. You can still retrieve them from the "
+"Intervat Portal."
+msgstr ""
+"Als je zojuist je aanmelding hebt ingediend, moet je mogelijk tot morgen "
+"wachten om de documenten op te halen. Je kunt ze nog steeds ophalen via het "
+"Intervat-portaal."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Impossible to check the response signature."
+msgstr ""
+"Het is niet mogelijk om de handtekening van het antwoord te controleren."
+
+#. module: l10n_be_intervat
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.res_config_settings_view_form
+msgid "Intervat"
+msgstr "Intervat"
+
+#. module: l10n_be_intervat
+#: model:ir.actions.server,name:l10n_be_intervat.cron_intervat_refresh_token_ir_actions_server
+msgid "Intervat (BE): Update refresh token"
+msgstr "Intervat (BE): Verversingstoken updaten"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_client_id
+msgid "Intervat Client ID"
+msgstr "Intervat klant-ID"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_certificate_id
+msgid "Intervat JWT Certificate"
+msgstr "Intervat JWT-certificaat"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_private_key
+msgid "Intervat Private Key"
+msgstr "Intervat private sleutel"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_mode
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_config_settings__l10n_be_intervat_mode
+msgid "Intervat Server Mode"
+msgstr "Intervat servermodus"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_config_settings__l10n_be_intervat_ecb
+msgid "Intervat VAT number"
+msgstr "Intervat btw-nummer"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_config_settings.py:0
+msgid "Intervat connection closed."
+msgstr "Intervatverbinding verbroken."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Intervat is not activated. You can activate it in the settings."
+msgstr ""
+"Intervat is niet geactiveerd. Je kunt het activeren in de instellingen."
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_access_token
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_config_settings__l10n_be_intervat_access_token
+msgid "L10N Be Intervat Access Token"
+msgstr "L10N Be Intervat toegangstoken"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_code_challenge
+msgid "L10N Be Intervat Code Challenge"
+msgstr "L10N Be Intervat Code Challenge"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_code_verifier
+msgid "L10N Be Intervat Code Verifier"
+msgstr "L10N Be Intervat Code Verifier"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_certificate_certificate__l10n_be_intervat_jwk_kid
+msgid "L10N Be Intervat Jwk Kid"
+msgstr "L10N Be Intervat Jwk Kid"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_certificate_certificate__l10n_be_intervat_jwk_token
+msgid "L10N Be Intervat Jwk Token"
+msgstr "L10N Be Intervat Jwk Token"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_last_call_date
+msgid "L10N Be Intervat Last Call Date"
+msgstr "L10N Be Intervat Laatste oproepdatum"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_refresh_token
+msgid "L10N Be Intervat Refresh Token"
+msgstr "L10N Be Intervat Token vernieuwen"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_company__l10n_be_intervat_show_settings
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_res_config_settings__l10n_be_intervat_show_settings
+msgid "L10N Be Intervat Show Settings"
+msgstr "L10N Be Intervat Instellingen weergeven"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/account_report.py:0
+msgid "No VAT declaration found for this period."
+msgstr "Er is geen btw-aangifte gevonden voor deze periode."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Only an accountant can perform this action."
+msgstr "Alleen boekhouders kunnen deze handeling uitvoeren."
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__pdf_ref
+msgid "Pdf Ref"
+msgstr "Pdf-referentie"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields.selection,name:l10n_be_intervat.selection__res_company__l10n_be_intervat_mode__prod
+msgid "Production"
+msgstr "Productie"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_reports_vat_return_lock_wizard__is_rectification_needed
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.intervat_vat_return_lock_wizard
+msgid "Rectification"
+msgstr "Correctie"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__rectification_declaration_id
+msgid "Rectification Declaration"
+msgstr "Correctieverklaring"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_reports_vat_return_lock_wizard__rectification_ref
+msgid "Reference"
+msgstr "Referentie"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,help:l10n_be_intervat.field_l10n_be_reports_vat_return_lock_wizard__rectification_ref
+msgid ""
+"Reference of the declaration to correct (Declaration No. - VAT No. - Period) "
+"that is available in Intervat."
+msgstr ""
+"Referentie van de te corrigeren aangifte (Aangiftenummer - Btw-nummer - "
+"Periode) die beschikbaar is in Intervat."
+
+#. module: l10n_be_intervat
+#: model:ir.model,name:l10n_be_intervat.model_l10n_be_vat_declaration
+msgid "Represents a declaration sent through the Intervat API"
+msgstr "Vertegenwoordigt een aangifte die via de Intervat-API werd verzonden"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__return_id
+msgid "Return"
+msgstr "Aangifte"
+
+#. module: l10n_be_intervat
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.res_config_settings_view_form
+msgid "Server Mode"
+msgstr "Servermodus"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Set Intervat mode"
+msgstr "Intervat-modus instellen"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,help:l10n_be_intervat.field_res_config_settings__account_representative_id
+msgid ""
+"Specify an Accounting Firm that will act as a representative when exporting "
+"reports."
+msgstr ""
+"Geef een accountantskantoor op dat als vertegenwoordiger zal optreden bij "
+"het exporteren van rapportages."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/controllers/main.py:0
+#: code:addons/l10n_be_intervat/models/account_return.py:0
+msgid "Submission Error: \n"
+msgstr "Fout bij het verzenden: \n"
+
+#. module: l10n_be_intervat
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.res_config_settings_view_form
+msgid "Submit and fetch your VAT returns via Intervat using the API."
+msgstr ""
+"Dien je btw-aangiften in en haal ze op via Intervat met behulp van de API."
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields.selection,name:l10n_be_intervat.selection__res_company__l10n_be_intervat_mode__test
+msgid "Test"
+msgstr "Test"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "The library 'PyJWT' is missing, cannot verify the jwt signature."
+msgstr ""
+"De bibliotheek 'PyJWT' ontbreekt, de jwt-handtekening kan niet worden "
+"geverifieerd."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "The signature of the JWT is not matching."
+msgstr "De handtekening van de JWT komt niet overeen."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "The token is not valid yet."
+msgstr "Het token is nog niet geldig."
+
+#. module: l10n_be_intervat
+#: model_terms:ir.ui.view,arch_db:l10n_be_intervat.res_config_settings_view_form
+msgid "VAT Number"
+msgstr "Btw-nummer"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/account_return.py:0
+msgid ""
+"VAT return of period %(date_from)s -> %(date_to)s has been sent with the "
+"following references"
+msgstr ""
+"De btw-aangifte van de periode %(date_from)s -> %(date_to)s is verzonden met "
+"de volgende referenties"
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__xml_ref
+msgid "Xml Ref"
+msgstr "Xml-referentie"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "You do not have an Odoo Enterprise subscription."
+msgstr "Je hebt geen Odoo Enterprise-abonnement."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "You reached the call limit. Please try again in a moment."
+msgstr "Je hebt de oproeplimiet bereikt. Probeer het zo later opnieuw."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid ""
+"Your authentication with Intervat was incomplete. Please authenticate again "
+"and make sure you grant consent to both of the following"
+msgstr ""
+"Je authenticatie bij Intervat was onvolledig. Voer de authenticatie opnieuw "
+"uit zorg ervoor dat je toestemming verleent voor beide volgende punten"
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Your database UUID does not exist."
+msgstr "Je database-UUID bestaat niet."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Your database is not used for a production environment."
+msgstr "Je database wordt niet gebruikt voor een productieomgeving."
+
+#. module: l10n_be_intervat
+#. odoo-python
+#: code:addons/l10n_be_intervat/models/res_company.py:0
+msgid "Your database is not yet activated."
+msgstr "Je database is nog niet geactiveerd."
+
+#. module: l10n_be_intervat
+#: model:ir.model.fields,field_description:l10n_be_intervat.field_l10n_be_vat_declaration__declaration_file
+msgid "ZIP File"
+msgstr "ZIP-bestand"
+
+#~ msgid "Authentication Successful"
+#~ msgstr "Authenticatie gelukt"
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#~ msgid "Send your declaration now."
+#~ msgstr "Verstuur nu je angifte."
+
+#~ msgid ""
+#~ "The Tax Identification Number. Values here will be validated based on the "
+#~ "country format. You can use '/' to indicate that the partner is not "
+#~ "subject to tax."
+#~ msgstr ""
+#~ "Het fiscaal identificatienummer. De waarden hier worden gevalideerd op "
+#~ "basis van het formaat van het land. Je kan '/' gebruiken om aan te geven "
+#~ "dat de partner niet belastingplichtig is."
+
+#~ msgid "Your declaration has been fetched."
+#~ msgstr "Je aangifte is opgehaald."
+
+#~ msgid "Your declaration has been sent."
+#~ msgstr "Je aangifte is verzonden."

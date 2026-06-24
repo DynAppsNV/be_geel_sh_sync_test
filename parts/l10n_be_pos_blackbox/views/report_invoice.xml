@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_invoice_document" inherit_id="account.report_invoice_document">
+        <xpath expr="//div[@id='payment_term']" position="after">
+            <t t-if="o.sudo().pos_order_ids" t-set="order" t-value="o.sudo().pos_order_ids[0]"/>
+            <div t-if="order" class="small">
+                <div t-if="order.l10n_be_fdm_id">
+                    <br/>
+                    <div class="fw-bold">FDM Data:</div>
+                    fdmId: <t t-esc="order.l10n_be_fdm_id"/>
+                </div>
+                <div t-if="order.l10n_be_fdm_date_time">
+                    fdmDateTime: <t t-esc="order.l10n_be_fdm_date_time"/>
+                </div>
+                <div t-if="order.l10n_be_event_label">
+                    eventLabel: <t t-esc="order.l10n_be_event_label"/>
+                </div>
+                <div t-if="order.l10n_be_event_counter">
+                    eventCounter: <t t-esc="order.l10n_be_event_counter"/>
+                </div>
+                <div t-if="order.l10n_be_total_counter">
+                    totalCounter: <t t-esc="order.l10n_be_total_counter"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

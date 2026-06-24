@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Providers -->
+
+    <record id="platform_order_provider_company_rule" model="ir.rule">
+        <field name="name">Access providers in own companies only</field>
+        <field name="model_id" ref="pos_platform_order.model_platform_order_provider"/>
+        <field name="domain_force">[('company_id', 'parent_of', company_ids)]</field>
+    </record>
+
+    <!-- Stores -->
+
+    <record id="platform_order_store_company_rule" model="ir.rule">
+        <field name="name">Access stores in own companies only</field>
+        <field name="model_id" ref="pos_platform_order.model_platform_order_entity"/>
+        <field name="domain_force">[('company_id', 'parent_of', company_ids)]</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,741 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * delivery_ups
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:01+0000\n"
+"PO-Revision-Date: 2026-06-06 12:37+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/delivery_ups/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "A shipment cannot have a KGS/IN or LBS/CM as its unit of measurements. Configure it from the delivery method."
+msgstr ""
+"ການສົ່ງສິນຄ້າບໍ່ສາມາດໃຊ້ KGS/IN ຫຼື LBS/CM ເປັນຫົວໜ່ວຍວັດແທກໄດ້. ກະລຸນາຕັ້ງຄ່າຄືນໃໝ່ໃນວິທີການຈັດສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Access License number is Invalid. Provide a valid number (Length should be 0-35 alphanumeric characters)"
+msgstr ""
+"ໝາຍເລກອະນຸຍາດເຂົ້າໃຊ້ບໍ່ຖືກຕ້ອງ. ກະລຸນາລະບຸໝາຍເລກທີ່ຖືກຕ້ອງ (ຄວາມຍາວລະຫວ່າງ 0-35 ຕົວອັກສອນ ຫຼື ຕົ"
+"ວເລກ)"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Access License number is invalid for this delivery provider."
+msgstr "ໝາຍເລກອະນຸຍາດເຂົ້າໃຊ້ບໍ່ຖືກຕ້ອງ ສຳລັບຜູ້ໃຫ້ບໍລິການຈັດສົ່ງນີ້."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Access License number is invalid for this provider.Please re-license."
+msgstr ""
+"ໝາຍເລກອະນຸຍາດເຂົ້າໃຊ້ບໍ່ຖືກຕ້ອງສຳລັບຜູ້ໃຫ້ບໍລິການນີ້. ກະລຸນາລົງທະບຽນໃໝ່."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Access License number is revoked contact UPS to get access."
+msgstr "ໝາຍເລກອະນຸຍາດເຂົ້າໃຊ້ຖືກຍົກເລີກ ກະລຸນາຕິດຕໍ່ UPS ເພື່ອຂໍສິດເຂົ້າໃຊ້."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Authorization system is currently unavailable , try again later."
+msgstr "ລະບົບການອະນຸຍາດບໍ່ສາມາດໃຊ້ງານໄດ້ໃນຂະນະນີ້, ກະລຸນາລອງໃໝ່ພາຍຫຼັງ."
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_bill_my_account
+#: model:ir.model.fields,field_description:delivery_ups.field_res_partner__bill_my_account
+#: model:ir.model.fields,field_description:delivery_ups.field_res_users__bill_my_account
+#: model:ir.model.fields,field_description:delivery_ups.field_sale_order__ups_bill_my_account
+msgid "Bill My Account"
+msgstr "ເກັບເງິນຜ່ານບັນຊີຂອງຂ້ອຍ"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_cod_funds_code
+msgid "COD Funding Option"
+msgstr "ຕົວເລືອກການຊຳລະເງິນ COD"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Cancel shipment not available at this time , Please try again Later."
+msgstr "ການຍົກເລີກການສົ່ງສິນຄ້າບໍ່ສາມາດເຮັດໄດ້ໃນຂະນະນີ້, ກະລຸນາລອງໃໝ່ພາຍຫຼັງ."
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_stock_package_type__package_carrier_type
+msgid "Carrier"
+msgstr "ຜູ້ຂົນສົ່ງ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_cod_funds_code__8
+msgid "Cashier's Check or MoneyOrder"
+msgstr "ແຊັກທະນາຄານ ຫຼື ທະນາຄັດ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_dimension_unit__cm
+msgid "Centimeters"
+msgstr "ຊັງຕີແມັດ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_cod_funds_code__0
+msgid "Check, Cashier's Check or MoneyOrder"
+msgstr "ແຊັກ, ແຊັກທະນາຄານ ຫຼື ທະນາຄັດ"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_cod
+msgid "Collect on Delivery"
+msgstr "ເກັບເງິນປາຍທາງ"
+
+#. module: delivery_ups
+#: model:ir.model,name:delivery_ups.model_res_partner
+msgid "Contact"
+msgstr "ຜູ້ຕິດຕໍ່"
+
+#. module: delivery_ups
+#: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
+msgid "Duties paid by"
+msgstr "ພາສີຈ່າຍໂດຍ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_label_file_type__epl
+msgid "EPL"
+msgstr "EPL"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/delivery_ups.py:0
+msgid ""
+"Error:\n"
+"%s"
+msgstr ""
+"ຂໍ້ຜິດພາດ:\n"
+"%s"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Exceeds Total Number of allowed pieces per World Wide Express Shipment."
+msgstr "ເກີນຈຳນວນຊິ້ນສ່ວນທີ່ອະນຸຍາດຕໍ່ການສົ່ງແບບ World Wide Express."
+
+#. module: delivery_ups
+#: model:ir.model.fields,help:delivery_ups.field_delivery_carrier__ups_bill_my_account
+#: model:ir.model.fields,help:delivery_ups.field_res_partner__bill_my_account
+#: model:ir.model.fields,help:delivery_ups.field_res_users__bill_my_account
+#: model:ir.model.fields,help:delivery_ups.field_sale_order__ups_bill_my_account
+msgid ""
+"If checked, ecommerce users will be prompted their UPS account number\n"
+"and delivery fees will be charged on it."
+msgstr ""
+"ຫາກເລືອກ, ຜູ້ໃຊ້ ecommerce ຈະຕ້ອງລະບຸໝາຍເລກບັນຊີ UPS ແລະ ຄ່າຈັດສົ່ງຈະຖືກຮຽກເກັບຜ່ານບັນຊີດັ່ງກ່າວ."
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_dimension_unit__in
+msgid "Inches"
+msgstr "ນິ້ວ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_weight_unit__kgs
+msgid "Kilograms"
+msgstr "ກິໂລກຣາມ"
+
+#. module: delivery_ups
+#: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
+msgid "Label Format"
+msgstr "ຮູບແບບປ້າຍ"
+
+#. module: delivery_ups
+#: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
+msgid "Options"
+msgstr "ຕົວເລືອກ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_label_file_type__gif
+msgid "PDF"
+msgstr "PDF"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_package_dimension_unit
+msgid "Package Size Unit"
+msgstr "ຫົວໜ່ວຍຂະໜາດພັດສະດຸ"
+
+#. module: delivery_ups
+#: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
+msgid "Package Weight Unit"
+msgstr "ຫົວໜ່ວຍນ້ຳໜັກພັດສະດຸ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Packages %s do not have a positive shipping weight."
+msgstr "ພັດສະດຸ %s ບໍ່ມີນ້ຳໜັກການຈັດສົ່ງທີ່ຖືກຕ້ອງ (ຕ້ອງຫຼາຍກວ່າ 0)."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/delivery_ups.py:0
+msgid "Packages:"
+msgstr "ພັດສະດຸ:"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid City in the warehouse address."
+msgstr "ກະລຸນາລະບຸ ເມືອງ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງສາງສິນຄ້າ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid Country in recipient's address."
+msgstr "ກະລຸນາລະບຸ ປະເທດ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid Country in the warehouse address."
+msgstr "ກະລຸນາລະບຸ ປະເທດ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງສາງສິນຄ້າ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid State in the warehouse address."
+msgstr "ກະລຸນາລະບຸ ແຂວງ/ລັດ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງສາງສິນຄ້າ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid Zip in the warehouse address."
+msgstr "ກະລຸນາລະບຸ ລະຫັດໄປສະນີ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງສາງສິນຄ້າ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid city in the recipient address."
+msgstr "ກະລຸນາລະບຸ ເມືອງ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid city in the shipper's address."
+msgstr "ກະລຸນາລະບຸ ເມືອງ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid country in the shipper's address."
+msgstr "ກະລຸນາລະບຸ ປະເທດ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid package type available for service and selected locations."
+msgstr "ກະລຸນາລະບຸປະເພດພັດສະດຸທີ່ຮອງຮັບສຳລັບການບໍລິການ ແລະ ສະຖານທີ່ທີ່ເລືອກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid phone number for the recipient."
+msgstr "ກະລຸນາລະບຸເບີໂທລະສັບທີ່ຖືກຕ້ອງສຳລັບຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid shipper Number/Carrier Account."
+msgstr "ກະລຸນາລະບຸໝາຍເລກຜູ້ສົ່ງ/ບັນຊີຜູ້ຂົນສົ່ງທີ່ຖືກຕ້ອງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid shipper number/Carrier Account."
+msgstr "ກະລຸນາລະບຸໝາຍເລກຜູ້ສົ່ງ/ບັນຊີຜູ້ຂົນສົ່ງທີ່ຖືກຕ້ອງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid shipper phone number."
+msgstr "ກະລຸນາລະບຸເບີໂທລະສັບທີ່ຖືກຕ້ອງຂອງຜູ້ສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid state in the recipient address."
+msgstr "ກະລຸນາລະບຸ ແຂວງ/ລັດ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid state in the shipper's address."
+msgstr "ກະລຸນາລະບຸ ແຂວງ/ລັດ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid street in shipper's address."
+msgstr "ກະລຸນາລະບຸ ຖະໜົນ/ທີ່ຢູ່ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid street in the recipient address."
+msgstr "ກະລຸນາລະບຸ ຖະໜົນ/ທີ່ຢູ່ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid street in the warehouse address."
+msgstr "ກະລຸນາລະບຸ ຖະໜົນ/ທີ່ຢູ່ ທີ່ຖືກຕ້ອງ ໃນທີ່ຢູ່ຂອງສາງສິນຄ້າ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid warehouse Phone Number"
+msgstr "ກະລຸນາລະບຸເບີໂທລະສັບຂອງສາງສິນຄ້າທີ່ຖືກຕ້ອງ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid zip code in the recipient address."
+msgstr "ກະລຸນາລະບຸລະຫັດໄປສະນີທີ່ຖືກຕ້ອງໃນທີ່ຢູ່ຂອງຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid zip code in the shipper's address."
+msgstr "ກະລຸນາລະບຸລະຫັດໄປສະນີທີ່ຖືກຕ້ອງໃນທີ່ຢູ່ຂອງຜູ້ສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid zip code in the warehouse address."
+msgstr "ກະລຸນາລະບຸລະຫັດໄປສະນີທີ່ຖືກຕ້ອງໃນທີ່ຢູ່ຂອງສາງສິນຄ້າ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide a valid zipcode in the recipient address."
+msgstr "ກະລຸນາລະບຸລະຫັດໄປສະນີທີ່ຖືກຕ້ອງໃນທີ່ຢູ່ຂອງຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide at least one item to ship"
+msgstr "ກະລຸນາລະບຸສິນຄ້າຢ່າງໜ້ອຍໜຶ່ງລາຍການເພື່ອຈັດສົ່ງ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please provide at least one item to ship."
+msgstr "ກະລຸນາລະບຸສິນຄ້າຢ່າງໜ້ອຍໜຶ່ງລາຍການເພື່ອຈັດສົ່ງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please set a valid country in the recipient address."
+msgstr "ກະລຸນາລະບຸປະເທດທີ່ຖືກຕ້ອງໃນທີ່ຢູ່ຂອງຜູ້ຮັບ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Please set a valid country in the warehouse address."
+msgstr "ກະລຸນາລະບຸປະເທດທີ່ຖືກຕ້ອງໃນທີ່ຢູ່ຂອງສາງສິນຄ້າ."
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_weight_unit__lbs
+msgid "Pounds"
+msgstr "ປອນ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Provided Access License Number not found in the UPS database"
+msgstr "ບໍ່ພົບໝາຍເລກອະນຸຍາດເຂົ້າໃຊ້ທີ່ລະບຸໃນຖານຂໍ້ມູນຂອງ UPS"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Provided Tracking Ref. Number is invalid."
+msgstr "ໝາຍເລກອ້າງອີງການຕິດຕາມທີ່ລະບຸບໍ່ຖືກຕ້ອງ."
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_duty_payment__recipient
+msgid "Recipient"
+msgstr "ຜູ້ຮັບ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Recipient Phone must be at least 10 alphanumeric characters."
+msgstr "ເບີໂທລະສັບຜູ້ຮັບຕ້ອງມີຢ່າງໜ້ອຍ 10 ຕົວອັກສອນ ຫຼື ຕົວເລກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Recipient PhoneExtension cannot exceed the length of 4."
+msgstr "ເບີຕໍ່ໂທລະສັບຜູ້ຮັບຕ້ອງມີຄວາມຍາວບໍ່ເກີນ 4 ຕົວເລກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Recipient PhoneExtension must contain only numbers."
+msgstr "ເບີຕໍ່ໂທລະສັບຜູ້ຮັບຕ້ອງປະກອບດ້ວຍຕົວເລກເທົ່ານັ້ນ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/delivery_ups.py:0
+msgid "Return label generated"
+msgstr "ສ້າງປ້າຍສົ່ງຄືນແລ້ວ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_label_file_type__spl
+msgid "SPL"
+msgstr "SPL"
+
+#. module: delivery_ups
+#: model:ir.model,name:delivery_ups.model_sale_order
+msgid "Sales Order"
+msgstr "ໃບສັ່ງຊື້"
+
+#. module: delivery_ups
+#: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
+msgid "Saturday Delivery"
+msgstr "ຈັດສົ່ງວັນເສົາ"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_duty_payment__sender
+msgid "Sender"
+msgstr "ຜູ້ສົ່ງ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/delivery_ups.py:0
+msgid "Shipment #%s has been cancelled"
+msgstr "ການຈັດສົ່ງໝາຍເລກ #%s ຖືກຍົກເລີກແລ້ວ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/delivery_ups.py:0
+msgid "Shipment created into UPS"
+msgstr "ສ້າງລາຍການຈັດສົ່ງໃນ UPS ແລ້ວ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Shipper Phone must be at least 10 alphanumeric characters."
+msgstr "ເບີໂທລະສັບຜູ້ສົ່ງຕ້ອງມີຢ່າງໜ້ອຍ 10 ຕົວອັກສອນ ຫຼື ຕົວເລກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Shipper number must contain alphanumeric characters only."
+msgstr "ໝາຍເລກຜູ້ສົ່ງຕ້ອງປະກອບດ້ວຍຕົວອັກສອນ ຫຼື ຕົວເລກເທົ່ານັ້ນ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Shipper phone extension cannot exceed the length of 4."
+msgstr "ເບີຕໍ່ໂທລະສັບຜູ້ສົ່ງຕ້ອງມີຄວາມຍາວບໍ່ເກີນ 4 ຕົວເລກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Shipper phone extension must contain only numbers."
+msgstr "ເບີຕໍ່ໂທລະສັບຜູ້ສົ່ງຕ້ອງປະກອບດ້ວຍຕົວເລກເທົ່ານັ້ນ."
+
+#. module: delivery_ups
+#: model:ir.model,name:delivery_ups.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ"
+
+#. module: delivery_ups
+#: model:ir.model,name:delivery_ups.model_stock_package_type
+msgid "Stock package type"
+msgstr "ປະເພດພັດສະດຸໃນສາງ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The UserId is currently locked out; please try again in 24 hours."
+msgstr "ຊື່ຜູ້ໃຊ້ (UserId) ຖືກລັອກໃນເວລານີ້; ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນ 24 ຊົ່ວໂມງ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid ""
+"The address of your company is missing or wrong.\n"
+"(Missing field(s) : %s)"
+msgstr ""
+"ທີ່ຢູ່ຂອງບໍລິສັດທ່ານຂາດຫາຍໄປ ຫຼື ບໍ່ຖືກຕ້ອງ.\n"
+"(ຂໍ້ມູນທີ່ຂາດ: %s)"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid ""
+"The address of your warehouse is missing or wrong.\n"
+"(Missing field(s) : %s)"
+msgstr ""
+"ທີ່ຢູ່ຂອງສາງສິນຄ້າທ່ານຂາດຫາຍໄປ ຫຼື ບໍ່ຖືກຕ້ອງ.\n"
+"(ຂໍ້ມູນທີ່ຂາດ: %s)"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The delivery cannot be done because the weight of your product is missing."
+msgstr "ບໍ່ສາມາດຈັດສົ່ງໄດ້ເນື່ອງຈາກບໍ່ມີຂໍ້ມູນນ້ຳໜັກຂອງສິນຄ້າ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid ""
+"The estimated shipping price cannot be computed because the weight is missing for the following product(s): \n"
+" %s"
+msgstr ""
+"ບໍ່ສາມາດຄິດໄລ່ລາຄາຈັດສົ່ງໂດຍປະມານໄດ້ ເນື່ອງຈາກບໍ່ມີຂໍ້ມູນນ້ຳໜັກຂອງສິນຄ້າລຸ່ມນີ້: \n"
+" %s"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The maximum number of user access attempts was exceeded. So please try again later"
+msgstr "ທ່ານພະຍາຍາມເຂົ້າໃຊ້ເກີນຈຳນວນຄັ້ງທີ່ກຳນົດ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The name of the customer should be no more than 35 characters."
+msgstr "ຊື່ຂອງລູກຄ້າຄວນມີຄວາມຍາວບໍ່ເກີນ 35 ຕົວອັກສອນ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid ""
+"The recipient address is missing or wrong.\n"
+"(Missing field(s) : %s)"
+msgstr ""
+"ທີ່ຢູ່ຜູ້ຮັບຂາດຫາຍໄປ ຫຼື ບໍ່ຖືກຕ້ອງ.\n"
+"(ຂໍ້ມູນທີ່ຂາດ: %s)"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The requested service is unavailable between the selected locations."
+msgstr "ບໍລິການທີ່ຮ້ອງຂໍບໍ່ສາມາດໃຊ້ໄດ້ລະຫວ່າງສະຖານທີ່ທີ່ເລືອກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The selected service is invalid from the requested warehouse, please choose another service."
+msgstr "ບໍລິການທີ່ເລືອກບໍ່ສາມາດໃຊ້ໄດ້ຈາກສາງທີ່ຮ້ອງຂໍ, ກະລຸນາເລືອກບໍລິການອື່ນ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The selected service is invalid to the recipient address, please choose another service."
+msgstr ""
+"ບໍລິການທີ່ເລືອກບໍ່ສາມາດໃຊ້ໄດ້ກັບທີ່ຢູ່ຜູ້ຮັບນີ້, ກະລຸນາເລືອກບໍລິການອື່ນ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The selected service is not possible from your warehouse to the recipient address, please choose another service."
+msgstr ""
+"ບໍລິການທີ່ເລືອກບໍ່ສາມາດດຳເນີນການໄດ້ຈາກສາງຂອງທ່ານໄປຫາທີ່ຢູ່ຜູ້ຮັບ, ກະລຸນາເລືອກບໍລິການອື່ນ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "The selected service is not valid with the selected packaging."
+msgstr "ບໍລິການທີ່ເລືອກບໍ່ສາມາດໃຊ້ໄດ້ກັບຮູບແບບການບັນຈຸທີ່ເລືອກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "This measurement system is not valid for the selected country. Please switch from LBS/IN to KGS/CM (or vice versa). Configure it from delivery method"
+msgstr ""
+"ລະບົບການວັດແທກນີ້ບໍ່ຮອງຮັບໃນປະເທດທີ່ເລືອກ. ກະລຸນາປ່ຽນຈາກ LBS/IN ເປັນ KGS/CM (ຫຼື ໃນທາງກັບກັນ)"
+". ຕັ້ງຄ່າໄດ້ທີ່ວິທີການຈັດສົ່ງ"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "This measurement system is not valid for the selected country. Please switch from LBS/IN to KGS/CM (or vice versa). Configure it from the delivery method."
+msgstr ""
+"ລະບົບການວັດແທກນີ້ບໍ່ຮອງຮັບໃນປະເທດທີ່ເລືອກ. ກະລຸນາປ່ຽນຈາກ LBS/IN ເປັນ KGS/CM (ຫຼື ໃນທາງກັບກັນ)"
+". ຕັ້ງຄ່າໄດ້ທີ່ວິທີການຈັດສົ່ງ."
+
+#. module: delivery_ups
+#: model:ir.model.fields,help:delivery_ups.field_delivery_carrier__ups_cod
+msgid "This value added service enables UPS to collect the payment of the shipment from your customer."
+msgstr "ບໍລິການເສີມນີ້ຊ່ວຍໃຫ້ UPS ສາມາດເກັບເງິນຄ່າສິນຄ້າຈາກລູກຄ້າຂອງທ່ານໄດ້."
+
+#. module: delivery_ups
+#: model:ir.model.fields,help:delivery_ups.field_delivery_carrier__ups_saturday_delivery
+msgid "This value added service will allow you to ship the package on saturday also."
+msgstr "ບໍລິການເສີມນີ້ຈະຊ່ວຍໃຫ້ທ່ານສາມາດຈັດສົ່ງພັດສະດຸໃນວັນເສົາໄດ້."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/delivery_ups.py:0
+msgid "Tracking Numbers:"
+msgstr "ໝາຍເລກຕິດຕາມ:"
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__delivery_type__ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__stock_package_type__package_carrier_type__ups
+msgid "UPS"
+msgstr "UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_access_number
+msgid "UPS Access Key"
+msgstr "UPS Access Key"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_res_partner__property_ups_carrier_account
+#: model:ir.model.fields,field_description:delivery_ups.field_res_users__property_ups_carrier_account
+msgid "UPS Account Number"
+msgstr "ໝາຍເລກບັນຊີ UPS"
+
+#. module: delivery_ups
+#: model:delivery.carrier,name:delivery_ups.delivery_carrier_ups_be
+#: model:product.template,name:delivery_ups.product_product_delivery_ups_be_product_template
+msgid "UPS BE"
+msgstr "UPS BE"
+
+#. module: delivery_ups
+#: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
+msgid "UPS Configuration"
+msgstr "ການຕັ້ງຄ່າ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_label_file_type
+msgid "UPS Label File Type"
+msgstr "ປະເພດໄຟລ໌ປ້າຍ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_default_package_type_id
+msgid "UPS Package Type"
+msgstr "ປະເພດພັດສະດຸ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_passwd
+msgid "UPS Password"
+msgstr "ລະຫັດຜ່ານ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_saturday_delivery
+msgid "UPS Saturday Delivery"
+msgstr "ຈັດສົ່ງວັນເສົາ UPS"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "UPS Server Not Found"
+msgstr "ບໍ່ພົບເຊີບເວີ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_default_service_type
+msgid "UPS Service Type"
+msgstr "ປະເພດການບໍລິການ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_shipper_number
+msgid "UPS Shipper Number"
+msgstr "ໝາຍເລກຜູ້ສົ່ງ UPS"
+
+#. module: delivery_ups
+#: model_terms:ir.ui.view,arch_db:delivery_ups.res_config_settings_view_form_sale
+#: model_terms:ir.ui.view,arch_db:delivery_ups.res_config_settings_view_form_stock
+msgid "UPS Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ UPS"
+
+#. module: delivery_ups
+#: model:delivery.carrier,name:delivery_ups.delivery_carrier_ups_us
+#: model:product.template,name:delivery_ups.product_product_delivery_ups_us_product_template
+msgid "UPS US"
+msgstr "UPS US"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_username
+msgid "UPS Username"
+msgstr "ຊື່ຜູ້ໃຊ້ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_sale_order__partner_ups_carrier_account
+msgid "UPS account number"
+msgstr "ໝາຍເລກບັນຊີ UPS"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "UPS address lines can only contain a maximum of 35 characters. You can split the contacts addresses on multiple lines to try to avoid this limitation."
+msgstr ""
+"ທີ່ຢູ່ UPS ສາມາດມີຄວາມຍາວໄດ້ສູງສຸດ 35 ຕົວອັກສອນຕໍ່ແຖວ. ທ່ານສາມາດແບ່ງທີ່ຢູ່ອອກເປັນຫຼາຍແຖວເພື່ອຫຼີກລ່ຽງຂໍ້"
+"ຈຳກັດນີ້."
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_duty_payment
+msgid "Ups Duty Payment"
+msgstr "ການຊຳລະພາສີ UPS"
+
+#. module: delivery_ups
+#: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_package_weight_unit
+msgid "Ups Package Weight Unit"
+msgstr "ຫົວໜ່ວຍນ້ຳໜັກພັດສະດຸ UPS"
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Username/Password is invalid for this delivery provider."
+msgstr "ຊື່ຜູ້ໃຊ້/ລະຫັດຜ່ານ ບໍ່ຖືກຕ້ອງສຳລັບຜູ້ໃຫ້ບໍລິການຈັດສົ່ງນີ້."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Warehouse Phone must be at least 10 alphanumeric characters."
+msgstr "ເບີໂທລະສັບສາງສິນຄ້າຕ້ອງມີຢ່າງໜ້ອຍ 10 ຕົວອັກສອນ ຫຼື ຕົວເລກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Warehouse Phone must contain only numbers."
+msgstr "ເບີໂທລະສັບສາງສິນຄ້າຕ້ອງປະກອບດ້ວຍຕົວເລກເທົ່ານັ້ນ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/ups_request.py:0
+msgid "Warehouse PhoneExtension cannot exceed the length of 4."
+msgstr "ເບີຕໍ່ໂທລະສັບສາງສິນຄ້າຕ້ອງມີຄວາມຍາວບໍ່ເກີນ 4 ຕົວເລກ."
+
+#. module: delivery_ups
+#. odoo-python
+#: code:addons/delivery_ups/models/sale.py:0
+msgid "You must enter an UPS account number."
+msgstr "ທ່ານຕ້ອງປ້ອນໝາຍເລກບັນຊີ UPS."
+
+#. module: delivery_ups
+#: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_label_file_type__zpl
+msgid "ZPL"
+msgstr "ZPL"

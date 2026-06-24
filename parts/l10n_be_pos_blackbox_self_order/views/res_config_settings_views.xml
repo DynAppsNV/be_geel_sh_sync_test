@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.l10n_be_pos_blackbox_self_order</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="point_of_sale.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <block id="restaurant_section" position="inside">
+                <!-- Show only for Belgian kiosk config -->
+                <setting invisible="pos_l10n_be_country_code != 'BE' or not is_kiosk_mode" string="Belgian Blackbox" help="Connect to the Belgian Blackbox for fiscal compliance.">
+                    <field name="pos_l10n_be_blackbox_be_id" widget="many2one" options="{'no_create': True}"/>
+                    <div groups="base.group_no_one">
+                        <field name="pos_l10n_be_training_mode"/>
+                        <label for="pos_l10n_be_training_mode" string="Training mode" class="fw-normal me-1"/>
+                    </div>
+                    <div class="mt-2">
+                        <label for="pos_establishment_number" string="Establishment Number" class="me-3"/>
+                        <field name="pos_establishment_number"/>
+                    </div>
+                    <div class="mt-2">
+                        <label for="pos_l10n_be_pos_id" string="POS ID" class="me-3"/>
+                        <field name="pos_l10n_be_pos_id"/>
+                        <button name="action_request_pos_id" type="object" string="Request POS ID" class="btn btn-primary"/>
+                    </div>
+                </setting>
+            </block>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,44 @@
+{
+  "operationName": "M150_signInvoice",
+  "variables": {
+    "data": {
+      "language": "NL",
+      "vatNo": "BE0000000097",
+      "estNo": "2000000042",
+      "posId": "CPOS0031234567",
+      "posFiscalTicketNo": 1012,
+      "posDateTime": "2024-07-29T16:22:39+02:00",
+      "posSwVersion": "1.8.3",
+      "terminalId": "TER-1-BAR",
+      "deviceId": "b54a614f-39cc-4a7b-bd9f-aa6b693d769c",
+      "bookingPeriodId": "dffcd829-a0e5-41ca-a0ae-9eb887f95637",
+      "bookingDate": "2024-07294",
+      "ticketMedium": "NONE",
+      "employeeId": "75061189702",
+      "customerVatNo": "BE0308357159",
+      "costCenter": {
+        "id": "100",
+        "type": "CUSTOMER",
+        "reference": "FIN"
+      },
+      "invoiceNo": "20240005",
+      "fdmRefs": [
+        {
+          "fdmId": "FOD01000001",
+          "fdmDateTime": "2024-04-29T11:35:09Z",
+          "eventLabel": "N",
+          "eventCounter": 14,
+          "totalCounter": 50
+        },
+        {
+          "fdmId": "FOD01000001",
+          "fdmDateTime": "2024-07-29T11:48:04Z",
+          "eventLabel": "N",
+          "eventCounter": 16,
+          "totalCounter": 52
+        }
+      ]
+    }
+  },
+  "query": "mutation M150_signInvoice($data: InvoiceInput!, $training: Boolean! = false) {\n  signInvoice(data: $data, isTraining: $training) {\n    posId\n    posFiscalTicketNo\n    posDateTime\n    terminalId\n    deviceId\n    fdmSwVersion\n    eventOperation\n    digitalSignature\n    bufferCapacityUsed\n    fdmRef {\n      fdmId\n      fdmDateTime\n      eventLabel\n      eventCounter\n      totalCounter\n    }\n    warnings {\n      category\n      code\n      message\n      data {\n        name\n        value\n      }\n      showPos\n    }\n    informations {\n      category\n      code\n      message\n      data {\n        name\n        value\n      }\n      showPos\n    }\n  }\n}\n"
+}

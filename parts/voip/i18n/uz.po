@@ -1,0 +1,2212 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* voip
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:42+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.js:0
+#: code:addons/voip/static/src/softphone/tab_entry.js:0
+#: code:addons/voip/static/src/widgets/flag_phone_field.js:0
+#, fuzzy
+msgid "%(country)s flag"
+msgstr "%(country)s bayrog‘i"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/call_model.js:0
+#, fuzzy
+msgid "%(hours)s:%(minutes)s:%(seconds)s"
+msgstr "%(hours)s:%(minutes)s:%(seconds)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/call_model.js:0
+#, fuzzy
+msgid "%(minutes)s:%(seconds)s"
+msgstr "%(minutes)s:%(seconds)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.js:0
+#, fuzzy
+msgid "%(status)s - %(timer)s"
+msgstr "%(status)s - %(timer)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.js:0
+#, fuzzy
+msgid "%s others…"
+msgstr "Yana %s kishi..."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.js:0
+#, fuzzy
+msgid "1 other…"
+msgstr "Yana 1 kishi..."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.js:0
+#, fuzzy
+msgid "2 others…"
+msgstr "Yana 2 kishi..."
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-fw me-1 fa-phone text-primary\" title=\"Phone\"/>"
+msgstr "<i class=\"fa fa-fw me-1 fa-phone text-primary\" title=\"Telefon\"/>"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"A hardware error has occurred while trying to access the audio recording "
+"device. Please ensure that your drivers are up to date and try again."
+msgstr ""
+"Audio yozib olish qurilmasiga ulanishda apparat xatosi yuz berdi. Iltimos, "
+"drayverlaring yangilanganini tekshiring va qayta urinib ko‘ring."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__state__aborted
+#, fuzzy
+msgid "Aborted"
+msgstr "To‘xtatildi"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Aborted call to %(phone_number)s"
+msgstr "%(phone_number)s raqamiga qo‘ng‘iroq to‘xtatildi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_invitation.xml:0
+#, fuzzy
+msgid "Accept the call"
+msgstr "Qo‘ng‘iroqni qabul qilish"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_needaction
+#, fuzzy
+msgid "Action Needed"
+msgstr "Harakat talab etiladi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.js:0
+#, fuzzy
+msgid "Activities"
+msgstr "Faoliyatlar"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#: code:addons/voip/static/src/softphone/call_invitation.xml:0
+#: code:addons/voip/static/src/softphone/call_summary.xml:0
+#: code:addons/voip/static/src/softphone/history.xml:0
+#: code:addons/voip/static/src/softphone/keypad.xml:0
+#: model:ir.model,name:voip.model_mail_activity
+#, fuzzy
+msgid "Activity"
+msgstr "Faoliyat"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__activity_name
+#, fuzzy
+msgid "Activity Name"
+msgstr "Faoliyat nomi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/web/call_queue_switch.js:0
+#, fuzzy
+msgid "Add to Call Queue"
+msgstr "Qo‘ng‘iroqlar navbatiga qo‘shish"
+
+#. module: voip
+#: model:res.groups,name:voip.group_voip_admin
+#, fuzzy
+msgid "Administrator"
+msgstr "Administrator"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users_settings__how_to_call_on_mobile__ask
+#, fuzzy
+msgid "Always Ask"
+msgstr "Doimo so‘rash"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users__how_to_call_on_mobile__ask
+#, fuzzy
+msgid "Always ask before calling"
+msgstr "Qo‘ng‘iroq qilishdan oldin doimo so‘rash"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"An error occured involving the audio recording device (%(errorName)s):\n"
+"%(errorMessage)s"
+msgstr ""
+"Audio yozib olish qurilmasida xatolik yuz berdi (%(errorName)s): %"
+"(errorMessage)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"An error occurred during the instantiation of the User Agent:\n"
+"\n"
+"%(error)s"
+msgstr "Foydalanuvchi agentini yaratishda xatolik yuz berdi: %(error)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"An error occurred trying to invite the following number: %(phoneNumber)s\n"
+"\n"
+"Error: %(error)s"
+msgstr ""
+"Quyidagi raqamga qo‘ng‘iroq qilishda xatolik yuz berdi: %(phoneNumber)s "
+"Xato: %(error)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid "An error occurred while attempting to answer the incoming call."
+msgstr "Kiruvchi qo‘ng‘iroqqa javob berishda xatolik yuz berdi."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid ""
+"Are you sure you want to delete this activity? It will be lost forever! (A "
+"long time!)"
+msgstr ""
+"Bu faoliyatni o‘chirib tashlashni xohlaysizmi? U butunlay yo‘q bo‘lib "
+"ketadi! (Uzoq vaqtga!)"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/transfer_confirmation.xml:0
+#, fuzzy
+msgid "Ask First"
+msgstr "Avval so‘rash"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_attachment_count
+#, fuzzy
+msgid "Attachment Count"
+msgstr "Ilovalar soni"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/dnd_selector.js:0
+#: code:addons/voip/static/src/softphone/dnd_selector.xml:0
+#, fuzzy
+msgid "Available"
+msgstr "Mavjud"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__avatar_128
+#, fuzzy
+msgid "Avatar 128"
+msgstr "128 hajmli avatar"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.xml:0
+#: code:addons/voip/static/src/softphone/search_bar.xml:0
+#, fuzzy
+msgid "Back"
+msgstr "Orqaga"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.xml:0
+#, fuzzy
+msgid "Backspace"
+msgstr "Orqa o‘chirish"
+
+#. module: voip
+#. odoo-javascript
+#. odoo-python
+#: code:addons/voip/models/voip_queue_mixin.py:0
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#: code:addons/voip/static/src/softphone/call_summary.xml:0
+#: code:addons/voip/static/src/softphone/dialer.xml:0
+#: code:addons/voip/static/src/softphone/history.xml:0
+#: code:addons/voip/static/src/softphone/keypad.xml:0
+#, fuzzy
+msgid "Call"
+msgstr "Qo‘ng‘iroq"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__call_count
+#, fuzzy
+msgid "Call Count"
+msgstr "Qo‘ng‘iroqlar soni"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_summary.js:0
+#, fuzzy
+msgid "Call Missed (%(time)s)"
+msgstr "Qo‘ng‘iroq amalga oshmadi (%(time)s)"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_provider_tree_view
+#: model_terms:ir.ui.view,arch_db:voip.voip_provider_view_form
+#, fuzzy
+msgid "Call Recording"
+msgstr "Qo‘ng‘iroqni yozib olish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Call Status Badge"
+msgstr "Qo‘ng‘iroq holati belgisi"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "Call Via Desk Phone"
+msgstr "Ish telefoni orqali qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_summary.js:0
+#, fuzzy
+msgid "Call cancelled (%(time)s)"
+msgstr "Qo‘ng‘iroq bekor qilindi (%(time)s)"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_summary.js:0
+#, fuzzy
+msgid "Call declined (%(time)s)"
+msgstr "Qo‘ng‘iroq rad etildi (%(time)s)"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Call from %(correspondent)s"
+msgstr "%(correspondent)s dan qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Call from %(phone_number)s"
+msgstr "%(phone_number)s dan qo‘ng‘iroq"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__should_call_from_another_device
+#, fuzzy
+msgid "Call from another device"
+msgstr "Boshqa qurilmadan qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#, fuzzy
+msgid "Call rejected (reason: “%(reasonPhrase)s”)"
+msgstr "Qo‘ng‘iroq rad etildi (sabab: \"%(reasonPhrase)s\")"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Call to %(correspondent)s"
+msgstr "%(correspondent)s ga qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Call to %(phone_number)s"
+msgstr "%(phone_number)s raqamiga qo‘ng‘iroq"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users__how_to_call_on_mobile__voip
+#, fuzzy
+msgid "Call with Odoo Phone"
+msgstr "Odoo telefoni orqali qo‘ng‘iroq"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users__how_to_call_on_mobile__phone
+#, fuzzy
+msgid "Call with phone's default app"
+msgstr "Telefonning asosiy ilovasi orqali qo‘ng‘iroq"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__state__calling
+#, fuzzy
+msgid "Calling"
+msgstr "Qo‘ng‘iroq qilinmoqda"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#, fuzzy
+msgid "Calling…"
+msgstr "Qo‘ng‘iroq qilinmoqda..."
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#: model:ir.actions.act_window,name:voip.voip_call_view
+#: model:ir.ui.menu,name:voip.menu_voip_call_view
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_tree_view
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_form
+#, fuzzy
+msgid "Calls"
+msgstr "Qo‘ng‘iroqlar"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_graph
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_pivot
+#, fuzzy
+msgid "Calls Analysis"
+msgstr "Qo‘ng‘iroqlar tahlili"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/devise_selection_dialog.xml:0
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#, fuzzy
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/transfer_confirmation.xml:0
+#, fuzzy
+msgid "Cancel transfer"
+msgstr "O‘tkazmani bekor qilish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Cancelled Call"
+msgstr "Bekor qilingan qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#, fuzzy
+msgid "Cancelled call"
+msgstr "Bekor qilingan qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"Cannot access audio recording device. If you have denied access to your "
+"microphone, please allow it and try again. Otherwise, make sure that this "
+"website is running over HTTPS and that your browser is not set to deny "
+"access to media devices."
+msgstr ""
+"Audio yozish qurilmasiga kirishning iloji yo‘q. Agar mikrofoningizga ruxsat "
+"bermagan bo‘lsangiz, iltimos, ruxsat bering va qayta urinib ko‘ring. Aks "
+"holda, ushbu veb-sayt HTTPS orqali ishlayotganini va brauzeringiz multimedia "
+"qurilmalariga kirishni taqiqlamaganini tekshiring."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/devise_selection_dialog.xml:0
+#, fuzzy
+msgid "Choose a device:"
+msgstr "Qurilmani tanlang:"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users_settings__how_to_call_on_mobile
+#, fuzzy
+msgid ""
+"Choose which app to open when clicking on a phone number in the Odoo Mobile "
+"app."
+msgstr ""
+"Odoo mobil ilovasida telefon raqamini bosganingizda qaysi ilova ochilishini "
+"tanlang."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_provider__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_mail_activity__country_code_from_phone
+#: model:ir.model.fields,help:voip.field_res_partner__country_code_from_phone
+#: model:ir.model.fields,help:voip.field_res_users__country_code_from_phone
+#: model:ir.model.fields,help:voip.field_voip_call__country_code_from_phone
+#: model:ir.model.fields,help:voip.field_voip_country_code_mixin__country_code_from_phone
+#, fuzzy
+msgid ""
+"Computes the country ISO code (e.g. be for Belgium) from the phone number "
+"dialing code (e.g. +32), if any.\n"
+"Useful for displaying the flag associated with a phone number."
+msgstr ""
+"Telefon raqamining terish kodidan (masalan, +32) mamlakatning ISO kodini "
+"(masalan, Belgiya uchun be) hisoblaydi. Bu telefon raqamiga tegishli "
+"bayroqni ko‘rsatish uchun foydali."
+
+#. module: voip
+#: model:ir.ui.menu,name:voip.menu_voip_call_configuration
+#, fuzzy
+msgid "Configuration"
+msgstr "Sozlamalar"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/call_method_selection_dialog.xml:0
+#: code:addons/voip/static/src/mobile/devise_selection_dialog.xml:0
+#, fuzzy
+msgid "Confirm"
+msgstr "Tasdiqlash"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#, fuzzy
+msgid "Confirm Transfer"
+msgstr "O‘tkazmani tasdiqlash"
+
+#. module: voip
+#: model_terms:ir.actions.act_window,help:voip.action_voip_provider_view
+#, fuzzy
+msgid "Connect Odoo to your VoIP service by adding a provider."
+msgstr "Provayder qo‘shish orqali Odoo-ni VoIP xizmatingizga ulang."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid "Connecting…"
+msgstr "Ulanmoqda..."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#: code:addons/voip/static/src/softphone/call_invitation.xml:0
+#: code:addons/voip/static/src/softphone/call_summary.xml:0
+#: code:addons/voip/static/src/softphone/history.xml:0
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#: code:addons/voip/static/src/softphone/keypad.xml:0
+#: model:ir.model,name:voip.model_res_partner
+#: model:ir.model.fields,field_description:voip.field_voip_call__partner_id
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_tree_view
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_form
+#, fuzzy
+msgid "Contact Avatar"
+msgstr "Kontakt avatari"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#: code:addons/voip/static/src/softphone/softphone.js:0
+#, fuzzy
+msgid "Contacts"
+msgstr "Kontaktlar"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#, fuzzy
+msgid "Contacts with a phone number will be shown here."
+msgstr "Telefon raqami mavjud kontaktlar shu yerda ko‘rsatiladi."
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_country
+#: model:ir.model.fields,field_description:voip.field_voip_call__country_id
+#, fuzzy
+msgid "Country"
+msgstr "Mamlakat"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__country_flag_url
+#, fuzzy
+msgid "Country Flag"
+msgstr "Mamlakat bayrog‘i"
+
+#. module: voip
+#: model:ir.model,website_form_label:voip.model_res_partner
+#, fuzzy
+msgid "Create a Customer"
+msgstr "Mijoz yaratish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#, fuzzy
+msgid "Create a new contact"
+msgstr "Yangi kontakt yaratish"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__create_uid
+#: model:ir.model.fields,field_description:voip.field_voip_provider__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__create_date
+#: model:ir.model.fields,field_description:voip.field_voip_provider__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "Credentials"
+msgstr "Hisob ma'lumotlari"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_tree_view
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Date"
+msgstr "Sana"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__how_to_call_on_mobile
+#, fuzzy
+msgid "Default phone app"
+msgstr "Standart telefon ilovasi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/contact_info.js:0
+#, fuzzy
+msgid "Default profile picture"
+msgstr "Standart profil rasmi"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_provider__mode__demo
+#, fuzzy
+msgid "Demo"
+msgstr "Namoyish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.xml:0
+#, fuzzy
+msgid "Demo Mode"
+msgstr "Namoyish rejimi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#, fuzzy
+msgid "Demo call"
+msgstr "Namoyish qo‘ng‘irog‘i"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/transfer_confirmation.xml:0
+#, fuzzy
+msgid "Direct transfer"
+msgstr "To‘g‘ridan-to‘g‘ri o‘tkazma"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__direction
+#, fuzzy
+msgid "Direction"
+msgstr "Yo‘nalish"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_provider__recording_policy__disabled
+#, fuzzy
+msgid "Disabled"
+msgstr "O‘chirilgan"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity__display_name
+#: model:ir.model.fields,field_description:voip.field_res_country__display_name
+#: model:ir.model.fields,field_description:voip.field_res_partner__display_name
+#: model:ir.model.fields,field_description:voip.field_res_users__display_name
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__display_name
+#: model:ir.model.fields,field_description:voip.field_voip_call__display_name
+#: model:ir.model.fields,field_description:voip.field_voip_country_code_mixin__display_name
+#: model:ir.model.fields,field_description:voip.field_voip_provider__display_name
+#: model:ir.model.fields,field_description:voip.field_voip_queue_mixin__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/dnd_selector.js:0
+#: code:addons/voip/static/src/softphone/dnd_selector.xml:0
+#, fuzzy
+msgid "Do Not Disturb"
+msgstr "Bezovta qilmaslik"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__do_not_disturb_until_dt
+#, fuzzy
+msgid "Do Not Disturb until"
+msgstr "Bezovta qilmaslik muddati"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/dnd_selector.js:0
+#, fuzzy
+msgid "Do Not Disturb until %(time)s"
+msgstr "%(time)s gacha bezovta qilmaslik"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/dnd_selector.js:0
+#, fuzzy
+msgid "Do Not Disturb until I turn it back on"
+msgstr "Men qayta yoqmagunimcha bezovta qilmaslik"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#, fuzzy
+msgid "Done"
+msgstr "Bajarildi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid "Due: %(date)s"
+msgstr "Muddati: %(date)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid "Due: Today"
+msgstr "Muddati: Bugun"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid "Due: Tomorrow"
+msgstr "Muddati: Ertaga"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid "Due: Yesterday"
+msgstr "Muddati: Kecha"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__duration
+#, fuzzy
+msgid "Duration"
+msgstr "Davomiyligi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#, fuzzy
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.xml:0
+#, fuzzy
+msgid "Email"
+msgstr "Elektron pochta"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__end_date
+#, fuzzy
+msgid "End Date"
+msgstr "Tugash sanasi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Ended unexpectedly"
+msgstr "Kutilmaganda yakunlandi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.js:0
+#, fuzzy
+msgid "Enforced by admin"
+msgstr "Administrator tomonidan majburlangan"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"Error message:\n"
+"%s"
+msgstr "Xato xabari: %s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#, fuzzy
+msgid "Error putting the call on hold:"
+msgstr "Chaqiruvni ushlab turishda xatolik yuz berdi:"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#, fuzzy
+msgid "Error resuming the call:"
+msgstr "Chaqiruvni davom ettirishda xatolik:"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.xml:0
+#, fuzzy
+msgid "Expand history"
+msgstr "Tarixni kengaytirish"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "External"
+msgstr "Tashqi"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__external_device_number
+#, fuzzy
+msgid "External Device Number"
+msgstr "Tashqi qurilma raqami"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__external_device_number
+#, fuzzy
+msgid "External device number"
+msgstr "Tashqi qurilma raqami"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"Failed to load the SIP.js library:\n"
+"\n"
+"%(error)s"
+msgstr "SIP.js kutubxonasini yuklashda xatolik: %(error)s"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_follower_ids
+#, fuzzy
+msgid "Followers"
+msgstr "Kuzatuvchilar"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_partner_ids
+#, fuzzy
+msgid "Followers (Partners)"
+msgstr "Kuzatuvchilar (Hamkorlar)"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_provider__recording_policy__always
+#, fuzzy
+msgid "Force for all users"
+msgstr "Barcha foydalanuvchilar uchun majburiy"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_provider__recording_policy_option__always
+#, fuzzy
+msgid "Force recording of all calls. Users can't disable it."
+msgstr ""
+"Barcha qo‘ng‘iroqlarni majburiy yozib olish. Foydalanuvchilar buni o‘chira "
+"olmaydi."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_banner.xml:0
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#, fuzzy
+msgid "Hang up"
+msgstr "Tugatish"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__has_message
+#, fuzzy
+msgid "Has Message"
+msgstr "Xabar mavjud"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.xml:0
+#, fuzzy
+msgid "Hide"
+msgstr "Yashirish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/web/voip_systray_item.js:0
+#, fuzzy
+msgid "Hide Softphone"
+msgstr "Softfonni yashirish"
+
+#. module: voip
+#: model:ir.actions.act_window,name:voip.voip_call_action_history
+#, fuzzy
+msgid "History"
+msgstr "Tarix"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#, fuzzy
+msgid "Hold"
+msgstr "Ushlab turish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid "Hold your horses!"
+msgstr "Shoshilmang!"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__how_to_call_on_mobile
+#, fuzzy
+msgid "How To Call On Mobile"
+msgstr "Mobil qurilmaga qanday qo‘ng‘iroq qilish"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity__id
+#: model:ir.model.fields,field_description:voip.field_res_country__id
+#: model:ir.model.fields,field_description:voip.field_res_partner__id
+#: model:ir.model.fields,field_description:voip.field_res_users__id
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__id
+#: model:ir.model.fields,field_description:voip.field_voip_call__id
+#: model:ir.model.fields,field_description:voip.field_voip_country_code_mixin__id
+#: model:ir.model.fields,field_description:voip.field_voip_provider__id
+#: model:ir.model.fields,field_description:voip.field_voip_queue_mixin__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__message_needaction
+#, fuzzy
+msgid "If checked, new messages require your attention."
+msgstr "Agar belgilansa, yangi xabarlar e'tiboringizni talab qiladi."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__message_has_error
+#: model:ir.model.fields,help:voip.field_voip_call__message_has_sms_error
+#, fuzzy
+msgid "If checked, some messages have a delivery error."
+msgstr "Agar belgilansa, ba'zi xabarlarda yetkazib berish xatosi bor."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users_settings__do_not_disturb_until_dt
+#, fuzzy
+msgid "If set, Odoo Phone will be in Do Not Disturb mode until this time."
+msgstr ""
+"Agar o‘rnatilsa, Odoo Phone ushbu vaqtgacha Bezovta qilmaslik rejimida "
+"bo‘ladi."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__image_1920
+#, fuzzy
+msgid "Image"
+msgstr "Rasm"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.js:0
+#, fuzzy
+msgid "In call"
+msgstr "Suhbatda"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__direction__incoming
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Incoming"
+msgstr "Kiruvchi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Incoming call"
+msgstr "Kiruvchi qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#, fuzzy
+msgid "Incoming call (%(duration)s)"
+msgstr "Kiruvchi qo‘ng‘iroq (%(duration)s)"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/dnd_selector.js:0
+#, fuzzy
+msgid "Incoming calls will be muted"
+msgstr "Kiruvchi qo‘ng‘iroqlar ovozsiz qilinadi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.js:0
+msgid "Incoming call…"
+msgstr ""
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/device_selection_dialog.js:0
+#, fuzzy
+msgid "Input device selection"
+msgstr "Kirish qurilmasini tanlash"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Internal"
+msgstr "Ichki"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_is_follower
+#, fuzzy
+msgid "Is Follower"
+msgstr "Kuzatuvchi"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__is_within_same_company
+#, fuzzy
+msgid "Is Within Same Company"
+msgstr "Bir kompaniya doirasida"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_partner__has_call_in_queue
+#: model:ir.model.fields,field_description:voip.field_res_users__has_call_in_queue
+#: model:ir.model.fields,field_description:voip.field_voip_queue_mixin__has_call_in_queue
+#, fuzzy
+msgid "Is in the Call Queue"
+msgstr "Qo‘ng‘iroq navbatida"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"It appears that the server may not be using the correct media type. Please "
+"have your administrator verify that the media type is correctly set to SRTP-"
+"DTLS."
+msgstr ""
+"Server to‘g‘ri media turidan foydalanmayotganga o‘xshaydi. "
+"Administratoringizdan media turi SRTP-DTLS sifatida to‘g‘ri o‘rnatilganini "
+"tekshirishini so‘rang."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#: code:addons/voip/static/src/softphone/softphone.js:0
+#, fuzzy
+msgid "Keypad"
+msgstr "Tugmalar"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Last 7 Days"
+msgstr "So‘nggi 7 kun"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__last_seen_phone_call
+#, fuzzy
+msgid "Last Seen Phone Call"
+msgstr "Oxirgi ko‘rilgan telefon qo‘ng‘iroq"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__write_uid
+#: model:ir.model.fields,field_description:voip.field_voip_provider__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilagan"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__write_date
+#: model:ir.model.fields,field_description:voip.field_voip_provider__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_summary.js:0
+#, fuzzy
+msgid "Lasted: %(duration)s"
+msgstr "Davom etdi: %(duration)s"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_provider__recording_policy__user
+#, fuzzy
+msgid "Let users decide"
+msgstr "Foydalanuvchilar o‘zlari hal qilsin"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_provider__recording_policy_option__user
+#, fuzzy
+msgid "Let users decide when to record."
+msgstr "Foydalanuvchilar qachon yozib olishni o‘zlari hal qilsin."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_main_attachment_id
+#, fuzzy
+msgid "Main Attachment"
+msgstr "Asosiy ilova"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "Manage Providers"
+msgstr "Provayderlarni boshqarish"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_has_error
+#, fuzzy
+msgid "Message Delivery error"
+msgstr "Xabar yetkazib berishda xatolik"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_ids
+#, fuzzy
+msgid "Messages"
+msgstr "Xabarlar"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid "Missclicked, sorry"
+msgstr "Sichqoncha xato bosildi, uzr"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__state__missed
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Missed"
+msgstr "O‘tkazib yuborildi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Missed Call"
+msgstr "Javobsiz qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#, fuzzy
+msgid "Missed call"
+msgstr "Javobsiz qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Missed call from %(phone_number)s"
+msgstr "%(phone_number)s raqamidan javobsiz qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#, fuzzy
+msgid "Mute"
+msgstr "Ovozsiz"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "My Calls"
+msgstr "Qo‘ng‘iroqlarim"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.js:0
+#: model:ir.model.fields,field_description:voip.field_voip_provider__name
+#, fuzzy
+msgid "Name"
+msgstr "Ism"
+
+#. module: voip
+#: model_terms:ir.actions.act_window,help:voip.voip_call_view
+#, fuzzy
+msgid "No Calls Yet!"
+msgstr "Hali qo‘ng‘iroqlar yo‘q!"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"No audio recording device available. The application requires a microphone "
+"in order to be used."
+msgstr ""
+"Audio yozish qurilmasi mavjud emas. Ilova ishlashi uchun mikrofon talab "
+"etiladi."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#, fuzzy
+msgid "No call activities found"
+msgstr "Hech qanday qo‘ng‘iroq faoliyati topilmadi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#, fuzzy
+msgid "No calls scheduled for today 😎"
+msgstr "Bugun rejalashtirilgan qo‘ng‘iroqlar yo‘q 😎"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#, fuzzy
+msgid "No contacts found"
+msgstr "Kontaktlar topilmadi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.xml:0
+#, fuzzy
+msgid "No recent calls found"
+msgstr "So‘nggi qo‘ng‘iroqlar topilmadi"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "No redirect"
+msgstr "Yo‘naltirish yo‘q"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/tab.xml:0
+#, fuzzy
+msgid "No search results 💔"
+msgstr "Qidiruv natijalari topilmadi 💔"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/tab.js:0
+#, fuzzy
+msgid "Nothing to see here 😔"
+msgstr "Bu yerda ko‘radigan narsa yo‘q 😔"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_needaction_counter
+#, fuzzy
+msgid "Number of Actions"
+msgstr "Harakatlar soni"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_has_error_counter
+#, fuzzy
+msgid "Number of errors"
+msgstr "Xatolar soni"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__message_needaction_counter
+#, fuzzy
+msgid "Number of messages requiring action"
+msgstr "Amal talab qiladigan xabarlar soni"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__message_has_error_counter
+#, fuzzy
+msgid "Number of messages with delivery error"
+msgstr "Yetkazib berishda xato yuz bergan xabarlar soni"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users_settings__how_to_call_on_mobile__voip
+#, fuzzy
+msgid "Odoo Phone"
+msgstr "Odoo telefoni"
+
+#. module: voip
+#: model:res.groups,name:voip.group_voip_officer
+#, fuzzy
+msgid "Officer"
+msgstr "Xodim"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "On Mobile"
+msgstr "Mobil telefonida"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#, fuzzy
+msgid "On hold"
+msgstr "Kutish rejimida"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__state__ongoing
+#, fuzzy
+msgid "Ongoing"
+msgstr "Davom etmoqda"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Ongoing Call"
+msgstr "Joriy qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#, fuzzy
+msgid "Open related record"
+msgstr "Tegishli yozuvni ochish"
+
+#. module: voip
+#: model_terms:ir.actions.act_window,help:voip.voip_call_view
+#, fuzzy
+msgid "Open the softphone in the systray at the top to make your first call."
+msgstr ""
+"Birinchi qo‘ng‘iroqni amalga oshirish uchun yuqoridagi tizim panelida "
+"yumshoq telefonni oching."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__direction__outgoing
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Outgoing"
+msgstr "Chiquvchi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Outgoing call"
+msgstr "Chiquvchi qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#, fuzzy
+msgid "Outgoing call (%(duration)s)"
+msgstr "Chiquvchi qo‘ng‘iroq (%(duration)s)"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.js:0
+msgid "Outgoing call…"
+msgstr ""
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_provider__pbx_ip
+#, fuzzy
+msgid "PBX Server IP"
+msgstr "ATS serveri IP manzili"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid "PBX or Websocket address is missing. Please check your settings."
+msgstr ""
+"ATS yoki Websocket manzili yo‘q. Iltimos, sozlamalaringizni tekshiring."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity__phone
+#: model:ir.ui.menu,name:voip.menu_voip_root
+#, fuzzy
+msgid "Phone"
+msgstr "Telefon"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_country_code_mixin
+msgid "Phone Country Mixin"
+msgstr ""
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__phone_number
+#, fuzzy
+msgid "Phone Number"
+msgstr "Telefon raqami"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_call
+#, fuzzy
+msgid "Phone call"
+msgstr "Telefon qo‘ng‘irog‘i"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/keypad.js:0
+#, fuzzy
+msgid "Phone number"
+msgstr "Telefon raqami"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users_settings__how_to_call_on_mobile__phone
+#, fuzzy
+msgid "Phone's Default App"
+msgstr "Telefonning standart ilovasi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid "Please accept the use of the microphone."
+msgstr "Iltimos, mikrofondan foydalanishga ruxsat bering."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/registerer.js:0
+#, fuzzy
+msgid ""
+"Please try again later. If the problem persists, you may want to ask an "
+"administrator to check the configuration."
+msgstr ""
+"Iltimos, keyinroq qayta urinib ko‘ring. Agar muammo davom etsa, "
+"administratordan konfiguratsiyani tekshirishni so‘rashingiz mumkin."
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "Preferences"
+msgstr "Sozlamalar"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/web/voip_systray_item.js:0
+#, fuzzy
+msgid "Processing…"
+msgstr "Qayta ishlanmoqda..."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_provider__mode__prod
+#, fuzzy
+msgid "Production"
+msgstr "Ishlab chiqarish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/tab_entry.xml:0
+#, fuzzy
+msgid "Profile picture"
+msgstr "Profil rasmi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/contact_info.js:0
+#, fuzzy
+msgid "Profile picture of %(user)s"
+msgstr "%(user)s foydalanuvchisining profil rasmi"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "Provider"
+msgstr "Provayder"
+
+#. module: voip
+#: model:ir.ui.menu,name:voip.voip_provider_view_inner_menu
+#, fuzzy
+msgid "Providers"
+msgstr "Provayderlar"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__rating_ids
+#, fuzzy
+msgid "Ratings"
+msgstr "Reytinglar"
+
+#. module: voip
+#: model_terms:ir.actions.act_window,help:voip.action_voip_provider_view
+#, fuzzy
+msgid "Ready to Start Calling?"
+msgstr "Qo‘ng‘iroq qilishni boshlashga tayyormisiz?"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.js:0
+#, fuzzy
+msgid "Recent"
+msgstr "Yaqinda"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#, fuzzy
+msgid "Recent Calls"
+msgstr "So‘nggi qo‘ng‘iroqlar"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.js:0
+#, fuzzy
+msgid "Record"
+msgstr "Yozib olish"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_provider_view_form
+#, fuzzy
+msgid ""
+"Record VoIP calls. An indicator is displayed during calls. There is no vocal "
+"announcement by default."
+msgstr ""
+"VoIP qo‘ng‘iroqlarni yozib olish. Qo‘ng‘iroqlar paytida ko‘rsatkich paydo "
+"bo‘ladi. Sukut bo‘yicha ovozli xabar yo‘q."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#, fuzzy
+msgid "Recording"
+msgstr "Yozib olish"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_provider__recording_policy
+#, fuzzy
+msgid "Recording Policy"
+msgstr "Yozib olish siyosati"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/registerer.js:0
+#, fuzzy
+msgid "Registration rejected: %(statusCode)s %(reasonPhrase)s."
+msgstr "Ro‘yxatdan o‘tish rad etildi: %(statusCode)s %(reasonPhrase)s."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_invitation.xml:0
+#, fuzzy
+msgid "Reject the call"
+msgstr "Qo‘ng‘iroqni rad etish"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__state__rejected
+#, fuzzy
+msgid "Rejected"
+msgstr "Rad etilgan"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Rejected Call"
+msgstr "Rad etilgan qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#, fuzzy
+msgid "Rejected call"
+msgstr "Rad etilgan qo‘ng‘iroq"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Rejected call from %(phone_number)s"
+msgstr "%(phone_number)s raqamidan kelgan qo‘ng‘iroq rad etildi"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_call.py:0
+#, fuzzy
+msgid "Rejected call to %(phone_number)s"
+msgstr "%(phone_number)s raqamiga qo‘ng‘iroq rad etildi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/call_method_selection_dialog.xml:0
+#, fuzzy
+msgid "Remember my choice"
+msgstr "Tanlovimni eslab qolish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/web/call_queue_switch.js:0
+#, fuzzy
+msgid "Remove from Call Queue"
+msgstr "Qo‘ng‘iroqlar navbatidan olib tashlash"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__user_id
+#, fuzzy
+msgid "Responsible"
+msgstr "Mas'ul"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/softphone.js:0
+#, fuzzy
+msgid "Ringing…"
+msgstr "Jiringlamoqda..."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__message_has_sms_error
+#, fuzzy
+msgid "SMS Delivery error"
+msgstr "SMS yetkazib berishda xatolik"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_config_settings_view_form
+#, fuzzy
+msgid "Schedule & make calls from your database"
+msgstr ""
+"Ma'lumotlar bazangizdan qo‘ng‘iroqlarni rejalashtirish va amalga oshirish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#: code:addons/voip/static/src/softphone/call_invitation.xml:0
+#: code:addons/voip/static/src/softphone/call_summary.xml:0
+#: code:addons/voip/static/src/softphone/history.xml:0
+#: code:addons/voip/static/src/softphone/keypad.xml:0
+#, fuzzy
+msgid "Schedule an activity"
+msgstr "Faoliyatni rejalashtirish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/search_bar.xml:0
+#, fuzzy
+msgid "Search…"
+msgstr "Qidirish..."
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "Secret"
+msgstr "Maxfiy"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.xml:0
+#, fuzzy
+msgid "See all other activities"
+msgstr "Boshqa barcha faoliyatlarni ko‘rish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.xml:0
+#, fuzzy
+msgid "See your contact list"
+msgstr "Kontaktlar ro‘yxatini ko‘rish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/call_method_selection_dialog.js:0
+#, fuzzy
+msgid "Select a call method"
+msgstr "Qo‘ng‘iroq usulini tanlang"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.xml:0
+#, fuzzy
+msgid "Send e-mail"
+msgstr "Elektron xat yuborish"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__should_call_from_another_device
+#, fuzzy
+msgid "Should Call From Another Device"
+msgstr "Boshqa qurilmadan qo‘ng‘iroq qilish kerak"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/web/voip_systray_item.js:0
+#, fuzzy
+msgid "Show Softphone"
+msgstr "Softfonni ko‘rsatish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/simple_datetime_field.js:0
+#, fuzzy
+msgid "Simple Date & Time"
+msgstr "Oddiy sana va vaqt"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_queue_mixin.py:0
+msgid ""
+"Some leads can’t be added to the call queue since they do not have a phone "
+"number set. The fixer-uppers: %(record_names)s.\n"
+"Let’s add the missing numbers and start the dialing party!"
+msgstr ""
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/error_screen.js:0
+#, fuzzy
+msgid "Something went wrong 😵‍💫"
+msgstr "Nimadir noto‘g‘ri ketdi 😵‍💫"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users_settings__external_device_number
+#: model:ir.model.fields,help:voip.field_res_users_settings__should_call_from_another_device
+#, fuzzy
+msgid ""
+"Specify a phone number so that placing a call in Odoo Phone will ring your "
+"preferred device (your desk phone or cell phone) and then connect you to the "
+"recipient."
+msgstr ""
+"Telefon raqamini ko‘rsating, shunda Odoo Phone'da qo‘ng‘iroq qilganingizda "
+"siz tanlagan qurilma (stol telefoningiz yoki uyali telefoningiz) jiringlaydi "
+"va keyin siz qabul qiluvchiga ulanasiz."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__start_date
+#, fuzzy
+msgid "Start Date"
+msgstr "Boshlanish sanasi"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__state
+#, fuzzy
+msgid "State"
+msgstr "Holat"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_tree_view
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_calendar
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Status"
+msgstr "Status"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.js:0
+#, fuzzy
+msgid "Stop"
+msgstr "To‘xtatish"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_call__state__terminated
+#, fuzzy
+msgid "Terminated"
+msgstr "Tugatilgan"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"The DTLS fingerprint and/or setup is missing from the SDP. Please have your "
+"administrator verify that the PBX is configured to use SRTP-DTLS."
+msgstr ""
+"DTLS barmoq izi va/yoki sozlamasi SDPda mavjud emas. Administratoringizdan "
+"ATS SRTP-DTLS ishlatish uchun sozlanganligini tekshirishini so‘rang."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_provider__pbx_ip
+#, fuzzy
+msgid "The IP address of your PBX Server"
+msgstr "ATS serveringizning IP manzili"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_provider__ws_server
+#, fuzzy
+msgid "The URL of your WebSocket"
+msgstr "WebSocket URL manzili"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid "The WebSocket connection was lost and couldn't be reestablished."
+msgstr "WebSocket ulanishi uzildi va qayta tiklanmadi."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/registerer.js:0
+#, fuzzy
+msgid ""
+"The error may come from the transport layer. Please have an administrator "
+"verify the websocket server URL in the VoIP Provider Settings. If the "
+"problem persists, this is probably an issue with the server."
+msgstr ""
+"Xatolik transport qatlamidan kelib chiqishi mumkin. Administratordan VoIP "
+"provayder sozlamalarida veb-soket serveri URL manzilini tekshirishini "
+"so‘rang. Agar muammo davom etsa, bu ehtimol server bilan bog‘liq muammo."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__activity_name
+#, fuzzy
+msgid "The name of the activity related to this phone call, if any."
+msgstr ""
+"Agar mavjud bo‘lsa, ushbu telefon qo‘ng‘irog‘iga tegishli faoliyat nomi."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#, fuzzy
+msgid ""
+"The number is incorrect, the user credentials could be wrong or the "
+"connection cannot be made. Please check your configuration.\n"
+"(Reason received: %(reasonPhrase)s)"
+msgstr ""
+"Raqam noto‘g‘ri, foydalanuvchi hisob ma'lumotlari xato bo‘lishi mumkin yoki "
+"ulanish amalga oshirilmadi. Iltimos, sozlamalaringizni tekshiring. (Olingan "
+"sabab: %(reasonPhrase)s)"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_partner__t9_name
+#: model:ir.model.fields,help:voip.field_res_users__t9_name
+#, fuzzy
+msgid ""
+"The partner's name, encoded as the digits that correspond to the letters on "
+"an old cell phone keypad.\n"
+"Useful for searching for partners based on this field.\n"
+"Spaces are preserved, characters that can't be encoded are replaced with an "
+"'x'.\n"
+"T9 stands for Text on 9 keys, it comes from the name of the original "
+"technology on old cell phones."
+msgstr ""
+"Hamkorning ismi, eski mobil telefon klaviaturasidagi harflarga mos keladigan "
+"raqamlar bilan kodlangan. Bu maydon bo‘yicha hamkorlarni qidirish uchun "
+"foydali. Bo‘sh joylar saqlanadi, kodlanishi mumkin bo‘lmagan belgilar 'x' "
+"bilan almashtiriladi. T9 \"9 tugmadagi matn\" degan ma'noni anglatadi va "
+"eski uyali telefonlardagi asl texnologiya nomidan olingan."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users_settings__voip_secret
+#, fuzzy
+msgid "The password that will be used to register with the PBX server."
+msgstr "ATS serverida ro‘yxatdan o‘tish uchun foydalaniladigan parol."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/session.js:0
+#, fuzzy
+msgid "The person you try to contact is currently unavailable."
+msgstr "Siz bog‘lanmoqchi bo‘lgan shaxs hozirda mavjud emas."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/registerer.js:0
+#, fuzzy
+msgid ""
+"The server failed to authenticate you. Please have an administrator verify "
+"that you are reaching the right server (PBX server IP in the VoIP Provider "
+"Settings) and that the credentials in your user preferences are correct."
+msgstr ""
+"Server sizni tasdiqlay olmadi. Administrator to‘g‘ri serverga (VoIP "
+"provayder sozlamalaridagi PBX server IP manzili) ulanayotganingizni va "
+"foydalanuvchi sozlamalaringizdagi ma'lumotlar to‘g‘ri ekanligini tekshirsin."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__call_count
+#, fuzzy
+msgid "The total number of calls made to the same phone number."
+msgstr "Bir xil telefon raqamiga qilingan jami qo‘ng‘iroqlar soni."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"The user agent could not be started. The websocket server URL may be "
+"incorrect. Please have an administrator check the websocket server URL in "
+"the VoIP Provider Settings."
+msgstr ""
+"Foydalanuvchi agentini ishga tushirib bo‘lmadi. Vebsoket serveri URL manzili "
+"noto‘g‘ri bo‘lishi mumkin. Administrator VoIP provayder sozlamalarida "
+"vebsoket serverining URL manzilini tekshirsin."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users_settings__voip_username
+#, fuzzy
+msgid ""
+"The username (typically the extension number) that will be used to register "
+"with the PBX server."
+msgstr ""
+"ATS serverida ro‘yxatdan o‘tish uchun foydalaniladigan foydalanuvchi nomi "
+"(odatda kengaytma raqami)."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"The websocket connection to the server has been lost. Attempting to "
+"reestablish the connection…"
+msgstr ""
+"Server bilan vebsoket aloqasi uzildi. Aloqani qayta o‘rnatishga "
+"urinilmoqda..."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/voip_service.js:0
+#, fuzzy
+msgid ""
+"There is still a call in progress, are you sure you want to leave the page?"
+msgstr "Hali qo‘ng‘iroq davom etmoqda, sahifani tark etishni xohlaysizmi?"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Today"
+msgstr "Bugun"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/simple_datetime_field.js:0
+#, fuzzy
+msgid "Today, %(time)s"
+msgstr "Bugun, %(time)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/web/voip_systray_item.js:0
+#, fuzzy
+msgid "Toggle Softphone"
+msgstr "Softfonni yoqish/o‘chirish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#: code:addons/voip/static/src/softphone/transfer_view.xml:0
+#, fuzzy
+msgid "Transfer"
+msgstr "O‘tkazish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Trying to call"
+msgstr "Qo‘ng‘iroq qilinmoqda"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/call_status_badge_field.js:0
+#, fuzzy
+msgid "Unknown"
+msgstr "Noma'lum"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/dnd_selector.js:0
+#, fuzzy
+msgid "Until %(time)s"
+msgstr "%(time)s gacha"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/dnd_selector.js:0
+#, fuzzy
+msgid "Until I turn it back on"
+msgstr "Men qayta yoqmagunimcha"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__country_flag_url
+#, fuzzy
+msgid "Url of static flag image"
+msgstr "Statik bayroq tasviri URL manzili"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/call_method_selection_dialog.xml:0
+#, fuzzy
+msgid "Use Odoo Phone"
+msgstr "Odoo telefonidan foydalanish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/mobile/call_method_selection_dialog.xml:0
+#, fuzzy
+msgid "Use phone's default app"
+msgstr "Telefonning standart ilovasidan foydalanish"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_users
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_tree_view
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_form
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_users_settings
+#, fuzzy
+msgid "User Settings"
+msgstr "Foydalanuvchi sozlamalari"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "Username"
+msgstr "Foydalanuvchi nomi"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_queue_mixin
+#, fuzzy
+msgid "VOIP Queue support"
+msgstr "VOIP navbati yordami"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_res_users_settings_view_form
+#, fuzzy
+msgid "View call history"
+msgstr "Qo‘ng‘iroqlar tarixini ko‘rish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/call_invitation.xml:0
+#, fuzzy
+msgid "View caller information"
+msgstr "Qo‘ng‘iroq qiluvchi haqidagi ma'lumotni ko‘rish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/address_book.xml:0
+#: code:addons/voip/static/src/softphone/call_summary.xml:0
+#: code:addons/voip/static/src/softphone/keypad.xml:0
+#, fuzzy
+msgid "View contact information"
+msgstr "Kontakt ma'lumotini ko‘rish"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.xml:0
+#: code:addons/voip/static/src/softphone/in_call_view.xml:0
+#, fuzzy
+msgid "View customer details"
+msgstr "Mijoz tafsilotlarini ko‘rish"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_provider_tree_view
+#, fuzzy
+msgid "Visible to all"
+msgstr "Hammaga ko‘rinadigan"
+
+#. module: voip
+#: model:res.groups.privilege,name:voip.res_groups_privilege_voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+#, fuzzy
+msgid "VoIP"
+msgstr "VoIP"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_res_users_settings_view_form
+#, fuzzy
+msgid "VoIP Configuration"
+msgstr "VoIP sozlamalari"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_provider__mode
+#, fuzzy
+msgid "VoIP Environment"
+msgstr "VoIP muhiti"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_provider
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__voip_provider_id
+#, fuzzy
+msgid "VoIP Provider"
+msgstr "VoIP provayderi"
+
+#. module: voip
+#: model:ir.actions.act_window,name:voip.action_voip_provider_view
+#: model:ir.ui.menu,name:voip.voip_provider_view_menu
+#: model_terms:ir.ui.view,arch_db:voip.voip_provider_tree_view
+#, fuzzy
+msgid "VoIP Providers"
+msgstr "VoIP provayderlar"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__voip_secret
+#, fuzzy
+msgid "VoIP secret"
+msgstr "VoIP maxfiy kaliti"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__voip_username
+#, fuzzy
+msgid "VoIP username / Extension number"
+msgstr "VoIP foydalanuvchi nomi / Kengaytma raqami"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__voip_provider_id
+#, fuzzy
+msgid "Voip Provider"
+msgstr "VoIP provayderi"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__voip_secret
+#, fuzzy
+msgid "Voip Secret"
+msgstr "VoIP maxfiy kaliti"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__voip_username
+#, fuzzy
+msgid "Voip Username"
+msgstr "VoIP foydalanuvchi nomi"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_provider__ws_server
+#, fuzzy
+msgid "WebSocket"
+msgstr "Vebsoket"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_call__website_message_ids
+#, fuzzy
+msgid "Website Messages"
+msgstr "Veb-sayt xabarlari"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_call__website_message_ids
+#, fuzzy
+msgid "Website communication history"
+msgstr "Veb-saytdagi muloqot tarixi"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/agenda.js:0
+#, fuzzy
+msgid "Yes, I know what I'm doing"
+msgstr "Ha, nima qilayotganimni bilaman"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.js:0
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_search
+#, fuzzy
+msgid "Yesterday"
+msgstr "Kecha"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/widgets/simple_datetime_field.js:0
+#, fuzzy
+msgid "Yesterday, %(time)s"
+msgstr "Kecha, %(time)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"Your browser does not support some of the features required for VoIP to "
+"work. Please try updating your browser or using a different one."
+msgstr ""
+"Brauzeringiz VoIP ishlashi uchun zarur bo‘lgan ayrim funksiyalarni qo‘llab-"
+"quvvatlamaydi. Iltimos, brauzeringizni yangilang yoki boshqa brauzerdan "
+"foydalaning."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/softphone/history.xml:0
+#, fuzzy
+msgid "Your call history is empty! Make a call now and have it listed here 💡"
+msgstr ""
+"Qo‘ng‘iroqlar tarixingiz bo‘sh! Hoziroq qo‘ng‘iroq qiling va uni shu yerda "
+"ro‘yxatga oling 💡"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/core/user_agent_service.js:0
+#, fuzzy
+msgid ""
+"Your login details are not set correctly. Please contact your administrator."
+msgstr ""
+"Kirish ma'lumotlaringiz to‘g‘ri sozlanmagan. Iltimos, administrator bilan "
+"bog‘laning."
+
+#. module: voip
+#: model:res.groups,comment:voip.group_voip_officer
+#, fuzzy
+msgid "can view and report on all calls."
+msgstr "barcha qo‘ng‘iroqlarni ko‘rish va hisobot berish imkoniyatiga ega."
+
+#. module: voip
+#: model:res.groups,comment:voip.group_voip_admin
+#, fuzzy
+msgid "can view, report, and manage call settings."
+msgstr ""
+"qo‘ng‘iroq sozlamalarini ko‘rish, hisobot berish va boshqarish imkoniyatiga "
+"ega."
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_call_view_form
+#, fuzzy
+msgid "e.g. Brandon Freeman"
+msgstr "masalan, Brandon Friman"

@@ -1,0 +1,177 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_bank_statement_import
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:02+0000\n"
+"PO-Revision-Date: 2026-06-06 12:44+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"account_bank_statement_import/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "%d transactions had already been imported and were ignored."
+msgstr "%d ລາຍການທຸລະກຳໄດ້ຖືກນຳເຂົ້າແລ້ວ ແລະ ຖືກລະເວັ້ນ."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "1 transaction had already been imported and was ignored."
+msgstr "1 ລາຍການທຸລະກຳໄດ້ຖືກນຳເຂົ້າແລ້ວ ແລະ ຖືກລະເວັ້ນ."
+
+#. module: account_bank_statement_import
+#: model:ir.model.constraint,message:account_bank_statement_import.constraint_account_bank_statement_line_unique_import_id
+msgid "A bank account transactions can be imported only once!"
+msgstr "ລາຍການທຸລະກຳບັນຊີທະນາຄານສາມາດນຳເຂົ້າໄດ້ພຽງແຕ່ຄັ້ງດຽວເທົ່ານັ້ນ!"
+
+#. module: account_bank_statement_import
+#: model:ir.model,name:account_bank_statement_import.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "ລາຍການໃບແຈ້ງຍອດທະນາຄານ"
+
+#. module: account_bank_statement_import
+#: model:ir.model,name:account_bank_statement_import.model_account_setup_bank_manual_config
+msgid "Bank setup manual config"
+msgstr "ການຕັ້ງຄ່າທະນາຄານແບບກຳນົດເອງ"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "Cannot find in which journal import this statement. Please manually select a journal."
+msgstr ""
+"ບໍ່ພົບວ່າຈະນຳເຂົ້າໃບແຈ້ງຍອດນີ້ໃສ່ໃນປຶ້ມບັນຊີໃດ. ກະລຸນາເລືອກປຶ້ມບັນຊີດ້ວຍຕົນເອງ."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid ""
+"Could not make sense of the given file.\n"
+"Did you install the module to support this type of file?"
+msgstr ""
+"ບໍ່ສາມາດອ່ານໄຟລ໌ທີ່ໃຫ້ມາໄດ້.\n"
+"ທ່ານໄດ້ຕິດຕັ້ງໂມດູນເພື່ອຮອງຮັບໄຟລ໌ປະເພດນີ້ແລ້ວຫຼືບໍ?"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "Go to Apps"
+msgstr "ໄປທີ່ແອັບ"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "If it contains transactions for more than one account, it must be imported on each of them."
+msgstr ""
+"ຫາກມັນມີລາຍການທຸລະກຳຂອງຫຼາຍກວ່າໜຶ່ງບັນຊີ, ມັນຈະຕ້ອງໄດ້ຖືກນຳເຂົ້າໃນແຕ່ລະບັນຊີເຫຼົ່ານັ້ນ."
+
+#. module: account_bank_statement_import
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_line__unique_import_id
+msgid "Import ID"
+msgstr "ລະຫັດການນຳເຂົ້າ"
+
+#. module: account_bank_statement_import
+#. odoo-javascript
+#: code:addons/account_bank_statement_import/static/src/account_bank_statement_import_model.js:0
+msgid "Import Template for Bank Statements"
+msgstr "ແບບຟອມນຳເຂົ້າສຳລັບໃບແຈ້ງຍອດທະນາຄານ"
+
+#. module: account_bank_statement_import
+#: model:ir.model,name:account_bank_statement_import.model_account_journal
+msgid "Journal"
+msgstr "ປຶ້ມບັນຊີ"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "Manual (or import %(import_formats)s)"
+msgstr "ດ້ວຍຕົນເອງ (ຫຼື ນຳເຂົ້າ %(import_formats)s)"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "No attachment was provided"
+msgstr "ບໍ່ມີໄຟລ໌ຄັດຕິດ"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "No currency found matching '%s'."
+msgstr "ບໍ່ພົບສະກຸນເງິນທີ່ກົງກັບ '%s'."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "The account of this statement (%s) is not the same as the journal (%s)."
+msgstr "ບັນຊີຂອງໃບແຈ້ງຍອດນີ້ (%s) ບໍ່ກົງກັບປຶ້ມບັນຊີ (%s)."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "The currency of the bank statement (%s) is not the same as the currency of the journal (%s)."
+msgstr "ສະກຸນເງິນຂອງໃບແຈ້ງຍອດທະນາຄານ (%s) ບໍ່ກົງກັບສະກຸນເງິນຂອງປຶ້ມບັນຊີ (%s)."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "The following files could not be imported:\n"
+msgstr "ໄຟລ໌ຕໍ່ໄປນີ້ບໍ່ສາມາດນຳເຂົ້າໄດ້:\n"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "This file doesn't contain any statement for account %s."
+msgstr "ໄຟລ໌ນີ້ບໍ່ມີໃບແຈ້ງຍອດໃດໆ ສຳລັບບັນຊີ %s."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "This file doesn't contain any transaction for account %s."
+msgstr "ໄຟລ໌ນີ້ບໍ່ມີລາຍການທຸລະກຳໃດໆ ສຳລັບບັນຊີ %s."
+
+#. module: account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
+msgid "Transactions"
+msgstr "ລາຍການທຸລະກຳ"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "View successfully imported statements"
+msgstr "ເບິ່ງໃບແຈ້ງຍອດທີ່ນຳເຂົ້າສຳເລັດແລ້ວ"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "You already have imported that file."
+msgstr "ທ່ານໄດ້ນຳເຂົ້າໄຟລ໌ນັ້ນແລ້ວ."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "You have to set a Default Account for the journal: %s"
+msgstr "ທ່ານຕ້ອງຕັ້ງຄ່າບັນຊີເລີ່ມຕົ້ນໃຫ້ກັບປຶ້ມບັນຊີ: %s"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+msgid "You uploaded an invalid or empty file."
+msgstr "ທ່ານໄດ້ອັບໂຫລດໄຟລ໌ທີ່ບໍ່ຖືກຕ້ອງ ຫຼື ໄຟລ໌ຫວ່າງເປົ່າ."
+
+#. module: account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
+msgid "or"
+msgstr "ຫຼື"

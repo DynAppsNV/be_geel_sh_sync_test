@@ -1,0 +1,521 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_base_import
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2026-06-06 13:47+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"account_base_import/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
+msgid "<span class=\"text-muted\">(end of year balances)</span>"
+msgstr "<span class=\"text-muted\">(ຍອດເຫຼືອທ້າຍປີ)</span>"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
+msgid "<span class=\"text-muted\">(for full history)</span>"
+msgstr "<span class=\"text-muted\">(ສຳລັບປະຫວັດທັງໝົດ)</span>"
+
+#. module: account_base_import
+#: model:ir.model,name:account_base_import.model_account_account
+msgid "Account"
+msgstr "ບັນຊີ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Account Winbooks Import module"
+msgstr "ໂມດູນການນຳເຂົ້າບັນຊີ Winbooks"
+
+#. module: account_base_import
+#: model:ir.model,name:account_base_import.model_account_import_summary
+msgid "Account import summary view"
+msgstr "ມຸມມອງສະຫຼຸບການນຳເຂົ້າບັນຊີ"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
+msgid "Accounting Import"
+msgstr "ການນຳເຂົ້າທາງບັນຊີ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/js/account_import_guide.js:0
+#: model:ir.actions.client,name:account_base_import.action_open_import_guide
+msgid "Accounting Import Guide"
+msgstr "ຄູ່ມືການນຳເຂົ້າທາງບັນຊີ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Accounting Import Options"
+msgstr "ຕົວເລືອກການນຳເຂົ້າທາງບັນຊີ"
+
+#. module: account_base_import
+#: model:ir.model,name:account_base_import.model_base_import_import
+msgid "Base Import"
+msgstr "ການນຳເຂົ້າພື້ນຖານ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/js/account_import_action.js:0
+#: model:ir.actions.act_window,name:account_base_import.action_open_coa_setup
+msgid "Chart of Accounts"
+msgstr "ຜັງບັນຊີ"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
+msgid "Choose how you want to setup your CoA"
+msgstr "ເລືອກວິທີທີ່ທ່ານຕ້ອງການຕັ້ງຄ່າຜັງບັນຊີ (CoA) ຂອງທ່ານ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/js/account_import_action.js:0
+msgid "Customers"
+msgstr "ລູກຄ້າ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_account__display_name
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__display_name
+#: model:ir.model.fields,field_description:account_base_import.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:account_base_import.field_base_import_import__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Download"
+msgstr "ດາວໂຫຼດ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Excel Import"
+msgstr "ການນຳເຂົ້າ Excel"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "FEC"
+msgstr "FEC"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "FEC Import module"
+msgstr "ໂມດູນການນຳເຂົ້າ FEC"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_account__id
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__id
+#: model:ir.model.fields,field_description:account_base_import.field_account_move_line__id
+#: model:ir.model.fields,field_description:account_base_import.field_base_import_import__id
+msgid "ID"
+msgstr "ລະຫັດ (ID)"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
+#: model_terms:ir.ui.view,arch_db:account_base_import.view_account_base_import_list
+#: model_terms:ir.ui.view,arch_db:account_base_import.view_account_setup_base_import_list
+msgid "Import"
+msgstr "ນຳເຂົ້າ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+#: model:ir.actions.client,name:account_base_import.action_asset_import
+msgid "Import Assets"
+msgstr "ນຳເຂົ້າຊັບສິນ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+#: model:ir.actions.client,name:account_base_import.action_account_import
+msgid "Import Chart of Accounts"
+msgstr "ນຳເຂົ້າຜັງບັນຊີ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Import CoA"
+msgstr "ນຳເຂົ້າຜັງບັນຊີ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Import Contacts"
+msgstr "ນຳເຂົ້າຜູ້ຕິດຕໍ່"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+#: model:ir.actions.client,name:account_base_import.action_account_move_line_import
+msgid "Import Journal Items"
+msgstr "ນຳເຂົ້າລາຍການບັນຊີປະຈຳວັນ"
+
+#. module: account_base_import
+#: model:ir.actions.client,name:account_base_import.action_partner_import
+msgid "Import Partners"
+msgstr "ນຳເຂົ້າມິດສະຫາຍ (ຄູ່ຄ້າ)"
+
+#. module: account_base_import
+#. odoo-python
+#: code:addons/account_base_import/wizard/account_import_summary.py:0
+msgid "Import Summary"
+msgstr "ສະຫຼຸບການນຳເຂົ້າ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__import_summary_account_ids
+msgid "Import Summary Account"
+msgstr "ບັນຊີສະຫຼຸບການນຳເຂົ້າ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__import_summary_journal_ids
+msgid "Import Summary Journal"
+msgstr "ບັນຊີປະຈຳວັນສະຫຼຸບການນຳເຂົ້າ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__import_summary_move_ids
+msgid "Import Summary Move"
+msgstr "ການເຄື່ອນໄຫວສະຫຼຸບການນຳເຂົ້າ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__import_summary_name
+msgid "Import Summary Name"
+msgstr "ຊື່ສະຫຼຸບການນຳເຂົ້າ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__import_summary_partner_ids
+msgid "Import Summary Partner"
+msgstr "ມິດສະຫາຍສະຫຼຸບການນຳເຂົ້າ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__import_summary_tax_ids
+msgid "Import Summary Tax"
+msgstr "ພາສີສະຫຼຸບການນຳເຂົ້າ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Import contacts"
+msgstr "ນຳເຂົ້າຜູ້ຕິດຕໍ່"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Import customers or suppliers (partners) and their contacts using a"
+msgstr "ນຳເຂົ້າລູກຄ້າ ຫຼື ຜູ້ສະໜອງ (ມິດສະຫາຍ) ແລະ ຜູ້ຕິດຕໍ່ຂອງພວກເຂົາໂດຍການໃຊ້"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Import the Chart of Accounts and initial balances using a"
+msgstr "ນຳເຂົ້າຜັງບັນຊີ ແລະ ຍອດເຫຼືອເລີ່ມຕົ້ນໂດຍການໃຊ້"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Import your fixed assets and their opening depreciation values using a"
+msgstr "ນຳເຂົ້າຊັບສິນຄົງທີ່ ແລະ ມູນຄ່າຄ່າເສື່ອມລາຄາເລີ່ມຕົ້ນຂອງທ່ານໂດຍການໃຊ້"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
+msgid "Imported Data"
+msgstr "ຂໍ້ມູນທີ່ນຳເຂົ້າແລ້ວ"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
+msgid "Initial Setup"
+msgstr "ການຕັ້ງຄ່າເລີ່ມຕົ້ນ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/js/account_import_guide.js:0
+msgid "Install a module"
+msgstr "ຕິດຕັ້ງໂມດູນ"
+
+#. module: account_base_import
+#: model:ir.model,name:account_base_import.model_account_move_line
+msgid "Journal Item"
+msgstr "ລາຍການບັນຊີປະຈຳວັນ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/js/account_import_action.js:0
+msgid "Journal Items"
+msgstr "ລາຍການບັນຊີປະຈຳວັນ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດລ່າສຸດໂດຍ"
+
+#. module: account_base_import
+#: model:ir.model.fields,field_description:account_base_import.field_account_import_summary__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດລ່າສຸດເມື່ອ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"Most accounting software in Europe support exporting SAF-T file for audit purposes.\n"
+"                            Use the"
+msgstr ""
+"ຊອບແວການບັນຊີສ່ວນໃຫຍ່ໃນຢູໂຣບຮອງຮັບການສົ່ງອອກໄຟລ໌ SAF-T ເພື່ອຈຸດປະສົງໃນການກວດສອບ.\n"
+"                            ໃຊ້"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"Most accounting software in France support exporting FEC file for audit purposes.\n"
+"                            Use the"
+msgstr ""
+"ຊອບແວການບັນຊີສ່ວນໃຫຍ່ໃນຝຣັ່ງຮອງຮັບການສົ່ງອອກໄຟລ໌ FEC ເພື່ອຈຸດປະສົງໃນການກວດສອບ.\n"
+"                            ໃຊ້"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
+msgid "No data was imported."
+msgstr "ບໍ່ມີຂໍ້ມູນຖືກນຳເຂົ້າ."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Optional, but useful to import open receivables & payables using a"
+msgstr ""
+"ບໍ່ບັງຄັບ, ແຕ່ມີປະໂຫຍດໃນການນຳເຂົ້າລູກໜີ້ ແລະ ເຈົ້າໜີ້ທີ່ຍັງຄ້າງຢູ່ໂດຍການໃຊ້"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+#: model_terms:ir.ui.view,arch_db:account_base_import.res_config_settings_import_view_form
+msgid "Review Manually"
+msgstr "ກວດສອບດ້ວຍຕົນເອງ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "SAF-T"
+msgstr "SAF-T"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "SAF-T Import module"
+msgstr "ໂມດູນການນຳເຂົ້າ SAF-T"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "SIE 4 Import module"
+msgstr "ໂມດູນການນຳເຂົ້າ SIE 4"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "SIE 4/5"
+msgstr "SIE 4/5"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "SIE 5 Import module"
+msgstr "ໂມດູນການນຳເຂົ້າ SIE 5"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"The SIE standard file format is very common in Sweden for several purposes such as auditing, importing and exporting data\n"
+"                            from and to other accounting applications. Odoo support importing data from both type 4 and 5 of SIE."
+msgstr ""
+"ຮູບແບບໄຟລ໌ມາດຕະຖານ SIE ແມ່ນເປັນທີ່ນິຍົມຫຼາຍໃນສວີເດັນ ສຳລັບຫຼາຍຈຸດປະສົງ ເຊັ່ນ: ການກວດສອບ, ການນຳ"
+"ເຂົ້າ ແລະ ສົ່ງອອກຂໍ້ມູນ\n"
+"                            ຈາກ ແລະ ໄປຫາແອັບພລິເຄຊັນບັນຊີອື່ນໆ. Odoo ຮອງຮັບການນຳເຂົ້າຂໍ້ມູ"
+"ນທັງປະເພດ 4 ແລະ 5 ຂອງ SIE."
+
+#. module: account_base_import
+#. odoo-python
+#: code:addons/account_base_import/models/account_move_line.py:0
+msgid "The import file is missing the following required columns: %s"
+msgstr "ໄຟລ໌ການນຳເຂົ້າຂາດຄໍລຳທີ່ຈຳເປັນດັ່ງຕໍ່ໄປນີ້: %s"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"Tip: we recommend importing your initial balances using the Chart of Account"
+" import. Only use the Journal Items import for unreconciled entries in your "
+"Payable and Receivable Accounts."
+msgstr ""
+"ເຄັດລັບ: ພວກເຮົາແນະນຳໃຫ້ທ່ານນຳເຂົ້າທຶນເລີ່ມຕົ້ນຂອງທ່ານໂດຍການໃຊ້ການນຳເຂົ້າຜັງບັນຊີ. ໃຫ້ໃຊ້ການນຳເຂົ້າລ"
+"າຍການບັນຊີປະຈຳວັນສະເພາະລາຍການທີ່ຍັງບໍ່ທັນໄດ້ກວດສອບພາຍໃນບັນຊີ ເຈົ້າໜີ້ ແລະ ບັນຊີລູກໜີ້ຂອງທ່ານເທົ່ານັ້ນ."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Use predefined format to import your data faster."
+msgstr "ໃຊ້ຮູບແບບທີ່ກຳນົດໄວ້ລ່ວງໜ້າເພື່ອການນຳເຂົ້າຂໍ້ມູນຂອງທ່ານໃຫ້ໄວຂຶ້ນ."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Use templates to import CSV or Excel for your accounting setup."
+msgstr "ໃຊ້ແມ່ແບບເພື່ອການນຳເຂົ້າ CSV ຫຼື Excel ສຳລັບການຕັ້ງຄ່າບັນຊີຂອງທ່ານ."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"We will setup your charts of accounts and the history of journal entries, "
+"that will stay in draft."
+msgstr ""
+"ພວກເຮົາຈະຕັ້ງຄ່າຜັງບັນຊີ ແລະ ປະຫວັດຂອງລາຍການບັນຊີປະຈຳວັນຂອງທ່ານ, ເຊິ່ງຈະຍັງຄົງຢູ່ໃນສະຖານະຮ່າງ."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "Winbooks"
+msgstr "Winbooks"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"Winbooks is an old school Belgian accounting software acquired by Exact.\n"
+"                            Use the"
+msgstr ""
+"Winbooks ແມ່ນຊອບແວການບັນຊີແບບເກົ່າຂອງແບນຊິກທີ່ຖືກຊື້ໂດຍ Exact.\n"
+"                            ໃຊ້"
+
+#. module: account_base_import
+#. odoo-python
+#: code:addons/account_base_import/models/account_account.py:0
+msgid ""
+"You must provide both the `code_mapping_ids/company_id` and the "
+"`code_mapping_ids/code` columns."
+msgstr ""
+"ທ່ານຕ້ອງລະບຸທັງຄໍລຳ `code_mapping_ids/company_id` ແລະ `code_mapping_ids/code`."
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
+msgid "accounts imported"
+msgstr "ບັນຊີທີ່ນຳເຂົ້າແລ້ວ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"is required to import the SIE 4 files.\n"
+"                                    By design, it's also backward compatible with previous SIE versions (version 1 up to 3).\n"
+"                                    This import will not validate the correctness of the file."
+msgstr ""
+"ແມ່ນຈຳເປັນສຳລັບການນຳເຂົ້າໄຟລ໌ SIE 4.\n"
+"                                    ໂດຍການອອກແບບ, ມັນຍັງສາມາດໃຊ້ງານຮ່ວມກັບເວີຊັນ "
+"SIE ກ່ອນໜ້ານີ້ (ເວີຊັນ 1 ຫາ 3).\n"
+"                                    ການນຳເຂົ້ານີ້ຈະບໍ່ມີການກວດສອບຄວາມຖືກຕ້ອງຂອງໄຟລ໌."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"is required to import the SIE 5 and SIE 5 entry files.\n"
+"                                    For general SIE 5, we will set up your charts of accounts balances, journals, partners, and the history of journal entries\n"
+"                                    (journals data must be present in the file).\n"
+"                                    For the SIE 5 entry, only entries and partners will be created, the rest must already be present in the system."
+msgstr ""
+"ແມ່ນຈຳເປັນສຳລັບການນຳເຂົ້າໄຟລ໌ SIE 5 ແລະ ໄຟລ໌ລາຍການ SIE 5.\n"
+"                                    ສຳລັບ SIE 5 ທົ່ວໄປ, ພວກເຮົາຈະຕັ້ງຄ່າຍອດເຫຼືອຂອງຜັງບັ"
+"ນຊີ, ບັນຊີປະຈຳວັນ, ມິດສະຫາຍ ແລະ ປະຫວັດຂອງລາຍການບັນຊີປະຈຳວັນ\n"
+"                                    (ຂໍ້ມູນບັນຊີປະຈຳວັນຕ້ອງມີຢູ່ໃນໄຟລ໌).\n"
+"                                    ສຳລັບລາຍການ SIE 5, ຈະມີພຽງລາຍການ ແລະ ມິດສະຫາ"
+"ຍເທົ່ານັ້ນທີ່ຈະຖືກສ້າງຂຶ້ນ, ສ່ວນທີ່ເຫຼືອຕ້ອງມີຢູ່ໃນລະບົບແລ້ວ."
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
+msgid "journals imported"
+msgstr "ບັນຊີປະຈຳວັນທີ່ນຳເຂົ້າແລ້ວ"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
+msgid "moves imported"
+msgstr "ການເຄື່ອນໄຫວທີ່ນຳເຂົ້າແລ້ວ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "or"
+msgstr "ຫຼື"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
+msgid "partners imported"
+msgstr "ມິດສະຫາຍທີ່ນຳເຂົ້າແລ້ວ"
+
+#. module: account_base_import
+#: model_terms:ir.ui.view,arch_db:account_base_import.account_import_summary_form
+msgid "taxes imported"
+msgstr "ພາສີທີ່ນຳເຂົ້າແລ້ວ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "template"
+msgstr "ແມ່ແບບ"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "template."
+msgstr "ແມ່ແບບ."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"to import a Winbooks full back-up (Maintenance > Backup) to get the chart of accounts, contacts, taxes, history of journal entries, and documents.\n"
+"                            Support versions: Winbooks Desktop 5.50, 6, 7, 8."
+msgstr ""
+"ເພື່ອນຳເຂົ້າຂໍ້ມູນສຳຮອງທັງໝົດຂອງ Winbooks (Maintenance > Backup) ເພື່ອໃຫ້ໄດ້ຜັງບັນຊີ, ຜູ້ຕິດຕໍ່, ພ"
+"າສີ, ປະຫວັດຂອງລາຍການບັນຊີປະຈຳວັນ ແລະ ເອກະສານຕ່າງໆ.\n"
+"                            ເວີຊັນທີ່ຮອງຮັບ: Winbooks Desktop 5.50, 6, 7, 8."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid ""
+"to import the FEC file. We will setup your charts of accounts and the "
+"history of journal entries."
+msgstr ""
+"ເພື່ອນຳເຂົ້າໄຟລ໌ FEC. ພວກເຮົາຈະຕັ້ງຄ່າຜັງບັນຊີ ແລະ ປະຫວັດຂອງລາຍການບັນຊີປະຈຳວັນຂອງທ່ານ."
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+msgid "to import the SAF-T file."
+msgstr "ເພື່ອນຳເຂົ້າໄຟລ໌ SAF-T."

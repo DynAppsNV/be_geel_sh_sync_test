@@ -1,0 +1,193 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* voip_ai
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:50+0000\n"
+"PO-Revision-Date: 2025-10-08 18:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: voip_ai
+#. odoo-javascript
+#: code:addons/voip_ai/static/src/session_patch.js:0
+#, fuzzy
+msgid "Call successfully scheduled for transcription."
+msgstr "Chaqiruv yozib olinishi uchun muvaffaqiyatli rejalashtirildi."
+
+#. module: voip_ai
+#: model_terms:ir.ui.view,arch_db:voip_ai.voip_call_view_form_transcript
+#, fuzzy
+msgid "Call transcript..."
+msgstr "Chaqiruv matni..."
+
+#. module: voip_ai
+#. odoo-javascript
+#: code:addons/voip_ai/static/src/session_patch.js:0
+#, fuzzy
+msgid "Can't transcribe the call: Upload failed."
+msgstr "Chaqiruvni yozib olishning iloji bo‘lmadi: Yuklash amalga oshmadi."
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_provider__transcription_policy__disabled
+#, fuzzy
+msgid "Disable"
+msgstr "O‘chirish"
+
+#. module: voip_ai
+#: model:ir.model.fields,field_description:voip_ai.field_res_users__display_name
+#: model:ir.model.fields,field_description:voip_ai.field_voip_call__display_name
+#: model:ir.model.fields,field_description:voip_ai.field_voip_provider__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_call__transcription_status__done
+#, fuzzy
+msgid "Done"
+msgstr "Bajarildi"
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_call__transcription_status__error
+#, fuzzy
+msgid "Error"
+msgstr "Xatolik"
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_provider__transcription_policy__always
+#, fuzzy
+msgid "Force for all users"
+msgstr "Barcha foydalanuvchilar uchun majburiy qilish"
+
+#. module: voip_ai
+#: model:ir.model.fields,field_description:voip_ai.field_res_users__id
+#: model:ir.model.fields,field_description:voip_ai.field_voip_call__id
+#: model:ir.model.fields,field_description:voip_ai.field_voip_provider__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_call__transcription_status__no_audio
+#, fuzzy
+msgid "No audio"
+msgstr "Audio yo‘q"
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_call__transcription_status__pending
+#, fuzzy
+msgid "Pending"
+msgstr "Kutilmoqda"
+
+#. module: voip_ai
+#: model:ir.model,name:voip_ai.model_voip_call
+#, fuzzy
+msgid "Phone call"
+msgstr "Telefon qo‘ng‘irog‘i"
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_call__transcription_status__queued
+#, fuzzy
+msgid "Queued"
+msgstr "Navbatda"
+
+#. module: voip_ai
+#: model:ir.model.fields,field_description:voip_ai.field_voip_call__summary
+#: model_terms:ir.ui.view,arch_db:voip_ai.voip_call_view_form_summary
+#, fuzzy
+msgid "Summary"
+msgstr "Qisqa mazmun"
+
+#. module: voip_ai
+#. odoo-javascript
+#: code:addons/voip_ai/static/src/in_call_view_patch.xml:0
+#, fuzzy
+msgid "This call will be transcribed when it's done"
+msgstr "Bu chaqiruv tugagach, yozib olinadi"
+
+#. module: voip_ai
+#: model:ir.model.fields.selection,name:voip_ai.selection__voip_call__transcription_status__too_big_to_process
+#, fuzzy
+msgid "Too long to process"
+msgstr "Qayta ishlash uchun juda uzoq"
+
+#. module: voip_ai
+#: model:ir.actions.server,name:voip_ai.ir_cron_transcribe_recent_voip_call_ir_actions_server
+#, fuzzy
+msgid "Transcribe Recent VoIP Calls"
+msgstr "Yaqinda bo‘lgan VoIP qo‘ng‘iroqlarni yozib olish"
+
+#. module: voip_ai
+#: model:ir.model.fields,help:voip_ai.field_voip_provider__transcription_policy
+#, fuzzy
+msgid "Transcribe the call into text with OpenAI."
+msgstr "Chaqiruvni OpenAI yordamida matnga aylantirish."
+
+#. module: voip_ai
+#. odoo-javascript
+#: code:addons/voip_ai/static/src/in_call_view_patch.xml:0
+#, fuzzy
+msgid "Transcribing"
+msgstr "Yozib olinmoqda"
+
+#. module: voip_ai
+#: model:ir.model.fields,field_description:voip_ai.field_voip_call__transcript
+#: model_terms:ir.ui.view,arch_db:voip_ai.voip_call_view_form_transcript
+#, fuzzy
+msgid "Transcript"
+msgstr "Yozma matn"
+
+#. module: voip_ai
+#: model_terms:ir.ui.view,arch_db:voip_ai.voip_provider_tree_view
+#: model_terms:ir.ui.view,arch_db:voip_ai.voip_provider_view_form
+#, fuzzy
+msgid "Transcription"
+msgstr "Yozib olish"
+
+#. module: voip_ai
+#: model:ir.model.fields,field_description:voip_ai.field_voip_provider__transcription_policy
+#, fuzzy
+msgid "Transcription Policy"
+msgstr "Yozib olish siyosati"
+
+#. module: voip_ai
+#: model:ir.model.fields,field_description:voip_ai.field_voip_call__transcription_status
+#, fuzzy
+msgid "Transcription Status"
+msgstr "Yozib olish holati"
+
+#. module: voip_ai
+#. odoo-javascript
+#: code:addons/voip_ai/static/src/components/transcription_status_banner_field/transcription_status_banner_field.js:0
+#, fuzzy
+msgid "Transcription Status Banner"
+msgstr "Yozib olish holati banneri"
+
+#. module: voip_ai
+#: model:ir.model,name:voip_ai.model_res_users
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#. module: voip_ai
+#: model:ir.model,name:voip_ai.model_voip_provider
+#, fuzzy
+msgid "VoIP Provider"
+msgstr "VoIP provayderi"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="True">
+    <record id="cron_publish_analytics" model="ir.cron">
+        <field name="name">Analytics: Publish Info</field>
+        <field name="model_id" ref="dyn_analytics.model_xx_dynapps_analytics" />
+        <field name="state">code</field>
+        <field name="code">model._cron_publish_analytics()</field>
+        <field name='interval_number'>1</field>
+        <field name='interval_type'>days</field>
+        <field name="nextcall" eval="DateTime.now().strftime('%Y-%m-%d 01:00:00')" />
+    </record>
+</odoo>

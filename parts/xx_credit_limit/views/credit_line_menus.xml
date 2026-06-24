@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="action_credit_line" model="ir.actions.act_window">
+        <field name="name">Credit Line</field>
+        <field name="res_model">xx.credit.line</field>
+        <field name="view_mode">list,form</field>
+        <field name="target">current</field>
+    </record>
+    <record id="action_credit_line_type" model="ir.actions.act_window">
+        <field name="name">Credit Line Type</field>
+        <field name="res_model">xx.credit.line.type</field>
+        <field name="view_mode">list,form</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem id="credit_limit_menu_root" name="Credit Limits">
+        <menuitem id="credit_limit_first_level_menu" name="Data">
+            <menuitem id="credit_line_menu_action" action="action_credit_line" />
+            <menuitem
+                id="credit_line_type_menu_action"
+                action="action_credit_line_type"
+            />
+        </menuitem>
+    </menuitem>
+
+    <record id="action_increment_expiration_1y_action" model="ir.ui.view">
+        <field name="name">xx.credit.line.tree.action</field>
+        <field name="model">xx.credit.line</field>
+        <field name="arch" type="xml">
+            <list>
+                <button
+                    name="%(action_increment_expiration_1y_model)d"
+                    string="Increment expiration 1Y"
+                    type="action"
+                    class="oe_highlight"
+                />
+            </list>
+        </field>
+    </record>
+
+    <record id="action_report_credit_line" model="ir.actions.report">
+        <field name="name">Credit Line Report</field>
+        <field name="model">xx.credit.line</field>
+        <field name="binding_model_id" ref="model_xx_credit_line" />
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">xx_credit_limit.test_report</field>
+    </record>
+</odoo>

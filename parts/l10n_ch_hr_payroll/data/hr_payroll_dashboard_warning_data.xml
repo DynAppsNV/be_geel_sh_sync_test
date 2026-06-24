@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="hr_payroll_dashboard_warning_employees_without_first_name" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without First Name</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_first_name = self.env['hr.employee'].search([
+    ('l10n_ch_legal_first_name', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_first_name:
+    warning_count = len(employees_without_first_name)
+    warning_records = employees_without_first_name
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_last_name" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Last Name</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_last_name = self.env['hr.employee'].search([
+    ('l10n_ch_legal_last_name', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_last_name:
+    warning_count = len(employees_without_last_name)
+    warning_records = employees_without_last_name
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_salary_certificate_profiles" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Salary Certificate Profiles</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_salary_certificate_profiles= self.env['hr.employee'].search([
+    ('l10n_ch_salary_certificate_profiles', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_salary_certificate_profiles:
+    warning_count = len(employees_without_salary_certificate_profiles)
+    warning_records = employees_without_salary_certificate_profiles
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_country" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Nationality(Country)</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_country= self.env['hr.employee'].search([
+    ('country_id', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_country:
+    warning_count = len(employees_without_country)
+    warning_records = employees_without_country
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_canton" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Residence Canton</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_canton= self.env['hr.employee'].search([
+    ('l10n_ch_canton', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_canton:
+    warning_count = len(employees_without_canton)
+    warning_records = employees_without_canton
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_municipality_id" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Residence Municipality</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees = self.env['hr.employee'].search([
+    ('l10n_ch_canton', '!=', 'EX'),
+    ('company_id', 'in', self.env.companies.ids),
+])
+
+employees_without_valid_municipality = employees.filtered(
+    lambda e: not e.l10n_ch_municipality
+    or not e.l10n_ch_municipality.isdigit()
+)
+
+if employees_without_valid_municipality:
+    warning_count = len(employees_without_valid_municipality)
+    warning_records = employees_without_valid_municipality
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_private_street" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Private Address Street</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_private_street = self.env['hr.employee'].search([
+    ('private_street', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_private_street:
+    warning_count = len(employees_without_private_street)
+    warning_records = employees_without_private_street
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_private_city" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Private Address City</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_private_city = self.env['hr.employee'].search([
+    ('private_city', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_private_city:
+    warning_count = len(employees_without_private_city)
+    warning_records = employees_without_private_city
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_private_zip" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Private Address ZIP</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_private_zip = self.env['hr.employee'].search([
+    ('private_zip', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_private_zip:
+    warning_count = len(employees_without_private_zip)
+    warning_records = employees_without_private_zip
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_private_country" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Private Address Country</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_private_country = self.env['hr.employee'].search([
+    ('private_country_id', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_private_country:
+    warning_count = len(employees_without_private_country)
+    warning_records = employees_without_private_country
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_marital_status" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Marital Status</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_marital_status= self.env['hr.employee'].search([
+    ('marital', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_marital_status:
+    warning_count = len(employees_without_marital_status)
+    warning_records = employees_without_marital_status
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_marital_from" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Marital Status Start Date</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_marital_from= self.env['hr.employee'].search([
+    ('l10n_ch_marital_from', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_marital_from:
+    warning_count = len(employees_without_marital_from)
+    warning_records = employees_without_marital_from
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_registeration_number" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Employee Reference</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_employee_reference= self.env['hr.employee'].search([
+    ('registration_number', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_employee_reference:
+    warning_count = len(employees_without_employee_reference)
+    warning_records = employees_without_employee_reference
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_contract_type" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Contract Type</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_contract_type= self.env['hr.employee'].search([
+    ('contract_type_id', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_contract_type:
+    warning_count = len(employees_without_contract_type)
+    warning_records = employees_without_contract_type
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_laa_code" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without LAA Insurance</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_laa_code= self.env['hr.employee'].search([
+    ('l10n_ch_laa_group', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_laa_code:
+    warning_count = len(employees_without_laa_code)
+    warning_records = employees_without_laa_code
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_missing_weekly_hours_info" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Missing Weekly Hours Info</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_missing_weekly_hours_info= self.env['hr.employee'].search([
+    ('irregular_working_time', '=', False),
+    ('l10n_ch_weekly_hours', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_missing_weekly_hours_info:
+    warning_count = len(employees_missing_weekly_hours_info)
+    warning_records = employees_missing_weekly_hours_info
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_social_insurance" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without AVS/AC Insurance</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_social_insurance= self.env['hr.employee'].search([
+    ('l10n_ch_social_insurance_id', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_social_insurance:
+    warning_count = len(employees_without_social_insurance)
+    warning_records = employees_without_social_insurance
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_lpp_insurance" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without LPP Insurance</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_lpp_insurance= self.env['hr.employee'].search([
+    ('l10n_ch_lpp_insurance_id', '=', False),
+    ('l10n_ch_lpp_not_insured', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_lpp_insurance:
+    warning_count = len(employees_without_lpp_insurance)
+    warning_records = employees_without_lpp_insurance
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_employees_without_compensation_fund" model="hr.payroll.dashboard.warning">
+            <field name="name">Employees Without Family Compensation Fund</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+employees_without_compensation_fund= self.env['hr.employee'].search([
+    ('l10n_ch_compensation_fund_id', '=', False),
+    ('company_id', 'in', self.env.companies.ids),
+])
+if employees_without_compensation_fund:
+    warning_count = len(employees_without_compensation_fund)
+    warning_records = employees_without_compensation_fund
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_swiss_companies_without_social_insurance" model="hr.payroll.dashboard.warning">
+            <field name="name">Companies Without AVS/AC Insurance</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+companies_without_social_insurance = self.env.companies.filtered(lambda c: not c.l10n_ch_avs_institution_ids)
+if companies_without_social_insurance:
+    warning_count = len(companies_without_social_insurance)
+    warning_records = companies_without_social_insurance
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_swiss_companies_without_compensation_fund" model="hr.payroll.dashboard.warning">
+            <field name="name">Companies Without Valid Compensation Fund</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+companies_without_compensation_fund = self.env.companies.filtered(lambda c: not c.l10n_ch_caf_institution_ids or not any(line.company_rate > 0 for inst in c.l10n_ch_caf_institution_ids for line in inst.caf_line_ids))
+if companies_without_compensation_fund:
+    warning_count = len(companies_without_compensation_fund)
+    warning_records = companies_without_compensation_fund
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_swiss_companies_without_location_unit" model="hr.payroll.dashboard.warning">
+            <field name="name">Companies Without Location Unit</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+companies_without_location_unit = self.env.companies.filtered(lambda c: not c.l10n_ch_work_location_ids)
+if companies_without_location_unit:
+    warning_count = len(companies_without_location_unit)
+    warning_records = companies_without_location_unit
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_swiss_companies_without_salary_certificate_profile" model="hr.payroll.dashboard.warning">
+            <field name="name">Companies Without Salary Certificate Profiles</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+companies_without_salary_certificate_profile = self.env.companies.filtered(lambda c: not c.l10n_ch_salary_certificate_profiles)
+if companies_without_salary_certificate_profile:
+    warning_count = len(companies_without_salary_certificate_profile)
+    warning_records = companies_without_salary_certificate_profile
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_swiss_companies_without_accident_insurance" model="hr.payroll.dashboard.warning">
+            <field name="name">Companies Without Valid LAA Insurance</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+companies_without_valid_accident_insurance = self.env.companies.filtered(lambda c: not c.l10n_ch_laa_institution_ids or not any(inst.laa_group_ids for inst in c.l10n_ch_laa_institution_ids))
+if companies_without_valid_accident_insurance:
+    warning_count = len(companies_without_valid_accident_insurance)
+    warning_records = companies_without_valid_accident_insurance
+            </field>
+        </record>
+
+        <record id="hr_payroll_dashboard_warning_swiss_companies_without_lpp_insurance" model="hr.payroll.dashboard.warning">
+            <field name="name">Companies Without LPP Insurance</field>
+            <field name="country_id" ref="base.ch"/>
+            <field name="evaluation_code">
+companies_without_lpp_insurance = self.env.companies.filtered(lambda c: not c.l10n_ch_lpp_institution_ids)
+if companies_without_lpp_insurance:
+    warning_count = len(companies_without_lpp_insurance)
+    warning_records = companies_without_lpp_insurance
+            </field>
+        </record>
+    </data>
+</odoo>

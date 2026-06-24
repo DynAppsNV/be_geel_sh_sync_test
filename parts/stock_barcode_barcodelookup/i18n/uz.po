@@ -1,0 +1,84 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_barcode_barcodelookup
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:50+0000\n"
+"PO-Revision-Date: 2025-10-08 18:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_barcode_barcodelookup
+#. odoo-javascript
+#: code:addons/stock_barcode_barcodelookup/static/src/models/barcode_model.js:0
+#, fuzzy
+msgid "Create New Product"
+msgstr "Yangi mahsulot yaratish"
+
+#. module: stock_barcode_barcodelookup
+#. odoo-javascript
+#: code:addons/stock_barcode_barcodelookup/static/src/models/barcode_model.js:0
+#, fuzzy
+msgid "Inconsistent Barcode"
+msgstr "Shtrix-kod mos kelmayapti"
+
+#. module: stock_barcode_barcodelookup
+#: model:ir.actions.act_window,name:stock_barcode_barcodelookup.stock_barcodelookup_product_product_action
+#, fuzzy
+msgid "New Product"
+msgstr "Yangi mahsulot"
+
+#. module: stock_barcode_barcodelookup
+#. odoo-javascript
+#: code:addons/stock_barcode_barcodelookup/static/src/models/barcode_model.js:0
+#, fuzzy
+msgid "No record found for the specified barcode"
+msgstr "Ko‘rsatilgan shtrix-kod bo‘yicha ma'lumot topilmadi"
+
+#. module: stock_barcode_barcodelookup
+#. odoo-javascript
+#: code:addons/stock_barcode_barcodelookup/static/src/models/barcode_model.js:0
+#, fuzzy
+msgid "Product created successfully"
+msgstr "Mahsulot muvaffaqiyatli yaratildi"
+
+#. module: stock_barcode_barcodelookup
+#. odoo-javascript
+#: code:addons/stock_barcode_barcodelookup/static/src/models/barcode_model.js:0
+#, fuzzy
+msgid "RPC Error"
+msgstr "RPC xatoligi"
+
+#. module: stock_barcode_barcodelookup
+#. odoo-javascript
+#: code:addons/stock_barcode_barcodelookup/static/src/models/barcode_model.js:0
+#, fuzzy
+msgid "This product doesn't exist."
+msgstr "Bunday mahsulot mavjud emas"
+
+#. module: stock_barcode_barcodelookup
+#. odoo-javascript
+#: code:addons/stock_barcode_barcodelookup/static/src/models/barcode_model.js:0
+#, fuzzy
+msgid ""
+"This product doesn't exist. Either scan a package available at the picking "
+"location or create a new product."
+msgstr ""
+"Bunday mahsulot mavjud emas. Iltimos, terish joyida mavjud bo‘lgan paketni "
+"skanerlang yoki yangi mahsulot yarating."

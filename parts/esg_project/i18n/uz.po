@@ -1,0 +1,225 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* esg_project
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:46+0000\n"
+"PO-Revision-Date: 2025-10-08 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: esg_project
+#. odoo-python
+#: code:addons/esg_project/models/project_project.py:0
+#, fuzzy
+msgid ""
+"\n"
+"                <a class=\"btn btn-secondary mt-3\" type=\"action\" "
+"name=\"%d\">Load sample data</a>\n"
+"            "
+msgstr ""
+"<a class=\"btn btn-ikkilamchi mt-3\" type=\"action\" name=\"%d\">Namunali "
+"ma'lumotlarni yuklash</a>"
+
+#. module: esg_project
+#. odoo-python
+#: code:addons/esg_project/models/project_project.py:0
+#, fuzzy
+msgid ""
+"\n"
+"            <p class=\"o_view_nocontent_smiling_face\">No tasks found. Let's "
+"create one!</p>\n"
+"            <p>Keep track of the progress of your initiatives to take action "
+"on your impact from creation to completion.<br/>Collaborate efficiently by "
+"chatting in real-time or via email.</p>\n"
+"        "
+msgstr ""
+"<p class=\"o_view_nocontent_smiling_face\">Hech qanday vazifa topilmadi. "
+"Keling, bitta yarataylik!</p> <p>Tashabbuslaringizning taraqqiyotini "
+"yaratilishidan to yakunlanishigacha kuzatib boring va ta'siringizni nazorat "
+"qiling.<br/>Real vaqt rejimida suhbatlashish yoki elektron pochta orqali "
+"samarali hamkorlik o‘rnating.</p>"
+
+#. module: esg_project
+#: model:ir.ui.menu,name:esg_project.menu_esg_act
+#, fuzzy
+msgid "Act"
+msgstr "Harakat"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_12
+#, fuzzy
+msgid "Awareness"
+msgstr "Xabardorlik"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_11
+#, fuzzy
+msgid "Business Travel"
+msgstr "Ish safari"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_5
+#, fuzzy
+msgid "Carbon Footprint"
+msgstr "Karbon izi"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_1
+#, fuzzy
+msgid "Circular Economy"
+msgstr "Aylanma iqtisodiyot"
+
+#. module: esg_project
+#. odoo-javascript
+#: code:addons/esg_project/static/src/components/esg_dashboard/esg_project_initiatives_box/esg_project_initiatives_box.xml:0
+#, fuzzy
+msgid "Create Initiative"
+msgstr "Tashabbus yaratish"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_10
+#, fuzzy
+msgid "Digital Efficiency"
+msgstr "Raqamli samaradorlik"
+
+#. module: esg_project
+#: model:ir.model.fields,field_description:esg_project.field_project_project__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: esg_project
+#: model:project.task.type,name:esg_project.esg_project_stage_2
+#, fuzzy
+msgid "Done 🌳🌲"
+msgstr "Bajarildi 🌳🌲"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_2
+#, fuzzy
+msgid "Energy Efficiency"
+msgstr "Energiya samaradorligi"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_6
+#, fuzzy
+msgid "GHG Reduction"
+msgstr "Issiqxona gazlari kamayishi"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_7
+#, fuzzy
+msgid "Governance"
+msgstr "Boshqaruv"
+
+#. module: esg_project
+#: model:ir.model.fields,field_description:esg_project.field_project_project__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_4
+#, fuzzy
+msgid "IT Policy"
+msgstr "AT siyosati"
+
+#. module: esg_project
+#: model:project.task.type,name:esg_project.esg_project_stage_0
+#, fuzzy
+msgid "Ideas 🌱"
+msgstr "G‘oyalar 🌱"
+
+#. module: esg_project
+#: model:project.task.type,name:esg_project.esg_project_stage_1
+#, fuzzy
+msgid "In Progress 🌳"
+msgstr "Jarayonda 🌳"
+
+#. module: esg_project
+#. odoo-javascript
+#: code:addons/esg_project/static/src/components/esg_dashboard/esg_project_initiatives_box/esg_project_initiatives_box.xml:0
+#: model:ir.ui.menu,name:esg_project.menu_esg_initiatives
+#: model:project.project,name:esg_project.esg_project_project_0
+#, fuzzy
+msgid "Initiatives"
+msgstr "Tashabbuslar"
+
+#. module: esg_project
+#: model:ir.actions.server,name:esg_project.esg_initiatives_server_action
+#, fuzzy
+msgid "Initiatives Server Action"
+msgstr "Tashabbuslar server harakati"
+
+#. module: esg_project
+#: model:ir.actions.server,name:esg_project.action_load_demo_data
+#, fuzzy
+msgid "Load ESG Project demo data"
+msgstr "ESG loyihasi namoyish ma'lumotlarini yuklash"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_8
+#, fuzzy
+msgid "Mobility"
+msgstr "Harakatchanlik"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_9
+#, fuzzy
+msgid "Operational Excellence"
+msgstr "Operatsion mukammallik"
+
+#. module: esg_project
+#: model:ir.model,name:esg_project.model_project_project
+#, fuzzy
+msgid "Project"
+msgstr "Loyiha"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_3
+#, fuzzy
+msgid "Scope 2"
+msgstr "2-doira"
+
+#. module: esg_project
+#: model:project.tags,name:esg_project.esg_project_tags_0
+#, fuzzy
+msgid "Scope 3"
+msgstr "3-doira"
+
+#. module: esg_project
+#: model:project.project,label_tasks:esg_project.esg_project_project_0
+#, fuzzy
+msgid "Tasks"
+msgstr "Vazifalar"
+
+#. module: esg_project
+#. odoo-javascript
+#: code:addons/esg_project/static/src/components/esg_dashboard/esg_project_initiatives_box/esg_project_initiatives_box.xml:0
+#, fuzzy
+msgid "Total"
+msgstr "Jami"
+
+#. module: esg_project
+#. odoo-python
+#: code:addons/esg_project/models/project_project.py:0
+#, fuzzy
+msgid "You cannot delete the ESG Project."
+msgstr "Siz ESG loyihasini o‘chira olmaysiz."

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="studio_approval_rule_form_view" model="ir.ui.view">
+        <field
+            name="name"
+        >studio.approval.rule.form.view.inherit.xx.approval.dynamic.user</field>
+        <field name="model">studio.approval.rule</field>
+        <field name="inherit_id" ref="web_studio.studio_approval_rule_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='exclusive_user']" position="after">
+                <field name="xx_is_dynamic_approver" widget="boolean_toggle" />
+                <field
+                    name="xx_is_board_approval"
+                    widget="boolean_toggle"
+                    invisible="not xx_is_dynamic_approver"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,332 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * product_barcodelookup
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:46+0000\n"
+"PO-Revision-Date: 2026-06-08 08:29+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"product_barcodelookup/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"%(matching_images_count)s matching images have been found for "
+"%(product_count)s products."
+msgstr ""
+"ພົບຮູບພາບທີ່ກົງກັນ %(matching_images_count)s ຮູບ ສຳລັບສິນຄ້າ %(product_count)s ລາຍການ."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid ""
+"<span invisible=\"nb_products_selected &lt;= 1000\">\n"
+"                            As only 1000 products can be processed per day, the remaining will be\n"
+"                            done tomorrow.\n"
+"                        </span>"
+msgstr ""
+"<span invisible=\"nb_products_selected &lt;= 1000\">\n"
+"                            ເນື່ອງຈາກສາມາດປະມວນຜົນໄດ້ພຽງ 1000 ລາຍການຕໍ່ມື້, ສ່ວນທີ່ເຫຼືອຈະ"
+"ຖືກ\n"
+"                            ປະມວນຜົນໃນມື້ອື່ນ.\n"
+"                        </span>"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid ""
+"<strong>Note: </strong>\n"
+"                        Some images may not be royalty-free and should not be published online."
+msgstr ""
+"<strong>ໝາຍເຫດ: </strong>\n"
+"                        ບາງຮູບພາບອາດມີລິຂະສິດ ແລະ ບໍ່ຄວນເຜີຍແຜ່ທາງອອນລາຍ."
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"A task to process products in the background is already running. Please try "
+"again later."
+msgstr "ວຽກປະມວນຜົນສິນຄ້າໃນພື້ນຫຼັງກຳລັງເຮັດວຽກຢູ່. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "API Key:"
+msgstr "ລະຫັດ API:"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_res_config_settings__barcodelookup_api_key
+msgid "API key"
+msgstr "ລະຫັດ API"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "Barcode Database"
+msgstr "ຖານຂໍ້ມູນບາໂຄດ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,help:product_barcodelookup.field_res_config_settings__barcodelookup_api_key
+msgid "Barcode Lookup API Key for create product from barcode."
+msgstr "ລະຫັດ API ຂອງ Barcode Lookup ສຳລັບສ້າງສິນຄ້າຈາກບາໂຄດ."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "Create products by scanning using"
+msgstr "ສ້າງສິນຄ້າດ້ວຍການສະແກນໂດຍໃຊ້"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_ir_cron_trigger__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_product__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_template__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_product_fetch_image_wizard
+msgid ""
+"Fetch product images from Barcode Lookup based on the product's barcode."
+msgstr "ດຶງຮູບພາບສິນຄ້າຈາກ Barcode Lookup ໂດຍອີງຕາມບາໂຄດຂອງສິນຄ້າ."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "Get Pictures"
+msgstr "ດຶງເອົາຮູບພາບ"
+
+#. module: product_barcodelookup
+#: model:ir.actions.act_window,name:product_barcodelookup.product_product_action_get_pic_with_barcode
+#: model:ir.actions.act_window,name:product_barcodelookup.product_template_action_get_pic_with_barcode
+msgid "Get Pictures from Barcode Lookup"
+msgstr "ດຶງເອົາຮູບພາບຈາກ Barcode Lookup"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid "Go to Settings"
+msgstr "ໄປທີ່ການຕັ້ງຄ່າ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_ir_cron_trigger__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_product__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_template__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_res_config_settings__id
+msgid "ID"
+msgstr "ລະຫັດ (ID)"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_product__is_image_fetch_pending
+msgid "Is Image Fetch Pending"
+msgstr "ກຳລັງລໍຖ້າການດຶງຮູບພາບ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂລ່າສຸດໂດຍ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__write_date
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂລ່າສຸດເມື່ອ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__nb_products_unable_to_process
+msgid "Number of product unprocessable"
+msgstr "ຈຳນວນສິນຄ້າທີ່ບໍ່ສາມາດປະມວນຜົນໄດ້"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__nb_products_to_process
+msgid "Number of products to process"
+msgstr "ຈຳນວນສິນຄ້າທີ່ຈະປະມວນຜົນ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__nb_products_selected
+msgid "Number of selected products"
+msgstr "ຈຳນວນສິນຄ້າທີ່ເລືອກ"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "Out of"
+msgstr "ຈາກທັງໝົດ"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_product_template
+msgid "Product"
+msgstr "ສິນຄ້າ"
+
+#. module: product_barcodelookup
+#: model:ir.actions.server,name:product_barcodelookup.ir_cron_fetch_image_ir_actions_server
+msgid "Product Images: Get product images from Barcode Lookup"
+msgstr "ຮູບພາບສິນຄ້າ: ດຶງຮູບພາບສິນຄ້າຈາກ Barcode Lookup"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_product_product
+msgid "Product Variant"
+msgstr "ລຸ້ນສິນຄ້າ"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid "Product images"
+msgstr "ຮູບພາບສິນຄ້າ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__products_to_process
+msgid "Products To Process"
+msgstr "ສິນຄ້າທີ່ຈະປະມວນຜົນ"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"Products are processed in the background. Images will be updated "
+"progressively."
+msgstr "ສິນຄ້າກຳລັງຖືກປະມວນຜົນໃນພື້ນຫຼັງ. ຮູບພາບຈະຖືກອັບເດດໃຫ້ເປັນລຳດັບ."
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid "The API Key for Barcode Lookup must be set in the General Settings."
+msgstr "ຕ້ອງກຳນົດລະຫັດ API ສຳລັບ Barcode Lookup ໃນການຕັ້ງຄ່າທົ່ວໄປ."
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"The Barcode Lookup API key is not set properly or it is invalid. Check your "
+"API key in setting and retry."
+msgstr ""
+"ລະຫັດ API ຂອງ Barcode Lookup ບໍ່ຖືກຕ້ອງ ຫຼື ບໍ່ໄດ້ກຳນົດໄວ້. ກະລຸນາກວດສອບລະຫັດ API ໃນການຕັ້ງຄ່"
+"າ ແລະ ລອງໃໝ່."
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,help:product_barcodelookup.field_product_fetch_image_wizard__products_to_process
+msgid ""
+"The list of selected products that meet the criteria (have a barcode and no "
+"image)"
+msgstr "ລາຍຊື່ສິນຄ້າທີ່ເລືອກເຊິ່ງກົງກັບເງື່ອນໄຂ (ມີບາໂຄດ ແລະ ບໍ່ມີຮູບພາບ)"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"The scheduled action \"Product Images: Get product images from Barcode "
+"Lookup\" has been deleted. Please contact your administrator to have the "
+"action restored or to reinstall the module \"product_barcodelookup\"."
+msgstr ""
+"ການເຮັດວຽກຕາມກຳນົດເວລາ \"Product Images: Get product images from Barcode "
+"Lookup\" ຖືກລົບອອກແລ້ວ. ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບເພື່ອຄືນຄ່າ ຫຼື ຕິດຕັ້ງໂມດູນ "
+"\"product_barcodelookup\" ໃໝ່."
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_ir_cron_trigger
+msgid "Triggered actions"
+msgstr "ການດຳເນີນການທີ່ຖືກກະຕຸ້ນ"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,help:product_barcodelookup.field_product_product__is_image_fetch_pending
+msgid "Whether an image must be fetched for this product. Handled by a cron."
+msgstr ""
+"ກຳນົດວ່າຕ້ອງດຶງຮູບພາບສຳລັບສິນຄ້ານີ້ຫຼືບໍ່. ຈັດການໂດຍລະບົບອັດຕະໂນມັດ (cron)."
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_8
+msgid "age group"
+msgstr "ກຸ່ມອາຍຸ"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "barcodelookup.com"
+msgstr "barcodelookup.com"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_6
+msgid "brand"
+msgstr "ຍີ່ຫໍ້"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_1
+msgid "color"
+msgstr "ສີ"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "e.g. d7vctmiv2rwgenebha8bxq7irooudn"
+msgstr "ຕົວຢ່າງ: d7vctmiv2rwgenebha8bxq7irooudn"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_2
+msgid "gender"
+msgstr "ເພດ"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_5
+msgid "manufacturer"
+msgstr "ຜູ້ຜະລິດ"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_3
+msgid "material"
+msgstr "ວັດສະດຸ"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_4
+msgid "pattern"
+msgstr "ລວດລາຍ"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "selected products,"
+msgstr "ສິນຄ້າທີ່ເລືອກ,"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_7
+msgid "size"
+msgstr "ຂະໜາດ"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "will be processed."
+msgstr "ຈະຖືກປະມວນຜົນ."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid ""
+"won't be\n"
+"                            processed because they either already have an image or\n"
+"                            lack a barcode"
+msgstr ""
+"ຈະບໍ່ຖືກ\n"
+"                            ປະມວນຜົນ ເນື່ອງຈາກມີຮູບພາບຢູ່ແລ້ວ ຫຼື\n"
+"                            ບໍ່ມີບາໂຄດ"

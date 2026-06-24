@@ -1,0 +1,549 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_pricer
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-05 19:36+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_pricer
+#: model:ir.model.constraint,message:pos_pricer.constraint_pricer_tag_name_unique
+#, fuzzy
+msgid "A Pricer tag with this barcode id already exists"
+msgstr "Ushbu shtrix-kod identifikatoriga ega Pricer tegi allaqachon mavjud"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__pricer_store_id
+#, fuzzy
+msgid "Associated Pricer Store"
+msgstr "Bog‘langan Pricer do‘koni"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__product_id
+#, fuzzy
+msgid "Associated Product"
+msgstr "Bog‘langan mahsulot"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__auth_url
+#, fuzzy
+msgid "Auth Url"
+msgstr "Autentifikatsiya URL manzili"
+
+#. module: pos_pricer
+#: model:product.pricelist,name:pos_pricer.pricer_demo_pricelist
+#, fuzzy
+msgid "Christmas"
+msgstr "Yangi yil"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__create_or_update_products_url
+#, fuzzy
+msgid "Create Or Update Products Url"
+msgstr "Mahsulotlarni yaratish yoki yangilash URL manzili"
+
+#. module: pos_pricer
+#: model:ir.model,website_form_label:pos_pricer.model_res_partner
+msgid "Create a Customer"
+msgstr ""
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__create_uid
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__create_date
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__last_update_datetime
+#, fuzzy
+msgid "Date and time of the last synchronization with Pricer"
+msgstr "Pricer bilan oxirgi sinxronlash sanasi va vaqti"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_account_tax__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_product_supplierinfo__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_product_template__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_res_partner__display_name
+#: model:ir.model.fields,field_description:pos_pricer.field_stock_move__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatish nomi"
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_store.py:0
+msgid "Error"
+msgstr ""
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_store.py:0
+msgid "Error: %(code)s - %(reason)s"
+msgstr ""
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_store.py:0
+#, fuzzy
+msgid "Error: check Pricer credentials"
+msgstr "Xato: Pricer hisob ma'lumotlarini tekshiring"
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_store.py:0
+msgid "Everything is already up to date with Pricer. No update needed."
+msgstr ""
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_store.py:0
+#, fuzzy
+msgid "Failed to unlink Pricer tag %(pricer_tag)s at API url %(api_url)s"
+msgstr ""
+"%(api_url)s API manzilida %(pricer_tag)s Pricer tegini o‘chirish amalga "
+"oshmadi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_account_tax__id
+#: model:ir.model.fields,field_description:pos_pricer.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__id
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__id
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__id
+#: model:ir.model.fields,field_description:pos_pricer.field_product_supplierinfo__id
+#: model:ir.model.fields,field_description:pos_pricer.field_product_template__id
+#: model:ir.model.fields,field_description:pos_pricer.field_res_partner__id
+#: model:ir.model.fields,field_description:pos_pricer.field_stock_move__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__pricer_store_identifier
+#, fuzzy
+msgid "Identifier of the store in the Pricer system"
+msgstr "Pricer tizimidagi do‘kon identifikatori"
+
+#. module: pos_pricer
+#. odoo-javascript
+#: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
+#, fuzzy
+msgid ""
+"Invalid tag name. Should be 1 letter followed by 16 digits. Example: "
+"'N4081315789813275'"
+msgstr ""
+"Noto‘g‘ri teg nomi. 1 ta harf va 16 ta raqamdan iborat bo‘lishi kerak. "
+"Masalan: 'N4081315789813275'"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_tag__name
+#, fuzzy
+msgid "It is recommended to use a barcode scanner for input"
+msgstr "Kiritish uchun shtrix-kod skaneridan foydalanish tavsiya etiladi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__last_update_datetime
+#, fuzzy
+msgid "Last Update"
+msgstr "Oxirgi yangilanish"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__last_update_status_message
+#, fuzzy
+msgid "Last Update Status"
+msgstr "Oxirgi yangilanish holati"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__write_uid
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__write_date
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__link_tags_url
+#, fuzzy
+msgid "Link Tags Url"
+msgstr "Teglarni bog‘lash URL manzili"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__pricer_login
+#, fuzzy
+msgid "Login of your Pricer account"
+msgstr "Pricer hisobingiz logini"
+
+#. module: pos_pricer
+#. odoo-javascript
+#: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
+#, fuzzy
+msgid "No product found for barcode '%s'"
+msgstr "'%s' shtrix-kodi uchun mahsulot topilmadi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__on_sale_price
+#, fuzzy
+msgid "On Sale Price"
+msgstr "Chegirmali narx"
+
+#. module: pos_pricer
+#: model:ir.actions.server,name:pos_pricer.pricer_sync_cron_ir_actions_server
+#, fuzzy
+msgid "POS Pricer: tags update synchronization "
+msgstr "POS Pricer: teglarni yangilash sinxronizatsiyasi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__pricer_password
+#, fuzzy
+msgid "Password of your Pricer account"
+msgstr "Pricer hisobingiz paroli"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_pos_config
+#, fuzzy
+msgid "Point of Sale Configuration"
+msgstr "Sotuv nuqtasi sozlamalari"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_product_product__on_sale_price
+#, fuzzy
+msgid "Price after setting a Pricer Sales Pricelist"
+msgstr "Pricer chegirmali narxlar ro‘yxatini o‘rnatgandan keyingi narx"
+
+#. module: pos_pricer
+#: model:ir.ui.menu,name:pos_pricer.pos_menu_pricer_configuration
+#: model_terms:ir.ui.view,arch_db:pos_pricer.product_product_form_view_pricers
+#, fuzzy
+msgid "Pricer"
+msgstr "Pricer"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_display_price
+#, fuzzy
+msgid "Pricer Display Price"
+msgstr "Pricer ko‘rsatish narxi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__pricer_login
+#, fuzzy
+msgid "Pricer Login"
+msgstr "Pricer logini"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__pricer_password
+#, fuzzy
+msgid "Pricer Password"
+msgstr "Pricer paroli"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_product_to_create_or_update
+#, fuzzy
+msgid "Pricer Product To Create Or Update"
+msgstr "Yaratish yoki yangilash uchun Pricer mahsuloti"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__pricer_product_to_link
+#, fuzzy
+msgid "Pricer Product To Link"
+msgstr "Bog‘lash uchun Pricer mahsuloti"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_sale_pricelist_id
+#, fuzzy
+msgid "Pricer Sales Pricelist"
+msgstr "Pricer chegirmali narxlar ro‘yxati"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_store_id
+#: model_terms:ir.ui.view,arch_db:pos_pricer.pricer_pricer_store_form_view
+#: model_terms:ir.ui.view,arch_db:pos_pricer.pricer_pricer_store_view_list
+#, fuzzy
+msgid "Pricer Store"
+msgstr "Pricer do‘koni"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__pricer_store_identifier
+#, fuzzy
+msgid "Pricer Store ID"
+msgstr "Pricer do‘kon ID raqami"
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_store.py:0
+#, fuzzy
+msgid ""
+"Pricer Store ID must only contain lowercase a-z, 0-9 or '-' and not start "
+"with '-'"
+msgstr ""
+"Pricer do‘kon ID raqami faqat kichik a-z, 0-9 yoki '-' belgilarini o‘z "
+"ichiga olishi va '-' bilan boshlanmasligi kerak"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__name
+#, fuzzy
+msgid "Pricer Store name in Odoo database"
+msgstr "Odoo ma'lumotlar bazasidagi Pricer do‘kon nomi"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_pricer_store
+#, fuzzy
+msgid "Pricer Store regrouping pricer tags"
+msgstr "Pricer teglarini guruhlash do‘koni"
+
+#. module: pos_pricer
+#: model:ir.actions.act_window,name:pos_pricer.action_open_pricer_stores
+#: model:ir.ui.menu,name:pos_pricer.menu_pos_pricer_stores
+#, fuzzy
+msgid "Pricer Stores"
+msgstr "Pricer do‘konlari"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_tag__name
+#, fuzzy
+msgid "Pricer Tag Barcode ID"
+msgstr "Pricer teg shtrix-kod ID raqami"
+
+#. module: pos_pricer
+#: model:ir.actions.act_window,name:pos_pricer.action_open_pricer_tags
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__pricer_tag_ids
+#: model:ir.ui.menu,name:pos_pricer.menu_pos_pricer_tags
+#, fuzzy
+msgid "Pricer Tags"
+msgstr "Pricer teglari"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__pricer_tenant_name
+#, fuzzy
+msgid "Pricer Tenant Name"
+msgstr "Pricer mijoz nomi"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_pricer_tag
+#, fuzzy
+msgid "Pricer electronic tag"
+msgstr "Pricer elektron tegi"
+
+#. module: pos_pricer
+#: model_terms:ir.ui.view,arch_db:pos_pricer.pricer_pricer_tag_view_list
+#, fuzzy
+msgid "Pricer tag"
+msgstr "Pricer tegi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__dummy_tag_barcode
+#, fuzzy
+msgid "Pricer tag barcode"
+msgstr "Pricer teg shtrix-kodi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_product_product__pricer_tag_ids
+#, fuzzy
+msgid "Pricer tags ids"
+msgstr "Pricer teg ID raqamlari"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_product_template
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: pos_pricer
+#. odoo-javascript
+#: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
+#, fuzzy
+msgid "Product '%s' found"
+msgstr "'%s' mahsuloti topildi"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_product_product
+#, fuzzy
+msgid "Product Variant"
+msgstr "Mahsulot varianti"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__dummy_prod_barcode
+#, fuzzy
+msgid "Product barcode"
+msgstr "Mahsulot shtrix-kodi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__product_ids
+#, fuzzy
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#. module: pos_pricer
+#: model_terms:ir.ui.view,arch_db:pos_pricer.pricer_pricer_store_form_view
+#, fuzzy
+msgid "Quick pairing"
+msgstr "Tezkor juftlash"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__dummy_tag_barcode
+#, fuzzy
+msgid "Scan the Pricer tag barcode here"
+msgstr "Pricer yorlig‘i shtrix-kodini shu yerda skanerlang"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__dummy_prod_barcode
+#, fuzzy
+msgid "Scan the product barcode here"
+msgstr "Mahsulot shtrix-kodini shu yerda skanerlang"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__last_update_status_message
+#, fuzzy
+msgid "Status message of the last synchronization with Pricer"
+msgstr "Pricer bilan oxirgi sinxronlashtirishning holat xabari"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_stock_move
+#, fuzzy
+msgid "Stock Move"
+msgstr "Tovar harakati"
+
+#. module: pos_pricer
+#: model:ir.model.fields,field_description:pos_pricer.field_pricer_store__name
+#, fuzzy
+msgid "Store Name"
+msgstr "Do‘kon nomi"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_product_supplierinfo
+msgid "Supplier Pricelist"
+msgstr ""
+
+#. module: pos_pricer
+#. odoo-javascript
+#: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
+#, fuzzy
+msgid "Tag '%s' found"
+msgstr "'%s' yorlig‘i topildi"
+
+#. module: pos_pricer
+#. odoo-javascript
+#: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
+#, fuzzy
+msgid "Tag '%s' not found, creating it"
+msgstr "'%s' yorlig‘i topilmadi, yaratilmoqda"
+
+#. module: pos_pricer
+#. odoo-javascript
+#: code:addons/pos_pricer/static/src/views/pricer_quick_pairing_form_view.js:0
+#, fuzzy
+msgid "Tag '%s' successfully linked with product '%s'"
+msgstr "'%s' yorlig‘i '%s' mahsuloti bilan muvaffaqiyatli bog‘landi"
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_tag.py:0
+#, fuzzy
+msgid ""
+"Tag id should be a 17 characters string composed of a letter followed by 16 "
+"digits"
+msgstr ""
+"Yorliq identifikatori bir harf va undan keyin 16 ta raqamdan iborat 17 ta "
+"belgili satr bo‘lishi kerak"
+
+#. module: pos_pricer
+#: model:ir.model,name:pos_pricer.model_account_tax
+msgid "Tax"
+msgstr ""
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_product_product__pricer_sale_pricelist_id
+#, fuzzy
+msgid ""
+"This pricelist will be used to set sales on Pricer tags for this product"
+msgstr ""
+"Ushbu narxlar ro‘yxati Pricer yorliqlarida ushbu mahsulot uchun sotuvlarni "
+"belgilashda ishlatiladi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_tag__pricer_store_id
+#: model:ir.model.fields,help:pos_pricer.field_product_product__pricer_store_id
+#, fuzzy
+msgid ""
+"This product will be linked to and displayed on the Pricer tags of the store "
+"selected here"
+msgstr ""
+"Bu mahsulot bu yerda tanlangan do‘konning Pricer yorliqlari bilan bog‘lanadi "
+"va ularda ko‘rsatiladi"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_product_product__pricer_tag_ids
+#, fuzzy
+msgid ""
+"This product will be linked to and displayed on the Pricer tags with ids "
+"listed here. It is recommended to use a barcode scanner"
+msgstr ""
+"Bu mahsulot bu yerda keltirilgan identifikatorli Pricer yorliqlari bilan "
+"bog‘lanadi va ularda ko‘rsatiladi. Shtrix-kod skaneridan foydalanish tavsiya "
+"etiladi"
+
+#. module: pos_pricer
+#. odoo-python
+#: code:addons/pos_pricer/models/pricer_store.py:0
+#, fuzzy
+msgid "Update successfully sent to Pricer"
+msgstr "Yangilanish Pricerga muvaffaqiyatli yuborildi"
+
+#. module: pos_pricer
+#: model_terms:ir.ui.view,arch_db:pos_pricer.pricer_pricer_store_view_list
+#, fuzzy
+msgid "Update tags"
+msgstr "Yorliqlarni yangilash"
+
+#. module: pos_pricer
+#: model:ir.model.fields,help:pos_pricer.field_pricer_store__pricer_tenant_name
+#, fuzzy
+msgid "Your company identifier at Pricer"
+msgstr "Pricerdagi kompaniyangiz identifikatori"
+
+#, fuzzy
+#~ msgid "Error: %(status_code)s - %(message)s"
+#~ msgstr "Xato: %(status_code)s - %(message)s"
+
+#, fuzzy
+#~ msgid "Update all tags"
+#~ msgstr "Barcha yorliqlarni yangilash"

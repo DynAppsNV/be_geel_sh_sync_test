@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_pos_pos_form">
+            <field name="name">pos.order</field>
+            <field name="model">pos.order</field>
+            <field name="inherit_id" ref="point_of_sale.view_pos_pos_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='extra']" position="inside">
+                    <group string="Belgian Fiscal Data Module information">
+                        <field name="l10n_be_fdm_id" readonly="1"/>
+                        <field name="l10n_be_fdm_date_time" readonly="1"/>
+                        <field name="l10n_be_pos_id" readonly="1"/>
+                        <field name="l10n_be_terminal_id" readonly="1"/>
+                        <field name="l10n_be_device_id" readonly="1"/>
+                        <field name="l10n_be_pos_date_time" readonly="1"/>
+                        <field name="l10n_be_event_label" readonly="1"/>
+                        <field name="l10n_be_event_counter" readonly="1"/>
+                        <field name="l10n_be_total_counter" readonly="1"/>
+                        <field name="l10n_be_short_signature" readonly="1"/>
+                        <field name="l10n_be_verification_url" readonly="1"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

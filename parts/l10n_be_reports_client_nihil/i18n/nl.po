@@ -1,0 +1,45 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_be_reports_client_nihil
+#
+# Bren Driesen <brdri@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-20 16:27+0000\n"
+"PO-Revision-Date: 2026-05-23 09:38+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19-l10n/"
+"l10n_be_reports_client_nihil/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#. module: l10n_be_reports_client_nihil
+#: model:ir.model,name:l10n_be_reports_client_nihil.model_l10n_be_reports_vat_return_lock_wizard
+msgid "Belgian Periodic VAT Report Lock Wizard"
+msgstr "Wizard voor Belgische periodieke btw-aangifte"
+
+#. module: l10n_be_reports_client_nihil
+#: model:ir.model.fields,field_description:l10n_be_reports_client_nihil.field_l10n_be_reports_vat_return_lock_wizard__client_nihil
+msgid "Client Nihil"
+msgstr "Nihil-klantenlisting"
+
+#. module: l10n_be_reports_client_nihil
+#: model:ir.model.fields,field_description:l10n_be_reports_client_nihil.field_l10n_be_reports_vat_return_lock_wizard__display_name
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#. module: l10n_be_reports_client_nihil
+#: model:ir.model.fields,field_description:l10n_be_reports_client_nihil.field_l10n_be_reports_vat_return_lock_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_be_reports_client_nihil
+#: model:ir.model.fields,field_description:l10n_be_reports_client_nihil.field_l10n_be_reports_vat_return_lock_wizard__should_display_client_nihil
+msgid "Should Display Client Nihil"
+msgstr "Moet \"Geen klanten\" weergeven"

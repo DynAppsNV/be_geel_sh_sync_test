@@ -1,0 +1,29 @@
+<odoo>
+    <record id="dyn_dashboard_form_view_inherit" model="ir.ui.view">
+        <field name="name">xx.dashboard.form.view</field>
+        <field name="model">xx.dashboard</field>
+        <field name="inherit_id" ref="dyn_dashboard.dyn_dashboard_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='parent_menu_id']" position="after">
+                <field name="model_ids" widget="many2many_tags" />
+                <field name="icon" />
+            </xpath>
+        </field>
+    </record>
+
+    <record id="dyn_dashboard_item_form_view_inherit" model="ir.ui.view">
+        <field name="name">xx.dashboard.item.form.view</field>
+        <field name="model">xx.dashboard.tile</field>
+        <field name="inherit_id" ref="dyn_dashboard.dyn_dashboard_item_form_view" />
+        <field name="priority">10</field>
+        <field name="arch" type="xml">
+            <field name="query" position="after">
+                <field name="dashboard_model_ids" invisible="1" />
+                <field
+                    name="odoo_record_wildcard"
+                    invisible="[('dashboard_model_ids', '=', False)]"
+                />
+            </field>
+        </field>
+    </record>
+</odoo>

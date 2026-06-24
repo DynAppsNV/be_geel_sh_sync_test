@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.DebugWidget" t-inherit-mode="extension">
+        <!-- As required by the SPF, we hide the button Import orders and Delete unpaid orders to avoid unauthorized actions -->
+        <xpath expr="//div[@data-tooltip='Import orders']" position="attributes">
+            <attribute name="t-if">!this.pos.blackbox.isActive</attribute>
+        </xpath>
+        <xpath expr="//div[@data-tooltip='Delete unpaid orders']" position="attributes">
+            <attribute name="t-if">!this.pos.blackbox.isActive</attribute>
+        </xpath>
+    </t>
+</templates>

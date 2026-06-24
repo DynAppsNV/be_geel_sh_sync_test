@@ -1,0 +1,184 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_payroll_account
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:02+0000\n"
+"PO-Revision-Date: 2026-06-13 19:31+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"hr_payroll_account/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "ແບບຜັງບັນຊີ"
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/account_chart_template.py:0
+msgid "Account Payslip Houserental"
+msgstr "ບັນຊີໃບເງິນເດືອນ ຄ່າເຊົ່າເຮືອນ"
+
+#. module: hr_payroll_account
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account.hr_salary_rule_view_form
+msgid "Accounting"
+msgstr "ການບັນຊີ"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_payslip__move_id
+msgid "Accounting Entry"
+msgstr "ລາຍການບັນຊີ"
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/hr_payroll_account.py:0
+msgid "Adjustment Entry"
+msgstr "ລາຍການປັບປຸງ"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_contract__analytic_account_id
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_contract_history__analytic_account_id
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_salary_rule__analytic_account_id
+msgid "Analytic Account"
+msgstr "ບັນຊີວິເຄາະ"
+
+#. module: hr_payroll_account
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account.hr_payslip_run_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account.hr_payslip_view_form
+msgid "Are you sure you want to proceed?"
+msgstr "ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການດຳເນີນການຕໍ່?"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_contract_history
+msgid "Contract history"
+msgstr "ປະຫວັດສັນຍາ"
+
+#. module: hr_payroll_account
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account.hr_payslip_run_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account.hr_payslip_view_form
+msgid "Create Draft Entry"
+msgstr "ສ້າງລາຍການຮ່າງ"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_salary_rule__account_credit
+msgid "Credit Account"
+msgstr "ບັນຊີມີ (Credit)"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_payslip__date
+msgid "Date Account"
+msgstr "ວັນທີບັນຊີ"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_salary_rule__account_debit
+msgid "Debit Account"
+msgstr "ບັນຊີໜີ້ (Debit)"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_contract
+msgid "Employee Contract"
+msgstr "ສັນຍາຈ້າງງານພະນັກງານ"
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/hr_payroll_account.py:0
+msgid "Incorrect journal: The journal must be in the same currency as the company"
+msgstr "ປຶ້ມບັນຊີບໍ່ຖືກຕ້ອງ: ປຶ້ມບັນຊີຕ້ອງເປັນສະກຸນເງິນດຽວກັນກັບບໍລິສັດ"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_account_journal
+msgid "Journal"
+msgstr "ປຶ້ມບັນຊີ"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,help:hr_payroll_account.field_hr_payslip__date
+msgid "Keep empty to use the period of the validation(Payslip) date."
+msgstr "ປະວ່າງໄວ້ເພື່ອໃຊ້ໄລຍະເວລາຂອງວັນທີຢືນຢັນ (ໃບເງິນເດືອນ)."
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/account_chart_template.py:0
+msgid "No existing account for code %s"
+msgstr "ບໍ່ມີບັນຊີສຳລັບລະຫັດ %s"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_salary_rule__not_computed_in_net
+msgid "Not computed in net accountably"
+msgstr "ບໍ່ໄດ້ຄິດໄລ່ໃນບັນຊີສຸດທິ"
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/hr_payroll_account.py:0
+msgid "One of the contract for these payslips has no structure type."
+msgstr "ໜຶ່ງໃນສັນຍາສຳລັບໃບເງິນເດືອນເຫຼົ່ານີ້ບໍ່ມີປະເພດໂຄງສ້າງ."
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/hr_payroll_account.py:0
+msgid "One of the payroll structures has no account journal defined on it."
+msgstr "ໜຶ່ງໃນໂຄງສ້າງເງິນເດືອນບໍ່ມີການກຳນົດປຶ້ມບັນຊີໄວ້."
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payslip
+msgid "Pay Slip"
+msgstr "ໃບບິນເງິນເດືອນ"
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/account_chart_template.py:0
+msgid "SLR"
+msgstr "SLR"
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/account_chart_template.py:0
+msgid "Salaries"
+msgstr "ເງິນເດືອນ"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_payroll_structure__journal_id
+#: model:ir.model.fields,field_description:hr_payroll_account.field_hr_payslip__journal_id
+msgid "Salary Journal"
+msgstr "ປຶ້ມບັນຊີເງິນເດືອນ"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_salary_rule
+msgid "Salary Rule"
+msgstr "ກົດເກນເງິນເດືອນ"
+
+#. module: hr_payroll_account
+#: model:ir.model,name:hr_payroll_account.model_hr_payroll_structure
+msgid "Salary Structure"
+msgstr "ໂຄງສ້າງເງິນເດືອນ"
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/hr_payroll_account.py:0
+msgid "The Expense Journal \"%s\" has not properly configured the default Account!"
+msgstr "ປຶ້ມບັນຊີລາຍຈ່າຍ \"%s\" ຍັງບໍ່ໄດ້ກຳນົດຄ່າບັນຊີເລີ່ມຕົ້ນຢ່າງຖືກຕ້ອງ!"
+
+#. module: hr_payroll_account
+#: model:ir.model.fields,help:hr_payroll_account.field_hr_salary_rule__not_computed_in_net
+msgid "This field allows you to delete the value of this rule in the \"Net Salary\" rule at the accounting level to explicitly display the value of this rule in the accounting. For example, if you want to display the value of your representation fees, you can check this field."
+msgstr ""
+"ຫ້ອງນີ້ອະນຸຍາດໃຫ້ທ່ານລຶບມູນຄ່າຂອງກົດລະບຽບນີ້ໃນກົດລະບຽບ \"ເງິນເດືອນສຸດທິ\" ໃນລະດັບການບັນຊີ ເພື່ອສະແດ"
+"ງມູນຄ່າຂອງກົດລະບຽບນີ້ໃນການບັນຊີຢ່າງຊັດເຈນ. ຕົວຢ່າງ, ຖ້າທ່ານຕ້ອງການສະແດງມູນຄ່າຂອງຄ່າທຳນຽມຕົວແທນຂ"
+"ອງທ່ານ, ທ່ານສາມາດເລືອກເອົາຫ້ອງນີ້."
+
+#. module: hr_payroll_account
+#. odoo-python
+#: code:addons/hr_payroll_account/models/account_journal.py:0
+msgid "You cannot delete the journal linked to a Salary Structure"
+msgstr "ທ່ານບໍ່ສາມາດລຶບປຶ້ມບັນຊີທີ່ເຊື່ອມໂຍງກັບໂຄງສ້າງເງິນເດືອນໄດ້"

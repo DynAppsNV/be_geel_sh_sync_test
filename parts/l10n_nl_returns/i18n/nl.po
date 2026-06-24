@@ -1,0 +1,84 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_nl_returns
+#
+# Bren Driesen <brdri@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-01 18:05+0000\n"
+"PO-Revision-Date: 2026-05-23 09:38+0000\n"
+"Last-Translator: Bren Driesen <brdri@odoo.com>\n"
+"Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19-l10n/"
+"l10n_nl_returns/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+
+#. module: l10n_nl_returns
+#: model:ir.model.fields.selection,name:l10n_nl_returns.selection__account_return__l10n_nl_sbr_status__accepted
+msgid "Accepted"
+msgstr "Geaccepteerd"
+
+#. module: l10n_nl_returns
+#: model:ir.model,name:l10n_nl_returns.model_account_return
+msgid "Accounting Return"
+msgstr "Btw-aangifte"
+
+#. module: l10n_nl_returns
+#: model:ir.model.fields,field_description:l10n_nl_returns.field_account_return__display_name
+#: model:ir.model.fields,field_description:l10n_nl_returns.field_l10n_nl_reports_sbr_status_service__display_name
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#. module: l10n_nl_returns
+#: model:ir.model.fields.selection,name:l10n_nl_returns.selection__account_return__l10n_nl_sbr_status__error
+msgid "Error"
+msgstr "Fout"
+
+#. module: l10n_nl_returns
+#: model:ir.model.fields,field_description:l10n_nl_returns.field_account_return__id
+#: model:ir.model.fields,field_description:l10n_nl_returns.field_l10n_nl_reports_sbr_status_service__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_nl_returns
+#: model:ir.model.fields.selection,name:l10n_nl_returns.selection__account_return__l10n_nl_sbr_status__pending
+msgid "Pending"
+msgstr "In behandeling"
+
+#. module: l10n_nl_returns
+#: model_terms:ir.ui.view,arch_db:l10n_nl_returns.account_return_kanban_view
+msgid "Refresh"
+msgstr "Vernieuwen"
+
+#. module: l10n_nl_returns
+#: model:ir.model.fields,field_description:l10n_nl_returns.field_account_return__l10n_nl_sbr_status
+msgid "SBR Status"
+msgstr "SBR-status"
+
+#. module: l10n_nl_returns
+#: model:ir.model,name:l10n_nl_returns.model_l10n_nl_reports_sbr_status_service
+msgid "Status checking service for Digipoort submission"
+msgstr "Dienst voor het controleren van de status van Digipoort-indiening"
+
+#. module: l10n_nl_returns
+#. odoo-python
+#: code:addons/l10n_nl_returns/models/account_return.py:0
+msgid ""
+"This tax return has already been accepted by Digipoort and cannot be "
+"modified or reset."
+msgstr ""
+"Deze btw-aangifte is al geaccepteerd door Digipoort en kan niet worden "
+"gewijzigd of gereset."
+
+#. module: l10n_nl_returns
+#: model:ir.model.fields,help:l10n_nl_returns.field_account_return__l10n_nl_sbr_status
+msgid "Tracks SBR submission status for Kanban UI color coding."
+msgstr ""
+"Houdt de status van SBR-inzendingen bij voor de kleurcodering in de Kanban-"
+"gebruikersinterface."

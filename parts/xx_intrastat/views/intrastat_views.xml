@@ -1,0 +1,88 @@
+<odoo>
+    <record id="action_intrastat" model="ir.actions.act_window">
+        <field name="name">Intrastat</field>
+        <field name="res_model">xx.intrastat.account.move</field>
+        <field name="view_mode">list</field>
+        <field name="target">current</field>
+        <field name="context">{'group_by': ['invoice_date:month']}</field>
+    </record>
+
+    <menuitem
+        id="menu_action_account_intrastat"
+        action="action_intrastat"
+        parent="account.account_reports_taxes_and_fiscal_menu"
+    />
+
+    <record id="intrastat_list_view" model="ir.ui.view">
+        <field name="name">xx.intrastat.account.move.list</field>
+        <field name="model">xx.intrastat.account.move</field>
+        <field name="arch" type="xml">
+            <list string="Intrastat" decoration-danger="move_state != 'posted'">
+                <field name="move_id" string="Invoice" />
+                <field name="invoice_date" />
+                <field name="intrastat_code_id" />
+                <field name="intrastat_commodity_code" />
+                <field name="intrastat_country_code" />
+                <field name="intrastat_supplementary_units_amount" />
+                <field name="intrastat_supplementary_units_code" />
+                <field name="intrastat_weight" />
+                <field name="intrastat_value" />
+                <field name="intrastat_statistical_value" />
+            </list>
+        </field>
+    </record>
+
+    <!-- EXPORT TO XML - STANDARD (EX19S) -->
+    <record id="action_export_intrastat_xml_standard" model="ir.actions.server">
+        <field name="name">Export Standard XML (EX19S)</field>
+        <field name="model_id" ref="model_xx_intrastat_account_move" />
+        <field name="state">code</field>
+        <field name="code">
+            action = {
+            'type': 'ir.actions.act_url',
+            'url': '/xx/intrastat/export_xml?declaration_type=standard&amp;ids=%s' % ','.join(map(str, env.context.get('active_ids', []))),
+            'target': 'self',
+            }
+        </field>
+        <field name="binding_model_id" ref="model_xx_intrastat_account_move" />
+        <field name="binding_type">action</field>
+        <field name="binding_view_types">list</field>
+    </record>
+
+    <!-- EXPORT TO XML - EXTENDED (EX19E) -->
+    <record id="action_export_intrastat_xml_extended" model="ir.actions.server">
+        <field name="name">Export Extended XML (EX19E)</field>
+        <field name="model_id" ref="model_xx_intrastat_account_move" />
+        <field name="state">code</field>
+        <field name="code">
+            action = {
+            'type': 'ir.actions.act_url',
+            'url': '/xx/intrastat/export_xml?declaration_type=extended&amp;ids=%s' % ','.join(map(str, env.context.get('active_ids', []))),
+            'target': 'self',
+            }
+        </field>
+        <field name="binding_model_id" ref="model_xx_intrastat_account_move" />
+        <field name="binding_type">action</field>
+        <field name="binding_view_types">list</field>
+    </record>
+
+    <!-- SEARCH -->
+    <record id="intrastat_search" model="ir.ui.view">
+        <field name="name">xx.intrastat.account.move.search</field>
+        <field name="model">xx.intrastat.account.move</field>
+        <field name="arch" type="xml">
+            <search>
+                <filter
+                    string="Posted"
+                    name="posted"
+                    domain="[('move_id.state','=','posted')]"
+                />
+                <filter
+                    string="Invoice Date"
+                    name="invoice_date"
+                    context="{'group_by':'invoice_date'}"
+                />
+            </search>
+        </field>
+    </record>
+</odoo>

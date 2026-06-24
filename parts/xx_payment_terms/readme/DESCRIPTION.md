@@ -1,0 +1,3 @@
+Adjusts the standard Pay flow to allow users to force apply the payment terms discount when it has already expired.
+From the bills overview, the Pay dialog is updated to include an overview of the selected bills together with the status of the discount linked to the bill's payment terms (if any).
+Users can select the bills with expired discounts where they want to force the discount to be applied. No changes are made to the discount calculation itself.

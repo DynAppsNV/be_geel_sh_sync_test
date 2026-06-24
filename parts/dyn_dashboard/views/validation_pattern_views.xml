@@ -1,0 +1,27 @@
+<odoo>
+    <record id="validation_patterns_tree_view" model="ir.ui.view">
+        <field name="name">Validation Pattern Form</field>
+        <field name="model">xx.dashboard.validation.patterns</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="pattern_type" />
+                <field name="country_id" />
+                <field name="validation_rule" />
+                <field name="pattern" />
+            </list>
+        </field>
+    </record>
+
+    <record id="validation_pattern_action" model="ir.actions.act_window">
+        <field name="name">Validation Patterns</field>
+        <field name="res_model">xx.dashboard.validation.patterns</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">list,form</field>
+    </record>
+    <menuitem
+        action="validation_pattern_action"
+        id="menu_validation_pattern"
+        parent="menu_dyn_dashboard_settings"
+        sequence="10"
+    />
+</odoo>

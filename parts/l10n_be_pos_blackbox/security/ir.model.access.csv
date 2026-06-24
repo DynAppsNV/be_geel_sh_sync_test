@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pos_blackbox_be_manager,access_pos_blackbox_be_manager,model_pos_blackbox_be,point_of_sale.group_pos_manager,1,1,1,1
+access_pos_blackbox_be_user,access_pos_blackbox_be_user,model_pos_blackbox_be,point_of_sale.group_pos_user,1,0,0,0
+access_pos_clock_in_out,access_pos_clock_in_out,model_pos_clock_in_out,point_of_sale.group_pos_user,1,0,1,0
+access_pos_blackbox_log_device,access_pos_blackbox_log_device,model_pos_blackbox_log_device,point_of_sale.group_pos_user,1,0,1,0

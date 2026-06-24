@@ -1,0 +1,8 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_esg_report_model,access_esg_report_model,model_esg_report,esg.esg_group_manager,1,1,1,1
+access_esg_esrs_model,access_esg_esrs_model,model_esg_esrs,esg.esg_group_manager,1,1,1,1
+access_esg_nace_model,access_esg_nace_model,model_esg_nace,esg.esg_group_manager,1,1,1,1
+access_esg_metric_model,access_esg_metric_model,model_esg_metric,esg.esg_group_manager,1,1,1,1
+access_esg_tag_model,access_esg_tag_model,model_esg_tag,esg.esg_group_manager,1,1,1,1
+access_esg_metric_ask_feedback_model,access_esg_metric_ask_feedback_model,model_esg_metric_ask_feedback,esg.esg_group_manager,1,1,1,1
+access_esg_metric_to_survey_question_model,access_esg_metric_to_survey_question_model,model_esg_metric_to_survey_question,esg.esg_group_manager,1,1,1,1

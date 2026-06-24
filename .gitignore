@@ -1,0 +1,47 @@
+# sphinx build directories
+_build/
+
+# compiled python files
+*.py[co]
+# setup.py egg_info
+*.egg-info
+# emacs backup files
+*~
+# Debian install files
+*.deb
+# hg stuff
+*.orig
+status
+# odoo filestore
+openerp/filestore
+# generated for windows installer?
+install/win32/*.bat
+install/win32/meta.py
+
+# various virtualenv
+/bin/
+/build/
+/dist/
+/include/
+/lib/
+/man/
+/share/
+/src/
+/eggs/
+/develop-eggs/
+/etc/
+/var/
+/data/
+/usr/
+/virtualenv/
+/venv/
+/a.r.odoo/
+/buildout.cfg
+/deploy.sh
+/upgrade.log
+
+# Pycharm
+.idea
+
+# Buildout
+.installed.cfg

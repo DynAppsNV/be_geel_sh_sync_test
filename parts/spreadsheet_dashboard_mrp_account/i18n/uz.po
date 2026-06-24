@@ -1,0 +1,307 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_mrp_account
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:49+0000\n"
+"PO-Revision-Date: 2025-10-08 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Available time (min)"
+msgstr "Mavjud vaqt (daq)"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Average Cost / Unit"
+msgstr "O‘rtacha narx / birlik"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Average cost / unit"
+msgstr "O‘rtacha narx / birlik"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Bamboo Toothbrush"
+msgstr "Bambuk tish cho‘tkasi"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Carbon-Fiber Tripod"
+msgstr "Uglerod-tolali shtativ"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Confirmed"
+msgstr "Tasdiqlangan"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Current"
+msgstr "Joriy"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Done"
+msgstr "Bajarildi"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "EcoSmart LED Bulb"
+msgstr "EcoSmart LED lampochka"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "KPI"
+msgstr "KPI"
+
+#. module: spreadsheet_dashboard_mrp_account
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_mrp_account.spreadsheet_dashboard_manufacturing
+#, fuzzy
+msgid "Manufacturing"
+msgstr "Ishlab chiqarish"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Manufacturing Orders"
+msgstr "Ishlab chiqarish buyurtmalari"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Manufacturing orders"
+msgstr "Ishlab chiqarish buyurtmalari"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Most Produced Products"
+msgstr "Eng ko‘p ishlab chiqarilgan mahsulotlar"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Noise-Canceling Headphones"
+msgstr "Shovqinni so‘ndiruvchi quloqchinlar"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "OEE"
+msgstr "OEE"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Operation Type"
+msgstr "Operatsiya turi"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Orders"
+msgstr "Buyurtmalar"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Organic Green Tea"
+msgstr "Organik ko‘k choy"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#, fuzzy
+msgid "Period"
+msgstr "Davr"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Previous"
+msgstr "Oldingi"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Productive time (min)"
+msgstr "Unumli vaqt (daq)"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Qty Produced"
+msgstr "Ishlab chiqarilgan miqdor"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Quantity Produced"
+msgstr "Ishlab chiqarilgan miqdor"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Responsible"
+msgstr "Mas'ul shaxs"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Reusable Water Bottle"
+msgstr "Ko‘p martalik suv idishi"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Smart Thermostat"
+msgstr "Aqlli termostat"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "To Close"
+msgstr "Yopish uchun"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Operation Types"
+msgstr "Eng ko‘p qo‘llaniladigan operatsiya turlari"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Products"
+msgstr "Eng sara mahsulotlar"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Responsibles"
+msgstr "Asosiy mas'ul shaxslar"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Total quantity"
+msgstr "Umumiy miqdor"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Total time (min)"
+msgstr "Jami vaqt (daq)"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Vegan Leather Wallet"
+msgstr "Vegan charm hamyon"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "Weekly Production"
+msgstr "Haftalik ishlab chiqarish"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_sample_dashboard.json:0
+#, fuzzy
+msgid "since last period"
+msgstr "O‘tgan davrdan beri"

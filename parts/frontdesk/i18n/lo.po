@@ -1,0 +1,1338 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * frontdesk
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-01 17:40+0000\n"
+"PO-Revision-Date: 2026-06-06 12:52+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/frontdesk/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid " - Manager: %(manager_name)s"
+msgstr " - ຜູ້ຈັດການ: %(manager_name)s"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "%(name)s just checked-in. Requested Drink: %(drink)s."
+msgstr "%(name)s ຫາກໍ່ລົງທະບຽນເຂົ້າ. ເຄື່ອງດື່ມທີ່ຕ້ອງການ: %(drink)s."
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "%(station)s Check-In: %(visitor)s"
+msgstr "%(station)s ລົງທະບຽນເຂົ້າ: %(visitor)s"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "%(station)s Check-In: %(visitor)s to meet %(host)s"
+msgstr "%(station)s ລົງທະບຽນເຂົ້າ: %(visitor)s ເພື່ອພົບ %(host)s"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+msgid "%s (copy)"
+msgstr "%s (ສຳເນົາ)"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "%s just checked-in."
+msgstr "%s ຫາກໍ່ລົງທະບຽນເຂົ້າ."
+
+#. module: frontdesk
+#: model:ir.actions.report,print_report_name:frontdesk.frontdesk_visitor_print_badge
+msgid "'Badge - %s' % (object.name).replace('/', '')"
+msgstr "'ບັດ - %s' % (object.name).replace('/', '')"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid ""
+")\n"
+"                        will be notified via email/SMS only, as they are not available on Discuss."
+msgstr ""
+")\n"
+"                        ຈະໄດ້ຮັບການແຈ້ງເຕືອນຜ່ານ ອີເມວ/SMS ເທົ່ານັ້ນ, ເນື່ອງຈາກພວກເຂົາບໍ່ໄດ້ຢູ່"
+"ໃນ Discuss."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+msgid ",<br/>I hope this message finds you well. This is to inform you that"
+msgstr ",<br/>ຫວັງວ່າທ່ານຄືຈະສະບາຍດີ. ຂໍແຈ້ງໃຫ້ທ່ານຊາບວ່າ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+msgid ""
+".\n"
+"                    <br/>Please let us know if you would like us to direct them to a meeting room or if you require any further assistance.\n"
+"                    <br/>After a successful meeting with the visitor, please proceed to check out their login."
+msgstr ""
+".\n"
+"                    <br/>ກະລຸນາແຈ້ງໃຫ້ພວກເຮົາຊາບ ຫາກທ່ານຕ້ອງການໃຫ້ພວກເຮົາພາພວກເຂົາໄປທີ່ຫ້"
+"ອງປະຊຸມ ຫຼື ຫາກທ່ານຕ້ອງການຄວາມຊ່ວຍເຫຼືອເພີ່ມເຕີມ.\n"
+"                    <br/>ຫຼັງຈາກສໍາເລັດການພົບປະກັບຜູ້ມາຢ້ຽມຢາມແລ້ວ, ກະລຸນາດຳເນີນການລົງທະບຽ"
+"ນອອກໃຫ້ພວກເຂົາດ້ວຍ."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+msgid "22 Oct 24 14:20:10"
+msgstr "22 ຕຸລາ 24 14:20:10"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_check_out
+msgid ""
+"<i class=\"fa fa-check-circle fa-3x d-block mb-3 text-success\"/>\n"
+"                    The visitor has been successfully <br/> checked out"
+msgstr ""
+"<i class=\"fa fa-check-circle fa-3x d-block mb-3 text-success\"/>\n"
+"                    ຜູ້ມາຢ້ຽມຢາມໄດ້ <br/> ລົງທະບຽນອອກສຳເລັດແລ້ວ"
+
+#. module: frontdesk
+#: model_terms:web_tour.tour,rainbow_man_message:frontdesk.frontdesk_tour
+msgid ""
+"<span><b>Congratulations!!!</b> You have created your first visitor.\n"
+"        </span>"
+msgstr ""
+"<span><b>ຂໍສະແດງຄວາມຍິນດີ!!!</b> ທ່ານໄດ້ສ້າງລາຍຊື່ຜູ້ມາຢ້ຽມຢາມຄົນທຳອິດຂອງທ່ານແລ້ວ.\n"
+"        </span>"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+msgid "<strong>Visiting:</strong>"
+msgstr "<strong>ມາຢ້ຽມຢາມ:</strong>"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_needaction
+msgid "Action Needed"
+msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__active
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__active
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__active
+msgid "Active"
+msgstr "ເປີດໃຊ້ງານ"
+
+#. module: frontdesk
+#: model:ir.actions.client,name:frontdesk.frontdesk_visitor_action_configure_properties_field
+msgid "Add Properties"
+msgstr "ເພີ່ມຄຸນສົມບັດ"
+
+#. module: frontdesk
+#: model:res.groups,name:frontdesk.frontdesk_group_administrator
+msgid "Administrator"
+msgstr "ຜູ້ດູແລລະບົບ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+msgid "All"
+msgstr "ທັງໝົດ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "All Employees"
+msgstr "ພະນັກງານທັງໝົດ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.js:0
+msgid "All departments"
+msgstr "ທຸກພະແນກ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Allow visitor to select a drink during registration"
+msgstr "ອະນຸຍາດໃຫ້ຜູ້ມາຢ້ຽມຢາມເລືອກເຄື່ອງດື່ມໃນລະຫວ່າງການລົງທະບຽນ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Allows the visitor to pick the host of the meeting from the list"
+msgstr "ອະນຸຍາດໃຫ້ຜູ້ມາຢ້ຽມຢາມເລືອກຜູ້ຮັບຕ້ອນຈາກລາຍຊື່"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Archived"
+msgstr "ຈັດເກັບແລ້ວ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/quick_check_in/quick_check_in.xml:0
+msgid "Are you one of these people?"
+msgstr "ທ່ານແມ່ນໜຶ່ງໃນບຸກຄົນເຫຼົ່ານີ້ບໍ່?"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__authenticate_guest
+msgid "Authenticate Guest"
+msgstr "ຢືນຢັນຕົວຕົນແຂກ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+msgid "Back"
+msgstr "ກັບຄືນ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+msgid "Best regards,<br/>"
+msgstr "ດ້ວຍຄວາມນັບຖື,<br/>"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+msgid "Browse All Hosts"
+msgstr "ເບິ່ງຜູ້ຮັບຕ້ອນທັງໝົດ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+msgid "By Responsible"
+msgstr "ຕາມຜູ້ຮັບຜິດຊອບ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__canceled
+msgid "Cancelled"
+msgstr "ຍົກເລີກແລ້ວ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__check_in
+msgid "Check In"
+msgstr "ລົງທະບຽນເຂົ້າ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__check_out
+msgid "Check Out"
+msgstr "ລົງທະບຽນອອກ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+msgid "Check Out Visitor"
+msgstr "ລົງທະບຽນຜູ້ມາຢ້ຽມຢາມອອກ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/welcome_page/welcome_page.xml:0
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "Check in"
+msgstr "ລົງທະບຽນເຂົ້າ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "Check out"
+msgstr "ລົງທະບຽນອອກ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "CheckIn"
+msgstr "ລົງທະບຽນເຂົ້າ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "CheckIn Station"
+msgstr "ຈຸດລົງທະບຽນເຂົ້າ"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__checked_in
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Checked-In"
+msgstr "ລົງທະບຽນເຂົ້າແລ້ວ"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__checked_out
+msgid "Checked-Out"
+msgstr "ລົງທະບຽນອອກແລ້ວ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Checked-out"
+msgstr "ລົງທະບຽນອອກແລ້ວ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "Checkout"
+msgstr "ລົງທະບຽນອອກ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+msgid "Choose who you would like to visit"
+msgstr "ເລືອກບຸກຄົນທີ່ທ່ານຕ້ອງການມາພົບ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_check_out
+msgid "Close"
+msgstr "ປິດ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__company_id
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+msgid "Company Logo"
+msgstr "ໂລໂກ້ບໍລິສັດ"
+
+#. module: frontdesk
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_config
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+msgid "Configuration"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Configure Drinks"
+msgstr "ຕັ້ງຄ່າເຄື່ອງດື່ມ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+msgid "Continue"
+msgstr "ຕໍ່ໄປ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__create_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__create_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__create_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__create_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__theme__dark
+msgid "Dark"
+msgstr "ມືດ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+msgid "Dear"
+msgstr "ຮຽນ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "Dear %(visitor_name)s,"
+msgstr "ຮຽນ %(visitor_name)s,"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__description
+msgid "Description"
+msgstr "ຄຳອະທິບາຍ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__display_name
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__display_name
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+msgid "Do you want something to drink?"
+msgstr "ທ່ານຕ້ອງການເຄື່ອງດື່ມບໍ່?"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__drink_ids
+msgid "Drink"
+msgstr "ເຄື່ອງດື່ມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__drink_image
+msgid "Drink Image"
+msgstr "ຮູບເຄື່ອງດື່ມ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+msgid "Drink Name"
+msgstr "ຊື່ເຄື່ອງດື່ມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__served
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "Drink Served"
+msgstr "ເສີບເຄື່ອງດື່ມແລ້ວ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/drink_page/drink_page.xml:0
+msgid "Drink image"
+msgstr "ຮູບເຄື່ອງດື່ມ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Drink to Serve"
+msgstr "ເຄື່ອງດື່ມທີ່ຈະເສີບ"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_drink
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_drinks_report
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__drink_ids
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_drinks_config
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_report_drinks
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_report_view_graph
+msgid "Drinks"
+msgstr "ເຄື່ອງດື່ມ"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_drink_to_serve_visitor
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__drink_to_serve
+msgid "Drinks to Serve"
+msgstr "ເຄື່ອງດື່ມທີ່ຈະເສີບ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+msgid "Drinks to serve"
+msgstr "ເຄື່ອງດື່ມທີ່ຈະເສີບ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__duration
+msgid "Duration"
+msgstr "ໄລຍະເວລາ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+msgid "E.g. What's your Name"
+msgstr "ຕົວຢ່າງ: ທ່ານຊື່ຫຍັງ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__ask_email
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__email
+msgid "Email"
+msgstr "ອີເມວ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+msgid "Enter the visitor's name."
+msgstr "ໃສ່ຊື່ຜູ້ມາຢ້ຽມຢາມ."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+msgid "Favorite"
+msgstr "ລາຍການທີ່ມັກ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: frontdesk
+#: model:ir.actions.client,name:frontdesk.frontdesk_action_install_kiosk_pwa
+#: model:ir.model,name:frontdesk.model_frontdesk_frontdesk
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_root
+#: model:res.groups.privilege,name:frontdesk.res_groups_privilege_frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Frontdesk"
+msgstr "ຈຸດຕ້ອນຮັບ"
+
+#. module: frontdesk
+#: model:ir.model,name:frontdesk.model_frontdesk_drink
+msgid "Frontdesk Drink"
+msgstr "ເຄື່ອງດື່ມຈຸດຕ້ອນຮັບ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__name
+msgid "Frontdesk Name"
+msgstr "ຊື່ຈຸດຕ້ອນຮັບ"
+
+#. module: frontdesk
+#: model:sms.template,name:frontdesk.frontdesk_sms_template
+msgid "Frontdesk SMS Template"
+msgstr "ຮູບແບບ SMS ຈຸດຕ້ອນຮັບ"
+
+#. module: frontdesk
+#: model:ir.model,name:frontdesk.model_frontdesk_visitor
+msgid "Frontdesk Visitors"
+msgstr "ຜູ້ມາຢ້ຽມຢາມຈຸດຕ້ອນຮັບ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+msgid "Go back"
+msgstr "ກັບຄືນ"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_guest_on_site_visitor
+msgid "Guest On Site"
+msgstr "ແຂກທີ່ຢູ່ໃນສະຖານທີ່"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__guest_on_site
+msgid "Guests On Site"
+msgstr "ແຂກທີ່ຢູ່ໃນສະຖານທີ່"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: frontdesk
+#: model:sms.template,body:frontdesk.frontdesk_sms_template
+msgid ""
+"Hello, Your visitor {{ object.name }} {{ '(%s)' % object.phone if "
+"object.phone else '' }} {{ '(%s)' % object.company if object.company else ''"
+" }} wants to meet you at {{ object.station_id.name }}. Please let them know "
+"you'll be there shortly."
+msgstr ""
+"ສະບາຍດີ, ຜູ້ມາຢ້ຽມຢາມຂອງທ່ານ {{ object.name }} {{ '(%s)' % object.phone if "
+"object.phone else '' }} {{ '(%s)' % object.company if object.company else "
+"'' }} ຕ້ອງການພົບທ່ານຢູ່ທີ່ {{ object.station_id.name }}. ກະລຸນາແຈ້ງໃຫ້ພວກເຂົາຊາບວ່າທ່ານຈະໄ"
+"ປຮອດໃນໄວໆນີ້."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+msgid "Henry"
+msgstr "Henry"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+msgid "Here, you'll see list of all the visitors."
+msgstr "ທີ່ນີ້, ທ່ານຈະເຫັນລາຍຊື່ຂອງຜູ້ມາຢ້ຽມຢາມທັງໝົດ."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "Host"
+msgstr "ຜູ້ຮັບຕ້ອນ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+msgid "Host Avatar"
+msgstr "ຮູບແທນຕົວຜູ້ຮັບຕ້ອນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__host_ids
+msgid "Host Name"
+msgstr "ຊື່ຜູ້ຮັບຕ້ອນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__host_selection
+msgid "Host Selection"
+msgstr "ການເລືອກຜູ້ຮັບຕ້ອນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__host_ids
+msgid "Hosts"
+msgstr "ຜູ້ຮັບຕ້ອນ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/drink_page/drink_page.xml:0
+msgid "How can we delight you?"
+msgstr "ມີຫຍັງໃຫ້ພວກເຮົາຮັບໃຊ້ທ່ານບໍ່?"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__id
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__id
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_has_error
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__image
+msgid "Image"
+msgstr "ຮູບພາບ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+msgid "Install"
+msgstr "ຕິດຕັ້ງ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/controllers/main.py:0
+msgid ""
+"Invalid domain. Allowed filters are: department_id with '=' and display_name"
+" with 'ilike'."
+msgstr ""
+"ໂດເມນບໍ່ຖືກຕ້ອງ. ຕົວຕອງທີ່ອະນຸຍາດແມ່ນ: department_id ດ້ວຍ '=' ແລະ display_name ດ້ວຍ "
+"'ilike'."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__is_favorite
+msgid "Is Favorite"
+msgstr "ແມ່ນລາຍການທີ່ມັກ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_is_follower
+msgid "Is Follower"
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+msgid "Karen"
+msgstr "Karen"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+msgid "Kiosk"
+msgstr "ຄີອອດ (Kiosk)"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__kiosk_url
+msgid "Kiosk URL"
+msgstr "URL ຂອງຄີອອດ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+msgid "Last Check-In: %s hours ago"
+msgstr "ລົງທະບຽນເຂົ້າຫຼ້າສຸດ: %s ຊົ່ວໂມງກ່ອນ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+msgid "Last Check-In: %s minutes ago"
+msgstr "ລົງທະບຽນເຂົ້າຫຼ້າສຸດ: %s ນາທີກ່ອນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__write_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__write_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__write_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__write_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__latest_check_in
+msgid "Latest Check In"
+msgstr "ລົງທະບຽນເຂົ້າຫຼ້າສຸດ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+msgid "Let's add a new visitor."
+msgstr "ມາເພີ່ມຜູ້ມາຢ້ຽມຢາມໃໝ່ກັນເລີຍ."
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__theme__light
+msgid "Light"
+msgstr "ແຈ້ງ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+msgid ""
+"Looking for a better way to manage your visitors? \n"
+" It begins right here."
+msgstr ""
+"ກຳລັງຊອກຫາວິທີທີ່ດີກວ່າໃນການຈັດການຜູ້ມາຢ້ຽມຢາມຂອງທ່ານແມ່ນບໍ່? \n"
+" ມັນເລີ່ມຕົ້ນທີ່ນີ້."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+msgid "MY PVT LTD"
+msgstr "MY PVT LTD"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+msgid "Message"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_has_error
+msgid "Message Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+msgid "My Station"
+msgstr "ຈຸດບໍລິການຂອງຂ້ອຍ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__name
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__name
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_drink
+msgid "No drinks to offer to visitors. Let's add one!"
+msgstr "ບໍ່ມີເຄື່ອງດື່ມສຳລັບຜູ້ມາຢ້ຽມຢາມ. ມາເພີ່ມກັນເລີຍ!"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_frontdesk_tree
+msgid "No stations found. Let's create one!"
+msgstr "ບໍ່ພົບຈຸດບໍລິການ. ມາສ້າງໃໝ່ກັນເລີຍ!"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_drink_to_serve_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_guest_on_site_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_planned_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_station_visitor
+msgid "No visitors yet. Let's add one!"
+msgstr "ຍັງບໍ່ມີຜູ້ມາຢ້ຽມຢາມເທື່ອ. ມາເພີ່ມກັນເລີຍ!"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+msgid "No, thank you"
+msgstr "ບໍ່, ຂອບໃຈ"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_company__none
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_email__none
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_phone__none
+msgid "None"
+msgstr "ບໍ່ມີ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/drink_page/drink_page.xml:0
+msgid "Nothing, thanks."
+msgstr "ບໍ່ມີຫຍັງ, ຂອບໃຈ."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_warning
+msgid "Notify Warning"
+msgstr "ແຈ້ງເຕືອນຄຳເຕືອນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_sms
+msgid "Notify by SMS"
+msgstr "ແຈ້ງເຕືອນຜ່ານ SMS"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_discuss
+msgid "Notify by discuss"
+msgstr "ແຈ້ງເຕືອນຜ່ານ Discuss"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_email
+msgid "Notify by email"
+msgstr "ແຈ້ງເຕືອນຜ່ານອີເມວ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Notify the host on guest arrival"
+msgstr "ແຈ້ງເຕືອນຜູ້ຮັບຕ້ອນເມື່ອແຂກມາຮອດ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈຳນວນການດຳເນີນການ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງການການດຳເນີນການ"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_drink_to_serve_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_guest_on_site_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_planned_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_station_visitor
+msgid "Odoo helps you to track all information related to your visitors."
+msgstr "Odoo ຊ່ວຍໃຫ້ທ່ານຕິດຕາມຂໍ້ມູນທັງໝົດທີ່ກ່ຽວຂ້ອງກັບຜູ້ມາຢ້ຽມຢາມຂອງທ່ານ."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__drink_offer
+msgid "Offer Drinks"
+msgstr "ສະເໜີເຄື່ອງດື່ມ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+msgid "On Site"
+msgstr "ຢູ່ໃນສະຖານທີ່"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+msgid "Open Desk"
+msgstr "ເປີດໂຕະຕ້ອນຮັບ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Open Kiosk"
+msgstr "ເປີດຄີອອດ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Open host chat window when guest arrives"
+msgstr "ເປີດປ່ອງຢ້ຽມສົນທະນາກັບຜູ້ຮັບຕ້ອນເມື່ອແຂກມາຮອດ"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_company__optional
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_email__optional
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_phone__optional
+msgid "Optional"
+msgstr "ເລືອກໄດ້"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Options"
+msgstr "ທາງເລືອກ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__ask_company
+msgid "Organization"
+msgstr "ອົງກອນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__pending
+msgid "Pending"
+msgstr "ກຳລັງລໍຖ້າ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__notify_user_ids
+msgid "People to Notify"
+msgstr "ບຸກຄົນທີ່ຈະແຈ້ງເຕືອນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__ask_phone
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__phone
+msgid "Phone"
+msgstr "ເບີໂທລະສັບ"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_planned_visitor
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__planned
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Planned"
+msgstr "ວາງແຜນໄວ້"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+msgid "Please have a seat."
+msgstr "ກະລຸນານັ່ງລໍຖ້າ."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_qr_expired
+msgid "Please rescan it."
+msgstr "ກະລຸນາສະແກນໃໝ່."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "Print Badge"
+msgstr "ພິມບັດ"
+
+#. module: frontdesk
+#: model:ir.actions.report,name:frontdesk.frontdesk_visitor_print_badge
+msgid "Print Visitor Badge"
+msgstr "ພິມບັດຜູ້ມາຢ້ຽມຢາມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__visitor_properties
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+msgid "Properties"
+msgstr "ຄຸນສົມບັດ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/welcome_page/welcome_page.xml:0
+msgid "QR Code"
+msgstr "ລະຫັດ QR"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_qr_expired
+msgid "QR Code Expired."
+msgstr "ລະຫັດ QR ໝົດອາຍຸ."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/quick_check_in/quick_check_in.xml:0
+msgid "Quick Check In"
+msgstr "ລົງທະບຽນເຂົ້າແບບດ່ວນ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: frontdesk
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_report
+msgid "Reporting"
+msgstr "ການລາຍງານ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Request additional information upon registering"
+msgstr "ຂໍຂໍ້ມູນເພີ່ມເຕີມໃນເວລະລົງທະບຽນ"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_company__required
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_email__required
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_phone__required
+msgid "Required"
+msgstr "ຈຳເປັນ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+msgid "Responsible"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__responsible_ids
+msgid "Responsibles"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_frontdesk__responsible_ids
+msgid ""
+"Responsibles are people who will welcome the client and handle their drinks,"
+" etc."
+msgstr ""
+"ຜູ້ຮັບຜິດຊອບແມ່ນບຸກຄົນທີ່ຈະມາຕ້ອນຮັບລູກຄ້າ ແລະ ຈັດການເລື່ອງເຄື່ອງດື່ມ ແລະ ອື່ນໆ."
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_frontdesk__host_selection
+msgid "Restrict the hosts available from the client to choose from."
+msgstr "ຈຳກັດລາຍຊື່ຜູ້ຮັບຕ້ອນທີ່ລູກຄ້າສາມາດເລືອກໄດ້."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__sms_template_id
+msgid "SMS Template"
+msgstr "ຮູບແບບ SMS"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+msgid "Save the visitor."
+msgstr "ບັນທຶກຜູ້ມາຢ້ຽມຢາມ."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+msgid "Search..."
+msgstr "ຄົ້ນຫາ..."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__access_token
+msgid "Security Token"
+msgstr "ລະຫັດຄວາມປອດໄພ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+msgid "Select Host"
+msgstr "ເລືອກຜູ້ຮັບຕ້ອນ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+msgid "Select or create a station on the fly from where the visitor arrived."
+msgstr "ເລືອກ ຫຼື ສ້າງຈຸດບໍລິການທີ່ຜູ້ມາຢ້ຽມຢາມມາຮອດ."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Select the color of the Desk"
+msgstr "ເລືອກສີຂອງໂຕະຕ້ອນຮັບ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+msgid "Selected host:"
+msgstr "ຜູ້ຮັບຕ້ອນທີ່ເລືອກ:"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__self_check_in
+msgid "Self Check-In"
+msgstr "ລົງທະບຽນເຂົ້າດ້ວຍຕົນເອງ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Send an SMS to the host on guest arrival"
+msgstr "ສົ່ງ SMS ຫາຜູ້ຮັບຕ້ອນເມື່ອແຂກມາຮອດ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__sequence
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+msgid "Sequence"
+msgstr "ລຳດັບ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+msgid "Set as Planned"
+msgstr "ຕັ້ງເປັນວາງແຜນໄວ້"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Show a QR code on the welcome screen to check-in from mobile"
+msgstr "ສະແດງລະຫັດ QR ໃນໜ້າຈໍຍິນດີຕ້ອນຮັບເພື່ອລົງທະບຽນເຂົ້າຜ່ານມືຖື"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_frontdesk__self_check_in
+msgid ""
+"Shows a QR code in the interface, for guests to check in from their mobile "
+"phone."
+msgstr "ສະແດງລະຫັດ QR ໃນໜ້າຈໍ ເພື່ອໃຫ້ແຂກລົງທະບຽນເຂົ້າຈາກໂທລະສັບມືຖືຂອງພວກເຂົາ."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Side Message"
+msgstr "ຂໍ້ຄວາມດ້ານຂ້າງ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Some employees ("
+msgstr "ພະນັກງານບາງຄົນ ("
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__station_id
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Station"
+msgstr "ຈຸດບໍລິການ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+msgid "Station Name"
+msgstr "ຊື່ຈຸດບໍລິການ"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_station_visitor
+msgid "Station Visitors"
+msgstr "ຜູ້ມາຢ້ຽມຢາມຈຸດບໍລິການ"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_frontdesk_tree
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_stations
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_stations_config
+msgid "Stations"
+msgstr "ຈຸດບໍລິການ"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_station_report
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+msgid "Statistics"
+msgstr "ສະຖິຕິ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__state
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+msgid "Thank you for registering!"
+msgstr "ຂອບໃຈທີ່ລົງທະບຽນ!"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "Thanks for your understanding."
+msgstr "ຂອບໃຈທີ່ທ່ານເຂົ້າໃຈ."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__theme
+msgid "Theme"
+msgstr "ຮູບແບບ (Theme)"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+msgid "Today"
+msgstr "ມື້ນີ້"
+
+#. module: frontdesk
+#: model:res.groups,name:frontdesk.frontdesk_group_user
+msgid "User"
+msgstr "ຜູ້ໃຊ້"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+msgid "Visitor"
+msgstr "ຜູ້ມາຢ້ຽມຢາມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__company
+msgid "Visitor Company"
+msgstr "ບໍລິສັດຂອງຜູ້ມາຢ້ຽມຢາມ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__visitor_properties_definition
+msgid "Visitor Properties"
+msgstr "ຄຸນສົມບັດຜູ້ມາຢ້ຽມຢາມ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_visitor
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_visitors_report
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__visitor_ids
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_report_visitors
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_visitors
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_station_report_view_graph
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_report_view_graph
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_graph
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_pivot
+msgid "Visitors"
+msgstr "ຜູ້ມາຢ້ຽມຢາມ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid ""
+"We regret to inform you that the following %(host_status)s currently "
+"unavailable:"
+msgstr ""
+"ພວກເຮົາຂໍແຈ້ງໃຫ້ທ່ານຊາບວ່າ %(host_status)s ດັ່ງຕໍ່ໄປນີ້ບໍ່ຫວ່າງໃນເວລານີ້:"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__website_message_ids
+msgid "Website Messages"
+msgstr "ຂໍ້ຄວາມເວັບໄຊທ໌"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__website_message_ids
+msgid "Website communication history"
+msgstr "ປະຫວັດການສື່ສານເວັບໄຊທ໌"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/welcome_page/welcome_page.xml:0
+msgid "Welcome to"
+msgstr "ຍິນດີຕ້ອນຮັບສູ່"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+msgid "Who are you visiting?"
+msgstr "ທ່ານມາຢ້ຽມຢາມໃຜ?"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+msgid "Who are you?"
+msgstr "ທ່ານແມ່ນໃຜ?"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+msgid "Write message..."
+msgstr "ຂຽນຂໍ້ຄວາມ..."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+msgid "Yes, please"
+msgstr "ແມ່ນແລ້ວ, ກະລຸນາ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid ""
+"You can contact the host's manager or frontdesk responsible for further "
+"assistance."
+msgstr ""
+"ທ່ານສາມາດຕິດຕໍ່ຜູ້ຈັດການຂອງຜູ້ຮັບຕ້ອນ ຫຼື ຜູ້ຮັບຜິດຊອບຈຸດຕ້ອນຮັບເພື່ອຂໍຄວາມຊ່ວຍເຫຼືອເພີ່ມເຕີມ."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+msgid "You have been registered!"
+msgstr "ທ່ານໄດ້ລົງທະບຽນແລ້ວ!"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+msgid "Your Company"
+msgstr "ບໍລິສັດຂອງທ່ານ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+msgid "Your Email"
+msgstr "ອີເມວຂອງທ່ານ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+msgid "Your Name"
+msgstr "ຊື່ຂອງທ່ານ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+msgid "Your Phone Number"
+msgstr "ເບີໂທລະສັບຂອງທ່ານ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "Your Visitor %(name)s Requested To Meet You"
+msgstr "ຜູ້ມາຢ້ຽມຢາມຂອງທ່ານ %(name)s ຂໍພົບທ່ານ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+msgid "Your drink is on the way."
+msgstr "ເຄື່ອງດື່ມຂອງທ່ານກຳລັງມາ."
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "Your host isn't available"
+msgstr "ຜູ້ຮັບຕ້ອນຂອງທ່ານບໍ່ຫວ່າງ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+msgid ""
+"and is here for their scheduled meeting with you.\n"
+"                    They are currently waiting in the"
+msgstr ""
+"ແລະ ຢູ່ທີ່ນີ້ເພື່ອພົບທ່ານຕາມນັດໝາຍ.\n"
+"                    ປະຈຸບັນພວກເຂົາກຳລັງລໍຖ້າຢູ່ໃນ"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+msgid "e.g. Coca-Cola"
+msgstr "ຕົວຢ່າງ: ໂຄຄາ-ໂຄລາ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+msgid "e.g. John Doe"
+msgstr "ຕົວຢ່າງ: ທ້າວ ສົມພອນ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+msgid "e.g. My Company"
+msgstr "ຕົວຢ່າງ: ບໍລິສັດຂອງຂ້ອຍ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+msgid "e.g. john@company.com"
+msgstr "ຕົວຢ່າງ: john@company.com"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+msgid "has arrived from"
+msgstr "ໄດ້ມາຮອດແລ້ວຈາກ"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+msgid "has been informed."
+msgstr "ໄດ້ຮັບແຈ້ງແລ້ວ."
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "host is"
+msgstr "ຜູ້ຮັບຕ້ອນແມ່ນ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+msgid "hosts are"
+msgstr "ຜູ້ຮັບຕ້ອນແມ່ນ"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+msgid "station_id.id"
+msgstr "station_id.id"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+msgid "will get back to you."
+msgstr "ຈະຕິດຕໍ່ຫາທ່ານຄືນ."

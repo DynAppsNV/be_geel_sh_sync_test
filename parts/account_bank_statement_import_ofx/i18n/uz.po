@@ -1,0 +1,60 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_import_ofx
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model.fields,field_description:account_bank_statement_import_ofx.field_account_journal__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: account_bank_statement_import_ofx
+#: model:ir.model,name:account_bank_statement_import_ofx.model_account_journal
+#, fuzzy
+msgid "Journal"
+msgstr "Jurnal"
+
+#. module: account_bank_statement_import_ofx
+#. odoo-python
+#: code:addons/account_bank_statement_import_ofx/models/account_journal.py:0
+#, fuzzy
+msgid "The library 'ofxparse' is missing, OFX import cannot proceed."
+msgstr ""
+"'ofxparse' kutubxonasi mavjud emas, shu sababli OFX import qilinishi mumkin "
+"emas."
+
+#. module: account_bank_statement_import_ofx
+#. odoo-python
+#: code:addons/account_bank_statement_import_ofx/models/account_journal.py:0
+#, fuzzy
+msgid "There was an issue decoding the file. Please check the file encoding."
+msgstr ""
+"Faylni o‘qishda xatolik yuz berdi. Iltimos, fayl kodlanishini tekshiring."

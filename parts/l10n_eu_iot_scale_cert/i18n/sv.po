@@ -1,0 +1,257 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_eu_iot_scale_cert
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 19:16+0000\n"
+"PO-Revision-Date: 2026-06-13 09:40+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+"Language-Team: Swedish <https://translate.odoo.com/projects/odoo-19-l10n/"
+"l10n_eu_iot_scale_cert/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.js:0
+msgid "An error occurred while attempting to fix certification issues - %s"
+msgstr "Ett fel uppstod när vissa certifieringsproblem skulle fixas - %s"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Apply changes"
+msgstr "Tillämpa ändringar"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Certificate number:"
+msgstr "Certifikatnummer:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Certified Odoo Point of Sale"
+msgstr "Odoo-certifierat kassasystem"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/product_screen/certified_product_screen.js:0
+msgid "Certified Scale error"
+msgstr "Fel med certifierad våg"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/models/pos_store.js:0
+msgid ""
+"Checksum does not match, the code has been modified and is no longer "
+"certified"
+msgstr ""
+"Checksum matchar inte, koden har ändrats och är därför inte längre "
+"certifierad"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Checksum:"
+msgstr "Kontrollsumma:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/scale_screen/certified_scale_screen.xml:0
+msgid "Close"
+msgstr "Stäng"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/orderline/certified_orderline.xml:0
+msgid "Customer Note"
+msgstr "Kundmeddelande"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/models/pos_store.js:0
+msgid "Decimal accuracy is less than 3 decimal places"
+msgstr "Precisionen för decimaler är mindre än 3 decimaler"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Discard"
+msgstr "Avbryt"
+
+#. module: l10n_eu_iot_scale_cert
+#: model:ir.model.fields,field_description:l10n_eu_iot_scale_cert.field_pos_config__display_name
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/scale_screen/certified_scale_screen.xml:0
+msgid "Get Weight"
+msgstr "Hämta vikt"
+
+#. module: l10n_eu_iot_scale_cert
+#: model:ir.model.fields,field_description:l10n_eu_iot_scale_cert.field_pos_config__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "IoT image:"
+msgstr "IoT-bild:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/customer_display_overrides/customer_display.xml:0
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/order_receipt/certified_order_receipt.xml:0
+msgid "Metrological data not certified"
+msgstr "Meteorologisk data är inte certifierad"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/customer_display_overrides/customer_display.xml:0
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/scale_screen/certified_scale_screen.xml:0
+msgid "Net Weight:"
+msgstr "Nettovikt:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Odoo SA"
+msgstr "Odoo SA"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid ""
+"Odoo can automatically apply the right modification for you.\n"
+"                        Be aware that the modification will change global "
+"rounding settings, and can affect more than just this Point of Sale."
+msgstr ""
+"Odoo kan nu automatiskt tillämpa rätt ändringar åt dig.\n"
+"                        Observera att eventuella ändringar också kommer att "
+"ändra de globala avrundningsinställningarna, och kan komma att påverka mer "
+"än enbart detta Kassasystem."
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Odoo version:"
+msgstr "Odoo-version:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/scale_screen/certified_scale_screen.xml:0
+msgid "Order"
+msgstr "Order"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "POS name:"
+msgstr "Namn på kassasystem:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "PoS version:"
+msgstr "Kassasystemsversion:"
+
+#. module: l10n_eu_iot_scale_cert
+#: model:ir.model,name:l10n_eu_iot_scale_cert.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Inställningar för Kassasystem"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/scale_screen/certified_scale_screen.js:0
+msgid "Scale error"
+msgstr "Fel med vågen"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/models/pos_store.js:0
+msgid "The unit of measure must be set to kg to weigh in a certified POS."
+msgstr ""
+"Måttenheten måste vara angivet till kg för att kunna göra vägningar i ett "
+"certifierat kassasystem."
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/models/pos_store.js:0
+msgid "Unable to weigh product"
+msgstr "Kunde inte väga produkten"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/scale_screen/certified_scale_service.js:0
+msgid "Unnamed Product"
+msgstr "Namnlös produkt"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid "Warning"
+msgstr "Varning"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/customer_display_overrides/customer_display.xml:0
+msgid "Weighing Product:"
+msgstr "Produkt att väga:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/product_screen/certified_product_screen.js:0
+msgid "You cannot change quantity of a product which needs to be weighed"
+msgstr ""
+"Det är inte möjligt att ändra kvantiteten hos en produkt som behöver vägas"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/app/scale_certification_status/scale_certification_dialog.xml:0
+msgid ""
+"Your configurations are not compliant with the European regulation. In order "
+"to use a certified POS with your scale, you should address the following:"
+msgstr ""
+"Dina inställningar stämmer inte överens med gällande EU-lagstiftning. För "
+"att kunna koppla ett certifierat kassasystem till din våg, bör du åtgärda "
+"följande:"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/pos_overrides/components/orderline/certified_orderline.xml:0
+msgid "discount off on"
+msgstr "rabatt på"
+
+#. module: l10n_eu_iot_scale_cert
+#. odoo-javascript
+#: code:addons/l10n_eu_iot_scale_cert/static/src/customer_display_overrides/customer_display.xml:0
+msgid "x"
+msgstr "x"
+
+#~ msgid "Gross Weight:"
+#~ msgstr "Bruttovikt:"
+
+#~ msgid "Tare"
+#~ msgstr "Tara"
+
+#~ msgid "Cannot weigh product - IoT Box is disconnected"
+#~ msgstr "Det går inte att väga produkten - IoT Box är frånkopplad"
+
+#~ msgid "Cannot weigh product - Scale is not connected to IoT Box"
+#~ msgstr ""
+#~ "Det går inte att väga produkten - vågen är inte ansluten till IoT Box"

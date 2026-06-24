@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="hr_payroll.EmployeeDeclarationListController" t-inherit="web.ListView">
+        <xpath expr="//SelectionBox" position="after">
+                <button t-on-click="generatePdfs" t-att-class="state.onlyDrafts ? 'btn-primary' : 'btn-secondary'" t-att-hidden="state.generateCount === 0" id="generate_pdfs" type="button" class="btn">
+                    <span>Generate Reports (<t t-esc="state.generateCount"/>)</span>
+                </button>
+        </xpath>
+    </t>
+</templates>

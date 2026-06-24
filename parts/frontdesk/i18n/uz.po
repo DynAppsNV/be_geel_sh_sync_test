@@ -1,0 +1,1580 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* frontdesk
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-01 17:40+0000\n"
+"PO-Revision-Date: 2025-10-08 18:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid " - Manager: %(manager_name)s"
+msgstr "- Menejer: %(manager_name)s"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "%(name)s just checked-in. Requested Drink: %(drink)s."
+msgstr "%(name)s hozirgina ro‘yxatdan o‘tdi. So‘ralgan ichimlik: %(drink)s."
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "%(station)s Check-In: %(visitor)s"
+msgstr "%(station)s Ro‘yxatdan o‘tish: %(visitor)s"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "%(station)s Check-In: %(visitor)s to meet %(host)s"
+msgstr ""
+"%(station)s Ro‘yxatdan o‘tish: %(visitor)s %(host)s bilan uchrashish uchun"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+#, fuzzy
+msgid "%s (copy)"
+msgstr "%s (nusxa)"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "%s just checked-in."
+msgstr "%s hozirgina ro‘yxatdan o‘tdi."
+
+#. module: frontdesk
+#: model:ir.actions.report,print_report_name:frontdesk.frontdesk_visitor_print_badge
+#, fuzzy
+msgid "'Badge - %s' % (object.name).replace('/', '')"
+msgstr "'Nishon - %s' % (object.name).replace('/', '')"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid ""
+")\n"
+"                        will be notified via email/SMS only, as they are not "
+"available on Discuss."
+msgstr ""
+") Muhokamada mavjud bo‘lmaganligi sababli faqat elektron pochta/SMS orqali "
+"xabardor qilinadi."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+#, fuzzy
+msgid ",<br/>I hope this message finds you well. This is to inform you that"
+msgstr ""
+",<br/>Umid qilamanki, ushbu xabar sizni yaxshi kayfiyatda topadi. Sizga "
+"shuni ma'lum qilamizki"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+#, fuzzy
+msgid ""
+".\n"
+"                    <br/>Please let us know if you would like us to direct "
+"them to a meeting room or if you require any further assistance.\n"
+"                    <br/>After a successful meeting with the visitor, please "
+"proceed to check out their login."
+msgstr ""
+". <br/>Agar ularni uchrashuv xonasiga yo‘naltirishimizni istasangiz yoki "
+"qo‘shimcha yordam kerak bo‘lsa, bizga xabar bering. <br/>Tashrif buyuruvchi "
+"bilan muvaffaqiyatli uchrashuvdan so‘ng, ularning chiqishini ro‘yxatdan "
+"o‘tkazishni unutmang."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+#, fuzzy
+msgid "22 Oct 24 14:20:10"
+msgstr "22 okt 24 14:20:10"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_check_out
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-check-circle fa-3x d-block mb-3 text-success\"/>\n"
+"                    The visitor has been successfully <br/> checked out"
+msgstr ""
+"<i class=\"fa fa-check-circle fa-3x d-block mb-3 text-success\"/> Tashrif "
+"buyuruvchi muvaffaqiyatli <br/> ro‘yxatdan chiqarildi"
+
+#. module: frontdesk
+#: model_terms:web_tour.tour,rainbow_man_message:frontdesk.frontdesk_tour
+#, fuzzy
+msgid ""
+"<span><b>Congratulations!!!</b> You have created your first visitor.\n"
+"        </span>"
+msgstr ""
+"<span><b>Tabriklaymiz!!!</b> Siz birinchi tashrif buyuruvchingizni "
+"yaratdingiz.         </span>"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+#, fuzzy
+msgid "<strong>Visiting:</strong>"
+msgstr "<strong>Tashrif buyurmoqda:</strong>"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_needaction
+#, fuzzy
+msgid "Action Needed"
+msgstr "Harakat talab etiladi"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__active
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__active
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__active
+#, fuzzy
+msgid "Active"
+msgstr "Faol"
+
+#. module: frontdesk
+#: model:ir.actions.client,name:frontdesk.frontdesk_visitor_action_configure_properties_field
+#, fuzzy
+msgid "Add Properties"
+msgstr "Xususiyatlar qo‘shish"
+
+#. module: frontdesk
+#: model:res.groups,name:frontdesk.frontdesk_group_administrator
+#, fuzzy
+msgid "Administrator"
+msgstr "Administrator"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+#, fuzzy
+msgid "All"
+msgstr "Barchasi"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "All Employees"
+msgstr "Barcha xodimlar"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.js:0
+#, fuzzy
+msgid "All departments"
+msgstr "Barcha bo‘limlar"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Allow visitor to select a drink during registration"
+msgstr ""
+"Tashrif buyuruvchiga ro‘yxatdan o‘tish paytida ichimlik tanlashiga ruxsat "
+"berish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Allows the visitor to pick the host of the meeting from the list"
+msgstr ""
+"Tashrif buyuruvchiga ro‘yxatdan uchrashuv mezbonini tanlash imkonini beradi"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Archived"
+msgstr "Arxivlangan"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/quick_check_in/quick_check_in.xml:0
+#, fuzzy
+msgid "Are you one of these people?"
+msgstr "Siz ham shular qatoridamisiz?"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_attachment_count
+#, fuzzy
+msgid "Attachment Count"
+msgstr "Ilovalar soni"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__authenticate_guest
+#, fuzzy
+msgid "Authenticate Guest"
+msgstr "Mehmonni tasdiqlash"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+#, fuzzy
+msgid "Back"
+msgstr "Orqaga"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+#, fuzzy
+msgid "Best regards,<br/>"
+msgstr "Hurmat bilan,<br/>"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+#, fuzzy
+msgid "Browse All Hosts"
+msgstr "Barcha mezbon xodimlarni ko‘rish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+#, fuzzy
+msgid "By Responsible"
+msgstr "Mas'ul shaxs bo‘yicha"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#, fuzzy
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__canceled
+#, fuzzy
+msgid "Cancelled"
+msgstr "Bekor qilingan"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__check_in
+#, fuzzy
+msgid "Check In"
+msgstr "Ro‘yxatga olish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__check_out
+#, fuzzy
+msgid "Check Out"
+msgstr "Ro‘yxatdan chiqarish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+#, fuzzy
+msgid "Check Out Visitor"
+msgstr "Tashrif buyuruvchini ro‘yxatdan chiqarish"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/welcome_page/welcome_page.xml:0
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "Check in"
+msgstr "Ro‘yxatga olish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "Check out"
+msgstr "Ro‘yxatdan chiqarish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "CheckIn"
+msgstr "Ro‘yxatga olish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "CheckIn Station"
+msgstr "Ro‘yxatga olish stansiyasi"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__checked_in
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Checked-In"
+msgstr "Ro‘yxatga olingan"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__checked_out
+#, fuzzy
+msgid "Checked-Out"
+msgstr "Ro‘yxatdan chiqarilgan"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Checked-out"
+msgstr "Ro‘yxatdan chiqarilgan"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "Checkout"
+msgstr "Ro‘yxatdan chiqarish"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+#, fuzzy
+msgid "Choose who you would like to visit"
+msgstr "Kimni ko‘rishni xohlayotganingizni tanlang"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_check_out
+#, fuzzy
+msgid "Close"
+msgstr "Yopish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__company_id
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+#, fuzzy
+msgid "Company Logo"
+msgstr "Kompaniya logotipi"
+
+#. module: frontdesk
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_config
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#, fuzzy
+msgid "Configuration"
+msgstr "Sozlamalar"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Configure Drinks"
+msgstr "Ichimliklarni sozlash"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+#, fuzzy
+msgid "Continue"
+msgstr "Davom etish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__create_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__create_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__create_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__create_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__theme__dark
+#, fuzzy
+msgid "Dark"
+msgstr "Qorong‘i"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Date"
+msgstr "Sana"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+#, fuzzy
+msgid "Dear"
+msgstr "Hurmatli"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "Dear %(visitor_name)s,"
+msgstr "Hurmatli %(visitor_name)s,"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__description
+#, fuzzy
+msgid "Description"
+msgstr "Tavsif"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__display_name
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__display_name
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#, fuzzy
+msgid "Do you want something to drink?"
+msgstr "Biror narsa ichishni xohlaysizmi?"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__drink_ids
+#, fuzzy
+msgid "Drink"
+msgstr "Ichimlik"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__drink_image
+#, fuzzy
+msgid "Drink Image"
+msgstr "Ichimlik tasviri"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+#, fuzzy
+msgid "Drink Name"
+msgstr "Ichimlik nomi"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__served
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "Drink Served"
+msgstr "Ichimlik berildi"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/drink_page/drink_page.xml:0
+#, fuzzy
+msgid "Drink image"
+msgstr "Ichimlik tasviri"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Drink to Serve"
+msgstr "Beriladigan ichimlik"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_drink
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_drinks_report
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__drink_ids
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_drinks_config
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_report_drinks
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_report_view_graph
+#, fuzzy
+msgid "Drinks"
+msgstr "Ichimliklar"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_drink_to_serve_visitor
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__drink_to_serve
+#, fuzzy
+msgid "Drinks to Serve"
+msgstr "Beriladigan ichimliklar"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#, fuzzy
+msgid "Drinks to serve"
+msgstr "Beriladigan ichimliklar"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__duration
+#, fuzzy
+msgid "Duration"
+msgstr "Davomiyligi"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#, fuzzy
+msgid "E.g. What's your Name"
+msgstr "Masalan: Ismingiz nima?"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__ask_email
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__email
+#, fuzzy
+msgid "Email"
+msgstr "Elektron pochta"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+#, fuzzy
+msgid "Enter the visitor's name."
+msgstr "Tashrif buyuruvchining ismini kiriting."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+#, fuzzy
+msgid "Favorite"
+msgstr "Sevimli"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_follower_ids
+#, fuzzy
+msgid "Followers"
+msgstr "Obunachilar"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_partner_ids
+#, fuzzy
+msgid "Followers (Partners)"
+msgstr "Obunachilar (Hamkorlar)"
+
+#. module: frontdesk
+#: model:ir.actions.client,name:frontdesk.frontdesk_action_install_kiosk_pwa
+#: model:ir.model,name:frontdesk.model_frontdesk_frontdesk
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_root
+#: model:res.groups.privilege,name:frontdesk.res_groups_privilege_frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Frontdesk"
+msgstr "Qabulxona"
+
+#. module: frontdesk
+#: model:ir.model,name:frontdesk.model_frontdesk_drink
+#, fuzzy
+msgid "Frontdesk Drink"
+msgstr "Qabulxona ichimligi"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__name
+#, fuzzy
+msgid "Frontdesk Name"
+msgstr "Qabulxona nomi"
+
+#. module: frontdesk
+#: model:sms.template,name:frontdesk.frontdesk_sms_template
+#, fuzzy
+msgid "Frontdesk SMS Template"
+msgstr "Qabulxona SMS shabloni"
+
+#. module: frontdesk
+#: model:ir.model,name:frontdesk.model_frontdesk_visitor
+#, fuzzy
+msgid "Frontdesk Visitors"
+msgstr "Qabulxona tashrif buyuruvchilari"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+#, fuzzy
+msgid "Go back"
+msgstr "Orqaga qaytish"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_guest_on_site_visitor
+#, fuzzy
+msgid "Guest On Site"
+msgstr "Joydagi mehmon"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__guest_on_site
+#, fuzzy
+msgid "Guests On Site"
+msgstr "Joydagi mehmonlar"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__has_message
+#, fuzzy
+msgid "Has Message"
+msgstr "Xabar mavjud"
+
+#. module: frontdesk
+#: model:sms.template,body:frontdesk.frontdesk_sms_template
+#, fuzzy
+msgid ""
+"Hello, Your visitor {{ object.name }} {{ '(%s)' % object.phone if "
+"object.phone else '' }} {{ '(%s)' % object.company if object.company else "
+"'' }} wants to meet you at {{ object.station_id.name }}. Please let them "
+"know you'll be there shortly."
+msgstr ""
+"Salom, tashrif buyuruvchingiz {{ object.name }} {{ '(%s)' % object.phone if "
+"object.phone else '' }} {{ '(%s)' % object.company if object.company else "
+"'' }} {{ object.station_id.name }} da siz bilan uchrashmoqchi. Iltimos, "
+"ularga tez orada yetib borishingiz haqida xabar bering."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+#, fuzzy
+msgid "Henry"
+msgstr "Genri"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+#, fuzzy
+msgid "Here, you'll see list of all the visitors."
+msgstr "Bu yerda barcha tashrif buyuruvchilar ro‘yxatini ko‘rasiz."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "Host"
+msgstr "Mezbon"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+#, fuzzy
+msgid "Host Avatar"
+msgstr "Mezbon avatari"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__host_ids
+#, fuzzy
+msgid "Host Name"
+msgstr "Mezbon ismi"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__host_selection
+#, fuzzy
+msgid "Host Selection"
+msgstr "Mezbonni tanlash"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__host_ids
+#, fuzzy
+msgid "Hosts"
+msgstr "Mezbonlar"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/drink_page/drink_page.xml:0
+#, fuzzy
+msgid "How can we delight you?"
+msgstr "Sizni qanday xursand qilishimiz mumkin?"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__id
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__id
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_needaction
+#, fuzzy
+msgid "If checked, new messages require your attention."
+msgstr "Agar belgilansa, yangi xabarlar e'tiboringizni talab qiladi."
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_has_error
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_has_sms_error
+#, fuzzy
+msgid "If checked, some messages have a delivery error."
+msgstr "Agar belgilansa, ba'zi xabarlarda yetkazib berish xatosi mavjud."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__image
+#, fuzzy
+msgid "Image"
+msgstr "Tasvir"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#, fuzzy
+msgid "Install"
+msgstr "O‘rnatish"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/controllers/main.py:0
+msgid ""
+"Invalid domain. Allowed filters are: department_id with '=' and display_name "
+"with 'ilike'."
+msgstr ""
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__is_favorite
+#, fuzzy
+msgid "Is Favorite"
+msgstr "Sevimli"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_is_follower
+#, fuzzy
+msgid "Is Follower"
+msgstr "Izdoshmi"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+#, fuzzy
+msgid "Karen"
+msgstr "Karen"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#, fuzzy
+msgid "Kiosk"
+msgstr "Kiosk"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__kiosk_url
+#, fuzzy
+msgid "Kiosk URL"
+msgstr "Kiosk URL manzili"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+#, fuzzy
+msgid "Last Check-In: %s hours ago"
+msgstr "Oxirgi tashrif: %s soat oldin"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+#, fuzzy
+msgid "Last Check-In: %s minutes ago"
+msgstr "Oxirgi tashrif: %s daqiqa oldin"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__write_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__write_uid
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilangan shaxs"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__write_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__write_date
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__latest_check_in
+#, fuzzy
+msgid "Latest Check In"
+msgstr "So‘nggi tashrif"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+#, fuzzy
+msgid "Let's add a new visitor."
+msgstr "Yangi tashrif buyuruvchi qo‘shaylik."
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__theme__light
+#, fuzzy
+msgid "Light"
+msgstr "Yorug‘"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+#, fuzzy
+msgid ""
+"Looking for a better way to manage your visitors? \n"
+" It begins right here."
+msgstr ""
+"Tashrif buyuruvchilaringizni boshqarishning yaxshiroq usulini "
+"izlayapsizmi?   U aynan shu yerdan boshlanadi."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+#, fuzzy
+msgid "MY PVT LTD"
+msgstr "MENING XUSUSIY MChJ"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#, fuzzy
+msgid "Message"
+msgstr "Xabar"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_has_error
+#, fuzzy
+msgid "Message Delivery error"
+msgstr "Xabar yetkazib berishda xatolik"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_ids
+#, fuzzy
+msgid "Messages"
+msgstr "Xabarlar"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+#, fuzzy
+msgid "My Station"
+msgstr "Mening bo‘limim"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__name
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__name
+#, fuzzy
+msgid "Name"
+msgstr "Ism"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_drink
+#, fuzzy
+msgid "No drinks to offer to visitors. Let's add one!"
+msgstr ""
+"Tashrif buyuruvchilarga taklif qilish uchun ichimliklar yo‘q. Birortasini "
+"qo‘shaylik!"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_frontdesk_tree
+#, fuzzy
+msgid "No stations found. Let's create one!"
+msgstr "Hech qanday bo‘lim topilmadi. Keling, yaratamiz!"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_drink_to_serve_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_guest_on_site_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_planned_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_station_visitor
+#, fuzzy
+msgid "No visitors yet. Let's add one!"
+msgstr "Hozircha tashrif buyuruvchilar yo‘q. Birortasini qo‘shaylik!"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#, fuzzy
+msgid "No, thank you"
+msgstr "Yo‘q, rahmat"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_company__none
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_email__none
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_phone__none
+#, fuzzy
+msgid "None"
+msgstr "Yo‘q"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/drink_page/drink_page.xml:0
+#, fuzzy
+msgid "Nothing, thanks."
+msgstr "Hech narsa kerak emas, rahmat."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_warning
+#, fuzzy
+msgid "Notify Warning"
+msgstr "Ogohlantirish xabari"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_sms
+#, fuzzy
+msgid "Notify by SMS"
+msgstr "SMS orqali xabardor qilish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_discuss
+#, fuzzy
+msgid "Notify by discuss"
+msgstr "Muhokama orqali xabardor qilish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__notify_email
+#, fuzzy
+msgid "Notify by email"
+msgstr "Elektron pochta orqali xabardor qilish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Notify the host on guest arrival"
+msgstr "Mehmon kelganda qabul qiluvchini xabardor qilish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_needaction_counter
+#, fuzzy
+msgid "Number of Actions"
+msgstr "Harakatlar soni"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_has_error_counter
+#, fuzzy
+msgid "Number of errors"
+msgstr "Xatolar soni"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_needaction_counter
+#, fuzzy
+msgid "Number of messages requiring action"
+msgstr "Harakat talab qiladigan xabarlar soni"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__message_has_error_counter
+#, fuzzy
+msgid "Number of messages with delivery error"
+msgstr "Yetkazib berishda xatolik yuz bergan xabarlar soni"
+
+#. module: frontdesk
+#: model_terms:ir.actions.act_window,help:frontdesk.action_frontdesk_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_drink_to_serve_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_guest_on_site_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_planned_visitor
+#: model_terms:ir.actions.act_window,help:frontdesk.action_open_station_visitor
+#, fuzzy
+msgid "Odoo helps you to track all information related to your visitors."
+msgstr ""
+"Odoo tashrif buyuruvchilaringizga oid barcha ma'lumotlarni kuzatishda yordam "
+"beradi."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__drink_offer
+#, fuzzy
+msgid "Offer Drinks"
+msgstr "Ichimliklar taklif qilish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#, fuzzy
+msgid "On Site"
+msgstr "Joyida"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#, fuzzy
+msgid "Open Desk"
+msgstr "Ish joyini ochish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Open Kiosk"
+msgstr "Kioskni ochish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Open host chat window when guest arrives"
+msgstr "Mehmon kelganda qabul qiluvchining chat oynasini ochish"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_company__optional
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_email__optional
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_phone__optional
+#, fuzzy
+msgid "Optional"
+msgstr "Ixtiyoriy"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Options"
+msgstr "Tanlovlar"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__ask_company
+#, fuzzy
+msgid "Organization"
+msgstr "Tashkilot"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__pending
+#, fuzzy
+msgid "Pending"
+msgstr "Kutilmoqda"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__notify_user_ids
+#, fuzzy
+msgid "People to Notify"
+msgstr "Xabardor qilinadigan shaxslar"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__ask_phone
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__phone
+#, fuzzy
+msgid "Phone"
+msgstr "Telefon"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_planned_visitor
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_visitor__state__planned
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Planned"
+msgstr "Rejalashtirilgan"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#, fuzzy
+msgid "Please have a seat."
+msgstr "Marhamat, o‘tiring."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_qr_expired
+#, fuzzy
+msgid "Please rescan it."
+msgstr "Iltimos, uni qayta skanerlang."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "Print Badge"
+msgstr "Nishonni chop etish"
+
+#. module: frontdesk
+#: model:ir.actions.report,name:frontdesk.frontdesk_visitor_print_badge
+#, fuzzy
+msgid "Print Visitor Badge"
+msgstr "Tashrif buyuruvchi nishonini chop etish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__visitor_properties
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_tree
+#, fuzzy
+msgid "Properties"
+msgstr "Xususiyatlar"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/welcome_page/welcome_page.xml:0
+#, fuzzy
+msgid "QR Code"
+msgstr "QR kod"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_qr_expired
+#, fuzzy
+msgid "QR Code Expired."
+msgstr "QR kod muddati tugagan."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/quick_check_in/quick_check_in.xml:0
+#, fuzzy
+msgid "Quick Check In"
+msgstr "Tezkor ro‘yxatdan o‘tish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__rating_ids
+#, fuzzy
+msgid "Ratings"
+msgstr "Baholash"
+
+#. module: frontdesk
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_report
+#, fuzzy
+msgid "Reporting"
+msgstr "Hisobotlar"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Request additional information upon registering"
+msgstr "Ro‘yxatdan o‘tishda qo‘shimcha ma'lumot so‘rash"
+
+#. module: frontdesk
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_company__required
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_email__required
+#: model:ir.model.fields.selection,name:frontdesk.selection__frontdesk_frontdesk__ask_phone__required
+#, fuzzy
+msgid "Required"
+msgstr "Majburiy"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+#, fuzzy
+msgid "Responsible"
+msgstr "Mas'ul"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__responsible_ids
+#, fuzzy
+msgid "Responsibles"
+msgstr "Mas'ullar"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_frontdesk__responsible_ids
+#, fuzzy
+msgid ""
+"Responsibles are people who will welcome the client and handle their drinks, "
+"etc."
+msgstr ""
+"Mas'ullar - bu mehmonni kutib oladigan va uning ichimliklari bilan "
+"shug‘ullanadigan shaxslar."
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_frontdesk__host_selection
+#, fuzzy
+msgid "Restrict the hosts available from the client to choose from."
+msgstr "Mijoz tanlashi mumkin bo‘lgan xostlarni cheklash."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__message_has_sms_error
+#, fuzzy
+msgid "SMS Delivery error"
+msgstr "SMS yuborishda xatolik"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__sms_template_id
+#, fuzzy
+msgid "SMS Template"
+msgstr "SMS shabloni"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+#, fuzzy
+msgid "Save the visitor."
+msgstr "Tashrif buyuruvchini saqlash."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_manual_selection.xml:0
+#, fuzzy
+msgid "Search..."
+msgstr "Qidirish..."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__access_token
+#, fuzzy
+msgid "Security Token"
+msgstr "Xavfsizlik belgisi"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+#, fuzzy
+msgid "Select Host"
+msgstr "Xostni tanlash"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/js/tours/frontdesk.js:0
+#, fuzzy
+msgid "Select or create a station on the fly from where the visitor arrived."
+msgstr ""
+"Tashrif buyuruvchi kelgan joydan darhol stansiya tanlang yoki yarating."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Select the color of the Desk"
+msgstr "Stol rangini tanlang"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/host_page/host_page.xml:0
+#, fuzzy
+msgid "Selected host:"
+msgstr "Tanlangan xost:"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__self_check_in
+#, fuzzy
+msgid "Self Check-In"
+msgstr "O‘z-o‘zini ro‘yxatga olish"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Send an SMS to the host on guest arrival"
+msgstr "Mehmon kelganda xostga SMS yuborish"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_drink__sequence
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+#, fuzzy
+msgid "Sequence"
+msgstr "Ketma-ketlik"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_form
+#, fuzzy
+msgid "Set as Planned"
+msgstr "Rejalashtirilgan sifatida belgilash"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Show a QR code on the welcome screen to check-in from mobile"
+msgstr ""
+"Mobil telefondan ro‘yxatdan o‘tish uchun kutib olish ekranida QR kodni "
+"ko‘rsatish"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_frontdesk__self_check_in
+#, fuzzy
+msgid ""
+"Shows a QR code in the interface, for guests to check in from their mobile "
+"phone."
+msgstr ""
+"Mehmonlar mobil telefonidan ro‘yxatdan o‘tishlari uchun interfeysda QR kodni "
+"ko‘rsatadi."
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Side Message"
+msgstr "Yon xabar"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Some employees ("
+msgstr "Ba'zi xodimlar ("
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__station_id
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Station"
+msgstr "Stansiya"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_search
+#, fuzzy
+msgid "Station Name"
+msgstr "Stansiya nomi"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_open_station_visitor
+#, fuzzy
+msgid "Station Visitors"
+msgstr "Stansiya tashrif buyuruvchilari"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_frontdesk_tree
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_stations
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_stations_config
+#, fuzzy
+msgid "Stations"
+msgstr "Stansiyalar"
+
+#. module: frontdesk
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_station_report
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#, fuzzy
+msgid "Statistics"
+msgstr "Statistika"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__state
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Status"
+msgstr "Holat"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+#, fuzzy
+msgid "Thank you for registering!"
+msgstr "Ro‘yxatdan o‘tganingiz uchun rahmat!"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "Thanks for your understanding."
+msgstr "Tushunganingiz uchun rahmat."
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__theme
+#, fuzzy
+msgid "Theme"
+msgstr "Mavzu"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#, fuzzy
+msgid "Today"
+msgstr "Bugun"
+
+#. module: frontdesk
+#: model:res.groups,name:frontdesk.frontdesk_group_user
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_search
+#: model_terms:ir.ui.view,arch_db:frontdesk.print_visitor_badge
+#, fuzzy
+msgid "Visitor"
+msgstr "Tashrif buyuruvchi"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__company
+#, fuzzy
+msgid "Visitor Company"
+msgstr "Tashrif buyuruvchi kompaniyasi"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__visitor_properties_definition
+#, fuzzy
+msgid "Visitor Properties"
+msgstr "Tashrif buyuruvchi xususiyatlari"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_visitor
+#: model:ir.actions.act_window,name:frontdesk.action_frontdesk_visitors_report
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_frontdesk__visitor_ids
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_report_visitors
+#: model:ir.ui.menu,name:frontdesk.frontdesk_menu_visitors
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_kanban
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_station_report_view_graph
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_report_view_graph
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_graph
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_visitor_view_pivot
+#, fuzzy
+msgid "Visitors"
+msgstr "Tashrif buyuruvchilar"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid ""
+"We regret to inform you that the following %(host_status)s currently "
+"unavailable:"
+msgstr "Afsuski, quyidagi %(host_status)s hozirda mavjud emas:"
+
+#. module: frontdesk
+#: model:ir.model.fields,field_description:frontdesk.field_frontdesk_visitor__website_message_ids
+#, fuzzy
+msgid "Website Messages"
+msgstr "Veb-sayt xabarlari"
+
+#. module: frontdesk
+#: model:ir.model.fields,help:frontdesk.field_frontdesk_visitor__website_message_ids
+#, fuzzy
+msgid "Website communication history"
+msgstr "Veb-saytdagi muloqot tarixi"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/welcome_page/welcome_page.xml:0
+#, fuzzy
+msgid "Welcome to"
+msgstr "Xush kelibsiz"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+#, fuzzy
+msgid "Who are you visiting?"
+msgstr "Siz kimnikiga tashrif buyuryapsiz?"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/navbar/navbar.xml:0
+#, fuzzy
+msgid "Who are you?"
+msgstr "Siz kimsiz?"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_frontdesk_view_form
+#, fuzzy
+msgid "Write message..."
+msgstr "Xabar yozing..."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#, fuzzy
+msgid "Yes, please"
+msgstr "Ha, iltimos"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid ""
+"You can contact the host's manager or frontdesk responsible for further "
+"assistance."
+msgstr ""
+"Qo‘shimcha yordam uchun mehmonxona boshqaruvchisi yoki qabulxona mas'uliga "
+"murojaat qilishingiz mumkin."
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#, fuzzy
+msgid "You have been registered!"
+msgstr "Siz ro‘yxatdan o‘tdingiz!"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#, fuzzy
+msgid "Your Company"
+msgstr "Kompaniyangiz"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#, fuzzy
+msgid "Your Email"
+msgstr "Elektron pochtangiz"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#, fuzzy
+msgid "Your Name"
+msgstr "Ismingiz"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#, fuzzy
+msgid "Your Phone Number"
+msgstr "Telefon raqamingiz"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "Your Visitor %(name)s Requested To Meet You"
+msgstr "Tashrif buyuruvchingiz %(name)s siz bilan uchrashishni so‘radi"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+#, fuzzy
+msgid "Your drink is on the way."
+msgstr "Ichimligingiz yo‘lda."
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "Your host isn't available"
+msgstr "Mezboningiz hozir band"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+#, fuzzy
+msgid ""
+"and is here for their scheduled meeting with you.\n"
+"                    They are currently waiting in the"
+msgstr ""
+"va siz bilan rejalashtirilgan uchrashuvga keldi. Ular hozir kutish joyida "
+"kutishmoqda"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_drink_view_form
+#, fuzzy
+msgid "e.g. Coca-Cola"
+msgstr "masalan, Coca-Cola"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#, fuzzy
+msgid "e.g. John Doe"
+msgstr "masalan, John Doe"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#, fuzzy
+msgid "e.g. My Company"
+msgstr "masalan, Mening kompaniyam"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/visitor_form/visitor_form.xml:0
+#, fuzzy
+msgid "e.g. john@company.com"
+msgstr "masalan, john@company.com"
+
+#. module: frontdesk
+#: model_terms:ir.ui.view,arch_db:frontdesk.frontdesk_mail_template
+#, fuzzy
+msgid "has arrived from"
+msgstr "dan tashrif buyurdi"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/end_page/end_page.xml:0
+#, fuzzy
+msgid "has been informed."
+msgstr "xabardor qilindi."
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "host is"
+msgstr "mezbon"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_visitor.py:0
+#, fuzzy
+msgid "hosts are"
+msgstr "mezbonlar"
+
+#. module: frontdesk
+#. odoo-python
+#: code:addons/frontdesk/models/frontdesk_frontdesk.py:0
+#, fuzzy
+msgid "station_id.id"
+msgstr "station_id.id"
+
+#. module: frontdesk
+#. odoo-javascript
+#: code:addons/frontdesk/static/src/register_page/register_page.xml:0
+#, fuzzy
+msgid "will get back to you."
+msgstr "siz bilan bog‘lanadi."

@@ -1,0 +1,20 @@
+{
+    "name": "Install all custom modules",
+    "version": "19.0.1.0.0",
+    "author": "dynapps",
+    "website": "https://www.dynapps.eu",
+    "category": "Hidden",
+    "license": "LGPL-3",
+    "depends": [
+        "xx_approval_dynamic_user",
+        "xx_base",
+        "xx_credit_limit",
+        "xx_intrastat",
+        "xx_payment_terms",
+        "xx_horizon",
+        "xx_analytic_distribution",
+        "xx_it_depreciation_schedule",
+    ],
+    "installable": True,
+    "dyn_required": True,
+}

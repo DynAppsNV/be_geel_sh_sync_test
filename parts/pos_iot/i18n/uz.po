@@ -1,0 +1,623 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_iot
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-27 18:44+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Accept payments with a Six payment terminal"
+msgstr "Six to‘lov terminali orqali to‘lovlarni qabul qilish"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Accept payments with a Worldline payment terminal"
+msgstr "Worldline to‘lov terminali orqali to‘lovlarni qabul qilish"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Accept payments with an Ingenico payment terminal"
+msgstr "Ingenico to‘lov terminali orqali to‘lovlarni qabul qilish"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid "Access your"
+msgstr "Kirish"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__pos_config_ids
+#: model:ir.model.fields,field_description:pos_iot.field_iot_box__associated_pos_config_ids
+#: model:ir.model.fields,field_description:pos_iot.field_iot_device__associated_pos_config_ids
+#, fuzzy
+msgid "Associated PoS"
+msgstr "Bog‘liq PoS"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.view_auto_config_pos_iot
+#, fuzzy
+msgid "Automated Setup"
+msgstr "Avtomatik o‘rnatish"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Barcode Scanners/Card Readers"
+msgstr "Shtrix-kod skanerlari/Karta o‘quvchilari"
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_print_via_proxy
+#, fuzzy
+msgid "Bypass browser printing and prints via the hardware proxy."
+msgstr "Brauzer chop etishini chetlab o‘tib, apparat proksi orqali chop etish"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Cashdrawer"
+msgstr "Kassa"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid "Click on Advanced/Show Details/Details/More information"
+msgstr ""
+"Qo‘shimcha/Batafsil ma'lumot/Tafsilotlar/Ko‘proq ma'lumot tugmasini bosing"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid ""
+"Click on Proceed to .../Add Exception/Visit this website/Go on to the webpage"
+msgstr ""
+"...ga o‘tish/Istisno qo‘shish/Ushbu veb-saytga tashrif buyurish/Veb-sahifaga "
+"davom etish tugmasini bosing"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid "Close this window and try again"
+msgstr "Ushbu oynani yoping va qaytadan urinib ko‘ring"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_res_config_settings
+#, fuzzy
+msgid "Config Settings"
+msgstr "Konfiguratsiya sozlamalari"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/payment/payment_interface_iot.js:0
+#, fuzzy
+msgid "Configuration of payment terminal failed"
+msgstr "To‘lov terminali sozlanmadi"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_auto_config_pos_iot
+#, fuzzy
+msgid "Configure Automatically IoT Box In PoS"
+msgstr "PoS'da IoT qutisini avtomatik sozlash"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/backend/add_iot_box_form_controller.js:0
+#, fuzzy
+msgid "Connect to a Point of Sale"
+msgstr "Sotuv nuqtasiga ulanish"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/printer/iot_printer.js:0
+#, fuzzy
+msgid "Connection to IoT Box failed"
+msgstr "IoT qutisiga ulanish amalga oshmadi"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/payment/payment_interface_iot.js:0
+#, fuzzy
+msgid "Connection to terminal failed"
+msgstr "Terminalga ulanish amalga oshmadi"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.view_auto_config_pos_iot
+#, fuzzy
+msgid "Continue"
+msgstr "Davom etish"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Customer Display"
+msgstr "Mijoz ko‘rsatkichi"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.view_auto_config_pos_iot
+#, fuzzy
+msgid "Discard"
+msgstr "Bekor qilish"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__display_name
+#: model:ir.model.fields,field_description:pos_iot.field_iot_box__display_name
+#: model:ir.model.fields,field_description:pos_iot.field_iot_device__display_name
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_iot.field_pos_payment_method__display_name
+#: model:ir.model.fields,field_description:pos_iot.field_pos_printer__display_name
+#: model:ir.model.fields,field_description:pos_iot.field_pos_session__display_name
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_electronic_scale
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Electronic Scale"
+msgstr "Elektron tarozi"
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_scan_via_proxy
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_scanner_ids
+#: model:ir.model.fields,help:pos_iot.field_res_config_settings__pos_iface_scanner_ids
+#, fuzzy
+msgid ""
+"Enable barcode scanning with a remotely connected barcode scanner and card "
+"swiping with a Vantiv card reader."
+msgstr ""
+"Masofadan ulangan shtrix-kod skaneri yordamida shtrix-kodni skanerlash va "
+"Vantiv karta o‘quvchisi yordamida karta o‘tkazishni yoqish"
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_electronic_scale
+#, fuzzy
+msgid "Enables Electronic Scale integration."
+msgstr "Elektron tarozi integratsiyasini yoqadi"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid "Firefox only: Click on Confirm Security Exception"
+msgstr ""
+"Faqat Firefox uchun: Xavfsizlik istisnosini tasdiqlash tugmasini bosing"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__id
+#: model:ir.model.fields,field_description:pos_iot.field_iot_box__id
+#: model:ir.model.fields,field_description:pos_iot.field_iot_device__id
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_iot.field_pos_payment_method__id
+#: model:ir.model.fields,field_description:pos_iot.field_pos_printer__id
+#: model:ir.model.fields,field_description:pos_iot.field_pos_session__id
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_iot_device
+#, fuzzy
+msgid "IOT Device"
+msgstr "IoT qurilma"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_printer__device_identifier
+#, fuzzy
+msgid "Identifier"
+msgstr "Identifikator"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid ""
+"If you are on a secure server (HTTPS) check if you accepted the certificate:"
+msgstr ""
+"Agar xavfsiz serverda (HTTPS) bo‘lsangiz, sertifikatni qabul qilganingizni "
+"tekshiring:"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_display_id
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_display_id
+#, fuzzy
+msgid "Iface Display"
+msgstr "Interfeys displey"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_printer_id
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_printer_id
+#, fuzzy
+msgid "Iface Printer"
+msgstr "Interfeys printer"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scale_id
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_scale_id
+#, fuzzy
+msgid "Iface Scale"
+msgstr "Interfeys tarozi"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scanner_ids
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__pos_iface_scanner_ids
+#, fuzzy
+msgid "Iface Scanner"
+msgstr "Interfeys skaner"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Ingenico (BENELUX)"
+msgstr "Ingenico (BENELUX)"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__module_pos_iot_ingenico
+#, fuzzy
+msgid "Ingenico Payment Terminal"
+msgstr "Ingenico to‘lov terminali"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_iot_box
+#, fuzzy
+msgid "IoT Box"
+msgstr "IoT qutisi"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/navbar/navbar.xml:0
+#, fuzzy
+msgid "IoT Box Connected"
+msgstr "IoT qutisi ulandi"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid "IoT Box Homepage"
+msgstr "IoT qutisi bosh sahifasi"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/overrides/network_utils/iot_http_service.js:0
+msgid "IoT Box Warning"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_printer__device_id
+#, fuzzy
+msgid "IoT Device"
+msgstr "IoT qurilma"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "IoT Devices"
+msgstr "IoT qurilmalar"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__iot_box_id
+#, fuzzy
+msgid "Iot Box"
+msgstr "IoT qutisi"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__iot_box_identifier
+#, fuzzy
+msgid "Iot Box Identifier"
+msgstr "IoT qutisi identifikatori"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iot_device_ids
+#, fuzzy
+msgid "Iot Device"
+msgstr "IoT qurilma"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/overrides/network_utils/iot_http_service.js:0
+msgid ""
+"It seems that your POS cannot contact your IOT through the local network. "
+"The POS will fallback with web socket connection.\n"
+"You can check if all your connected devices are connected to the same "
+"network as the IoT Box.\n"
+"If the problem persists, consult the documentation or contact our support."
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_auto_config_pos_iot__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid "Network Error"
+msgstr "Tarmoq xatosi"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.view_auto_config_pos_iot
+#, fuzzy
+msgid "None"
+msgstr "Yo‘q"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__payment_terminal_device_ids
+#: model:ir.model.fields,field_description:pos_iot.field_pos_payment_method__iot_device_id
+#, fuzzy
+msgid "Payment Terminal Device"
+msgstr "To‘lov terminal qurilmasi"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Payment method"
+msgstr "To‘lov usuli"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/components/popups/iot_box_disconnected_dialog/iot_box_disconnected_dialog.xml:0
+#, fuzzy
+msgid "Please check if the IoT Box is still connected."
+msgstr "IoT qutisi hali ham ulanganligini tekshiring."
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Please process or cancel the current transaction."
+msgstr "Joriy tranzaksiyani yakunlang yoki bekor qiling."
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_pos_config
+#, fuzzy
+msgid "Point of Sale Configuration"
+msgstr "Savdo nuqtasi sozlamalari"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_pos_payment_method
+#, fuzzy
+msgid "Point of Sale Payment Methods"
+msgstr "Savdo nuqtasi to‘lov usullari"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_pos_printer
+#, fuzzy
+msgid "Point of Sale Printer"
+msgstr "Savdo nuqtasi printeri"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_pos_session
+#, fuzzy
+msgid "Point of Sale Session"
+msgstr "Savdo nuqtasi seansi"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_print_via_proxy
+#, fuzzy
+msgid "Print via Proxy"
+msgstr "Proksi orqali chop etish"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/printer/iot_printer.js:0
+#, fuzzy
+msgid "Printing failed"
+msgstr "Chop etish amalga oshmadi"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_printer__proxy_ip
+#, fuzzy
+msgid "Proxy IP Address"
+msgstr "Proksi IP manzili"
+
+#. module: pos_iot
+#. odoo-python
+#: code:addons/pos_iot/models/pos_printer.py:0
+#, fuzzy
+msgid "Proxy IP cannot be empty."
+msgstr "Proksi IP manzili bo‘sh bo‘lmasligi kerak."
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Receipt Printer"
+msgstr "Kvitansiya printeri"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scan_via_proxy
+#, fuzzy
+msgid "Scan via Proxy"
+msgstr "Proksi orqali skanerlash"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+#, fuzzy
+msgid "Scanner"
+msgstr "Skaner"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Six"
+msgstr "Six"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__module_pos_iot_six
+#, fuzzy
+msgid "Six Payment Terminal"
+msgstr "Six to‘lov terminali"
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_printer__proxy_ip
+#, fuzzy
+msgid "The IP Address or hostname of the Printer's hardware proxy"
+msgstr "Printer apparat proksisining IP manzili yoki xost nomi"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/payment/payment_interface_iot.js:0
+msgid ""
+"The IoT Box cannot detect the payment terminal. Please check if the terminal "
+"is still connected."
+msgstr ""
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/printer/iot_printer.js:0
+#, fuzzy
+msgid ""
+"The IoT Box is connected, but the receipt printer isn't. In order to "
+"continue, ensure your printer is connected:\n"
+"\n"
+"1/ for USB printers, check the cable between the IoT Box and the receipt "
+"printer\n"
+"2/ for network printers, ensure the printer is connected to the internet."
+msgstr ""
+"IoT qutisi ulangan, ammo kvitansiya printeri ulanmagan. Davom etish uchun "
+"printeringiz ulanganligiga ishonch hosil qiling: 1/ USB printerlar uchun IoT "
+"qutisi va kvitansiya printeri o‘rtasidagi kabelni tekshiring 2/ tarmoq "
+"printerlari uchun printerning internetga ulanganligiga ishonch hosil qiling."
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_res_config_settings__module_pos_iot_ingenico
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid ""
+"The transactions are processed by Ingenico via an IoT box. Setup your "
+"terminal on the related payment method."
+msgstr ""
+"Tranzaksiyalar Ingenico tomonidan IoT qutisi orqali amalga oshiriladi. "
+"Terminalingizni tegishli to‘lov usuliga sozlang."
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_res_config_settings__module_pos_iot_six
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid ""
+"The transactions are processed by Six via an IoT box. Setup your terminal on "
+"the related payment method."
+msgstr ""
+"Tranzaksiyalar Six tomonidan IoT qutisi orqali amalga oshiriladi. "
+"Terminalingizni tegishli to‘lov usuliga sozlang."
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_res_config_settings__module_pos_iot_worldline
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid ""
+"The transactions are processed by Worldline via an IoT box. Setup your "
+"terminal on the related payment method."
+msgstr ""
+"Tranzaksiyalar Worldline tomonidan IoT qutisi orqali amalga oshiriladi. "
+"Terminalingizni tegishli to‘lov usuliga sozlang."
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Transaction in progress"
+msgstr "Tranzaksiya bajarilmoqda"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "Worldline (BENELUX)"
+msgstr "Worldline (BENILUX)"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__module_pos_iot_worldline
+#, fuzzy
+msgid "Worldline Payment Terminal"
+msgstr "Worldline to‘lov terminali"
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/payment/payment_interface_iot.js:0
+#, fuzzy
+msgid "You must select a payment terminal in your POS config."
+msgstr "Savdo nuqtasi sozlamalaringizda to‘lov terminalini tanlashingiz kerak."
+
+#. module: pos_iot
+#. odoo-javascript
+#: code:addons/pos_iot/static/src/app/utils/printer/iot_printer.js:0
+#, fuzzy
+msgid ""
+"Your IoT box is registered, but your browser could not reach it.\n"
+"Ensure it is powered on and connected to the network.\n"
+"\n"
+"If you have just paired the IoT box, you may be experiencing a DNS issue.\n"
+"If you wait for some time the problem may resolve itself."
+msgstr ""
+"IoT qutingiz ro‘yxatdan o‘tkazilgan, ammo brauzeringiz unga ulana olmadi. "
+"Uning yoqilganligi va tarmoqqa ulanganligini tekshiring.  Agar hozirgina IoT "
+"qutisini ulagan bo‘lsangiz, DNS muammosiga duch kelishingiz mumkin. Biroz "
+"kutib tursangiz, muammo o‘z-o‘zidan hal bo‘lishi mumkin."
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+#, fuzzy
+msgid "none"
+msgstr "yo‘q"
+
+#, fuzzy
+#~ msgid "Please check if the terminal is still connected."
+#~ msgstr "Terminal hali ham ulanganligini tekshiring."
+
+#, fuzzy
+#~ msgid "Printing warning"
+#~ msgstr "Chop etish ogohlantirishi"

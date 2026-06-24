@@ -1,0 +1,1171 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * sale_commission
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:53+0000\n"
+"PO-Revision-Date: 2026-06-06 13:41+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"sale_commission/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_achievement.py:0
+msgid "%(plan)s - %(type)s %(product)s %(categ)s"
+msgstr "%(plan)s - %(type)s %(product)s %(categ)s"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_user.py:0
+msgid "%(user)s - %(plan)s"
+msgstr "%(user)s - %(plan)s"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_achievement.py:0
+msgid "%s"
+msgstr "%s"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan.py:0
+msgid "%s (copy)"
+msgstr "%s (ສຳເນົາ)"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "<span class=\"o_stat_text\">Commissions</span>"
+msgstr "<span class=\"o_stat_text\">ຄ່ານາຍໜ້າ</span>"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__achieved
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__achieved
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__achieved
+msgid "Achieved"
+msgstr "ບັນລຸແລ້ວ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__target_rate
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__achieved_rate
+msgid "Achieved Rate"
+msgstr "ອັດຕາການບັນລຸ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_achievement_report__commission_rate
+msgid "Achieved over the commission target amount"
+msgstr "ບັນລຸໄດ້ເກີນຈຳນວນເປົ້າໝາຍຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_achievement_report__target_rate
+msgid "Achieved over the target of that period, meaningless in group by"
+msgstr "ບັນລຸໄດ້ເກີນເປົ້າໝາຍຂອງໄລຍະເວລານັ້ນ, ບໍ່ມີຄວາມໝາຍໃນການຈັດກຸ່ມຕາມ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__achievement_ids
+msgid "Achievement"
+msgstr "ຜົນສຳເລັດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_res_config_settings__group_commission_forecast
+msgid "Achievement Forecast"
+msgstr "ການຄາດຄະເນຜົນສຳເລັດ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+msgid "Achievement Report"
+msgstr "ລາຍງານຜົນສຳເລັດ"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_achievement_action_report
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__type__achieve
+#: model:ir.ui.menu,name:sale_commission.sale_commission_achievement_report_menu
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_list
+msgid "Achievements"
+msgstr "ຜົນສຳເລັດຕ່າງໆ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_needaction
+msgid "Action Needed"
+msgstr "ຕ້ອງດຳເນີນການ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__active
+msgid "Active"
+msgstr "ເປີດໃຊ້"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Active Plans"
+msgstr "ແຜນທີ່ກຳລັງໃຊ້ຢູ່"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_wizard
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Add Multiple Salespersons"
+msgstr "ເພີ່ມພະນັກງານຂາຍຫຼາຍຄົນ"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_subscription_change_customer_wizard_action
+msgid "Add Salespersons"
+msgstr "ເພີ່ມພະນັກງານຂາຍ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Add a new Sales Person"
+msgstr "ເພີ່ມພະນັກງານຂາຍຄົນໃໝ່"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Add a new achievement"
+msgstr "ເພີ່ມຜົນສຳເລັດໃໝ່"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Add a new commission level"
+msgstr "ເພີ່ມລະດັບຄ່ານາຍໜ້າໃໝ່"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__add_user_id
+msgid "Add to"
+msgstr "ເພີ່ມໃສ່"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_achievement.py:0
+msgid "Adjustment %s"
+msgstr "ການປັບປຸງ %s"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_achievement.py:0
+msgid "Adjustment: %s"
+msgstr "ການປັບປຸງ: %s"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_commission_action_achievement
+#: model:ir.ui.menu,name:sale_commission.sale_commission_achievement_menu
+msgid "Adjustments"
+msgstr "ການປັບປຸງ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "All categories"
+msgstr "ທຸກໝວດໝູ່"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "All products"
+msgstr "ທຸກສິນຄ້າ"
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_achievement
+msgid ""
+"Allows you to manually adjust a salesperson's achievements\n"
+"                for a specific period and commission plan."
+msgstr ""
+"ອະນຸຍາດໃຫ້ທ່ານປັບປຸງຜົນສຳເລັດຂອງພະນັກງານຂາຍດ້ວຍຕົນເອງ\n"
+"                ສຳລັບໄລຍະເວລາ ແລະ ແຜນຄ່ານາຍໜ້າທີ່ກຳນົດ."
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_forecast
+msgid ""
+"Allows you to manually set a salesperson's forecast\n"
+"                for a specific period and commission plan."
+msgstr ""
+"ອະນຸຍາດໃຫ້ທ່ານກຳນົດການຄາດຄະເນຂອງພະນັກງານຂາຍດ້ວຍຕົນເອງ\n"
+"                ສຳລັບໄລຍະເວລາ ແລະ ແຜນຄ່ານາຍໜ້າທີ່ກຳນົດ."
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_my_forecast
+msgid ""
+"Allows you to manually set your sales' forecast\n"
+"                for a specific period and commission plan."
+msgstr ""
+"ອະນຸຍາດໃຫ້ທ່ານກຳນົດການຄາດຄະເນການຂາຍຂອງທ່ານດ້ວຍຕົນເອງ\n"
+"                ສຳລັບໄລຍະເວລາ ແລະ ແຜນຄ່ານາຍໜ້າທີ່ກຳນົດ."
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan_achievement__type__amount_invoiced
+msgid "Amount Invoiced"
+msgstr "ຈຳນວນເງິນທີ່ອອກໃບແຈ້ງໜີ້"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan_achievement__type__amount_sold
+msgid "Amount Sold"
+msgstr "ຈຳນວນເງິນທີ່ຂາຍໄດ້"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Approve"
+msgstr "ອະນຸມັດ"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__state__approved
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Approved"
+msgstr "ອະນຸມັດແລ້ວ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Archived"
+msgstr "ຈັດເກັບແລ້ວ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Based on"
+msgstr "ອີງຕາມ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_wizard
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__state__cancel
+msgid "Cancelled"
+msgstr "ຍົກເລີກແລ້ວ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__product_categ_id
+msgid "Category"
+msgstr "ໝວດໝູ່"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/controllers/main.py:0
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__amount
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__commission
+msgid "Commission"
+msgstr "ຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_achievement_view_search
+msgid "Commission Achievement"
+msgstr "ຜົນສຳເລັດຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/report/commission_report.py:0
+msgid "Commission Detail: %(name)s"
+msgstr "ລາຍລະອຽດຄ່ານາຍໜ້າ: %(name)s"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_plan
+#: model:ir.model.fields,field_description:sale_commission.field_crm_team__commission_plan_ids
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__plan_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__plan_id
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Commission Plan"
+msgstr "ແຜນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_plan_achievement
+msgid "Commission Plan Achievement"
+msgstr "ຜົນສຳເລັດຕາມແຜນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_plan_target
+msgid "Commission Plan Target"
+msgstr "ເປົ້າໝາຍແຜນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_plan_target_commission
+msgid "Commission Plan Target Commission"
+msgstr "ຄ່ານາຍໜ້າເປົ້າໝາຍຂອງແຜນ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_plan_target_forecast
+msgid "Commission Plan Target Forecast"
+msgstr "ການຄາດຄະເນເປົ້າໝາຍແຜນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_plan_user
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_view_search
+msgid "Commission Plan User"
+msgstr "ຜູ້ໃຊ້ແຜນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_commission_action_plan
+#: model:ir.ui.menu,name:sale_commission.sale_commission_plan_menu
+msgid "Commission Plans"
+msgstr "ແຜນຄ່ານາຍໜ້າຕ່າງໆ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__commission_rate
+msgid "Commission Rate"
+msgstr "ອັດຕາຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Commission Report"
+msgstr "ລາຍງານຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_list
+msgid "Commission Target"
+msgstr "ເປົ້າໝາຍຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__commission_target_amount
+msgid "Commission Target Amount"
+msgstr "ຈຳນວນເປົ້າໝາຍຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_res_users__commission_plan_users_ids
+msgid "Commission plans"
+msgstr "ແຜນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Commission table"
+msgstr "ຕາຕະລາງຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_commission_action_report
+#: model:ir.actions.act_window,name:sale_commission.sale_commission_action_report_sale
+#: model:ir.ui.menu,name:sale_commission.menu_sale_commission
+#: model:ir.ui.menu,name:sale_commission.sale_commission_plan_report_menu
+#: model:ir.ui.menu,name:sale_commission.sale_commission_plan_report_menu_report
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Commissions"
+msgstr "ຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__company_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__company_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__company_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__company_id
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Completed"
+msgstr "ສຳເລັດແລ້ວ"
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_plan
+msgid ""
+"Compute commissions of your sales people based on their achievements and "
+"targets"
+msgstr ""
+"ຄິດໄລ່ຄ່ານາຍໜ້າຂອງພະນັກງານຂາຍຂອງທ່ານໂດຍອີງຕາມຜົນສຳເລັດ ແລະ ເປົ້າໝາຍຂອງພວກເຂົາ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_res_config_settings
+msgid "Config Settings"
+msgstr "ຕັ້ງຄ່າການກຳນົດຄ່າ"
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_plan
+msgid "Create a new commission plan"
+msgstr "ສ້າງແຜນຄ່ານາຍໜ້າໃໝ່"
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_achievement
+msgid "Create an adjustment"
+msgstr "ສ້າງການປັບປຸງ"
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_forecast
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_my_forecast
+msgid "Create an forecast"
+msgstr "ສ້າງການຄາດຄະເນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__create_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__create_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__create_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__create_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__create_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__create_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__create_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__create_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__create_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__create_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__create_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__create_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__create_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__create_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/controllers/main.py:0
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__currency_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__currency_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__currency_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__currency_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__currency_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__currency_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__currency_id
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__currency_rate
+msgid "Currency Rate"
+msgstr "ອັດຕາແລກປ່ຽນ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+msgid "Current Period"
+msgstr "ໄລຍະເວລາປັດຈຸບັນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__partner_id
+msgid "Customer"
+msgstr "ລູກຄ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__date
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_view_search
+msgid "Date From"
+msgstr "ຈາກວັນທີ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_view_search
+msgid "Date To"
+msgstr "ເຖິງວັນທີ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_crm_team__commission_plan_ids
+msgid "Default commission plan for team members."
+msgstr "ແຜນຄ່ານາຍໜ້າເລີ່ມຕົ້ນສຳລັບສະມາຊິກໃນທີມ."
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_list
+msgid "Details"
+msgstr "ລາຍລະອຽດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_crm_team__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_res_users__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user_wizard__display_name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__state__done
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Done"
+msgstr "ສຳເລັດແລ້ວ"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__state__draft
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Draft"
+msgstr "ສະບັບຮ່າງ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Effective Period"
+msgstr "ໄລຍະເວລາທີ່ມີຜົນສັກສິດ"
+
+#. module: sale_commission
+#: model:res.groups,name:sale_commission.group_commission_forecast
+msgid "Enable Commission Forecast"
+msgstr "ເປີດໃຊ້ການຄາດຄະເນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_list
+msgid "End Date"
+msgstr "ວັນທີສິ້ນສຸດ"
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_my_report
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_report
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_report_sale
+msgid ""
+"Ensure you are assigned to a commission plan and have made sales that "
+"qualify for commissions"
+msgstr ""
+"ໃຫ້ແນ່ໃຈວ່າທ່ານໄດ້ຮັບການມອບໝາຍໃຫ້ແຜນຄ່ານາຍໜ້າ ແລະ ໄດ້ສ້າງຍອດຂາຍທີ່ກົງຕາມເງື່ອນໄຂຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan.py:0
+msgid "Exporting targets is only available for plans based on targets"
+msgstr "ການສົ່ງອອກເປົ້າໝາຍສາມາດໃຊ້ໄດ້ສະເພາະກັບແຜນທີ່ອີງຕາມເປົ້າໝາຍເທົ່ານັ້ນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_res_users__filtered_commission_plan_users_ids
+msgid "Filtered Commission Plan Users"
+msgstr "ກັ່ນຕອງຜູ້ໃຊ້ແຜນຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_commission_action_forecast
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__amount
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__forecast
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_graph
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_list
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_pivot
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_search
+msgid "Forecast"
+msgstr "ການຄາດຄະເນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__date_from
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__date_from
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__date_from
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__date_from
+msgid "From"
+msgstr "ຈາກ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_user.py:0
+msgid "From must be before To"
+msgstr "ວັນທີເລີ່ມຕົ້ນຕ້ອງມາກ່ອນວັນທີສິ້ນສຸດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_crm_team__id
+#: model:ir.model.fields,field_description:sale_commission.field_res_config_settings__id
+#: model:ir.model.fields,field_description:sale_commission.field_res_users__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user_wizard__id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຖ້າເລືອກໄວ້, ຂໍ້ຄວາມໃໝ່ຈະແຈ້ງເຕືອນໃຫ້ທ່ານເອົາໃຈໃສ່."
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan__message_has_error
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຖ້າເລືອກໄວ້, ບາງຂໍ້ຄວາມອາດມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_is_follower
+msgid "Is Follower"
+msgstr "ເປັນຜູ້ຕິດຕາມ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__write_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__write_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__write_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__write_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__write_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__write_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__write_uid
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__write_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__write_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__write_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__write_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__write_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__write_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__write_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user_wizard__write_date
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Last Year"
+msgstr "ປີຜ່ານມາ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan_target_forecast__team_id
+msgid ""
+"Main user sales team. Used notably for pipeline, or to set sales team in "
+"invoicing or subscription."
+msgstr ""
+"ທີມຂາຍຫຼັກຂອງຜູ້ໃຊ້. ໃຊ້ສຳລັບຂະບວນການຂາຍ, ຫຼື ເພື່ອກຳນົດທີມຂາຍໃນການອອກໃບແຈ້ງໜີ້ ຫຼື ການສະໝັກສະມາຊິ"
+"ກ."
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_achievement
+msgid "Manual Commission Achievement"
+msgstr "ຜົນສຳເລັດຄ່ານາຍໜ້າແບບກຳນົດເອງ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Mark as done"
+msgstr "ໝາຍວ່າສຳເລັດແລ້ວ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_has_error
+msgid "Message Delivery error"
+msgstr "ການສົ່ງຂໍ້ຄວາມຜິດພາດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__periodicity__month
+msgid "Monthly"
+msgstr "ປະຈຳເດືອນ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+msgid "My Achievements"
+msgstr "ຜົນສຳເລັດຂອງຂ້ອຍ"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_commission_action_my_report
+#: model:ir.ui.menu,name:sale_commission.sale_commission_my_menu
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "My Commissions"
+msgstr "ຄ່ານາຍໜ້າຂອງຂ້ອຍ"
+
+#. module: sale_commission
+#: model:ir.actions.act_window,name:sale_commission.sale_commission_action_my_forecast
+msgid "My Forecast"
+msgstr "ການຄາດຄະເນຂອງຂ້ອຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__name
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__note
+msgid "Note"
+msgstr "ໝາຍເຫດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__notes
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__notes
+msgid "Notes"
+msgstr "ໝາຍເຫດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈຳນວນການດຳເນີນການ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan__commission_amount
+msgid "OTC"
+msgstr "OTC"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__amount_rate
+msgid "OTC %"
+msgstr "OTC %"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__commission_amount
+msgid "On Target Commission"
+msgstr "ຄ່ານາຍໜ້າຕາມເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan_target_commission__amount_rate
+msgid "On Target Commission rate"
+msgstr "ອັດຕາຄ່ານາຍໜ້າຕາມເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Ongoing"
+msgstr "ກຳລັງດຳເນີນຢູ່"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__other_plans
+msgid "Other plans"
+msgstr "ແຜນອື່ນໆ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_target.py:0
+msgid ""
+"Overlapping periods detected for plan '%(plan)s':\n"
+"- %(c_name)s [%(c_from)s → %(c_to)s]\n"
+"- %(n_name)s [%(n_from)s → %(n_to)s]"
+msgstr ""
+"ພົບໄລຍະເວລາທີ່ທັບຊ້ອນກັນສຳລັບແຜນ '%(plan)s':\n"
+"- %(c_name)s [%(c_from)s → %(c_to)s]\n"
+"- %(n_name)s [%(n_from)s → %(n_to)s]"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__payment_amount
+msgid "Payment Amount"
+msgstr "ຈຳນວນເງິນທີ່ຊຳລະ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__payment_date
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__payment_date
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Payment Date"
+msgstr "ວັນທີຊຳລະ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/controllers/main.py:0
+msgid "Performance"
+msgstr "ຜົນງານ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__target_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__name
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__target_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__target_id
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_list
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_list
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Period"
+msgstr "ໄລຍະເວລາ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__periodicity
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Periodicity"
+msgstr "ຮອບວຽນ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Periods"
+msgstr "ໄລຍະເວລາຕ່າງໆ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__plan_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__plan_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__plan_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__plan_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__plan_id
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_view_search
+msgid "Plan"
+msgstr "ແຜນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__product_id
+msgid "Product"
+msgstr "ສິນຄ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan_achievement__type__qty_invoiced
+msgid "Quantity Invoiced"
+msgstr "ຈຳນວນທີ່ອອກໃບແຈ້ງໜີ້"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan_achievement__type__qty_sold
+msgid "Quantity Sold"
+msgstr "ຈຳນວນທີ່ຂາຍໄດ້"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__periodicity__quarter
+msgid "Quarterly"
+msgstr "ລາຍໄຕມາດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__rate
+msgid "Rate"
+msgstr "ອັດຕາ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement__reduce_user_id
+msgid "Reduce From"
+msgstr "ຫຼຸດຈາກ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__related_res_id
+msgid "Related"
+msgstr "ກ່ຽວຂ້ອງ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__related_res_model
+msgid "Related Res Model"
+msgstr "ໂມເດວທີ່ກ່ຽວຂ້ອງ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan.py:0
+msgid "Related commissions"
+msgstr "ຄ່ານາຍໜ້າທີ່ກ່ຽວຂ້ອງ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Reset to draft"
+msgstr "ກັບຄືນສູ່ສະບັບຮ່າງ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ການສົ່ງ SMS ຜິດພາດ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__team_id
+msgid "Sale team"
+msgstr "ທີມຂາຍ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_achievement_report
+msgid "Sales Achievement Report"
+msgstr "ລາຍງານຜົນສຳເລັດການຂາຍ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_report
+msgid "Sales Commission Report"
+msgstr "ລາຍງານຄ່ານາຍໜ້າການຂາຍ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Sales People"
+msgstr "ພະນັກງານຂາຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__user_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__user_id
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Sales Person"
+msgstr "ພະນັກງານຂາຍ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_crm_team
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__team_id
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__user_type__team
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_search
+msgid "Sales Team"
+msgstr "ທີມຂາຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__user_id
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__user_type__person
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "Salesperson"
+msgstr "ພະນັກງານຂາຍ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_list
+msgid "See associated achievements"
+msgstr "ເບິ່ງຜົນສຳເລັດທີ່ກ່ຽວຂ້ອງ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_list
+msgid "Source"
+msgstr "ແຫຼ່ງຂໍ້ມູນ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_list
+msgid "Start Date"
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__state
+msgid "State"
+msgstr "ສະຖານະ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_wizard
+msgid "Submit"
+msgstr "ສົ່ງ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan_target__payment_amount
+msgid "Sum of amounts paid on the same payment date"
+msgstr "ຜົນລວມຂອງຈຳນວນເງິນທີ່ຊຳລະໃນວັນທີດຽວກັນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_achievement_report__commission_target_amount
+msgid "Sum of target amount per plan paid on the same date"
+msgstr "ຜົນລວມຂອງຈຳນວນເປົ້າໝາຍຕໍ່ແຜນທີ່ຊຳລະໃນວັນທີດຽວກັນ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__target_ids
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__amount
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_list
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_search
+msgid "Target"
+msgstr "ເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_achievement_report__target_amount
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__target_amount
+msgid "Target Amount"
+msgstr "ຈຳນວນເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__target_commission_ids
+msgid "Target Commission"
+msgstr "ຄ່ານາຍໜ້າເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__target_commission_graph
+msgid "Target Commission Graph"
+msgstr "ກຣາບຄ່ານາຍໜ້າເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Target Frequency"
+msgstr "ຄວາມຖີ່ຂອງເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_commission__target_rate
+msgid "Target completion (%)"
+msgstr "ການບັນລຸເປົ້າໝາຍ (%)"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__type__target
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "Targets"
+msgstr "ເປົ້າໝາຍຕ່າງໆ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan.py:0
+msgid ""
+"The plan should have at least one target with an achievement rate of 0%"
+msgstr "ແຜນຄວນມີຢ່າງໜ້ອຍໜຶ່ງເປົ້າໝາຍທີ່ມີອັດຕາການບັນລຸ 0%"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan.py:0
+msgid "The start date must be before the end date."
+msgstr "ວັນທີເລີ່ມຕົ້ນຕ້ອງມາກ່ອນວັນທີສິ້ນສຸດ."
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_target.py:0
+msgid ""
+"The start date must be before the end date.\n"
+"Period: %s"
+msgstr ""
+"ວັນທີເລີ່ມຕົ້ນຕ້ອງມາກ່ອນວັນທີສິ້ນສຸດ.\n"
+"ໄລຍະເວລາ: %s"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan.py:0
+msgid "The team is required in team plan."
+msgstr "ຕ້ອງມີທີມໃນແຜນຂອງທີມ."
+
+#. module: sale_commission
+#: model:ir.model.constraint,message:sale_commission.constraint_sale_commission_plan_user_user_uniq
+msgid "The user is already present in the plan"
+msgstr "ຜູ້ໃຊ້ນີ້ມີຢູ່ໃນແຜນແລ້ວ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_search
+msgid "This Month"
+msgstr "ເດືອນນີ້"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_target_forecast_view_search
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_search
+msgid "This Year"
+msgstr "ປີນີ້"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__date_to
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target__date_to
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user__date_to
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__date_to
+msgid "To"
+msgstr "ເຖິງ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_achievement_report_view_list
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_achievement_view_list
+msgid "Total Achieved"
+msgstr "ລວມບັນລຸໄດ້"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_list
+msgid "Total Target"
+msgstr "ລວມເປົ້າໝາຍ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_list
+msgid "Total achieved"
+msgstr "ລວມບັນລຸໄດ້"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_report_view_list
+msgid "Total commission"
+msgstr "ລວມຄ່ານາຍໜ້າ"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__type
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_achievement__type
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. module: sale_commission
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_my_report
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_report
+#: model_terms:ir.actions.act_window,help:sale_commission.sale_commission_action_report_sale
+msgid "Unfortunately, there are no commissions for you"
+msgstr "ຂໍອະໄພ, ບໍ່ມີຄ່ານາຍໜ້າສຳລັບທ່ານ"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_search
+msgid "Upcoming"
+msgstr "ກຳລັງຈະມາເຖິງ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_res_users
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__user_ids
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__user_id
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_user_wizard__user_ids
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_user_view_search
+msgid "User"
+msgstr "ຜູ້ໃຊ້"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan_target_forecast__team_id
+msgid "User Sales Team"
+msgstr "ທີມຂາຍຂອງຜູ້ໃຊ້"
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__user_type
+msgid "User Type"
+msgstr "ປະເພດຜູ້ໃຊ້"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_user.py:0
+msgid "User period cannot end after the plan."
+msgstr "ໄລຍະເວລາຂອງຜູ້ໃຊ້ບໍ່ສາມາດສິ້ນສຸດຫຼັງຈາກແຜນ."
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_user.py:0
+msgid "User period cannot start before the plan."
+msgstr "ໄລຍະເວລາຂອງຜູ້ໃຊ້ບໍ່ສາມາດເລີ່ມຕົ້ນກ່ອນແຜນ."
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_plan__website_message_ids
+msgid "Website Messages"
+msgstr "ຂໍ້ຄວາມເວັບໄຊ"
+
+#. module: sale_commission
+#: model:ir.model.fields,help:sale_commission.field_sale_commission_plan__website_message_ids
+msgid "Website communication history"
+msgstr "ປະຫວັດການສື່ສານເວັບໄຊ"
+
+#. module: sale_commission
+#: model:ir.model,name:sale_commission.model_sale_commission_plan_user_wizard
+msgid "Wizard for selecting multiple users"
+msgstr "ຕົວຊ່ວຍສຳລັບການເລືອກຜູ້ໃຊ້ຫຼາຍຄົນ"
+
+#. module: sale_commission
+#: model:ir.model.fields.selection,name:sale_commission.selection__sale_commission_plan__periodicity__year
+msgid "Yearly"
+msgstr "ລາຍປີ"
+
+#. module: sale_commission
+#. odoo-python
+#: code:addons/sale_commission/model/commission_plan_target_forecast.py:0
+msgid "You cannot create a forecast for an user that is not in the plan."
+msgstr "ທ່ານບໍ່ສາມາດສ້າງການຄາດຄະເນສຳລັບຜູ້ໃຊ້ທີ່ບໍ່ມີຢູ່ໃນແຜນ."
+
+#. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_report__forecast_id
+msgid "fc"
+msgstr "fc"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "i.e. Commissions plan 2025"
+msgstr "ຕົວຢ່າງ: ແຜນຄ່ານາຍໜ້າ 2025"
+
+#. module: sale_commission
+#: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_plan_view_form
+msgid "per"
+msgstr "ຕໍ່"

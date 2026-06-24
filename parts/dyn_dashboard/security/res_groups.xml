@@ -1,0 +1,25 @@
+<odoo>
+    <record model="ir.module.category" id="dyn_dashboard_security_groups">
+        <field name="name">DynApps Dashboard Rights</field>
+    </record>
+
+    <record model="res.groups" id="dyn_dashboard_group_user">
+        <field name="name">Dashboard User</field>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]" />
+    </record>
+
+    <record model="res.groups" id="dyn_dashboard_group_manager">
+        <field name="name">Dashboard Manager</field>
+        <field
+            name="implied_ids"
+            eval="[(4, ref('dyn_dashboard.dyn_dashboard_group_user'))]"
+        />
+    </record>
+
+    <record id="base.group_system" model="res.groups">
+        <field
+            name="implied_ids"
+            eval="[(4, ref('dyn_dashboard.dyn_dashboard_group_manager')), (4, ref('dyn_dashboard.dyn_dashboard_group_user'))]"
+        />
+    </record>
+</odoo>

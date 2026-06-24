@@ -1,0 +1,7 @@
+<templates xml:space="preserve">
+    <t t-name="dyn_dashboard.DynDashboardView">
+        <Layout display="props.display" className="'h-100 overflow-auto'">
+            <t t-component="props.Renderer" dashboard_data="model.dashboard_data" />
+        </Layout>
+    </t>
+</templates>

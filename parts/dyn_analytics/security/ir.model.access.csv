@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+dyn_analytics.access_xx_dynapps_analytics,access_xx_dynapps_analytics,dyn_analytics.model_xx_dynapps_analytics,base.group_system,1,0,0,0

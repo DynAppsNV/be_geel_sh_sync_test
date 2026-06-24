@@ -1,0 +1,21 @@
+<odoo>
+    <record id="xx_account_move_form_analytic_distribution" model="ir.ui.view">
+        <field name="name">account.move.form.analytics.journal.items.amount</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form" />
+        <field name="arch" type="xml">
+            <!-- target the analytic_distribution field inside the lines one2many -->
+            <xpath
+                expr="//field[@name='line_ids']//field[@name='analytic_distribution']"
+                position="attributes"
+            >
+                <attribute name="options">{'amount_field': 'balance'}</attribute>
+            </xpath>
+
+            <!-- ensure the balance field is loaded for those lines -->
+            <xpath expr="//field[@name='line_ids']/form" position="inside">
+                <field name="balance" invisible="1" />
+            </xpath>
+        </field>
+    </record>
+</odoo>

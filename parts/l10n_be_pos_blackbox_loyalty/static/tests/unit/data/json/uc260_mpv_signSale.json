@@ -1,0 +1,52 @@
+{
+  "data": {
+    "language": "NL",
+    "vatNo": "BE0000000097",
+    "estNo": "2000000042",
+    "posId": "CPOS0031234567",
+    "posFiscalTicketNo": 6000,
+    "posDateTime": "2024-09-03T12:25:03+02:00",
+    "posSwVersion": "1.8.3",
+    "terminalId": "TER-1-BAR",
+    "deviceId": "b54a614f-39cc-4a7b-bd9f-aa6b693d769c",
+    "bookingPeriodId": "dffcd829-a0e5-41ca-a0ae-9eb887f95637",
+    "bookingDate": "2024-09-03",
+    "ticketMedium": "PAPER",
+    "employeeId": "75061189702",
+    "transaction": {
+      "transactionLines": [
+        {
+          "lineType": "SINGLE_PRODUCT",
+          "mainProduct": {
+            "productId": "40001",
+            "productName": "Gift Voucher General",
+            "departmentId": "400",
+            "departmentName": "Vouchers",
+            "quantity": 1,
+            "quantityType": "PIECE",
+            "unitPrice": 50,
+            "vats": [
+              {
+                "label": "X",
+                "price": 50
+              }
+            ]
+          },
+          "lineTotal": 50
+        }
+      ],
+      "transactionTotal": 50
+    },
+    "financials": [
+      {
+        "id": "4",
+        "name": "EFT",
+        "type": "CARD_DEBIT",
+        "inputMethod": "AUTOMATIC",
+        "provider": "VISA",
+        "amount": 50,
+        "amountType": "PAYMENT"
+      }
+    ]
+  }
+}

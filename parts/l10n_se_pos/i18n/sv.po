@@ -1,0 +1,237 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_se_pos
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# symbiotech <symbiotech3@gmail.com>, 2025, 2026.
+# Hanna Kharraziha <hakha@odoo.com>, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-06 19:00+0000\n"
+"PO-Revision-Date: 2026-06-13 09:41+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+"Language-Team: Swedish <https://translate.odoo.com/projects/odoo-19-l10n/"
+"l10n_se_pos/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/services/pos_store.js:0
+msgid "A duplicate has already been printed once."
+msgstr "En kvittokopia har redan skrivits ut."
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/errors/error_handlers.js:0
+msgid "Blackbox Error"
+msgstr "Kontrollenhetsfel"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/overrides/components/receipt_screen/order_receipt.xml:0
+msgid "Blackbox Signature:"
+msgstr "Kontrollenhetens signatur:"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/overrides/components/receipt_screen/order_receipt.xml:0
+msgid "Blackbox Unit ID:"
+msgstr "Kontrollenhetens ID-nummer:"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/services/PosBlackBoxSweden.js:0
+msgid "Blackbox is disconnected"
+msgstr "Kontrollenheten är inte ansluten"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/services/pos_store.js:0
+msgid "Cannot modify a refund order."
+msgstr "Det är inte möjligt att ändra en returorder."
+
+#. module: l10n_se_pos
+#: model:ir.model,name:l10n_se_pos.model_res_config_settings
+msgid "Config Settings"
+msgstr "Inställningar"
+
+#. module: l10n_se_pos
+#. odoo-python
+#: code:addons/l10n_se_pos/models/pos_order.py:0
+msgid "Deleting of registered orders is not allowed."
+msgstr "Det är inte tillåtet att radera registrerade ordrar."
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_config__display_name
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__display_name
+#: model:ir.model.fields,field_description:l10n_se_pos.field_product_product__display_name
+#: model:ir.model.fields,field_description:l10n_se_pos.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,help:l10n_se_pos.field_pos_order__sweden_blackbox_signature
+msgid "Electronic signature returned by the Fiscal Data Module"
+msgstr "Digital underskrift skickades tillbaka av den ekonomiska datamodulen"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_config__id
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__id
+#: model:ir.model.fields,field_description:l10n_se_pos.field_product_product__id
+#: model:ir.model.fields,field_description:l10n_se_pos.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_config__iface_sweden_fiscal_data_module
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__sweden_blackbox_device
+msgid "Iface Sweden Fiscal Data Module"
+msgstr "Iface Sweden kontrollenhet"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__is_reprint
+msgid "Is Reprint"
+msgstr "Skriv ut kvittokopia"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/overrides/components/receipt_screen/order_receipt.xml:0
+msgid "POS ID:"
+msgstr "ID-nummer för kassasystem:"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/services/pos_store.js:0
+msgid "POS error"
+msgstr "Fel med kassasystemet"
+
+#. module: l10n_se_pos
+#: model:ir.model,name:l10n_se_pos.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Inställningar kassasystem"
+
+#. module: l10n_se_pos
+#: model:ir.model,name:l10n_se_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Kassasystemsordrar"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_res_config_settings__pos_iface_sweden_fiscal_data_module
+msgid "Pos Iface Sweden Fiscal Data Module"
+msgstr "Pos Iface Sweden kontrollenhet"
+
+#. module: l10n_se_pos
+#: model:ir.model,name:l10n_se_pos.model_product_product
+msgid "Product Variant"
+msgstr "Produktvariant"
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/services/pos_store.js:0
+msgid ""
+"Product has an invalid tax amount. Only 25%, 12%, 6% and 0% are allowed."
+msgstr ""
+"Produkten har en ogiltig momssats. Endast 25 %, 12 %, 6 % och 0 % är "
+"tillåtna."
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/services/pos_store.js:0
+msgid "Product has no tax associated with it."
+msgstr "Produkten saknar moms."
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__sweden_blackbox_tax_category_a
+msgid "Sweden Blackbox Tax Category A"
+msgstr "Skattekategori A kontrollenhet Sverige"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__sweden_blackbox_tax_category_b
+msgid "Sweden Blackbox Tax Category B"
+msgstr "Skattekategori B kontrollenhet Sverige"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__sweden_blackbox_tax_category_c
+msgid "Sweden Blackbox Tax Category C"
+msgstr "Skattekategori C kontrollenhet Sverige"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__sweden_blackbox_tax_category_d
+msgid "Sweden Blackbox Tax Category D"
+msgstr "Skattekategori D kontrollenhet Sverige"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__sweden_blackbox_unit_id
+msgid "Sweden Blackbox Unit"
+msgstr "Sverige kontrollenhet"
+
+#. module: l10n_se_pos
+#: model:ir.model.fields,field_description:l10n_se_pos.field_pos_order__sweden_blackbox_signature
+msgid "Sweden Electronic signature"
+msgstr "Sverige elektronisk underskrift"
+
+#. module: l10n_se_pos
+#: model_terms:ir.ui.view,arch_db:l10n_se_pos.view_pos_pos_form
+msgid "Sweden Fiscal Data Module information"
+msgstr "Sverige Information om kontrollenheter"
+
+#. module: l10n_se_pos
+#: model_terms:ir.ui.view,arch_db:l10n_se_pos.pos_config_view_form_inherit_blackbox_sweden
+#: model_terms:ir.ui.view,arch_db:l10n_se_pos.res_config_settings_view_form
+msgid "Swedish Fiscal Data Module"
+msgstr "Svensk kontrollenhet"
+
+#. module: l10n_se_pos
+#. odoo-python
+#: code:addons/l10n_se_pos/models/pos_config.py:0
+msgid "The company require a VAT number when you are using the blackbox."
+msgstr ""
+"Innehavaren av kassaregistret kräver ett momsregistreringsnummer när "
+"kontrollenheten används."
+
+#. module: l10n_se_pos
+#. odoo-python
+#: code:addons/l10n_se_pos/models/pos_config.py:0
+msgid "The company require a company registry when you are using the blackbox."
+msgstr ""
+"Innehavaren av kassaregistret kräver ett organisationsnummer när "
+"kontrollenheten används."
+
+#. module: l10n_se_pos
+#. odoo-javascript
+#: code:addons/l10n_se_pos/static/src/app/services/pos_store.js:0
+msgid "You can only make positive or negative order. You cannot mix both."
+msgstr "Endast positiva eller negativa ordrar kan skapas, inte båda samtidigt."
+
+#. module: l10n_se_pos
+#. odoo-python
+#: code:addons/l10n_se_pos/models/pos_config.py:0
+msgid "You cannot use the sweden blackbox with the bill splitting setting."
+msgstr ""
+"Kontrollenheten kan inte användas tillsammans med inställningen för delad "
+"nota."
+
+#. module: l10n_se_pos
+#. odoo-python
+#: code:addons/l10n_se_pos/models/pos_config.py:0
+msgid "You cannot use the sweden blackbox without cash control."
+msgstr "Kontrollenheten kan inte användas utan ett aktiverat kassaregister."
+
+#~ msgid "Blackbox unit id:"
+#~ msgstr "Kontrollenhets-ID:"
+
+#~ msgid "Original date:"
+#~ msgstr "Originalutskriftsdatum:"
+
+#~ msgid "POS id:"
+#~ msgstr "Kassa-ID:"
+
+#~ msgid "Sequence:"
+#~ msgstr "Kvitto:"

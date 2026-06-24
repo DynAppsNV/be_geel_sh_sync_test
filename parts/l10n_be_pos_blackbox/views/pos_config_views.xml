@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_pos_config_tree" model="ir.ui.view">
+            <field name="name">pos.config.list.view.inherit.l10n_be_pos_blackbox</field>
+            <field name="model">pos.config</field>
+            <field name="inherit_id" ref="point_of_sale.view_pos_config_tree" />
+            <field name="arch" type="xml">
+                <list position="inside">
+                    <field name="l10n_be_pos_id" />
+                    <field name="l10n_be_blackbox_be_id" />
+                </list>
+            </field>
+        </record>
+    </data>
+</odoo>

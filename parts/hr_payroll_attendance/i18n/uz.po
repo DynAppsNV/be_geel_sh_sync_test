@@ -1,0 +1,104 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_attendance
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_payroll_attendance
+#: model:ir.model.fields,help:hr_payroll_attendance.field_hr_employee__overtime_from_attendance
+#, fuzzy
+msgid "Add extra hours from attendances to the working entries"
+msgstr "Davomatdan qo‘shimcha soatlarni ish yozuvlariga qo‘shish"
+
+#. module: hr_payroll_attendance
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_payslip__attendance_count
+#, fuzzy
+msgid "Attendance Count"
+msgstr "Davomat soni"
+
+#. module: hr_payroll_attendance
+#. odoo-python
+#: code:addons/hr_payroll_attendance/models/hr_payslip.py:0
+#: model_terms:ir.ui.view,arch_db:hr_payroll_attendance.view_hr_payslip_form_inherit_payroll_attendance
+#, fuzzy
+msgid "Attendances"
+msgstr "Davomatlar"
+
+#. module: hr_payroll_attendance
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_version__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: hr_payroll_attendance
+#: model:ir.model,name:hr_payroll_attendance.model_hr_employee
+#, fuzzy
+msgid "Employee"
+msgstr "Xodim"
+
+#. module: hr_payroll_attendance
+#: model:ir.model,name:hr_payroll_attendance.model_hr_version
+msgid "Employee Contract"
+msgstr ""
+
+#. module: hr_payroll_attendance
+#: model_terms:ir.ui.view,arch_db:hr_payroll_attendance.hr_attendance_view_inherit_filter
+#, fuzzy
+msgid "Employee Reference"
+msgstr "Xodim ma'lumotnomasi"
+
+#. module: hr_payroll_attendance
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_employee__overtime_from_attendance
+#, fuzzy
+msgid "Extra hours"
+msgstr "Qo‘shimcha soatlar"
+
+#. module: hr_payroll_attendance
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_employee__id
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_payslip__id
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_version__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_payroll_attendance
+#: model:ir.model,name:hr_payroll_attendance.model_hr_payslip
+#, fuzzy
+msgid "Pay Slip"
+msgstr "Ish haqi varaqasi"
+
+#. module: hr_payroll_attendance
+#: model:ir.model,name:hr_payroll_attendance.model_hr_payslip_worked_days
+#, fuzzy
+msgid "Payslip Worked Days"
+msgstr "Ish haqi varaqasidagi ishlangan kunlar"
+
+#. module: hr_payroll_attendance
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_employee__ruleset_id
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_version__ruleset_id
+msgid "Ruleset"
+msgstr ""

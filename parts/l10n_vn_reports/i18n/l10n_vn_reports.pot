@@ -1,0 +1,214 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_vn_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-03 19:17+0000\n"
+"PO-Revision-Date: 2026-04-03 19:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_ie
+msgid "- In which: Interest expenses"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_rssp
+msgid "1. Revenues from sales and services rendered"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_npoa
+msgid ""
+"10. Net profits from operating activities {30 = 20 + (21 - 22) - (25 + 26)}"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_oi
+msgid "11. Other income"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_oe
+msgid "12. Other expenses"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_op
+msgid "13. Other profits (40 = 31 - 32)"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_tnpbt
+msgid "14. Total net profit before tax (50 = 30 + 40)"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_ccoit
+msgid "15. Current corporate income tax expenses"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_dcit
+msgid "16. Deferred corporate income tax expenses"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_paeic
+msgid "17. Profits after enterprise income tax (60 = 50 – 51 – 52)"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_rd
+msgid "2. Revenue deductions"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_nrssr
+msgid "3. Net revenues from sales and services rendered (10=01-02)"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_cgs
+msgid "4. Costs of goods sold"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_grssr
+msgid "5. Gross profit from sales and services rendered (20=10-11)"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_fi
+msgid "6. Financial income"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_fe
+msgid "7. Financial expenses"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_se
+msgid "8. Selling expenses"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.line,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_gae
+msgid "9. General administration expenses"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.column,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_balance
+msgid "Balance"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report.column,name:l10n_vn_reports.account_financial_report_l10n_vn_pl_code
+msgid "Code"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:ir.model.fields,field_description:l10n_vn_reports.field_l10n_vn_purchase_tax_report_handler__display_name
+#: model:ir.model.fields,field_description:l10n_vn_reports.field_l10n_vn_sales_tax_report_handler__display_name
+#: model:ir.model.fields,field_description:l10n_vn_reports.field_l10n_vn_tax_report_handler__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "Grand Total"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:ir.model.fields,field_description:l10n_vn_reports.field_l10n_vn_purchase_tax_report_handler__id
+#: model:ir.model.fields,field_description:l10n_vn_reports.field_l10n_vn_sales_tax_report_handler__id
+#: model:ir.model.fields,field_description:l10n_vn_reports.field_l10n_vn_tax_report_handler__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.report,name:l10n_vn_reports.account_financial_report_l10n_vn_pl
+msgid "Profit and Loss"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:account.return.type,name:l10n_vn_reports.vn_tax_return_type
+msgid "Tax"
+msgstr ""
+
+#. module: l10n_vn_reports
+#: model:ir.model,name:l10n_vn_reports.model_l10n_vn_purchase_tax_report_handler
+#: model:ir.model,name:l10n_vn_reports.model_l10n_vn_sales_tax_report_handler
+#: model:ir.model,name:l10n_vn_reports.model_l10n_vn_tax_report_handler
+msgid "Taxes Custom Handler"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT Exemption on sales of goods and services"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on Purchase of Goods and Services Tax Exempt"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on purchase of goods and services 0%"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on purchase of goods and services 10%"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on purchase of goods and services 5%"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on purchase of goods and services 8%"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on sales of goods and services 0%"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on sales of goods and services 10%"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on sales of goods and services 5%"
+msgstr ""
+
+#. module: l10n_vn_reports
+#. odoo-python
+#: code:addons/l10n_vn_reports/models/tax_report.py:0
+msgid "VAT on sales of goods and services 8%"
+msgstr ""

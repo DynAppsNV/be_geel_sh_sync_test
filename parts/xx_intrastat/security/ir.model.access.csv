@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+xx_intrastat.access_xx_intrastat_account_move,access_xx_intrastat_account_move,xx_intrastat.model_xx_intrastat_account_move,base.group_user,1,1,1,1

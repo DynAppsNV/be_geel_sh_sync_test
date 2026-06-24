@@ -1,0 +1,320 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* marketing_automation_sms
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:47+0000\n"
+"PO-Revision-Date: 2025-10-08 18:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_activity_summary_template_sms
+#, fuzzy
+msgid "\" <strong>bounced</strong>,"
+msgstr "\" <strong>qaytarildi</strong>,"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_activity_summary_template_sms
+#, fuzzy
+msgid "\" gets clicked,"
+msgstr "\" bosilganda,"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_campaign__mailing_sms_count
+#, fuzzy
+msgid "# SMS Mailings"
+msgstr "# SMS xabarlar"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-exclamation-circle\"/> Bounced after"
+msgstr "<i class=\"fa fa-exclamation-circle\"/> Qaytarilgandan so‘ng"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-hand-pointer-o\"/> Clicked after"
+msgstr "<i class=\"fa fa-hand-pointer-o\"/> Bosilgandan so‘ng"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-hand-pointer-o\"/> Not clicked within"
+msgstr "<i class=\"fa fa-hand-pointer-o\"/> Belgilangan vaqt ichida bosilmagan"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-pie-chart\"/> Details"
+msgstr "<i class=\"fa fa-pie-chart\"/> Tafsilotlar"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid ""
+"<i data-trigger-type=\"sms_click\" class=\"fa fa-hand-pointer-o "
+"o_ma_text_processed o_add_child_activity text-success\" title=\"Clicked\" "
+"role=\"img\" aria-label=\"Clicked\"/>\n"
+"                    <i data-trigger-type=\"sms_not_click\" class=\"fa fa-"
+"hand-pointer-o o_ma_text_rejected o_add_child_activity text-danger\" "
+"title=\"Not Clicked\" role=\"img\" aria-label=\"Not Clicked\"/>\n"
+"                    <i data-trigger-type=\"sms_bounce\" class=\"fa fa fa-"
+"exclamation-circle o_ma_text_rejected o_add_child_activity text-danger\" "
+"title=\"Bounced\" role=\"img\" aria-label=\"Bounced\"/>"
+msgstr ""
+"<i data-trigger-type=\"sms_click\" class=\"fa fa-hand-pointer-o "
+"o_ma_text_processed o_add_child_activity text-success\" title=\"Bosildi\" "
+"role=\"img\" aria-label=\"Bosildi\"/> <i data-trigger-type=\"sms_not_click\" "
+"class=\"fa fa-hand-pointer-o o_ma_text_rejected o_add_child_activity text-"
+"danger\" title=\"Bosilmadi\" role=\"img\" aria-label=\"Bosilmadi\"/> <i data-"
+"trigger-type=\"sms_bounce\" class=\"fa fa fa-exclamation-circle "
+"o_ma_text_rejected o_add_child_activity text-danger\" title=\"Qaytarildi\" "
+"role=\"img\" aria-label=\"Qaytarildi\"/>"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__activity_type
+#, fuzzy
+msgid "Activity Type"
+msgstr "Faoliyat turi"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "Clicked"
+msgstr "Bosildi"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_mailing_mailing__display_name
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_mailing_trace__display_name
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__display_name
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_campaign__display_name
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_trace__display_name
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_sms_composer__display_name
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_sms_tracker__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: marketing_automation_sms
+#. odoo-python
+#: code:addons/marketing_automation_sms/models/marketing_activity.py:0
+#, fuzzy
+msgid "Exception in SMS Marketing: %s"
+msgstr "SMS marketingda xatolik: %s"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_mailing_mailing__id
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_mailing_trace__id
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__id
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_campaign__id
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_trace__id
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_sms_composer__id
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_sms_tracker__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: marketing_automation_sms
+#: model:ir.model,name:marketing_automation_sms.model_sms_tracker
+#, fuzzy
+msgid "Link SMS to mailing/sms tracking models"
+msgstr "SMSni pochta/SMS kuzatuv modellariga bog‘lash"
+
+#. module: marketing_automation_sms
+#: model:ir.model,name:marketing_automation_sms.model_mailing_trace
+#, fuzzy
+msgid "Mailing Statistics"
+msgstr "Pochta statistikasi"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__mass_mailing_id_mailing_type
+#, fuzzy
+msgid "Mailing Type"
+msgstr "Jo‘natish turi"
+
+#. module: marketing_automation_sms
+#: model:ir.model,name:marketing_automation_sms.model_marketing_activity
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_sms_composer__marketing_activity_id
+#, fuzzy
+msgid "Marketing Activity"
+msgstr "Marketing faoliyati"
+
+#. module: marketing_automation_sms
+#: model:ir.actions.act_window,name:marketing_automation_sms.mail_mass_mailing_action_marketing_automation_sms
+#, fuzzy
+msgid "Marketing Automation SMS"
+msgstr "Marketing avtomatlashtirish SMS"
+
+#. module: marketing_automation_sms
+#: model:ir.model,name:marketing_automation_sms.model_marketing_campaign
+#, fuzzy
+msgid "Marketing Campaign"
+msgstr "Marketing kampaniyasi"
+
+#. module: marketing_automation_sms
+#: model:ir.model,name:marketing_automation_sms.model_marketing_trace
+#, fuzzy
+msgid "Marketing Trace"
+msgstr "Marketing kuzatuvi"
+
+#. module: marketing_automation_sms
+#: model:ir.model,name:marketing_automation_sms.model_mailing_mailing
+#, fuzzy
+msgid "Mass Mailing"
+msgstr "Ommaviy pochta jo‘natmasi"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "Opened"
+msgstr "Ochildi"
+
+#. module: marketing_automation_sms
+#. odoo-python
+#: code:addons/marketing_automation_sms/models/marketing_trace.py:0
+#, fuzzy
+msgid "Parent activity SMS bounced"
+msgstr "Asosiy faoliyat SMS qaytarildi"
+
+#. module: marketing_automation_sms
+#. odoo-python
+#: code:addons/marketing_automation_sms/models/marketing_trace.py:0
+#, fuzzy
+msgid "Parent activity SMS clicked"
+msgstr "Asosiy faoliyat SMS bosildi"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields.selection,name:marketing_automation_sms.selection__marketing_activity__activity_type__sms
+#: model:ir.model.fields.selection,name:marketing_automation_sms.selection__marketing_activity__mass_mailing_id_mailing_type__sms
+#: model:ir.model.fields.selection,name:marketing_automation_sms.selection__marketing_activity__trigger_category__sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_tree
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_participant_view_form
+#, fuzzy
+msgid "SMS"
+msgstr "SMS"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "SMS Sent"
+msgstr "SMS jo‘natildi"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_activity_view_form
+#, fuzzy
+msgid "SMS Template"
+msgstr "SMS shabloni"
+
+#. module: marketing_automation_sms
+#. odoo-python
+#: code:addons/marketing_automation_sms/models/marketing_activity.py:0
+#, fuzzy
+msgid "SMS cancelled"
+msgstr "SMS bekor qilindi"
+
+#. module: marketing_automation_sms
+#. odoo-python
+#: code:addons/marketing_automation_sms/models/mailing_trace.py:0
+#: code:addons/marketing_automation_sms/models/marketing_activity.py:0
+#, fuzzy
+msgid "SMS failed"
+msgstr "SMS yuborilmadi"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields.selection,name:marketing_automation_sms.selection__marketing_activity__trigger_type__sms_bounce
+#, fuzzy
+msgid "SMS: bounced"
+msgstr "SMS: qaytarildi"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields.selection,name:marketing_automation_sms.selection__marketing_activity__trigger_type__sms_click
+#, fuzzy
+msgid "SMS: clicked"
+msgstr "SMS: bosildi"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields.selection,name:marketing_automation_sms.selection__marketing_activity__trigger_type__sms_not_click
+#, fuzzy
+msgid "SMS: not clicked"
+msgstr "SMS: bosilmadi"
+
+#. module: marketing_automation_sms
+#: model:ir.model,name:marketing_automation_sms.model_sms_composer
+#, fuzzy
+msgid "Send SMS Wizard"
+msgstr "SMS jo‘natish yordamchisi"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
+#, fuzzy
+msgid "Sent"
+msgstr "Jo‘natildi"
+
+#. module: marketing_automation_sms
+#. odoo-python
+#: code:addons/marketing_automation_sms/models/marketing_activity.py:0
+#, fuzzy
+msgid ""
+"To use this feature you should be an administrator or belong to the "
+"marketing automation group."
+msgstr ""
+"Bu funksiyadan foydalanish uchun administrator bo‘lishingiz yoki marketing "
+"avtomatlashtirish guruhiga a'zo bo‘lishingiz kerak."
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__trigger_category
+#, fuzzy
+msgid "Trigger Category"
+msgstr "Triggerlar toifasi"
+
+#. module: marketing_automation_sms
+#: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__trigger_type
+#, fuzzy
+msgid "Trigger Type"
+msgstr "Trigger turi"
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_activity_summary_template_sms
+#, fuzzy
+msgid "after the <strong>SMS text message</strong> sent by the Activity \""
+msgstr ""
+"Faoliyat tomonidan yuborilgan <strong>SMS matnli xabar</strong>dan so‘ng \""
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_activity_summary_template_sms
+#, fuzzy
+msgid ""
+"after the Participant <strong>clicked</strong>,<br/>on any link included in "
+"the <strong>SMS text message</strong> sent by the Activity \""
+msgstr ""
+"Ishtirokchi Faoliyat tomonidan yuborilgan <strong>SMS matnli xabar</"
+"strong>dagi istalgan havolani <strong>bosgandan</strong> so‘ng,<br/>\""
+
+#. module: marketing_automation_sms
+#: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_activity_summary_template_sms
+#, fuzzy
+msgid ""
+"if no link included in the <strong>SMS text message</strong> sent by the "
+"Activity \""
+msgstr ""
+"agar Faoliyat tomonidan yuborilgan <strong>SMS matnli xabar</strong>da hech "
+"qanday havola bo‘lmasa"

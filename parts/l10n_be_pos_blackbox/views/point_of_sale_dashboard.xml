@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_pos_config_kanban" model="ir.ui.view">
+            <field name="name">pos.config.kanban.view.inherit.l10n_be_pos_blackbox</field>
+            <field name="model">pos.config</field>
+            <field name="inherit_id" ref="point_of_sale.view_pos_config_kanban" />
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="l10n_be_pos_id" invisible="1" />
+                    <field name="l10n_be_training_mode" invisible="1" />
+                    <field name="pos_version" invisible="1"/>
+                    <field name="l10n_be_blackbox_be_id" invisible="1"/>
+                    <t t-if="record.l10n_be_blackbox_be_id.raw_value">
+                        <div class="badge text-bg-info o_kanban_inline_block me-2" t-esc="record.pos_version.value"/>
+                        <div t-if="record.l10n_be_pos_id.raw_value" class="badge text-bg-info o_kanban_inline_block me-2">
+                            <t t-esc="record.l10n_be_pos_id.value" />
+                        </div>
+                        <div t-if="record.l10n_be_training_mode.raw_value" class="badge text-bg-danger o_kanban_inline_block me-2">
+                            Training mode
+                        </div>
+                    </t>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

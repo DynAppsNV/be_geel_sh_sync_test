@@ -1,0 +1,41 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* appointment_sms
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:51+0000\n"
+"PO-Revision-Date: 2025-10-08 18:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: appointment_sms
+#: model_terms:ir.ui.view,arch_db:appointment_sms.appointment_form
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-lightbulb-o me-1\"/>\n"
+"                We will use it to remind you of this appointment."
+msgstr ""
+"<i class=\"fa fa-lightbulb-o me-1\"/> Biz bu uchrashuvni sizga eslatish "
+"uchun undan foydalanamiz."
+
+#. module: appointment_sms
+#: model:calendar.alarm,name:appointment_sms.calendar_alarm_data_1h_sms
+#, fuzzy
+msgid "SMS Text Message - 1 Hours"
+msgstr "SMS xabari - 1 soatdan oldin"

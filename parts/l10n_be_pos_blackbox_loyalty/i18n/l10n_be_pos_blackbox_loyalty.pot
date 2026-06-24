@@ -1,0 +1,88 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_be_pos_blackbox_loyalty
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-22 18:12+0000\n"
+"PO-Revision-Date: 2026-05-22 18:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_pos_config__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_pos_order_line__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_pos_session__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_product_template__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_report_point_of_sale_report_saledetails__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox_loyalty/models/product_template.py:0
+msgid ""
+"EWallet products used in loyalty programs must not have any taxes when used with a certified blackbox.\n"
+"Please remove taxes from the eWallet product: %s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox_loyalty/models/pos_config.py:0
+msgid ""
+"Gift card products used in loyalty programs must not have any taxes when used with a certified blackbox.\n"
+"Please remove taxes from the following products: %s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox_loyalty/models/product_template.py:0
+msgid ""
+"Gift card products used in loyalty programs must not have any taxes when used with a certified blackbox.\n"
+"Please remove taxes from the gift card product: %s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_pos_config__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_pos_order_line__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_pos_session__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_product_template__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_report_point_of_sale_report_saledetails__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model,name:l10n_be_pos_blackbox_loyalty.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model,name:l10n_be_pos_blackbox_loyalty.model_report_point_of_sale_report_saledetails
+msgid "Point of Sale Details"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model,name:l10n_be_pos_blackbox_loyalty.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model,name:l10n_be_pos_blackbox_loyalty.model_pos_session
+msgid "Point of Sale Session"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model,name:l10n_be_pos_blackbox_loyalty.model_product_template
+msgid "Product"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_loyalty
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_loyalty.field_pos_order_line__rewarded_product_id
+msgid "Rewarded Product"
+msgstr ""

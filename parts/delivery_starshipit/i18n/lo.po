@@ -1,0 +1,583 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * delivery_starshipit
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-06 18:41+0000\n"
+"PO-Revision-Date: 2026-06-06 13:18+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"delivery_starshipit/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"%(order_info)sHowever, the shipping label creation failed with the following error:\n"
+"%(error)s\n"
+"\n"
+"Please either continue the configuration or delete the order in Starshipit before trying again."
+msgstr ""
+"%(order_info)sແນວໃດກໍຕາມ, ການສ້າງສະຫຼາກການຈັດສົ່ງບໍ່ສຳເລັດຍ້ອນຂໍ້ຜິດພາດດັ່ງນີ້:\n"
+"%(error)s\n"
+"\n"
+"ກະລຸນາຕັ້ງຄ່າຕໍ່ ຫຼື ລຶບຄຳສັ່ງຊື້ໃນ Starshipit ກ່ອນທີ່ຈະລອງໃໝ່ອີກຄັ້ງ."
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_delivery_carrier_form
+msgid ""
+"<i class=\"fa fa-exclamation-triangle\"/> Do not forget to select a service "
+"for a valid configuration."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> ຢ່າລືມເລືອກການບໍລິການເພື່ອໃຫ້ການຕັ້ງຄ່າຖືກຕ້ອງ."
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_delivery_carrier_form
+msgid ""
+"<i class=\"fa fa-exclamation-triangle\"/> In <b>Test Environment</b>, your shippings are automatically <b>archived</b> after the label creation. <br/>\n"
+"                        Please note that charges can still occur for label creations and some shipping carriers may automatically validate the shipment when printing labels."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> ໃນ <b>ສະພາບແວດລ້ອມທົດລອງ</b>, ການຈັດສົ່ງ"
+"ຂອງທ່ານຈະຖືກ <b>ຈັດເກັບ</b> ໂດຍອັດຕະໂນມັດ ຫຼັງຈາກການສ້າງສະຫຼາກ. <br/>\n"
+"                        ກະລຸນາຮັບຊາບວ່າ ອາດຈະຍັງມີຄ່າທຳນຽມໃນການສ້າງສະຫຼາກ ແລະ ຜູ້ໃຫ້ບໍລິກາ"
+"ນຈັດສົ່ງບາງລາຍອາດຈະຢືນຢັນການຈັດສົ່ງໂດຍອັດຕະໂນມັດເມື່ອມີການພິມສະຫຼາກ."
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_shipping_method_starshipit
+msgid ""
+"<i class=\"fa fa-info-circle\"/> Available shipping services depend on "
+"enabled carriers in your Starshipit account."
+msgstr ""
+"<i class=\"fa fa-info-circle\"/> ການບໍລິການຈັດສົ່ງທີ່ມີໃຫ້ ແມ່ນຂຶ້ນກັບຜູ້ໃຫ້ບໍລິການທີ່ເປີດນຳໃຊ້ໃນບັນ"
+"ຊີ Starshipit ຂອງທ່ານ."
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.choose_delivery_carrier_view_form
+msgid "<i class=\"oi oi-arrow-right me-1\"/>Get more delivery methods"
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>ເບິ່ງວິທີການຈັດສົ່ງເພີ່ມເຕີມ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/wizard/starshipit_shipping_wizard.py:0
+msgid "Add a shipping method"
+msgstr "ເພີ່ມວິທີການຈັດສົ່ງ"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_shipping_method_starshipit
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_package_type__package_carrier_type
+msgid "Carrier"
+msgstr "ຜູ້ໃຫ້ບໍລິການຈັດສົ່ງ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Choose Starshipit Shipping Service"
+msgstr "ເລືອກບໍລິການຈັດສົ່ງຂອງ Starshipit"
+
+#. module: delivery_starshipit
+#: model:ir.model,name:delivery_starshipit.model_starshipit_shipping_wizard
+msgid "Choose from the available starshipit shipping methods"
+msgstr "ເລືອກຈາກວິທີການຈັດສົ່ງທີ່ມີຂອງ Starshipit"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_shipping_method_starshipit
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,help:delivery_starshipit.field_starshipit_shipping_wizard__available_services
+msgid ""
+"Contains the list of available services for the starshipit account to select"
+" from."
+msgstr "ປະກອບມີລາຍການບໍລິການທີ່ມີໃຫ້ສຳລັບບັນຊີ Starshipit ເພື່ອເລືອກ."
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_delivery_carrier_form
+msgid "Default Package Type"
+msgstr "ປະເພດການຫຸ້ມຫໍ່ເລີ່ມຕົ້ນ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__starshipit_default_package_type_id
+msgid "Default Package Type for Starshipit"
+msgstr "ປະເພດການຫຸ້ມຫໍ່ເລີ່ມຕົ້ນສຳລັບ Starshipit"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__carrier_id
+msgid "Delivery"
+msgstr "ການຈັດສົ່ງ"
+
+#. module: delivery_starshipit
+#: model:ir.model,name:delivery_starshipit.model_choose_delivery_carrier
+msgid "Delivery Carrier Selection Wizard"
+msgstr "ຕົວຊ່ວຍເລືອກຜູ້ໃຫ້ບໍລິການຈັດສົ່ງ"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_shipping_method_starshipit
+msgid "Delivery Service"
+msgstr "ບໍລິການຈັດສົ່ງ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_choose_delivery_carrier__display_name
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__display_name
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__display_name
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_package_type__display_name
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_return_picking__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Error: %(file_name)s file could not be obtained for order %(order_name)s."
+msgstr ""
+"ຂໍ້ຜິດພາດ: ບໍ່ສາມາດເອົາໄຟລ໌ %(file_name)s ສຳລັບຄຳສັ່ງຊື້ %(order_name)s ໄດ້."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Error: this delivery method is not available for this order."
+msgstr "ຂໍ້ຜິດພາດ: ວິທີການຈັດສົ່ງນີ້ບໍ່ມີໃຫ້ສຳລັບຄຳສັ່ງຊື້ນີ້."
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_choose_delivery_carrier__id
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__id
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__id
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_package_type__id
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_picking__id
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_return_picking__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_delivery_carrier_form
+msgid "Integration"
+msgstr "ການເຊື່ອມຕໍ່ລະບົບ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/starshipit_service.py:0
+msgid "Invalid Starshipit credentials."
+msgstr "ຂໍ້ມູນການເຂົ້າສູ່ລະບົບ Starshipit ບໍ່ຖືກຕ້ອງ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Labels were generated for the order %s"
+msgstr "ສ້າງສະຫຼາກສຳລັບຄຳສັ່ງຊື້ %s ແລ້ວ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__write_date
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_delivery_carrier_form
+msgid "Options"
+msgstr "ຕົວເລືອກ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Order %(order)s was already sent to the carrier during label creation.\n"
+"Manifest number: %(manifest_number)s"
+msgstr ""
+"ຄຳສັ່ງຊື້ %(order)s ໄດ້ຖືກສົ່ງໄປໃຫ້ຜູ້ໃຫ້ບໍລິການແລ້ວໃນລະຫວ່າງການສ້າງສະຫຼາກ.\n"
+"ເລກ Manifest: %(manifest_number)s"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Order %(order)s was sent to the carrier during label creation.As you are in a test environment, please make sure to cancel the order with your carrier directly.\n"
+"Manifest number: %(manifest_number)s"
+msgstr ""
+"ຄຳສັ່ງຊື້ %(order)s ໄດ້ຖືກສົ່ງໄປໃຫ້ຜູ້ໃຫ້ບໍລິການແລ້ວໃນລະຫວ່າງການສ້າງສະຫຼາກ. ເນື່ອງຈາກທ່ານຢູ່ໃນສະພາບແ"
+"ວດລ້ອມທົດລອງ, ກະລຸນາຢືນຢັນການຍົກເລີກຄຳສັ່ງຊື້ກັບຜູ້ໃຫ້ບໍລິການໂດຍກົງ.\n"
+"ເລກ Manifest: %(manifest_number)s"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Order %s was archived."
+msgstr "ຄຳສັ່ງຊື້ %s ຖືກຈັດເກັບແລ້ວ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Order %s was sent to the carrier."
+msgstr "ຄຳສັ່ງຊື້ %s ຖືກສົ່ງໄປໃຫ້ຜູ້ໃຫ້ບໍລິການແລ້ວ."
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__starshipit_origin_address
+msgid "Origin Address"
+msgstr "ທີ່ຢູ່ຕົ້ນທາງ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,help:delivery_starshipit.field_delivery_carrier__starshipit_default_package_type_id
+msgid ""
+"Package dimensions are required to get more accurate rates. You can define "
+"these in a package type that you set as default"
+msgstr ""
+"ຈຳເປັນຕ້ອງມີຂະໜາດຂອງການຫຸ້ມຫໍ່ເພື່ອໃຫ້ໄດ້ລາຄາທີ່ຊັດເຈນກວ່າ. ທ່ານສາມາດກຳນົດສິ່ງເຫຼົ່ານີ້ໄດ້ໃນປະເພດການຫຸ້ມ"
+"ຫໍ່ທີ່ທ່ານຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/starshipit_service.py:0
+msgid "Please fill in the field %(field)s on the %(partner)s partner."
+msgstr "ກະລຸນາຕື່ມຂໍ້ມູນໃນຫ້ອງ %(field)s ຂອງຄູ່ຄ້າ %(partner)s."
+
+#. module: delivery_starshipit
+#: model:ir.actions.server,name:delivery_starshipit.action_print_starshipit_labels
+msgid "Print Starshipit Labels"
+msgstr "ພິມສະຫຼາກ Starshipit"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: delivery_starshipit
+#: model:ir.model,name:delivery_starshipit.model_stock_return_picking
+msgid "Return Picking"
+msgstr "ການຮັບຄືນ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Return labels were generated for the order %s"
+msgstr "ສ້າງສະຫຼາກການສົ່ງຄືນສຳລັບຄຳສັ່ງຊື້ %s ແລ້ວ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Return order %(order)s was already sent to the carrier during label creation.\n"
+"Manifest number: %(manifest_number)s"
+msgstr ""
+"ຄຳສັ່ງສົ່ງຄືນ %(order)s ໄດ້ຖືກສົ່ງໄປໃຫ້ຜູ້ໃຫ້ບໍລິການແລ້ວໃນລະຫວ່າງການສ້າງສະຫຼາກ.\n"
+"ເລກ Manifest: %(manifest_number)s"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Return order %(order)s was sent to the carrier during label creation.As you are in a test environment, please make sure to cancel the order with your carrier directly.\n"
+"Manifest number: %(manifest_number)s"
+msgstr ""
+"ຄຳສັ່ງສົ່ງຄືນ %(order)s ໄດ້ຖືກສົ່ງໄປໃຫ້ຜູ້ໃຫ້ບໍລິການແລ້ວໃນລະຫວ່າງການສ້າງສະຫຼາກ. ເນື່ອງຈາກທ່ານຢູ່ໃນສະພ"
+"າບແວດລ້ອມທົດລອງ, ກະລຸນາຢືນຢັນການຍົກເລີກຄຳສັ່ງຊື້ກັບຜູ້ໃຫ້ບໍລິການໂດຍກົງ.\n"
+"ເລກ Manifest: %(manifest_number)s"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Return order %s was archived."
+msgstr "ຄຳສັ່ງສົ່ງຄືນ %s ຖືກຈັດເກັບແລ້ວ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Return order %s was sent to the carrier."
+msgstr "ຄຳສັ່ງສົ່ງຄືນ %s ຖືກສົ່ງໄປໃຫ້ຜູ້ໃຫ້ບໍລິການແລ້ວ."
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_delivery_carrier_form
+msgid "Select a service linked to your starshipit account"
+msgstr "ເລືອກບໍລິການທີ່ເຊື່ອມຕໍ່ກັບບັນຊີ Starshipit ຂອງທ່ານ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_starshipit_shipping_wizard__selected_service_code
+msgid "Selected Service"
+msgstr "ບໍລິການທີ່ເລືອກ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__starshipit_service_code
+msgid "Service Code"
+msgstr "ລະຫັດການບໍລິການ"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__starshipit_service_name
+msgid "Service Name"
+msgstr "ຊື່ການບໍລິການ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Shipping Cost has been updated from Starshipit. The Sales Order can now be "
+"invoiced."
+msgstr ""
+"ຄ່າທຳນຽມການຈັດສົ່ງໄດ້ຖືກອັບເດດຈາກ Starshipit ແລ້ວ. ດຽວນີ້ຄຳສັ່ງຂາຍສາມາດອອກໃບແຈ້ງໜີ້ໄດ້."
+
+#. module: delivery_starshipit
+#: model:ir.model,name:delivery_starshipit.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_shipping_method_starshipit
+msgid "Shipping Product"
+msgstr "ສິນຄ້າການຈັດສົ່ງ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/starshipit_service.py:0
+msgid "Something went wrong, please try again later: %s"
+msgstr "ມີບາງຢ່າງຜິດພາດ, ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ: %s"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields.selection,name:delivery_starshipit.selection__delivery_carrier__delivery_type__starshipit
+#: model:ir.model.fields.selection,name:delivery_starshipit.selection__stock_package_type__package_carrier_type__starshipit
+msgid "Starshipit"
+msgstr "Starshipit"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,help:delivery_starshipit.field_delivery_carrier__starshipit_api_key
+msgid "Starshipit API Integration key"
+msgstr "Starshipit API Integration key"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,help:delivery_starshipit.field_delivery_carrier__starshipit_subscription_key
+msgid "Starshipit API Subscription key"
+msgstr "Starshipit API Subscription key"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/starshipit_service.py:0
+msgid "Starshipit API rate exceeded. Please try again later."
+msgstr "ເກີນຂີດຈຳກັດຂອງ Starshipit API ແລ້ວ. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__starshipit_api_key
+msgid "Starshipit Api Key"
+msgstr "Starshipit Api Key"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_delivery_carrier_form
+msgid "Starshipit Configuration"
+msgstr "ການຕັ້ງຄ່າ Starshipit"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_picking__starshipit_parcel_reference
+msgid "Starshipit Parcel Reference"
+msgstr "ເລກອ້າງອີງພັດສະດຸ Starshipit"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Starshipit Price Update Cron: System Error fetching price: %s"
+msgstr "Cron ອັບເດດລາຄາ Starshipit: ລະບົບຜິດພາດໃນການດຶງລາຄາ: %s"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_stock_picking__starshipit_return_parcel_reference
+msgid "Starshipit Return Parcel Reference"
+msgstr "ເລກອ້າງອີງພັດສະດຸສົ່ງຄືນ Starshipit"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.res_config_settings_view_form_sale_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.res_config_settings_view_form_stock_starshipit
+msgid "Starshipit Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ Starshipit"
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,field_description:delivery_starshipit.field_delivery_carrier__starshipit_subscription_key
+msgid "Starshipit Subscription Key"
+msgstr "ຄີການສະໝັກໃຊ້ Starshipit"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Starshipit cannot generate returns for the carrier %s. Please handle this "
+"return with the carrier directly."
+msgstr ""
+"Starshipit ບໍ່ສາມາດສ້າງການສົ່ງຄືນສຳລັບຜູ້ໃຫ້ບໍລິການ %s. ກະລຸນາຈັດການການສົ່ງຄືນນີ້ກັບຜູ້ໃຫ້ບໍລິການໂດຍກົ"
+"ງ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Starshipit: Delivery cost re-evaluated on Sales Order based on updated exact"
+" price (%(final_carrier_price)s) from transfer %(picking_name)s."
+msgstr ""
+"Starshipit: ຄ່າທຳນຽມການຈັດສົ່ງໃນຄຳສັ່ງຂາຍຖືກປະເມີນຄືນໃໝ່ ໂດຍອີງໃສ່ລາຄາທີ່ແນ່ນອນ (%"
+"(final_carrier_price)s) ຈາກການໂອນ %(picking_name)s."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Starshipit: Exact shipping cost for delivery %(picking_name)s is now "
+"%(final_carrier_price)s, but automatic sale order delivery cost re-"
+"evaluation failed: %(e_so)s"
+msgstr ""
+"Starshipit: ຄ່າທຳນຽມການຈັດສົ່ງທີ່ແນ່ນອນສຳລັບການຈັດສົ່ງ %(picking_name)s ແມ່ນ %"
+"(final_carrier_price)s ແລ້ວ, ແຕ່ການປະເມີນຄືນຄ່າທຳນຽມການຈັດສົ່ງໃນຄຳສັ່ງຂາຍອັດຕະໂນມັດບໍ່ສຳເລັ"
+"ດ: %(e_so)s"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"Starshipit: Exact shipping cost for delivery %(picking_name)s is now "
+"%(final_carrier_price)s. This sale order is already invoiced, please review "
+"if a manual adjustment to the invoice is needed."
+msgstr ""
+"Starshipit: ຄ່າທຳນຽມການຈັດສົ່ງທີ່ແນ່ນອນສຳລັບການຈັດສົ່ງ %(picking_name)s ແມ່ນ %"
+"(final_carrier_price)s ແລ້ວ. ຄຳສັ່ງຂາຍນີ້ຖືກອອກໃບແຈ້ງໜີ້ແລ້ວ, ກະລຸນາກວດສອບວ່າຈຳເປັນຕ້ອງປັບປຸງ"
+"ໃບແຈ້ງໜີ້ດ້ວຍຕົນເອງຫຼືບໍ່."
+
+#. module: delivery_starshipit
+#: model:ir.actions.server,name:delivery_starshipit.ir_cron_starshipit_fetch_pending_prices_ir_actions_server
+msgid "Starshipit: Fetch Pending Shipping Prices"
+msgstr "Starshipit: ດຶງລາຄາການຈັດສົ່ງທີ່ຍັງຄ້າງ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "Starshipit: Shipping Cost updated"
+msgstr "Starshipit: ອັບເດດຄ່າທຳນຽມການຈັດສົ່ງແລ້ວ"
+
+#. module: delivery_starshipit
+#: model:ir.model,name:delivery_starshipit.model_stock_package_type
+msgid "Stock package type"
+msgstr "ປະເພດການຫຸ້ມຫໍ່ສິນຄ້າ"
+
+#. module: delivery_starshipit
+#: model_terms:ir.ui.view,arch_db:delivery_starshipit.view_picking_form_inherit_stock
+msgid "The Shipping Cost is being fetched in the background."
+msgstr "ຄ່າທຳນຽມການຈັດສົ່ງກຳລັງຖືກດຶງຂໍ້ມູນຢູ່ໃນເບື້ອງຫຼັງ."
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,help:delivery_starshipit.field_delivery_carrier__starshipit_carrier_code
+msgid ""
+"The carrier on starshipit used by this carrier. The service code belongs to "
+"it."
+msgstr ""
+"ຜູ້ໃຫ້ບໍລິການໃນ Starshipit ທີ່ຖືກນຳໃຊ້ໂດຍຜູ້ໃຫ້ບໍລິການນີ້. ລະຫັດບໍລິການແມ່ນຂຶ້ນກັບມັນ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"The exact price could not be retrieved. It will be updated by a scheduled "
+"action."
+msgstr ""
+"ບໍ່ສາມາດດຶງລາຄາທີ່ແນ່ນອນໄດ້. ມັນຈະຖືກອັບເດດໂດຍການເຮັດວຽກທີ່ກຳນົດເວລາໄວ້."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "The order '%(order_number)s' has been created!\n"
+msgstr "ສ້າງຄຳສັ່ງຊື້ '%(order_number)s' ແລ້ວ!\n"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "The order has been created!\n"
+msgstr "ສ້າງຄຳສັ່ງຊື້ແລ້ວ!\n"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/starshipit_service.py:0
+msgid ""
+"The picking %(picking_name)s sequence is too long for Starshipit. Please "
+"update your pickings sequence in order to use at most 50 characters."
+msgstr ""
+"ລຳດັບການເບີກສິນຄ້າ %(picking_name)s ຍາວເກີນໄປສຳລັບ Starshipit. ກະລຸນາອັບເດດລຳດັບການເບີກ"
+"ສິນຄ້າຂອງທ່ານໃຫ້ໃຊ້ບໍ່ເກີນ 50 ຕົວອັກສອນ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "The return label creation failed."
+msgstr "ການສ້າງສະຫຼາກການສົ່ງຄືນບໍ່ສຳເລັດ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/starshipit_service.py:0
+msgid ""
+"The service code %(service_code)s is too long for Starshipit. Please update "
+"the code inside starshipit to be at most 100 characters, then update your "
+"shipping carrier %(shipping_carrier)s to the new code."
+msgstr ""
+"ລະຫັດບໍລິການ %(service_code)s ຍາວເກີນໄປສຳລັບ Starshipit. ກະລຸນາອັບເດດລະຫັດພາຍໃນ "
+"Starshipit ໃຫ້ມີຄວາມຍາວບໍ່ເກີນ 100 ຕົວອັກສອນ, ແລ້ວອັບເດດຜູ້ໃຫ້ບໍລິການຈັດສົ່ງ %"
+"(shipping_carrier)s ຂອງທ່ານໃຫ້ເປັນລະຫັດໃໝ່."
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,help:delivery_starshipit.field_delivery_carrier__starshipit_service_code
+#: model:ir.model.fields,help:delivery_starshipit.field_delivery_carrier__starshipit_service_name
+msgid ""
+"The service that will be used for this carrier. This is set when you select "
+"a carrier from the wizard."
+msgstr ""
+"ການບໍລິການທີ່ຈະຖືກນຳໃຊ້ສຳລັບຜູ້ໃຫ້ບໍລິການນີ້. ສິ່ງນີ້ຈະຖືກຕັ້ງຄ່າເມື່ອທ່ານເລືອກຜູ້ໃຫ້ບໍລິການຈາກຕົວຊ່ວຍ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid ""
+"There are no shipping services available, please verify the shipping address"
+" or activate suitable carriers in your starshipit account."
+msgstr ""
+"ບໍ່ມີບໍລິການຈັດສົ່ງໃຫ້ໃຊ້, ກະລຸນາກວດສອບທີ່ຢູ່ຈັດສົ່ງ ຫຼື ເປີດນຳໃຊ້ຜູ້ໃຫ້ບໍລິການທີ່ເໝາະສົມໃນບັນຊີ Starshipit ຂ"
+"ອງທ່ານ."
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/models/delivery_carrier.py:0
+msgid "This action requires a Starshipit carrier."
+msgstr "ການດຳເນີນການນີ້ຕ້ອງໃຊ້ຜູ້ໃຫ້ບໍລິການຂອງ Starshipit."
+
+#. module: delivery_starshipit
+#: model:ir.model.fields,help:delivery_starshipit.field_delivery_carrier__starshipit_origin_address
+msgid ""
+"This address will be used when fetching the available services from "
+"starshipit."
+msgstr "ທີ່ຢູ່ນີ້ຈະຖືກນຳໃຊ້ໃນເວລາທີ່ດຶງຂໍ້ມູນການບໍລິການທີ່ມີຈາກ Starshipit."
+
+#. module: delivery_starshipit
+#: model:ir.model,name:delivery_starshipit.model_stock_picking
+msgid "Transfer"
+msgstr "ການໂອນ"
+
+#. module: delivery_starshipit
+#. odoo-python
+#: code:addons/delivery_starshipit/controllers/download_starshipit_labels.py:0
+msgid "starshipit_labels"
+msgstr "starshipit_labels"

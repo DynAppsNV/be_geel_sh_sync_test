@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="web.SaveAndCopyToClipboardButtonField">
+        <SaveAndCopyButton t-if="props.record.data[props.name]" className="copyButtonClassName" record="props.record" content="props.record.data[props.name]" copyText="copyText" disabled="disabled" successText="successText"/>
+    </t>
+</templates>

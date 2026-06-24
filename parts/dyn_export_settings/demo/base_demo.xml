@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="base_language_install_nl_BE" model="base.language.install">
+        <field name="lang_ids" eval="[(6, 0, [ref('base.lang_nl_BE')])]" />
+    </record>
+    <function model="base.language.install" name="lang_install">
+        <value
+            model="base.language.install"
+            search="[('lang_ids.code', '=', 'nl_BE')]"
+        />
+    </function>
+    <record id="base_partner" model="res.partner">
+        <field name="name">Base Company</field>
+        <field
+            name="image_1920"
+            type="base64"
+            file="dyn_export_settings/static/img/base_partner.png"
+        />
+    </record>
+    <record id="base_company" model="res.company">
+        <field name="name" eval="obj(ref('base_partner')).name" model="res.partner" />
+        <field name="partner_id" ref="base_partner" />
+        <field
+            name="logo"
+            eval="obj(ref('base_partner')).image_1920"
+            model="res.partner"
+        />
+        <field name="currency_id" ref="base.EUR" />
+        <field name="layout_background">Custom</field>
+        <field
+            name="layout_background_image"
+            type="base64"
+            file="dyn_export_settings/static/img/layout_background_image.png"
+        />
+    </record>
+    <function model="res.company" name="_dyn_export_update_translations">
+        <value eval="ref('dyn_export_settings.base_company')" />
+        <value
+        ><![CDATA[{
+    "report_header": {
+        "nl_BE": "<p>Base Company Header (NL)</p>",
+        "en_US": "<p>Base Company Header (EN)</p>"
+    }
+}]]></value>
+    </function>
+    <record id="base.user_root" model="res.users">
+        <field name="company_ids" eval="[Command.link(ref('base_company'))]" />
+    </record>
+    <record id="base.user_admin" model="res.users">
+        <field name="company_ids" eval="[Command.link(ref('base_company'))]" />
+    </record>
+</odoo>

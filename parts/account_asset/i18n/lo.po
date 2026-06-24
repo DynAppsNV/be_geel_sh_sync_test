@@ -1,0 +1,2129 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_asset
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:01+0000\n"
+"PO-Revision-Date: 2026-06-06 14:01+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"account_asset/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid " (%s of %s)"
+msgstr " (%s ຂອງ %s)"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid " (copy)"
+msgstr " (ສຳເນົາ)"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__total_depreciation_entries_count
+msgid "# Depreciation Entries"
+msgstr "# ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__gross_increase_count
+msgid "# Gross Increases"
+msgstr "# ຈຳນວນການເພີ່ມມູນຄ່າລວມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__depreciation_entries_count
+msgid "# Posted Depreciation Entries"
+msgstr "# ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນທີ່ລົງບັນຊີແລ້ວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "%s Future entries will be recomputed to depreciate the asset following the changes."
+msgstr ""
+"%s ລາຍການໃນອະນາຄົດຈະຖືກຄິດໄລ່ຄືນໃໝ່ເພື່ອຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນຂອງຊັບສິນຕາມການປ່ຽນແປງ."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "%s created from invoice: %s"
+msgstr "%s ສ້າງຂຶ້ນຈາກໃບເກັບເງິນ: %s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+msgid "%s m"
+msgstr "%s ເດືອນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+msgid "%s y"
+msgstr "%s ປີ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "%s: Depreciation"
+msgstr "%s: ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "(incl."
+msgstr "(ລວມທັງ."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "A deferred expense has been created for this move:"
+msgstr "ລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍໄດ້ຖືກສ້າງຂຶ້ນສຳລັບການເຄື່ອນໄຫວນີ້:"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "A deferred revenue has been created for this move:"
+msgstr "ລາຍຮັບລໍຖ້າຮັບຮູ້ໄດ້ຖືກສ້າງຂຶ້ນສຳລັບການເຄື່ອນໄຫວນີ້:"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "A depreciation entry will be posted on and including the date %s."
+msgstr "ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນຈະຖືກລົງບັນຊີໃນ ແລະ ລວມທັງວັນທີ %s."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "A depreciation entry will be posted on and including the date %s. <br/> %s Future entries will be recomputed to depreciate the asset following the changes."
+msgstr ""
+"ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນຈະຖືກລົງບັນຊີໃນ ແລະ ລວມທັງວັນທີ %s. <br/> %s ລາຍການໃນອະນາຄົດຈະຖືກຄິດໄລ່ຄືນໃໝ່"
+"ເພື່ອຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນຕາມການປ່ຽນແປງ."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "A depreciation entry will be posted on and including the date %s.<br/> A disposal entry will be posted on the %s account <b>%s</b>."
+msgstr ""
+"ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນຈະຖືກລົງບັນຊີໃນ ແລະ ລວມທັງວັນທີ %s.<br/> ລາຍການກຳຈັດຊັບສິນຈະຖືກລົງໃນບັນຊີ %s "
+"<b>%s</b>."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "A depreciation entry will be posted on and including the date %s.<br/> A second entry will neutralize the original income and post the  outcome of this sale on account <b>%s</b>."
+msgstr ""
+"ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນຈະຖືກລົງບັນຊີໃນ ແລະ ລວມທັງວັນທີ %s.<br/> ລາຍການທີສອງຈະທົດແທນລາຍໄດ້ເດີມ ແລະ "
+"ລົງບັນຊີຜົນໄດ້ຮັບຂອງການຂາຍນີ້ໃນບັນຊີ <b>%s</b>."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "A document linked to %s has been deleted: %s"
+msgstr "ເອກະສານທີ່ເຊື່ອມໂຍງກັບ %s ໄດ້ຖືກລຶບແລ້ວ: %s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "A document linked to this move has been deleted: %s"
+msgstr "ເອກະສານທີ່ເຊື່ອມໂຍງກັບການເຄື່ອນໄຫວນີ້ໄດ້ຖືກລຶບແລ້ວ: %s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "A gross increase has been created: "
+msgstr "ການເພີ່ມມູນຄ່າລວມໄດ້ຖືກສ້າງຂຶ້ນ: "
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "A non deductible tax value of %s was added to %s's initial value of %s"
+msgstr ""
+"ມູນຄ່າພາສີທີ່ຫັກບໍ່ໄດ້ %s ໄດ້ຖືກເພີ່ມເຂົ້າໃນມູນຄ່າເລີ່ມຕົ້ນຂອງ %s ທີ່ເປັນ %s"
+
+#. module: account_asset
+#: model:ir.model,name:account_asset.model_account_account
+msgid "Account"
+msgstr "ບັນຊີ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__account_type
+msgid "Account Type is used for information purpose, to generate country-specific legal reports, and set the rules to close a fiscal year and generate opening entries."
+msgstr ""
+"ປະເພດບັນຊີແມ່ນໃຊ້ເພື່ອຈຸດປະສົງຂໍ້ມູນ, ເພື່ອສ້າງລາຍງານທາງກົດໝາຍສະເພາະຂອງແຕ່ລະປະເທດ, ແລະ ກຳນົດລະ"
+"ບຽບການປິດປີງົບປະມານ ແລະ ສ້າງລາຍການເລີ່ມຕົ້ນ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__account_depreciation_id
+msgid "Account used in the depreciation entries, to decrease the asset value."
+msgstr "ບັນຊີທີ່ໃຊ້ໃນລາຍການຄ່າຫຼຸ້ຍຫ້ຽນ, ເພື່ອຫຼຸດມູນຄ່າຊັບສິນລົງ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__account_depreciation_expense_id
+msgid "Account used in the periodical entries, to record a part of the asset as expense."
+msgstr "ບັນຊີທີ່ໃຊ້ໃນລາຍການຕາມຮອບວຽນ, ເພື່ອບັນທຶກສ່ວນໜຶ່ງຂອງຊັບສິນເປັນລາຍຈ່າຍ."
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Account used to recognize the expense"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອຮັບຮູ້ລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Account used to recognize the revenue"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອຮັບຮູ້ລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Account used to record the deferred expense"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອບັນທຶກລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Account used to record the deferred income"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອບັນທຶກລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__account_asset_id
+msgid "Account used to record the purchase of the asset at its original price."
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອບັນທຶກການຊື້ຊັບສິນໃນລາຄາເດີມ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_asset_modify__gain_account_id
+msgid "Account used to write the journal item in case of gain"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອບັນທຶກລາຍການບັນຊີໃນກໍລະນີມີກຳໄລ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_res_company__gain_account_id
+msgid "Account used to write the journal item in case of gain while selling an asset"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອບັນທຶກລາຍການບັນຊີໃນກໍລະນີມີກຳໄລຈາກການຂາຍຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_asset_modify__loss_account_id
+msgid "Account used to write the journal item in case of loss"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອບັນທຶກລາຍການບັນຊີໃນກໍລະນີຂາດທຶນ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_res_company__loss_account_id
+msgid "Account used to write the journal item in case of loss while selling an asset"
+msgstr "ບັນຊີທີ່ໃຊ້ເພື່ອບັນທຶກລາຍການບັນຊີໃນກໍລະນີຂາດທຶນຈາກການຂາຍຊັບສິນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Accounting"
+msgstr "ການບັນຊີ"
+
+#. module: account_asset
+#: model:ir.model,name:account_asset.model_account_report
+msgid "Accounting Report"
+msgstr "ລາຍງານການບັນຊີ"
+
+#. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_acquisition_date
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__acquisition_date
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_kanban
+msgid "Acquisition Date"
+msgstr "ວັນທີໄດ້ມາ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__modify_action
+msgid "Action"
+msgstr "ການດຳເນີນການ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_needaction
+msgid "Action Needed"
+msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__active
+msgid "Active"
+msgstr "ໃຊ້ງານຢູ່"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_ids
+msgid "Activities"
+msgstr "ກິດຈະກຳ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "ການຕົບແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_state
+msgid "Activity State"
+msgstr "ສະຖານະກິດຈະກຳ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Add an internal note"
+msgstr "ເພີ່ມໝາຍເຫດພາຍໃນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: code:addons/account_asset/models/account_move.py:0
+msgid "All the lines should be from the same account"
+msgstr "ທຸກແຖວຄວນມາຈາກບັນຊີດຽວກັນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: code:addons/account_asset/models/account_move.py:0
+msgid "All the lines should be posted"
+msgstr "ທຸກແຖວຄວນຖືກລົງບັນຊີແລ້ວ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__already_depreciated_amount_import
+msgid "Already Depreciated Amount Import"
+msgstr "ນຳເຂົ້າຈຳນວນທີ່ຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄປແລ້ວ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__parent_id
+msgid "An asset has a parent when it is the result of gaining value"
+msgstr "ຊັບສິນຈະມີແມ່ແບບເມື່ອມັນເປັນຜົນມາຈາກການເພີ່ມມູນຄ່າ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "An asset has been created for this move:"
+msgstr "ຊັບສິນໄດ້ຖືກສ້າງຂຶ້ນສຳລັບການເຄື່ອນໄຫວນີ້:"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "An asset will be created for the value increase of the asset. <br/>"
+msgstr "ຊັບສິນຈະຖືກສ້າງຂຶ້ນສຳລັບການເພີ່ມມູນຄ່າຂອງຊັບສິນ. <br/>"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "ການແຈກຢາຍການວິເຄາະ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__analytic_distribution_search
+msgid "Analytic Distribution Search"
+msgstr "ຄົ້ນຫາການແຈກຢາຍການວິເຄາະ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__analytic_precision
+msgid "Analytic Precision"
+msgstr "ຄວາມຊັດເຈນຂອງການວິເຄາະ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_revenue_model_search
+msgid "Archived"
+msgstr "ຈັດເກັບແລ້ວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: code:addons/account_asset/models/account_move.py:0
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_id
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_id
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_id
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__asset_id
+#: model:ir.model.fields.selection,name:account_asset.selection__account_account__asset_type__purchase
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Asset"
+msgstr "ຊັບສິນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Asset Account"
+msgstr "ບັນຊີຊັບສິນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Asset Cancelled"
+msgstr "ຍົກເລີກຊັບສິນແລ້ວ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__account_asset_counterpart_id
+msgid "Asset Counterpart Account"
+msgstr "ບັນຊີຄູ່ສັນຍາຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_id_display_name
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_id_display_name
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_id_display_name
+msgid "Asset Id Display Name"
+msgstr "ຊື່ສະແດງລະຫັດຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__asset_lifetime_days
+msgid "Asset Lifetime Days"
+msgstr "ຈຳນວນມື້ອາຍຸການໃຊ້ງານຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_account__asset_model
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_expense_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_revenue_model_search
+msgid "Asset Model"
+msgstr "ແບບຈຳລອງຊັບສິນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Asset Model name"
+msgstr "ຊື່ແບບຈຳລອງຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.actions.act_window,name:account_asset.action_account_asset_model_form
+#: model:ir.ui.menu,name:account_asset.menu_action_account_asset_model_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_purchase_tree
+msgid "Asset Models"
+msgstr "ແບບຈຳລອງຊັບສິນທັງໝົດ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__name
+msgid "Asset Name"
+msgstr "ຊື່ຊັບສິນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Asset Options"
+msgstr "ຕົວເລືອກຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__asset_paused_days
+msgid "Asset Paused Days"
+msgstr "ຈຳນວນມື້ທີ່ຊັບສິນຢຸດຊົ່ວຄາວ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_account__asset_type
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__asset_type
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_asset_type
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_asset_type
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_asset_type
+msgid "Asset Type"
+msgstr "ປະເພດຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_value_change
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_value_change
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_value_change
+msgid "Asset Value Change"
+msgstr "ການປ່ຽນແປງມູນຄ່າຊັບສິນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Asset Values"
+msgstr "ມູນຄ່າຊັບສິນທັງໝົດ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Asset created"
+msgstr "ສ້າງຊັບສິນແລ້ວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Asset disposed. %s"
+msgstr "ກຳຈັດຊັບສິນແລ້ວ. %s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Asset paused. %s"
+msgstr "ຢຸດຊັບສິນຊົ່ວຄາວແລ້ວ. %s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Asset sold. %s"
+msgstr "ຂາຍຊັບສິນແລ້ວ. %s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "Asset unpaused. %s"
+msgstr "ເລີ່ມຊັບສິນຄືນໃໝ່ແລ້ວ. %s"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_move_form_asset_inherit
+msgid "Asset(s)"
+msgstr "ຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model,name:account_asset.model_account_asset
+msgid "Asset/Revenue Recognition"
+msgstr "ການຮັບຮູ້ຊັບສິນ/ລາຍຮັບ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+#: model:ir.actions.act_window,name:account_asset.action_account_asset_form
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_ids
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_ids
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_ids
+#: model:ir.ui.menu,name:account_asset.menu_action_account_asset_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_purchase_tree
+msgid "Assets"
+msgstr "ຊັບສິນທັງໝົດ"
+
+#. module: account_asset
+#: model:ir.model,name:account_asset.model_account_asset_report_handler
+msgid "Assets Report Custom Handler"
+msgstr "ຕົວຈັດການລາຍງານຊັບສິນແບບກຳນົດເອງ"
+
+#. module: account_asset
+#: model:ir.ui.menu,name:account_asset.menu_finance_config_assets
+msgid "Assets and Revenues"
+msgstr "ຊັບສິນ ແລະ ລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Assets in closed state"
+msgstr "ຊັບສິນທີ່ຢູ່ໃນສະຖານະປິດແລ້ວ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Assets in draft and open states"
+msgstr "ຊັບສິນທີ່ຢູ່ໃນສະຖານະຮ່າງ ແລະ ເປີດໃຊ້ງານ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Atleast one asset (%s) couldn't be set as running because it lacks any required information"
+msgstr ""
+"ຢ່າງໜ້ອຍມີໜຶ່ງຊັບສິນ (%s) ທີ່ບໍ່ສາມາດຕັ້ງເປັນກຳລັງໃຊ້ງານໄດ້ ເພາະຂາດຂໍ້ມູນທີ່ຈຳເປັນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Automate Asset"
+msgstr "ຕັ້ງຄ່າຊັບສິນອັດຕະໂນມັດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Automate Deferred Expense"
+msgstr "ຕັ້ງຄ່າລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍອັດຕະໂນມັດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Automate Deferred Revenue"
+msgstr "ຕັ້ງຄ່າລາຍຮັບລໍຖ້າຮັບຮູ້ອັດຕະໂນມັດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Automation"
+msgstr "ລະບົບອັດຕະໂນມັດ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__prorata_computation_type__daily_computation
+msgid "Based on days per period"
+msgstr "ອີງຕາມຈຳນວນມື້ຕໍ່ຮອບວຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Bills"
+msgstr "ໃບບິນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__book_value
+msgid "Book Value"
+msgstr "ມູນຄ່າຕາມບັນຊີ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_account__can_create_asset
+msgid "Can Create Asset"
+msgstr "ສາມາດສ້າງຊັບສິນໄດ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Cancel Asset"
+msgstr "ຍົກເລີກຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__cancelled
+msgid "Cancelled"
+msgstr "ຍົກເລີກແລ້ວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+msgid "Characteristics"
+msgstr "ຄຸນລັກສະນະ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__children_ids
+msgid "Children"
+msgstr "ລູກ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__method
+msgid ""
+"Choose the method to use to compute the amount of depreciation lines.\n"
+"  * Straight Line: Calculated on basis of: Gross Value / Duration\n"
+"  * Declining: Calculated on basis of: Residual Value * Declining Factor\n"
+"  * Declining then Straight Line: Like Declining but with a minimum depreciation value equal to the straight line value."
+msgstr ""
+"ເລືອກວິທີການຄິດໄລ່ຈຳນວນຄ່າຫຼຸ້ຍຫ້ຽນ.\n"
+"  * ແບບເສັ້ນຊື່ (Straight Line): ຄິດໄລ່ຈາກ: ມູນຄ່າລວມ / ໄລຍະເວລາ\n"
+"  * ແບບຫຼຸດລົງ (Declining): ຄິດໄລ່ຈາກ: ມູນຄ່າຄົງເຫຼືອ * ຕົວຄູນຫຼຸດລົງ\n"
+"  * ແບບຫຼຸດລົງແລ້ວຈຶ່ງຊື່: ຄືກັບແບບຫຼຸດລົງ ແຕ່ມີມູນຄ່າຄ່າຫຼຸ້ຍຫ້ຽນຂັ້ນຕ່ຳເທົ່າກັບແບບເສັ້ນຊື່."
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__close
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Closed"
+msgstr "ປິດແລ້ວ"
+
+#. module: account_asset
+#: model:ir.model,name:account_asset.model_res_company
+msgid "Companies"
+msgstr "ບັນດາບໍລິສັດ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__company_id
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__prorata_computation_type
+msgid "Computation"
+msgstr "ການຄິດໄລ່"
+
+#. module: account_asset
+#: model:ir.actions.server,name:account_asset.action_account_asset_run
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Compute Depreciation"
+msgstr "ຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Compute Expense"
+msgstr "ຄິດໄລ່ລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Compute Revenue"
+msgstr "ຄິດໄລ່ລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__prorata_computation_type__constant_periods
+msgid "Constant Periods"
+msgstr "ໄລຍະເວລາຄົງທີ່"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__count_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_move__count_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__count_asset
+msgid "Count Asset"
+msgstr "ຈຳນວນຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__count_deferred_expense
+#: model:ir.model.fields,field_description:account_asset.field_account_move__count_deferred_expense
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__count_deferred_expense
+msgid "Count Deferred Expense"
+msgstr "ຈຳນວນລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__count_deferred_revenue
+#: model:ir.model.fields,field_description:account_asset.field_account_move__count_deferred_revenue
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__count_deferred_revenue
+msgid "Count Deferred Revenue"
+msgstr "ຈຳນວນລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model:ir.actions.server,name:account_asset.action_account_aml_to_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_account__create_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_move_line_tree
+msgid "Create Asset"
+msgstr "ສ້າງຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_account__create_asset__validate
+msgid "Create and validate"
+msgstr "ສ້າງ ແລະ ຢືນຢັນ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_account__create_asset__draft
+msgid "Create in draft"
+msgstr "ສ້າງໃນສະຖານະຮ່າງ"
+
+#. module: account_asset
+#: model_terms:ir.actions.act_window,help:account_asset.action_account_asset_form
+msgid "Create new asset"
+msgstr "ສ້າງຊັບສິນໃໝ່"
+
+#. module: account_asset
+#: model_terms:ir.actions.act_window,help:account_asset.action_account_asset_model_form
+msgid "Create new asset model"
+msgstr "ສ້າງແບບຈຳລອງຊັບສິນໃໝ່"
+
+#. module: account_asset
+#: model_terms:ir.actions.act_window,help:account_asset.action_account_expense_form
+msgid "Create new deferred expense"
+msgstr "ສ້າງລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍໃໝ່"
+
+#. module: account_asset
+#: model_terms:ir.actions.act_window,help:account_asset.action_account_expense_model_form
+msgid "Create new deferred expense model"
+msgstr "ສ້າງແບບຈຳລອງລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍໃໝ່"
+
+#. module: account_asset
+#: model_terms:ir.actions.act_window,help:account_asset.action_account_revenue_form
+msgid "Create new deferred revenue"
+msgstr "ສ້າງລາຍຮັບລໍຖ້າຮັບຮູ້ໃໝ່"
+
+#. module: account_asset
+#: model_terms:ir.actions.act_window,help:account_asset.action_account_revenue_model_form
+msgid "Create new deferred revenue model"
+msgstr "ສ້າງແບບຈຳລອງລາຍຮັບລໍຖ້າຮັບຮູ້ໃໝ່"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__create_uid
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__create_date
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_depreciated_value
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_depreciated_value
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_depreciated_value
+msgid "Cumulative Depreciation"
+msgstr "ຄ່າຫຼຸ້ຍຫ້ຽນສະສົມ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Cumulative Expense"
+msgstr "ລາຍຈ່າຍສະສົມ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Cumulative Revenue"
+msgstr "ລາຍຮັບສະສົມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__currency_id
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__currency_id
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Current"
+msgstr "ປະຈຸບັນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Current Values"
+msgstr "ມູນຄ່າປະຈຸບັນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__invoice_ids
+msgid "Customer Invoice"
+msgstr "ໃບເກັບເງິນລູກຄ້າ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__date
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_depreciation_beginning_date
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_depreciation_beginning_date
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_depreciation_beginning_date
+msgid "Date of the beginning of the depreciation"
+msgstr "ວັນທີເລີ່ມຕົ້ນການຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+msgid "Dec. then Straight"
+msgstr "ຫຼຸດລົງແລ້ວຈຶ່ງຊື່"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__method__degressive
+msgid "Declining"
+msgstr "ແບບຫຼຸດລົງ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__method_progress_factor
+msgid "Declining Factor"
+msgstr "ຕົວຄູນແບບຫຼຸດລົງ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__method__degressive_then_linear
+msgid "Declining then Straight Line"
+msgstr "ແບບຫຼຸດລົງແລ້ວຈຶ່ງເປັນແບບເສັ້ນຊື່"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: model:ir.model.fields.selection,name:account_asset.selection__account_account__asset_type__expense
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__asset_type__expense
+msgid "Deferred Expense"
+msgstr "ລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_expense_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_expense_model_search
+msgid "Deferred Expense Account"
+msgstr "ບັນຊີລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Deferred Expense Amount"
+msgstr "ຈຳນວນລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Deferred Expense Model"
+msgstr "ແບບຈຳລອງລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Deferred Expense Model name"
+msgstr "ຊື່ແບບຈຳລອງລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model:ir.actions.act_window,name:account_asset.action_account_expense_model_form
+#: model:ir.ui.menu,name:account_asset.menu_action_account_expense_model_recognition
+msgid "Deferred Expense Models"
+msgstr "ແບບຈຳລອງລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍທັງໝົດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Deferred Expense Options"
+msgstr "ຕົວເລືອກລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Deferred Expense name"
+msgstr "ຊື່ລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_move_form_asset_inherit
+msgid "Deferred Expense(s)"
+msgstr "ລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#: model:ir.actions.act_window,name:account_asset.action_account_expense_form
+#: model:ir.ui.menu,name:account_asset.menu_action_account_expense_recognition
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_tree
+msgid "Deferred Expenses"
+msgstr "ລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍທັງໝົດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_expense_tree
+msgid "Deferred Expenses Models"
+msgstr "ແບບຈຳລອງລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: model:ir.model.fields.selection,name:account_asset.selection__account_account__asset_type__sale
+msgid "Deferred Revenue"
+msgstr "ລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_sale_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_revenue_model_search
+msgid "Deferred Revenue Account"
+msgstr "ບັນຊີລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Deferred Revenue Amount"
+msgstr "ຈຳນວນລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Deferred Revenue Model"
+msgstr "ແບບຈຳລອງລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Deferred Revenue Model name"
+msgstr "ຊື່ແບບຈຳລອງລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model:ir.actions.act_window,name:account_asset.action_account_revenue_model_form
+#: model:ir.ui.menu,name:account_asset.menu_action_account_revenue_model_recognition
+msgid "Deferred Revenue Models"
+msgstr "ແບບຈຳລອງລາຍຮັບລໍຖ້າຮັບຮູ້ທັງໝົດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Deferred Revenue Options"
+msgstr "ຕົວເລືອກລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Deferred Revenue name"
+msgstr "ຊື່ລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_move_form_asset_inherit
+msgid "Deferred Revenue(s)"
+msgstr "ລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#: model:ir.actions.act_window,name:account_asset.action_account_revenue_form
+#: model:ir.ui.menu,name:account_asset.menu_action_account_revenue_recognition
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_sale_tree
+msgid "Deferred Revenues"
+msgstr "ລາຍຮັບລໍຖ້າຮັບຮູ້ທັງໝົດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_sale_tree
+msgid "Deferred Revenues Models"
+msgstr "ແບບຈຳລອງລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Deferred expense"
+msgstr "ລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Deferred expense created"
+msgstr "ສ້າງລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍແລ້ວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Deferred revenue"
+msgstr "ລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Deferred revenue created"
+msgstr "ສ້າງລາຍຮັບລໍຖ້າຮັບຮູ້ແລ້ວ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__value_residual
+msgid "Depreciable Amount"
+msgstr "ຈຳນວນທີ່ສາມາດຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__value_residual
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_remaining_value
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_remaining_value
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_remaining_value
+msgid "Depreciable Value"
+msgstr "ມູນຄ່າທີ່ສາມາດຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Depreciated Amount"
+msgstr "ຈຳນວນທີ່ຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄປແລ້ວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__depreciation_value
+#: model:ir.model.fields,field_description:account_asset.field_account_move__depreciation_value
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__depreciation_value
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Depreciation"
+msgstr "ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__account_depreciation_id
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__account_depreciation_id
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
+msgid "Depreciation Account"
+msgstr "ບັນຊີຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Depreciation Board"
+msgstr "ກະດານຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Depreciation Date"
+msgstr "ວັນທີຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__depreciation_move_ids
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Depreciation Lines"
+msgstr "ແຖວຄ່າຫຼຸ້ຍຫ້ຽນທັງໝົດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Depreciation Method"
+msgstr "ວິທີການຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model:account.report,name:account_asset.assets_report
+#: model:ir.actions.client,name:account_asset.action_account_report_assets
+#: model:ir.ui.menu,name:account_asset.menu_action_account_report_assets
+msgid "Depreciation Schedule"
+msgstr "ຕາຕະລາງການຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "Depreciation board modified %s"
+msgstr "ແກ້ໄຂກະດານຄ່າຫຼຸ້ຍຫ້ຽນແລ້ວ %s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Depreciation entry %s posted (%s)"
+msgstr "ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນ %s ຖືກລົງບັນຊີແລ້ວ (%s)"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Depreciation entry %s reversed (%s)"
+msgstr "ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນ %s ຖືກກັບຄືນແລ້ວ (%s)"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__display_account_asset_id
+msgid "Display Account Asset"
+msgstr "ສະແດງບັນຊີຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__display_name
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__display_name
+msgid "Display Name"
+msgstr "ຊື່ສະແດງ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Disposal"
+msgstr "ການກຳຈັດ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__disposal_date
+msgid "Disposal Date"
+msgstr "ວັນທີກຳຈັດ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Disposal Move"
+msgstr "ລາຍການບັນຊີການກຳຈັດ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Disposal Moves"
+msgstr "ລາຍການບັນຊີການກຳຈັດທັງໝົດ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Dispose"
+msgstr "ກຳຈັດ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__draft
+msgid "Draft"
+msgstr "ຮ່າງ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__draft_asset_exists
+#: model:ir.model.fields,field_description:account_asset.field_account_move__draft_asset_exists
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__draft_asset_exists
+msgid "Draft Asset Exists"
+msgstr "ມີຊັບສິນສະຖານະຮ່າງຢູ່"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__draft_deferred_expense_exists
+#: model:ir.model.fields,field_description:account_asset.field_account_move__draft_deferred_expense_exists
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__draft_deferred_expense_exists
+msgid "Draft Deferred Expense Exists"
+msgstr "ມີລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍສະຖານະຮ່າງຢູ່"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__draft_deferred_revenue_exists
+#: model:ir.model.fields,field_description:account_asset.field_account_move__draft_deferred_revenue_exists
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__draft_deferred_revenue_exists
+msgid "Draft Deferred Revenue Exists"
+msgstr "ມີລາຍຮັບລໍຖ້າຮັບຮູ້ສະຖານະຮ່າງຢູ່"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__method_number
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__method_number
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_kanban
+msgid "Duration"
+msgstr "ໄລຍະເວລາ"
+
+#. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_duration_rate
+msgid "Duration / Rate"
+msgstr "ໄລຍະເວລາ / ອັດຕາ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_tree
+msgid "Expense"
+msgstr "ລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__account_depreciation_expense_id
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__account_depreciation_expense_id
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_expense_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_expense_model_search
+msgid "Expense Account"
+msgstr "ບັນຊີລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Expense Board"
+msgstr "ກະດານລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Expense Date"
+msgstr "ວັນທີລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Expense Lines"
+msgstr "ແຖວລາຍຈ່າຍທັງໝົດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_expense_tree
+msgid "Expense Name"
+msgstr "ຊື່ລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Expense Recognition"
+msgstr "ການຮັບຮູ້ລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_first_depreciation
+msgid "First Depreciation"
+msgstr "ຄ່າຫຼຸ້ຍຫ້ຽນຄັ້ງທຳອິດ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__account_asset_id
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
+msgid "Fixed Asset Account"
+msgstr "ບັນຊີຊັບສິນຄົງທີ່"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ: fa-tasks"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_account__form_view_ref
+msgid "Form View Ref"
+msgstr "ອ້າງອີງມຸມມອງແບບຟອມ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Future Activities"
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__asset_modify__gain_or_loss__gain
+msgid "Gain"
+msgstr "ກຳໄລ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__gain_account_id
+#: model:ir.model.fields,field_description:account_asset.field_res_company__gain_account_id
+msgid "Gain Account"
+msgstr "ບັນຊີກຳໄລ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__gain_or_loss
+msgid "Gain Or Loss"
+msgstr "ກຳໄລ ຫຼື ຂາດທຶນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__gain_value
+msgid "Gain Value"
+msgstr "ມູນຄ່າກຳໄລ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Gross Increase"
+msgstr "ການເພີ່ມມູນຄ່າລວມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__account_asset_id
+msgid "Gross Increase Account"
+msgstr "ບັນຊີການເພີ່ມມູນຄ່າລວມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__gross_increase_value
+msgid "Gross Increase Value"
+msgstr "ມູນຄ່າການເພີ່ມມູນຄ່າລວມ"
+
+#. module: account_asset
+#. odoo-javascript
+#: code:addons/account_asset/static/src/components/depreciation_schedule/filter_extra_options.xml:0
+msgid "Group By Account"
+msgstr "ຈັດກຸ່ມຕາມບັນຊີ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_expense_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_revenue_model_search
+msgid "Group By..."
+msgstr "ຈັດກຸ່ມຕາມ..."
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__id
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_exception_icon
+msgid "Icon"
+msgstr "ໄອຄອນ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "ໄອຄອນເພື່ອບົ່ງບອກກິດຈະກຳທີ່ຍົກເວັ້ນ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະແຈ້ງເຕືອນທ່ານ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__message_has_error
+#: model:ir.model.fields,help:account_asset.field_account_asset__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມອາດມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_account__asset_model
+msgid "If this is selected, an expense/revenue will be created automatically when Journal Items on this account are posted."
+msgstr ""
+"ຖ້າເລືອກອັນນີ້, ລາຍຈ່າຍ/ລາຍຮັບຈະຖືກສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດເມື່ອລາຍການບັນຊີໃນບັນຊີນີ້ຖືກລົງບັນຊີ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__already_depreciated_amount_import
+msgid "In case of an import from another software, you might need to use this field to have the right depreciation table report. This is the value that was already depreciated with entries not computed from this model"
+msgstr ""
+"ໃນກໍລະນີນຳເຂົ້າຈາກຊອຟແວອື່ນ, ທ່ານອາດຕ້ອງໃຊ້ຫ້ອງນີ້ເພື່ອໃຫ້ໄດ້ລາຍງານຕາຕະລາງຄ່າຫຼຸ້ຍຫ້ຽນທີ່ຖືກຕ້ອງ. ນີ້ແມ່ນ"
+"ມູນຄ່າທີ່ຖືກຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄປແລ້ວໂດຍທີ່ບໍ່ໄດ້ຄິດໄລ່ຈາກແບບຈຳລອງນີ້"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__informational_text
+msgid "Informational Text"
+msgstr "ຂໍ້ຄວາມຂໍ້ມູນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__invoice_line_ids
+msgid "Invoice Line"
+msgstr "ແຖວໃບເກັບເງິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_is_follower
+msgid "Is Follower"
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__salvage_value
+msgid "It is the amount you plan to have that you cannot depreciate."
+msgstr ""
+"ມັນແມ່ນຈຳນວນທີ່ທ່ານວາງແຜນຈະໃຫ້ເຫຼືອ ເຊິ່ງທ່ານບໍ່ສາມາດຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້ (ມູນຄ່າຊາກ)."
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__journal_id
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_expense_model_search
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_revenue_model_search
+msgid "Journal"
+msgstr "ສະໝຸດບັນຊີ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Journal Entries"
+msgstr "ລາຍການບັນຊີທັງໝົດ"
+
+#. module: account_asset
+#: model:ir.model,name:account_asset.model_account_move
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Journal Entry"
+msgstr "ລາຍການບັນຊີ"
+
+#. module: account_asset
+#: model:ir.model,name:account_asset.model_account_move_line
+msgid "Journal Item"
+msgstr "ລາຍການໃນສະໝຸດບັນຊີ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__original_move_line_ids
+msgid "Journal Items"
+msgstr "ລາຍການບັນຊີ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Journal Items of {account} should have a label in order to generate an asset"
+msgstr "ລາຍການບັນຊີຂອງ {account} ຄວນມີຄຳອະທິບາຍເພື່ອສ້າງຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__write_uid
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__write_uid
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__write_date
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__write_date
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Late Activities"
+msgstr "ກິດຈະກຳທີ່ຊັກຊ້າ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+msgid "Linear"
+msgstr "ແບບເສັ້ນຊື່"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__asset_modify__gain_or_loss__loss
+msgid "Loss"
+msgstr "ຂາດທຶນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__loss_account_id
+#: model:ir.model.fields,field_description:account_asset.field_res_company__loss_account_id
+msgid "Loss Account"
+msgstr "ບັນຊີຂາດທຶນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Manage Items"
+msgstr "ຈັດການລາຍການ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_has_error
+msgid "Message Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_first_method
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__method
+msgid "Method"
+msgstr "ວິທີການ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__model_id
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__model
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_kanban
+msgid "Model"
+msgstr "ແບບຈຳລອງ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Modify"
+msgstr "ແກ້ໄຂ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: model:ir.model,name:account_asset.model_asset_modify
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Modify Asset"
+msgstr "ແກ້ໄຂຊັບສິນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Modify Depreciation"
+msgstr "ແກ້ໄຂຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Modify Expense"
+msgstr "ແກ້ໄຂລາຍຈ່າຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Modify Revenue"
+msgstr "ແກ້ໄຂລາຍຮັບ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__method_period__1
+#: model:ir.model.fields.selection,name:account_asset.selection__asset_modify__method_period__1
+msgid "Months"
+msgstr "ເດືອນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_account__multiple_assets_per_line
+msgid "Multiple Assets per Line"
+msgstr "ມີຫຼາຍຊັບສິນຕໍ່ໜຶ່ງແຖວ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_account__multiple_assets_per_line
+msgid "Multiple asset items will be generated depending on the bill line quantity instead of 1 global asset."
+msgstr ""
+"ລາຍການຊັບສິນຫຼາຍລາຍການຈະຖືກສ້າງຂຶ້ນຕາມຈຳນວນໃນແຖວໃບບິນ ແທນທີ່ຈະເປັນຊັບສິນດຽວລວມກັນ."
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "ກຳນົດເວລາສຳລັບກິດຈະກຳຂອງຂ້ອຍ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_asset_modify__value_residual
+msgid "New residual amount for the asset"
+msgstr "ມູນຄ່າຄົງເຫຼືອໃໝ່ສຳລັບຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_asset_modify__salvage_value
+msgid "New salvage amount for the asset"
+msgstr "ມູນຄ່າຊາກໃໝ່ສຳລັບຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "ເຫດການປະຕິທິນກິດຈະກຳຖັດໄປ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "ກຳນົດເວລາສຳລັບກິດຈະກຳຖັດໄປ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_summary
+msgid "Next Activity Summary"
+msgstr "ສະຫຼຸບກິດຈະກຳຖັດໄປ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_type_id
+msgid "Next Activity Type"
+msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Next Period Expense"
+msgstr "ລາຍຈ່າຍຂອງຮອບວຽນຖັດໄປ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Next Period Revenue"
+msgstr "ລາຍຮັບຂອງຮອບວຽນຖັດໄປ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_account__create_asset__no
+#: model:ir.model.fields.selection,name:account_asset.selection__asset_modify__gain_or_loss__no
+msgid "No"
+msgstr "ບໍ່"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__prorata_computation_type__none
+msgid "No Prorata"
+msgstr "ບໍ່ມີຕາມສ່ວນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__non_deductible_tax_value
+#: model:ir.model.fields,field_description:account_asset.field_account_move_line__non_deductible_tax_value
+msgid "Non Deductible Tax Value"
+msgstr "ມູນຄ່າພາສີທີ່ຫັກບໍ່ໄດ້"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__salvage_value
+msgid "Not Depreciable Amount"
+msgstr "ຈຳນວນທີ່ບໍ່ສາມາດຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__salvage_value
+msgid "Not Depreciable Value"
+msgstr "ມູນຄ່າທີ່ບໍ່ສາມາດຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__name
+msgid "Note"
+msgstr "ໝາຍເຫດ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈຳນວນການດຳເນີນການ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_purchase_tree
+msgid "Number of Depreciations"
+msgstr "ຈຳນວນຄັ້ງການຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__method_period
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__method_period
+msgid "Number of Months in a Period"
+msgstr "ຈຳນວນເດືອນໃນໜຶ່ງຮອບວຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_expense_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_sale_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Number of Recognitions"
+msgstr "ຈຳນວນຄັ້ງການຮັບຮູ້"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__gross_increase_count
+msgid "Number of assets made to increase the value of the asset"
+msgstr "ຈຳນວນຊັບສິນທີ່ສ້າງຂຶ້ນເພື່ອເພີ່ມມູນຄ່າຂອງຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__asset_number_days
+#: model:ir.model.fields,field_description:account_asset.field_account_move__asset_number_days
+#: model:ir.model.fields,field_description:account_asset.field_account_payment__asset_number_days
+msgid "Number of days"
+msgstr "ຈຳນວນມື້"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__total_depreciation_entries_count
+msgid "Number of depreciation entries (posted or not)"
+msgstr "ຈຳນວນລາຍການຄ່າຫຼຸ້ຍຫ້ຽນ (ທັງທີ່ລົງບັນຊີແລ້ວ ແລະ ຍັງບໍ່ໄດ້ລົງ)"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__paused
+msgid "On Hold"
+msgstr "ຢຸດຊົ່ວຄາວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+msgid "Open Asset"
+msgstr "ເປີດຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__original_value
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_kanban
+msgid "Original Value"
+msgstr "ມູນຄ່າເດີມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__parent_id
+msgid "Parent"
+msgstr "ແມ່ແບບ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Pause"
+msgstr "ຢຸດຊົ່ວຄາວ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__paused_prorata_date
+msgid "Paused Prorata Date"
+msgstr "ວັນທີຢຸດຕາມສ່ວນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_expense_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_purchase_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_sale_tree
+msgid "Period length"
+msgstr "ຄວາມຍາວຂອງຮອບວຽນ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Posted Entries"
+msgstr "ລາຍການທີ່ລົງບັນຊີແລ້ວ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__prorata_date
+msgid "Prorata Date"
+msgstr "ວັນທີຕາມສ່ວນ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__asset_type__purchase
+msgid "Purchase: Asset"
+msgstr "ການຊື້: ຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "Re-evaluate"
+msgstr "ປະເມີນຄືນໃໝ່"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Recognition Values"
+msgstr "ມູນຄ່າການຮັບຮູ້"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_move_line__asset_ids
+#: model_terms:ir.ui.view,arch_db:account_asset.view_move_line_form_asset_inherit
+msgid "Related Assets"
+msgstr "ຊັບສິນທີ່ກ່ຽວຂ້ອງ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "Related Expenses"
+msgstr "ລາຍຈ່າຍທີ່ກ່ຽວຂ້ອງ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__related_purchase_value
+msgid "Related Purchase Value"
+msgstr "ມູນຄ່າການຊື້ທີ່ກ່ຽວຂ້ອງ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Related Sales"
+msgstr "ການຂາຍທີ່ກ່ຽວຂ້ອງ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Reset to running"
+msgstr "ຕັ້ງຄ່າຄືນເປັນກຳລັງໃຊ້ງານ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Residual Amount to Recognize"
+msgstr "ຈຳນວນຄົງເຫຼືອທີ່ຈະຮັບຮູ້"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_user_id
+msgid "Responsible User"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Resume"
+msgstr "ເລີ່ມຄືນໃໝ່"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Resume Depreciation"
+msgstr "ເລີ່ມຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນຄືນໃໝ່"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Revenue"
+msgstr "ລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_sale_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_revenue_model_search
+msgid "Revenue Account"
+msgstr "ບັນຊີລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Revenue Board"
+msgstr "ກະດານລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Revenue Date"
+msgstr "ວັນທີລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Revenue Lines"
+msgstr "ແຖວລາຍຮັບທັງໝົດ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_sale_tree
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_sale_tree
+msgid "Revenue Name"
+msgstr "ຊື່ລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "Revenue Recognition"
+msgstr "ການຮັບຮູ້ລາຍຮັບ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "Reverse the depreciation entries posted in the future in order to modify the depreciation"
+msgstr "ກັບຄືນລາຍການຄ່າຫຼຸ້ຍຫ້ຽນທີ່ລົງບັນຊີໃນອະນາຄົດເພື່ອປ່ຽນແປງຄ່າຫຼຸ້ຍຫ້ຽນ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__open
+msgid "Running"
+msgstr "ກຳລັງໃຊ້ງານ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Sale"
+msgstr "ການຂາຍ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__asset_type__sale
+msgid "Sale: Revenue Recognition"
+msgstr "ການຂາຍ: ການຮັບຮູ້ລາຍຮັບ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Save as Model"
+msgstr "ບັນທຶກເປັນແບບຈຳລອງ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Save model"
+msgstr "ບັນທຶກແບບຈຳລອງ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_asset_modify__select_invoice_line_id
+msgid "Select Invoice Line"
+msgstr "ເລືອກແຖວໃບເກັບເງິນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+#: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
+msgid "Sell"
+msgstr "ຂາຍ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Set to Draft"
+msgstr "ຕັ້ງເປັນຮ່າງ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Set to Running"
+msgstr "ຕັ້ງເປັນກຳລັງໃຊ້ງານ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Show all records which has next action date is before today"
+msgstr "ສະແດງທຸກລາຍການທີ່ມີກຳນົດການດຳເນີນການຖັດໄປກ່ອນມື້ນີ້"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Some fields are missing {}"
+msgstr "ບາງຫ້ອງຂໍ້ມູນຫາຍໄປ {}"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Some required values are missing"
+msgstr "ຂໍ້ມູນທີ່ຈຳເປັນບາງຢ່າງຫາຍໄປ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__state
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"ສະຖານະອີງຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນທີຄົບກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນແລ້ວ: ກິດຈະກຳໃນອະນາຄົດ."
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__method__linear
+msgid "Straight Line"
+msgstr "ແບບເສັ້ນຊື່"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__book_value
+msgid "Sum of the depreciable value, the salvage value and the book value of all value increase items"
+msgstr ""
+"ຜົນລວມຂອງມູນຄ່າທີ່ຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້, ມູນຄ່າຊາກ ແລະ ມູນຄ່າຕາມບັນຊີຂອງທຸກລາຍການທີ່ເພີ່ມມູນຄ່າ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "The account %(exp_acc)s has been credited by %(exp_delta)s, while the account %(dep_acc)s has been debited by %(dep_delta)s. This corresponds to %(move_count)s cancelled %(word)s:<br>%(entries)s"
+msgstr ""
+"ບັນຊີ %(exp_acc)s ໄດ້ຖືກລົງເບື້ອງມີ %(exp_delta)s, ໃນຂະນະທີ່ບັນຊີ %(dep_acc)s ໄດ້ຖືກລົງເບື້ອງ"
+"ໜີ້ %(dep_delta)s. ນີ້ກົງກັບ %(word)s ທີ່ຖືກຍົກເລີກ %(move_count)s ລາຍການ:<br>%(entries)"
+"s"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__method_period
+#: model:ir.model.fields,help:account_asset.field_asset_modify__method_period
+msgid "The amount of time between two depreciations"
+msgstr "ໄລຍະເວລາລະຫວ່າງການຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນສອງຄັ້ງ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "The amount you have entered (%s) does not match the Related Purchase's value (%s). Please make sure this is what you want."
+msgstr ""
+"ຈຳນວນທີ່ທ່ານປ້ອນເຂົ້າ (%s) ບໍ່ກົງກັບມູນຄ່າການຊື້ທີ່ກ່ຽວຂ້ອງ (%s). ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_asset_modify__asset_id
+msgid "The asset to be modified by this wizard"
+msgstr "ຊັບສິນທີ່ຈະຖືກແກ້ໄຂໂດຍເຄື່ອງມືນີ້"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__children_ids
+msgid "The children are the gains in value of this asset"
+msgstr "ລາຍການລູກແມ່ນການເພີ່ມຂຶ້ນຂອງມູນຄ່າຂອງຊັບສິນນີ້"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_asset_modify__invoice_ids
+msgid "The disposal invoice is needed in order to generate the closing journal entry."
+msgstr "ຈຳເປັນຕ້ອງມີໃບເກັບເງິນກຳຈັດຊັບສິນເພື່ອສ້າງລາຍການບັນຊີປິດຮອບວຽນ."
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__method_number
+msgid "The number of depreciations needed to depreciate your asset"
+msgstr "ຈຳນວນຄັ້ງທີ່ຕ້ອງການເພື່ອຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນຊັບສິນຂອງທ່ານຈົນໝົດ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "The remaining value on the last depreciation line must be 0"
+msgstr "ມູນຄ່າຄົງເຫຼືອໃນແຖວຄ່າຫຼຸ້ຍຫ້ຽນສຸດທ້າຍຕ້ອງເປັນ 0"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_asset_modify__invoice_line_ids
+msgid "There are multiple lines that could be the related to this asset"
+msgstr "ມີຫຼາຍແຖວທີ່ອາດຈະກ່ຽວຂ້ອງກັບຊັບສິນນີ້"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "There are unposted depreciations prior to the selected operation date, please deal with them first."
+msgstr ""
+"ມີລາຍການຄ່າຫຼຸ້ຍຫ້ຽນທີ່ຍັງບໍ່ທັນລົງບັນຊີກ່ອນວັນທີທີ່ເລືອກ, ກະລຸນາຈັດການລາຍການເຫຼົ່ານັ້ນກ່ອນ."
+
+#. module: account_asset
+#. odoo-javascript
+#: code:addons/account_asset/static/src/components/move_reversed/move_reversed.xml:0
+msgid "This move has been reversed"
+msgstr "ການເຄື່ອນໄຫວນີ້ໄດ້ຖືກກັບຄືນແລ້ວ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
+msgid "Today Activities"
+msgstr "ກິດຈະກຳມື້ນີ້"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_assets_report.py:0
+msgid "Total"
+msgstr "ລວມ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__total_depreciable_value
+msgid "Total Depreciable Value"
+msgstr "ມູນຄ່າທີ່ຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້ທັງໝົດ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Turn as a deferred expense"
+msgstr "ປ່ຽນເປັນລາຍຈ່າຍລໍຖ້າຕັດຈ່າຍ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Turn as a deferred revenue"
+msgstr "ປ່ຽນເປັນລາຍຮັບລໍຖ້າຮັບຮູ້"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "Turn as an asset"
+msgstr "ປ່ຽນເປັນຊັບສິນ"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__account_type
+msgid "Type of the account"
+msgstr "ປະເພດຂອງບັນຊີ"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Value at Import"
+msgstr "ມູນຄ່າຕອນນຳເຂົ້າ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "Value decrease for: %(asset)s"
+msgstr "ມູນຄ່າຫຼຸດລົງສຳລັບ: %(asset)s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "Value increase for: %(asset)s"
+msgstr "ມູນຄ່າເພີ່ມຂຶ້ນສຳລັບ: %(asset)s"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "Warning for the Original Value of %s"
+msgstr "ຄຳເຕືອນສຳລັບມູນຄ່າເດີມຂອງ %s"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__website_message_ids
+msgid "Website Messages"
+msgstr "ຂໍ້ຄວາມຈາກເວັບໄຊທ໌"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__website_message_ids
+msgid "Website communication history"
+msgstr "ປະຫວັດການສື່ສານຜ່ານເວັບໄຊທ໌"
+
+#. module: account_asset
+#: model:ir.model.fields,help:account_asset.field_account_asset__state
+msgid ""
+"When an asset is created, the status is 'Draft'.\n"
+"If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
+"The 'On Hold' status can be set manually when you want to pause the depreciation of an asset for some time.\n"
+"You can manually close an asset when the depreciation is over.\n"
+"By cancelling an asset, all depreciation entries will be reversed"
+msgstr ""
+"ເມື່ອຊັບສິນຖືກສ້າງຂຶ້ນ, ສະຖານະຈະເປັນ 'ຮ່າງ'.\n"
+"ຖ້າຢືນຢັນຊັບສິນ, ສະຖານະຈະປ່ຽນເປັນ 'ກຳລັງໃຊ້ງານ' ແລະ ສາມາດລົງບັນຊີຄ່າຫຼຸ້ຍຫ້ຽນໄດ້.\n"
+"ສະຖານະ 'ຢຸດຊົ່ວຄາວ' ສາມາດຕັ້ງໄດ້ເອງເມື່ອທ່ານຕ້ອງການຢຸດການຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄວ້ຊົ່ວຄາວ.\n"
+"ທ່ານສາມາດປິດຊັບສິນໄດ້ເອງເມື່ອຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໝົດແລ້ວ.\n"
+"ຫາກຍົກເລີກຊັບສິນ, ລາຍການຄ່າຫຼຸ້ຍຫ້ຽນທັງໝົດຈະຖືກກັບຄືນລາຍການ"
+
+#. module: account_asset
+#: model:ir.model.fields.selection,name:account_asset.selection__account_asset__method_period__12
+#: model:ir.model.fields.selection,name:account_asset.selection__asset_modify__method_period__12
+msgid "Years"
+msgstr "ປີ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "You can't post an entry related to a draft asset. Please post the asset before."
+msgstr ""
+"ທ່ານບໍ່ສາມາດລົງບັນຊີລາຍການທີ່ກ່ຽວຂ້ອງກັບຊັບສິນທີ່ຍັງເປັນຮ່າງ. ກະລຸນາຢືນຢັນຊັບສິນກ່ອນ."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "You cannot archive a record that is not closed"
+msgstr "ທ່ານບໍ່ສາມາດຈັດເກັບລາຍການທີ່ຍັງບໍ່ທັນໄດ້ປິດ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "You cannot automate the journal entry for an asset that has a running gross increase. Please use 'Dispose' on the increase(s)."
+msgstr ""
+"ທ່ານບໍ່ສາມາດລົງບັນຊີອັດຕະໂນມັດສຳລັບຊັບສິນທີ່ມີການເພີ່ມມູນຄ່າລວມທີ່ຍັງດຳເນີນຢູ່. ກະລຸນາໃຊ້ 'ກຳຈັດ' ໃນລາຍກ"
+"ານເພີ່ມມູນຄ່ານັ້ນກ່ອນ."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "You cannot create an asset from lines containing credit and debit on the account or with a null amount"
+msgstr ""
+"ທ່ານບໍ່ສາມາດສ້າງຊັບສິນຈາກແຖວທີ່ມີທັງເບື້ອງໜີ້ ແລະ ເບື້ອງມີ ຫຼື ທີ່ມີຈຳນວນເງິນເປັນສູນ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "You cannot delete a document that is in %s state."
+msgstr "ທ່ານບໍ່ສາມາດລຶບເອກະສານທີ່ຢູ່ໃນສະຖານະ %s."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid ""
+"You cannot delete an asset linked to posted entries.\n"
+"You should either confirm the asset, then, sell or dispose of it, or cancel the linked journal entries."
+msgstr ""
+"ທ່ານບໍ່ສາມາດລຶບຊັບສິນທີ່ເຊື່ອມໂຍງກັບລາຍການທີ່ລົງບັນຊີແລ້ວ.\n"
+"ທ່ານຄວນຢືນຢັນຊັບສິນ ແລ້ວຈຶ່ງຂາຍ ຫຼື ກຳຈັດ, ຫຼື ຍົກເລີກລາຍການບັນຊີທີ່ເຊື່ອມໂຍງນັ້ນກ່ອນ."
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+msgid "You cannot reset to draft an entry related to a posted asset"
+msgstr ""
+"ທ່ານບໍ່ສາມາດຕັ້ງລາຍການບັນຊີເປັນຮ່າງຄືນໃໝ່ໄດ້ ຫາກມັນກ່ຽວຂ້ອງກັບຊັບສິນທີ່ລົງບັນຊີແລ້ວ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/wizard/asset_modify.py:0
+msgid "You cannot resume at a date equal to or before the pause date"
+msgstr "ທ່ານບໍ່ສາມາດເລີ່ມຕົ້ນໃໝ່ໃນວັນທີທີ່ເທົ່າກັບ ຫຼື ກ່ອນວັນທີຢຸດຊົ່ວຄາວ"
+
+#. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_balance
+msgid "book_value"
+msgstr "ມູນຄ່າຕາມບັນຊີ"
+
+#. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_date_from
+#: model:account.report.column,name:account_asset.assets_report_depre_date_from
+msgid "date from"
+msgstr "ຈາກວັນທີ"
+
+#. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_assets_date_to
+#: model:account.report.column,name:account_asset.assets_report_depre_date_to
+msgid "date to"
+msgstr "ເຖິງວັນທີ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "depreciable)"
+msgstr "ທີ່ຄິດໄລ່ຄ່າຫຼຸ້ຍຫ້ຽນໄດ້)"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
+msgid "e.g. Annual Subscription"
+msgstr "ຕົວຢ່າງ: ຄ່າສະມາຊິກລາຍປີ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
+msgid "e.g. Annually Paid Insurance"
+msgstr "ຕົວຢ່າງ: ຄ່າປະກັນໄພຈ່າຍລາຍປີ"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "e.g. Laptop iBook"
+msgstr "ຕົວຢ່າງ: ຄອມພິວເຕີ Laptop"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "entries"
+msgstr "ລາຍການ"
+
+#. module: account_asset
+#. odoo-python
+#: code:addons/account_asset/models/account_asset.py:0
+msgid "entry"
+msgstr "ລາຍການ"

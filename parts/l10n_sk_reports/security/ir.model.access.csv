@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_l10n_sk_generate_annual_statements_report,l10n_sk_reports.l10n_sk.generate.annual.statements.report,model_l10n_sk_generate_annual_statements_report,account.group_account_manager,1,1,1,1

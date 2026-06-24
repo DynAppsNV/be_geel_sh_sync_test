@@ -1,0 +1,36 @@
+import { PosPreset } from "@point_of_sale/../tests/unit/data/pos_preset.data";
+
+PosPreset._records = [
+    {
+        id: 4,
+        name: "Preset In",
+        pricelist_id: false,
+        fiscal_position_id: false,
+        is_return: false,
+        color: 0,
+        has_image: false,
+        write_date: "2025-07-23 12:22:30",
+        identification: "none",
+        use_timing: false,
+        slots_per_interval: 5,
+        interval_time: 20,
+        attendance_ids: [],
+        use_guest: false,
+    },
+    {
+        id: 5,
+        name: "Preset Out",
+        pricelist_id: false,
+        fiscal_position_id: 6,
+        is_return: false,
+        color: 0,
+        has_image: false,
+        write_date: "2025-07-23 12:22:30",
+        identification: "none",
+        use_timing: false,
+        slots_per_interval: 5,
+        interval_time: 20,
+        attendance_ids: [],
+        use_guest: false,
+    },
+];

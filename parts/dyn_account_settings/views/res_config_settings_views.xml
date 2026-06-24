@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="account.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//block[@id='default_accounts']" position="inside">
+                <setting
+                    company_dependent="1"
+                    id="partner_receivable_setting"
+                    string="Partner Receivable &amp; Payable:"
+                >
+                    <div class="content-group">
+                        <div class="row mt8">
+                            <label
+                                for="account_default_receivable_id"
+                                class="col-lg-5 o_light_label"
+                                string="Account Receivable"
+                            />
+                            <field name="account_default_receivable_id" />
+                        </div>
+                        <div class="row mt8">
+                            <label
+                                for="account_default_payable_id"
+                                class="col-lg-5 o_light_label"
+                                string="Account Payable"
+                            />
+                            <field name="account_default_payable_id" />
+                        </div>
+                    </div>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+</odoo>

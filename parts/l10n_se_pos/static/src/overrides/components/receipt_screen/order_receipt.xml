@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('after-footer')]" position="after">
+            <t t-if="order.config.iface_sweden_fiscal_data_module">
+                <div style="font-size: 75%;">
+                    <br/>
+                        <div>
+                        <span>POS ID: </span>
+                            <t t-esc="order.config.name"/>
+                    </div>
+                        <div>
+                        <span>Blackbox Unit ID: </span>
+                            <t t-esc="order.sweden_blackbox_unit_id"/>
+                    </div>
+                        <div style="word-break: break-all;">
+                        <span>Blackbox Signature: </span>
+                            <t t-esc="order.sweden_blackbox_signature"/>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </t>
+</templates>

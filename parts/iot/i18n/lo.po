@@ -1,0 +1,1273 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * iot
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-27 18:44+0000\n"
+"PO-Revision-Date: 2026-06-06 10:25+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/iot/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_restart_odoo.js:0
+msgid "%s is currently restarting"
+msgstr "%s ກຳລັງເລີ່ມຕົ້ນລະບົບໃໝ່"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid ""
+"<span class=\"spinner-border spinner-border-sm\"/>\n"
+"                    Searching for an IoT Box.\n"
+"                    <span id=\"discover_retry_countdown\" class=\"fw-bold\"/>"
+msgstr ""
+"<span class=\"spinner-border spinner-border-sm\"/>\n"
+"                    ກຳລັງຄົ້ນຫາ ກ່ອງ IoT.\n"
+"                    <span id=\"discover_retry_countdown\" class=\"fw-bold\"/>"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "A fiscal data module has been connected. To use it,"
+msgstr "ໂມດູນຂໍ້ມູນການເງິນໄດ້ຖືກເຊື່ອມຕໍ່ແລ້ວ. ເພື່ອນຳໃຊ້,"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__must_install_fdm_module
+msgid "A fiscal data module is connected to this IoT Box"
+msgstr "ໂມດູນຂໍ້ມູນການເງິນຖືກເຊື່ອມຕໍ່ກັບ ກ່ອງ IoT ນີ້"
+
+#. module: iot
+#: model:ir.model,name:iot.model_add_iot_box
+msgid "Add IoT Box wizard"
+msgstr "ຕົວຊ່ວຍເພີ່ມ ກ່ອງ IoT"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__add_iot_box_wizard_id
+msgid "Add Iot Box Wizard"
+msgstr "ຕົວຊ່ວຍເພີ່ມ ກ່ອງ IoT"
+
+#. module: iot
+#: model:res.groups,name:iot.group_iot_admin
+msgid "Administrator"
+msgstr "ຜູ້ດູແລລະບົບ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/test_iot_box.js:0
+msgid "All communication protocols are working properly."
+msgstr "ໂປຣໂຕຄໍການສື່ສານທັງໝົດກຳລັງເຮັດວຽກຢ່າງຖືກຕ້ອງ."
+
+#. module: iot
+#: model:ir.model,name:iot.model_iot_discovered_box
+msgid "An IoT box that is in pairing mode"
+msgstr "ກ່ອງ IoT ທີ່ຢູ່ໃນໂໝດການຈັບຄູ່"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_restart_odoo.js:0
+msgid "Are you sure you want to restart Odoo on the IoT Box?"
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການເລີ່ມຕົ້ນ Odoo ໃໝ່ໃນ ກ່ອງ IoT?"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__drivers_auto_update
+msgid "Automatic drivers update"
+msgstr "ອັບເດດໄດຣເວີອັດຕະໂນມັດ"
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_iot_box__drivers_auto_update
+msgid "Automatically update drivers when the IoT Box boots"
+msgstr "ອັບເດດໄດຣເວີໂດຍອັດຕະໂນມັດເມື່ອ ກ່ອງ IoT ເລີ່ມລະບົບ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__scanner
+msgid "Barcode Scanner"
+msgstr "ເຄື່ອງສະແກນບາໂຄ້ດ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.xml:0
+msgid "Be careful:"
+msgstr "ຂໍ້ຄວນລະວັງ:"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid ""
+"Blackbox did not respond to your request. This usually means it has "
+"disconnected. Please check its cable connection and its power supply. "
+"Restart if necessary."
+msgstr ""
+"ກ່ອງດຳ (Blackbox) ບໍ່ຕອບສະໜອງຕໍ່ຄຳຮ້ອງຂໍຂອງທ່ານ. ໂດຍປົກກະຕິໝາຍຄວາມວ່າມັນຖືກຕັດການເຊື່ອມຕໍ່. ກະລຸ"
+"ນາກວດສອບການເຊື່ອມຕໍ່ສາຍເຄເບີນ ແລະ ແຫຼ່ງຈ່າຍໄຟ. ເລີ່ມລະບົບໃໝ່ຖ້າຈຳເປັນ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid ""
+"Blackbox driver update required. Please restart your IoT Box to update the "
+"blackbox driver."
+msgstr ""
+"ຈຳເປັນຕ້ອງອັບເດດໄດຣເວີຂອງ ກ່ອງດຳ. ກະລຸນາເລີ່ມຕົ້ນ ກ່ອງ IoT ຂອງທ່ານໃໝ່ເພື່ອອັບເດດໄດຣເວີ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Blackbox is running and operational"
+msgstr "ກ່ອງດຳກຳລັງເຮັດວຽກ ແລະ ພ້ອມໃຊ້ງານ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid ""
+"Blackbox responded with invalid response. Please check the cable connection "
+"and the power supply, then retry. Restart if necessary"
+msgstr ""
+"ກ່ອງດຳຕອບສະໜອງດ້ວຍຂໍ້ມູນທີ່ບໍ່ຖືກຕ້ອງ. ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ສາຍ ແລະ ແຫຼ່ງຈ່າຍໄຟ, ແລ້ວລອງໃໝ່. ເລີ່"
+"ມລະບົບໃໝ່ຖ້າຈຳເປັນ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__connection__bluetooth
+msgid "Bluetooth"
+msgstr "ບລູທູດ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__camera
+msgid "Camera"
+msgstr "ກ້ອງ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Check the lights"
+msgstr "ກວດສອບໄຟສັນຍານ"
+
+#. module: iot
+#: model_terms:ir.actions.act_window,help:iot.iot_box_action
+msgid "Click on the"
+msgstr "ກົດທີ່"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/test_iot_box.js:0
+msgid "Communication protocol '%s' is not working properly."
+msgstr "ໂປຣໂຕຄໍການສື່ສານ '%s' ບໍ່ເຮັດວຽກຢ່າງຖືກຕ້ອງ."
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__company_id
+#: model:ir.model.fields,field_description:iot.field_iot_device__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: iot
+#: model:ir.ui.menu,name:iot.view_iot_selected_printer_local_action
+msgid "Configuration"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__add_iot_box__stage__connect
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_kanban
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_list
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+#: model_terms:ir.ui.view,arch_db:iot.view_select_box_to_connect
+msgid "Connect"
+msgstr "ເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model:ir.actions.act_window,name:iot.action_add_iot_box
+msgid "Connect my IoT Box"
+msgstr "ເຊື່ອມຕໍ່ ກ່ອງ IoT ຂອງຂ້ອຍ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__connected_status__connected
+msgid "Connected"
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__connected_status
+msgid "Connected Status"
+msgstr "ສະຖານະການເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__connection
+#: model_terms:ir.ui.view,arch_db:iot.iot_device_search
+msgid "Connection"
+msgstr "ການເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__create_uid
+#: model:ir.model.fields,field_description:iot.field_iot_box__create_uid
+#: model:ir.model.fields,field_description:iot.field_iot_device__create_uid
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__create_uid
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__create_uid
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__create_date
+#: model:ir.model.fields,field_description:iot.field_iot_box__create_date
+#: model:ir.model.fields,field_description:iot.field_iot_device__create_date
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__create_date
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__create_date
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__device_ids
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__device
+msgid "Device"
+msgstr "ອຸປະກອນ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__device_count
+msgid "Device Count"
+msgstr "ຈຳນວນອຸປະກອນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/backend/iot_device_form.js:0
+msgid "Device is disconnected"
+msgstr "ອຸປະກອນຖືກຕັດການເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_device_view_kanban
+msgid "Device type is {{0}}"
+msgstr "ປະເພດອຸປະກອນແມ່ນ {{0}}"
+
+#. module: iot
+#: model:ir.actions.act_window,name:iot.iot_device_action
+#: model:ir.model.fields,field_description:iot.field_iot_box__device_ids
+#: model:ir.ui.menu,name:iot.iot_device_menu_action
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "Devices"
+msgstr "ອຸປະກອນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.xml:0
+#: model_terms:ir.ui.view,arch_db:iot.view_add_iot_box
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+#: model_terms:ir.ui.view,arch_db:iot.view_pair_offline
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__connected_status__disconnected
+msgid "Disconnected"
+msgstr "ຕັດການເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model:ir.actions.client,name:iot.action_discover_iot_boxes
+msgid "Discover IoT boxes"
+msgstr "ຄົ້ນຫາ ກ່ອງ IoT"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__discovered_box_ids
+msgid "Discovered Box"
+msgstr "ກ່ອງທີ່ຄົ້ນພົບ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__display
+msgid "Display"
+msgstr "ຈໍສະແດງຜົນ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__display_device_ids
+msgid "Display Device"
+msgstr "ອຸປະກອນສະແດງຜົນ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__display_name
+#: model:ir.model.fields,field_description:iot.field_iot_box__display_name
+#: model:ir.model.fields,field_description:iot.field_iot_channel__display_name
+#: model:ir.model.fields,field_description:iot.field_iot_device__display_name
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__display_name
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__display_name
+#: model:ir.model.fields,field_description:iot.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:iot.field_ir_config_parameter__display_name
+#: model:ir.model.fields,field_description:iot.field_ir_http__display_name
+#: model:ir.model.fields,field_description:iot.field_publisher_warranty_contract__display_name
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__display_url
+msgid "Display URL"
+msgstr "URL ສະແດງຜົນ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__do_not_ask_again
+msgid "Do not ask me again"
+msgstr "ບໍ່ຕ້ອງຖາມຂ້ອຍອີກ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Documentation"
+msgstr "ຄູ່ມືການໃຊ້ງານ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__ip
+#: model:ir.model.fields,field_description:iot.field_iot_device__iot_ip
+msgid "Domain Address"
+msgstr "ທີ່ຢູ່ໂດເມນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/test_iot_box.js:0
+msgid ""
+"Failed to check IoT Box network, check that it's connected to the Internet."
+msgstr ""
+"ບໍ່ສາມາດກວດສອບເຄືອຂ່າຍ ກ່ອງ IoT ໄດ້, ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ອິນເຕີເນັດ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_download_logs.js:0
+msgid "Failed to download logs from %s"
+msgstr "ບໍ່ສາມາດດາວໂຫຼດລັອກ (logs) ຈາກ %s"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Failed to initiate print"
+msgstr "ບໍ່ສາມາດເລີ່ມການພິມໄດ້"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Failed to reach the IoT Box for device: %s"
+msgstr "ບໍ່ສາມາດຕິດຕໍ່ ກ່ອງ IoT ສຳລັບອຸປະກອນ: %s"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_reset_password.js:0
+msgid "Failed to reset %s password."
+msgstr "ບໍ່ສາມາດຕັ້ງລະຫັດຜ່ານຂອງ %s ໃໝ່ໄດ້."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_restart_odoo.js:0
+msgid "Failed to send the restart command to the IoT Box ('%s')"
+msgstr "ບໍ່ສາມາດສົ່ງຄຳສັ່ງເລີ່ມລະບົບໃໝ່ໄປຫາ ກ່ອງ IoT ('%s')"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.js:0
+msgid "Failed to toggle remote debug."
+msgstr "ບໍ່ສາມາດເປີດ/ປິດ ການດີບັກໄລຍະໄກໄດ້."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/backend/iot_device_form.js:0
+msgid "Failed to update keyboard layout on the device."
+msgstr "ບໍ່ສາມາດອັບເດດຮູບແບບແປ້ນພິມໃນອຸປະກອນໄດ້."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/backend/iot_device_form.js:0
+msgid "Failed to update scanner mode on the device."
+msgstr "ບໍ່ສາມາດອັບເດດໂໝດເຄື່ອງສະແກນໃນອຸປະກອນໄດ້."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_pair_offline
+msgid "Finally, paste the pairing token below in the \"Server token\" field."
+msgstr "ສຸດທ້າຍ, ວາງໂທເຄັນການຈັບຄູ່ລົງໃນຊ່ອງ \"Server token\" ລຸ່ມນີ້."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_pair_offline
+msgid "Find the IP address of your IoT Box then connect to the web homepage."
+msgstr "ຊອກຫາທີ່ຢູ່ IP ຂອງ ກ່ອງ IoT ຂອງທ່ານ ແລ້ວເຊື່ອມຕໍ່ຫາໜ້າເວັບຫຼັກ."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+msgid ""
+"First, connect the IoT Box to internet, using an ethernet cable. Or, "
+"checkout the"
+msgstr ""
+"ທຳອິດ, ເຊື່ອມຕໍ່ ກ່ອງ IoT ເຂົ້າກັບອິນເຕີເນັດ ໂດຍໃຊ້ສາຍແລນ (ethernet). ຫຼື, ເບິ່ງທີ່"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__fiscal_data_module
+msgid "Fiscal Data Module"
+msgstr "ໂມດູນຂໍ້ມູນການເງິນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/backend/iot_device_form.js:0
+msgid "Fiscal Data Module is connected and operational"
+msgstr "ໂມດູນຂໍ້ມູນການເງິນຖືກເຊື່ອມຕໍ່ ແລະ ພ້ອມໃຊ້ງານແລ້ວ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Fiscal Data Module memory 90% full."
+msgstr "ໜ່ວຍຄວາມຈຳຂອງໂມດູນຂໍ້ມູນການເງິນເຕັມ 90% ແລ້ວ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Fiscal Data Module memory full."
+msgstr "ໜ່ວຍຄວາມຈຳຂອງໂມດູນຂໍ້ມູນການເງິນເຕັມ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Fiscal Data Module not operational. Please restart the blackbox"
+msgstr "ໂມດູນຂໍ້ມູນການເງິນບໍ່ເຮັດວຽກ. ກະລຸນາເລີ່ມຕົ້ນ ກ່ອງດຳ ໃໝ່"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Fiscal Data Module real time clock corrupt."
+msgstr "ໂມງເວລາຈິງ (Real time clock) ຂອງໂມດູນຂໍ້ມູນການເງິນຜິດພາດ."
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__connection__hdmi
+msgid "HDMI"
+msgstr "HDMI"
+
+#. module: iot
+#: model:ir.model,name:iot.model_ir_http
+msgid "HTTP Routing"
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "Homepage"
+msgstr "ໜ້າຫຼັກ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__id
+#: model:ir.model.fields,field_description:iot.field_iot_box__id
+#: model:ir.model.fields,field_description:iot.field_iot_channel__id
+#: model:ir.model.fields,field_description:iot.field_iot_device__id
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__id
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__id
+#: model:ir.model.fields,field_description:iot.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:iot.field_ir_config_parameter__id
+#: model:ir.model.fields,field_description:iot.field_ir_http__id
+#: model:ir.model.fields,field_description:iot.field_publisher_warranty_contract__id
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: iot
+#: model:ir.model,name:iot.model_iot_device
+msgid "IOT Device"
+msgstr "ອຸປະກອນ IoT"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__identifier
+#: model:ir.model.fields,field_description:iot.field_iot_device__identifier
+msgid "Identifier"
+msgstr "ຕົວລະບຸ"
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_select_printers_wizard__do_not_ask_again
+msgid ""
+"If checked, this dialog won't appear the next time you print and the "
+"selected printers will be used automatically."
+msgstr ""
+"ຖ້າເລືອກ, ກ່ອງຂໍ້ຄວາມນີ້ຈະບໍ່ປາກົດໃນຄັ້ງຕໍ່ໄປທີ່ທ່ານພິມ ແລະ ເຄື່ອງພິມທີ່ເລືອກໄວ້ຈະຖືກນຳໃຊ້ໂດຍອັດຕະໂນມັດ."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_pair_offline
+msgid ""
+"If your IoT Box has no access to the internet, you can pair it with your "
+"database using the pairing token."
+msgstr ""
+"ຖ້າ ກ່ອງ IoT ຂອງທ່ານບໍ່ສາມາດເຂົ້າເຖິງອິນເຕີເນັດໄດ້, ທ່ານສາມາດຈັບຄູ່ມັນກັບຖານຂໍ້ມູນຂອງທ່ານ ໂດຍໃຊ້ໂທເຄັ"
+"ນການຈັບຄູ່."
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__version
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "Image Version"
+msgstr "ເວີຊັນຂອງຮູບພາບ (Image)"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Internet is connected"
+msgstr "ອິນເຕີເນັດຖືກເຊື່ອມຕໍ່ແລ້ວ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Invalid PIN."
+msgstr "ລະຫັດ PIN ບໍ່ຖືກຕ້ອງ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Invalid data in message sent to the blackbox."
+msgstr "ຂໍ້ມູນບໍ່ຖືກຕ້ອງໃນຂໍ້ຄວາມທີ່ສົ່ງໄປຫາ ກ່ອງດຳ."
+
+#. module: iot
+#: model:ir.ui.menu,name:iot.iot_menu_root
+#: model:res.groups.privilege,name:iot.res_groups_privilege_iot
+msgid "IoT"
+msgstr "IoT"
+
+#. module: iot
+#: model:ir.model,name:iot.model_iot_box
+#: model:ir.model.fields,field_description:iot.field_iot_device__iot_id
+msgid "IoT Box"
+msgstr "ກ່ອງ IoT"
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/wizard/discovered_iot_box.py:0
+msgid "IoT Box %(serial_n)s %(pairing_code)s"
+msgstr "ກ່ອງ IoT %(serial_n)s %(pairing_code)s"
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/wizard/add_iot_box.py:0
+msgid "IoT Box %s found. Connecting..."
+msgstr "ພົບ ກ່ອງ IoT %s. ກຳລັງເຊື່ອມຕໍ່..."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_add_iot_box
+msgid "IoT Box detected correctly."
+msgstr "ກວດພົບ ກ່ອງ IoT ຢ່າງຖືກຕ້ອງ."
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/wizard/add_iot_box.py:0
+#: model_terms:ir.ui.view,arch_db:iot.view_add_iot_box
+msgid "IoT Box found. Connecting..."
+msgstr "ພົບ ກ່ອງ IoT. ກຳລັງເຊື່ອມຕໍ່..."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/test_iot_box.js:0
+msgid ""
+"IoT Box local network is %(lan_quality)s and internet is %(wan_quality)s"
+msgstr ""
+"ເຄືອຂ່າຍພາຍໃນຂອງ ກ່ອງ IoT ແມ່ນ %(lan_quality)s ແລະ ອິນເຕີເນັດແມ່ນ %(wan_quality)s"
+
+#. module: iot
+#: model:ir.actions.act_window,name:iot.iot_box_action
+#: model:ir.ui.menu,name:iot.iot_box_menu_action
+msgid "IoT Boxes"
+msgstr "ກ່ອງ IoT ທັງໝົດ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_device_search
+msgid "IoT Device"
+msgstr "ອຸປະກອນ IoT"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_ir_actions_report__device_ids
+msgid "IoT Devices"
+msgstr "ອຸປະກອນ IoT ທັງໝົດ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__iot_box_to_connect
+msgid "Iot Box To Connect"
+msgstr "ກ່ອງ IoT ທີ່ຈະເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__is_scanner
+msgid "Is Scanner"
+msgstr "ແມ່ນເຄື່ອງສະແກນ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__keyboard
+msgid "Keyboard"
+msgstr "ແປ້ນພິມ"
+
+#. module: iot
+#: model:ir.model,name:iot.model_iot_keyboard_layout
+#: model:ir.model.fields,field_description:iot.field_iot_device__keyboard_layout
+msgid "Keyboard Layout"
+msgstr "ຮູບແບບແປ້ນພິມ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__subtype__label_printer
+msgid "Label Printer"
+msgstr "ເຄື່ອງພິມສະຕິກເກີ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__write_uid
+#: model:ir.model.fields,field_description:iot.field_iot_box__write_uid
+#: model:ir.model.fields,field_description:iot.field_iot_device__write_uid
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__write_uid
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__write_uid
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__write_date
+#: model:ir.model.fields,field_description:iot.field_iot_box__write_date
+#: model:ir.model.fields,field_description:iot.field_iot_device__write_date
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__write_date
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__write_date
+#: model:ir.model.fields,field_description:iot.field_select_printers_wizard__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__layout
+msgid "Layout"
+msgstr "ຮູບແບບ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Make sure the IoT Box is powered on."
+msgstr "ໃຫ້ແນ່ໃຈວ່າ ກ່ອງ IoT ຖືກເປີດໄຟແລ້ວ."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Make sure the Network lights are on."
+msgstr "ໃຫ້ແນ່ໃຈວ່າໄຟສັນຍານເຄືອຂ່າຍເປີດຢູ່."
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__add_iot_box__stage__manual
+msgid "Manual"
+msgstr "ດ້ວຍຕົນເອງ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__manual_measurement
+msgid "Manual Measurement"
+msgstr "ການແທກດ້ວຍຕົນເອງ"
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_iot_device__manual_measurement
+msgid "Manually read the measurement from the device"
+msgstr "ອ່ານຄ່າການແທກຈາກອຸປະກອນດ້ວຍຕົນເອງ"
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_iot_device__is_scanner
+msgid "Manually switch the device type between keyboard and scanner"
+msgstr "ປ່ຽນປະເພດອຸປະກອນລະຫວ່າງແປ້ນພິມ ແລະ ເຄື່ອງສະແກນດ້ວຍຕົນເອງ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__manufacturer
+msgid "Manufacturer"
+msgstr "ຜູ້ຜະລິດ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__name
+#: model:ir.model.fields,field_description:iot.field_iot_device__name
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__name
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__name
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__connection__network
+msgid "Network"
+msgstr "ເຄືອຂ່າຍ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/backend/add_iot_box_form_controller.js:0
+msgid "New IoT Box connected!"
+msgstr "ເຊື່ອມຕໍ່ ກ່ອງ IoT ໃໝ່ແລ້ວ!"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_reset_password.js:0
+msgid "New SSH password for %s"
+msgstr "ລະຫັດຜ່ານ SSH ໃໝ່ສຳລັບ %s"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "No IoT Box found"
+msgstr "ບໍ່ພົບ ກ່ອງ IoT"
+
+#. module: iot
+#: model_terms:ir.actions.act_window,help:iot.iot_box_action
+msgid "No IoT Box found!"
+msgstr "ບໍ່ພົບ ກ່ອງ IoT!"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "No Vat Signing Card or Vat Signing Card broken."
+msgstr "ບໍ່ພົບບັດລົງລາຍເຊັນ VAT ຫຼື ບັດເພ່ເພ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/select_printer_wizard.js:0
+msgid "No printer selected"
+msgstr "ບໍ່ມີເຄື່ອງພິມທີ່ຖືກເລືອກ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/client_action/delete_local_storage.xml:0
+msgid "No report to display"
+msgstr "ບໍ່ມີລາຍງານທີ່ຈະສະແດງ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Note: It takes ~1 minute. After that, try to pair manually."
+msgstr "ໝາຍເຫດ: ໃຊ້ເວລາປະມານ 1 ນາທີ. ຫຼັງຈາກນັ້ນ, ໃຫ້ລອງຈັບຄູ່ດ້ວຍຕົນເອງ."
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__subtype__office_printer
+msgid "Office Printer"
+msgstr "ເຄື່ອງພິມຫ້ອງການ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__add_iot_box__stage__pair_offline
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Offline Pairing"
+msgstr "ການຈັບຄູ່ແບບອອຟໄລ"
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/models/ir_actions_report.py:0
+msgid ""
+"One of the printer used to print the document has been removed.\n"
+"To reset printers, go to the IoT App, Configuration tab, \"Reset Linked Printers\" and retry the operation."
+msgstr ""
+"ໜຶ່ງໃນເຄື່ອງພິມທີ່ໃຊ້ພິມເອກະສານໄດ້ຖືກລຶບອອກແລ້ວ.\n"
+"ເພື່ອຕັ້ງຄ່າເຄື່ອງພິມໃໝ່, ໃຫ້ໄປທີ່ແອັບ IoT, ແຖບການຕັ້ງຄ່າ, \"ລ້າງເຄື່ອງພິມທີ່ເຊື່ອມໂຍງ\" ແລ້ວລອງໃໝ່ອີກຄັ້"
+"ງ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Operation wasn't saved on the blackbox"
+msgstr "ການເຮັດວຽກບໍ່ຖືກບັນທຶກໄວ້ໃນ ກ່ອງດຳ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Optional: Plug a screen"
+msgstr "ທາງເລືອກ: ຕໍ່ໜ້າຈໍ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "PIN accepted."
+msgstr "ຍອມຮັບ PIN ແລ້ວ."
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/wizard/add_iot_box.py:0
+#: model_terms:ir.ui.view,arch_db:iot.view_pair_offline
+msgid "Pair an IoT Box offline"
+msgstr "ຈັບຄູ່ ກ່ອງ IoT ແບບອອຟໄລ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__pairing_code
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__pairing_code
+msgid "Pairing Code"
+msgstr "ລະຫັດຈັບຄູ່"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Pairing code received from a printer or screen"
+msgstr "ລະຫັດຈັບຄູ່ທີ່ໄດ້ຮັບຈາກເຄື່ອງພິມ ຫຼື ໜ້າຈໍ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__payment
+msgid "Payment Terminal"
+msgstr "ເຄື່ອງຮູດບັດຊຳລະເງິນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Please activate the Vat Signing Card with PIN."
+msgstr "ກະລຸນາເປີດໃຊ້ບັດລົງລາຍເຊັນ VAT ດ້ວຍ PIN."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Plug a screen or a printer to get a status."
+msgstr "ຕໍ່ໜ້າຈໍ ຫຼື ເຄື່ອງພິມ ເພື່ອເບິ່ງສະຖານະ."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Power is on"
+msgstr "ເປີດໄຟແລ້ວ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Power the box"
+msgstr "ຈ່າຍໄຟໃຫ້ກ່ອງ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_select_printers_wizard
+msgid "Print"
+msgstr "ພິມ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__printer
+msgid "Printer"
+msgstr "ເຄື່ອງພິມ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Printer is unreachable"
+msgstr "ບໍ່ສາມາດຕິດຕໍ່ເຄື່ອງພິມໄດ້"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_select_printers_wizard
+msgid "Printers"
+msgstr "ເຄື່ອງພິມທັງໝົດ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Printing timed out"
+msgstr "ໝົດເວລາການພິມ"
+
+#. module: iot
+#: model:ir.model,name:iot.model_publisher_warranty_contract
+msgid "Publisher Warranty Contract For IoT Box"
+msgstr "ສັນຍາການຮັບປະກັນຈາກຜູ້ຜະລິດສຳລັບ ກ່ອງ IoT"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__subtype__receipt_printer
+msgid "Receipt Printer"
+msgstr "ເຄື່ອງພິມໃບບິນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.xml:0
+msgid "Remote Debug"
+msgstr "ການດີບັກໄລຍະໄກ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.js:0
+msgid "Remote debug is %s."
+msgstr "ການດີບັກໄລຍະໄກແມ່ນ %s."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.xml:0
+msgid ""
+"Remote debug is enabled, the owner of the token you provided has access to both your IoT Box\n"
+"                and local network. If it's unintended, click on \"Disable\" below."
+msgstr ""
+"ເປີດໃຊ້ການດີບັກໄລຍະໄກແລ້ວ, ເຈົ້າຂອງໂທເຄັນທີ່ທ່ານໃຫ້ມາສາມາດເຂົ້າເຖິງທັງ ກ່ອງ IoT \n"
+"                ແລະ ເຄືອຂ່າຍພາຍໃນຂອງທ່ານ. ຖ້າບໍ່ໄດ້ຕັ້ງໃຈ, ໃຫ້ກົດ \"ປິດໃຊ້ງານ\" ລຸ່ມນີ້."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid ""
+"Repeated request. This request was already handled by the fiscal data "
+"module."
+msgstr "ຄຳຮ້ອງຂໍຊ້ຳຊ້ອນ. ຄຳຮ້ອງຂໍນີ້ໄດ້ຖືກຈັດການໂດຍໂມດູນຂໍ້ມູນການເງິນແລ້ວ."
+
+#. module: iot
+#: model:ir.model,name:iot.model_ir_actions_report
+msgid "Report Action"
+msgstr "ການດຳເນີນການລາຍງານ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.act_report_xml_view_tree_iot
+msgid "Report xml"
+msgstr "XML ຂອງລາຍງານ"
+
+#. module: iot
+#: model:ir.ui.menu,name:iot.iot_settings_menu_action
+msgid "Reporting"
+msgstr "ການລາຍງານ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__report_ids
+msgid "Reports"
+msgstr "ລາຍງານ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_device_view_form
+msgid "Reports to Auto-Print"
+msgstr "ລາຍງານທີ່ຈະພິມອັດຕະໂນມັດ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/client_action/delete_local_storage.xml:0
+msgid "Reports with linked printers"
+msgstr "ລາຍງານທີ່ມີເຄື່ອງພິມເຊື່ອມໂຍງຢູ່"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/client_action/delete_local_storage.xml:0
+#: model:ir.ui.menu,name:iot.iot_clear_selected_devices
+msgid "Reset Linked Printers"
+msgstr "ລ້າງເຄື່ອງພິມທີ່ເຊື່ອມໂຍງ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/backend/no_iot_box_found_form_controller.js:0
+msgid "Retrying in "
+msgstr "ກຳລັງລອງໃໝ່ໃນອີກ "
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__ssl_certificate_end_date
+msgid "SSL Certificate End Date"
+msgstr "ວັນໝົດອາຍຸໃບຢັ້ງຢືນ SSL"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_select_printers_wizard
+msgid "Sales Details"
+msgstr "ລາຍລະອຽດການຂາຍ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__scale
+msgid "Scale"
+msgstr "ເຄື່ອງຊັ່ງ"
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/wizard/add_iot_box.py:0
+msgid "Searching for an IoT Box..."
+msgstr "ກຳລັງຄົ້ນຫາ ກ່ອງ IoT..."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_select_box_to_connect
+msgid "Select IoT Box to connect"
+msgstr "ເລືອກ ກ່ອງ IoT ເພື່ອເຊື່ອມຕໍ່"
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/models/ir_actions_report.py:0
+msgid "Select Printers for %s"
+msgstr "ເລືອກເຄື່ອງພິມສຳລັບ %s"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/select_printer_wizard.js:0
+msgid "Select at least one printer"
+msgstr "ເລືອກຢ່າງໜ້ອຍໜຶ່ງເຄື່ອງພິມ"
+
+#. module: iot
+#: model:ir.model,name:iot.model_select_printers_wizard
+msgid "Selection of printers"
+msgstr "ການເລືອກເຄື່ອງພິມ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/iot_report_action.js:0
+msgid "Sending document to printer %s..."
+msgstr "ກຳລັງສົ່ງເອກະສານໄປຫາເຄື່ອງພິມ %s..."
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__connection__serial
+msgid "Serial"
+msgstr "ຊີຣຽວ (Serial)"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__serial_number
+#: model:ir.model.fields,field_description:iot.field_iot_discovered_box__serial_number
+msgid "Serial Number"
+msgstr "ໝາຍເລກຊີຣຽວ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_add_iot_box
+msgid ""
+"Setup in progress, should take maximum 1 minute...\n"
+"                    <span class=\"spinner-border spinner-border-sm\"/>"
+msgstr ""
+"ກຳລັງຕິດຕັ້ງ, ຄວນໃຊ້ເວລາບໍ່ເກີນ 1 ນາທີ...\n"
+"                    <span class=\"spinner-border spinner-border-sm\"/>"
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/wizard/add_iot_box.py:0
+msgid "Several IoT's detected"
+msgstr "ກວດພົບ ກ່ອງ IoT ຫຼາຍອັນ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__stage
+msgid "Stage"
+msgstr "ຂັ້ນຕອນ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_pair_offline
+msgid "Standard Pairing"
+msgstr "ການຈັບຄູ່ແບບມາດຕະຖານ"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__add_iot_box__stage__start
+msgid "Start"
+msgstr "ເລີ່ມ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/iot_report_action.js:0
+msgid "Started printing operation on printer %s..."
+msgstr "ເລີ່ມຕົ້ນການພິມໃນເຄື່ອງພິມ %s..."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__subtype
+msgid "Subtype"
+msgstr "ປະເພດຍ່ອຍ"
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_iot_device__subtype
+msgid "Subtype of device."
+msgstr "ປະເພດຍ່ອຍຂອງອຸປະກອນ."
+
+#. module: iot
+#: model:ir.model,name:iot.model_ir_config_parameter
+msgid "System Parameter"
+msgstr "ພາຣາມີເຕີລະບົບ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "Technical Information"
+msgstr "ຂໍ້ມູນທາງເຕັກນິກ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_device_view_form
+msgid "Test"
+msgstr "ທົດສອບ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/backend/iot_device_form.js:0
+msgid "Test page printed"
+msgstr "ພິມໜ້າທົດສອບແລ້ວ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/test_iot_box.js:0
+msgid "Testing communication with IoT Box and network quality, please wait..."
+msgstr "ກຳລັງທົດສອບການສື່ສານກັບ ກ່ອງ IoT ແລະ ຄຸນນະພາບເຄືອຂ່າຍ, ກະລຸນາລໍຖ້າ..."
+
+#. module: iot
+#: model:ir.model,name:iot.model_iot_channel
+msgid "The Websocket IoT Channel"
+msgstr "ຊ່ອງທາງ Websocket IoT"
+
+#. module: iot
+#. odoo-python
+#: code:addons/iot/models/ir_actions_report.py:0
+msgid ""
+"The report you are trying to print requires an IoT Box to be printed.\n"
+"Make sure you linked the report '%s' to the corresponding IoT printer device."
+msgstr ""
+"ລາຍງານທີ່ທ່ານພະຍາຍາມພິມຕ້ອງໃຊ້ ກ່ອງ IoT ໃນການພິມ.\n"
+"ໃຫ້ແນ່ໃຈວ່າທ່ານໄດ້ເຊື່ອມໂຍງລາຍງານ '%s' ກັບອຸປະກອນເຄື່ອງພິມ IoT ທີ່ກ່ຽວຂ້ອງແລ້ວ."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_pair_offline
+msgid "Then click on \"Configure\" under \"Odoo database connected\" section."
+msgstr "ຈາກນັ້ນກົດທີ່ \"ຕັ້ງຄ່າ\" ພາຍໃຕ້ສ່ວນ \"ຖານຂໍ້ມູນ Odoo ທີ່ເຊື່ອມຕໍ່\"."
+
+#. module: iot
+#: model_terms:ir.actions.act_window,help:iot.iot_device_action
+msgid "There is no device connected to your IoT Boxes"
+msgstr "ບໍ່ມີອຸປະກອນໃດເຊື່ອມຕໍ່ກັບ ກ່ອງ IoT ຂອງທ່ານ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.xml:0
+#: model:ir.model.fields,field_description:iot.field_add_iot_box__offline_pairing_token
+#: model:ir.model.fields,field_description:iot.field_iot_box__token
+msgid "Token"
+msgstr "ໂທເຄັນ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_device__type
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_iot_device__connection
+msgid "Type of connection."
+msgstr "ປະເພດຂອງການເຊື່ອມຕໍ່."
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_iot_device__type
+msgid "Type of device."
+msgstr "ປະເພດຂອງອຸປະກອນ."
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_iot_device__display_url
+msgid ""
+"URL of the page that will be displayed by the device, leave empty to use the"
+" customer facing display of the POS."
+msgstr ""
+"URL ຂອງໜ້າທີ່ຈະຖືກສະແດງໂດຍອຸປະກອນ, ປະວ່າງໄວ້ເພື່ອໃຊ້ຈໍສະແດງຜົນສຳລັບລູກຄ້າຂອງ POS."
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__connection__direct
+msgid "USB"
+msgstr "USB"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Unknown identifier."
+msgstr "ບໍ່ຮູ້ຈັກຕົວລະບຸ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Unknown printer error occurred"
+msgstr "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກກັບເຄື່ອງພິມ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Unspecified error."
+msgstr "ຂໍ້ຜິດພາດທີ່ບໍ່ໄດ້ລະບຸ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Unspecified warning."
+msgstr "ຄຳເຕືອນທີ່ບໍ່ໄດ້ລະບຸ."
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__unsupported
+msgid "Unsupported"
+msgstr "ບໍ່ຮອງຮັບ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_no_iot_box_found
+msgid "Use Pairing Code"
+msgstr "ໃຊ້ລະຫັດຈັບຄູ່"
+
+#. module: iot
+#: model:res.groups,name:iot.group_iot_user
+msgid "User"
+msgstr "ຜູ້ໃຊ້ງານ"
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__variant
+msgid "Variant"
+msgstr "ລຸ້ນຍ່ອຍ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Vat Signing Card blocked."
+msgstr "ບັດລົງລາຍເຊັນ VAT ຖືກບລັອກ."
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/network_utils/iot_http_service.js:0
+msgid "Vat Signing Card not compatible with Fiscal Data Module."
+msgstr "ບັດລົງລາຍເຊັນ VAT ບໍ່ເຂົ້າກັນກັບໂມດູນຂໍ້ມູນການເງິນ."
+
+#. module: iot
+#: model:ir.model.fields,field_description:iot.field_iot_box__version_commit_url
+msgid "Version Commit Url"
+msgstr "URL ເວີຊັນການຄອມມິດ (Commit Url)"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "Visible to all"
+msgstr "ທຸກຄົນເບິ່ງເຫັນໄດ້"
+
+#. module: iot
+#: model:ir.model.fields,help:iot.field_ir_actions_report__device_ids
+msgid ""
+"When setting a device here, the report will be printed through this device "
+"on the IoT Box"
+msgstr "ເມື່ອຕັ້ງອຸປະກອນຢູ່ບ່ອນນີ້, ລາຍງານຈະຖືກພິມຜ່ານອຸປະກອນນີ້ໃນ ກ່ອງ IoT"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_select_box_to_connect
+msgid "Which one do you want to connect?<br/><br/>"
+msgstr "ທ່ານຕ້ອງການເຊື່ອມຕໍ່ອັນໃດ?<br/><br/>"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.xml:0
+msgid ""
+"You can enable remote debug on your IoT Box by providing a Ngrok authtoken."
+msgstr "ທ່ານສາມາດເປີດໃຊ້ການດີບັກໄລຍະໄກໃນ ກ່ອງ IoT ໂດຍການລະບຸ Ngrok authtoken."
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "app."
+msgstr "ແອັບ."
+
+#. module: iot
+#: model_terms:ir.actions.act_window,help:iot.iot_box_action
+msgid "connect"
+msgstr "ເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_device_view_kanban
+msgid "connection_type"
+msgstr "ປະເພດການເຊື່ອມຕໍ່"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_kanban
+msgid "device-icon"
+msgstr "ໄອຄອນອຸປະກອນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.js:0
+msgid "disabled"
+msgstr "ປິດໃຊ້ງານ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+msgid "documentation"
+msgstr "ຄູ່ມືການໃຊ້ງານ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+msgid "e.g. ABDE0123"
+msgstr "ຕ.ຢ. ABDE0123"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.js:0
+msgid "enabled"
+msgstr "ເປີດໃຊ້ງານ"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.view_enter_pairing_code
+msgid ""
+"for Wi-Fi.<br/>\n"
+"                Then, connect the IoT Box to a printer (via USB cable) or a screen (via micro HDMI cable) to get the pairing code.<br/>\n"
+"                <br/>"
+msgstr ""
+"ສຳລັບ Wi-Fi.<br/>\n"
+"                ຈາກນັ້ນ, ເຊື່ອມຕໍ່ ກ່ອງ IoT ໃສ່ກັບເຄື່ອງພິມ (ຜ່ານສາຍ USB) ຫຼື ໜ້າຈໍ (ຜ່ານສາຍ "
+"micro HDMI) ເພື່ອຮັບລະຫັດຈັບຄູ່.<br/>\n"
+"                <br/>"
+
+#. module: iot
+#: model_terms:ir.ui.view,arch_db:iot.iot_box_view_form
+msgid "install the Fiscal Data Module"
+msgstr "ຕິດຕັ້ງໂມດູນຂໍ້ມູນການເງິນ"
+
+#. module: iot
+#. odoo-javascript
+#: code:addons/iot/static/src/view_widgets/iot_remote_debug.xml:0
+msgid ""
+"it enables remote access to your local network to the owner of the token."
+msgstr "ມັນຊ່ວຍໃຫ້ເຈົ້າຂອງໂທເຄັນສາມາດເຂົ້າເຖິງເຄືອຂ່າຍພາຍໃນຂອງທ່ານຈາກໄລຍະໄກໄດ້."
+
+#. module: iot
+#: model:ir.actions.client,name:iot.action_iot_delete_linked_devices_menu
+msgid "reset.linked.printers"
+msgstr "ລ້າງເຄື່ອງພິມທີ່ເຊື່ອມໂຍງ"
+
+#. module: iot
+#: model_terms:ir.actions.act_window,help:iot.iot_box_action
+msgid "to add an IoT Box."
+msgstr "ເພື່ອເພີ່ມ ກ່ອງ IoT."

@@ -1,0 +1,312 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ai_fields
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/properties_field_patch/properties_field_patch.xml:0
+#: model_terms:ir.ui.view,arch_db:ai_fields.view_model_fields_form
+#: model_terms:ir.ui.view,arch_db:ai_fields.view_model_form
+#, fuzzy
+msgid "AI"
+msgstr "AI"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Checkbox"
+msgstr "AI belgilash katakchasi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Date"
+msgstr "AI sanasi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Date & Time"
+msgstr "AI sanasi va vaqti"
+
+#. module: ai_fields
+#: model:ir.actions.server,name:ai_fields.ir_cron_fill_ai_fields_ir_actions_server
+#, fuzzy
+msgid "AI Fields: Compute AI fields"
+msgstr "AI maydonlari: AI maydonlarini hisoblash"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Float"
+msgstr "AI suzuvchi nuqta"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Html"
+msgstr "AI HTML"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Integer"
+msgstr "AI butun son"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Many2Many Tags"
+msgstr "AI Ko‘p-ko‘p teglar"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Many2Many Tags Avatar"
+msgstr "AI Ko‘p-ko‘p teglar avatari"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Many2One"
+msgstr "AI Ko‘p-bir"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Monetary"
+msgstr "AI pul birligi"
+
+#. module: ai_fields
+#: model:ir.model.fields,field_description:ai_fields.field_ir_model_fields__system_prompt
+#, fuzzy
+msgid "AI Prompt"
+msgstr "AI so‘rovi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Selection"
+msgstr "AI tanlovi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.js:0
+#, fuzzy
+msgid "AI Text"
+msgstr "AI matn"
+
+#. module: ai_fields
+#: model:ir.model.fields,help:ai_fields.field_ir_model_fields__ai
+#, fuzzy
+msgid "AI computed field"
+msgstr "AI hisoblanadigan maydon"
+
+#. module: ai_fields
+#: model:ir.model.fields,field_description:ai_fields.field_ir_model_fields__ai
+#, fuzzy
+msgid "AI field"
+msgstr "AI maydoni"
+
+#. module: ai_fields
+#: model:ir.model.fields,field_description:ai_fields.field_ir_model_fields__ai_domain
+#, fuzzy
+msgid "AI field domain"
+msgstr "AI maydon domeni"
+
+#. module: ai_fields
+#: model:ir.model,name:ai_fields.model_base
+#, fuzzy
+msgid "Base"
+msgstr "Asos"
+
+#. module: ai_fields
+#: model:ir.model.fields,field_description:ai_fields.field_ir_model_fields__display_name
+#: model:ir.model.fields,field_description:ai_fields.field_mail_message__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatish nomi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+msgid "Felt like a riddle I couldn’t solve"
+msgstr ""
+
+#. module: ai_fields
+#: model:ir.model,name:ai_fields.model_ir_model_fields
+#, fuzzy
+msgid "Fields"
+msgstr "Maydonlar"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+#, fuzzy
+msgid "Hmm... that was a bit fuzzy for me"
+msgstr "Hmm... bu men uchun biroz tushunarsiz edi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+#, fuzzy
+msgid "I couldn't connect the dots"
+msgstr "Bog‘liqliklarni topa olmadim"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+#, fuzzy
+msgid "I couldn't quite make sense of that"
+msgstr "Buni to‘liq anglay olmadim"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+#, fuzzy
+msgid "I gave it a shot, but came up empty"
+msgstr "Harakat qildim, ammo natija bo‘lmadi"
+
+#. module: ai_fields
+#: model:ir.model.fields,field_description:ai_fields.field_ir_model_fields__id
+#: model:ir.model.fields,field_description:ai_fields.field_mail_message__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: ai_fields
+#: model:ir.model,name:ai_fields.model_mail_message
+#, fuzzy
+msgid "Message"
+msgstr "Xabar"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+#, fuzzy
+msgid "Missing a few pieces of the puzzle"
+msgstr "Topishmoqning bir necha qismi yetishmayapti"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+#, fuzzy
+msgid "My circuits didn't quite get it"
+msgstr "Mening tizimim buni to‘liq tushunmadi"
+
+#. module: ai_fields
+#. odoo-python
+#: code:addons/ai_fields/tools.py:0
+#, fuzzy
+msgid "No allowed values are provided in the prompt."
+msgstr "So‘rovda ruxsat etilgan qiymatlar ko‘rsatilmagan"
+
+#. module: ai_fields
+#. odoo-python
+#: code:addons/ai_fields/tools.py:0
+#, fuzzy
+msgid "Oops, an unexpected error occurred."
+msgstr "Afsuski, kutilmagan xatolik yuz berdi"
+
+#. module: ai_fields
+#. odoo-python
+#: code:addons/ai_fields/tools.py:0
+#, fuzzy
+msgid "Oops, the connection failed."
+msgstr "Afsuski, ulanish amalga oshmadi"
+
+#. module: ai_fields
+#. odoo-python
+#: code:addons/ai_fields/tools.py:0
+#, fuzzy
+msgid "Oops, the request timed out."
+msgstr "Afsuski, so‘rov vaqti tugadi"
+
+#. module: ai_fields
+#. odoo-python
+#: code:addons/ai_fields/tools.py:0
+#, fuzzy
+msgid "Oops, the response could not be processed."
+msgstr "Afsuski, javob qayta ishlanmadi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/properties_field_patch/properties_field_patch.xml:0
+#, fuzzy
+msgid "Prompt"
+msgstr "So‘rov"
+
+#. module: ai_fields
+#: model:ir.model.fields,help:ai_fields.field_ir_model_fields__system_prompt
+#, fuzzy
+msgid "Prompt given to the AI model to compute the field value"
+msgstr "Maydon qiymatini hisoblash uchun AI modeliga berilgan so‘rov"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.xml:0
+#, fuzzy
+msgid "Refresh value"
+msgstr "Qiymatni yangilash"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/model/relational_model/record.js:0
+#, fuzzy
+msgid "That was a bit over my head"
+msgstr "Bu men uchun biroz murakkab edi"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/properties_field_patch/properties_field_patch.xml:0
+#, fuzzy
+msgid "Write a prompt, use '/field' to insert dynamic values"
+msgstr ""
+"So‘rov yozing, dinamik qiymatlarni kiritish uchun '/field' dan foydalaning"
+
+#. module: ai_fields
+#. odoo-python
+#: code:addons/ai_fields/models/models.py:0
+#, fuzzy
+msgid "You can not use the field %(field)s in a prompt."
+msgstr "So‘rovda %(field)s maydonidan foydalana olmaysiz"
+
+#. module: ai_fields
+#. odoo-javascript
+#: code:addons/ai_fields/static/src/views/fields/ai_fields/ai_fields.xml:0
+#, fuzzy
+msgid "ai icon"
+msgstr "AI belgisi"

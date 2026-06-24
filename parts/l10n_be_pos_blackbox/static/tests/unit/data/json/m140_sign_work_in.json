@@ -1,0 +1,21 @@
+{
+  "operationName": "M140_signWorkIn",
+  "variables": {
+    "data": {
+      "language": "NL",
+      "vatNo": "BE0000000097",
+      "estNo": "2000000042",
+      "posId": "CPOS0031234568",
+      "posFiscalTicketNo": 1010,
+      "posDateTime": "2024-07-29T15:50:39+02:00",
+      "posSwVersion": "1.8.3",
+      "terminalId": "POS-2-REC",
+      "deviceId": "80:1A:A6:75:66:FC",
+      "bookingPeriodId": "dffcd829-a0e5-41ca-a0ae-9eb887f95637",
+      "bookingDate": "2024-07-29",
+      "ticketMedium": "NONE",
+      "employeeId": "80113078968"
+    }
+  },
+  "query": "mutation M140_signWorkIn($data: WorkInOutInput!, $training: Boolean! = false) {\n  signWorkIn(data: $data, isTraining: $training) {\n    posId\n    posFiscalTicketNo\n    posDateTime\n    terminalId\n    deviceId\n    fdmSwVersion\n    eventOperation\n    digitalSignature\n    bufferCapacityUsed\n    fdmRef {\n      fdmId\n      fdmDateTime\n      eventLabel\n      eventCounter\n      totalCounter\n    }\n    warnings {\n      category\n      code\n      message\n      data {\n        name\n        value\n      }\n      showPos\n    }\n    informations {\n      category\n      code\n      message\n      data {\n        name\n        value\n      }\n      showPos\n    }\n  }\n}\n"
+}

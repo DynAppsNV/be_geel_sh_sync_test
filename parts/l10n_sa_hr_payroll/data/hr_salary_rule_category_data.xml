@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_sa_category_loan_pay" model="hr.salary.rule.category">
+        <field name="name">Loan Pay</field>
+        <field name="code">LOANPAY</field>
+        <field name="country_id" ref="base.sa"/>
+    </record>
+    <record id="l10n_sa_category_provision" model="hr.salary.rule.category">
+        <field name="name">Saudi Arabia Provision</field>
+        <field name="code">SA_PROV</field>
+        <field name="country_id" ref="base.sa"/>
+    </record>
+    <record id="l10n_sa_category_net_cost" model="hr.salary.rule.category">
+        <field name="name">Saudi Arabia Net Cost</field>
+        <field name="code">SA_NETCOST</field>
+        <field name="country_id" ref="base.sa"/>
+    </record>
+</odoo>

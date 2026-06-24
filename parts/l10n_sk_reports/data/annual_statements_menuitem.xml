@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <menuitem
+            id="menu_action_account_report_annual_statements"
+            name="Annual Statements (SK)"
+            action="account_reports.action_account_report_asr"
+            sequence="63"
+            parent="account.account_reports_legal_statements_menu"
+            groups="account.group_account_readonly"/>
+    </data>
+</odoo>

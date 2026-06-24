@@ -1,0 +1,2095 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * esg
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-08 17:41+0000\n"
+"PO-Revision-Date: 2026-06-06 13:14+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/esg/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_factor_line.py:0
+msgid "%(gas_name)s (%(quantity)s kg)"
+msgstr "%(gas_name)s (%(quantity)s ກິໂລ)"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_other_emission.py:0
+msgid "%s (copy)"
+msgstr "%s (ສຳເນົາ)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid ""
+"<i class=\"fa fa-exclamation-triangle me-2\"/>\n"
+"                    You are modifying an emission factor already assigned to emissions.\n"
+"                    Changing it will update these emissions. To keep the old value, duplicate the factor."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle me-2\"/>\n"
+"                    ທ່ານກຳລັງແກ້ໄຂປັດໄຈການປ່ອຍອາຍພິດທີ່ໄດ້ກຳນົດໃຫ້ກັບການປ່ອຍອາຍພິດແລ້ວ.\n"
+"                    ການປ່ຽນແປງມັນຈະອັບເດດການປ່ອຍອາຍພິດເຫຼົ່ານີ້. ເພື່ອຮັກສາຄ່າເກົ່າໄວ້, ໃຫ້ສ້າງປັ"
+"ດໄຈຊ້ຳ."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_kanban_view
+msgid "<span class=\"ms-1\">kgCO₂e</span>"
+msgstr "<span class=\"ms-1\">kgCO₂e</span>"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+msgid "<span class=\"ms-2\">kgCO₂e</span>"
+msgstr "<span class=\"ms-2\">kgCO₂e</span>"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.view_move_form_inherit_esg
+msgid "<span>kgCO₂e</span>"
+msgstr "<span>kgCO₂e</span>"
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_activity_type_name_uniq
+msgid "A tag with the same name already exists."
+msgstr "ມີແທັກທີ່ມີຊື່ດຽວກັນນີ້ຢູ່ແລ້ວ."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "ADEME data is already up to date."
+msgstr "ຂໍ້ມູນ ADEME ເປັນສະບັບຫຼ້າສຸດແລ້ວ."
+
+#. module: esg
+#: model:res.groups,comment:esg.esg_group_user
+msgid ""
+"Access to ESG features including viewing data, reporting, and mapping "
+"emissions with emissions factors, but without configuration rights."
+msgstr ""
+"ເຂົ້າເຖິງຟີເຈີ ESG ລວມທັງການເບິ່ງຂໍ້ມູນ, ການລາຍງານ, ແລະ ການເຊື່ອມໂຍງການປ່ອຍອາຍພິດກັບປັດໄຈການປ່ອ"
+"ຍອາຍພິດ, ແຕ່ບໍ່ມີສິດໃນການກຳນົດຄ່າ."
+
+#. module: esg
+#: model:ir.model,name:esg.model_account_account
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__account_id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__account_id
+msgid "Account"
+msgstr "ບັນຊີ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__account_move_line_ids
+msgid "Account Move Line"
+msgstr "ລາຍການເຄື່ອນໄຫວບັນຊີ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Accounting"
+msgstr "ການບັນຊີ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+msgid "Act"
+msgstr "ດຳເນີນການ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_needaction
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_needaction
+msgid "Action Needed"
+msgstr "ຕ້ອງດຳເນີນການ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__active
+msgid "Active"
+msgstr "ເປີດໃຊ້"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__activity_flow
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_form_view
+msgid "Activity Flow"
+msgstr "ຂັ້ນຕອນກິດຈະກຳ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__activity_type_id
+msgid "Activity Type"
+msgstr "ປະເພດກິດຈະກຳ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_activity_type
+msgid "Activity Type ESG"
+msgstr "ປະເພດກິດຈະກຳ ESG"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__activity_type_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__activity_type_ids
+msgid "Activity Types"
+msgstr "ປະເພດກິດຈະກຳ"
+
+#. module: esg
+#: model:res.groups,name:esg.esg_group_manager
+msgid "Administrator"
+msgstr "ຜູ້ດູແລລະບົບ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__price_subtotal
+msgid "Amount"
+msgstr "ຈຳນວນ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+msgid ""
+"An assignation with the rules (%(account_id)s, %(partner_id)s, "
+"%(product_id)s) already exists in the emission factor '%(factor_name)s'."
+msgstr ""
+"ການກຳນົດດ້ວຍກົດເກນ (%(account_id)s, %(partner_id)s, %(product_id)s) ມີຢູ່ແລ້ວໃນປັດໄຈກ"
+"ານປ່ອຍອາຍພິດ '%(factor_name)s'."
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#: code:addons/esg/static/src/widgets/emission_factor_x2many_field/emission_factor_list_renderer.js:0
+msgid "Any Account"
+msgstr "ບັນຊີໃດກໍໄດ້"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#: code:addons/esg/static/src/widgets/emission_factor_x2many_field/emission_factor_list_renderer.js:0
+msgid "Any Partner"
+msgstr "ຄູ່ຄ້າໃດກໍໄດ້"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#: code:addons/esg/static/src/widgets/emission_factor_x2many_field/emission_factor_list_renderer.js:0
+msgid "Any Product"
+msgstr "ສິນຄ້າໃດກໍໄດ້"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+msgid "Application Period"
+msgstr "ໄລຍະເວລາທີ່ນຳໃຊ້"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+msgid "Archived"
+msgstr "ຈັດເກັບແລ້ວ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Assign"
+msgstr "ກຳນົດ"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.factors_auto_assignment_wizard_action
+#: model:ir.actions.server,name:esg.action_apply_factors_auto_assignment
+msgid "Assign Emission Factors"
+msgstr "ກຳນົດປັດໄຈການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_assignation_line
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__assignation_line_ids
+msgid "Assignation Line"
+msgstr "ລາຍການການກຳນົດ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Assignations"
+msgstr "ການກຳນົດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_attachment_count
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/carbon_report.py:0
+msgid "Audit Emissions"
+msgstr "ກວດສອບການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_factors_auto_assignment_wizard
+msgid "Auto-assignment of emission factors to move lines"
+msgstr "ການກຳນົດປັດໄຈການປ່ອຍອາຍພິດໃຫ້ລາຍການເຄື່ອນໄຫວໂດຍອັດຕະໂນມັດ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_ch4b
+msgid "Biogenic Methane (CH₄)"
+msgstr "ມີເທນຊີວະພາບ (CH₄)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_ch4b
+msgid "Biogenic Methane (CH₄) (t)"
+msgstr "ມີເທນຊີວະພາບ (CH₄) (ໂຕນ)"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.activity.type,name:esg.esg_activity_type_6
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_6
+msgid "Business Travel"
+msgstr "ການເດີນທາງທຸລະກິດ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c4f6
+msgid "C4F6"
+msgstr "C4F6"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_c4f8o
+msgid "C4F8O"
+msgstr "C4F8O"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c5f8
+msgid "C5F8"
+msgstr "C5F8"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "CH₄"
+msgstr "CH₄"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "CO₂"
+msgstr "CO₂"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_co2
+msgid "CO₂ (t)"
+msgstr "CO₂ (ໂຕນ)"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Calculation"
+msgstr "ການຄິດໄລ່"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__can_be_downloaded
+msgid "Can Be Downloaded"
+msgstr "ສາມາດດາວໂຫຼດໄດ້"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Can be added manually"
+msgstr "ສາມາດເພີ່ມໄດ້ດ້ວຍຕົນເອງ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_2
+msgid "Capital Goods"
+msgstr "ສິນຄ້າທຶນ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+#: code:addons/esg/static/src/views/esg_carbon_emission_graph/esg_carbon_emission_graph_controller.js:0
+#: code:addons/esg/static/src/views/esg_carbon_emission_pivot/esg_carbon_emission_pivot_controller.js:0
+#: model:ir.actions.act_window,name:esg.action_carbon_emission_report_analytics_views
+#: model:ir.ui.menu,name:esg.menu_esg_carbon_analytics
+msgid "Carbon Analytics"
+msgstr "ການວິເຄາະກາກບອນ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_co2
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__co2
+msgid "Carbon Dioxide (CO₂)"
+msgstr "ກາກບອນດີອົກຊິດ (CO₂)"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_carbon_emissions
+#: model:ir.ui.menu,name:esg.menu_esg_collect_carbon_emissions
+msgid "Carbon Emissions"
+msgstr "ການປ່ອຍອາຍພິດກາກບອນ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+#: model:account.report,name:esg.carbon_report
+#: model:account.report.line,name:esg.carbon_report_line
+#: model:ir.actions.client,name:esg.action_view_carbon_report
+#: model:ir.ui.menu,name:esg.menu_esg_carbon_report
+msgid "Carbon Footprint"
+msgstr "ຮອຍຕີນກາກບອນ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_co
+msgid "Carbon Monoxide"
+msgstr "ກາກບອນໂມໂນອົກຊິດ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_carbon_report_handler
+msgid "Carbon Report Custom Handler"
+msgstr "ຕົວຈັດການລາຍງານກາກບອນແບບກຳນົດເອງ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_cf4
+msgid "Carbon Tetrafluoride (CF₄)"
+msgstr "ກາກບອນເຕຕຣາຟລູໂອໄຣ (CF₄)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_cf4
+msgid "Carbon Tetrafluoride (CF₄) (t)"
+msgstr "ກາກບອນເຕຕຣາຟລູໂອໄຣ (CF₄) (ໂຕນ)"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_source
+msgid ""
+"Categorize your data into Scope 1, 2, and 3 to structure your carbon "
+"emission reporting."
+msgstr ""
+"ຈັດໝວດໝູ່ຂໍ້ມູນຂອງທ່ານເປັນ Scope 1, 2, ແລະ 3 ເພື່ອສ້າງໂຄງສ້າງການລາຍງານການປ່ອຍອາຍພິດກາກບອນຂອ"
+"ງທ່ານ."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_gas__category
+msgid "Category"
+msgstr "ໝວດໝູ່"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_account.py:0
+msgid ""
+"Changing the account type to anything other than %(valid_account_type_names)s will reset all emission factors linked to journal items using this account.\n"
+"In addition, it will remove all the ESG assignations lines linked to that account.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"ການປ່ຽນປະເພດບັນຊີເປັນຢ່າງອື່ນນອກຈາກ %(valid_account_type_names)s ຈະຣີເຊັດປັດໄຈການປ່ອຍອາຍ"
+"ພິດທັງໝົດທີ່ເຊື່ອມໂຍງກັບລາຍການບັນຊີທີ່ໃຊ້ບັນຊີນີ້.\n"
+"ນອກຈາກນັ້ນ, ມັນຈະລຶບລາຍການການກຳນົດ ESG ທັງໝົດທີ່ເຊື່ອມໂຍງກັບບັນຊີນັ້ນ.\n"
+"ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການສືບຕໍ່?"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__child_ids
+msgid "Child"
+msgstr "ລູກ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+msgid "Close the onboarding tips"
+msgstr "ປິດຄຳແນະນຳເລີ່ມຕົ້ນ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__code
+#: model:ir.model.fields,field_description:esg.field_esg_gas__code
+msgid "Code"
+msgstr "ລະຫັດ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#: model:ir.ui.menu,name:esg.menu_esg_collect
+msgid "Collect"
+msgstr "ເກັບກຳ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.xml:0
+msgid "Collect Emissions"
+msgstr "ເກັບກຳການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__color
+msgid "Color"
+msgstr "ສີ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__company_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__company_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Company Facilities"
+msgstr "ສິ່ງອຳນວຍຄວາມສະດວກຂອງບໍລິສັດ"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_direct_indirect__company_reporting
+msgid "Company Reporting"
+msgstr "ການລາຍງານຂອງບໍລິສັດ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Company Vehicles"
+msgstr "ພາຫະນະຂອງບໍລິສັດ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Company reporting"
+msgstr "ການລາຍງານຂອງບໍລິສັດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__scope_complete_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__complete_name
+msgid "Complete Name"
+msgstr "ຊື່ເຕັມ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__compute_method
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__compute_method
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__compute_method
+msgid "Compute Method"
+msgstr "ວິທີການຄິດໄລ່"
+
+#. module: esg
+#: model:product.template,name:esg.product_computer_product_template
+msgid "Computer"
+msgstr "ຄອມພິວເຕີ"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_configuration
+msgid "Configuration"
+msgstr "ການກຳນົດຄ່າ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_factors_auto_assignment_wizard__start_date
+msgid ""
+"Correspond to the period to consider for the assignment of the factors to "
+"the move lines."
+msgstr "ກົງກັບໄລຍະເວລາທີ່ຈະພິຈາລະນາສຳລັບການກຳນົດປັດໄຈໃຫ້ກັບລາຍການເຄື່ອນໄຫວ."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_esg_gasses_list
+msgid "Create and configure greenhouse gases."
+msgstr "ສ້າງ ແລະ ກຳນົດຄ່າອາຍພິດເຮືອນແກ້ວ."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_factor
+msgid "Create emission factors."
+msgstr "ສ້າງປັດໄຈການປ່ອຍອາຍພິດ."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_source
+msgid "Create emission sources."
+msgstr "ສ້າງແຫຼ່ງການປ່ອຍອາຍພິດ."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_database__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_gas__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__create_uid
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_database__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_gas__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__create_date
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__currency_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__currency_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__currency_id
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+#. module: esg
+#: model:ir.actions.client,name:esg.ir_actions_esg_dashboard_action
+#: model:ir.ui.menu,name:esg.menu_esg_dashboard
+msgid "Dashboard"
+msgstr "ແຜງຄວບຄຸມ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_database
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__database_id
+msgid "Database"
+msgstr "ຖານຂໍ້ມູນ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "Database file is missing"
+msgstr "ໄຟລ໌ຖານຂໍ້ມູນຫາຍສາບສູນ"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_view_database
+msgid "Databases"
+msgstr "ຖານຂໍ້ມູນ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__date
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__date
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__date_end
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__date_end
+msgid "Date End"
+msgstr "ວັນທີສິ້ນສຸດ"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_esg_gasses_list
+msgid ""
+"Define gases to convert emissions into CO₂ equivalents using Global Warming "
+"Potential values."
+msgstr ""
+"ກຳນົດອາຍພິດເພື່ອແປງການປ່ອຍອາຍພິດໃຫ້ເປັນ CO₂ ທຽບເທົ່າ ໂດຍໃຊ້ຄ່າທ່າແຮງເຮັດໃຫ້ໂລກຮ້ອນ (GWP)."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_factor
+msgid "Define how activity data translates into CO₂e."
+msgstr "ກຳນົດວິທີການແປງຂໍ້ມູນກິດຈະກຳໃຫ້ເປັນ CO₂e."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__description
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Description"
+msgstr "ຄຳອະທິບາຍ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+msgid "Detailed by gas"
+msgstr "ລະອຽດຕາມອາຍພິດ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Direct Emissions"
+msgstr "ການປ່ອຍອາຍພິດໂດຍກົງ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_account__display_name
+#: model:ir.model.fields,field_description:esg.field_account_move__display_name
+#: model:ir.model.fields,field_description:esg.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_report_handler__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_database__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_gas__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__display_name
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+msgid ""
+"Do you want to automatically assign the selected emission factor(s) to the "
+"move lines based on your predefined assignation rules?"
+msgstr ""
+"ທ່ານຕ້ອງການກຳນົດປັດໄຈການປ່ອຍອາຍພິດທີ່ເລືອກໃຫ້ກັບລາຍການເຄື່ອນໄຫວໂດຍອັດຕະໂນມັດ ໂດຍອີງຕາມກົດເກນກາ"
+"ນກຳນົດທີ່ຕັ້ງໄວ້ກ່ອນໜ້ານີ້ຫຼືບໍ່?"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+#: model_terms:ir.ui.view,arch_db:esg.database_kanban_view
+msgid "Download"
+msgstr "ດາວໂຫຼດ"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_database
+msgid ""
+"Download a certified database we provide or upload your own in Odoo format."
+msgstr ""
+"ດາວໂຫຼດຖານຂໍ້ມູນທີ່ໄດ້ຮັບການຮັບຮອງທີ່ພວກເຮົາສະໜອງໃຫ້ ຫຼື ອັບໂຫຼດຂອງທ່ານເອງໃນຮູບແບບ Odoo."
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_indirect_others__downstream
+msgid "Downstream"
+msgstr "ປາຍນ້ຳ (ຂະບວນການເບື້ອງປາຍ)"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_5
+msgid "Downstream Leased Assets"
+msgstr "ຊັບສິນເຊົ່າປາຍນ້ຳ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_1
+msgid "Downstream Transportation and Distribution"
+msgstr "ການຂົນສົ່ງ ແລະ ການກະຈາຍສິນຄ້າປາຍນ້ຳ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Downstream activities"
+msgstr "ກິດຈະກຳປາຍນ້ຳ"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.esg_main_menu
+#: model:res.groups.privilege,name:esg.res_groups_privilege_esg
+msgid "ESG"
+msgstr "ESG"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_carbon_emission_report
+msgid "ESG Carbon Emissions Report"
+msgstr "ລາຍງານການປ່ອຍອາຍພິດກາກບອນ ESG"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Effortless"
+msgstr "ງ່າຍດາຍ"
+
+#. module: esg
+#: model:account.account,name:esg.account_electricity
+msgid "Electricity"
+msgstr "ໄຟຟ້າ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_1_2
+msgid "Electricity for Cars"
+msgstr "ໄຟຟ້າສຳລັບລົດ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_1_1
+msgid "Electricity for Office"
+msgstr "ໄຟຟ້າສຳລັບຫ້ອງການ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Emission"
+msgstr "ການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_emission_factor
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_emission_factor_id
+msgid "Emission Factor"
+msgstr "ປັດໄຈການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_emission_factor_line
+msgid "Emission Factor Line"
+msgstr "ລາຍການປັດໄຈການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_view_emission_factor
+#: model:ir.ui.menu,name:esg.menu_esg_emission_factors
+msgid "Emission Factors"
+msgstr "ປັດໄຈການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_emission_source
+msgid "Emission Source"
+msgstr "ແຫຼ່ງການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_view_emission_source
+#: model:ir.ui.menu,name:esg.menu_esg_type_of_emissions
+msgid "Emission Sources"
+msgstr "ແຫຼ່ງການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_list_view
+msgid "Emission source"
+msgstr "ແຫຼ່ງການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Emissions"
+msgstr "ການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_bank_statement_line__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_account_move__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_emissions_value
+msgid "Emissions (kgCO₂e)"
+msgstr "ການປ່ອຍອາຍພິດ (kgCO₂e)"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_emitted_emission_report_views
+#: model_terms:ir.actions.act_window,help:esg.action_offset_emission_report_views
+msgid ""
+"Emissions data will sync automatically from accounting when you receive supplier invoices.<br>\n"
+"                You can also manually add other emission not linked to journal entries."
+msgstr ""
+"ຂໍ້ມູນການປ່ອຍອາຍພິດຈະຊິງຄ໌ໂດຍອັດຕະໂນມັດຈາກການບັນຊີເມື່ອທ່ານໄດ້ຮັບໃບແຈ້ງໜີ້ຈາກຜູ້ສະໜອງ.<br>\n"
+"                ທ່ານຍັງສາມາດເພີ່ມການປ່ອຍອາຍພິດອື່ນໆທີ່ບໍ່ໄດ້ເຊື່ອມໂຍງກັບລາຍການບັນຊີໄດ້ດ້ວຍຕົນເອງ."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_move.py:0
+msgid "Emissions of %(move_name)s"
+msgstr "ການປ່ອຍອາຍພິດຂອງ %(move_name)s"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.js:0
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.xml:0
+msgid "Emissions to define"
+msgstr "ການປ່ອຍອາຍພິດທີ່ຕ້ອງກຳນົດ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_factor.py:0
+msgid "Emissions using %(emission_factor)s"
+msgstr "ການປ່ອຍອາຍພິດໂດຍໃຊ້ %(emission_factor)s"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Emitted"
+msgstr "ທີ່ປ່ອຍອອກມາ"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_emitted_emission_report_views
+#: model:ir.ui.menu,name:esg.menu_esg_emitted_emissions
+msgid "Emitted Emissions"
+msgstr "ການປ່ອຍອາຍພິດທີ່ເກີດຂຶ້ນ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.activity.type,name:esg.esg_activity_type_5
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_7
+msgid "Employee Commuting"
+msgstr "ການເດີນທາງຂອງພະນັກງານ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__end_date
+msgid "End Date"
+msgstr "ວັນທີສິ້ນສຸດ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_4
+msgid "End-of-Life Treatment of Sold Products"
+msgstr "ການຈັດການຊາກຜະລິດຕະພັນທີ່ຂາຍ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "End-of-life Treatment of Sold Products"
+msgstr "ການຈັດການຊາກຜະລິດຕະພັນທີ່ຂາຍ"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_0
+msgid "Energy Consumption"
+msgstr "ການຊົມໃຊ້ພະລັງງານ"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_environment
+msgid "Environment"
+msgstr "ສິ່ງແວດລ້ອມ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__esg_other_emission_ids
+msgid "Esg Other Emission"
+msgstr "ການປ່ອຍອາຍພິດອື່ນໆ ESG"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_bank_statement_line__esg_show_emissions_button
+#: model:ir.model.fields,field_description:esg.field_account_move__esg_show_emissions_button
+msgid "Esg Show Emissions Button"
+msgstr "ປຸ່ມສະແດງການປ່ອຍອາຍພິດ ESG"
+
+#. module: esg
+#: model:account.account,name:esg.account_expense
+msgid "Expense"
+msgstr "ລາຍຈ່າຍ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_follower_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_partner_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_8
+msgid "Food Consumption"
+msgstr "ການບໍລິໂພກອາຫານ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_ch4f
+msgid "Fossil Methane (CH₄)"
+msgstr "ມີເທນຟອດຊິນ (CH₄)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_ch4f
+msgid "Fossil Methane (CH₄) (t)"
+msgstr "ມີເທນຟອດຊິນ (CH₄) (ໂຕນ)"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_6
+msgid "Franchises"
+msgstr "ແຟຣນໄຊສ໌"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Fuel and Energy Related Activities"
+msgstr "ກິດຈະກຳທີ່ກ່ຽວຂ້ອງກັບເຊື້ອໄຟ ແລະ ພະລັງງານ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_3
+msgid "Fuel and Energy-Related Activites"
+msgstr "ກິດຈະກຳທີ່ກ່ຽວຂ້ອງກັບເຊື້ອໄຟ ແລະ ພະລັງງານ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_4
+msgid "Fugitive Emissions"
+msgstr "ການປ່ອຍອາຍພິດຮົ່ວໄຫຼ"
+
+#. module: esg
+#: model:res.groups,comment:esg.esg_group_manager
+msgid "Full access to all ESG features including configuration rights."
+msgstr "ເຂົ້າເຖິງຟີເຈີ ESG ທັງໝົດໄດ້ຢ່າງເຕັມທີ່ ລວມທັງສິດໃນການກຳນົດຄ່າ."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.esg_gas_kanban_view
+msgid "GWP:"
+msgstr "GWP:"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/carbon_report/filters.xml:0
+#: model:ir.model,name:esg.model_esg_gas
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__gas_id
+msgid "Gas"
+msgstr "ອາຍພິດ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Gas Emissions"
+msgstr "ການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__gas_line_ids
+msgid "Gas Line"
+msgstr "ລາຍການອາຍພິດ"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_esg_gasses_list
+#: model:ir.ui.menu,name:esg.menu_esg_configuration_carbon_emissions_gasses
+msgid "Gases"
+msgstr "ອາຍພິດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_gas__global_warming_potential
+msgid "Global Warming Potential (GWP)"
+msgstr "ທ່າແຮງເຮັດໃຫ້ໂລກຮ້ອນ (GWP)"
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_gas_non_null_gwp
+msgid "Global Warming Potential (GWP) cannot be equal to 0."
+msgstr "ຄ່າທ່າແຮງເຮັດໃຫ້ໂລກຮ້ອນ (GWP) ບໍ່ສາມາດເທົ່າກັບ 0 ໄດ້."
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_125
+msgid "HFC-125"
+msgstr "HFC-125"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_134
+msgid "HFC-134"
+msgstr "HFC-134"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_134a
+msgid "HFC-134a"
+msgstr "HFC-134a"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_hfc_134a
+msgid "HFC-134a (t)"
+msgstr "HFC-134a (ໂຕນ)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_143
+msgid "HFC-143"
+msgstr "HFC-143"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_143a
+msgid "HFC-143a"
+msgstr "HFC-143a"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_152
+msgid "HFC-152"
+msgstr "HFC-152"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_152a
+msgid "HFC-152a"
+msgstr "HFC-152a"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_hfc_152a
+msgid "HFC-152a (t)"
+msgstr "HFC-152a (ໂຕນ)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_161
+msgid "HFC-161"
+msgstr "HFC-161"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_227ea
+msgid "HFC-227ea"
+msgstr "HFC-227ea"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_23
+msgid "HFC-23"
+msgstr "HFC-23"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_hfc_23
+msgid "HFC-23 (t)"
+msgstr "HFC-23 (ໂຕນ)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_236cb
+msgid "HFC-236cb"
+msgstr "HFC-236cb"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_32
+msgid "HFC-32"
+msgstr "HFC-32"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_41
+msgid "HFC-41"
+msgstr "HFC-41"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "HFCs"
+msgstr "HFCs"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_cf3ochf2
+msgid "HFE-125"
+msgstr "HFE-125"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_chf2ch2ocf3
+msgid "HFE-245fa1"
+msgstr "HFE-245fa1"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_cf3cf2ch2och3
+msgid "HFE-365mcf3"
+msgstr "HFE-365mcf3"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_chf2_c4f9och3
+msgid "HFE-7100"
+msgstr "HFE-7100"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__has_message
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c2f6
+msgid "Hexafluoroethane (C₂F₆)"
+msgstr "ເຮັກຊາຟລູໂອອີເທນ (C₂F₆)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_c2f6
+msgid "Hexafluoroethane (C₂F₆) (t)"
+msgstr "ເຮັກຊາຟລູໂອອີເທນ (C₂F₆) (ໂຕນ)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "High Uncertainty (20-50%)"
+msgstr "ຄວາມບໍ່ແນ່ນອນສູງ (20-50%)"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__hfc
+msgid "Hydrofluorocarbons (HFCs)"
+msgstr "ໄຮໂດຣຟລູໂອກາກບອນ (HFCs)"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_account__id
+#: model:ir.model.fields,field_description:esg.field_account_move__id
+#: model:ir.model.fields,field_description:esg.field_account_move_line__id
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__id
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_report_handler__id
+#: model:ir.model.fields,field_description:esg.field_esg_database__id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__id
+#: model:ir.model.fields,field_description:esg.field_esg_gas__id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__id
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_7
+msgid "IT Operations"
+msgstr "ການດຳເນີນງານດ້ານໄອທີ (IT)"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_factors_auto_assignment_wizard__replace_previous_factors
+msgid ""
+"If checked, any emission lines that already have an emission factor "
+"(manually or automatically assigned) will be reassigned if a matching factor"
+" is found based on your configuration."
+msgstr ""
+"ຖ້າໝາຍເລືອກ, ລາຍການການປ່ອຍອາຍພິດໃດໆທີ່ມີປັດໄຈການປ່ອຍອາຍພິດຢູ່ແລ້ວ (ບໍ່ວ່າຈະກຳນົດດ້ວຍຕົນເອງ ຫຼື ອັດຕ"
+"ະໂນມັດ) ຈະຖືກກຳນົດໃໝ່ ຖ້າພົບປັດໄຈທີ່ກົງກັນຕາມການກຳນົດຄ່າຂອງທ່ານ."
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_needaction
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຖ້າໝາຍເລືອກ, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງໄດ້ຮັບຄວາມສົນໃຈຈາກທ່ານ."
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_has_error
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_has_sms_error
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_has_error
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຖ້າໝາຍເລືອກ, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__image
+msgid "Image"
+msgstr "ຮູບພາບ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Included in Accounting"
+msgstr "ລວມຢູ່ໃນການບັນຊີ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Included in Invoicing"
+msgstr "ລວມຢູ່ໃນການອອກໃບແຈ້ງໜີ້"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Indirect Emissions"
+msgstr "ການປ່ອຍອາຍພິດທາງອ້ອມ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "Invalid URL."
+msgstr "URL ບໍ່ຖືກຕ້ອງ."
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Investment"
+msgstr "ການລົງທຶນ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_7
+msgid "Investments"
+msgstr "ການລົງທຶນ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_is_follower
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_is_follower
+msgid "Is Follower"
+msgstr "ເປັນຜູ້ຕິດຕາມ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_gas__is_mandatory_gas
+msgid "Is Mandatory Gas"
+msgstr "ເປັນອາຍພິດທີ່ບັງຄັບ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "JSON response could not be decoded."
+msgstr "ບໍ່ສາມາດຖອດລະຫັດຄຳຕອບ JSON ໄດ້."
+
+#. module: esg
+#: model:ir.model,name:esg.model_account_move
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__move_id
+msgid "Journal Entry"
+msgstr "ລາຍການບັນຊີປະຈຳວັນ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_account_move_line
+msgid "Journal Item"
+msgstr "ລາຍການບັນຊີ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__kanban_text
+msgid "Kanban Text"
+msgstr "ຂໍ້ຄວາມ Kanban"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+msgid "Last 6 Months"
+msgstr "6 ເດືອນຜ່ານມາ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__last_update
+msgid "Last Update"
+msgstr "ອັບເດດຫຼ້າສຸດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_database__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_gas__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__write_uid
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_database__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_gas__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__write_date
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+msgid "Last Year"
+msgstr "ປີຜ່ານມາ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__latest_version
+msgid "Latest Version"
+msgstr "ສະບັບຫຼ້າສຸດ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Leased Assets"
+msgstr "ຊັບສິນເຊົ່າ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__level
+msgid "Level"
+msgstr "ລະດັບ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Low Uncertainty (< 5%)"
+msgstr "ຄວາມບໍ່ແນ່ນອນຕ່ຳ (< 5%)"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_2
+msgid "Material Production"
+msgstr "ການຜະລິດວັດສະດຸ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#: model:ir.ui.menu,name:esg.menu_esg_measure
+msgid "Measure"
+msgstr "ວັດແທກ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Medium Uncertainty (5-20%)"
+msgstr "ຄວາມບໍ່ແນ່ນອນປານກາງ (5-20%)"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_has_error
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_has_error
+msgid "Message Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__ch4
+msgid "Methane (CH₄)"
+msgstr "ມີເທນ (CH₄)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_ch4
+msgid "Methane (generic) (CH₄)"
+msgstr "ມີເທນ (ທົ່ວໄປ) (CH₄)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Missing Emission Factor"
+msgstr "ຂາດປັດໄຈການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_2
+msgid "Mobile Combustion"
+msgstr "ການເຜົາໄໝ້ແບບເຄື່ອນທີ່"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_factor__compute_method__monetary
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+msgid "Monetary"
+msgstr "ດ້ານການເງິນ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "NF₃"
+msgstr "NF₃"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__name
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__name
+#: model:ir.model.fields,field_description:esg.field_esg_database__name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__name
+#: model:ir.model.fields,field_description:esg.field_esg_gas__name
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__name
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__nb_linked_emissions
+msgid "Nb Linked Emissions"
+msgstr "ຈຳນວນການປ່ອຍອາຍພິດທີ່ເຊື່ອມໂຍງ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_neutral
+msgid "Neutral"
+msgstr "ເປັນກາງ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.xml:0
+msgid "New"
+msgstr "ໃໝ່"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_nf3
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__nf3
+msgid "Nitrogen Trifluoride"
+msgstr "ໄນໂຕຣເຈນ ໄຕຟລູໂອໄຣ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_n2o
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__n2o
+msgid "Nitrous Oxide (N₂O)"
+msgstr "ໄນຕຣັດອອກໄຊ (N₂O)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_n2o
+msgid "Nitrous Oxide (N₂O) (t)"
+msgstr "ໄນຕຣັດອອກໄຊ (N₂O) (ໂຕນ)"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_emitted_emission_report_views
+#: model_terms:ir.actions.act_window,help:esg.action_offset_emission_report_views
+msgid "No Emission yet!"
+msgstr "ຍັງບໍ່ມີການປ່ອຍອາຍພິດເທື່ອ!"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/wizard/factors_auto_assignment_wizard.py:0
+msgid "No emissions were updated."
+msgstr "ບໍ່ມີການປ່ອຍອາຍພິດໃດຖືກອັບເດດ."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_database
+msgid "No source database found."
+msgstr "ບໍ່ພົບຖານຂໍ້ມູນຕົ້ນທາງ."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+msgid "Not detailed by gas"
+msgstr "ບໍ່ໄດ້ລະອຽດຕາມອາຍພິດ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "Not loaded"
+msgstr "ບໍ່ໄດ້ໂຫຼດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__note
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__note
+msgid "Note"
+msgstr "ໝາຍເຫດ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_needaction_counter
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈຳນວນການດຳເນີນການ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_has_error_counter
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_needaction_counter
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_has_error_counter
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "N₂O"
+msgstr "N₂O"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Offset"
+msgstr "ການຊົດເຊີຍ"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_offset_emission_report_views
+#: model:ir.ui.menu,name:esg.menu_esg_offset_emissions
+msgid "Offset Emissions"
+msgstr "ການຊົດເຊີຍການປ່ອຍອາຍພິດ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Other"
+msgstr "ອື່ນໆ"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_other_emission
+msgid "Other Emission"
+msgstr "ການປ່ອຍອາຍພິດອື່ນໆ"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__other
+msgid "Other Halogenated substances"
+msgstr "ສານຮາໂລເຈນອື່ນໆ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Other Indirect Emissions"
+msgstr "ການປ່ອຍອາຍພິດທາງອ້ອມອື່ນໆ"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c3f8
+msgid "PFC-218"
+msgstr "PFC-218"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c-c4f8
+msgid "PFC-318"
+msgstr "PFC-318"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c6f14
+msgid "PFC-51-14"
+msgstr "PFC-51-14"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "PFCs"
+msgstr "PFCs"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__parent_id
+msgid "Parent"
+msgstr "ແມ່"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__parent_path
+msgid "Parent Path"
+msgstr "ເສັ້ນທາງແມ່"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__partner_id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__partner_id
+msgid "Partner"
+msgstr "ຄູ່ຄ້າ"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__pfc
+msgid "Perfluorocarbons (PFCs)"
+msgstr "ເປີຟລູໂອກາກບອນ (PFCs)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+msgid "Physically"
+msgstr "ທາງກາຍະພາບ"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_factor__compute_method__physically
+msgid "Physically (Quantity)"
+msgstr "ທາງກາຍະພາບ (ຈຳນວນ)"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__precursors
+msgid "Precursors"
+msgstr "ສານຕັ້ງຕົ້ນ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_3
+msgid "Process Emissions"
+msgstr "ການປ່ອຍອາຍພິດຈາກຂະບວນການ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Processing of Sold Product"
+msgstr "ການປຸງແຕ່ງຜະລິດຕະພັນທີ່ຂາຍ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_2
+msgid "Processing of Sold Products"
+msgstr "ການປຸງແຕ່ງຜະລິດຕະພັນທີ່ຂາຍ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__product_id
+msgid "Product"
+msgstr "ສິນຄ້າ"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_4
+msgid "Product Usage and Disposal"
+msgstr "ການນຳໃຊ້ ແລະ ການກຳຈັດຜະລິດຕະພັນ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_1
+msgid "Purchased Electricity"
+msgstr "ໄຟຟ້າທີ່ຊື້"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Purchased Electricity, Steam, Heating, and Cooling for own use"
+msgstr "ໄຟຟ້າ, ອາຍນ້ຳ, ຄວາມຮ້ອນ, ແລະ ຄວາມເຢັນທີ່ຊື້ມາເພື່ອໃຊ້ເອງ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_1
+msgid "Purchased Goods and Services"
+msgstr "ສິນຄ້າ ແລະ ການບໍລິການທີ່ຊື້"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_2
+msgid "Purchased Steam, Heat or Cooling"
+msgstr "ອາຍນ້ຳ, ຄວາມຮ້ອນ ຫຼື ຄວາມເຢັນທີ່ຊື້"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__quantity
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__quantity
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+msgid "Quantity"
+msgstr "ຈຳນວນ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__rating_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__region
+msgid "Region / Regional Conditions"
+msgstr "ພາກພື້ນ / ເງື່ອນໄຂລະດັບພາກພື້ນ"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_gas__global_warming_potential
+msgid ""
+"Relative impact of gas on global warming compared to CO₂ over 100 years"
+msgstr "ຜົນກະທົບພຽບທຽບຂອງອາຍພິດຕໍ່ພາວະໂລກຮ້ອນເມື່ອທຽບກັບ CO₂ ໃນໄລຍະ 100 ປີ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__replace_previous_factors
+msgid "Replace Previous Factors"
+msgstr "ປ່ຽນແທນປັດໄຈກ່ອນໜ້າ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+msgid "Replace existing assignations"
+msgstr "ປ່ຽນແທນການກຳນົດທີ່ມີຢູ່"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "SF₆"
+msgstr "SF₆"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_has_sms_error
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+
+#. module: esg
+#: model:account.account,name:esg.account_salary
+msgid "Salary"
+msgstr "ເງິນເດືອນ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__scope
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__scope
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__scope
+msgid "Scope"
+msgstr "ຂອບເຂດ (Scope)"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Scope 1"
+msgstr "Scope 1"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__scope__direct
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_search_view
+msgid "Scope 1: Direct"
+msgstr "Scope 1: ໂດຍກົງ"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Scope 2"
+msgstr "Scope 2"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__scope__indirect
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_search_view
+msgid "Scope 2: Indirect"
+msgstr "Scope 2: ທາງອ້ອມ"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Scope 3"
+msgstr "Scope 3"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__scope__indirect_others
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_search_view
+msgid "Scope 3: Others Indirect"
+msgstr "Scope 3: ທາງອ້ອມອື່ນໆ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+msgid ""
+"Seamlessly bring all your ESG data together, whether from Odoo or outside, "
+"in a simple and organized way."
+msgstr ""
+"ຮວບຮວມຂໍ້ມູນ ESG ທັງໝົດຂອງທ່ານເຂົ້າກັນຢ່າງບໍ່ມີຮອຍຕໍ່, ບໍ່ວ່າຈະມາຈາກ Odoo ຫຼື ພາຍນອກ, ໃນຮູບແບບທີ່ງ່າຍ"
+"ດາຍ ແລະ ເປັນລະບຽບ."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__sequence
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__sequence
+#: model:ir.model.fields,field_description:esg.field_esg_gas__sequence
+msgid "Sequence"
+msgstr "ລຳດັບ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "Server returned an unexpected error: %(error)s"
+msgstr "ເຊີບເວີຕອບກັບຂໍ້ຜິດພາດທີ່ບໍ່ຄາດຄິດ: %(error)s"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_settings
+msgid "Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_gas.py:0
+msgid ""
+"Some gases you're trying to delete are used for data imports:\n"
+"%(gases)s"
+msgstr ""
+"ອາຍພິດບາງຢ່າງທີ່ທ່ານກຳລັງພະຍາຍາມລຶບແມ່ນຖືກໃຊ້ສຳລັບການນຳເຂົ້າຂໍ້ມູນ:\n"
+"%(gases)s"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__source_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__source_id
+msgid "Source"
+msgstr "ຕົ້ນທາງ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__database_id
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_list_view
+msgid "Source Database"
+msgstr "ຖານຂໍ້ມູນຕົ້ນທາງ"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_source_databases
+msgid "Source Databases"
+msgstr "ຖານຂໍ້ມູນຕົ້ນທາງ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__start_date
+msgid "Start Date"
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_1
+msgid "Stationary Combustion"
+msgstr "ການເຜົາໄໝ້ຢູ່ກັບທີ່"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_so2
+msgid "Sulfur Dioxide (SO2+SO3)"
+msgstr "ຊູນຟູເດີອົກຊິດ (SO2+SO3)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_sf6
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__sf6
+msgid "Sulfur Hexafluoride (SF₆)"
+msgstr "ຊູນຟູເຮັກຊາຟລູໂອໄຣ (SF₆)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_sf6
+msgid "Sulfur Hexafluoride (SF₆) (t)"
+msgstr "ຊູນຟູເຮັກຊາຟລູໂອໄຣ (SF₆) (ໂຕນ)"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "The IPCC server did not return any file to import the data."
+msgstr "ເຊີບເວີ IPCC ບໍ່ໄດ້ສົ່ງໄຟລ໌ໃດໆກັບມາເພື່ອການນຳເຂົ້າຂໍ້ມູນ."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+msgid "The account type must be of type %(valid_account_type_names)s."
+msgstr "ປະເພດບັນຊີຕ້ອງເປັນປະເພດ %(valid_account_type_names)s."
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_assignation_line_at_least_one_field_filled
+msgid "The assignation rule must have at least one field filled"
+msgstr "ກົດເກນການກຳນົດຕ້ອງມີຢ່າງໜ້ອຍໜຶ່ງຟິວທີ່ຖືກຕື່ມຂໍ້ມູນ"
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_gas_code_unique
+msgid "The code of a gas must be unique."
+msgstr "ລະຫັດຂອງອາຍພິດຕ້ອງບໍ່ຊ້ຳກັນ."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "The file format doesn't seem to be correct."
+msgstr "ຮູບແບບໄຟລ໌ເບິ່ງຄືວ່າບໍ່ຖືກຕ້ອງ."
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_co2e
+msgid "Total (t CO₂e)"
+msgstr "ທັງໝົດ (ໂຕນ CO₂e)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_list_view
+msgid "Total Emissions (kgCO₂e)"
+msgstr "ການປ່ອຍອາຍພິດທັງໝົດ (kgCO₂e)"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+msgid ""
+"Track your ESG performance, transform data into actionable insights, and "
+"generate reports to meet compliance requirements all while making informed, "
+"strategic decisions."
+msgstr ""
+"ຕິດຕາມຜົນການດຳເນີນງານ ESG ຂອງທ່ານ, ປ່ຽນຂໍ້ມູນໃຫ້ເປັນຄວາມຮູ້ທີ່ນຳໃຊ້ໄດ້ຈິງ, ແລະ ສ້າງລາຍງານເພື່ອຕອບ"
+"ສະໜອງຂໍ້ກຳນົດດ້ານກົດລະບຽບ ພ້ອມທັງຕັດສິນໃຈຍຸດທະສາດຢ່າງມີຂໍ້ມູນ."
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Track your company's"
+msgstr "ຕິດຕາມຂອງບໍລິສັດທ່ານ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Transportation and Distribution"
+msgstr "ການຂົນສົ່ງ ແລະ ການກະຈາຍສິນຄ້າ"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_1
+msgid "Transportation and Logistics"
+msgstr "ການຂົນສົ່ງ ແລະ ໂລຊິດສະຕິກ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+msgid ""
+"Turn insights into action, monitor your impact in real-time, and drive "
+"meaningful change across your organization."
+msgstr ""
+"ປ່ຽນຄວາມຮູ້ໃຫ້ເປັນການກະທຳ, ຕິດຕາມຜົນກະທົບຂອງທ່ານແບບພຽລທາມ, ແລະ ຂັບເຄື່ອນການປ່ຽນແປງທີ່ມີຄວາມໝາ"
+"ຍໃນທົ່ວອົງກອນ."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_uncertainty_value
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_uncertainty_value
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__esg_uncertainty_value
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_uncertainty_value
+msgid "Uncertainty (%)"
+msgstr "ຄວາມບໍ່ແນ່ນອນ (%)"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_uncertainty_absolute_value
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_uncertainty_absolute_value
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_uncertainty_absolute_value
+msgid "Uncertainty (kgCO₂e)"
+msgstr "ຄວາມບໍ່ແນ່ນອນ (kgCO₂e)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_kanban_view
+msgid "Uncertainty:"
+msgstr "ຄວາມບໍ່ແນ່ນອນ:"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_gas__code
+msgid "Unique code identifying the gas"
+msgstr "ລະຫັດສະເພາະທີ່ລະບຸອາຍພິດ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_list_view
+msgid "Unit"
+msgstr "ຫົວໜ່ວຍ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__unit_name
+msgid "Unit Name"
+msgstr "ຊື່ຫົວໜ່ວຍ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__uom_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__uom_id
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+msgid "Unit of Measure"
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__uom_id
+msgid "UoM"
+msgstr "ຫົວໜ່ວຍ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+#: model_terms:ir.ui.view,arch_db:esg.database_kanban_view
+msgid "Update"
+msgstr "ອັບເດດ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/wizard/factors_auto_assignment_wizard.py:0
+msgid "Updated Emissions"
+msgstr "ອັບເດດການປ່ອຍອາຍພິດແລ້ວ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "Updated on: %(date)s"
+msgstr "ອັບເດດເມື່ອ: %(date)s"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_factor_line.py:0
+msgid "Updated values for %(gas_name)s (%(activity_type_name)s)"
+msgstr "ອັບເດດຄ່າສຳລັບ %(gas_name)s (%(activity_type_name)s)"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_direct_indirect__upstream
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_indirect_others__upstream
+msgid "Upstream"
+msgstr "ຕົ້ນນ້ຳ (ຂະບວນການເບື້ອງຕົ້ນ)"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_8
+msgid "Upstream Leased Assets"
+msgstr "ຊັບສິນເຊົ່າຕົ້ນນ້ຳ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_4
+msgid "Upstream Transportation and Distribution"
+msgstr "ການຂົນສົ່ງ ແລະ ການກະຈາຍສິນຄ້າຕົ້ນນ້ຳ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid "Upstream activities"
+msgstr "ກິດຈະກຳຕົ້ນນ້ຳ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__url
+msgid "Url"
+msgstr "Url"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_3
+msgid "Use of Sold Products"
+msgstr "ການນຳໃຊ້ຜະລິດຕະພັນທີ່ຂາຍ"
+
+#. module: esg
+#: model:res.groups,name:esg.esg_group_user
+msgid "User"
+msgstr "ຜູ້ໃຊ້"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__valid_from
+msgid "Valid From"
+msgstr "ໃຊ້ໄດ້ຕັ້ງແຕ່"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__valid_to
+msgid "Valid To"
+msgstr "ໃຊ້ໄດ້ເຖິງ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Validity Period"
+msgstr "ໄລຍະເວລາການໃຊ້ງານ"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_2_1
+msgid "Vehicle Type 1"
+msgstr "ພາຫະນະປະເພດ 1"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_2_2
+msgid "Vehicle Type 2"
+msgstr "ພາຫະນະປະເພດ 2"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+msgid "Very High Uncertainty (> 50%)"
+msgstr "ຄວາມບໍ່ແນ່ນອນສູງຫຼາຍ (> 50%)"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_account.py:0
+msgid "Warning"
+msgstr "ຄຳເຕືອນ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_5
+msgid "Waste Generated in Operations"
+msgstr "ສິ່ງເສດເຫຼືອທີ່ເກີດຈາກການດຳເນີນງານ"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_3
+msgid "Waste Management"
+msgstr "ການຈັດການສິ່ງເສດເຫຼືອ"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__website_message_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__website_message_ids
+msgid "Website Messages"
+msgstr "ຂໍ້ຄວາມເວັບໄຊ"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__website_message_ids
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__website_message_ids
+msgid "Website communication history"
+msgstr "ປະຫວັດການສື່ສານເວັບໄຊ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_account.py:0
+msgid ""
+"You can only create accounts of type %(valid_account_type_names)s in the ESG"
+" module, as emission factors can only be linked to expense or asset "
+"accounts."
+msgstr ""
+"ທ່ານສາມາດສ້າງບັນຊີປະເພດ %(valid_account_type_names)s ໃນໂມດູນ ESG ເທົ່ານັ້ນ, ເນື່ອງຈາກປັດໄ"
+"ຈການປ່ອຍອາຍພິດສາມາດເຊື່ອມໂຍງກັບບັນຊີລາຍຈ່າຍ ຫຼື ບັນຊີຊັບສິນເທົ່ານັ້ນ."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "You can't delete the ADEME database."
+msgstr "ທ່ານບໍ່ສາມາດລຶບຖານຂໍ້ມູນ ADEME ໄດ້."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+msgid "You can't delete the IPCC database."
+msgstr "ທ່ານບໍ່ສາມາດລຶບຖານຂໍ້ມູນ IPCC ໄດ້."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/report/esg_carbon_emission_report.py:0
+msgid "You cannot copy emissions linked to journal items."
+msgstr "ທ່ານບໍ່ສາມາດສຳເນົາການປ່ອຍອາຍພິດທີ່ເຊື່ອມໂຍງກັບລາຍການບັນຊີໄດ້."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_source.py:0
+msgid "You cannot create a cyclic hierarchy of emission sources."
+msgstr "ທ່ານບໍ່ສາມາດສ້າງລຳດັບຊັ້ນຂອງແຫຼ່ງການປ່ອຍອາຍພິດແບບວົນຊ້ຳໄດ້."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/report/esg_carbon_emission_report.py:0
+msgid "You cannot delete journal items from here."
+msgstr "ທ່ານບໍ່ສາມາດລຶບລາຍການບັນຊີຈາກບ່ອນນີ້ໄດ້."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+msgid "e.g. ADEME"
+msgstr "ຕົວຢ່າງ: ADEME"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+msgid "e.g. Bus Transportation"
+msgstr "ຕົວຢ່າງ: ການຂົນສົ່ງໂດຍສານລົດເມ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.esg_gas_form_view
+msgid "e.g. Fossil Methane (CH₄)"
+msgstr "ຕົວຢ່າງ: ມີເທນຟອດຊິນ (CH₄)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_form_view
+msgid "e.g. Mobile Combustion"
+msgstr "ຕົວຢ່າງ: ການເຜົາໄໝ້ແບບເຄື່ອນທີ່"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "e.g. Office Computer"
+msgstr "ຕົວຢ່າງ: ຄອມພິວເຕີຫ້ອງການ"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+msgid "e.g. https://base-empreinte.ademe.fr/"
+msgstr "ຕົວຢ່າງ: https://base-empreinte.ademe.fr/"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/wizard/factors_auto_assignment_wizard.py:0
+msgid "id"
+msgstr "id"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__quantity
+msgid "kg"
+msgstr "ກິໂລ"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/widgets/esg_value/esg_value.xml:0
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_kanban_view
+msgid "kgCO₂e /"
+msgstr "kgCO₂e /"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+msgid "n/a"
+msgstr "ບໍ່ມີຂໍ້ມູນ"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_emissions_value_t
+msgid "tCO₂e"
+msgstr "ໂຕນ CO₂e"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+msgid ""
+"with ease! Most emissions are seamlessly calculated from your accounting "
+"data, using account move lines to generate precise and compliant reports."
+msgstr ""
+"ຢ່າງງ່າຍດາຍ! ການປ່ອຍອາຍພິດສ່ວນໃຫຍ່ຖືກຄິດໄລ່ຢ່າງບໍ່ມີຮອຍຕໍ່ຈາກຂໍ້ມູນການບັນຊີຂອງທ່ານ, ໂດຍໃຊ້ລາຍການເຄື່ອ"
+"ນໄຫວບັນຊີເພື່ອສ້າງລາຍງານທີ່ຊັດເຈນ ແລະ ຖືກຕ້ອງຕາມຂໍ້ກຳນົດ."

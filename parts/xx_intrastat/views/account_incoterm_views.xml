@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_incoterms_tree" model="ir.ui.view">
+        <field name="name">account.incoterms.list.inherit.xx_intrastat</field>
+        <field name="model">account.incoterms</field>
+        <field name="inherit_id" ref="account.view_incoterms_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="xx_default_incoterm" />
+            </xpath>
+        </field>
+    </record>
+</odoo>

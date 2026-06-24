@@ -1,0 +1,2470 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* esg
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-08 17:41+0000\n"
+"PO-Revision-Date: 2025-10-08 18:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_factor_line.py:0
+#, fuzzy
+msgid "%(gas_name)s (%(quantity)s kg)"
+msgstr "%(gas_name)s (%(quantity)s kg)"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_other_emission.py:0
+#, fuzzy
+msgid "%s (copy)"
+msgstr "%s (nusxa)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-exclamation-triangle me-2\"/>\n"
+"                    You are modifying an emission factor already assigned to "
+"emissions.\n"
+"                    Changing it will update these emissions. To keep the old "
+"value, duplicate the factor."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle me-2\"/> Siz chiqindilarga allaqachon "
+"biriktirilgan emissiya koeffitsientini o‘zgartirmoqdasiz. Uni o‘zgartirish "
+"ushbu chiqindilarni yangilaydi. Eski qiymatni saqlab qolish uchun "
+"koeffitsientni takrorlang."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_kanban_view
+#, fuzzy
+msgid "<span class=\"ms-1\">kgCO₂e</span>"
+msgstr "<span class=\"ms-1\">kgCO₂e</span>"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+#, fuzzy
+msgid "<span class=\"ms-2\">kgCO₂e</span>"
+msgstr "<span class=\"ms-2\">kgCO₂e</span>"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.view_move_form_inherit_esg
+#, fuzzy
+msgid "<span>kgCO₂e</span>"
+msgstr "<span>kgCO₂e</span>"
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_activity_type_name_uniq
+#, fuzzy
+msgid "A tag with the same name already exists."
+msgstr "Xuddi shu nomdagi teg allaqachon mavjud."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "ADEME data is already up to date."
+msgstr "ADEME ma'lumotlari allaqachon yangilangan."
+
+#. module: esg
+#: model:res.groups,comment:esg.esg_group_user
+#, fuzzy
+msgid ""
+"Access to ESG features including viewing data, reporting, and mapping "
+"emissions with emissions factors, but without configuration rights."
+msgstr ""
+"ESG funksiyalaridan foydalanish, jumladan ma'lumotlarni ko‘rish, hisobot "
+"berish va chiqindilarni emissiya omillari bilan xaritalash, ammo sozlash "
+"huquqisiz."
+
+#. module: esg
+#: model:ir.model,name:esg.model_account_account
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__account_id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__account_id
+#, fuzzy
+msgid "Account"
+msgstr "Hisob"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__account_move_line_ids
+#, fuzzy
+msgid "Account Move Line"
+msgstr "Hisob harakati qatori"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Accounting"
+msgstr "Buxgalteriya"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#, fuzzy
+msgid "Act"
+msgstr "Harakat"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_needaction
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_needaction
+#, fuzzy
+msgid "Action Needed"
+msgstr "Amal zarur"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__active
+#, fuzzy
+msgid "Active"
+msgstr "Faol"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__activity_flow
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_form_view
+#, fuzzy
+msgid "Activity Flow"
+msgstr "Faoliyat oqimi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__activity_type_id
+#, fuzzy
+msgid "Activity Type"
+msgstr "Faoliyat turi"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_activity_type
+#, fuzzy
+msgid "Activity Type ESG"
+msgstr "Faoliyat turi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__activity_type_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__activity_type_ids
+#, fuzzy
+msgid "Activity Types"
+msgstr "Faoliyat turlari"
+
+#. module: esg
+#: model:res.groups,name:esg.esg_group_manager
+#, fuzzy
+msgid "Administrator"
+msgstr "Administrator"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__price_subtotal
+#, fuzzy
+msgid "Amount"
+msgstr "Miqdor"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#, fuzzy
+msgid ""
+"An assignation with the rules (%(account_id)s, %(partner_id)s, %"
+"(product_id)s) already exists in the emission factor '%(factor_name)s'."
+msgstr ""
+"'%(factor_name)s' emissiya koeffitsientida (%(account_id)s, %(partner_id)s, %"
+"(product_id)s) qoidalariga ega tayinlov allaqachon mavjud."
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#: code:addons/esg/static/src/widgets/emission_factor_x2many_field/emission_factor_list_renderer.js:0
+#, fuzzy
+msgid "Any Account"
+msgstr "Har qanday hisob"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#: code:addons/esg/static/src/widgets/emission_factor_x2many_field/emission_factor_list_renderer.js:0
+#, fuzzy
+msgid "Any Partner"
+msgstr "Har qanday hamkor"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#: code:addons/esg/static/src/widgets/emission_factor_x2many_field/emission_factor_list_renderer.js:0
+#, fuzzy
+msgid "Any Product"
+msgstr "Har qanday mahsulot"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+#, fuzzy
+msgid "Application Period"
+msgstr "Qo‘llash davri"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+#, fuzzy
+msgid "Archived"
+msgstr "Arxivlangan"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid "Assign"
+msgstr "Tayinlash"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.factors_auto_assignment_wizard_action
+#: model:ir.actions.server,name:esg.action_apply_factors_auto_assignment
+#, fuzzy
+msgid "Assign Emission Factors"
+msgstr "Emissiya koeffitsientlarini tayinlash"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_assignation_line
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__assignation_line_ids
+#, fuzzy
+msgid "Assignation Line"
+msgstr "Tayinlov qatori"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid "Assignations"
+msgstr "Tayinlovlar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_attachment_count
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_attachment_count
+#, fuzzy
+msgid "Attachment Count"
+msgstr "Biriktirmalar soni"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/carbon_report.py:0
+#, fuzzy
+msgid "Audit Emissions"
+msgstr "Chiqindilarni tekshirish"
+
+#. module: esg
+#: model:ir.model,name:esg.model_factors_auto_assignment_wizard
+#, fuzzy
+msgid "Auto-assignment of emission factors to move lines"
+msgstr "Harakat qatorlariga emissiya koeffitsientlarini avtomatik tayinlash"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_ch4b
+#, fuzzy
+msgid "Biogenic Methane (CH₄)"
+msgstr "Biogen metan (CH₄)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_ch4b
+#, fuzzy
+msgid "Biogenic Methane (CH₄) (t)"
+msgstr "Biogen metan (CH₄) (t)"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.activity.type,name:esg.esg_activity_type_6
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_6
+#, fuzzy
+msgid "Business Travel"
+msgstr "Xizmat safari"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c4f6
+#, fuzzy
+msgid "C4F6"
+msgstr "C₄F₆"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_c4f8o
+#, fuzzy
+msgid "C4F8O"
+msgstr "c₄F₈O"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c5f8
+#, fuzzy
+msgid "C5F8"
+msgstr "C₅F₈"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "CH₄"
+msgstr "CH₄"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "CO₂"
+msgstr "CO₂"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_co2
+#, fuzzy
+msgid "CO₂ (t)"
+msgstr "CO₂ (t)"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Calculation"
+msgstr "Hisob-kitob"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__can_be_downloaded
+#, fuzzy
+msgid "Can Be Downloaded"
+msgstr "Yuklab olish mumkin"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Can be added manually"
+msgstr "Qo‘lda qo‘shish mumkin"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+#, fuzzy
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_2
+#, fuzzy
+msgid "Capital Goods"
+msgstr "Asosiy vositalar"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+#: code:addons/esg/static/src/views/esg_carbon_emission_graph/esg_carbon_emission_graph_controller.js:0
+#: code:addons/esg/static/src/views/esg_carbon_emission_pivot/esg_carbon_emission_pivot_controller.js:0
+#: model:ir.actions.act_window,name:esg.action_carbon_emission_report_analytics_views
+#: model:ir.ui.menu,name:esg.menu_esg_carbon_analytics
+#, fuzzy
+msgid "Carbon Analytics"
+msgstr "Karbon tahlili"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_co2
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__co2
+#, fuzzy
+msgid "Carbon Dioxide (CO₂)"
+msgstr "Karbonat angidrid (CO₂)"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_carbon_emissions
+#: model:ir.ui.menu,name:esg.menu_esg_collect_carbon_emissions
+#, fuzzy
+msgid "Carbon Emissions"
+msgstr "Karbon chiqindilari"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+#: model:account.report,name:esg.carbon_report
+#: model:account.report.line,name:esg.carbon_report_line
+#: model:ir.actions.client,name:esg.action_view_carbon_report
+#: model:ir.ui.menu,name:esg.menu_esg_carbon_report
+#, fuzzy
+msgid "Carbon Footprint"
+msgstr "Karbon izi"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_co
+#, fuzzy
+msgid "Carbon Monoxide"
+msgstr "Uglerod monooksidi"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_carbon_report_handler
+#, fuzzy
+msgid "Carbon Report Custom Handler"
+msgstr "Karbon hisoboti maxsus ishlov beruvchisi"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_cf4
+#, fuzzy
+msgid "Carbon Tetrafluoride (CF₄)"
+msgstr "Uglerod tetraftorid (CF₄)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_cf4
+#, fuzzy
+msgid "Carbon Tetrafluoride (CF₄) (t)"
+msgstr "Uglerod tetraftorid (CF₄) (t)"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_source
+#, fuzzy
+msgid ""
+"Categorize your data into Scope 1, 2, and 3 to structure your carbon "
+"emission reporting."
+msgstr ""
+"Karbon chiqindi hisobotingizni tuzish uchun ma'lumotlaringizni 1-, 2- va 3-"
+"qamrovlarga ajrating."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_gas__category
+#, fuzzy
+msgid "Category"
+msgstr "Toifa"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_account.py:0
+#, fuzzy
+msgid ""
+"Changing the account type to anything other than %"
+"(valid_account_type_names)s will reset all emission factors linked to "
+"journal items using this account.\n"
+"In addition, it will remove all the ESG assignations lines linked to that "
+"account.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Hisob turini %(valid_account_type_names)s dan boshqasiga o‘zgartirish, ushbu "
+"hisobdan foydalanuvchi jurnal elementlariga bog‘langan barcha chiqindi "
+"koeffitsientlarini qayta o‘rnatadi. Bundan tashqari, u ushbu hisobga "
+"bog‘langan barcha ESG tayinlash qatorlarini olib tashlaydi. Davom etishga "
+"ishonchingiz komilmi?"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__child_ids
+#, fuzzy
+msgid "Child"
+msgstr "Bola"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#, fuzzy
+msgid "Close the onboarding tips"
+msgstr "Tanishuv maslahatlarini yopish"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__code
+#: model:ir.model.fields,field_description:esg.field_esg_gas__code
+#, fuzzy
+msgid "Code"
+msgstr "Kod"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#: model:ir.ui.menu,name:esg.menu_esg_collect
+#, fuzzy
+msgid "Collect"
+msgstr "To‘plash"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.xml:0
+#, fuzzy
+msgid "Collect Emissions"
+msgstr "Chiqindilarni to‘plash"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__color
+#, fuzzy
+msgid "Color"
+msgstr "Rang"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__company_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__company_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Company Facilities"
+msgstr "Kompaniya obyektlari"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_direct_indirect__company_reporting
+#, fuzzy
+msgid "Company Reporting"
+msgstr "Kompaniya hisoboti"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Company Vehicles"
+msgstr "Kompaniya transport vositalari"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Company reporting"
+msgstr "Kompaniya hisoboti"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__scope_complete_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__complete_name
+#, fuzzy
+msgid "Complete Name"
+msgstr "To‘liq nom"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__compute_method
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__compute_method
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__compute_method
+#, fuzzy
+msgid "Compute Method"
+msgstr "Hisoblash usuli"
+
+#. module: esg
+#: model:product.template,name:esg.product_computer_product_template
+#, fuzzy
+msgid "Computer"
+msgstr "Kompyuter"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_configuration
+#, fuzzy
+msgid "Configuration"
+msgstr "Sozlama"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+#, fuzzy
+msgid "Confirm"
+msgstr "Tasdiqlash"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_factors_auto_assignment_wizard__start_date
+#, fuzzy
+msgid ""
+"Correspond to the period to consider for the assignment of the factors to "
+"the move lines."
+msgstr ""
+"Harakatlar qatorlariga koeffitsientlarni tayinlash uchun hisobga olinishi "
+"kerak bo‘lgan davrga mos keladi."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_esg_gasses_list
+#, fuzzy
+msgid "Create and configure greenhouse gases."
+msgstr "Issiqxona gazlarini yarating va sozlang."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_factor
+#, fuzzy
+msgid "Create emission factors."
+msgstr "Chiqindi koeffitsientlarini yarating."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_source
+#, fuzzy
+msgid "Create emission sources."
+msgstr "Chiqindi manbalarini yarating."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_database__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_gas__create_uid
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__create_uid
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_database__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_gas__create_date
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__create_date
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__currency_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__currency_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__currency_id
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+#, fuzzy
+msgid "Currency"
+msgstr "Valyuta"
+
+#. module: esg
+#: model:ir.actions.client,name:esg.ir_actions_esg_dashboard_action
+#: model:ir.ui.menu,name:esg.menu_esg_dashboard
+#, fuzzy
+msgid "Dashboard"
+msgstr "Boshqaruv paneli"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_database
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__database_id
+#, fuzzy
+msgid "Database"
+msgstr "Ma'lumotlar bazasi"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "Database file is missing"
+msgstr "Ma'lumotlar bazasi fayli mavjud emas"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_view_database
+#, fuzzy
+msgid "Databases"
+msgstr "Ma'lumotlar bazalari"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__date
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__date
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Date"
+msgstr "Sana"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__date_end
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__date_end
+#, fuzzy
+msgid "Date End"
+msgstr "Tugash sanasi"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_esg_gasses_list
+#, fuzzy
+msgid ""
+"Define gases to convert emissions into CO₂ equivalents using Global Warming "
+"Potential values."
+msgstr ""
+"Global isish potensiali qiymatlaridan foydalanib, chiqindilarni CO₂ "
+"ekvivalentlariga aylantirish uchun gazlarni belgilang."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_emission_factor
+#, fuzzy
+msgid "Define how activity data translates into CO₂e."
+msgstr "Faoliyat ma'lumotlari CO₂e ga qanday aylanishini aniqlang."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__description
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid "Description"
+msgstr "Tavsif"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+#, fuzzy
+msgid "Detailed by gas"
+msgstr "Gaz bo‘yicha batafsil"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Direct Emissions"
+msgstr "To‘g‘ridan-to‘g‘ri chiqindilar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_account__display_name
+#: model:ir.model.fields,field_description:esg.field_account_move__display_name
+#: model:ir.model.fields,field_description:esg.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_report_handler__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_database__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_gas__display_name
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__display_name
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+#, fuzzy
+msgid ""
+"Do you want to automatically assign the selected emission factor(s) to the "
+"move lines based on your predefined assignation rules?"
+msgstr ""
+"Tanlangan chiqindi koeffitsientini(larini) oldindan belgilangan tayinlash "
+"qoidalari asosida harakat qatorlariga avtomatik ravishda tayinlashni "
+"xohlaysizmi?"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+#: model_terms:ir.ui.view,arch_db:esg.database_kanban_view
+#, fuzzy
+msgid "Download"
+msgstr "Yuklab olish"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_database
+#, fuzzy
+msgid ""
+"Download a certified database we provide or upload your own in Odoo format."
+msgstr ""
+"Biz taqdim etadigan sertifikatlangan ma'lumotlar bazasini yuklab oling yoki "
+"o‘zingiznikini Odoo formatida yuklang."
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_indirect_others__downstream
+#, fuzzy
+msgid "Downstream"
+msgstr "Quyi oqim"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_5
+#, fuzzy
+msgid "Downstream Leased Assets"
+msgstr "Quyi oqimdagi ijaraga berilgan aktivlar"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_1
+#, fuzzy
+msgid "Downstream Transportation and Distribution"
+msgstr "Quyi oqimdagi tashish va tarqatish"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Downstream activities"
+msgstr "Quyi oqimdagi faoliyatlar"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.esg_main_menu
+#: model:res.groups.privilege,name:esg.res_groups_privilege_esg
+#, fuzzy
+msgid "ESG"
+msgstr "ESG"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_carbon_emission_report
+#, fuzzy
+msgid "ESG Carbon Emissions Report"
+msgstr "ESG uglerod chiqindilari hisoboti"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Effortless"
+msgstr "Oson"
+
+#. module: esg
+#: model:account.account,name:esg.account_electricity
+#, fuzzy
+msgid "Electricity"
+msgstr "Elektr energiyasi"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_1_2
+#, fuzzy
+msgid "Electricity for Cars"
+msgstr "Avtomobillar uchun elektr energiyasi"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_1_1
+#, fuzzy
+msgid "Electricity for Office"
+msgstr "Ofis uchun elektr energiyasi"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid "Emission"
+msgstr "Chiqindi"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_emission_factor
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__esg_emission_factor_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_emission_factor_id
+#, fuzzy
+msgid "Emission Factor"
+msgstr "Chiqindi koeffitsienti"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_emission_factor_line
+#, fuzzy
+msgid "Emission Factor Line"
+msgstr "Chiqindi koeffitsienti qatori"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_view_emission_factor
+#: model:ir.ui.menu,name:esg.menu_esg_emission_factors
+#, fuzzy
+msgid "Emission Factors"
+msgstr "Chiqindi koeffitsientlari"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_emission_source
+#, fuzzy
+msgid "Emission Source"
+msgstr "Chiqindi manbasi"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_view_emission_source
+#: model:ir.ui.menu,name:esg.menu_esg_type_of_emissions
+#, fuzzy
+msgid "Emission Sources"
+msgstr "Chiqindi manbalari"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_list_view
+#, fuzzy
+msgid "Emission source"
+msgstr "Chiqindi manbasi"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid "Emissions"
+msgstr "Chiqindilar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_bank_statement_line__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_account_move__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__esg_emissions_value
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_emissions_value
+#, fuzzy
+msgid "Emissions (kgCO₂e)"
+msgstr "Chiqindilar (kgCO₂e)"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_emitted_emission_report_views
+#: model_terms:ir.actions.act_window,help:esg.action_offset_emission_report_views
+#, fuzzy
+msgid ""
+"Emissions data will sync automatically from accounting when you receive "
+"supplier invoices.<br>\n"
+"                You can also manually add other emission not linked to "
+"journal entries."
+msgstr ""
+"Yetkazib beruvchilarning hisob-fakturalari kelganda chiqindi ma'lumotlari "
+"buxgalteriyadan avtomatik ravishda sinxronlanadi.<br> Shuningdek, jurnal "
+"yozuvlariga bog‘liq bo‘lmagan boshqa chiqindilarni qo‘lda kiritishingiz "
+"mumkin."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_move.py:0
+#, fuzzy
+msgid "Emissions of %(move_name)s"
+msgstr "%(move_name)s chiqindilari"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.js:0
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.xml:0
+#, fuzzy
+msgid "Emissions to define"
+msgstr "Aniqlanishi kerak bo‘lgan chiqindilar"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_factor.py:0
+#, fuzzy
+msgid "Emissions using %(emission_factor)s"
+msgstr "%(emission_factor)s bo‘yicha chiqindilar"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Emitted"
+msgstr "Chiqarilgan"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_emitted_emission_report_views
+#: model:ir.ui.menu,name:esg.menu_esg_emitted_emissions
+#, fuzzy
+msgid "Emitted Emissions"
+msgstr "Chiqarilgan chiqindilar"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.activity.type,name:esg.esg_activity_type_5
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_7
+#, fuzzy
+msgid "Employee Commuting"
+msgstr "Xodimlarning ish joyiga borish-kelishi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__end_date
+#, fuzzy
+msgid "End Date"
+msgstr "Tugash sanasi"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_4
+#, fuzzy
+msgid "End-of-Life Treatment of Sold Products"
+msgstr ""
+"Sotilgan mahsulotlarning foydalanish muddati tugagandan keyingi qayta ishlash"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "End-of-life Treatment of Sold Products"
+msgstr ""
+"Sotilgan mahsulotlarning foydalanish muddati tugagandan keyingi qayta ishlash"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_0
+#, fuzzy
+msgid "Energy Consumption"
+msgstr "Energiya iste'moli"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_environment
+#, fuzzy
+msgid "Environment"
+msgstr "Atrof-muhit"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__esg_other_emission_ids
+#, fuzzy
+msgid "Esg Other Emission"
+msgstr "ESG boshqa chiqindilar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_bank_statement_line__esg_show_emissions_button
+#: model:ir.model.fields,field_description:esg.field_account_move__esg_show_emissions_button
+#, fuzzy
+msgid "Esg Show Emissions Button"
+msgstr "ESG chiqindilarni ko‘rsatish tugmasi"
+
+#. module: esg
+#: model:account.account,name:esg.account_expense
+#, fuzzy
+msgid "Expense"
+msgstr "Xarajat"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_follower_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_follower_ids
+#, fuzzy
+msgid "Followers"
+msgstr "Kuzatuvchilar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_partner_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_partner_ids
+#, fuzzy
+msgid "Followers (Partners)"
+msgstr "Kuzatuvchilar (Hamkorlar)"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_8
+#, fuzzy
+msgid "Food Consumption"
+msgstr "Oziq-ovqat iste'moli"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_ch4f
+#, fuzzy
+msgid "Fossil Methane (CH₄)"
+msgstr "Qazilma metan (CH₄)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_ch4f
+#, fuzzy
+msgid "Fossil Methane (CH₄) (t)"
+msgstr "Qazilma metan (CH₄) (t)"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_6
+#, fuzzy
+msgid "Franchises"
+msgstr "Franshizalar"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Fuel and Energy Related Activities"
+msgstr "Yoqilg‘i va energiya bilan bog‘liq faoliyatlar"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_3
+#, fuzzy
+msgid "Fuel and Energy-Related Activites"
+msgstr "Yoqilg‘i va energiya bilan bog‘liq faoliyatlar"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_4
+#, fuzzy
+msgid "Fugitive Emissions"
+msgstr "Qochqin chiqindilar"
+
+#. module: esg
+#: model:res.groups,comment:esg.esg_group_manager
+#, fuzzy
+msgid "Full access to all ESG features including configuration rights."
+msgstr ""
+"Barcha ESG xususiyatlaridan, jumladan sozlash huquqlaridan to‘liq "
+"foydalanish imkoniyati."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.esg_gas_kanban_view
+#, fuzzy
+msgid "GWP:"
+msgstr "GWP:"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/carbon_report/filters.xml:0
+#: model:ir.model,name:esg.model_esg_gas
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__gas_id
+#, fuzzy
+msgid "Gas"
+msgstr "Gaz"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid "Gas Emissions"
+msgstr "Gaz chiqindilari"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__gas_line_ids
+#, fuzzy
+msgid "Gas Line"
+msgstr "Gaz qatori"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_esg_gasses_list
+#: model:ir.ui.menu,name:esg.menu_esg_configuration_carbon_emissions_gasses
+#, fuzzy
+msgid "Gases"
+msgstr "Gazlar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_gas__global_warming_potential
+#, fuzzy
+msgid "Global Warming Potential (GWP)"
+msgstr "Global isish potentsiali (GWP)"
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_gas_non_null_gwp
+#, fuzzy
+msgid "Global Warming Potential (GWP) cannot be equal to 0."
+msgstr "Global isish potentsiali (GWP) 0 ga teng bo‘lishi mumkin emas."
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_125
+#, fuzzy
+msgid "HFC-125"
+msgstr "HFC-125"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_134
+#, fuzzy
+msgid "HFC-134"
+msgstr "HFC-134"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_134a
+#, fuzzy
+msgid "HFC-134a"
+msgstr "HFC-134a"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_hfc_134a
+#, fuzzy
+msgid "HFC-134a (t)"
+msgstr "HFC-134a (t)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_143
+#, fuzzy
+msgid "HFC-143"
+msgstr "HFC-143"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_143a
+#, fuzzy
+msgid "HFC-143a"
+msgstr "HFC-143a"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_152
+#, fuzzy
+msgid "HFC-152"
+msgstr "HFC-152"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_152a
+#, fuzzy
+msgid "HFC-152a"
+msgstr "HFC-152a"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_hfc_152a
+#, fuzzy
+msgid "HFC-152a (t)"
+msgstr "HFC-152a (t)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_161
+#, fuzzy
+msgid "HFC-161"
+msgstr "HFC-161"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_227ea
+#, fuzzy
+msgid "HFC-227ea"
+msgstr "HFC-227ea"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_23
+#, fuzzy
+msgid "HFC-23"
+msgstr "HFC-23"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_hfc_23
+#, fuzzy
+msgid "HFC-23 (t)"
+msgstr "HFC-23 (t)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_236cb
+#, fuzzy
+msgid "HFC-236cb"
+msgstr "HFC-236cb"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_32
+#, fuzzy
+msgid "HFC-32"
+msgstr "HFC-32"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_hfc_41
+#, fuzzy
+msgid "HFC-41"
+msgstr "HFC-41"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "HFCs"
+msgstr "HFClar"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_cf3ochf2
+#, fuzzy
+msgid "HFE-125"
+msgstr "HFE-125"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_chf2ch2ocf3
+#, fuzzy
+msgid "HFE-245fa1"
+msgstr "HFE-245fa1"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_cf3cf2ch2och3
+#, fuzzy
+msgid "HFE-365mcf3"
+msgstr "HFE-365mcf3"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_chf2_c4f9och3
+#, fuzzy
+msgid "HFE-7100"
+msgstr "HFE-7100"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__has_message
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__has_message
+#, fuzzy
+msgid "Has Message"
+msgstr "Xabar mavjud"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c2f6
+#, fuzzy
+msgid "Hexafluoroethane (C₂F₆)"
+msgstr "Geksaftoretan (C₂F₆)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_c2f6
+#, fuzzy
+msgid "Hexafluoroethane (C₂F₆) (t)"
+msgstr "Geksaftoretan (C₂F₆) (t)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "High Uncertainty (20-50%)"
+msgstr "Yuqori noaniqlik (20-50%)"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__hfc
+#, fuzzy
+msgid "Hydrofluorocarbons (HFCs)"
+msgstr "Gidroftoruglerodlar (HFClar)"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_account__id
+#: model:ir.model.fields,field_description:esg.field_account_move__id
+#: model:ir.model.fields,field_description:esg.field_account_move_line__id
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__id
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_report_handler__id
+#: model:ir.model.fields,field_description:esg.field_esg_database__id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__id
+#: model:ir.model.fields,field_description:esg.field_esg_gas__id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__id
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_7
+#, fuzzy
+msgid "IT Operations"
+msgstr "IT operatsiyalari"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_factors_auto_assignment_wizard__replace_previous_factors
+#, fuzzy
+msgid ""
+"If checked, any emission lines that already have an emission factor "
+"(manually or automatically assigned) will be reassigned if a matching factor "
+"is found based on your configuration."
+msgstr ""
+"Agar belgilansa, allaqachon emissiya koeffitsientiga ega bo‘lgan har qanday "
+"emissiya chiziqlari (qo‘lda yoki avtomatik tayinlangan) konfiguratsiyangizga "
+"asosan mos keluvchi omil topilganda qayta tayinlanadi."
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_needaction
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_needaction
+#, fuzzy
+msgid "If checked, new messages require your attention."
+msgstr "Agar belgilansa, yangi xabarlar e'tiboringizni talab qiladi."
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_has_error
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_has_sms_error
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_has_error
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_has_sms_error
+#, fuzzy
+msgid "If checked, some messages have a delivery error."
+msgstr "Agar belgilansa, ba'zi xabarlarda yetkazib berish xatosi mavjud."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__image
+#, fuzzy
+msgid "Image"
+msgstr "Rasm"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Included in Accounting"
+msgstr "Buxgalteriya hisobiga kiritilgan"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Included in Invoicing"
+msgstr "Hisob-fakturaga kiritilgan"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Indirect Emissions"
+msgstr "Bilvosita chiqindilar"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "Invalid URL."
+msgstr "Noto‘g‘ri URL."
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Investment"
+msgstr "Investitsiya"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_7
+#, fuzzy
+msgid "Investments"
+msgstr "Investitsiyalar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_is_follower
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_is_follower
+#, fuzzy
+msgid "Is Follower"
+msgstr "Kuzatuvchi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_gas__is_mandatory_gas
+#, fuzzy
+msgid "Is Mandatory Gas"
+msgstr "Majburiy gaz"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "JSON response could not be decoded."
+msgstr "JSON javobini dekodlab bo‘lmadi."
+
+#. module: esg
+#: model:ir.model,name:esg.model_account_move
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__move_id
+#, fuzzy
+msgid "Journal Entry"
+msgstr "Jurnal yozuvi"
+
+#. module: esg
+#: model:ir.model,name:esg.model_account_move_line
+#, fuzzy
+msgid "Journal Item"
+msgstr "Jurnal elementi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__kanban_text
+#, fuzzy
+msgid "Kanban Text"
+msgstr "Kanban matni"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+#, fuzzy
+msgid "Last 6 Months"
+msgstr "So‘nggi 6 oy"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__last_update
+#, fuzzy
+msgid "Last Update"
+msgstr "Oxirgi yangilanish"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_database__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_gas__write_uid
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__write_uid
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_database__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_gas__write_date
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__write_date
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_footprint_box/esg_carbon_footprint_box.xml:0
+#, fuzzy
+msgid "Last Year"
+msgstr "O‘tgan yil"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__latest_version
+#, fuzzy
+msgid "Latest Version"
+msgstr "Eng so‘nggi versiya"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Leased Assets"
+msgstr "Ijaraga olingan aktivlar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__level
+#, fuzzy
+msgid "Level"
+msgstr "Daraja"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Low Uncertainty (< 5%)"
+msgstr "Past noaniqlik (< 5%)"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_2
+#, fuzzy
+msgid "Material Production"
+msgstr "Material ishlab chiqarish"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#: model:ir.ui.menu,name:esg.menu_esg_measure
+#, fuzzy
+msgid "Measure"
+msgstr "O‘lchov"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Medium Uncertainty (5-20%)"
+msgstr "O‘rtacha noaniqlik (5-20%)"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_has_error
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_has_error
+#, fuzzy
+msgid "Message Delivery error"
+msgstr "Xabar yetkazish xatosi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_ids
+#, fuzzy
+msgid "Messages"
+msgstr "Xabarlar"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__ch4
+#, fuzzy
+msgid "Methane (CH₄)"
+msgstr "Metan (CH₄)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_ch4
+#, fuzzy
+msgid "Methane (generic) (CH₄)"
+msgstr "Metan (umumiy) (CH₄)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Missing Emission Factor"
+msgstr "Emissiya koeffitsienti mavjud emas"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_2
+#, fuzzy
+msgid "Mobile Combustion"
+msgstr "Harakatlanuvchi yonish"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_factor__compute_method__monetary
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+#, fuzzy
+msgid "Monetary"
+msgstr "Pul birligi"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "NF₃"
+msgstr "NF₃"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_activity_type__name
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__name
+#: model:ir.model.fields,field_description:esg.field_esg_database__name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__name
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__name
+#: model:ir.model.fields,field_description:esg.field_esg_gas__name
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__name
+#, fuzzy
+msgid "Name"
+msgstr "Nomi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__nb_linked_emissions
+#, fuzzy
+msgid "Nb Linked Emissions"
+msgstr "Bog‘langan emissiyalar soni"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_neutral
+#, fuzzy
+msgid "Neutral"
+msgstr "Neytral"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_carbon_analytics_box/esg_carbon_analytics_box.xml:0
+#, fuzzy
+msgid "New"
+msgstr "Yangi"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_nf3
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__nf3
+#, fuzzy
+msgid "Nitrogen Trifluoride"
+msgstr "Azot triftoridi"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_n2o
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__n2o
+#, fuzzy
+msgid "Nitrous Oxide (N₂O)"
+msgstr "Azot oksidi (N₂O)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_n2o
+#, fuzzy
+msgid "Nitrous Oxide (N₂O) (t)"
+msgstr "Azot oksidi (N₂O) (t)"
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_emitted_emission_report_views
+#: model_terms:ir.actions.act_window,help:esg.action_offset_emission_report_views
+#, fuzzy
+msgid "No Emission yet!"
+msgstr "Hali emissiya yo‘q!"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/wizard/factors_auto_assignment_wizard.py:0
+#, fuzzy
+msgid "No emissions were updated."
+msgstr "Hech qanday emissiya yangilanmadi."
+
+#. module: esg
+#: model_terms:ir.actions.act_window,help:esg.action_view_database
+#, fuzzy
+msgid "No source database found."
+msgstr "Manba ma'lumotlar bazasi topilmadi."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+#, fuzzy
+msgid "Not detailed by gas"
+msgstr "Gaz bo‘yicha tafsilotlarga ega emas"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "Not loaded"
+msgstr "Yuklanmagan"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__note
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__note
+#, fuzzy
+msgid "Note"
+msgstr "Izoh"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_needaction_counter
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_needaction_counter
+#, fuzzy
+msgid "Number of Actions"
+msgstr "Harakatlar soni"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_has_error_counter
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_has_error_counter
+#, fuzzy
+msgid "Number of errors"
+msgstr "Xatolar soni"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_needaction_counter
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_needaction_counter
+#, fuzzy
+msgid "Number of messages requiring action"
+msgstr "Harakat talab qiladigan xabarlar soni"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__message_has_error_counter
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__message_has_error_counter
+#, fuzzy
+msgid "Number of messages with delivery error"
+msgstr "Yetkazib berishda xato bo‘lgan xabarlar soni"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "N₂O"
+msgstr "N₂O"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Offset"
+msgstr "Kompensatsiya"
+
+#. module: esg
+#: model:ir.actions.act_window,name:esg.action_offset_emission_report_views
+#: model:ir.ui.menu,name:esg.menu_esg_offset_emissions
+#, fuzzy
+msgid "Offset Emissions"
+msgstr "Kompensatsiya emissiyalari"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Other"
+msgstr "Boshqa"
+
+#. module: esg
+#: model:ir.model,name:esg.model_esg_other_emission
+#, fuzzy
+msgid "Other Emission"
+msgstr "Boshqa emissiya"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__other
+#, fuzzy
+msgid "Other Halogenated substances"
+msgstr "Boshqa galogenli moddalar"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Other Indirect Emissions"
+msgstr "Boshqa bilvosita emissiyalar"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c3f8
+#, fuzzy
+msgid "PFC-218"
+msgstr "PFC-218"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c-c4f8
+#, fuzzy
+msgid "PFC-318"
+msgstr "PFC-318"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_pfc_c6f14
+#, fuzzy
+msgid "PFC-51-14"
+msgstr "PFC-51-14"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "PFCs"
+msgstr "PFClar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__parent_id
+#, fuzzy
+msgid "Parent"
+msgstr "Asosiy"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__parent_path
+#, fuzzy
+msgid "Parent Path"
+msgstr "Asosiy yo‘l"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__partner_id
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__partner_id
+#, fuzzy
+msgid "Partner"
+msgstr "Hamkor"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__pfc
+#, fuzzy
+msgid "Perfluorocarbons (PFCs)"
+msgstr "Perftoruglerodlar (PFC)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_search_view
+#, fuzzy
+msgid "Physically"
+msgstr "Jismonan"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_factor__compute_method__physically
+#, fuzzy
+msgid "Physically (Quantity)"
+msgstr "Jismonan (miqdor)"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__precursors
+#, fuzzy
+msgid "Precursors"
+msgstr "Dastlabki moddalar"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_3
+#, fuzzy
+msgid "Process Emissions"
+msgstr "Jarayon emissiyalari"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Processing of Sold Product"
+msgstr "Sotilgan mahsulotni qayta ishlash"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_2
+#, fuzzy
+msgid "Processing of Sold Products"
+msgstr "Sotilgan mahsulotlarni qayta ishlash"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_assignation_line__product_id
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_4
+#, fuzzy
+msgid "Product Usage and Disposal"
+msgstr "Mahsulotdan foydalanish va utilizatsiya"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_1
+#, fuzzy
+msgid "Purchased Electricity"
+msgstr "Sotib olingan elektr energiyasi"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Purchased Electricity, Steam, Heating, and Cooling for own use"
+msgstr ""
+"O‘z ehtiyojlari uchun sotib olingan elektr energiyasi, bug‘, isitish va "
+"sovutish"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_1
+#, fuzzy
+msgid "Purchased Goods and Services"
+msgstr "Sotib olingan tovarlar va xizmatlar"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_indirect_2
+#, fuzzy
+msgid "Purchased Steam, Heat or Cooling"
+msgstr "Sotib olingan bug‘, issiqlik yoki sovutish"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__quantity
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__quantity
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+#, fuzzy
+msgid "Quantity"
+msgstr "Miqdor"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__rating_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__rating_ids
+#, fuzzy
+msgid "Ratings"
+msgstr "Reytinglar"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__region
+#, fuzzy
+msgid "Region / Regional Conditions"
+msgstr "Mintaqa / Mintaqaviy sharoitlar"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_gas__global_warming_potential
+#, fuzzy
+msgid "Relative impact of gas on global warming compared to CO₂ over 100 years"
+msgstr "100 yil davomida CO₂ ga nisbatan gazning global isishga nisbiy ta'siri"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__replace_previous_factors
+#, fuzzy
+msgid "Replace Previous Factors"
+msgstr "Oldingi omillarni almashtirish"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.factors_auto_assignment_wizard_form_view
+#, fuzzy
+msgid "Replace existing assignations"
+msgstr "Mavjud tayinlovlarni almashtirish"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "SF₆"
+msgstr "SF₆"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__message_has_sms_error
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__message_has_sms_error
+#, fuzzy
+msgid "SMS Delivery error"
+msgstr "SMS yuborishda xatolik"
+
+#. module: esg
+#: model:account.account,name:esg.account_salary
+#, fuzzy
+msgid "Salary"
+msgstr "Ish haqi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__scope
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__scope
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__scope
+#, fuzzy
+msgid "Scope"
+msgstr "Qamrov"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Scope 1"
+msgstr "1-qamrov"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__scope__direct
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_search_view
+#, fuzzy
+msgid "Scope 1: Direct"
+msgstr "1-qamrov: To‘g‘ridan-to‘g‘ri"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Scope 2"
+msgstr "2-qamrov"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__scope__indirect
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_search_view
+#, fuzzy
+msgid "Scope 2: Indirect"
+msgstr "2-qamrov: Bilvosita"
+
+#. module: esg
+#. odoo-javascript
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Scope 3"
+msgstr "3-qamrov"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__scope__indirect_others
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_search_view
+#, fuzzy
+msgid "Scope 3: Others Indirect"
+msgstr "3-qamrov: Boshqa bilvosita"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#, fuzzy
+msgid ""
+"Seamlessly bring all your ESG data together, whether from Odoo or outside, "
+"in a simple and organized way."
+msgstr ""
+"Barcha ESG ma'lumotlaringizni, xoh Odoo‘dan, xoh tashqaridan bo‘lsin, oddiy "
+"va tartibli tarzda muammosiz birlashtiring."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__sequence
+#: model:ir.model.fields,field_description:esg.field_esg_emission_source__sequence
+#: model:ir.model.fields,field_description:esg.field_esg_gas__sequence
+#, fuzzy
+msgid "Sequence"
+msgstr "Ketma-ketlik"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "Server returned an unexpected error: %(error)s"
+msgstr "Server kutilmagan xatolikni qaytardi: %(error)s"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_settings
+#, fuzzy
+msgid "Settings"
+msgstr "Sozlamalar"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_gas.py:0
+#, fuzzy
+msgid ""
+"Some gases you're trying to delete are used for data imports:\n"
+"%(gases)s"
+msgstr ""
+"Siz o‘chirmoqchi bo‘lgan ba'zi gazlar ma'lumotlarni import qilish uchun "
+"ishlatiladi: %(gases)s"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__source_id
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__source_id
+#, fuzzy
+msgid "Source"
+msgstr "Manba"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__database_id
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_list_view
+#, fuzzy
+msgid "Source Database"
+msgstr "Manba ma'lumotlar bazasi"
+
+#. module: esg
+#: model:ir.ui.menu,name:esg.menu_esg_source_databases
+#, fuzzy
+msgid "Source Databases"
+msgstr "Manba ma'lumotlar bazalari"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_factors_auto_assignment_wizard__start_date
+#, fuzzy
+msgid "Start Date"
+msgstr "Boshlanish sanasi"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_1
+#, fuzzy
+msgid "Stationary Combustion"
+msgstr "Statsionar yonish"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_so2
+#, fuzzy
+msgid "Sulfur Dioxide (SO2+SO3)"
+msgstr "Oltingugurt dioksidi (SO2+SO3)"
+
+#. module: esg
+#: model:esg.gas,name:esg.esg_gas_sf6
+#: model:ir.model.fields.selection,name:esg.selection__esg_gas__category__sf6
+#, fuzzy
+msgid "Sulfur Hexafluoride (SF₆)"
+msgstr "Oltingugurt geksaftorid (SF₆)"
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_sf6
+#, fuzzy
+msgid "Sulfur Hexafluoride (SF₆) (t)"
+msgstr "Oltingugurt geksaftorid (SF₆) (t)"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "The IPCC server did not return any file to import the data."
+msgstr ""
+"IPCC serveri ma'lumotlarni import qilish uchun hech qanday faylni qaytarmadi."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_assignation_line.py:0
+#, fuzzy
+msgid "The account type must be of type %(valid_account_type_names)s."
+msgstr "Hisob turi %(valid_account_type_names)s turida bo‘lishi kerak."
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_assignation_line_at_least_one_field_filled
+#, fuzzy
+msgid "The assignation rule must have at least one field filled"
+msgstr "Tayinlov qoidasida kamida bitta maydon to‘ldirilgan bo‘lishi shart"
+
+#. module: esg
+#: model:ir.model.constraint,message:esg.constraint_esg_gas_code_unique
+#, fuzzy
+msgid "The code of a gas must be unique."
+msgstr "Gazning kodi noyob bo‘lishi kerak."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "The file format doesn't seem to be correct."
+msgstr "Fayl formati to‘g‘ri emas."
+
+#. module: esg
+#: model:account.report.column,name:esg.carbon_report_column_co2e
+#, fuzzy
+msgid "Total (t CO₂e)"
+msgstr "Jami (t CO₂e)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_list_view
+#, fuzzy
+msgid "Total Emissions (kgCO₂e)"
+msgstr "Jami chiqindilar (kgCO₂e)"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#, fuzzy
+msgid ""
+"Track your ESG performance, transform data into actionable insights, and "
+"generate reports to meet compliance requirements all while making informed, "
+"strategic decisions."
+msgstr ""
+"ESG ko‘rsatkichlaringizni kuzatib boring, ma'lumotlarni amaliy xulosalarga "
+"aylantiring va muvofiqlik talablariga javob beruvchi hisobotlar yarating, "
+"shu bilan birga asosli, strategik qarorlar qabul qiling."
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Track your company's"
+msgstr "Kompaniyangizning kuzatib borishi"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Transportation and Distribution"
+msgstr "Tashish va tarqatish"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_1
+#, fuzzy
+msgid "Transportation and Logistics"
+msgstr "Transport va logistika"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/components/esg_dashboard/esg_dashboard.xml:0
+#, fuzzy
+msgid ""
+"Turn insights into action, monitor your impact in real-time, and drive "
+"meaningful change across your organization."
+msgstr ""
+"Xulosalarni harakatga aylantiring, ta'siringizni real vaqt rejimida kuzating "
+"va tashkilotingiz bo‘ylab sezilarli o‘zgarishlarni amalga oshiring."
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_uncertainty_value
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_uncertainty_value
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__esg_uncertainty_value
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_uncertainty_value
+#, fuzzy
+msgid "Uncertainty (%)"
+msgstr "Noaniqlik (%)"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_account_move_line__esg_uncertainty_absolute_value
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_uncertainty_absolute_value
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__esg_uncertainty_absolute_value
+#, fuzzy
+msgid "Uncertainty (kgCO₂e)"
+msgstr "Noaniqlik (kgCO₂e)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_kanban_view
+#, fuzzy
+msgid "Uncertainty:"
+msgstr "Noaniqlik:"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_gas__code
+#, fuzzy
+msgid "Unique code identifying the gas"
+msgstr "Gazni aniqlovchi noyob kod"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_list_view
+#, fuzzy
+msgid "Unit"
+msgstr "Birlik"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__unit_name
+#, fuzzy
+msgid "Unit Name"
+msgstr "Birlik nomi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__uom_id
+#: model:ir.model.fields,field_description:esg.field_esg_other_emission__uom_id
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+#, fuzzy
+msgid "Unit of Measure"
+msgstr "O‘lchov birligi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__uom_id
+#, fuzzy
+msgid "UoM"
+msgstr "O‘B"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+#: model_terms:ir.ui.view,arch_db:esg.database_kanban_view
+#, fuzzy
+msgid "Update"
+msgstr "Yangilash"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/wizard/factors_auto_assignment_wizard.py:0
+#, fuzzy
+msgid "Updated Emissions"
+msgstr "Yangilangan chiqindilar"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "Updated on: %(date)s"
+msgstr "%(date)s sanasida yangilandi"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_factor_line.py:0
+#, fuzzy
+msgid "Updated values for %(gas_name)s (%(activity_type_name)s)"
+msgstr "%(gas_name)s uchun yangilangan qiymatlar (%(activity_type_name)s)"
+
+#. module: esg
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_direct_indirect__upstream
+#: model:ir.model.fields.selection,name:esg.selection__esg_emission_source__activity_flow_indirect_others__upstream
+#, fuzzy
+msgid "Upstream"
+msgstr "Yuqori oqim"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_8
+#, fuzzy
+msgid "Upstream Leased Assets"
+msgstr "Yuqori oqimdagi ijaraga olingan aktivlar"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_4
+#, fuzzy
+msgid "Upstream Transportation and Distribution"
+msgstr "Yuqori oqimdagi tashish va tarqatish"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid "Upstream activities"
+msgstr "Yuqori oqim faoliyatlari"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_database__url
+#, fuzzy
+msgid "Url"
+msgstr "URL"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_downstream_3
+#, fuzzy
+msgid "Use of Sold Products"
+msgstr "Sotilgan mahsulotlardan foydalanish"
+
+#. module: esg
+#: model:res.groups,name:esg.esg_group_user
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__valid_from
+#, fuzzy
+msgid "Valid From"
+msgstr "Amal qilish sanasi:"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__valid_to
+#, fuzzy
+msgid "Valid To"
+msgstr "Amal qilish muddati:"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+msgid "Validity Period"
+msgstr ""
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_2_1
+#, fuzzy
+msgid "Vehicle Type 1"
+msgstr "Transport vositasi turi 1"
+
+#. module: esg
+#: model:esg.emission.source,name:esg.esg_emission_source_direct_2_2
+#, fuzzy
+msgid "Vehicle Type 2"
+msgstr "Transport vositasi turi 2"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.carbon_emission_report_search_view
+#, fuzzy
+msgid "Very High Uncertainty (> 50%)"
+msgstr "Juda yuqori noaniqlik (> 50%)"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_account.py:0
+#, fuzzy
+msgid "Warning"
+msgstr "Ogohlantirish"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#: model:esg.emission.source,name:esg.esg_emission_source_upstream_5
+#, fuzzy
+msgid "Waste Generated in Operations"
+msgstr "Ishlab chiqarishda hosil bo‘lgan chiqindilar"
+
+#. module: esg
+#: model:esg.activity.type,name:esg.esg_activity_type_3
+#, fuzzy
+msgid "Waste Management"
+msgstr "Chiqindilarni boshqarish"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor__website_message_ids
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__website_message_ids
+#, fuzzy
+msgid "Website Messages"
+msgstr "Veb-sayt xabarlari"
+
+#. module: esg
+#: model:ir.model.fields,help:esg.field_esg_emission_factor__website_message_ids
+#: model:ir.model.fields,help:esg.field_esg_emission_factor_line__website_message_ids
+#, fuzzy
+msgid "Website communication history"
+msgstr "Veb-sayt aloqa tarixi"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/account_account.py:0
+#, fuzzy
+msgid ""
+"You can only create accounts of type %(valid_account_type_names)s in the ESG "
+"module, as emission factors can only be linked to expense or asset accounts."
+msgstr ""
+"ESG modulida faqat %(valid_account_type_names)s turdagi hisoblarni "
+"yaratishingiz mumkin, chunki chiqindi koeffitsiyentlari faqat xarajat yoki "
+"aktiv hisoblariga bog‘lanishi mumkin."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "You can't delete the ADEME database."
+msgstr "ADEME ma'lumotlar bazasini o‘chira olmaysiz."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_database.py:0
+#, fuzzy
+msgid "You can't delete the IPCC database."
+msgstr "IPCC ma'lumotlar bazasini o‘chira olmaysiz."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/report/esg_carbon_emission_report.py:0
+#, fuzzy
+msgid "You cannot copy emissions linked to journal items."
+msgstr "Jurnal yozuvlariga bog‘langan chiqindilardan nusxa ko‘chira olmaysiz."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/models/esg_emission_source.py:0
+#, fuzzy
+msgid "You cannot create a cyclic hierarchy of emission sources."
+msgstr "Chiqindi manbalarining siklik ierarxiyasini yarata olmaysiz."
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/report/esg_carbon_emission_report.py:0
+#, fuzzy
+msgid "You cannot delete journal items from here."
+msgstr "Bu yerdan jurnal elementlarini o‘chira olmaysiz."
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+#, fuzzy
+msgid "e.g. ADEME"
+msgstr "masalan, ADEME"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.other_emission_form_view
+#, fuzzy
+msgid "e.g. Bus Transportation"
+msgstr "masalan, Avtobus transporti"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.esg_gas_form_view
+#, fuzzy
+msgid "e.g. Fossil Methane (CH₄)"
+msgstr "masalan, Qazilma metan (CH₄)"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_source_form_view
+#, fuzzy
+msgid "e.g. Mobile Combustion"
+msgstr "masalan, Ko‘chma yonish"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_form_view
+#, fuzzy
+msgid "e.g. Office Computer"
+msgstr "masalan, Ofis kompyuteri"
+
+#. module: esg
+#: model_terms:ir.ui.view,arch_db:esg.database_form_view
+#, fuzzy
+msgid "e.g. https://base-empreinte.ademe.fr/"
+msgstr "masalan, https://base-empreinte.ademe.fr/"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/wizard/factors_auto_assignment_wizard.py:0
+#, fuzzy
+msgid "id"
+msgstr "id"
+
+#. module: esg
+#: model:ir.model.fields,field_description:esg.field_esg_emission_factor_line__quantity
+#, fuzzy
+msgid "kg"
+msgstr "kg"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/widgets/esg_value/esg_value.xml:0
+#: model_terms:ir.ui.view,arch_db:esg.emission_factor_kanban_view
+#, fuzzy
+msgid "kgCO₂e /"
+msgstr "kgCO₂e /"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#, fuzzy
+msgid "n/a"
+msgstr "mavjud emas"
+
+#. module: esg
+#. odoo-python
+#: code:addons/esg/controllers/esg_dashboard.py:0
+#: model:ir.model.fields,field_description:esg.field_esg_carbon_emission_report__esg_emissions_value_t
+#, fuzzy
+msgid "tCO₂e"
+msgstr "tCO₂e"
+
+#. module: esg
+#. odoo-javascript
+#: code:addons/esg/static/src/no_content_helper/no_content_helper.xml:0
+#, fuzzy
+msgid ""
+"with ease! Most emissions are seamlessly calculated from your accounting "
+"data, using account move lines to generate precise and compliant reports."
+msgstr ""
+"osonlik bilan! Ko‘p chiqindilar buxgalteriya ma'lumotlaringizdan uzluksiz "
+"hisoblanadi, aniq va muvofiq hisobotlar yaratish uchun hisob-kitob "
+"yozuvlaridan foydalaniladi."

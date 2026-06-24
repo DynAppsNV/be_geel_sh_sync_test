@@ -1,0 +1,370 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * ai_documents
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-30 18:45+0000\n"
+"PO-Revision-Date: 2026-06-06 13:29+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/ai_documents/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: ai_documents
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid "<strong class=\"mt-3\">What actions can the AI take?</strong>"
+msgstr "<strong class=\"mt-3\">AI ສາມາດດຳເນີນການຫຍັງໄດ້ແດ່?</strong>"
+
+#. module: ai_documents
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid ""
+"<strong>\n"
+"                            What do you want the AI to do?\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            ເຈົ້າຕ້ອງການໃຫ້ AI ເຮັດຫຍັງ?\n"
+"                        </strong>"
+
+#. module: ai_documents
+#: model:ir.actions.server,name:ai_documents.ir_cron_ai_documents_sort_ir_actions_server
+msgid "AI Documents: Sort documents with AI"
+msgstr "AI ເອກະສານ: ຈັດຮຽງເອກະສານດ້ວຍ AI"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__ai_sort_prompt
+#: model:ir.model.fields,field_description:ai_documents.field_documents_document__ai_sort_prompt
+msgid "AI Folder Sort Prompt"
+msgstr "ຄຳສັ່ງຈັດຮຽງໂຟນເດີດ້ວຍ AI"
+
+#. module: ai_documents
+#: model:ir.actions.act_window,name:ai_documents.ai_documents_sort_action
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid "AI Sort"
+msgstr "ການຈັດຮຽງດ້ວຍ AI"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_documents_document__ai_sortable
+msgid "AI Sortable"
+msgstr "ສາມາດຈັດຮຽງດ້ວຍ AI ໄດ້"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_documents_document__ai_to_sort
+#: model_terms:ir.ui.view,arch_db:ai_documents.documents_document_view_kanban
+msgid "AI To Sort"
+msgstr "AI ທີ່ຈະຈັດຮຽງ"
+
+#. module: ai_documents
+#: model:ir.actions.server,name:ai_documents.ir_actions_server_add_tags
+msgid "AI: Add Tags"
+msgstr "AI: ເພີ່ມແທັກ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/ir_actions_server.py:0
+msgid "AI: An error occurred: %s"
+msgstr "AI: ເກີດຂໍ້ຜິດພາດ: %s"
+
+#. module: ai_documents
+#: model:ir.actions.server,name:ai_documents.ir_actions_server_move_in_folder
+msgid "AI: Move To Folder"
+msgstr "AI: ຍ້າຍໄປທີ່ໂຟນເດີ"
+
+#. module: ai_documents
+#: model:ir.actions.server,name:ai_documents.ir_actions_server_rename_documents
+msgid "AI: Rename Document"
+msgstr "AI: ປ່ຽນຊື່ເອກະສານ"
+
+#. module: ai_documents
+#: model:ir.actions.server,ai_tool_description:ai_documents.ir_actions_server_add_tags
+msgid "Add the tags on the document"
+msgstr "ເພີ່ມແທັກໃສ່ເອກະສານ"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__ai_tool_ids
+msgid "Additional Tools"
+msgstr "ເຄື່ອງມືເພີ່ມເຕີມ"
+
+#. module: ai_documents
+#: model:ir.model,name:ai_documents.model_ai_documents_sort
+msgid "Ai Documents Sort"
+msgstr "ການຈັດຮຽງເອກະສານດ້ວຍ AI"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__allowed_tools_ids
+msgid "Allowed Tools"
+msgstr "ເຄື່ອງມືທີ່ອະນຸຍາດ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Auto sorting has been scheduled"
+msgstr "ກຳນົດເວລາການຈັດຮຽງອັດຕະໂນມັດແລ້ວ"
+
+#. module: ai_documents
+#. odoo-javascript
+#: code:addons/ai_documents/static/src/cog_menu/documents_cog_menu_item_ai_auto_sort.xml:0
+msgid "Auto-sort"
+msgstr "ຈັດຮຽງອັດຕະໂນມັດ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Auto-sort documents in %s"
+msgstr "ຈັດຮຽງເອກະສານອັດຕະໂນມັດໃນ %s"
+
+#. module: ai_documents
+#: model:ir.model,name:ai_documents.model_base_automation
+msgid "Automation Rule"
+msgstr "ກົດລະບຽບອັດຕະໂນມັດ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Cannot move in a non-folder."
+msgstr "ບໍ່ສາມາດຍ້າຍໄປໃສ່ສິ່ງທີ່ບໍ່ແມ່ນໂຟນເດີໄດ້."
+
+#. module: ai_documents
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid "Close"
+msgstr "ປິດ"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: ai_documents
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid "Delete"
+msgstr "ລຶບ"
+
+#. module: ai_documents
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__display_name
+#: model:ir.model.fields,field_description:ai_documents.field_base_automation__display_name
+#: model:ir.model.fields,field_description:ai_documents.field_documents_document__display_name
+#: model:ir.model.fields,field_description:ai_documents.field_ir_actions_server__display_name
+#: model:ir.model.fields,field_description:ai_documents.field_ir_http__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: ai_documents
+#: model:ir.model,name:ai_documents.model_documents_document
+msgid "Document"
+msgstr "ເອກະສານ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Document Content"
+msgstr "ເນື້ອໃນເອກະສານ"
+
+#. module: ai_documents
+#: model:ir.model.fields,help:ai_documents.field_documents_document__ai_to_sort
+msgid "Flag to mark the files as to be sorted with AI"
+msgstr "ໝາຍໄວ້ເພື່ອໃຫ້ໄຟລ໌ຖືກຈັດຮຽງດ້ວຍ AI"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__folder_id
+msgid "Folder"
+msgstr "ໂຟນເດີ"
+
+#. module: ai_documents
+#: model:ir.model,name:ai_documents.model_ir_http
+msgid "HTTP Routing"
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid ""
+"Here is a document called %(document_name)s and whose content is %(content)s"
+" and tags are %(tags)s. The mimetype of the document is %(mimetype)s."
+msgstr ""
+"ນີ້ແມ່ນເອກະສານທີ່ມີຊື່ວ່າ %(document_name)s ເຊິ່ງມີເນື້ອໃນແມ່ນ %(content)s ແລະ ແທັກແມ່ນ %"
+"(tags)s. ປະເພດໄຟລ໌ (mimetype) ຂອງເອກະສານແມ່ນ %(mimetype)s."
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__id
+#: model:ir.model.fields,field_description:ai_documents.field_base_automation__id
+#: model:ir.model.fields,field_description:ai_documents.field_documents_document__id
+#: model:ir.model.fields,field_description:ai_documents.field_ir_actions_server__id
+#: model:ir.model.fields,field_description:ai_documents.field_ir_http__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/wizard/ai_documents_sort.py:0
+msgid "If the document is an invoice, send it to %s"
+msgstr "ຖ້າເອກະສານເປັນໃບເກັບເງິນ, ໃຫ້ສົ່ງໄປທີ່ %s"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__is_ai_sort_prompt_set
+msgid "Is Prompt Set"
+msgstr "ຕັ້ງຄ່າຄຳສັ່ງແລ້ວ"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Mimetype"
+msgstr "Mimetype"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__model
+msgid "Model"
+msgstr "ໂມເດວ"
+
+#. module: ai_documents
+#: model:ir.actions.server,ai_tool_description:ai_documents.ir_actions_server_move_in_folder
+msgid "Move the documents in the given folder id"
+msgstr "ຍ້າຍເອກະສານໄປທີ່ໄອດີໂຟນເດີທີ່ກຳນົດໃຫ້"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Moved to \"%(folder)s\"."
+msgstr "ຍ້າຍໄປທີ່ \"%(folder)s\" ແລ້ວ."
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "No document suitable for AI sorting."
+msgstr "ບໍ່ມີເອກະສານທີ່ເໝາະສົມກັບການຈັດຮຽງດ້ວຍ AI."
+
+#. module: ai_documents
+#: model:ir.model.constraint,message:ai_documents.constraint_documents_document_check_ai_sort_prompt
+msgid "Only folders can be auto-sorted."
+msgstr "ສະເພາະໂຟນເດີເທົ່ານັ້ນທີ່ສາມາດຈັດຮຽງອັດຕະໂນມັດໄດ້."
+
+#. module: ai_documents
+#: model:ir.model.constraint,message:ai_documents.constraint_base_automation_unique_ai_autosort_folder_id
+msgid "Only one automation rule can be used to sort with AI a given folder"
+msgstr "ສາມາດໃຊ້ກົດລະບຽບອັດຕະໂນມັດພຽງອັນດຽວເພື່ອຈັດຮຽງໂຟນເດີໃດໜຶ່ງດ້ວຍ AI"
+
+#. module: ai_documents
+#: model:ir.model.fields,help:ai_documents.field_documents_document__ai_sort_prompt
+msgid "Prompt used to automatically sort files moved in this folder"
+msgstr "ຄຳສັ່ງທີ່ໃຊ້ເພື່ອຈັດຮຽງໄຟລ໌ທີ່ຍ້າຍເຂົ້າມາໃນໂຟນເດີນີ້ໂດຍອັດຕະໂນມັດ"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_ai_documents_sort__relation
+msgid "Relation"
+msgstr "ຄວາມສຳພັນ"
+
+#. module: ai_documents
+#: model:ir.actions.server,ai_tool_description:ai_documents.ir_actions_server_rename_documents
+msgid "Rename Document"
+msgstr "ປ່ຽນຊື່ເອກະສານ"
+
+#. module: ai_documents
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid "Save"
+msgstr "ບັນທຶກ"
+
+#. module: ai_documents
+#: model:ir.model,name:ai_documents.model_ir_actions_server
+msgid "Server Action"
+msgstr "ການດຳເນີນການຂອງເຊີເວີ"
+
+#. module: ai_documents
+#. odoo-javascript
+#: code:addons/ai_documents/static/src/views/documents_controller_mixin.js:0
+msgid "Sort With AI"
+msgstr "ຈັດຮຽງດ້ວຍ AI"
+
+#. module: ai_documents
+#: model:ir.model.fields,field_description:ai_documents.field_base_automation__ai_autosort_folder_id
+#: model:ir.model.fields,field_description:ai_documents.field_ir_actions_server__ai_autosort_folder_id
+#: model:ir.model.fields,field_description:ai_documents.field_ir_cron__ai_autosort_folder_id
+msgid "Sorted Folder"
+msgstr "ໂຟນເດີທີ່ຈັດຮຽງແລ້ວ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Tag(s) %s added"
+msgstr "ເພີ່ມແທັກ %s ແລ້ວ"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Tags > Name"
+msgstr "ແທັກ > ຊື່"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "Tags not found: %s"
+msgstr "ບໍ່ພົບແທັກ: %s"
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid "This document cannot be auto-sorted."
+msgstr "ເອກະສານນີ້ບໍ່ສາມາດຈັດຮຽງອັດຕະໂນມັດໄດ້."
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/documents_document.py:0
+msgid ""
+"This folder isn't specified in the prompt and cannot be used as target."
+msgstr "ໂຟນເດີນີ້ບໍ່ໄດ້ຖືກລະບຸໄວ້ໃນຄຳສັ່ງ ແລະ ບໍ່ສາມາດໃຊ້ເປັນເປົ້າໝາຍໄດ້."
+
+#. module: ai_documents
+#. odoo-python
+#: code:addons/ai_documents/models/ir_actions_server.py:0
+msgid "You can move the document in one of those folders:"
+msgstr "ເຈົ້າສາມາດຍ້າຍເອກະສານໄປໃສ່ໜຶ່ງໃນໂຟນເດີເຫຼົ່ານີ້:"
+
+#. module: ai_documents
+#: model_terms:ir.ui.view,arch_db:ai_documents.ai_documents_sort_view_form
+msgid ""
+"eg:                                     If the documents is an invoice, move"
+" it to Finance,                                     if it's an image, move "
+"it to Photos,                                     otherwise, create an "
+"activity 'Document to sort' for Admin"
+msgstr ""
+"ຕົວຢ່າງ: ຖ້າເອກະສານເປັນໃບເກັບເງິນ, ໃຫ້ຍ້າຍໄປທີ່ ການເງິນ, ຖ້າເປັນຮູບພາບ, ໃຫ້ຍ້າຍໄປທີ່ ຮູບພາບ, ຖ້າບໍ່"
+"ດັ່ງນັ້ນ, ໃຫ້ສ້າງກິດຈະກຳ 'ເອກະສານທີ່ຕ້ອງຈັດຮຽງ' ສໍາລັບ ຜູ້ດູແລລະບົບ"
+
+#. module: ai_documents
+#. odoo-javascript
+#: code:addons/ai_documents/static/src/ai_sort_documents_prompt.js:0
+msgid "⚠️ Tell the AI where to sort your documents with /record."
+msgstr "⚠️ ບອກ AI ວ່າຈະໃຫ້ຈັດຮຽງເອກະສານຂອງເຈົ້າຢູ່ໃສດ້ວຍ /record."

@@ -1,0 +1,148 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ai_website
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-09 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.xml:0
+#: model_terms:ir.ui.view,arch_db:ai_website.snippets
+#, fuzzy
+msgid "AI"
+msgstr "AI"
+
+#. module: ai_website
+#: model:ir.model,name:ai_website.model_ai_agent_source
+msgid "AI Agent Source"
+msgstr ""
+
+#. module: ai_website
+#: model_terms:ir.ui.view,arch_db:ai_website.snippets
+#, fuzzy
+msgid "AI Livechat"
+msgstr "AI Jonli suhbat"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.js:0
+#, fuzzy
+msgid "Concise"
+msgstr "Qisqa"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.js:0
+#, fuzzy
+msgid "Create"
+msgstr "Yaratish"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.js:0
+#, fuzzy
+msgid "Create with AI"
+msgstr "AI bilan yaratish"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.xml:0
+#, fuzzy
+msgid "Describe the page with keywords..."
+msgstr "Sahifani kalit so‘zlar bilan tavsiflang..."
+
+#. module: ai_website
+#: model:ir.model.fields,field_description:ai_website.field_ai_agent_source__display_name
+#: model:ir.model.fields,field_description:ai_website.field_website_page__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.js:0
+#, fuzzy
+msgid "Friendly"
+msgstr "Do‘stona"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.xml:0
+#, fuzzy
+msgid "Generate text"
+msgstr "Matn yaratish"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.xml:0
+#, fuzzy
+msgid "Generating content..."
+msgstr "Mazmun yaratilmoqda..."
+
+#. module: ai_website
+#: model:ir.model.fields,field_description:ai_website.field_ai_agent_source__id
+#: model:ir.model.fields,field_description:ai_website.field_website_page__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.js:0
+#, fuzzy
+msgid "Informative"
+msgstr "Ma'lumotli"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.xml:0
+#, fuzzy
+msgid "Instructions"
+msgstr "Ko‘rsatmalar"
+
+#. module: ai_website
+#: model:ir.model,name:ai_website.model_website_page
+#, fuzzy
+msgid "Page"
+msgstr "Sahifa"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.js:0
+#, fuzzy
+msgid "Persuasive"
+msgstr "Ishontiruvchi"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.js:0
+#, fuzzy
+msgid "Professional"
+msgstr "Kasbiy"
+
+#. module: ai_website
+#. odoo-javascript
+#: code:addons/ai_website/static/src/components/dialog/add_page_dialog.xml:0
+#, fuzzy
+msgid "Tone Selection"
+msgstr "Ohang tanlovi"

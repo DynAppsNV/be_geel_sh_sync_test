@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_sale_report
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 18:44+0000\n"
+"PO-Revision-Date: 2025-10-08 18:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,website_form_label:industry_fsm_sale_report.model_project_task
+#, fuzzy
+msgid "Create a Task"
+msgstr "Vazifa yaratish"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_product__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_product__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_sale_order_line__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.fsm_template_field4
+#, fuzzy
+msgid "Model"
+msgstr "Model"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_product_template
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_product_product
+#, fuzzy
+msgid "Product Variant"
+msgstr "Mahsulot varianti"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_project_project
+#, fuzzy
+msgid "Project"
+msgstr "Loyiha"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_sale_order_line
+#, fuzzy
+msgid "Sales Order Line"
+msgstr "Savdo buyurtmasi qatori"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model,name:industry_fsm_sale_report.model_project_task
+#, fuzzy
+msgid "Task"
+msgstr "Vazifa"
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,help:industry_fsm_sale_report.field_project_task__display_name
+#, fuzzy
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a medium priority\n"
+"        !! Set the task a high priority\n"
+"        !!! Set the task a urgent priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"Yangi vazifalar yaratish uchun sarlavhada quyidagi kalit so‘zlardan "
+"foydalaning: 30s Vazifaga 30 soat ajratish #teglar Vazifaga teglar qo‘yish "
+"@foydalanuvchi Vazifani foydalanuvchiga topshirish ! Vazifani o‘rtacha "
+"muhimlikka o‘rnatish !! Vazifani yuqori muhimlikka o‘rnatish !!! Vazifani "
+"juda muhim deb belgilash To‘g‘ri format va tartibdan foydalaning, masalan: "
+"Sozlamalar oynasini takomillashtirish 5s #xususiyat #v16 @Mitchell !"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.view_product_timesheet_form_inherit
+msgid "Values set here are company-specific."
+msgstr ""
+
+#. module: industry_fsm_sale_report
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_product__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_sale_report.field_product_template__worksheet_template_id
+#, fuzzy
+msgid "Worksheet Template"
+msgstr "Ish varag‘i shabloni"
+
+#. module: industry_fsm_sale_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale_report.view_product_timesheet_form_inherit
+#, fuzzy
+msgid "e.g. Device Installation"
+msgstr "Misol: Qurilmani o‘rnatish"
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"fa fa-lg fa-building-o fa-fw\" title=\"Values set here are "
+#~ "company-specific.\" groups=\"base.group_multi_company\"/>"
+#~ msgstr ""
+#~ "<span class=\"fa fa-lg fa-building-o fa-fw\" title=\"Bu yerda belgilangan "
+#~ "qiymatlar kompaniyaga xos.\" groups=\"base.group_multi_company\"/>"

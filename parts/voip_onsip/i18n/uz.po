@@ -1,0 +1,91 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* voip_onsip
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:50+0000\n"
+"PO-Revision-Date: 2025-10-08 18:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__display_name
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users_settings__display_name
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_provider__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__id
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users_settings__id
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_provider__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users_settings__onsip_auth_username
+#: model_terms:ir.ui.view,arch_db:voip_onsip.onsip_res_user_form
+#: model_terms:ir.ui.view,arch_db:voip_onsip.onsip_res_users_view_form_preferences
+#, fuzzy
+msgid "OnSIP Auth Username"
+msgstr "OnSIP autentifikatsiya foydalanuvchi nomi"
+
+#. module: voip_onsip
+#: model_terms:ir.ui.view,arch_db:voip_onsip.voip_provider_tree_view_inherit
+#, fuzzy
+msgid "OnSIP Domain"
+msgstr "OnSIP domeni"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_res_users__onsip_auth_username
+#, fuzzy
+msgid "Onsip Auth Username"
+msgstr "OnSIP autentifikatsiya foydalanuvchi nomi"
+
+#. module: voip_onsip
+#: model:ir.model.fields,help:voip_onsip.field_voip_provider__ws_server
+#, fuzzy
+msgid "The URL of your WebSocket"
+msgstr "WebSocket URL manzili"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_users
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_res_users_settings
+#, fuzzy
+msgid "User Settings"
+msgstr "Foydalanuvchi sozlamalari"
+
+#. module: voip_onsip
+#: model:ir.model,name:voip_onsip.model_voip_provider
+#, fuzzy
+msgid "VoIP Provider"
+msgstr "VoIP provayderi"
+
+#. module: voip_onsip
+#: model:ir.model.fields,field_description:voip_onsip.field_voip_provider__ws_server
+#, fuzzy
+msgid "WebSocket"
+msgstr "WebSocket"

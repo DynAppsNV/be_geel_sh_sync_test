@@ -1,0 +1,982 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pos_platform_order
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-03 18:47+0000\n"
+"PO-Revision-Date: 2026-06-12 03:29+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Turkish <https://translate.odoo.com/projects/odoo-19/"
+"pos_platform_order/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "<span class=\"o_stat_text text-success\">Entites</span>"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.constraint,message:pos_platform_order.constraint_platform_order_entity_entity_id_uniq
+msgid "A store with the same external ID already exists for this provider."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Accept Order"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__accepted
+#, fuzzy
+msgid "Accepted"
+msgstr "Kabul Edildi"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#, fuzzy
+msgid "Accounting"
+msgstr "Muhasebe"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "An unknown error occurred."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__available_categ_ids_domain
+msgid "Available Categ Ids Domain"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__available_categ_ids
+msgid "Available Product Categories"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_product__platform_order_available
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_template__platform_order_available
+msgid "Available for Platform Orders"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_cancel_reason
+#, fuzzy
+msgid "Cancellation Reason"
+msgstr "İptal Nedeni"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__cancelled
+#, fuzzy
+msgid "Cancelled"
+msgstr "İptal Edildi"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Cannot reject the order as the driver has already arrived."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Cannot update state for orders that are not in the allowed states: %s."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__provider_code
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__code
+#, fuzzy
+msgid "Code"
+msgstr "Kod"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__collected
+msgid "Collected"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_res_company
+#, fuzzy
+msgid "Companies"
+msgstr "Şirketler"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__company_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Firma"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#, fuzzy
+msgid "Configuration"
+msgstr "Ayarlar"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__module_id
+#, fuzzy
+msgid "Corresponding Module"
+msgstr "İlgili Modül"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__country_id
+#, fuzzy
+msgid "Country"
+msgstr "Ülke"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__country_code
+#, fuzzy
+msgid "Country Code"
+msgstr "Ülke Kodu"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__create_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__create_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Tarafından oluşturuldu"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__create_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__create_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Oluşturuldu"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#, fuzzy
+msgid "Credentials"
+msgstr "Kimlik bilgileri"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__currency_id
+#, fuzzy
+msgid "Currency"
+msgstr "Kur"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__default_payment_method_id
+msgid "Default Payment Method"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__default_pricelist_id
+msgid "Default Price List"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__sequence
+#, fuzzy
+msgid "Define the display order"
+msgstr "Görüntüleme sırasını tanımlama"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__delivered
+#, fuzzy
+msgid "Delivered"
+msgstr "Teslim Edilen"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_type__delivery
+#, fuzzy
+msgid "Delivery"
+msgstr "Teslimat"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__delivery_preset_id
+msgid "Delivery Preset"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Device is offline. Platform order requires an internet connection."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_type__dine_in
+#, fuzzy
+msgid "Dine In"
+msgstr "Restoranda Yemek"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__dinein_preset_id
+msgid "Dine-in Preset"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__state__disabled
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#, fuzzy
+msgid "Disabled"
+msgstr "Devre Dışı"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_category__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_payment__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_session__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_template__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_res_company__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Gösterilecek İsim"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__done
+#, fuzzy
+msgid "Done"
+msgstr "Biten"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__draft
+#, fuzzy
+msgid "Draft"
+msgstr "Taslak"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__driver_allocated
+msgid "Driver Allocated"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__driver_arrived
+msgid "Driver Arrived"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__state__enabled
+#, fuzzy
+msgid "Enabled"
+msgstr "Etkin"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__external_id
+#, fuzzy
+msgid "External ID"
+msgstr "Harici Kimlik"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_entity__external_id
+msgid "External ID used in the provider's system"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__external_key
+msgid "External Key"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__failed
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__failed
+#, fuzzy
+msgid "Failed"
+msgstr "Başarısız"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid ""
+"Failed to reject order. Please reject the order manually from the %s "
+"terminal."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Food Is Ready"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_food_ready
+#, fuzzy
+msgid "Food Ready"
+msgstr "Yemek Hazır"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Food is already marked as ready for pickup or delivery."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Food is now marked as ready for pickup or delivery."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Food marked as ready successfully."
+msgstr ""
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Food ordering provider"
+msgstr ""
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#, fuzzy
+msgid "General"
+msgstr "Genel"
+
+#. module: pos_platform_order
+#: model:platform.order.provider,name:pos_platform_order.platform_order_provider_gofood
+msgid "GoFood"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:platform.order.provider,name:pos_platform_order.platform_order_provider_grabfood
+msgid "GrabFood"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_category__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_payment__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_session__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_template__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_res_company__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+msgid "If no categories are selected, all categories will be available."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_product_product__platform_order_available
+#: model:ir.model.fields,help:pos_platform_order.field_product_template__platform_order_available
+msgid "If this product is available for platform orders."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/provider_logo.xml:0
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_1920
+#, fuzzy
+msgid "Image"
+msgstr "Görsel"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_1024
+#, fuzzy
+msgid "Image 1024"
+msgstr "Görsel 1024"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_128
+#, fuzzy
+msgid "Image 128"
+msgstr "Görsel 128"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_256
+#, fuzzy
+msgid "Image 256"
+msgstr "Görsel 256"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_512
+#, fuzzy
+msgid "Image 512"
+msgstr "Görsel 512"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_kanban
+#, fuzzy
+msgid "Install"
+msgstr "Yükle"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__module_state
+#, fuzzy
+msgid "Installation State"
+msgstr "Yükleme Durumu"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+#, fuzzy
+msgid "Installed"
+msgstr "Yüklü"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__last_menu_synced
+msgid "Last Menu Synced"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__write_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__write_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Son Güncelleyen"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__write_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__write_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Son Güncelleme"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_entity__pricelist_line_ids
+msgid "List of pricelist configurations for this entity."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__menu_sync_state
+msgid "Menu Sync Status"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__name
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_list
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#, fuzzy
+msgid "Name"
+msgstr "Adı"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__new
+#, fuzzy
+msgid "New"
+msgstr "Yeni"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "New platform order received."
+msgstr ""
+
+#. module: pos_platform_order
+#: model_terms:ir.actions.act_window,help:pos_platform_order.action_platform_order_providers
+msgid "No Platform Order Providers found"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__code__none
+#, fuzzy
+msgid "No Provider Set"
+msgstr "Sağlayıcı Kümesi Yok"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#, fuzzy
+msgid "Ongoing"
+msgstr "Devam eden"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_ref
+msgid "Online Order Reference"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_pos_category__service_hours_id
+msgid ""
+"Only work for Platform Order. This calendar defines the service hours for "
+"this category."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Order %s has a total of %s. Are you sure you want to reject it?"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_pin
+msgid "Order PIN"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Order Reference: %s"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_status
+#, fuzzy
+msgid "Order Status"
+msgstr "Sipariş Durumu"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_type
+msgid "Order Type"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Order cancelled with reason: %s"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Order has been accepted successfully."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Order has been rejected successfully."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Order rejected successfully."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__source
+#, fuzzy
+msgid "Origin"
+msgstr "Kaynak"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/components/order_display/order_display.xml:0
+#, fuzzy
+msgid "PIN"
+msgstr "PIN"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#, fuzzy
+msgid "Paid"
+msgstr "Ödendi"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__payment_method_id
+#, fuzzy
+msgid "Payment Method"
+msgstr "Ödeme Yöntemi"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_type__pickup
+#, fuzzy
+msgid "Pickup"
+msgstr "Almak"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__pickup_preset_id
+msgid "Pickup Preset"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Plat. Orders"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__source__platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.product_template_form_view
+msgid "Platform Order"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.actions.act_window,name:pos_platform_order.action_platform_order_entity
+msgid "Platform Order Entities"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_platform_order_entity
+msgid "Platform Order Entity"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_platform_order_pricelist_line
+msgid "Platform Order Pricelist Line"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_platform_order_provider
+msgid "Platform Order Provider"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.actions.act_window,name:pos_platform_order.action_platform_order_providers
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_list
+msgid "Platform Order Providers"
+msgstr ""
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.product_pos_category_form_view_inherit
+msgid "Platform Order Settings"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.ui.menu,name:pos_platform_order.menu_pos_platform_order_root
+msgid "Platform Orders"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Platform status updated to %s."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__config_id
+#, fuzzy
+msgid "Point of Sale"
+msgstr "Satış Noktası"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_category
+#, fuzzy
+msgid "Point of Sale Category"
+msgstr "Satış Noktası Kategorisi"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_config
+#, fuzzy
+msgid "Point of Sale Configuration"
+msgstr "Satış Noktası Yapılandırması"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_order
+#, fuzzy
+msgid "Point of Sale Orders"
+msgstr "Satış Noktası Siparişi"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_payment
+#, fuzzy
+msgid "Point of Sale Payments"
+msgstr "Satış Noktası Ödemeleri"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_session
+#, fuzzy
+msgid "Point of Sale Session"
+msgstr "Satış Noktası Oturumu"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#, fuzzy
+msgid "Presets"
+msgstr "Ön Ayarlar"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__pricelist_id
+#, fuzzy
+msgid "Pricelist"
+msgstr "Fiyat Listesi"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__pricelist_line_ids
+msgid "Pricelist Lines"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__processing
+#, fuzzy
+msgid "Processing"
+msgstr "İşleniyor"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_product_template
+#, fuzzy
+msgid "Product"
+msgstr "Ürün"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__provider_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_provider_id
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+#, fuzzy
+msgid "Provider"
+msgstr "Sağlayıcı"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_provider_code
+#, fuzzy
+msgid "Provider Code"
+msgstr "Sağlayıcı Kodu"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_list
+msgid "Provider Entities"
+msgstr ""
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+msgid "Provider Store"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.ui.menu,name:pos_platform_order.menu_platform_order_providers
+#, fuzzy
+msgid "Providers"
+msgstr "Sağlayıcılar"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__queuing
+msgid "Queuing"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_pos_order__platform_order_ref
+msgid "Reference of the order in the food ordering platform."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Reject Order"
+msgstr "Siparişi Reddedin"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Reject reason"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Rejected by user with error: %s"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Review Orders"
+msgstr "Siparişleri Gözden Geçirin"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/components/order_display/order_display.xml:0
+msgid "Rider"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_rider_name
+msgid "Rider Name"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__sequence
+#, fuzzy
+msgid "Sequence"
+msgstr "Sıralama"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Server Error: Unable to fetch order."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.actions.act_window,name:pos_platform_order.action_platform_order_service_hours
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__service_hours_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_category__service_hours_id
+#: model:ir.ui.menu,name:pos_platform_order.menu_platform_order_service_hours
+msgid "Service Hours"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Set Food Ready"
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/platform_order_entity.py:0
+msgid "Shop is closed."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__state
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+#, fuzzy
+msgid "State"
+msgstr "Durum"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/components/order_display/order_display.xml:0
+#, fuzzy
+msgid "Status"
+msgstr "Durumu"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__store_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_store_id
+msgid "Store"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.ui.menu,name:pos_platform_order.menu_platform_order_entity
+#, fuzzy
+msgid "Stores"
+msgstr "Mağazalar"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__support_combo
+msgid "Supports Combo"
+msgstr ""
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_list
+#, fuzzy
+msgid "Sync Menu"
+msgstr "Menüyü Senkronize Edin"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__state__test
+#, fuzzy
+msgid "Test"
+msgstr "Test"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#, fuzzy
+msgid "Test Mode"
+msgstr "Test Modu"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__country_code
+#, fuzzy
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"İki karakterden oluşan ISO ülke kodu. \n"
+"Hızlı arama için bu alanı kullanabilirsiniz."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__default_payment_method_id
+msgid "The default payment method to use for this provider."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__default_pricelist_id
+msgid "The default price list to use for this provider."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/platform_order_provider.py:0
+#, fuzzy
+msgid "The following fields must be filled: %s"
+msgstr "Aşağıdaki alanlar doldurulmalıdır: %s"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/platform_order_pricelist_line.py:0
+msgid "The pricelist currency must match the store currency."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "The provider '%s' is disabled."
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_entity__provider_code
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__code
+#: model:ir.model.fields,help:pos_platform_order.field_pos_order__platform_order_provider_code
+msgid "The technical code of this platform order provider."
+msgstr ""
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#, fuzzy
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Unsupported status update action: %s"
+msgstr ""
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__valid_for_seconds
+msgid "Valid for (Seconds)"
+msgstr ""
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_kanban
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+#, fuzzy
+msgid "provider"
+msgstr "sağlayıcı"

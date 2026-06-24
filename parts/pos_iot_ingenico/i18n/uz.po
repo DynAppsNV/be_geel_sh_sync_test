@@ -1,0 +1,50 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_iot_ingenico
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:48+0000\n"
+"PO-Revision-Date: 2025-10-08 18:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_iot_ingenico
+#: model:ir.model.fields,field_description:pos_iot_ingenico.field_pos_payment_method__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatish nomi"
+
+#. module: pos_iot_ingenico
+#: model:ir.model.fields,field_description:pos_iot_ingenico.field_pos_payment_method__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_iot_ingenico
+#. odoo-javascript
+#: code:addons/pos_iot_ingenico/static/src/payment_ingenico.js:0
+#, fuzzy
+msgid "Payment terminal error"
+msgstr "To‘lov terminali xatosi"
+
+#. module: pos_iot_ingenico
+#: model:ir.model,name:pos_iot_ingenico.model_pos_payment_method
+#, fuzzy
+msgid "Point of Sale Payment Methods"
+msgstr "Savdo nuqtasidagi to‘lov usullari"

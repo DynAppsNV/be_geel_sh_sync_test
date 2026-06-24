@@ -1,0 +1,174 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_self_order_iot
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_pos_config__self_ordering_iot_available_iot_box_ids
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_res_config_settings__pos_self_ordering_iot_available_iot_box_ids
+#, fuzzy
+msgid "Available IoT Boxes"
+msgstr "Mavjud IoT qurilmalari"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_iot_box__can_be_kiosk
+#, fuzzy
+msgid "Can Be Kiosk"
+msgstr "Kiosk sifatida foydalanish mumkin"
+
+#. module: pos_self_order_iot
+#: model:ir.model,name:pos_self_order_iot.model_res_config_settings
+#, fuzzy
+msgid "Config Settings"
+msgstr "Sozlamalar"
+
+#. module: pos_self_order_iot
+#: model:ir.model,name:pos_self_order_iot.model_auto_config_pos_iot
+#, fuzzy
+msgid "Configure Automatically IoT Box In PoS"
+msgstr "Sotuv nuqtasida IoT qurilmasini avtomatik sozlash"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_auto_config_pos_iot__display_name
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_iot_box__display_name
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_pos_payment_method__display_name
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_res_config_settings__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_auto_config_pos_iot__id
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_iot_box__id
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_pos_payment_method__id
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_res_config_settings__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields.selection,name:pos_self_order_iot.selection__iot_box__screen_orientation__inverted
+#, fuzzy
+msgid "Inverted"
+msgstr "Teskari"
+
+#. module: pos_self_order_iot
+#: model:ir.model,name:pos_self_order_iot.model_iot_box
+#, fuzzy
+msgid "IoT Box"
+msgstr "IoT qurilmasi"
+
+#. module: pos_self_order_iot
+#: model_terms:ir.ui.view,arch_db:pos_self_order_iot.res_config_settings_view_form_menu_iot
+#, fuzzy
+msgid "Launch on"
+msgstr "Ishga tushirish joyi"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields.selection,name:pos_self_order_iot.selection__iot_box__screen_orientation__left
+#, fuzzy
+msgid "Left"
+msgstr "Chap"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_iot_box__pos_id
+#, fuzzy
+msgid "Linked To Point of Sale"
+msgstr "Sotuv nuqtasiga bog‘langan"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields.selection,name:pos_self_order_iot.selection__iot_box__screen_orientation__normal
+#, fuzzy
+msgid "Normal"
+msgstr "Oddiy"
+
+#. module: pos_self_order_iot
+#. odoo-python
+#: code:addons/pos_self_order_iot/models/pos_config.py:0
+#, fuzzy
+msgid "Opening the kiosk on %s"
+msgstr "%s da kiosk ochilmoqda"
+
+#. module: pos_self_order_iot
+#: model:ir.model,name:pos_self_order_iot.model_pos_config
+#, fuzzy
+msgid "Point of Sale Configuration"
+msgstr "Sotuv nuqtasi sozlamalari"
+
+#. module: pos_self_order_iot
+#: model:ir.model,name:pos_self_order_iot.model_pos_payment_method
+#, fuzzy
+msgid "Point of Sale Payment Methods"
+msgstr "Sotuv nuqtasi to‘lov usullari"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields.selection,name:pos_self_order_iot.selection__iot_box__screen_orientation__right
+#, fuzzy
+msgid "Right"
+msgstr "O‘ng"
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields,field_description:pos_self_order_iot.field_iot_box__screen_orientation
+#, fuzzy
+msgid "Screen Orientation"
+msgstr "Ekran yo‘nalishi"
+
+#. module: pos_self_order_iot
+#. odoo-javascript
+#: code:addons/pos_self_order_iot/static/src/views/iot_box_form.js:0
+#, fuzzy
+msgid "Screen orientation updated."
+msgstr "Ekran yo‘nalishi yangilandi."
+
+#. module: pos_self_order_iot
+#: model:ir.model.fields,help:pos_self_order_iot.field_iot_box__screen_orientation
+#, fuzzy
+msgid "Select the orientation of the screen for the Kiosk mode"
+msgstr "Kiosk rejimi uchun ekran yo‘nalishini tanlang"
+
+#. module: pos_self_order_iot
+#. odoo-javascript
+#: code:addons/pos_self_order_iot/static/src/pages/payment_page/payment_page.js:0
+msgid "Terminal disconnected"
+msgstr ""
+
+#. module: pos_self_order_iot
+#. odoo-javascript
+#: code:addons/pos_self_order_iot/static/src/pages/payment_page/payment_page.js:0
+msgid "Terminal transaction failed "
+msgstr ""
+
+#. module: pos_self_order_iot
+#. odoo-javascript
+#: code:addons/pos_self_order_iot/static/src/pages/payment_page/payment_page.js:0
+msgid "Transaction cancelled"
+msgstr ""
+
+#. module: pos_self_order_iot
+#: model_terms:ir.ui.view,arch_db:pos_self_order_iot.res_config_settings_view_form_menu_iot
+#, fuzzy
+msgid "no IoT Box"
+msgstr "IoT qurilmasi yo‘q"

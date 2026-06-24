@@ -1,0 +1,3650 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_hk_hr_payroll
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 19:17+0000\n"
+"PO-Revision-Date: 2026-06-06 10:06+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-19-l10n/l10n_hk_hr_payroll/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56b.py:0
+msgid "%(employee_name)s_-_IR56B_-_%(start_year)s"
+msgstr "%(employee_name)s_-_IR56B_-_%(start_year)s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56e.py:0
+msgid "%(employee_name)s_-_IR56E-%(submission_date)s"
+msgstr "%(employee_name)s_-_IR56E-%(submission_date)s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56f.py:0
+msgid "%(employee_name)s_-_IR56F_-_%(start_year)s"
+msgstr "%(employee_name)s_-_IR56F_-_%(start_year)s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56g.py:0
+msgid "%(employee_name)s_-_IR56G_-_%(start_year)s"
+msgstr "%(employee_name)s_-_IR56G_-_%(start_year)s"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.report,print_report_name:l10n_hk_hr_payroll.action_report_light_payslip_hk
+#: model:ir.actions.report,print_report_name:l10n_hk_hr_payroll.action_report_payslip_hk
+msgid "'Payslip - %s' % (object.employee_id.name)"
+msgstr "'工資單 - %s' % (object.employee_id.name)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"(0 = No, 1 = Yes) ......\n"
+"                                        <span class=\"d-inline-block\" "
+"style=\"padding-left:4rem;\">(THIS BOX MUST BE COMPLETED)</span>\n"
+"                                        <span class=\"d-inline-block border "
+"border-dark text-center\" style=\"width:2rem; margin-left: 4rem;\">0</span>"
+msgstr ""
+"（0 = 否，1 = 是）......\n"
+"                                        <span class=\"d-inline-block\" "
+"style=\"padding-left:4rem;\">（此格必須填寫）</span>\n"
+"                                        <span class=\"d-inline-block border "
+"border-dark text-center\" style=\"width:2rem; margin-left: 4rem;\">0</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_employee__l10n_hk_autopay_account_type__mobn
+msgid "(Country Code) Mobile Phone Number + / Bank Code"
+msgstr "(國家/地區代碼) 手機號碼 + / 銀行編號"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "(EXCLUDE CENTS)"
+msgstr "（不計角、分）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(a)"
+msgstr "(a)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "(a) H.K. Identity Card Number :"
+msgstr "(a) 香港身份證號碼："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "(a) If married, full name of spouse :"
+msgstr "(a) 如屬已婚，配偶的姓名："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(b)"
+msgstr "(b)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"(b) Passport Number and place of issue (if Employee has no H.K. Identity "
+"Card) :"
+msgstr "(b) 護照號碼及簽發地點（如僱員並無香港身份證）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"(b) Spouse's H.K. Identity Card Number / Passport Number and place of issue "
+"(if known) :"
+msgstr "(b) 配偶的香港身份證號碼/護照號碼及簽發地點（如知悉）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(c)"
+msgstr "(c)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(d)"
+msgstr "(d)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(e)"
+msgstr "(e)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(f)"
+msgstr "(f)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(g)"
+msgstr "(g)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(h)"
+msgstr "(h)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(i)"
+msgstr "(i)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(j)"
+msgstr "(j)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(k)"
+msgstr "(k)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "(l)"
+msgstr "(l)"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "* This item must be completed."
+msgstr "* 此項必須填寫。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "- Date of grant"
+msgstr "- 發給/授予日期"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "- Estimated amount HK$"
+msgstr "- 估計款額為港元 HK$"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "- No. of shares not yet exercised"
+msgstr "- 未行使的認購股份數目"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "- Probable date of return is"
+msgstr "- 返回的大概日期是"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "/ Passport Number and place of issue (if known) :"
+msgstr "/ 護照號碼及簽發地點（如知悉）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "/ Passport Number and place of issue (if known):"
+msgstr "/ 護照號碼及簽發地點（如知悉）："
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_second_batch_autopay
+msgid "2nd Batch Autopay"
+msgstr "第二批自動轉賬"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_713_gross
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_713_gross
+msgid "713 Gross"
+msgstr "713 總額"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<br/>\n"
+"                                            Date :"
+msgstr ""
+"<br/>\n"
+"                                            日期："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<br/>\n"
+"                                            Designation :"
+msgstr ""
+"<br/>\n"
+"                                            職位："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<br/><br/>\n"
+"                                            Date :"
+msgstr ""
+"<br/><br/>\n"
+"                                            日期："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<br/><br/>\n"
+"                                            Designation :"
+msgstr ""
+"<br/><br/>\n"
+"                                            職位："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">; date of grant:</span>"
+msgstr "<span class=\"align-middle\">；發給認購權日期：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">Emigration</span>"
+msgstr "<span class=\"align-middle\">移民</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">No / Very unlikely</span>"
+msgstr "<span class=\"align-middle\">不會/很可能不會</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">No, the reason is</span>"
+msgstr "<span class=\"align-middle\">否，原因是</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">No</span>"
+msgstr "<span class=\"align-middle\">否</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">Return to homeland</span>"
+msgstr "<span class=\"align-middle\">返回原居地</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">Secondment</span>"
+msgstr "<span class=\"align-middle\">調派往其他地方</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"align-middle\">Whether the employee's Salaries Tax will be "
+"borne by employer (Please ✓):</span>"
+msgstr ""
+"<span class=\"align-middle\">僱員的薪俸稅是否由僱主支付（請「✓」適當方格）"
+"：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">Yes, estimated amount HK$</span>"
+msgstr "<span class=\"align-middle\">有，估計款額為港元 HK$</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"align-middle\">Yes, no. of shares not yet exercised:</span>"
+msgstr "<span class=\"align-middle\">有，未行使的認購股份數目：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">Yes, probable date of return is</span>"
+msgstr "<span class=\"align-middle\">會，返回的大概日期是</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"align-middle\">Yes</span>"
+msgstr "<span class=\"align-middle\">是</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"border-bottom border-dark px-2\">Place of Residence 1</span>"
+msgstr "<span class=\"border-bottom border-dark px-2\">居所 1</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"border-bottom border-dark px-2\">Place of Residence 2</span>"
+msgstr "<span class=\"border-bottom border-dark px-2\">居所 2</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-block overflow-hidden\" style=\"height:2.3rem;\">\n"
+"                                            Address :\n"
+"                                        </span>"
+msgstr ""
+"<span class=\"d-block overflow-hidden\" style=\"height:2.3rem;\">\n"
+"                                            地址：\n"
+"                                        </span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-block overflow-hidden\" style=\"height:2.3rem;\">Postal "
+"Address (if different from item 7 above) :</span>"
+msgstr ""
+"<span class=\"d-block overflow-hidden\" style=\"height:2.3rem;\">通訊地址（如"
+"與上列第 7 項不同）：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"d-inline-block ps-1\">****</span>"
+msgstr "<span class=\"d-inline-block ps-1\">****</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 15.5rem;\">(a) If married, "
+"full name of spouse :</span>"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width: 15.5rem;\">(a) 如屬已婚，配偶的"
+"姓名：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 15.5rem;\">(b) Spouse's H.K. "
+"Identity Card Number :</span>"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width: 15.5rem;\">(b) 配偶的香港身份證"
+"號碼：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 6.5mm;\">(1)</span>Nature :"
+msgstr "<span class=\"d-inline-block\" style=\"width: 6.5mm;\">(1)</span>性質："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 6.5mm;\">(2)</span>Nature :"
+msgstr "<span class=\"d-inline-block\" style=\"width: 6.5mm;\">(2)</span>性質："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 6.5mm;\">(3)</span>Nature :"
+msgstr "<span class=\"d-inline-block\" style=\"width: 6.5mm;\">(3)</span>性質："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 9rem;\">Address of Employer:</"
+"span>"
+msgstr "<span class=\"d-inline-block\" style=\"width: 9rem;\">僱主地址：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 9rem;\">Employer's File No.:</"
+"span>"
+msgstr "<span class=\"d-inline-block\" style=\"width: 9rem;\">僱主檔案號碼：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 9rem;\">Full name in Chinese :"
+"</span>"
+msgstr "<span class=\"d-inline-block\" style=\"width: 9rem;\">中文全名：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 9rem;\">Name of Employee:</"
+"span>"
+msgstr "<span class=\"d-inline-block\" style=\"width: 9rem;\">僱員姓名：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width: 9rem;\">Name of Employer:</"
+"span>"
+msgstr "<span class=\"d-inline-block\" style=\"width: 9rem;\">僱主名稱：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>Employer's "
+"File No. :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>僱主檔案號碼"
+"："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>H.K. "
+"Identity Card Number :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>香港身份證號"
+"碼："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>If married, "
+"full name of spouse :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>如屬已婚，配"
+"偶的姓名："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>Monthly "
+"Rate of Fixed Income :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(a)</span>每月的固定入"
+"息："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>Monthly "
+"Rate of Allowance (e.g. Cost of Living) :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>每月的津貼（"
+"例如：生活津貼）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>Name of "
+"Employer :"
+msgstr "<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>僱主名稱："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>Passport "
+"Number and place of issue (if Employee has no H.K. Identity Card) :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>護照號碼及簽"
+"發地點（如僱員並無香港身份證）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>Spouse's "
+"H.K. Identity Card Number :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(b)</span>配偶的香港身"
+"份證號碼："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(c)</span>Address of "
+"Employer :"
+msgstr "<span class=\"d-inline-block\" style=\"width:1.5rem;\">(c)</span>僱主地址："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(c)</span>Fluctuating "
+"Income (e.g. Commission, Bonus, Gratuities) :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(c)</span>非固定的入息"
+"（例如：佣金、花紅、賞錢）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(d)</span>Particulars "
+"of Place of Residence provided (0 = Not provided, 1 = Provided) :"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:1.5rem;\">(d)</span>提供居所詳情"
+"（0 = 沒有提供，1 = 有提供）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>\n"
+"                                        Gratuities"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>\n"
+"                                        酬金"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/> (1) Nature :"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>(1) 性質/類型："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/> (2) Nature :"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>(2) 性質/類型："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/> (3) Nature :"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>(3) 性質/類型："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\"/> AFTER the employee "
+"has left employment"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>僱員離職後支付給僱員的"
+"款項"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\"/> Nature : <span "
+"class=\"d-inline-block border-bottom border-dark\" style=\"width:65mm;\"/>"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>性質：<span class=\"d-"
+"inline-block border-bottom border-dark\" style=\"width:65mm;\"/>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/> Nature:"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\"/>性質/類型："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(a)</span> Salary/Wages"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\">(a)</span> 薪金/工資"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(b)</span> Leave Pay"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\">(b)</span> 假期工資"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(c)</span> Director's "
+"Fee"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\">(c)</span> 董事袍金"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(d)</span> "
+"Commission / Fees"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\">(d)</span> 佣金/費用"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"d-inline-block\" style=\"width:6.5mm;\">(e)</span> Bonus"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\">(e)</span> 花紅"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(f)</span>\n"
+"                                        Back Pay, Payment in Lieu of Notice, "
+"Terminal Awards or"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(f)</span>\n"
+"                                        補發薪金、代通知金、退休或終止服務時"
+"的獎賞或"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(f)</span> Back Pay, "
+"Payment in Lieu of Notice, Terminal Awards or Gratuities"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(f)</span> 補發薪金、代"
+"通知金、退休或終止服務時的獎賞或酬金"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(g)</span> Certain "
+"Payments from Retirement Schemes"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(g)</span> 從退休計劃支"
+"付的若干款項"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(h)</span> Salaries "
+"Tax paid by Employer"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(h)</span> 僱主代付的薪"
+"俸稅"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(i)</span> Education "
+"Benefits"
+msgstr "<span class=\"d-inline-block\" style=\"width:6.5mm;\">(i)</span> 教育費福利"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(j)</span> Gain "
+"realized under Share Option Scheme"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(j)</span> 在股份認購計"
+"劃中所賺取的收益"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(k)</span> Any other "
+"Rewards, Allowances or Perquisites"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(k)</span> 任何其他報酬"
+"、津貼或額外賞賜"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(l)</span> Payments "
+"that have not been declared above but will be made"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(l)</span> 款項未於以上"
+"項目內填報，但於"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(l)</span> Payments "
+"that have not been declared above but will be made AFTER the employee has "
+"left employment"
+msgstr ""
+"<span class=\"d-inline-block\" style=\"width:6.5mm;\">(l)</span> 未於以上項目"
+"內填報，但於僱員離職後支付給僱員的款項"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"fs-4 px-1\">to</span>"
+msgstr "<span class=\"fs-4 px-1\">至</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"fw-bold fs-5\">0</span>\n"
+"                                        <span class=\"d-inline-block "
+"ps-1\">****</span>"
+msgstr ""
+"<span class=\"fw-bold fs-5\">0</span>\n"
+"                                        <span class=\"d-inline-block ps-1\">"
+"****</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<span class=\"pe-1\">Total :</span>"
+msgstr "<span class=\"pe-1\">總額：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"position-absolute fixed-bottom fst-italic\" style=\"font-size: "
+"0.8rem;\">Space for Employer's official chop</span>"
+msgstr ""
+"<span class=\"position-absolute fixed-bottom fst-italic\" style=\"font-size: "
+"0.8rem;\">僱主蓋印處</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"<span class=\"text-uppercase fw-bold\">\n"
+"                                Inland Revenue Department <br/>\n"
+"                                Notification <br/>\n"
+"                                By an Employer of an Employee who commences "
+"to be employed <br/>\n"
+"                            </span>\n"
+"                            (Under section 52(5) of the Inland Revenue "
+"Ordinance, Cap. 112)"
+msgstr ""
+"<span class=\"text-uppercase fw-bold\">\n"
+"                                稅務局<br/>\n"
+"                                <br/>\n"
+"                                由僱主填報有關其僱員開始受僱的通知書<br/>\n"
+"                            </span>\n"
+"                            （根據《稅務條例》（第 112 章）第 52(4) 條的規定"
+"）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<span class=\"text-uppercase fw-bold\">\n"
+"                                Inland Revenue Department <br/>\n"
+"                                Notification <br/>\n"
+"                                By an Employer of an Employee who is about "
+"to cease to be employed <br/>\n"
+"                            </span>\n"
+"                            (Under section 52(5) of the Inland Revenue "
+"Ordinance, Cap. 112)"
+msgstr ""
+"<span class=\"text-uppercase fw-bold\">\n"
+"                                稅務局<br/>\n"
+"                                <br/>\n"
+"                                由僱主填報有關其僱員行將停止受僱的通知書<br/>"
+"\n"
+"                            </span>\n"
+"                            （根據《稅務條例》（第 112 章）第 52(5) 條的規定"
+"）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"<span class=\"text-uppercase fw-bold\">\n"
+"                                Inland Revenue Department <br/>\n"
+"                                Notification <br/>\n"
+"                                By an Employer of an Employee who is about "
+"to depart from Hong Kong<br/>\n"
+"                            </span>\n"
+"                            (Under section 52(6) of the Inland Revenue "
+"Ordinance, Cap. 112)"
+msgstr ""
+"<span class=\"text-uppercase fw-bold\">\n"
+"                                稅務局<br/>\n"
+"                                <br/>\n"
+"                                由僱主填報有關其僱員行將離港的通知書<br/>\n"
+"                            </span>\n"
+"                            （根據《稅務條例》（第 112 章）第 52(6) 條的規定"
+"）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_contract_template_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_employee_form
+msgid "<span>/ month</span>"
+msgstr "<span>/ 每月</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "<span>HK$</span>"
+msgstr "<span>港元</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "<span>HKD / month</span>"
+msgstr "<span>港元 / 每月</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "<span>Sheet No.:</span>"
+msgstr "<span>表格張號：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"<strong style=\"line-height:1\">\n"
+"                                            To the best of my knowledge, the "
+"employee will NOT be leaving Hong Kong after cessation of employment.<br/>\n"
+"                                            following are the particulars of "
+"the employee :-\n"
+"                                        </strong>"
+msgstr ""
+"<strong style=\"line-height:1\">\n"
+"                                            據我所知，該僱員在停止受僱後，將"
+"不會離開香港。<br/>\n"
+"                                            以下是該僱員的詳細資料：\n"
+"                                        </strong>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "<strong style=\"line-height:1.3\">56G</strong>"
+msgstr "<strong style=\"line-height:1.3\">56G</strong>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "<strong>56E</strong>"
+msgstr "<strong>56E</strong>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "<strong>56F</strong>"
+msgstr "<strong>56F</strong>"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_internet
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_version__l10n_hk_internet
+msgid "A benefit in kind is paid for the employee's internet subcription."
+msgstr "員工的網絡服務費用，以實物福利形式支付。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_work_entry_type__l10n_hk_use_713
+msgid "ADW Calculation"
+msgstr "每日平均工資計算"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__active
+msgid "Active"
+msgstr "生效"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__type_of_form__a
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__type_of_form__a
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__type_of_form__a
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__type_of_form__a
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__type_of_form__a
+msgid "Additional"
+msgstr "附加"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Additional / Replacement"
+msgstr "附加/修訂"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__address
+msgid "Address"
+msgstr "地址"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Address 1 :"
+msgstr "地址 1："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Address 2 :"
+msgstr "地址 2："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Address :"
+msgstr "地址："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Address:"
+msgstr "地址："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Advantages"
+msgstr "福利"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Amount (HK$)"
+msgstr "款額（港元）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Amount (if known) (This amount must also be included in item 11)"
+msgstr "款額（如知悉）（此款額必須已包括在第 11 項內）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Amount (if known) (This amount must also be included in item 11) :"
+msgstr "款額（如知悉）（此款額必須已包括在第 11 項內）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Amount (if known) (This amount must also be included in item 12) :"
+msgstr "款額（如知悉）（此款額必須已包括在第 12 項內）："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__amount_surcharge
+msgid "Amount Surcharge"
+msgstr "附加費金額"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__amount_money_payable
+msgid "Amount of Money Payable"
+msgstr "待付款項金額"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__amount_non_exercised_stock_options
+msgid "Amount of Non-Exercised Stock Options"
+msgstr "未行使股份認購權的金額"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.constraint,message:l10n_hk_hr_payroll.constraint_l10n_hk_ir56g_line_unique_employee
+msgid "An employee can only have one IR56G line per sheet."
+msgstr "每名員工在每張表格中，只可有一個 IR56G 資料行。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.constraint,message:l10n_hk_hr_payroll.constraint_l10n_hk_manulife_mpf_line_unique_employee
+msgid "An employee can only have one line per sheet"
+msgstr "每名員工每張表格只可有一個資料行"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid ""
+"Any money, including any money payable, held under section 52(7) of the "
+"Inland Revenue Ordinance"
+msgstr "是否有依據《稅務條例》第 52(7) 條規定扣起任何款項（包括將會支付的款項）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"Any money, including any money payable, held under section 52(7) of the "
+"Inland Revenue Ordinance (Please ✓):"
+msgstr ""
+"是否有依據《稅務條例》第 52(7) 條規定扣起任何款項（包括將會支付的款項）（請「"
+"✓」適當方格）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Any other Rewards, Allowances or Perquisites"
+msgstr "任何其他報酬、津貼或額外賞賜"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__appendice_line_ids
+msgid "Appendices"
+msgstr "附錄"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_use_mpf_offsetting
+msgid "Apply MPF Offsetting"
+msgstr "套用強積金對沖"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__4
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__4
+msgid "April"
+msgstr "四月"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_rental_view_form
+msgid "Archived"
+msgstr "已封存"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_assignment_of_salary_rule
+msgid "Assignment of Salary"
+msgstr "薪金分配"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_attachment_of_salary_rule
+msgid "Attachment of Salary"
+msgstr "工資附件"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__8
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__8
+msgid "August"
+msgstr "八月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__authorisation_type
+msgid "Authorisation Type"
+msgstr "授權類型"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_autopay_gross
+msgid "AutoPay Gross"
+msgstr "自動轉賬總額"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule.category,name:l10n_hk_hr_payroll.AUTOPAY
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_employee_form
+msgid "Autopay"
+msgstr "自動轉賬"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_autopay_partner_bank_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_autopay_partner_bank_id
+msgid "Autopay Account"
+msgstr "自動轉賬賬戶"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_autopay_email
+msgid "Autopay Email Address"
+msgstr "自動轉賬電郵地址"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_autopay_mobile
+msgid "Autopay Mobile Number"
+msgstr "自動轉賬手機號碼"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_autopay_account_type
+msgid "Autopay Payment Type"
+msgstr "自動轉賬付款類型"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_autopay_ref
+msgid "Autopay Reference"
+msgstr "自動轉賬參考"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__autopay_type
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_autopay_type
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_autopay_type
+msgid "Autopay Type"
+msgstr "自動轉賬類型"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_custom_moving_daily_wage
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_average_daily_wage
+msgid "Average Daily Wage"
+msgstr "每日平均工資"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.ir56b_xml_report
+msgid "B0001"
+msgstr "B0001"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_back_pay
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_back_pay
+msgid "Back Pay"
+msgstr "補發薪金"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Back Pay, Payment in Lieu of Notice, Terminal Awards or Gratuities"
+msgstr "補發薪金、代通知金、退休或終止服務時的獎賞或酬金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_res_bank
+msgid "Bank"
+msgstr "銀行"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Bank Account"
+msgstr "銀行賬戶"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_bank__l10n_hk_bank_code
+msgid "Bank Code"
+msgstr "銀行編號"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_employee__l10n_hk_autopay_account_type__bban
+msgid "Bank Code + Account Number + Beneficiary Name"
+msgstr "銀行編號 + 賬戶號碼 + 收款人姓名"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/res_bank.py:0
+msgid "Bank code length must be 3 letters."
+msgstr "銀行編號長度必須為 3 位。"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_basic_salary_rule
+msgid "Basic Salary"
+msgstr "基本薪金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__batch_type
+msgid "Batch Type"
+msgstr "批次類型"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_contract_template_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_employee_form
+msgid "Benefits"
+msgstr "福利"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Bonus"
+msgstr "花紅"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payroll.structure,name:l10n_hk_hr_payroll.hr_payroll_structure_cap57_employee_salary
+msgid "CAP57: Employees Monthly Pay"
+msgstr "CAP57 員工月薪"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payroll.structure,name:l10n_hk_hr_payroll.hr_payroll_structure_cap57_long_service_payment
+msgid "CAP57: Long Service Payment"
+msgstr "CAP57 長期服務金"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payroll.structure,name:l10n_hk_hr_payroll.hr_payroll_structure_cap57_payment_in_lieu_of_notice
+msgid "CAP57: Payment in Lieu of Notice"
+msgstr "CAP57 代通知金"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payroll.structure,name:l10n_hk_hr_payroll.hr_payroll_structure_cap57_severance_payment
+msgid "CAP57: Severance Payment"
+msgstr "CAP57 遣散費"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_average_daily_wage
+msgid ""
+"Calculated as per the Employment (Amendment) Ordinance 2007: (Total of fully "
+"paid wages earned in the 12-month period) / (Total number of fully paid days "
+"in that period)."
+msgstr ""
+"根據《2007 年僱傭（修訂）條例》計算，即：12 個月全薪工資總額 ÷ 該期間內全薪日"
+"子總數。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_work_entry_type__l10n_hk_use_713
+msgid ""
+"Calculates the employee’s pay according to the Average Daily Wage (ADW) "
+"rules under Hong Kong employment regulations."
+msgstr "根據香港僱傭法例所定的每日平均工資（ADW）規則，計算員工的工資。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_payslip_run_hsbc_autopay_view_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_rental__state__cancel
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_version__l10n_hk_mpf_vc_option__max
+msgid "Cap 5% VC"
+msgstr "自願供款上限 5%"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Capacity in which employed :"
+msgstr "受僱職位："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Certain Payments from Retirement Schemes"
+msgstr "從退休計劃支付的若干款項"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__cheque_no
+msgid "Cheque No."
+msgstr "支票號碼"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_child_support
+msgid "Child Support"
+msgstr "供養子女"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_commission
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_fixed_commission
+msgid "Commission"
+msgstr "佣金"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Commission / Fees"
+msgstr "佣金/費用"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Company Information"
+msgstr "公司資訊"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置設定"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_payroll_employee_declaration_view_tree
+msgid "Configure"
+msgstr "設定"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Configure Default Values for Hong Kong Advantages"
+msgstr "為香港適用的福利配置預設值"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_payslip_run_hsbc_autopay_view_form
+msgid "Confirm"
+msgstr "確認"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Create HSBC payment"
+msgstr "建立滙豐付款"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_view_form
+msgid "Create XLSX"
+msgstr "建立 XLSX"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56b_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56f_view_form
+msgid "Create XML"
+msgstr "建立 XML"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.actions.act_window,help:l10n_hk_hr_payroll.action_l10n_hk_rental
+msgid "Create a new rental"
+msgstr "建立新的租賃"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__create_uid
+msgid "Created by"
+msgstr "建立人員"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_first_batch_date
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_second_batch_date
+msgid "Creation date of the payment file"
+msgstr "付款檔案的建立日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__currency_id
+msgid "Currency"
+msgstr "貨幣"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_rental_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_version__l10n_hk_rental_id
+msgid "Current Rental"
+msgstr "目前租金"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_custom_average_monthly_salary
+msgid "Custom Average Monthly Salary"
+msgstr "自訂平均月薪"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_custom_end_of_year_pay
+msgid "Custom End Of Year Pay"
+msgstr "自訂年終酬金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__customer_ref
+msgid "Customer Reference"
+msgstr "客戶參考"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Date of Commencement of Employment :"
+msgstr "開始僱用日期："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__date_grant
+msgid "Date of Grant"
+msgstr "發給/授予日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__date_return
+msgid "Date of Return"
+msgstr "返回日期"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Date:"
+msgstr "日期："
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll.hr_departure_reason_death
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_departure_reason__l10n_hk_ir56f_code__4
+msgid "Death"
+msgstr "死亡/身故"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__12
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__12
+msgid "December"
+msgstr "十二月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__line_ids
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__line_ids
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__line_ids
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__line_ids
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__line_ids
+msgid "Declarations"
+msgstr "申報"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_deduction
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_deduction_salary_rule
+msgid "Deduction"
+msgstr "扣除"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_departure_reason
+msgid "Departure Reason"
+msgstr "離職原因"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__designation_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__designation_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__designation_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__designation_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__designation_of_signer
+msgid "Designation of Signer"
+msgstr "簽署人職位"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Designation:"
+msgstr "職位："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Details of income from 1 April to the date of cessation of employment :"
+msgstr "由 4 月 1 日起至停止受僱日期止的詳細入息："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Details of income from 1 April to the date of cessation of employment:"
+msgstr "由 4 月 1 日起至停止受僱日期止的詳細入息："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__digital_pic_id
+msgid "Digital Picture ID"
+msgstr "數碼身份證明照片"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Director's Fee"
+msgstr "董事袍金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_departure_reason__l10n_hk_ir56f_code__3
+msgid "Dismissal"
+msgstr "解僱"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_departure_reason__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payroll_employee_declaration__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payroll_structure_type__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_version__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_work_entry_type__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_bank__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_resource_calendar__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__documents_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__documents_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__documents_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__documents_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__documents_count
+msgid "Documents Count"
+msgstr "文件數目"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__state__done
+msgid "Done"
+msgstr "完成"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ird_view_form
+msgid "Download the"
+msgstr "下載"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_view_form
+msgid "Download the Manulife MPF XLSX file:"
+msgstr "下載宏利強積金 XLSX 檔案："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__state__draft
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__state__draft
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__state__draft
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__state__draft
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__state__draft
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_rental__state__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "EEMC"
+msgstr "僱員強制性供款（EEMC）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "EEVC"
+msgstr "僱員自願性供款（EEVC）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "ERVC"
+msgstr "僱主自願性供款（ERVC）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Education Benefits"
+msgstr "教育福利"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__lines_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__lines_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__lines_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__lines_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__lines_count
+msgid "Eligible Employees"
+msgstr "合資格員工"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_employee__l10n_hk_autopay_account_type__emal
+msgid "Email address + / Bank Code"
+msgstr "電郵地址 + / 銀行編號"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g_line__reason_departure__emigration
+msgid "Emigration"
+msgstr "移民"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_employee
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__employee_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__employee_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__employee_id
+msgid "Employee"
+msgstr "員工"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_version
+msgid "Employee Contract"
+msgstr "員工合約"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule.category,name:l10n_hk_hr_payroll.EEMPF
+msgid "Employee MPF"
+msgstr "僱員強積金"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_eemc
+msgid "Employee Mandatory Contribution"
+msgstr "僱員強制供款"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_eevc
+msgid "Employee Voluntary Contribution"
+msgstr "僱員自願供款"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Employee's Tax File No. with this Department (if known):"
+msgstr "僱員於稅務局的稅務檔案號碼（如知悉）："
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule.category,name:l10n_hk_hr_payroll.ERMPF
+msgid "Employer MPF"
+msgstr "僱主強積金"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_ermc
+msgid "Employer Mandatory Contribution"
+msgstr "僱主強制供款"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_ervc
+msgid "Employer Voluntary Contribution"
+msgstr "僱主自願供款"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Employer's File No. :"
+msgstr "僱主檔案號碼："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_employer_file_number
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_employer_file_number
+msgid "Employer's File Number"
+msgstr "僱主檔案號碼"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_employer_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_employer_name
+msgid "Employer's Name shown on reports"
+msgstr "報告顯示的僱主名稱"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__date_end
+msgid "End Date"
+msgstr "結束日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__end_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__end_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__end_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__end_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__end_month
+msgid "End Month"
+msgstr "結束月份"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__end_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__end_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__end_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__end_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__end_period
+msgid "End Period"
+msgstr "期間結束"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__end_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__end_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__end_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__end_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__end_year
+msgid "End Year"
+msgstr "年度結束"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_end_of_year_payment
+msgid "End of Year Payment"
+msgstr "年終酬金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_eoy_pay_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_eoy_pay_month
+msgid "End of Year Payments Month"
+msgstr "年終酬金月份"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_includes_eoy_pay
+msgid "End-Of-Year Pay"
+msgstr "年終酬金"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_version.py:0
+msgid "Enter VC Percentage between 0% and 5%."
+msgstr "請輸入自願供款百分比，數值為 0% 至 5% 之間。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__error_message
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__error_message
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__error_message
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__error_message
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__error_message
+msgid "Error Message"
+msgstr "錯誤訊息"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_expense_refund
+msgid "Expenses Reimbursement"
+msgstr "開支發還"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_rental__state__close
+msgid "Expired"
+msgstr "已過期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_first_batch
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_second_batch
+msgid "Exported HSBC Autopay .apc file"
+msgstr "匯出的滙豐自動轉賬 .apc 檔案"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_first_batch_filename
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_second_batch_filename
+msgid "Exported HSBC Autopay .apc file name"
+msgstr "匯出的滙豐自動轉賬 .apc 檔案名稱"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ird_view_form
+msgid "Extra"
+msgstr "額外"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.ir56f_xml_report
+msgid "F0001"
+msgstr "F0001"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_employee__l10n_hk_autopay_account_type__svid
+msgid "FPS ID"
+msgstr "轉數快識別碼（FPS ID）"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_autopay_svid
+msgid "FPS Identifier"
+msgstr "轉數快識別碼"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__2
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__2
+msgid "February"
+msgstr "二月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_payslip_run_hsbc_autopay_wizard__authorisation_type__f
+msgid "File Level Authorisation"
+msgstr "檔案層級授權"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_payslip_run_hsbc_autopay_wizard__authorisation_type__v
+msgid "File Level Authorisation with ability to view instructions"
+msgstr "檔案層級授權，可檢視指示內容"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__file_name
+msgid "File Name"
+msgstr "檔案名稱"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_first_batch_filename
+msgid "File Name - First Batch"
+msgstr "檔案名稱 - 第一批"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_second_batch_filename
+msgid "File Name - Second Batch"
+msgstr "檔案名稱 - 第二批"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_payslip_run_hsbc_autopay_wizard__batch_type__first
+msgid "First Batch"
+msgstr "第一批"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__ref
+msgid "First Party Reference"
+msgstr "第一方參考編號"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_rental__nature__flat
+msgid "Flat"
+msgstr "單位"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "For Official Use"
+msgstr "官方專用"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56b.py:0
+msgid "From %(start_period)s to %(end_period)s"
+msgstr "由 %(start_period)s 至 %(end_period)s"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Full name in Chinese :"
+msgstr "中文全名："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Gain realized under Share Option Scheme"
+msgstr "在股份認購計劃中所賺取的收益"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_payslip_run_hsbc_autopay_view_form
+msgid "Generate HSBC Autopay Report"
+msgstr "產生滙豐自動轉賬報告"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip_run.py:0
+msgid "Generate HSBC Autopay Report."
+msgstr "產生滙豐自動轉賬報告。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ird_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_view_form
+msgid "Generation Complete"
+msgstr "完成生成"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_given_name
+msgid "Given Name"
+msgstr "名字"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_global_deduction
+msgid "Global Deduction"
+msgstr "整體扣除"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_global_reimbursement
+msgid "Global Reimbursement"
+msgstr "全域發還項目"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_autopay_type__h2h
+msgid "H2H Submission"
+msgstr "H2H 提交"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__autopay_type
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_res_company__l10n_hk_autopay_type
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_autopay_type
+msgid ""
+"H2H Submission: Directly submit to HSBC. HSBCnet File Upload: Upload file to "
+"HSBCnet."
+msgstr "H2H 提交：直接提交至 HSBC 滙豐。HSBCnet 檔案上載：將檔案上載至 HSBCnet。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "HK$"
+msgstr "港元"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_internet
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_version__l10n_hk_internet
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__default_l10n_hk_internet
+msgid "HK: Internet Subscription"
+msgstr "香港：上網服務費"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.report,name:l10n_hk_hr_payroll.action_report_payslip_hk
+msgid "HK: Payslip"
+msgstr "香港：工資單"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.report,name:l10n_hk_hr_payroll.action_report_light_payslip_hk
+msgid "HK: Payslip (Light)"
+msgstr "香港：工資單（簡版）"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_employee__l10n_hk_autopay_account_type__hkid
+msgid "HKID + Beneficiary Name"
+msgstr "香港身份證號碼 + 收款人姓名"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_payslip_run_hsbc_autopay_wizard
+msgid "HR Payslip Run HSBC Autopay Wizard"
+msgstr "人力資源發薪操作滙豐自動轉賬精靈"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.server,name:l10n_hk_hr_payroll.ir_cron_data_rental_update_state_ir_actions_server
+msgid "HR Rental: update state"
+msgstr "人力資源租賃：更新狀態"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_work_entry_type
+msgid "HR Work Entry Type"
+msgstr "HR 工作記項類型"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_first_batch
+msgid "HSBC Autopay File"
+msgstr "滙豐自動轉賬檔案"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_second_batch
+msgid "HSBC Autopay File - Second Batch"
+msgstr "滙豐自動轉賬檔案 - 第二批"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-javascript
+#: code:addons/l10n_hk_hr_payroll/static/src/components/payrun_card/payrun_card.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_payslip_run_kanban_inherit_l10n_hk_hr_payroll
+msgid "HSBC Autopay Report"
+msgstr "滙豐自動轉賬報表"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_first_batch_date
+msgid "HSBC Generation Date"
+msgstr "滙豐資料產生日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay_export_second_batch_date
+msgid "HSBC Generation Date - Second Batch"
+msgstr "滙豐資料產生日期 - 第二批"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_autopay_type__hsbcnet
+msgid "HSBCnet File Upload"
+msgstr "HSBCnet 檔案上載"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__has_money_payable_held_under_ird
+msgid "Has Money Payable Held Under IRD"
+msgstr "有根據稅務局規定扣起的待付款項"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__has_non_exercised_stock_options
+msgid "Has Non-Exercised Stock Options"
+msgstr "有未行使的股份認購權"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_employee_form
+msgid "History"
+msgstr "過往記錄"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll.menu_reporting_l10n_hk
+msgid "Hong Kong"
+msgstr "香港"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Hong Kong Localization"
+msgstr "香港本地化"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_rental
+msgid "Hong Kong: Rental"
+msgstr "香港：租賃"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_rental__nature__hotel
+msgid "Hotel"
+msgstr "酒店"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_departure_reason__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payroll_employee_declaration__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payroll_structure_type__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_version__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_work_entry_type__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_bank__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_resource_calendar__id
+msgid "ID"
+msgstr "識別碼"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56b_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "IR56B"
+msgstr "IR56B"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.report,name:l10n_hk_hr_payroll.action_report_employee_ir56b
+msgid "IR56B PDF"
+msgstr "IR56B PDF"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56b.py:0
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll.l10n_hk_ir56b_action
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_ir56b
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll.menu_l10n_hk_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56b_view_form
+msgid "IR56B Sheet"
+msgstr "IR56B 表格"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56b_view_tree
+msgid "IR56B sheets"
+msgstr "IR56B 表格"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "IR56E"
+msgstr "IR56E"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.report,name:l10n_hk_hr_payroll.action_report_employee_ir56e
+msgid "IR56E PDF"
+msgstr "IR56E PDF"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56e.py:0
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll.l10n_hk_ir56e_action
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_ir56e
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll.menu_l10n_hk_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56e_view_form
+msgid "IR56E Sheet"
+msgstr "IR56E 表格"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56e_view_tree
+msgid "IR56E Sheets"
+msgstr "IR56E 表格"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56f_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "IR56F"
+msgstr "IR56F"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.report,name:l10n_hk_hr_payroll.action_report_employee_ir56f
+msgid "IR56F PDF"
+msgstr "IR56F PDF"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll.l10n_hk_ir56f_action
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_ir56f
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll.menu_l10n_hk_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56f_view_form
+msgid "IR56F Sheet"
+msgstr "IR56F 表格"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56f_view_tree
+msgid "IR56F Sheets"
+msgstr "IR56F 表格"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__sheet_id
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "IR56G"
+msgstr "IR56G"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_ir56g_line
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "IR56G Line"
+msgstr "IR56G 資料行"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payroll_employee_declaration.py:0
+msgid "IR56G Line Details"
+msgstr "IR56G 資料行詳情"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.report,name:l10n_hk_hr_payroll.action_report_employee_ir56g
+msgid "IR56G PDF"
+msgstr "IR56G PDF"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll.l10n_hk_ir56g_action
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_ir56g
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll.menu_l10n_hk_ir56g
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56g_view_form
+msgid "IR56G Sheet"
+msgstr "IR56G 表格"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ir56g_view_tree
+msgid "IR56G Sheets"
+msgstr "IR56G 表格"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_ird
+msgid "IRD Sheet"
+msgstr "稅務局表格"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_res_company__l10n_hk_eoy_pay_month
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_eoy_pay_month
+msgid ""
+"If set, End of Year Payments will be included in the payslip of the chose "
+"month.\n"
+"Leave empty to manually choose when to include it in each payslip."
+msgstr ""
+"若設定，所選月份的工資單會包括年終酬金。\n"
+"留空可手動選擇何時在各張工資單中加入年終酬金。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_res_company__l10n_hk_use_mpf_offsetting
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_use_mpf_offsetting
+msgid ""
+"If set, MPF Offsetting will be applied in case of Severance Pay/Long Service "
+"Pay for the pre-transition period.\n"
+"This can be overridden for each payment."
+msgstr ""
+"若設定，處理遣散費/長期服務金的轉制前部份時，會套用強積金對沖。\n"
+"此設定可針對個別付款另行設定。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "If yes, please state :"
+msgstr "若「是」，請填寫："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"If yes, please state:\n"
+"                                        <span class=\"ps-4\">Name of the non-"
+"Hong Kong company:</span>"
+msgstr ""
+"若「是」，請填寫：\n"
+"                                        <span class=\"ps-4\">該非香港公司名稱"
+"：</span>"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"If yes, supply information, as an attachment, on details of the number and "
+"type of shares covered by the"
+msgstr "若「是」，請以附件提供股份認購的類別及可認購的股數、"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid ""
+"Inland Revenue Department <br/>\n"
+"                            Employer's Return of Remuneration and Pensions "
+"<br/>\n"
+"                            For the year from"
+msgstr ""
+"稅務局<br/>\n"
+"                            僱主填報的薪酬及退休金報稅表<br/>\n"
+"                            年度：由"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_payslip_run_hsbc_autopay_wizard__authorisation_type__p
+msgid "Instruction Level Authorisation"
+msgstr "指示層級授權"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_internet
+msgid "Internet Allowance"
+msgstr "上網費津貼"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.hr_contract_template_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_employee_form
+msgid "Internet Subscription"
+msgstr "上網服務費"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__xml_validation_state__invalid
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__xml_validation_state__invalid
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__xml_validation_state__invalid
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__xml_validation_state__invalid
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__xml_validation_state__invalid
+msgid "Invalid"
+msgstr "無效"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__1
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__1
+msgid "January"
+msgstr "一月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__7
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__7
+msgid "July"
+msgstr "七月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__6
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__6
+msgid "June"
+msgstr "六月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_rentals_count
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__rentals_count
+msgid "L10N Hk Rentals Count"
+msgstr "香港本地化租賃數目"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_worked_days__l10n_hk_leave_id
+msgid "Leave"
+msgstr "休假"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__leave_hk_date
+msgid "Leave HK Date"
+msgstr "離開香港日期"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Leave Pay"
+msgstr "假期工資"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Leaving Hong Kong case"
+msgstr "離開香港個案"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_lieu_of_notice_period
+msgid "Lieu of Notice Period (Months)"
+msgstr "代替通知期（個月）"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__line_ids
+msgid "Lines"
+msgstr "資料行"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payroll.structure,payslip_name:l10n_hk_hr_payroll.hr_payroll_structure_cap57_long_service_payment
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_long_service_payment
+msgid "Long Service Payment"
+msgstr "長期服務金"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_long_service_payment_post_transition
+msgid "Long Service Payment - Post-Transition"
+msgstr "長期服務金 - 轉制後"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_long_service_payment_pre_transition
+msgid "Long Service Payment - Pre-Transition"
+msgstr "長期服務金 - 轉制前"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule.category,name:l10n_hk_hr_payroll.MPF
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_employee_form
+msgid "MPF"
+msgstr "強積金"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_mpf_gross
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_mpf_gross
+msgid "MPF Gross"
+msgstr "強積金總額"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_mpf_manulife_account
+msgid "MPF Manulife Account"
+msgstr "強積金宏利賬戶"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_manulife_mpf
+msgid "Manulife MPF"
+msgstr "宏利強積金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_l10n_hk_manulife_mpf_line
+msgid "Manulife MPF Line"
+msgstr "宏利強積金資料行"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_manulife_mpf_scheme
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_manulife_mpf_scheme
+msgid "Manulife MPF Scheme"
+msgstr "宏利強積金計劃"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_action
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_view_form
+msgid "Manulife MPF Sheet"
+msgstr "宏利強積金表格"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_view_tree
+msgid "Manulife MPF Sheets"
+msgstr "宏利強積金表格"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__3
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__3
+msgid "March"
+msgstr "三月"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"Marital Status (1 = Single / Widowed / Divorced / Living Apart, 2 = "
+"Married ) :"
+msgstr "婚姻狀況（1 = 未婚 / 喪偶 / 離婚 / 分開居住，2 = 已婚）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"Marital Status (1 = Single / Widowed / Divorced / Living Apart, 2 = "
+"Married) :"
+msgstr "婚姻狀況（1 = 未婚 / 喪偶 / 離婚 / 分開居住，2 = 已婚）："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__5
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__5
+msgid "May"
+msgstr "五月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__month
+msgid "Month"
+msgstr "月份"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_monthly_end_autopay
+msgid "Monthly End Autopay"
+msgstr "每月底自動轉賬"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Monthly Rent Paid to Employer by Employee :"
+msgstr "由僱員付給僱主的每月租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Monthly Rent Paid to Landlord by Employee :"
+msgstr "由僱員付給業主的每月租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Monthly Rent Paid to Landlord by Employer :"
+msgstr "由僱主付給業主的每月租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Monthly Rent Refunded to Employee by Employer :"
+msgstr "由僱主發還給僱員的每月租金："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__xml_validation_state__normal
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__xml_validation_state__normal
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__xml_validation_state__normal
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__xml_validation_state__normal
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__xml_validation_state__normal
+msgid "N/A"
+msgstr "不適用"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ird_view_list
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_view_tree
+msgid "Name"
+msgstr "名稱"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_name_in_chinese
+msgid "Name in Chinese"
+msgstr "中文姓名"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Name of Employee :"
+msgstr "僱員姓名："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Name of Employee or Pensioner :"
+msgstr "僱員或領取退休金人士的姓名："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Name of Employer:"
+msgstr "僱主名稱："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__name_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__name_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__name_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__name_of_signer
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__name_of_signer
+msgid "Name of Signer"
+msgstr "簽署人姓名"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Name of the non-Hong Kong company :"
+msgstr "該非香港公司名稱："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Name:"
+msgstr "名稱："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Nature :"
+msgstr "性質："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Nature:"
+msgstr "性質："
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_long_service_payment_net
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_payment_in_lieu_of_notice_net
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_severance_payment_net
+msgid "Net"
+msgstr "淨額"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_net_salary
+msgid "Net Salary"
+msgstr "工資淨額"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_manulife_mpf.py:0
+msgid "No employees to generate the report for."
+msgstr "沒有可以產生該報告的員工資料。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid "No payslip to generate the HSBC autopay report."
+msgstr "沒有適用的工資單可產生滙豐自動轉賬報告。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__11
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__11
+msgid "November"
+msgstr "十一月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__10
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__10
+msgid "October"
+msgstr "十月"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Official Company Information"
+msgstr "官方公司資料"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_version__l10n_hk_mpf_vc_option__none
+msgid "Only Mandatory Contribution"
+msgstr "只限強制性供款"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid ""
+"Only accept HKD or CNY currency.\n"
+"Invalid currency for the following payslips:\n"
+"%s"
+msgstr ""
+"只接受港幣（HKD）或人民幣（CNY）。\n"
+"以下工資單的貨幣無效：\n"
+"%s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid "Only support generating the HSBC autopay report for one company."
+msgstr "只支援為同一間公司產生滙豐自動轉賬報告。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid "Only support generating the HSBC autopay report for one currency"
+msgstr "只支援為單一種貨幣產生滙豐自動轉賬報告。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_manulife_mpf_view_form
+msgid "Optional"
+msgstr "選填"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__type_of_form__o
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__type_of_form__o
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__type_of_form__o
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__type_of_form__o
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__type_of_form__o
+msgid "Original"
+msgstr "正本"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll.hr_departure_reason_other
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g_line__reason_departure__other
+msgid "Other"
+msgstr "其他"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__other_reason_departure
+msgid "Other Reason of Departure"
+msgstr "其他離開原因"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "Other reason for departure"
+msgstr "其他原因離開"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_departure_reason__l10n_hk_ir56f_code__5
+msgid "Others"
+msgstr "其他"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__pdf_error
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__pdf_error
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__pdf_error
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__pdf_error
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__pdf_error
+msgid "PDF Error Message"
+msgstr "PDF 錯誤訊息"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Particulars"
+msgstr "細項"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"Particulars of Place of Residence provided (0 = Not provided, 1 = Provided) :"
+msgstr "提供居所詳情（0 = 沒有提供，1 = 有提供）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Particulars of employee who will be leaving Hong Kong on or about:"
+msgstr "以下是離開香港的僱員的詳細資料。該僱員的離港日期為：於或約於 "
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Particulars of income accruing for the year from"
+msgstr "年內僱員所應獲得入息明細表：年度由"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Particulars of the employee :-"
+msgstr "僱員的詳細資料："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Particulars of the employer :-"
+msgstr "僱主的詳細資料："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_payslip_run
+msgid "Pay Run"
+msgstr "發薪操作"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_payslip
+msgid "Pay Slip"
+msgstr "工資單"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__payment_date
+msgid "Payment Date"
+msgstr "付款日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run_hsbc_autopay_wizard__payment_set_code
+msgid "Payment Set Code"
+msgstr "付款組合代碼"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/wizards/hr_payroll_hsbc_autopay_wizard.py:0
+msgid "Payment Set Code length must be 3 letters."
+msgstr "付款組合代碼長度必須為 3 位。"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payroll.structure,payslip_name:l10n_hk_hr_payroll.hr_payroll_structure_cap57_payment_in_lieu_of_notice
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_payment_in_lieu_of_notice
+msgid "Payment in Lieu of Notice"
+msgstr "代通知金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_payroll_employee_declaration
+msgid "Payroll Employee Declaration"
+msgstr "薪酬員工申報"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.res_config_settings_view_form
+msgid "Payroll HSBC Autopay"
+msgstr "薪酬管理滙豐自動轉賬"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip_run__l10n_hk_autopay
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_autopay
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_autopay
+msgid "Payroll with HSBC Autopay payment"
+msgstr "薪酬管理及滙豐自動轉賬付款"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_payslip_worked_days
+msgid "Payslip Worked Days"
+msgstr "工資單的工作天數"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Pensions"
+msgstr "退休金"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__period
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Period"
+msgstr "期間"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Period Provided :"
+msgstr "提供的期間："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Period Provided:"
+msgstr "提供的期間："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Period of employment for the year from"
+msgstr "年內的僱用期間：年度由"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"Period of employment from 1 April to the date of cessation of employment :"
+msgstr "由 4 月 1 日起至停止受僱日期止的受僱期間："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"Period of employment from 1 April to the date of cessation of employment:"
+msgstr "由 4 月 1 日起至停止受僱日期止的受僱期間："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_passport_place_of_issue
+msgid "Place of Issue"
+msgstr "簽發地點"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid ""
+"Please configure a HKID or a passport number for the following employees: %s"
+msgstr "請為以下員工設定香港身份證或護照號碼：%s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid ""
+"Please configure a surname, a given name and a sex for the following "
+"employees: %s"
+msgstr "請為以下員工設定姓氏、名字及性別：%s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid ""
+"Please configure the Employer's Name and the Employer's File Number in the "
+"company settings."
+msgstr "請在公司設定頁面中，設定僱主名稱及僱主檔案號碼。"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_long_service_payment_post_transition_offset
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_severance_payment_post_transition_offset
+msgid "Post-transition Offset"
+msgstr "轉制後對沖"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Postal Address (if different from item 7 above) :"
+msgstr "通訊地址（如與上列第 7 項不同）："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_payslip_run_hsbc_autopay_wizard__authorisation_type__a
+msgid "Pre-Authorised"
+msgstr "預先授權"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_long_service_payment_pre_transition_offset
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_severance_payment_pre_transition_offset
+msgid "Pre-transition Offset"
+msgstr "轉制前對沖"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.department,name:l10n_hk_hr_payroll.hk_hr_department_rd
+msgid "R&D HK"
+msgstr "香港研發"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "Reason"
+msgstr "原因"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_departure_reason__l10n_hk_ir56f_code
+msgid "Reason For Cessation (IR56F)"
+msgstr "停止受僱原因（IR56F）"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"Reason for cessation (e.g. resignation, retirement, dismissal, death etc.) :"
+msgstr "停止受僱原因（例如：辭職、退休、解僱、身故等）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "Reason for departure"
+msgstr "離開原因"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Reason for departure (Please ✓):"
+msgstr "離開原因（請「✓」適當方格）："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__reason_departure
+msgid "Reason of Departure"
+msgstr "離開原因"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__reason_no_money_payable
+msgid "Reason of No Money Payable"
+msgstr "沒有待付款項的原因"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_referral_fee
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_referral_fee
+msgid "Referral Fee"
+msgstr "推薦獎賞"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_reimbursement
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_reimbursement_salary_rule
+msgid "Reimbursement"
+msgstr "報銷"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid ""
+"Remarks :\n"
+"                                        ERMC"
+msgstr ""
+"備註：\n"
+"                                        僱主強制性供款（ERMC）"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_salary_rent_allowance
+msgid "Rent Allowance"
+msgstr "租金津貼"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Rent Paid to Employer by Employee :"
+msgstr "由僱員付給僱主的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Rent Paid to Employer by Employee:"
+msgstr "由僱員付給僱主的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Rent Paid to Landlord by Employee :"
+msgstr "由僱員付給業主的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Rent Paid to Landlord by Employee:"
+msgstr "由僱員付給業主的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Rent Paid to Landlord by Employer :"
+msgstr "由僱主付給業主的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Rent Paid to Landlord by Employer:"
+msgstr "由僱主付給業主的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Rent Refunded to Employee by Employer :"
+msgstr "由僱主發還給僱員的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Rent Refunded to Employee by Employer:"
+msgstr "由僱主發還給僱員的租金："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_rental_view_form
+msgid "Rental"
+msgstr "租賃"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_rental.py:0
+msgid ""
+"Rental %(rental)s: employee %(employee)s already has a rental running during "
+"this period."
+msgstr "租賃 %(rental)s：員工 %(employee)s 在此期間已有生效的租賃。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_rental.py:0
+msgid ""
+"Rental %(rental)s: start date (%(start)s) must be earlier than rental end "
+"date (%(end)s)."
+msgstr "租賃 %(rental)s：開始日期（%(start)s）必須早於租賃結束日期（%(end)s）。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__amount
+msgid "Rental Amount"
+msgstr "租金金額"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_rental_view_form
+msgid "Rental End Date"
+msgstr "租賃結束日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__name
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_rental_view_form
+msgid "Rental Reference"
+msgstr "租賃參考"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_rental_view_form
+msgid "Rental Start Date"
+msgstr "租賃開始日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__nature
+msgid "Rental Type"
+msgstr "租賃類型"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll.action_l10n_hk_rental
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_rental_ids
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_rental_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_rental_view_tree
+msgid "Rentals"
+msgstr "租賃安排"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__type_of_form__r
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__type_of_form__r
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__type_of_form__r
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__type_of_form__r
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__type_of_form__r
+msgid "Replacement"
+msgstr "修訂"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Residential Address :"
+msgstr "住址："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_departure_reason__l10n_hk_ir56f_code__1
+msgid "Resignation"
+msgstr "辭職"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_resource_calendar
+msgid "Resource Working Time"
+msgstr "資源工作時間"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_departure_reason__l10n_hk_ir56f_code__2
+msgid "Retirement"
+msgstr "退休"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g_line__reason_departure__homeland
+msgid "Return to homeland"
+msgstr "返回原居地"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_rental__state__open
+msgid "Running"
+msgstr "生效中"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Salaries Tax paid by Employer"
+msgstr "僱主代付的薪俸稅"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "Salary / Wages"
+msgstr "薪金/工資"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model,name:l10n_hk_hr_payroll.model_hr_payroll_structure_type
+msgid "Salary Structure Type"
+msgstr "薪酬結構類型"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__is_salary_tax_borne
+msgid "Salary Tax Borne By Employer"
+msgstr "由僱主承擔的薪俸稅"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid "Salary structure 'CAP57: Employees Monthly Pay' not found."
+msgstr "找不到「CAP57 員工月薪」薪酬結構。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__manulife_mpf_scheme
+msgid "Scheme Number"
+msgstr "計劃編號"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_payslip_run_hsbc_autopay_wizard__batch_type__second
+msgid "Second Batch"
+msgstr "第二批"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_second_batch_autopay_gross
+msgid "Second Batch AutoPay Gross"
+msgstr "第二批自動轉賬總額"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__second_cheque_no
+msgid "Second Cheque No."
+msgstr "第二張支票號碼"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g_line__reason_departure__secondment
+msgid "Secondment"
+msgstr "調派往其他地方"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__end_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__start_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__end_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__start_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__end_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__start_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__end_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__start_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__end_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__start_month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_manulife_mpf__month__9
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__res_company__l10n_hk_eoy_pay_month__9
+msgid "September"
+msgstr "九月"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__sequence_no
+msgid "Sequence No."
+msgstr "序號"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payroll.structure,payslip_name:l10n_hk_hr_payroll.hr_payroll_structure_cap57_severance_payment
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_severance_payment
+msgid "Severance Payment"
+msgstr "遣散費"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_severance_payment_post_transition
+msgid "Severance Payment - Post-Transition"
+msgstr "遣散費 - 轉制後"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.cap57_employees_severance_payment_pre_transition
+msgid "Severance Payment - Pre-Transition"
+msgstr "遣散費 - 轉制前"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule.category,name:l10n_hk_hr_payroll.SLSP
+msgid "Severance/Long Service Payment"
+msgstr "遣散費/長期服務金"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "Sex (M = Male, F = Female) :"
+msgstr "性別（M = 男性，F = 女性）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Sex (M = Male, F = Female):"
+msgstr "性別（M = 男性，F = 女性）："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__sheet_id
+msgid "Sheet"
+msgstr "表"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid ""
+"Signature :<br/>\n"
+"                                            Name :"
+msgstr ""
+"簽署：<br/>\n"
+"                                            姓名："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"Signature :<br/><br/>\n"
+"                                            Name :"
+msgstr ""
+"簽署：<br/><br/>\n"
+"                                            姓名："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Signature:"
+msgstr "簽署："
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.payslip.input.type,name:l10n_hk_hr_payroll.input_skip_rent_allowance
+msgid "Skip Rent Allowance"
+msgstr "不計租金津貼"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid "Some bank accounts (%s) don't have a bank account name."
+msgstr "部份銀行賬戶沒有銀行賬戶名稱：%s。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid "Some banks (%s) don't have a bank code"
+msgstr "部份銀行（%s）未設定銀行編號。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid ""
+"Some employee have more than 2 rental records within the period:\n"
+"%s"
+msgstr ""
+"部份員工在該期間內，有超過 2 項租賃記錄：\n"
+"%s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid "Some employees (%s) don't have a bank account."
+msgstr "部份員工沒有銀行賬戶：%s。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payslip.py:0
+msgid "Some employees (%s) haven't set the autopay type."
+msgstr "部份員工（%s）未設定自動轉賬類型。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_spouse_identification_id
+msgid "Spouse Identification No"
+msgstr "配偶身份證明文件號碼"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_spouse_passport_id
+msgid "Spouse Passport No"
+msgstr "配偶護照號碼"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_spouse_passport_place_of_issue
+msgid "Spouse Place of Issue"
+msgstr "配偶證件簽發地點"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__date_start
+msgid "Start Date"
+msgstr "開始日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__start_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__start_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__start_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__start_month
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__start_month
+msgid "Start Month"
+msgstr "開始月份"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__start_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__start_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__start_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__start_period
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__start_period
+msgid "Start Period"
+msgstr "期間開始"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__start_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__start_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__start_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__start_year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__start_year
+msgid "Start Year"
+msgstr "年度開始"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_rental__state
+msgid "State"
+msgstr "狀態"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__submission_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__submission_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__submission_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__submission_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__submission_date
+msgid "Submission Date"
+msgstr "提交日期"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__type_of_form__s
+msgid "Supplementary"
+msgstr "補充"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf_line__surcharge_percentage
+msgid "Surcharge Percentage"
+msgstr "附加費百分比"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_surname
+msgid "Surname"
+msgstr "姓氏"
+
+#. module: l10n_hk_hr_payroll
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll.l10n_hk_hr_payroll_structure_cap57_employee_salary_gross_salary_rule
+msgid "Taxable Salary"
+msgstr "應課稅薪金"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "Terms of Employment"
+msgstr "僱用條款"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_employee.py:0
+msgid ""
+"The \"Autopay Email Address\" field must be filled with a single correct "
+"email address."
+msgstr "「自動轉賬電郵地址」欄位必須填寫一個正確的電郵地址。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_employee.py:0
+msgid "The \"Autopay Mobile Number\" must match the format \"+xxx-xxxxxxxx\"."
+msgstr "自動轉賬手機號碼的格式必須為 +xxx-xxxxxxxx。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/res_company.py:0
+msgid "The Employer's File Number must be in the format of XXX-XXXXXXXX."
+msgstr "僱主檔案號碼的格式必須為：XXX-XXXXXXXX。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/res_company.py:0
+msgid "The Manulife MPF Scheme must be 8 characters long."
+msgstr "宏利強積金計劃編號必須為 8 個字元。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ir56f.py:0
+msgid "The following employees don't have a valid departure reason: %s"
+msgstr "以下僱員未有有效的離職原因：%s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid ""
+"The following employees don't have a valid private address (with a street "
+"and a state): %s"
+msgstr "以下員工未有有效的私人地址（須有街道名稱及州/省）：%s"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid "The year of employer's return must be a 4 digits number."
+msgstr "僱主報稅年度必須為 4 位數字。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid "The year of employer's return must be in the past."
+msgstr "僱主報稅年度必須為過去的年份。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_manulife_mpf.py:0
+msgid "There are no confirmed payslips for this period."
+msgstr "此期間沒有已確認的工資單。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid ""
+"There are no confirmed payslips using the CAP57 structure for the selected "
+"employees in this period."
+msgstr "在此段期間，所選取的員工沒有已確認的 CAP57 薪酬結構工資單。"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,help:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_employer_name
+msgid "This name will be shown on the ird report."
+msgstr "此名稱將會在稅務局 IRD 報告中顯示。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "To"
+msgstr "至"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__type_of_form
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__type_of_form
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__type_of_form
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__type_of_form
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__type_of_form
+msgid "Type Of Form"
+msgstr "表格類型"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_company__l10n_hk_use_mpf_offsetting
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_res_config_settings__l10n_hk_use_mpf_offsetting
+msgid "Use MPF Offsetting"
+msgstr "使用強積金對沖"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__xml_validation_state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__xml_validation_state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__xml_validation_state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__xml_validation_state__done
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__xml_validation_state__done
+msgid "Valid"
+msgstr "有效"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_mpf_vc_percentage
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_version__l10n_hk_mpf_vc_percentage
+msgid "Volunteer Contribution %"
+msgstr "自願供款 %"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_employee__l10n_hk_mpf_vc_option
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_version__l10n_hk_mpf_vc_option
+msgid "Volunteer Contribution Option"
+msgstr "自願供款選項"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56b__state__waiting
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56e__state__waiting
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56f__state__waiting
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ir56g__state__waiting
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__l10n_hk_ird__state__waiting
+msgid "Waiting"
+msgstr "正在等待"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"Whether the employee has any share options granted by your company or any "
+"other corporation in respect of his/her employment with your"
+msgstr "僱員是否持有你或其他公司就其受僱而發給的股份認購權，"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid ""
+"Whether the employee has any share options granted by your company or any "
+"other corporation in respect of his/her employment with your company that "
+"are not yet exercised, assigned or released"
+msgstr "僱員是否持有你或其他公司就其受僱而發給但未行使、轉讓或放棄的股份認購權"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"Whether the employee has been conditionally granted a share option prior to "
+"commencing to be"
+msgstr "僱員是否在受僱於香港工作前，已獲有條件地授予股份認購權，"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid ""
+"Whether the employee was wholly or partly paid either in Hong Kong or "
+"elsewhere"
+msgstr "僱員的全部或部份入息是否在香港或其他地區"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "Whether the employee would return to Hong Kong"
+msgstr "僱員會否返回香港"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "Whether the employee would return to Hong Kong (Please ✓):"
+msgstr "僱員會否返回香港（請「✓」適當方格）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_l10n_hk_ir56g_line_form
+msgid "Whether the employee's Salaries Tax will be borne by employer"
+msgstr "僱員的薪俸稅是否由僱主支付"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g_line__will_return_hk
+msgid "Will Return to HK"
+msgstr "會返回香港"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll.selection__hr_version__l10n_hk_mpf_vc_option__custom
+msgid "With Fixed %VC"
+msgstr "使用固定自願供款 %"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_hr_payslip__l10n_hk_worked_days_leaves_count
+msgid "Worked Days Leaves Count"
+msgstr "已工作日數假期數目"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/hr_payroll_employee_declaration.py:0
+msgid "Wrong Model"
+msgstr "錯誤模型"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__xlsx_attachment_id
+msgid "XLSX Attachment"
+msgstr "XLSX 附件"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__xlsx_file
+msgid "XLSX File"
+msgstr "XLSX 檔案"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__xlsx_filename
+msgid "XLSX Filename"
+msgstr "XLSX 檔案名稱"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__xml_file
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__xml_file
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__xml_file
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__xml_file
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__xml_file
+msgid "XML File"
+msgstr "XML 檔案"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__xml_filename
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__xml_filename
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__xml_filename
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__xml_filename
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__xml_filename
+msgid "XML Filename"
+msgstr "XML 檔案名稱"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ird_view_form
+msgid "XML file:"
+msgstr "XML 檔案："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__xml_validation_state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__xml_validation_state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__xml_validation_state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__xml_validation_state
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__xml_validation_state
+msgid "Xml Validation State"
+msgstr "XML 驗證狀態"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.l10n_hk_ird_view_form
+msgid "YYYY"
+msgstr "年年年年"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__year
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_manulife_mpf__year
+msgid "Year"
+msgstr "年"
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56b__year_of_employer_return
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56e__year_of_employer_return
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56f__year_of_employer_return
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ir56g__year_of_employer_return
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll.field_l10n_hk_ird__year_of_employer_return
+msgid "Year of Employer's Return"
+msgstr "僱主報稅年度"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_manulife_mpf.py:0
+msgid "You must be logged in a Hong Kong company to use this feature."
+msgstr "必須以香港公司帳戶登入，才可使用此功能。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_ird.py:0
+msgid "You must select at least one employee."
+msgstr "你必須選取最少一名員工。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_manulife_mpf.py:0
+msgid ""
+"You must set a Manulife MPF Scheme Number in your company settings first."
+msgstr "你必須先在公司設定頁面，設定宏利強積金計劃編號。"
+
+#. module: l10n_hk_hr_payroll
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll/models/l10n_hk_manulife_mpf.py:0
+msgid "You must set an Employer Name in your company settings first."
+msgstr "你必須先在公司設定中，設定僱主名稱。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "by a non-Hong Kong company ( 0 = No, 1 = Yes ):"
+msgstr "由非香港公司支付（0 = 否，1 = 是）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56f
+msgid "by a non-Hong Kong company (0 = No, 1 = Yes) :"
+msgstr "由非香港公司支付（0 = 否，1 = 是）："
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56g
+msgid "company that are not yet exercised, assigned or released (Please ✓):"
+msgstr "但該些股份認購權尚未行使、轉讓或放棄（請「✓」適當方格）："
+
+#. module: l10n_hk_hr_payroll
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll.menu_l10n_hk_manulife_mpf
+msgid "eMPF Contributions"
+msgstr "積金易供款"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"employed in Hong Kong, which can be exercised after rendering services in "
+"Hong Kong"
+msgstr "規定他要在香港提供了服務後才可行使這些認購權"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid ""
+"option, the consideration (if any) paid for the grant of the option, the "
+"consideration required to exercise"
+msgstr "為獲取認購權所付的代價（如有）、行使認購權時須付的代價、"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.view_employee_form
+msgid "susan.wong@abc.com.hk"
+msgstr "susan.wong@abc.com.hk"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56e
+msgid "the option and the period within which the option must be exercised."
+msgstr "以及行使認購權時限等詳情。"
+
+#. module: l10n_hk_hr_payroll
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll.report_ir56b
+msgid "to"
+msgstr "至"

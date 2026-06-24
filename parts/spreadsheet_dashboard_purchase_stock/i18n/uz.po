@@ -1,0 +1,567 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_purchase_stock
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:52+0000\n"
+"PO-Revision-Date: 2025-10-08 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "% On time deliveries by vendor"
+msgstr "% Yetkazib beruvchilar tomonidan o‘z vaqtida yetkazib berilgan"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "% of On Time Deliveries"
+msgstr "O‘z vaqtida yetkazib berish foizi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Acoustic Bloc Screens"
+msgstr "Akustik to‘siq ekranlari"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Average Cost"
+msgstr "O‘rtacha narx"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Average global"
+msgstr "Umumiy o‘rtacha"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Average order"
+msgstr "O‘rtacha buyurtma"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Average order value"
+msgstr "Buyurtmaning o‘rtacha qiymati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Average product purchased cost by confirmation week"
+msgstr "Tasdiqlangan hafta bo‘yicha xarid qilingan mahsulotning o‘rtacha narxi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Azure Interior"
+msgstr "Azure Interyeri"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Buyer"
+msgstr "Xaridor"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Confirmation Date"
+msgstr "Tasdiqlangan sana"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Corner Desk Left Sit"
+msgstr "Chap burchakli ish stoli"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Corner Desk Right Sit"
+msgstr "O‘ng burchakli ish stoli"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Count"
+msgstr "Soni"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Days to Confirm"
+msgstr "Tasdiqlash kunlari"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Days to Receive"
+msgstr "Qabul qilish kunlari"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Drawer Black"
+msgstr "Qora tortma"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Elisabeth Wild"
+msgstr "Elizabet Vayld"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Fill rate"
+msgstr "To‘ldirish darajasi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Flipover"
+msgstr "Aylantiriladigan doska"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Global value"
+msgstr "Umumiy qiymat"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Joel Willis"
+msgstr "Joel Villis"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "John Stones"
+msgstr "Jon Stounz"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Large Desk"
+msgstr "Katta ish stoli"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Late receipts"
+msgstr "Kechiktirilgan qabullar"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Lead Time"
+msgstr "Yetkazib berish muddati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Lead time"
+msgstr "Yetkazib berish muddati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Lead time top 10"
+msgstr "Eng yaxshi 10 ta yetkazib berish muddati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Number of orders"
+msgstr "Buyurtmalar soni"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Office Chair Black"
+msgstr "Qora ofis stuli"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "On time deliveries"
+msgstr "O‘z vaqtida yetkazib berishlar"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "On-Time Delivery Rate"
+msgstr "O‘z vaqtida yetkazib berish ko‘rsatkichi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Order"
+msgstr "Buyurtma"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Order Reference"
+msgstr "Buyurtma raqami"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Order date"
+msgstr "Buyurtma sanasi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Order date Filter"
+msgstr "Buyurtma sanasi filtri"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Orders count"
+msgstr "Buyurtmalar soni"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Orders value by vendor"
+msgstr "Yetkazib beruvchi bo‘yicha buyurtmalar qiymati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Orders with reception picking"
+msgstr "Qabul qilingan buyurtmalar"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Picking Name"
+msgstr "Tanlash nomi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Previous period"
+msgstr "Oldingi davr"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Product Category"
+msgstr "Mahsulot toifasi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Product level overview"
+msgstr "Mahsulot darajasi tahlili"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Products Purchased cost"
+msgstr "Xarid qilingan mahsulotlar narxi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_purchase_stock.spreadsheet_dashboard_purchase
+#, fuzzy
+msgid "Purchase & Vendor analysis"
+msgstr "Xarid va yetkazib beruvchi tahlili"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Purchase Order by buyer"
+msgstr "Xaridor bo‘yicha xarid buyurtmasi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Purchase Value"
+msgstr "Xarid qiymati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Purchase Value by confirmation date"
+msgstr "Tasdiqlangan sana bo‘yicha xarid qiymati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Purchase Value by creation confirmation date"
+msgstr "Yaratilgan va tasdiqlangan sana bo‘yicha xarid qiymati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Purchased value"
+msgstr "Xarid qiymati"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Qty Ordered"
+msgstr "Buyurtma qilingan miqdor"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Qty Received"
+msgstr "Qabul qilingan miqdor"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Quantity ordered"
+msgstr "Buyurtma berilgan miqdor"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Ready Mat"
+msgstr "Tayyor material"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Selected period"
+msgstr "Tanlangan davr"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Supplier service level"
+msgstr "Ta'minotchi xizmat darajasi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Swiss Vendor"
+msgstr "Shveytsariyalik yetkazib beruvchi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Test Batch Product"
+msgstr "Sinov partiyasi mahsuloti"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Top 10 late receipts"
+msgstr "Eng kech qabul qilingan 10 ta mahsulot"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Top purchase orders by value"
+msgstr "Qiymati bo‘yicha eng yuqori xarid buyurtmalari"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Top purchased products"
+msgstr "Eng ko‘p xarid qilingan mahsulotlar"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Top vendors by amount"
+msgstr "Miqdor bo‘yicha yetakchi yetkazib beruvchilar"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Top vendors by lead time in days"
+msgstr "Yetkazib berish muddati (kun) bo‘yicha yetakchi yetkazib beruvchilar"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Total"
+msgstr "Jami"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Total value"
+msgstr "Umumiy qiymat"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Value"
+msgstr "Qiymat"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Vendor"
+msgstr "Yetkazib beruvchi"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#, fuzzy
+msgid "Vendors"
+msgstr "Yetkazib beruvchilar"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Whiteboard Pen"
+msgstr "Oq taxtaga yozish markeri"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "Wood Corner"
+msgstr "Yog‘och burchak"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "last period"
+msgstr "O‘tgan davr"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_sample_dashboard.json:0
+#, fuzzy
+msgid "since last period"
+msgstr "O‘tgan davrdan beri"
+
+#, fuzzy
+#~ msgid "Supplier Dependency Chart"
+#~ msgstr "Ta'minotchi bog‘liqligi diagrammasi"

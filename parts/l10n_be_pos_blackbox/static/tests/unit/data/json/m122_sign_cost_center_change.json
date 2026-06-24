@@ -1,0 +1,129 @@
+{
+  "operationName": "M122_signCostCenterChange",
+  "variables": {
+    "data": {
+      "language": "NL",
+      "vatNo": "BE0000000097",
+      "estNo": "2000000042",
+      "posId": "CPOS0031234567",
+      "posFiscalTicketNo": 1004,
+      "posDateTime": "2024-07-29T14:21:23+02:00",
+      "posSwVersion": "1.8.3",
+      "deviceId": "b54a614f-39cc-4a7b-bd9f-aa6b693d769c",
+      "terminalId": "TER-1-BAR",
+      "bookingPeriodId": "dffcd829-a0e5-41ca-a0ae-9eb887f95637",
+      "bookingDate": "2024-07-29",
+      "ticketMedium": "NONE",
+      "employeeId": "75061189702",
+      "transfer": {
+        "from": [
+          {
+            "costCenter": {
+              "id": "T1",
+              "type": "TABLE",
+              "reference": "O158"
+            },
+            "transaction": {
+              "transactionLines": [
+                {
+                  "lineType": "SINGLE_PRODUCT",
+                  "mainProduct": {
+                    "productId": "22001",
+                    "productName": "Burger of the Chef",
+                    "departmentId": "22",
+                    "departmentName": "Main Dishes",
+                    "quantity": -1,
+                    "negQuantityReason": "COST_CENTER_CHANGE",
+                    "quantityType": "PIECE",
+                    "unitPrice": 28,
+                    "vats": [
+                      {
+                        "label": "B",
+                        "price": -28
+                      }
+                    ]
+                  },
+                  "lineTotal": -28
+                },
+                {
+                  "lineType": "SINGLE_PRODUCT",
+                  "mainProduct": {
+                    "productId": "10006",
+                    "productName": "Dry Martini",
+                    "departmentId": "10",
+                    "departmentName": "Aperitifs",
+                    "quantity": -1,
+                    "negQuantityReason": "COST_CENTER_CHANGE",
+                    "quantityType": "PIECE",
+                    "unitPrice": 12,
+                    "vats": [
+                      {
+                        "label": "A",
+                        "price": -12
+                      }
+                    ]
+                  },
+                  "lineTotal": -12
+                }
+              ],
+              "transactionTotal": -40
+            }
+          }
+        ],
+        "to": [
+          {
+            "costCenter": {
+              "id": "T5",
+              "type": "TABLE",
+              "reference": "T2_601"
+            },
+            "transaction": {
+              "transactionLines": [
+                {
+                  "lineType": "SINGLE_PRODUCT",
+                  "mainProduct": {
+                    "productId": "22001",
+                    "productName": "Burger of the Chef",
+                    "departmentId": "22",
+                    "departmentName": "Main Dishes",
+                    "quantity": 1,
+                    "quantityType": "PIECE",
+                    "unitPrice": 28,
+                    "vats": [
+                      {
+                        "label": "B",
+                        "price": 28
+                      }
+                    ]
+                  },
+                  "lineTotal": 28
+                },
+                {
+                  "lineType": "SINGLE_PRODUCT",
+                  "mainProduct": {
+                    "productId": "10006",
+                    "productName": "Dry Martini",
+                    "departmentId": "10",
+                    "departmentName": "Aperitifs",
+                    "quantity": 1,
+                    "quantityType": "PIECE",
+                    "unitPrice": 12,
+                    "vats": [
+                      {
+                        "label": "A",
+                        "price": 12
+                      }
+                    ]
+                  },
+                  "lineTotal": 12
+                }
+              ],
+              "transactionTotal": 40
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query": "mutation M122_signCostCenterChange($data: CostCenterChangeInput!, $training: Boolean! = false) {\n  signCostCenterChange(data: $data, isTraining: $training) {\n    posId\n    posFiscalTicketNo\n    posDateTime\n    terminalId\n    deviceId\n    fdmSwVersion\n    eventOperation\n    digitalSignature\n    bufferCapacityUsed\n    fdmRef {\n      fdmId\n      fdmDateTime\n      eventLabel\n      eventCounter\n      totalCounter\n    }\n    warnings {\n      category\n      code\n      message\n      data {\n        name\n        value\n      }\n      showPos\n    }\n    informations {\n      category\n      code\n      message\n      data {\n        name\n        value\n      }\n      showPos\n    }\n  }\n}\n"
+}

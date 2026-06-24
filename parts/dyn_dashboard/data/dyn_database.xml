@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="dyn_initial_dashboard" model="xx.dashboard">
+        <field name="name">My Dashboard</field>
+        <field name="menu_name">My Dashboard</field>
+    </record>
+</odoo>

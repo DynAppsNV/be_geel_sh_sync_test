@@ -1,0 +1,365 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_urban_piper_enhancements
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:50+0000\n"
+"PO-Revision-Date: 2025-10-08 18:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_urban_piper_enhancements
+#: model_terms:ir.actions.act_window,help:pos_urban_piper_enhancements.action_pos_store_timing
+#, fuzzy
+msgid "Add a store timing"
+msgstr "Do‘kon ish vaqtini qo‘shish"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_product_template_attribute_value__urbanpiper_pos_config_ids
+#, fuzzy
+msgid "Available on Food Delivery"
+msgstr "Oziq-ovqat yetkazib berishda mavjud"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,help:pos_urban_piper_enhancements.field_product_template_attribute_value__urbanpiper_pos_config_ids
+#, fuzzy
+msgid "Check this if the value is available for food delivery."
+msgstr ""
+"Agar qiymat oziq-ovqat yetkazib berish uchun mavjud bo‘lsa, buni belgilang."
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_res_config_settings
+#, fuzzy
+msgid "Config Settings"
+msgstr "Sozlamalarni moslash"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_res_partner
+#, fuzzy
+msgid "Contact"
+msgstr "Aloqa"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,website_form_label:pos_urban_piper_enhancements.model_res_partner
+#, fuzzy
+msgid "Create a Customer"
+msgstr "Mijoz yaratish"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_order__delivery_datetime
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_prep_order__delivery_datetime
+#, fuzzy
+msgid "Delivery Datetime"
+msgstr "Yetkazib berish vaqti"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_prep_order__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_session__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_urbanpiper_test_order_wizard__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_product_template__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_product_template_attribute_value__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_res_partner__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__end_hour
+#, fuzzy
+msgid "Ending Hour"
+msgstr "Tugash soati"
+
+#. module: pos_urban_piper_enhancements
+#. odoo-javascript
+#: code:addons/pos_urban_piper_enhancements/static/src/point_of_sale_override/store/pos_store.js:0
+#, fuzzy
+msgid "Error to send delivery order in preparation display."
+msgstr ""
+"Tayyorgarlik ekranida yetkazib berish buyurtmasini yuborishda xatolik yuz "
+"berdi."
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,help:pos_urban_piper_enhancements.field_pos_order__is_notified
+#, fuzzy
+msgid "Flag indicating if the delivery notification has been sent."
+msgstr "Yetkazib berish haqida xabar yuborilganligini ko‘rsatuvchi belgi."
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields.selection,name:pos_urban_piper_enhancements.selection__pos_store_timing__weekday__friday
+#, fuzzy
+msgid "Friday"
+msgstr "Juma"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_prep_order__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_session__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_urbanpiper_test_order_wizard__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_product_template__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_product_template_attribute_value__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_res_config_settings__id
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_res_partner__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_order__is_notified
+#, fuzzy
+msgid "Is Notified"
+msgstr "Xabardor qilingan"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: pos_urban_piper_enhancements
+#: model_terms:ir.actions.act_window,help:pos_urban_piper_enhancements.action_pos_store_timing
+#, fuzzy
+msgid "Manage store timings for POS delivery order(s)."
+msgstr ""
+"POS yetkazib berish buyurtma(lar)i uchun do‘kon ish vaqtlarini boshqarish."
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_config__urbanpiper_minimum_preparation_time
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_res_config_settings__pos_urbanpiper_minimum_preparation_time
+#, fuzzy
+msgid "Minimum Preparation Time (Minutes)"
+msgstr "Minimal tayyorgarlik vaqti (daqiqalar)"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields.selection,name:pos_urban_piper_enhancements.selection__pos_store_timing__weekday__monday
+#, fuzzy
+msgid "Monday"
+msgstr "Dushanba"
+
+#. module: pos_urban_piper_enhancements
+#: model_terms:ir.ui.view,arch_db:pos_urban_piper_enhancements.view_pos_order_form_inherit_pos_urban_piper
+#, fuzzy
+msgid "Online Order ID"
+msgstr "Onlayn buyurtma raqami"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_pos_config
+#, fuzzy
+msgid "Point of Sale Configuration"
+msgstr "Sotuv nuqtasi sozlamalari"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_pos_order
+#, fuzzy
+msgid "Point of Sale Orders"
+msgstr "Sotuv nuqtasi buyurtmalari"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_pos_session
+#, fuzzy
+msgid "Point of Sale Session"
+msgstr "Sotuv nuqtasi seansi"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__config_ids
+#, fuzzy
+msgid "Point of Sale accociated to this timing"
+msgstr "Ushbu ish vaqtiga bog‘langan sotuv nuqtasi"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_pos_prep_order
+#, fuzzy
+msgid "Pos Preparation Order"
+msgstr "Sotuv nuqtasi tayyorgarlik buyurtmasi"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_pos_store_timing
+#, fuzzy
+msgid "Pos Store Timings"
+msgstr "Sotuv nuqtasi do‘kon ish vaqtlari"
+
+#. module: pos_urban_piper_enhancements
+#: model_terms:ir.ui.view,arch_db:pos_urban_piper_enhancements.res_config_settings_view_form_pos_urban_piper_enhancements
+#, fuzzy
+msgid "Preparation Time"
+msgstr "Tayyorlash vaqti"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_product_template
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_product_template_attribute_value
+#, fuzzy
+msgid "Product Template Attribute Value"
+msgstr "Mahsulot andozasi atributi qiymati"
+
+#. module: pos_urban_piper_enhancements
+#: model_terms:ir.ui.view,arch_db:pos_urban_piper_enhancements.report_invoice_document_pos_urban_piper_enhancements
+#, fuzzy
+msgid "Reference"
+msgstr "Havola"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields.selection,name:pos_urban_piper_enhancements.selection__pos_store_timing__weekday__saturday
+#, fuzzy
+msgid "Saturday"
+msgstr "Shanba"
+
+#. module: pos_urban_piper_enhancements
+#. odoo-javascript
+#: code:addons/pos_urban_piper_enhancements/static/src/pos_preparation_display_override/components/order/order.xml:0
+#, fuzzy
+msgid "Scheduled At:"
+msgstr "Rejalashtirilgan vaqt:"
+
+#. module: pos_urban_piper_enhancements
+#. odoo-javascript
+#: code:addons/pos_urban_piper_enhancements/static/src/point_of_sale_override/store/pos_store.js:0
+#, fuzzy
+msgid "Scheduled Order"
+msgstr "Rejalashtirilgan buyurtma"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,help:pos_urban_piper_enhancements.field_pos_order__delivery_datetime
+#, fuzzy
+msgid "Scheduled delivery datetime for the delivery order."
+msgstr ""
+"Yetkazib berish buyurtmasi uchun rejalashtirilgan yetkazib berish vaqti."
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__start_hour
+#, fuzzy
+msgid "Starting Hour"
+msgstr "Boshlanish soati"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.actions.act_window,name:pos_urban_piper_enhancements.action_pos_store_timing
+#: model:ir.ui.menu,name:pos_urban_piper_enhancements.menu_products_pos_store_timing
+#: model_terms:ir.ui.view,arch_db:pos_urban_piper_enhancements.view_pos_store_timing_list
+#, fuzzy
+msgid "Store Timings"
+msgstr "Do‘kon ish vaqtlari"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields.selection,name:pos_urban_piper_enhancements.selection__pos_store_timing__weekday__sunday
+#, fuzzy
+msgid "Sunday"
+msgstr "Yakshanba"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.constraint,message:pos_urban_piper_enhancements.constraint_pos_store_timing_check_start_and_end_hour
+#, fuzzy
+msgid "The end time must be later than the start time."
+msgstr "Tugash vaqti boshlanish vaqtidan keyinroq bo‘lishi kerak."
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,help:pos_urban_piper_enhancements.field_pos_config__urbanpiper_minimum_preparation_time
+#: model:ir.model.fields,help:pos_urban_piper_enhancements.field_res_config_settings__pos_urbanpiper_minimum_preparation_time
+#, fuzzy
+msgid ""
+"The minimum amount of time the customer must wait for the order to be "
+"prepared."
+msgstr "Mijoz buyurtma tayyor bo‘lishini kutishi kerak bo‘lgan eng kam vaqt."
+
+#. module: pos_urban_piper_enhancements
+#. odoo-javascript
+#: code:addons/pos_urban_piper_enhancements/static/src/point_of_sale_override/screens/ticket_screen/ticket_screen.xml:0
+#, fuzzy
+msgid "This order is scheduled order."
+msgstr "Bu buyurtma rejalashtirilgan buyurtma."
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields.selection,name:pos_urban_piper_enhancements.selection__pos_store_timing__weekday__thursday
+#, fuzzy
+msgid "Thursday"
+msgstr "Payshanba"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields.selection,name:pos_urban_piper_enhancements.selection__pos_store_timing__weekday__tuesday
+#, fuzzy
+msgid "Tuesday"
+msgstr "Seshanba"
+
+#. module: pos_urban_piper_enhancements
+#: model_terms:ir.ui.view,arch_db:pos_urban_piper_enhancements.view_pos_order_form_inherit_pos_urban_piper
+#, fuzzy
+msgid "Urban Piper"
+msgstr "Urban Piper"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.ui.menu,name:pos_urban_piper_enhancements.pos_menu_urban_piper_configuration
+#, fuzzy
+msgid "UrbanPiper"
+msgstr "UrbanPiper"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.actions.server,name:pos_urban_piper_enhancements.cron_check_future_delivery_orders_ir_actions_server
+#, fuzzy
+msgid "UrbanPiper: Notify future delivery orders"
+msgstr ""
+"UrbanPiper: Kelajakdagi yetkazib berish buyurtmalari haqida xabar berish"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model,name:pos_urban_piper_enhancements.model_pos_urbanpiper_test_order_wizard
+msgid "Urbanpiper test order wizard"
+msgstr ""
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields.selection,name:pos_urban_piper_enhancements.selection__pos_store_timing__weekday__wednesday
+#, fuzzy
+msgid "Wednesday"
+msgstr "Chorshanba"
+
+#. module: pos_urban_piper_enhancements
+#: model:ir.model.fields,field_description:pos_urban_piper_enhancements.field_pos_store_timing__weekday
+#, fuzzy
+msgid "Week Day"
+msgstr "Hafta kuni"
+
+#. module: pos_urban_piper_enhancements
+#: model_terms:ir.ui.view,arch_db:pos_urban_piper_enhancements.res_config_settings_view_form_pos_urban_piper_enhancements
+#, fuzzy
+msgid "minutes"
+msgstr "daqiqa"

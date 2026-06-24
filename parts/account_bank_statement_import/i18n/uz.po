@@ -1,0 +1,270 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_import
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "%d transactions had already been imported and were ignored."
+msgstr "%d ta tranzaksiya allaqachon import qilingan va e'tiborga olinmagan."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "1 transaction had already been imported and was ignored."
+msgstr "1 ta tranzaksiya allaqachon import qilingan va e'tiborga olinmagan."
+
+#. module: account_bank_statement_import
+#: model:ir.model.constraint,message:account_bank_statement_import.constraint_account_bank_statement_line_unique_import_id
+#, fuzzy
+msgid "A bank account transactions can be imported only once!"
+msgstr "Bank hisobi tranzaksiyalari faqat bir marta import qilinishi mumkin!"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "All or part of the following file(s) could not be imported:\n"
+msgstr "Quyidagi fayl(lar)ning barchasi yoki bir qismi import qilinmadi:"
+
+#. module: account_bank_statement_import
+#: model:ir.model,name:account_bank_statement_import.model_account_bank_statement_line
+#, fuzzy
+msgid "Bank Statement Line"
+msgstr "Bank ko‘chirmasi satri"
+
+#. module: account_bank_statement_import
+#: model:ir.model,name:account_bank_statement_import.model_account_setup_bank_manual_config
+#, fuzzy
+msgid "Bank setup manual config"
+msgstr "Bank sozlamalarini qo‘lda sozlash"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid ""
+"Cannot find in which journal to import the statement for account %s. Please "
+"configure the journal first."
+msgstr ""
+"%s hisobi uchun ko‘chirmani qaysi jurnalga import qilish kerakligi "
+"aniqlanmadi. Iltimos, avval jurnalni sozlang."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid ""
+"Cannot find in which journal to import this statement. Please manually "
+"select a journal."
+msgstr ""
+"Ushbu ko‘chirmani qaysi jurnalga import qilish kerakligi aniqlanmadi. "
+"Iltimos, jurnalni qo‘lda tanlang."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_bank_statement.py:0
+#, fuzzy
+msgid "Click \"New\" or upload a %s."
+msgstr "\"Yangi\" tugmasini bosing yoki %s ni yuklang."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid ""
+"Could not make sense of the given file.\n"
+"Did you install the module to support this type of file?"
+msgstr ""
+"Berilgan faylni tushunib bo‘lmadi. Ushbu turdagi faylni qo‘llab-quvvatlash "
+"uchun modul o‘rnatilganmi?"
+
+#. module: account_bank_statement_import
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_journal__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_setup_bank_manual_config__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "Go to Apps"
+msgstr "Ilovalar bo‘limiga o‘tish"
+
+#. module: account_bank_statement_import
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_journal__id
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_setup_bank_manual_config__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
+#, fuzzy
+msgid "Import File"
+msgstr "Faylni import qilish"
+
+#. module: account_bank_statement_import
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_line__unique_import_id
+#, fuzzy
+msgid "Import ID"
+msgstr "Import identifikatori"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_bank_statement.py:0
+#, fuzzy
+msgid "Import Template for Bank Statement Lines"
+msgstr "Bank ko‘chirmasi satrlari uchun import andozasi"
+
+#. module: account_bank_statement_import
+#. odoo-javascript
+#: code:addons/account_bank_statement_import/static/src/account_bank_statement_import_model.js:0
+#, fuzzy
+msgid "Import Template for Bank Statements"
+msgstr "Bank ko‘chirmalari uchun import andozasi"
+
+#. module: account_bank_statement_import
+#: model:ir.model,name:account_bank_statement_import.model_account_journal
+#, fuzzy
+msgid "Journal"
+msgstr "Jurnal"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "Manual (or import %(import_formats)s)"
+msgstr "Qo‘lda (yoki %(import_formats)s import qilish)"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "No attachment was provided"
+msgstr "Hech qanday ilova taqdim etilmagan"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "No currency found matching '%s'."
+msgstr "'%s'ga mos keladigan valyuta topilmadi."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_bank_statement.py:0
+#, fuzzy
+msgid "No transactions matching your filters were found."
+msgstr "Filtrlaringizga mos keladigan tranzaksiyalar topilmadi."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_bank_statement.py:0
+#, fuzzy
+msgid "Nothing to do here!"
+msgstr "Bu yerda qiladigan hech narsa yo‘q!"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid ""
+"The account of this statement (%(account)s) is not the same as the journal (%"
+"(journal)s)."
+msgstr ""
+"Ushbu ko‘chirmaning hisobi (%(account)s) jurnal (%(journal)s) bilan bir xil "
+"emas."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid ""
+"The currency of the bank statement (%(code)s) is not the same as the "
+"currency of the journal (%(journal)s)."
+msgstr ""
+"Bank ko‘chirmasining valyutasi (%(code)s) jurnalning valyutasi (%(journal)s) "
+"bilan bir xil emas."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid ""
+"This file doesn't contain any statement for account %s.\n"
+"If it contains transactions for more than one account, it must be imported "
+"on each of them."
+msgstr ""
+"Bu faylda %s hisobi uchun hech qanday ko‘chirma mavjud emas. Agar unda "
+"bittadan ortiq hisob bo‘yicha operatsiyalar mavjud bo‘lsa, u har bir hisob "
+"uchun alohida import qilinishi kerak."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid ""
+"This file doesn't contain any transaction for account %s.\n"
+"If it contains transactions for more than one account, it must be imported "
+"on each of them."
+msgstr ""
+"Bu faylda %s hisobi uchun hech qanday tranzaksiya mavjud emas. Agar unda "
+"bittadan ortiq hisob bo‘yicha operatsiyalar mavjud bo‘lsa, u har bir hisob "
+"uchun alohida import qilinishi kerak."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "View successfully imported statements"
+msgstr "Muvaffaqiyatli import qilingan ko‘chirmalarni ko‘rish"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "You already have imported that file."
+msgstr "Siz bu faylni allaqachon import qilgansiz."
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "You have to set a Default Account for the journal: %s"
+msgstr "%s jurnali uchun standart hisobni belgilashingiz kerak"
+
+#. module: account_bank_statement_import
+#. odoo-python
+#: code:addons/account_bank_statement_import/models/account_journal.py:0
+#, fuzzy
+msgid "You uploaded an invalid or empty file."
+msgstr "Siz noto‘g‘ri yoki bo‘sh fayl yukladingiz."

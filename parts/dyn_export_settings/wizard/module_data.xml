@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="module_data_form" model="ir.ui.view">
+        <field name="name">module.data.form</field>
+        <field name="model">xx.module.data</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="module_name" />
+                        <field name="model" />
+                        <field name="data_filename" />
+                        <field
+                            name="settings_tech_diff"
+                            widget="ace"
+                            options="{'mode': 'xml'}"
+                            invisible="not settings_tech_diff"
+                        />
+                        <field
+                            name="settings_tech"
+                            widget="ace"
+                            options="{'mode': 'xml'}"
+                        />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="module_data_tree" model="ir.ui.view">
+        <field name="name">module.data.list</field>
+        <field name="model">xx.module.data</field>
+        <field name="arch" type="xml">
+            <list default_order="module_name, model">
+                <field name="module_name" />
+                <field name="module_id" />
+                <field name="model" />
+                <field name="data_filename" />
+                <field name="has_diff" />
+            </list>
+        </field>
+    </record>
+</odoo>

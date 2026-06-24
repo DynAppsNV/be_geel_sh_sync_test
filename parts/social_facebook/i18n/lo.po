@@ -1,0 +1,416 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * social_facebook
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:47+0000\n"
+"PO-Revision-Date: 2026-06-08 08:25+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"social_facebook/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.facebook_preview
+msgid "<b class=\"d-block mb-2\">Facebook Page</b>"
+msgstr "<b class=\"d-block mb-2\">ເພຈ Facebook</b>"
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
+msgid "<i class=\"fa fa-comments me-1\" title=\"Comments\"/>"
+msgstr "<i class=\"fa fa-comments me-1\" title=\"ຄຳຄິດເຫັນ\"/>"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_live_post__facebook_post_id
+msgid "Actual Facebook ID of the post"
+msgstr "ID Facebook ຕົວຈິງຂອງໂພສ"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/models/social_stream_post.py:0
+msgid "An error occurred."
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນ."
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.res_config_settings_view_form
+msgid "App ID"
+msgstr "ID ແອັບ"
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.res_config_settings_view_form
+msgid "App Secret"
+msgstr "ລະຫັດລັບແອັບ"
+
+#. module: social_facebook
+#. odoo-javascript
+#: code:addons/social_facebook/static/src/xml/social_facebook_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
+msgid "Author Image"
+msgstr "ຮູບພາບຜູ້ຂຽນ"
+
+#. module: social_facebook
+#: model:ir.model.fields,help:social_facebook.field_res_config_settings__facebook_use_own_account
+msgid ""
+"Check this if you want to use your personal Facebook Developer Account "
+"instead of the provided one."
+msgstr ""
+"ໝາຍເອົາບ່ອນນີ້ ຖ້າທ່ານຕ້ອງການໃຊ້ບັນຊີຜູ້ພັດທະນາ Facebook ສ່ວນຕົວຂອງທ່ານ ແທນທີ່ບັນຊີທີ່ໃຫ້ມາ."
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_comments_count
+msgid "Comments"
+msgstr "ຄຳຄິດເຫັນ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າກຳນົດຄ່າ"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_post__display_facebook_preview
+#: model:ir.model.fields,field_description:social_facebook.field_social_post_template__display_facebook_preview
+msgid "Display Facebook Preview"
+msgstr "ສະແດງຕົວຢ່າງ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:social_facebook.field_social_account__display_name
+#: model:ir.model.fields,field_description:social_facebook.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:social_facebook.field_social_media__display_name
+#: model:ir.model.fields,field_description:social_facebook.field_social_post__display_name
+#: model:ir.model.fields,field_description:social_facebook.field_social_post_template__display_name
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream__display_name
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: social_facebook
+#: model:ir.model.fields.selection,name:social_facebook.selection__social_media__media_type__facebook
+#: model:social.media,name:social_facebook.social_media_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_post_template_view_form
+msgid "Facebook"
+msgstr "Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_account__facebook_access_token
+msgid "Facebook Access Token"
+msgstr "ໂທເຄັນການເຂົ້າເຖິງ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_account__facebook_account_id
+msgid "Facebook Account ID"
+msgstr "ID ບັນຊີ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_res_config_settings__facebook_app_id
+msgid "Facebook App ID"
+msgstr "ID ແອັບ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_res_config_settings__facebook_client_secret
+msgid "Facebook App Secret"
+msgstr "ລະຫັດລັບແອັບ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_author_id
+msgid "Facebook Author ID"
+msgstr "ID ຜູ້ຂຽນ Facebook"
+
+#. module: social_facebook
+#. odoo-javascript
+#: code:addons/social_facebook/static/src/js/stream_post_kanban_record.js:0
+msgid "Facebook Comments"
+msgstr "ຄຳຄິດເຫັນ Facebook"
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.res_config_settings_view_form
+msgid "Facebook Developer Account"
+msgstr "ບັນຊີຜູ້ພັດທະນາ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_post__facebook_image_ids
+#: model:ir.model.fields,field_description:social_facebook.field_social_post_template__facebook_image_ids
+msgid "Facebook Images"
+msgstr "ຮູບພາບ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_post__facebook_message
+#: model:ir.model.fields,field_description:social_facebook.field_social_post_template__facebook_message
+msgid "Facebook Message"
+msgstr "ຂໍ້ຄວາມ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,help:social_facebook.field_social_account__facebook_access_token
+msgid ""
+"Facebook Page Access Token provided by the Facebook API, this should never be set manually.\n"
+"            It's used to authenticate requests when posting to or reading information from this account."
+msgstr ""
+"ໂທເຄັນການເຂົ້າເຖິງເພຈ Facebook ທີ່ໃຫ້ໂດຍ Facebook API, ສ່ວນນີ້ບໍ່ຄວນຕັ້ງຄ່າດ້ວຍຕົນເອງ.\n"
+"            ມັນຖືກໃຊ້ເພື່ອຢືນຢັນຕົວຕົນໃນການຮ້ອງຂໍເມື່ອມີການໂພສ ຫຼື ອ່ານຂໍ້ມູນຈາກບັນຊີນີ້."
+
+#. module: social_facebook
+#: model:ir.model.fields,help:social_facebook.field_social_account__facebook_account_id
+msgid ""
+"Facebook Page ID provided by the Facebook API, this should never be set "
+"manually."
+msgstr "ID ເພຈ Facebook ທີ່ໃຫ້ໂດຍ Facebook API, ສ່ວນນີ້ບໍ່ຄວນຕັ້ງຄ່າດ້ວຍຕົນເອງ."
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_post_id
+msgid "Facebook Post ID"
+msgstr "ID ໂພສ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_post__facebook_preview
+#: model:ir.model.fields,field_description:social_facebook.field_social_post_template__facebook_preview
+msgid "Facebook Preview"
+msgstr "ຕົວຢ່າງ Facebook"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/controllers/main.py:0
+msgid "Facebook did not provide a valid access token or it may have expired."
+msgstr "Facebook ບໍ່ໄດ້ໃຫ້ໂທເຄັນການເຂົ້າເຖິງທີ່ຖືກຕ້ອງ ຫຼື ມັນອາດຈະໝົດອາຍຸແລ້ວ."
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/controllers/main.py:0
+msgid "Facebook did not provide a valid access token."
+msgstr "Facebook ບໍ່ໄດ້ໃຫ້ໂທເຄັນການເຂົ້າເຖິງທີ່ຖືກຕ້ອງ."
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_post__has_facebook_account
+#: model:ir.model.fields,field_description:social_facebook.field_social_post_template__has_facebook_account
+msgid "Has Facebook Account"
+msgstr "ມີບັນຊີ Facebook"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_res_config_settings__id
+#: model:ir.model.fields,field_description:social_facebook.field_social_account__id
+#: model:ir.model.fields,field_description:social_facebook.field_social_live_post__id
+#: model:ir.model.fields,field_description:social_facebook.field_social_media__id
+#: model:ir.model.fields,field_description:social_facebook.field_social_post__id
+#: model:ir.model.fields,field_description:social_facebook.field_social_post_template__id
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream__id
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__id
+msgid "ID"
+msgstr "ID"
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_post_template_view_form
+msgid "Images"
+msgstr "ຮູບພາບ"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_is_event_post
+msgid "Is event post"
+msgstr "ແມ່ນໂພສກິດຈະກຳ"
+
+#. module: social_facebook
+#. odoo-javascript
+#: code:addons/social_facebook/static/src/xml/social_facebook_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
+msgid "Like"
+msgstr "ຖືກໃຈ"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_likes_count
+msgid "Likes"
+msgstr "ຖືກໃຈ"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_media__media_type
+msgid "Media Type"
+msgstr "ປະເພດສື່"
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_post_template_view_form
+msgid "Message"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/models/social_media.py:0
+msgid ""
+"Oops! You currently don't have an active subscription. No worries, though! You can easily get one here: %s.\n"
+"Grab a subscription and unlock a world of amazing features!"
+msgstr ""
+"ອຸ້ຍ! ປັດຈຸບັນທ່ານຍັງບໍ່ມີການສະໝັກສະມາຊິກທີ່ໃຊ້ງານຢູ່. ແຕ່ບໍ່ຕ້ອງກັງວົນ! ທ່ານສາມາດສະໝັກໄດ້ງ່າຍໆທີ່ນີ້: %s.\n"
+"ສະໝັກສະມາຊິກເພື່ອເປີດໃຊ້ງານຟີເຈີທີ່ໜ້າສົນໃຈ!"
+
+#. module: social_facebook
+#: model:social.stream.type,name:social_facebook.stream_type_page_mentions
+msgid "Page Mentions"
+msgstr "ການກ່າວເຖິງເພຈ"
+
+#. module: social_facebook
+#: model:social.stream.type,name:social_facebook.stream_type_page_posts
+msgid "Page Posts"
+msgstr "ໂພສຂອງເພຈ"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/models/social_post_template.py:0
+msgid ""
+"Please specify either a Facebook Message or upload some Facebook Images."
+msgstr "ກະລຸນາລະບຸຂໍ້ຄວາມ Facebook ຫຼື ອັບໂຫຼດຮູບພາບ Facebook."
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.facebook_preview
+msgid "Post Image"
+msgstr "ຮູບພາບໂພສ"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/models/social_stream_post.py:0
+msgid ""
+"Post not found. It could be because the post has been deleted on the Social "
+"Platform."
+msgstr "ບໍ່ພົບໂພສ. ອາດເປັນຍ້ອນວ່າໂພສຖືກລຶບອອກຈາກແພລັດຟອມໂຊຊຽວແລ້ວ."
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.facebook_preview
+msgid "Published by Facebook Page •"
+msgstr "ເຜີຍແຜ່ໂດຍເພຈ Facebook •"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_reach
+msgid "Reach"
+msgstr "ການເຂົ້າເຖິງ"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_reactions_count
+msgid "Reactions Count"
+msgstr "ຈຳນວນການຕອບໂຕ້"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/controllers/main.py:0
+msgid "Read More about Facebook Pages"
+msgstr "ອ່ານເພີ່ມເຕີມກ່ຽວກັບເພຈ Facebook"
+
+#. module: social_facebook
+#. odoo-javascript
+#: code:addons/social_facebook/static/src/xml/social_facebook_templates.xml:0
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_shares_count
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
+msgid "Shares"
+msgstr "ແບ່ງປັນ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_social_account
+msgid "Social Account"
+msgstr "ບັນຊີໂຊຊຽວ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_social_live_post
+msgid "Social Live Post"
+msgstr "ໂພສໂຊຊຽວແບບສົດ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_social_media
+msgid "Social Media"
+msgstr "ສື່ສັງຄົມອອນລາຍ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_social_post
+msgid "Social Post"
+msgstr "ໂພສໂຊຊຽວ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_social_post_template
+msgid "Social Post Template"
+msgstr "ແມ່ແບບໂພສໂຊຊຽວ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_social_stream
+msgid "Social Stream"
+msgstr "ສະຕຣີມໂຊຊຽວ"
+
+#. module: social_facebook
+#: model:ir.model,name:social_facebook.model_social_stream_post
+msgid "Social Stream Post"
+msgstr "ໂພສສະຕຣີມໂຊຊຽວ"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/controllers/main.py:0
+msgid "Unauthorized. Please contact your administrator. "
+msgstr "ບໍ່ໄດ້ຮັບອະນຸຍາດ. ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ. "
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/models/social_stream_post.py:0
+msgid "Unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_res_config_settings__facebook_use_own_account
+msgid "Use your own Facebook Account"
+msgstr "ໃຊ້ບັນຊີ Facebook ຂອງທ່ານເອງ"
+
+#. module: social_facebook
+#: model:ir.model.fields,help:social_facebook.field_social_media__media_type
+msgid ""
+"Used to make comparisons when we need to restrict some features to a "
+"specific media ('facebook', 'x', ...)."
+msgstr ""
+"ໃຊ້ເພື່ອປຽບທຽບເມື່ອພວກເຮົາຕ້ອງການຈຳກັດບາງຟີເຈີໃຫ້ກັບສື່ສະເພາະ ('facebook', 'x', ...)."
+
+#. module: social_facebook
+#: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_user_likes
+msgid "User Likes"
+msgstr "ຜູ້ໃຊ້ທີ່ຖືກໃຈ"
+
+#. module: social_facebook
+#. odoo-javascript
+#: code:addons/social_facebook/static/src/xml/social_facebook_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
+msgid "Views"
+msgstr "ການເຂົ້າເບິ່ງ"
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/models/social_live_post.py:0
+#: code:addons/social_facebook/models/social_post.py:0
+msgid ""
+"We could not upload your image, try reducing its size and posting it again "
+"(error: %s)."
+msgstr ""
+"ພວກເຮົາບໍ່ສາມາດອັບໂຫຼດຮູບພາບຂອງທ່ານໄດ້, ກະລຸນາລອງຫຼຸດຂະໜາດຮູບພາບ ແລະ ໂພສໃໝ່ອີກຄັ້ງ (ຂໍ້ຜິດພາດ: "
+"%s)."
+
+#. module: social_facebook
+#: model:ir.model.fields,help:social_facebook.field_social_post__facebook_image_ids
+#: model:ir.model.fields,help:social_facebook.field_social_post_template__facebook_image_ids
+msgid "Will attach images to your posts."
+msgstr "ຈະແນບຮູບພາບໃສ່ໃນໂພສຂອງທ່ານ."
+
+#. module: social_facebook
+#. odoo-python
+#: code:addons/social_facebook/controllers/main.py:0
+msgid ""
+"You need to be the manager of a Facebook Page to post with Odoo Social.\n"
+" Please create one and make sure it is linked to your account."
+msgstr ""
+"ທ່ານຈຳເປັນຕ້ອງເປັນຜູ້ຈັດການເພຈ Facebook ເພື່ອໂພສດ້ວຍ Odoo Social.\n"
+" ກະລຸນາສ້າງເພຈ ແລະ ກວດສອບໃຫ້ແນ່ໃຈວ່າມັນໄດ້ເຊື່ອມຕໍ່ກັບບັນຊີຂອງທ່ານແລ້ວ."
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
+msgid "added an event"
+msgstr "ເພີ່ມກິດຈະກຳ"
+
+#. module: social_facebook
+#: model_terms:ir.ui.view,arch_db:social_facebook.facebook_preview
+msgid "• <i class=\"fa fa-globe\"/>"
+msgstr "• <i class=\"fa fa-globe\"/>"

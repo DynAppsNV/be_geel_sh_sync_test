@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_account_payment_register_form_inherit" model="ir.ui.view">
+        <field name="name">account.payment.register.form.inherit</field>
+        <field name="model">account.payment.register</field>
+        <field name="inherit_id" ref="account.view_account_payment_register_form" />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//div[@invisible='not hide_writeoff_section' and hasclass('alert-info')]"
+                position="after"
+            >
+                <button
+                    type="object"
+                    role="alert"
+                    name="force_apply_writeoff"
+                    class="alert alert-danger"
+                    invisible="not has_early_discount"
+                >
+                    <p class="m-0">
+                        <b
+                        >Early Payment Discount has expired. Click to apply selected overrides.</b>
+                    </p>
+                </button>
+            </xpath>
+            <xpath
+                expr="//div[@invisible='not hide_writeoff_section' and hasclass('alert-info')]"
+                position="before"
+            >
+                <div style="max-height:500px;overflow-y:auto;">
+                    <field name="bill_line_ids">
+                        <list
+                            string="Bills"
+                            editable="bottom"
+                            create="false"
+                            delete="false"
+                        >
+                            <field
+                                name="early_discount"
+                                force_save="1"
+                                readonly="discount_status != 'expired'"
+                            />
+                            <field
+                                name="discount_status"
+                                readonly="1"
+                                force_save="1"
+                                widget="badge"
+                                decoration-danger="discount_status == 'expired'"
+                                decoration-warning="discount_status == 'applied'"
+                                decoration-success="discount_status == 'active'"
+                                options="{'colors': {'expired': 'danger', 'active': 'success', 'applied': 'warning'}}"
+                            />
+                            <field name="discount_date" force_save="1" />
+                            <field name="move_id" force_save="1" />
+                            <field name="date_maturity" force_save="1" />
+                            <field name="amount_residual" force_save="1" />
+                            <field name="currency_id" force_save="1" />
+                        </list>
+                    </field>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

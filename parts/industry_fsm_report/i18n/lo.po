@@ -1,0 +1,481 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * industry_fsm_report
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-20 18:44+0000\n"
+"PO-Revision-Date: 2026-06-08 08:26+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"industry_fsm_report/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "<b>Click to edit."
+msgstr "<b>ຄລິກເພື່ອແກ້ໄຂ."
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "<b>Review and sign</b> the <b>task report</b> with your customer."
+msgstr "<b>ກວດສອບ ແລະ ເຊັນ</b> <b>ບົດລາຍງານໜ້າວຽກ</b> ກັບລູກຄ້າຂອງທ່ານ."
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "<b>Send your task report</b> to your customer."
+msgstr "<b>ສົ່ງບົດລາຍງານໜ້າວຽກຂອງທ່ານ</b> ໃຫ້ລູກຄ້າຂອງທ່ານ."
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_project_kanban_inherit_industry_fsm_report
+msgid ""
+"<span class=\"fa fa-pencil me-1\" aria-label=\"Worksheet Template\" "
+"title=\"Worksheet Template\"/>"
+msgstr ""
+"<span class=\"fa fa-pencil me-1\" aria-label=\"ແບບຟອມແຜ່ນວຽກ\" title=\"ແບບຟອມແ"
+"ຜ່ນວຽກ\"/>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_worksheet_template_kanban
+msgid "<span class=\"o_label ms-2\">Worksheets</span>"
+msgstr "<span class=\"o_label ms-2\">ແຜ່ນວຽກ</span>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
+msgid "<span class=\"o_stat_text\">Worksheet</span>"
+msgstr "<span class=\"o_stat_text\">ແຜ່ນວຽກ</span>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
+msgid ""
+"<span class=\"o_stat_text\">Worksheet</span>\n"
+"                            <span class=\"o_stat_text\">Complete</span>"
+msgstr ""
+"<span class=\"o_stat_text\">ແຜ່ນວຽກ</span>\n"
+"                            <span class=\"o_stat_text\">ສຳເລັດ</span>"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.x_project_task_worksheet_template_3_ir_ui_view_1
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.x_project_task_worksheet_template_4_ir_ui_view_1
+msgid "Add details about your intervention..."
+msgstr "ເພີ່ມລາຍລະອຽດກ່ຽວກັບການປະຕິບັດງານຂອງທ່ານ..."
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_task_burndown_chart_report
+msgid "Burndown Chart"
+msgstr "ແຜນພູມ Burndown"
+
+#. module: industry_fsm_report
+#: model:ir.ui.menu,name:industry_fsm_report.project_task_menu_planning_by_project_fsm
+msgid "By Worksheet Template"
+msgstr "ຕາມແບບຟອມແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_7
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_7
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
+msgid "Comments"
+msgstr "ຄຳເຫັນ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "ຮູບແບບເອກະສານຂອງບໍລິສັດ"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_project_form_inherit_industry_fsm_report
+msgid "Complete custom worksheets for your interventions"
+msgstr "ຕື່ມຂໍ້ມູນໃສ່ແຜ່ນວຽກທີ່ກຳນົດເອງສຳລັບການປະຕິບັດງານຂອງທ່ານ"
+
+#. module: industry_fsm_report
+#: model:ir.model,website_form_label:industry_fsm_report.model_project_task
+msgid "Create a Task"
+msgstr "ສ້າງໜ້າວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,help:industry_fsm_report.field_project_task__worksheet_template_id
+msgid ""
+"Create templates for each type of intervention you have and customize their "
+"content with your own custom fields."
+msgstr ""
+"ສ້າງແບບຟອມສຳລັບການປະຕິບັດງານແຕ່ລະປະເພດທີ່ທ່ານມີ ແລະ ປັບແຕ່ງເນື້ອຫາດ້ວຍຟິວທີ່ກຳນົດເອງ."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template_load_wizard__create_uid
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_2
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_2
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template_load_wizard__create_date
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_1
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_1
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.x_project_task_worksheet_template_3_ir_ui_view_3
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.x_project_task_worksheet_template_4_ir_ui_view_3
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "Customize your <b>layout</b>."
+msgstr "ປັບແຕ່ງ <b>ຮູບແບບ</b> ຂອງທ່ານ."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field6
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_1
+msgid "Default Worksheet"
+msgstr "ແຜ່ນວຽກເລີ່ມຕົ້ນ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field2
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
+msgid "Description of the Intervention"
+msgstr "ລາຍລະອຽດຂອງການປະຕິບັດງານ"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.res_config_settings_view_form
+msgid "Design worksheet templates"
+msgstr "ອອກແບບແບບຟອມແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_1
+msgid "Device Installation and Maintenance"
+msgstr "ການຕິດຕັ້ງ ແລະ ບຳລຸງຮັກສາອຸປະກອນ"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_template_view_form_footer_design_button
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_ir_model__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_burndown_chart_report__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_recurrence__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_industry_fsm_worksheet_custom__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_project_task_user__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template_load_wizard__display_name
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_3
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_3
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: industry_fsm_report
+#. odoo-python
+#: code:addons/industry_fsm_report/models/project_task.py:0
+msgid "Explore Worksheets Using an Example Template"
+msgstr "ສຳຫຼວດແຜ່ນວຽກໂດຍໃຊ້ແບບຟອມຕົວຢ່າງ"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "Fill in your <b>worksheet</b> with the details of your intervention."
+msgstr "ຕື່ມຂໍ້ມູນໃສ່ <b>ແຜ່ນວຽກ</b> ຂອງທ່ານດ້ວຍລາຍລະອຽດຂອງການປະຕິບັດງານ."
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_worksheet_template_load_form
+msgid ""
+"Give it a try using one of our example templates. You can remove them at any"
+" time."
+msgstr ""
+"ລອງໃຊ້ງານເບິ່ງໂດຍການໃຊ້ແບບຟອມຕົວຢ່າງຂອງພວກເຮົາ. ທ່ານສາມາດລຶບພວກມັນອອກໄດ້ທຸກເວລາ."
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "Go back to your Field Service <b>task</b>."
+msgstr "ກັບໄປທີ່ <b>ໜ້າວຽກ</b> ການບໍລິການພາກສະໜາມຂອງທ່ານ."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field4
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
+msgid ""
+"I hereby certify that this device meets the requirements of an acceptable "
+"device at the time of testing."
+msgstr ""
+"ຂ້າພະເຈົ້າຂໍຢັ້ງຢືນວ່າ ອຸປະກອນນີ້ແມ່ນຖືກຕ້ອງຕາມຂໍ້ກຳນົດຂອງອຸປະກອນທີ່ຍອມຮັບໄດ້ ໃນເວລາກວດສອບ."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_base_document_layout__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_ir_model__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_burndown_chart_report__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_recurrence__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_industry_fsm_worksheet_custom__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_project_task_user__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template__id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template_load_wizard__id
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_4
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_4
+msgid "ID"
+msgstr "ລະຫັດ (ID)"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field1
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
+msgid "Intervention Type"
+msgstr "ປະເພດການປະຕິບັດງານ"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "Invite your customer to <b>validate and sign your task report</b>."
+msgstr "ເຊີນລູກຄ້າຂອງທ່ານ <b>ກວດສອບ ແລະ ເຊັນບົດລາຍງານໜ້າວຽກຂອງທ່ານ</b>."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template_load_wizard__write_uid
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_6
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_6
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template_load_wizard__write_date
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_5
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_5
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_worksheet_template_load_form
+msgid "Load Template"
+msgstr "ໂຫຼດແບບຟອມ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_worksheet_template_load_wizard
+msgid "Load the worksheet template"
+msgstr "ໂຫຼດແບບຟອມແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field3
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
+msgid "Manufacturer"
+msgstr "ຜູ້ຜະລິດ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_ir_model
+msgid "Models"
+msgstr "ໂມເດວ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_field_x_name
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_field_x_name
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: industry_fsm_report
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet2
+msgid "No tasks found. Let's create one!"
+msgstr "ບໍ່ພົບໜ້າວຽກ. ມາສ້າງໃໝ່ກັນເລີຍ!"
+
+#. module: industry_fsm_report
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
+msgid "No worksheet templates found. Let's create one!"
+msgstr "ບໍ່ພົບແບບຟອມແຜ່ນວຽກ. ມາສ້າງໃໝ່ກັນເລີຍ!"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid ""
+"Open your <b>worksheet</b> in order to fill it in with the details of your "
+"intervention."
+msgstr "ເປີດ <b>ແຜ່ນວຽກ</b> ຂອງທ່ານ ເພື່ອຕື່ມລາຍລະອຽດຂອງການປະຕິບັດງານ."
+
+#. module: industry_fsm_report
+#: model:ir.actions.act_window,name:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
+#: model:ir.actions.act_window,name:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet2
+msgid "Planning by Worksheet Template"
+msgstr "ການວາງແຜນຕາມແບບຟອມແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.actions.server,name:industry_fsm_report.project_task_fsm_planning_groupby_worksheet_server_action
+msgid "Planning by Worksheet Template Server Action"
+msgstr "ການວາງແຜນຕາມການປະຕິບັດງານຂອງເຊີບເວີແບບຟອມແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_project
+msgid "Project"
+msgstr "ໂຄງການ"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_template_view_form_footer_design_button
+msgid "Save & Close"
+msgstr "ບັນທຶກ ແລະ ປິດ"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "Save time by automatically generating a <b>signature</b>."
+msgstr "ປະຢັດເວລາດ້ວຍການສ້າງ <b>ລາຍເຊັນ</b> ແບບອັດຕະໂນມັດ."
+
+#. module: industry_fsm_report
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet2
+msgid "Schedule your tasks and assign them to your technicians."
+msgstr "ກຳນົດເວລາໜ້າວຽກຂອງທ່ານ ແລະ ມອບໝາຍໃຫ້ຊ່າງເຕັກນິກຂອງທ່ານ."
+
+#. module: industry_fsm_report
+#: model:ir.actions.server,name:industry_fsm_report.action_fsm_task_send_report
+msgid "Send Report"
+msgstr "ສົ່ງບົດລາຍງານ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field5
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
+msgid "Serial Number"
+msgstr "ເລກລຳດັບ (Serial Number)"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_worksheet_template_load_form
+msgid "Start Blank"
+msgstr "ເລີ່ມຈາກແຜ່ນວ່າງ"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_worksheet_template_load_form
+msgid ""
+"Tailor worksheet templates to your specific needs. Easily share worksheet "
+"content with customers and request their signatures to validate the "
+"completed work."
+msgstr ""
+"ປັບແຕ່ງແບບຟອມແຜ່ນວຽກໃຫ້ເໝາະສົມກັບຄວາມຕ້ອງການສະເພາະຂອງທ່ານ. ແບ່ງປັນເນື້ອຫາແຜ່ນວຽກໃຫ້ລູກຄ້າໄດ້ຢ່າ"
+"ງງ່າຍດາຍ ແລະ ຮ້ອງຂໍລາຍເຊັນຂອງພວກເຂົາເພື່ອຢືນຢັນວຽກທີ່ສຳເລັດແລ້ວ."
+
+#. module: industry_fsm_report
+#: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
+msgid ""
+"Tailor worksheet templates to your specific needs. Easily share worksheet "
+"content with customers and request their signatures to validate the "
+"completed work.<br>"
+msgstr ""
+"ປັບແຕ່ງແບບຟອມແຜ່ນວຽກໃຫ້ເໝາະສົມກັບຄວາມຕ້ອງການສະເພາະຂອງທ່ານ. ແບ່ງປັນເນື້ອຫາແຜ່ນວຽກໃຫ້ລູກຄ້າໄດ້ຢ່າ"
+"ງງ່າຍດາຍ ແລະ ຮ້ອງຂໍລາຍເຊັນຂອງພວກເຂົາເພື່ອຢືນຢັນວຽກທີ່ສຳເລັດແລ້ວ.<br>"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_task
+#: model:ir.model.fields,field_description:industry_fsm_report.field_worksheet_template_load_wizard__task_id
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_3_ir_model_fields_9
+#: model:ir.model.fields,field_description:industry_fsm_report.x_project_task_worksheet_template_4_ir_model_fields_9
+msgid "Task"
+msgstr "ໜ້າວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_project_task_recurrence
+msgid "Task Recurrence"
+msgstr "ການເກີດຊ້ຳຂອງໜ້າວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_report_industry_fsm_worksheet_custom
+msgid "Task Worksheet Custom Report"
+msgstr "ບົດລາຍງານແຜ່ນວຽກໜ້າວຽກທີ່ກຳນົດເອງ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_report_project_task_user
+msgid "Tasks Analysis"
+msgstr "ການວິເຄາະໜ້າວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field7
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_4
+msgid "Technician Signature"
+msgstr "ລາຍເຊັນຊ່າງເຕັກນິກ"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "Use the breadcrumbs to return to your <b>task</b>."
+msgstr "ໃຊ້ແຖບເສັ້ນທາງ (Breadcrumbs) ເື່ອກັບຄືນໄປຫາ <b>ໜ້າວຽກ</b> ຂອງທ່ານ."
+
+#. module: industry_fsm_report
+#: model:ir.model.fields,help:industry_fsm_report.field_project_task__display_name
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a medium priority\n"
+"        !! Set the task a high priority\n"
+"        !!! Set the task a urgent priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"ໃຊ້ຄໍາສໍາຄັນເຫຼົ່ານີ້ໃນຫົວຂໍ້ເພື່ອຕັ້ງໜ້າວຽກໃໝ່:\n"
+"\n"
+"        30h ກໍານົດ 30 ຊົ່ວໂມງໃຫ້ກັບໜ້າວຽກ\n"
+"        #tags ຕັ້ງແທັກໃນໜ້າວຽກ\n"
+"        @user ມອບໝາຍໜ້າວຽກໃຫ້ກັບຜູ້ໃຊ້\n"
+"        ! ຕັ້ງໜ້າວຽກເປັນບຸລິມະສິດປານກາງ\n"
+"        !! ຕັ້ງໜ້າວຽກເປັນບຸລິມະສິດສູງ\n"
+"        !!! ຕັ້ງໜ້າວຽກເປັນບຸລິມະສິດດ່ວນທີ່ສຸດ\n"
+"\n"
+"        ກວດສອບໃຫ້ແນ່ໃຈວ່າໄດ້ໃຊ້ຮູບແບບ ແລະ ລໍາດັບທີ່ຖືກຕ້ອງ ເຊັ່ນ: ປັບປຸງໜ້າຈໍການຕັ້ງຄ່າ 5h "
+"#feature #v16 @Mitchell !"
+
+#. module: industry_fsm_report
+#. odoo-javascript
+#: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report_tour.js:0
+msgid "Validate the <b>signature</b>."
+msgstr "ຢືນຢັນ <b>ລາຍເຊັນ</b>."
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_task
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
+msgid "Worksheet"
+msgstr "ແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.model,name:industry_fsm_report.model_worksheet_template
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task_burndown_chart_report__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_project_task_user__worksheet_template_id
+#: model:ir.model.fields,field_description:industry_fsm_report.field_report_project_task_user_fsm__worksheet_template_id
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_project_form_inherit_industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_task_map_view_inherit_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_task_view_search_fsm_report
+msgid "Worksheet Template"
+msgstr "ແບບຟອມແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.actions.act_window,name:industry_fsm_report.action_fsm_worksheets
+#: model:ir.actions.act_window,name:industry_fsm_report.fsm_worksheets_action_settings
+#: model:ir.ui.menu,name:industry_fsm_report.fsm_settings_worksheets
+msgid "Worksheet Templates"
+msgstr "ແບບຟອມແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model:ir.actions.act_window,name:industry_fsm_report.x_project_task_worksheet_template_3_ir_actions_act_window_1
+#: model:ir.actions.act_window,name:industry_fsm_report.x_project_task_worksheet_template_4_ir_actions_act_window_1
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__allow_worksheets
+#: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__allow_worksheets
+msgid "Worksheets"
+msgstr "ແຜ່ນວຽກ"
+
+#. module: industry_fsm_report
+#: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_project_form_inherit_industry_fsm_report
+msgid "e.g. Device Installation"
+msgstr "ຕົວຢ່າງ: ການຕິດຕັ້ງອຸປະກອນ"

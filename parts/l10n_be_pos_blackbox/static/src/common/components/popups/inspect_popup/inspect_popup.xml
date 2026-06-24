@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="l10n_be_pos_blackbox.InspectPopup">
+        <Dialog size="'xl'" contentClass="'h-100'" bodyClass="'p-0'">
+            <t t-set-slot="header">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <h4 class="align-middle my-1">Blackbox Request Inspector</h4>
+                </div>
+            </t>
+            <div class="d-flex h-100 overflow-hidden gap-0">
+                <div class="w-50 h-100 d-flex flex-column">
+                    <div class="bg-secondary px-3 pt-2 pb-1 d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Request</h5>
+                        <button class="btn btn-sm btn-outline-secondary" t-on-click="copyRequest">Copy</button>
+                    </div>
+                    <div class="overflow-auto flex-grow-1 border-end">
+                        <pre t-esc="this.requestString" class="w-100" style="user-select: text; cursor: text;" />
+                    </div>
+                </div>
+                <div class="w-50 h-100 d-flex flex-column">
+                    <div class="bg-secondary px-3 pt-2 pb-1 d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">Response</h5>
+                        <button class="btn btn-sm btn-outline-secondary" t-on-click="copyResponse">Copy</button>
+                    </div>
+                    <div class="overflow-auto flex-grow-1">
+                        <pre t-esc="this.responseString" class="w-100" style="user-select: text; cursor: text;" />
+                    </div>
+                </div>
+            </div>
+            <t t-set-slot="footer">
+                <div class="w-100 d-flex flex-wrap justify-content-between gap-2">
+                    <div class="d-flex gap-2">
+                        <button class="button highlight btn btn-primary" t-on-click="this.props.close">Close</button>
+                    </div>
+                </div>
+            </t>
+        </Dialog>
+    </t>
+</templates>

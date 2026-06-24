@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <function model="res.company" name="_dyn_export_load_chart_template">
+        <value eval="ref('dyn_export_settings.base_company')" />
+        <value>generic_coa</value>
+    </function>
+</odoo>

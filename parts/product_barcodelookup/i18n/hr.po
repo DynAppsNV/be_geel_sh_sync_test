@@ -1,0 +1,344 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * product_barcodelookup
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Zvonimir Galić <zvonimir.galic@viavista.ba>, 2025.
+# Boris Peko <boris.peko@ecodica.eu>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:46+0000\n"
+"PO-Revision-Date: 2026-04-11 19:35+0000\n"
+"Last-Translator: Boris Peko <boris.peko@ecodica.eu>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-19/"
+"product_barcodelookup/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"%(matching_images_count)s matching images have been found for %"
+"(product_count)s products."
+msgstr ""
+"Pronađeno je %(matching_images_count)s odgovarajućih slika za %"
+"(product_count)s proizvoda."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid ""
+"<span invisible=\"nb_products_selected &lt;= 1000\">\n"
+"                            As only 1000 products can be processed per day, "
+"the remaining will be\n"
+"                            done tomorrow.\n"
+"                        </span>"
+msgstr ""
+"<span invisible=\"nb_products_selected &lt;= 1000\">\n"
+"                            Budući da se dnevno može obraditi samo 1000 "
+"proizvoda, preostali će\n"
+"                            biti obrađeni sutra.\n"
+"                        </span>"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid ""
+"<strong>Note: </strong>\n"
+"                        Some images may not be royalty-free and should not "
+"be published online."
+msgstr ""
+"<strong>Napomena: </strong>\n"
+"                        Neke slike možda nisu besplatne od autorskih prava i "
+"ne bi se trebale objavljivati online."
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"A task to process products in the background is already running. Please try "
+"again later."
+msgstr ""
+"Zadatak za obradu proizvoda u pozadini već je pokrenut. Pokušajte ponovno "
+"kasnije."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "API Key:"
+msgstr "API ključ:"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_res_config_settings__barcodelookup_api_key
+msgid "API key"
+msgstr "API ključ"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "Barcode Database"
+msgstr "Baza podataka za barkodove"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,help:product_barcodelookup.field_res_config_settings__barcodelookup_api_key
+msgid "Barcode Lookup API Key for create product from barcode."
+msgstr "API ključ Barcode Lookupa za kreiranje proizvoda iz barkoda."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "Cancel"
+msgstr "Odustani"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfiguracijske postavke"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "Create products by scanning using"
+msgstr "Izradite proizvode skeniranjem pomoću"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_ir_cron_trigger__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_product__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_template__display_name
+#: model:ir.model.fields,field_description:product_barcodelookup.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_product_fetch_image_wizard
+msgid ""
+"Fetch product images from Barcode Lookup based on the product's barcode."
+msgstr ""
+"Dohvati slike proizvoda iz Barcode Lookupa na temelju barkoda proizvoda."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "Get Pictures"
+msgstr "Dohvati slike"
+
+#. module: product_barcodelookup
+#: model:ir.actions.act_window,name:product_barcodelookup.product_product_action_get_pic_with_barcode
+#: model:ir.actions.act_window,name:product_barcodelookup.product_template_action_get_pic_with_barcode
+msgid "Get Pictures from Barcode Lookup"
+msgstr "Dohvati slike iz pretraživanja barkodova"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid "Go to Settings"
+msgstr "Idi na postavke"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_ir_cron_trigger__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_product__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_template__id
+#: model:ir.model.fields,field_description:product_barcodelookup.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_product__is_image_fetch_pending
+msgid "Is Image Fetch Pending"
+msgstr "Dohvaćanje slike na čekanju"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Posljednju izmjenu izvršio"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__write_date
+msgid "Last Updated on"
+msgstr "Posljednja izmjena"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__nb_products_unable_to_process
+msgid "Number of product unprocessable"
+msgstr "Broj neobradivih proizvoda"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__nb_products_to_process
+msgid "Number of products to process"
+msgstr "Broj proizvoda za obradu"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__nb_products_selected
+msgid "Number of selected products"
+msgstr "Broj odabranih proizvoda"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "Out of"
+msgstr "Od"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_product_template
+msgid "Product"
+msgstr "Proizvod"
+
+#. module: product_barcodelookup
+#: model:ir.actions.server,name:product_barcodelookup.ir_cron_fetch_image_ir_actions_server
+msgid "Product Images: Get product images from Barcode Lookup"
+msgstr "Slike proizvoda: dohvati slike proizvoda iz Barcode Lookupa"
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_product_product
+msgid "Product Variant"
+msgstr "Varijanta proizvoda"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid "Product images"
+msgstr "Slike proizvoda"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,field_description:product_barcodelookup.field_product_fetch_image_wizard__products_to_process
+msgid "Products To Process"
+msgstr "Proizvodi za obradu"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"Products are processed in the background. Images will be updated "
+"progressively."
+msgstr "Proizvodi se obrađuju u pozadini. Slike će biti postupno ažurirane."
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid "The API Key for Barcode Lookup must be set in the General Settings."
+msgstr "API ključ za Barcode Lookup mora biti postavljen u općim postavkama."
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"The Barcode Lookup API key is not set properly or it is invalid. Check your "
+"API key in setting and retry."
+msgstr ""
+"API ključ Barcode Lookupa nije pravilno postavljen ili nije valjan. "
+"Provjerite svoj API ključ u postavkama i pokušajte ponovno."
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,help:product_barcodelookup.field_product_fetch_image_wizard__products_to_process
+msgid ""
+"The list of selected products that meet the criteria (have a barcode and no "
+"image)"
+msgstr ""
+"Popis odabranih proizvoda koji zadovoljavaju kriterije (imaju barkod i "
+"nemaju sliku)"
+
+#. module: product_barcodelookup
+#. odoo-python
+#: code:addons/product_barcodelookup/wizard/product_fetch_image_wizard.py:0
+msgid ""
+"The scheduled action \"Product Images: Get product images from Barcode "
+"Lookup\" has been deleted. Please contact your administrator to have the "
+"action restored or to reinstall the module \"product_barcodelookup\"."
+msgstr ""
+"Zakazana radnja \"Slike proizvoda: dohvati slike proizvoda iz Barcode "
+"Lookupa\" je obrisana. Obratite se administratoru za vraćanje radnje ili za "
+"ponovnu instalaciju modula \"product_barcodelookup\"."
+
+#. module: product_barcodelookup
+#: model:ir.model,name:product_barcodelookup.model_ir_cron_trigger
+msgid "Triggered actions"
+msgstr "Pokrenute akcije"
+
+#. module: product_barcodelookup
+#: model:ir.model.fields,help:product_barcodelookup.field_product_product__is_image_fetch_pending
+msgid "Whether an image must be fetched for this product. Handled by a cron."
+msgstr "Treba li dohvatiti sliku za ovaj proizvod. Upravlja kronovima."
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_8
+msgid "age group"
+msgstr "dobna skupina"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "barcodelookup.com"
+msgstr "barcodelookup.com"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_6
+msgid "brand"
+msgstr "brend"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_1
+msgid "color"
+msgstr "boja"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.res_config_settings_view_form
+msgid "e.g. d7vctmiv2rwgenebha8bxq7irooudn"
+msgstr "npr. d7vctmiv2rwgenebha8bxq7irooudn"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_2
+msgid "gender"
+msgstr "spol"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_5
+msgid "manufacturer"
+msgstr "proizvođač"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_3
+msgid "material"
+msgstr "materijal"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_4
+msgid "pattern"
+msgstr "uzorak"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "selected products,"
+msgstr "odabranih proizvoda,"
+
+#. module: product_barcodelookup
+#: model:product.attribute,name:product_barcodelookup.product_attribute_lookup_7
+msgid "size"
+msgstr "veličina"
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid "will be processed."
+msgstr "bit će obrađeno."
+
+#. module: product_barcodelookup
+#: model_terms:ir.ui.view,arch_db:product_barcodelookup.product_fetch_image_wizard_view_form
+msgid ""
+"won't be\n"
+"                            processed because they either already have an "
+"image or\n"
+"                            lack a barcode"
+msgstr ""
+"neće biti\n"
+"                            obrađeno jer već imaju sliku ili\n"
+"                            nemaju barkod"

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="dynapps_analytics_form" model="ir.ui.view">
+        <field name="name">dynapps.analytics.form</field>
+        <field name="model">xx.dynapps.analytics</field>
+        <field name="arch" type="xml">
+            <form string="Working Time">
+                <sheet string="Working Time">
+                    <div class="oe_title">
+                        <h1>
+                            Dynapps Analytic Data
+                        </h1>
+                    </div>
+                    <field name="formatted_json_data" nolabel="1" widget="ace" />
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.server" id="action_open_dynapps_analytics_form">
+        <field name="name">Dynapps Analytics</field>
+        <field name="model_id" ref="model_xx_dynapps_analytics" />
+        <field name="state">code</field>
+        <field name="code">
+            action = model.action_open_view()
+        </field>
+        <!-- group must be present, otherwise write access is needed to xx.dynapps.analytics -->
+        <field name="group_ids" eval="[(4,ref('base.group_system'))]" />
+    </record>
+
+    <record id="action_dynapps_analytics_form" model="ir.actions.act_window">
+        <field name="name">Dynapps Analytics</field>
+        <field name="res_model">xx.dynapps.analytics</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <!-- MENU ITEMS -->
+    <menuitem id="menu_dynapps" name="Dynapps" parent="base.menu_custom" />
+
+    <menuitem
+        id="menu_dynapps_analytics"
+        parent="menu_dynapps"
+        action="action_open_dynapps_analytics_form"
+        sequence="1"
+    />
+</odoo>

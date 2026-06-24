@@ -1,0 +1,687 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* social_push_notifications
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:49+0000\n"
+"PO-Revision-Date: 2025-10-08 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "<span class=\"ps-2\">seconds</span>"
+msgstr "<span class=\"ps-2\">soniya</span>"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_post_ids
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_post_ids
+#, fuzzy
+msgid "All related social media posts"
+msgstr "Barcha tegishli ijtimoiy tarmoq postlari"
+
+#. module: social_push_notifications
+#. odoo-javascript
+#: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
+#, fuzzy
+msgid "Allow"
+msgstr "Ruxsat berish"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "App ID"
+msgstr "Ilova identifikatori"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Body"
+msgstr "Matn"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_res_config_settings
+#, fuzzy
+msgid "Config Settings"
+msgstr "Konfiguratsiya sozlamalari"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Configure Push Notifications"
+msgstr "Push-bildirishnomalarni sozlash"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Delay"
+msgstr "Kechikish"
+
+#. module: social_push_notifications
+#. odoo-javascript
+#: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
+#, fuzzy
+msgid "Deny"
+msgstr "Rad etish"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_ir_http__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_media__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__display_push_notifications_preview
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__display_push_notifications_preview
+#, fuzzy
+msgid "Display Push Notifications Preview"
+msgstr "Push-bildirishnomalar ko‘rib chiqish"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_post__visitor_domain
+#: model:ir.model.fields,help:social_push_notifications.field_social_post_template__visitor_domain
+#, fuzzy
+msgid "Domain to send push notifications to visitors."
+msgstr "Tashrif buyuruvchilarga push-bildirishnomalar yuborish uchun domen."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_enable_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_enable_push_notifications
+#, fuzzy
+msgid "Enable Web Push Notifications"
+msgstr "Veb-push bildirishnomalarini yoqish"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/controllers/main.py:0
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Enable push notifications to be notified about new features."
+msgstr ""
+"Yangi xususiyatlar haqida xabardor bo‘lish uchun push-bildirishnomalarni "
+"yoqing."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_admin_key_file
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_admin_key_file
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_admin_key_file
+#, fuzzy
+msgid "Firebase Admin Key File"
+msgstr "Firebase Admin kalit fayli"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_account.py:0
+#, fuzzy
+msgid "Firebase Admin Key File is missing from the configuration."
+msgstr "Konfiguratsiyada Firebase Admin kalit fayli mavjud emas."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_project_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_project_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_project_id
+#, fuzzy
+msgid "Firebase Project ID"
+msgstr "Firebase loyiha identifikatori"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_push_certificate_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_push_certificate_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_push_certificate_key
+#, fuzzy
+msgid "Firebase Push Certificate Key"
+msgstr "Firebase Push sertifikati kaliti"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_sender_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_sender_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_sender_id
+#, fuzzy
+msgid "Firebase Sender ID"
+msgstr "Firebase yuboruvchi identifikatori"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_web_api_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_web_api_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_web_api_key
+#, fuzzy
+msgid "Firebase Web API Key"
+msgstr "Firebase veb-API kaliti"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_web_app_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_web_app_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_web_app_id
+#, fuzzy
+msgid "Firebase Web App ID"
+msgstr "Firebase veb-ilova identifikatori"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.push_notifications_preview
+#, fuzzy
+msgid "Google Chrome ·"
+msgstr "Google Chrome ·"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_ir_http
+#, fuzzy
+msgid "HTTP Routing"
+msgstr "HTTP yo‘naltirish"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__has_push_notifications_account
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__has_push_notifications_account
+#, fuzzy
+msgid "Has Push Notifications Account"
+msgstr "Push-bildirishnomalar hisobi mavjud"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_ir_http__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_media__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__id
+#, fuzzy
+msgid "ID"
+msgstr "Identifikator"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Icon"
+msgstr "Belgi"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+#, fuzzy
+msgid "Icon Image"
+msgstr "Belgi tasviri"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Key File"
+msgstr "Kalit fayli"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_view_form
+#, fuzzy
+msgid "Local Time"
+msgstr "Mahalliy vaqt"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_media__media_type
+#, fuzzy
+msgid "Media Type"
+msgstr "Media turi"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+#, fuzzy
+msgid "Message"
+msgstr "Xabar"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_live_post.py:0
+#: code:addons/social_push_notifications/models/social_post_template.py:0
+#, fuzzy
+msgid "New Message"
+msgstr "Yangi xabar"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_delay
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_delay
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_delay
+#, fuzzy
+msgid "Notification Request Delay (seconds)"
+msgstr "Bildirishnoma so‘rovi kechikishi (soniya)"
+
+#. module: social_push_notifications
+#. odoo-javascript
+#: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_icon
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_icon
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_icon
+#, fuzzy
+msgid "Notification Request Icon"
+msgstr "Bildirishnoma so‘rovi belgisi"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_body
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_body
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_body
+#, fuzzy
+msgid "Notification Request Text"
+msgstr "Bildirishnoma so‘rovi matni"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_title
+#, fuzzy
+msgid "Notification Request Title"
+msgstr "Bildirishnoma so‘rovi sarlavhasi"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+#, fuzzy
+msgid "Notification Title"
+msgstr "Bildirishnoma sarlavhasi"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_kanban
+#, fuzzy
+msgid "Notifications"
+msgstr "Bildirishnomalar"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_push_notifications_count
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_push_notifications_count
+#, fuzzy
+msgid "Number Of Push Notifications"
+msgstr "Push-bildirishnomalar soni"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_post_template.py:0
+#, fuzzy
+msgid "Please specify a Notification Message."
+msgstr "Iltimos, bildirishnoma xabarini ko‘rsating."
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Project ID"
+msgstr "Loyiha identifikatori"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_kanban
+#, fuzzy
+msgid "Push"
+msgstr "Push"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Push Certificate Key ID"
+msgstr "Push sertifikati kaliti identifikatori"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__push_notification_image
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_image
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_image
+#, fuzzy
+msgid "Push Icon Image"
+msgstr "Push belgisi tasviri"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+#, fuzzy
+msgid "Push Notification"
+msgstr "Push-bildirishnoma"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
+#, fuzzy
+msgid "Push Notification Off"
+msgstr "Push-bildirishnoma o‘chirilgan"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
+#, fuzzy
+msgid "Push Notification On"
+msgstr "Push-bildirishnoma yoqilgan"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+#, fuzzy
+msgid "Push Notification Options"
+msgstr "Push-bildirishnoma tanlovlari"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__push_notification_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_title
+#, fuzzy
+msgid "Push Notification Title"
+msgstr "Push-bildirishnoma sarlavhasi"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_push_notification_ids
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_push_notification_ids
+#: model:ir.model.fields.selection,name:social_push_notifications.selection__social_media__media_type__push_notifications
+#: model:social.media,name:social_push_notifications.social_media_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
+#, fuzzy
+msgid "Push Notifications"
+msgstr "Push-bildirishnomalar"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__has_push_notifications
+#, fuzzy
+msgid "Push Notifications Enabled"
+msgstr "Push-bildirishnomalar yoqilgan"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_message
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_message
+#, fuzzy
+msgid "Push Notifications Message"
+msgstr "Push-bildirishnoma matni"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notifications_preview
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notifications_preview
+#, fuzzy
+msgid "Push Notifications Preview"
+msgstr "Push-bildirishnomalarni ko‘rib chiqish"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__push_token
+#, fuzzy
+msgid "Push Subscription"
+msgstr "Push-obuna"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_website_visitor_push_subscription
+#, fuzzy
+msgid "Push Subscription for a Website Visitor"
+msgstr "Sayt tashrif buyuruvchisi uchun push-obuna"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__push_subscription_ids
+#, fuzzy
+msgid "Push Subscriptions"
+msgstr "Push-obunalar"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__push_notification_target_url
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_target_url
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_target_url
+#, fuzzy
+msgid "Push Target URL"
+msgstr "Push yo‘naltiruvchi URL manzili"
+
+#. module: social_push_notifications
+#: model:ir.model.constraint,message:social_push_notifications.constraint_website_visitor_push_subscription_push_token_uniq
+#, fuzzy
+msgid "Push token can't be duplicated!"
+msgstr "Push-tokenni takrorlash mumkin emas!"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__reached_visitor_ids
+#, fuzzy
+msgid "Reached Visitors"
+msgstr "Qamrab olingan tashrif buyuruvchilar"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
+#, fuzzy
+msgid "Send Push"
+msgstr "Push yuborish"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_tree
+#, fuzzy
+msgid "Send Push Notification"
+msgstr "Push-bildirishnoma yuborish"
+
+#. module: social_push_notifications
+#: model:ir.actions.server,name:social_push_notifications.social_send_push_notifications_action_server
+#, fuzzy
+msgid "Send Push Notifications"
+msgstr "Push-bildirishnomalarni yuborish"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__use_visitor_timezone
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__use_visitor_timezone
+#, fuzzy
+msgid "Send at Visitors' Timezone"
+msgstr "Tashrif buyuruvchilarning vaqt mintaqasiga yuborish"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Sender ID"
+msgstr "Yuboruvchi identifikatori"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_account
+#, fuzzy
+msgid "Social Account"
+msgstr "Ijtimoiy tarmoq hisob raqami"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_live_post
+#, fuzzy
+msgid "Social Live Post"
+msgstr "Ijtimoiy tarmoqdagi jonli post"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_media
+#, fuzzy
+msgid "Social Media"
+msgstr "Ijtimoiy tarmoqlar"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_post
+#, fuzzy
+msgid "Social Post"
+msgstr "Ijtimoiy tarmoq posti"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_post_template
+#, fuzzy
+msgid "Social Post Template"
+msgstr "Ijtimoiy tarmoq posti namunasi"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/website_visitor.py:0
+#, fuzzy
+msgid "Some selected visitors do not allow push notifications."
+msgstr ""
+"Ba'zi tanlangan tashrif buyuruvchilar push-bildirishnomalarga ruxsat "
+"bermaydi."
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+#, fuzzy
+msgid "Target URL"
+msgstr "Maqsadli URL"
+
+#. module: social_push_notifications
+#: model:ir.model.constraint,message:social_push_notifications.constraint_social_account_website_unique
+#, fuzzy
+msgid "There is already a configuration for this website."
+msgstr "Bu veb-sayt uchun allaqachon sozlama mavjud."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_account__website_id
+#, fuzzy
+msgid "This firebase configuration will only be used for the specified website"
+msgstr "Ushbu Firebase sozlamasi faqat ko‘rsatilgan veb-sayt uchun ishlatiladi"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_live_post__push_notification_image
+#: model:ir.model.fields,help:social_push_notifications.field_social_post__push_notification_image
+#: model:ir.model.fields,help:social_push_notifications.field_social_post_template__push_notification_image
+#, fuzzy
+msgid "This icon will be displayed in the browser notification"
+msgstr "Ushbu belgi brauzer bildirishnomasida ko‘rsatiladi"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Title"
+msgstr "Sarlavha"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_utm_campaign
+#, fuzzy
+msgid "UTM Campaign"
+msgstr "UTM kampaniyasi"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Use your own Firebase Account for this website's push notifications"
+msgstr ""
+"Ushbu veb-saytning push-bildirishnomalari uchun o‘zingizning Firebase "
+"hisobingizdan foydalaning"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_use_own_account
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_use_own_account
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_use_own_account
+#, fuzzy
+msgid "Use your own Firebase account"
+msgstr "O‘zingizning Firebase hisobingizdan foydalaning"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_media__media_type
+#, fuzzy
+msgid ""
+"Used to make comparisons when we need to restrict some features to a "
+"specific media ('facebook', 'x', ...)."
+msgstr ""
+"Ba'zi xususiyatlarni ma'lum bir tarmoq bilan cheklash kerak bo‘lganda "
+"taqqoslash uchun ishlatiladi ('facebook', 'x', ...)."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__visitor_domain
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__visitor_domain
+#, fuzzy
+msgid "Visitor Domain"
+msgstr "Tashrif buyuruvchi domeni"
+
+#. module: social_push_notifications
+#: model:ir.ui.menu,name:social_push_notifications.social_visitor
+#, fuzzy
+msgid "Visitors"
+msgstr "Tashrif buyuruvchilar"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/controllers/main.py:0
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Want to discover new versions?"
+msgstr "Yangi versiyalarni topishni xohlaysizmi?"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "Web API Key"
+msgstr "Veb API kaliti"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_website
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__website_id
+#, fuzzy
+msgid "Website"
+msgstr "Veb-sayt"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_website_visitor
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__website_visitor_id
+#, fuzzy
+msgid "Website Visitor"
+msgstr "Veb-saytga tashrif buyuruvchi"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_account.py:0
+#, fuzzy
+msgid "You can't delete a Push Notification account."
+msgstr "Push-bildirishnoma hisobini o‘chira olmaysiz."
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_account.py:0
+#, fuzzy
+msgid ""
+"You have to install \"google_auth>=1.18.0\" to be able to send push "
+"notifications."
+msgstr ""
+"Push-bildirishnomalarni yuborish uchun \"google_auth>=1.18.0\" ni "
+"o‘rnatishingiz kerak."
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "e.g. \"1:280765099157:web:7c7b7d7b7d7b7d7b7d7b7d\""
+msgstr "masalan, \"1:280765099157:web:7c7b7d7b7d7b7d7b7d7b7d\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "e.g. \"280765099157\""
+msgstr "masalan, \"280765099157\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "e.g. \"BIzbSyXhhsFHEgphW55CSg5cV7h7c_S-AuTMKc9\""
+msgstr "masalan, \"BIzbSyXhhsFHEgphW55CSg5cV7h7c_S-AuTMKc9\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "e.g. \"CCSc77KP_LX8dTAogFakOoJ_VqNP15u0-43psDJe__a9B...\""
+msgstr "masalan, \"CCSc77KP_LX8dTAogFakOoJ_VqNP15u0-43psDJe__a9B...\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#, fuzzy
+msgid "e.g. \"my-project-id\""
+msgstr "masalan, \"my-project-id\""
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_post__use_visitor_timezone
+#: model:ir.model.fields,help:social_push_notifications.field_social_post_template__use_visitor_timezone
+#, fuzzy
+msgid ""
+"e.g: If you post at 15:00 your time, all visitors will receive the post at "
+"15:00 their time."
+msgstr ""
+"masalan: Agar siz soat 15:00 da post joylashtirgan bo‘lsangiz, barcha "
+"tashrif buyuruvchilar postni o‘z vaqtlari bilan soat 15:00 da qabul "
+"qilishadi."

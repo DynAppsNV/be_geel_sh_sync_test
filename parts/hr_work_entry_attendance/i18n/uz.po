@@ -1,0 +1,199 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_work_entry_attendance
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:44+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,help:hr_work_entry_attendance.field_hr_employee__work_entry_source
+#: model:ir.model.fields,help:hr_work_entry_attendance.field_hr_version__work_entry_source
+#, fuzzy
+msgid ""
+"\n"
+"        Defines the source for work entries generation\n"
+"\n"
+"        Working Schedule: Work entries will be generated from the working "
+"hours below.\n"
+"        Attendances: Work entries will be generated from the employee's "
+"attendances. (requires Attendance app)\n"
+"        Planning: Work entries will be generated from the employee's "
+"planning. (requires Planning app)\n"
+"    "
+msgstr ""
+"Ish yozuvlarini yaratish manbalarini belgilaydi          Ish jadvali: Ish "
+"yozuvlari quyida keltirilgan ish soatlaridan yaratiladi.         Davomad: "
+"Ish yozuvlari xodimning davomadidan shakllantiriladi. (Davomad ilovasi talab "
+"etiladi) Rejalashtirish: Ish yozuvlari xodimning rejasidan hosil qilinadi. "
+"(Rejalashtirish ilovasi talab etiladi)"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,help:hr_work_entry_attendance.field_hr_employee__overtime_from_attendance
+#: model:ir.model.fields,help:hr_work_entry_attendance.field_hr_version__overtime_from_attendance
+#, fuzzy
+msgid "Add extra hours from attendances to the working entries"
+msgstr "Davomaddan qo‘shimcha soatlarni ish yozuvlariga qo‘shish"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model,name:hr_work_entry_attendance.model_hr_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_work_entry__attendance_id
+#, fuzzy
+msgid "Attendance"
+msgstr "Davomad"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model,name:hr_work_entry_attendance.model_hr_attendance_overtime_line
+#, fuzzy
+msgid "Attendance Overtime Line"
+msgstr "Ish vaqtidan tashqari davomad qatori"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields.selection,name:hr_work_entry_attendance.selection__hr_version__work_entry_source__attendance
+#, fuzzy
+msgid "Attendances"
+msgstr "Davomadlar"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance__display_name
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance_overtime_line__display_name
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance_overtime_rule__display_name
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_version__display_name
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_work_entry__display_name
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_work_entry_regeneration_wizard__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model,name:hr_work_entry_attendance.model_hr_employee
+#, fuzzy
+msgid "Employee"
+msgstr "Xodim"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model,name:hr_work_entry_attendance.model_hr_version
+#, fuzzy
+msgid "Employee Contract"
+msgstr "Xodim shartnomasi"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_employee__overtime_from_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_version__overtime_from_attendance
+#, fuzzy
+msgid "Extra hours"
+msgstr "Qo‘shimcha soatlar"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model,name:hr_work_entry_attendance.model_hr_work_entry
+#, fuzzy
+msgid "HR Work Entry"
+msgstr "Kadrlar ishi yozuvi"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance__id
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance_overtime_line__id
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance_overtime_rule__id
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_employee__id
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_version__id
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_work_entry__id
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_work_entry_regeneration_wizard__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_work_entry__overtime_id
+#, fuzzy
+msgid "Overtime"
+msgstr "Ish vaqtidan tashqari"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model,name:hr_work_entry_attendance.model_hr_attendance_overtime_rule
+#, fuzzy
+msgid "Overtime Rule"
+msgstr "Qo‘shimcha vaqt qoidasi"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model,name:hr_work_entry_attendance.model_hr_work_entry_regeneration_wizard
+#, fuzzy
+msgid "Regenerate Employee Work Entries"
+msgstr "Xodimlarning ish yozuvlarini qayta yaratish"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance_overtime_rule__amount_rate
+#, fuzzy
+msgid "Salary Rate"
+msgstr "Ish haqi stavkasi"
+
+#. module: hr_work_entry_attendance
+#. odoo-python
+#: code:addons/hr_work_entry_attendance/models/hr_attendance.py:0
+#, fuzzy
+msgid ""
+"This attendance record is linked to a validated working entry. You can't "
+"delete it."
+msgstr ""
+"Bu davomad qaydnomasi tasdiqlangan ish yozuvi bilan bog‘langan. Uni o‘chira "
+"olmaysiz."
+
+#. module: hr_work_entry_attendance
+#. odoo-python
+#: code:addons/hr_work_entry_attendance/models/hr_attendance.py:0
+#, fuzzy
+msgid ""
+"This attendance record is linked to a validated working entry. You can't "
+"modify it."
+msgstr ""
+"Bu davomad qaydnomasi tasdiqlangan ish yozuvi bilan bog‘langan. Uni "
+"o‘zgartira olmaysiz."
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_employee__work_entry_source
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_version__work_entry_source
+#, fuzzy
+msgid "Work Entry Source"
+msgstr "Ish yozuvi manbasi"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance_overtime_rule__work_entry_type_id
+#, fuzzy
+msgid "Work Entry Type"
+msgstr "Ish yozuvi turi"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.fields,field_description:hr_work_entry_attendance.field_hr_attendance_overtime_line__work_entry_type_overtime_id
+#, fuzzy
+msgid "Work Entry Type Overtime"
+msgstr "Ish vaqtidan tashqari ish yozuvi turi"
+
+#. module: hr_work_entry_attendance
+#: model_terms:ir.ui.view,arch_db:hr_work_entry_attendance.hr_attendance_overtime_rule_view_form
+#, fuzzy
+msgid "Work entry type to use:"
+msgstr "Foydalaniladigan ish yozuvi turi:"
+
+#. module: hr_work_entry_attendance
+#: model:ir.model.constraint,message:hr_work_entry_attendance.constraint_hr_attendance_overtime_rule_if_paid_work_entry_type_defined
+#, fuzzy
+msgid "if paid the work entry should be defined"
+msgstr "agar to‘lanadigan bo‘lsa, ish yozuvi aniqlanishi kerak"

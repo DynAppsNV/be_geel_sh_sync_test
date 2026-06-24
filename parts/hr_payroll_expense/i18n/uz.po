@@ -1,0 +1,301 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_expense
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:44+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_payroll_expense
+#: model_terms:ir.ui.view,arch_db:hr_payroll_expense.view_account_payment_register_form_inherit_hr_payroll_expense
+#, fuzzy
+msgid ""
+"<span class=\"fw-bold\">\n"
+"                            The expenses will already be reimbursed in a "
+"payslip. Make sure this payment is intended.\n"
+"                        </span>"
+msgstr ""
+"<span class=\"fw-bold\">Xarajatlar allaqachon maosh varaqasida qoplanadi. Bu "
+"to‘lov mo‘ljallanganligini tekshiring.</span>"
+
+#. module: hr_payroll_expense
+#: model_terms:ir.ui.view,arch_db:hr_payroll_expense.hr_expense_view_form_inherit_payroll
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Payslip</span>"
+msgstr "<span class=\"o_stat_text\">Maosh varaqasi</span>"
+
+#. module: hr_payroll_expense
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_account_move__display_name
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_account_payment_register__display_name
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_expense__display_name
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_payroll_structure__display_name
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_payslip__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: hr_payroll_expense
+#: model:ir.model,name:hr_payroll_expense.model_hr_expense
+#, fuzzy
+msgid "Expense"
+msgstr "Xarajat"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid "Expense (\"%(name)s\") was removed from the next payslip."
+msgstr "Xarajat (\"%(name)s\") keyingi maosh varaqasidan olib tashlandi."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid "Expense (\"%(name)s\") will be added to the next payslip."
+msgstr "Xarajat (\"%(name)s\") keyingi maosh varaqasiga qo‘shiladi."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid ""
+"Expense reimbursement rule needs to be configured to add expenses to "
+"payslips.\n"
+"Please create one salary rule with the \"%(code)s\" code on the relevant "
+"salary structures."
+msgstr ""
+"Xarajatlarni maosh varaqalariga qo‘shish uchun xarajatlarni qoplash "
+"qoidasini sozlash kerak. Tegishli ish haqi tuzilmalarida \"%(code)s\" kodi "
+"bilan bitta maosh qoidasini yarating."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payslip.py:0
+#, fuzzy
+msgid "Expense rules"
+msgstr "Xarajat qoidalari"
+
+#. module: hr_payroll_expense
+#: model:hr.payslip.input.type,name:hr_payroll_expense.expense_other_input
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_payslip__expense_ids
+#: model_terms:ir.ui.view,arch_db:hr_payroll_expense.hr_payslip_view_form_inherit_expense
+#, fuzzy
+msgid "Expenses"
+msgstr "Xarajatlar"
+
+#. module: hr_payroll_expense
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_payslip__expenses_count
+#, fuzzy
+msgid "Expenses Count"
+msgstr "Xarajatlar soni"
+
+#. module: hr_payroll_expense
+#: model:hr.salary.rule,name:hr_payroll_expense.hr_salary_rule_expense_refund
+#, fuzzy
+msgid "Expenses Reimbursement"
+msgstr "Xarajatlarni qoplash"
+
+#. module: hr_payroll_expense
+#: model:ir.model.fields,help:hr_payroll_expense.field_hr_payslip__expense_ids
+#, fuzzy
+msgid "Expenses to reimburse to employee."
+msgstr "Xodimga qoplanishi kerak bo‘lgan xarajatlar."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid "Go to salary rules"
+msgstr "Maosh qoidalariga o‘tish"
+
+#. module: hr_payroll_expense
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_account_move__id
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_account_payment_register__id
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_expense__id
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_payroll_structure__id
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_payslip__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_payroll_expense
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_account_payment_register__is_already_paid_through_a_payslip
+#, fuzzy
+msgid "Is Already Paid Through A Payslip"
+msgstr "Maosh varaqasi orqali allaqachon to‘langan"
+
+#. module: hr_payroll_expense
+#: model:ir.model,name:hr_payroll_expense.model_account_move
+#, fuzzy
+msgid "Journal Entry"
+msgstr "Buxgalteriya yozuvi"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payslip.py:0
+#, fuzzy
+msgid "No debit account for EXPENSES rules"
+msgstr "XARAJATLAR qoidalari uchun debet hisobi yo‘q"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payroll_structure.py:0
+#, fuzzy
+msgid ""
+"No debit account found in the '%(rule_name)s' payslip salary rule. Please "
+"add a payable debit account to be able to create an accounting entry for the "
+"expenses linked to this payslip."
+msgstr ""
+"'%(rule_name)s' maosh varaqasi qoidasida debet hisobi topilmadi. Ushbu maosh "
+"varaqasi bilan bog‘liq xarajatlar uchun buxgalteriya yozuvini yaratish "
+"imkoniyatiga ega bo‘lish uchun to‘lanadigan debet hisobini qo‘shing."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payslip.py:0
+#, fuzzy
+msgid "No rule to handle expenses"
+msgstr "Xarajatlarni boshqarish qoidasi yo‘q"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid ""
+"Only approved and posted expenses that were paid by an employee can be "
+"reimbursed in a payslip."
+msgstr ""
+"Faqat xodim tomonidan to‘langan, tasdiqlangan va e'lon qilingan "
+"xarajatlargina maosh varaqasida qoplanishi mumkin."
+
+#. module: hr_payroll_expense
+#: model:ir.model,name:hr_payroll_expense.model_account_payment_register
+#, fuzzy
+msgid "Pay"
+msgstr "To‘lash"
+
+#. module: hr_payroll_expense
+#: model:ir.model,name:hr_payroll_expense.model_hr_payslip
+#, fuzzy
+msgid "Pay Slip"
+msgstr "Maosh varaqasi"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_expense__payslip_id
+#, fuzzy
+msgid "Payslip"
+msgstr "Maosh varaqasi"
+
+#. module: hr_payroll_expense
+#: model:ir.model.fields,field_description:hr_payroll_expense.field_hr_expense__refund_in_payslip
+#, fuzzy
+msgid "Reimburse In Next Payslip"
+msgstr "Keyingi maosh varaqasida qoplash"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payslip.py:0
+#, fuzzy
+msgid "Reimbursed Expenses"
+msgstr "Qoplangan xarajatlar"
+
+#. module: hr_payroll_expense
+#: model_terms:ir.ui.view,arch_db:hr_payroll_expense.hr_expense_view_form_inherit_payroll
+#, fuzzy
+msgid "Remove from Payslip"
+msgstr "Maosh varaqasidan olib tashlash"
+
+#. module: hr_payroll_expense
+#: model:ir.actions.server,name:hr_payroll_expense.hr_expense_add_to_payslip_action_server
+#: model_terms:ir.ui.view,arch_db:hr_payroll_expense.hr_expense_view_form_inherit_payroll
+#, fuzzy
+msgid "Report in Next Payslip"
+msgstr "Keyingi maosh varaqasida hisobot berish"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payslip.py:0
+#, fuzzy
+msgid "Rules"
+msgstr "Qoidalar"
+
+#. module: hr_payroll_expense
+#: model:ir.model,name:hr_payroll_expense.model_hr_payroll_structure
+#, fuzzy
+msgid "Salary Structure"
+msgstr "Ish haqi tuzilmasi"
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payroll_structure.py:0
+#, fuzzy
+msgid ""
+"The '%(account_name)s' account for the salary rule '%(rule_name)s' must be "
+"of type 'Payable'."
+msgstr ""
+"'%(rule_name)s' maosh qoidasi uchun '%(account_name)s' hisobi 'To‘lanadigan' "
+"turida bo‘lishi kerak."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid "There are no valid expenses selected."
+msgstr "Hech qanday yaroqli xarajat tanlanmagan."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid ""
+"You cannot remove an expense from a payslip that has already been "
+"validated.\n"
+"Expenses can only be removed from draft or canceled payslips."
+msgstr ""
+"Tasdiqlangan maosh varaqasidan xarajatni olib tashlay olmaysiz. Xarajatlarni "
+"faqat qoralama yoki bekor qilingan maosh varaqalaridan olib tashlash mumkin."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_expense.py:0
+#, fuzzy
+msgid "You do not have permission to add this expense to a payslip."
+msgstr "Ushbu xarajatni maosh varaqasiga qo‘shishga ruxsatingiz yo‘q."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/hr_payslip.py:0
+#, fuzzy
+msgid ""
+"You don't have the access rights to link an expense to a payslip. You need "
+"to be a payroll officer to do that."
+msgstr ""
+"Xarajatni maosh varaqasiga bog‘lash huquqiga ega emassiz. Buning uchun ish "
+"haqi bo‘yicha xodim bo‘lishingiz kerak."
+
+#. module: hr_payroll_expense
+#. odoo-python
+#: code:addons/hr_payroll_expense/models/account_move.py:0
+#, fuzzy
+msgid "You don't have the access rights to post an invoice."
+msgstr "Hisob-fakturani joylashtirish uchun kirish huquqiga ega emassiz."

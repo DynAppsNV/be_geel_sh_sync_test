@@ -1,0 +1,1610 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_bank_statement_import_camt
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 14:09+0000\n"
+"PO-Revision-Date: 2026-06-06 12:36+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"account_bank_statement_import_camt/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Concentration"
+msgstr "ການລວມສູນ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Corporate Trade"
+msgstr "ການຄ້າທຸລະກິດ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Credit"
+msgstr "ສິນເຊື່ອ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Debit"
+msgstr "ເດບິດ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Pre-Authorised"
+msgstr "ACH ທີ່ໄດ້ຮັບອະນຸຍາດລ່ວງໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Return"
+msgstr "ການສົ່ງຄືນ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Reversal"
+msgstr "ການກັບລາຍການ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Settlement"
+msgstr "ການຊຳລະສະສາງ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Transaction"
+msgstr "ລາຍການທຸລະກໍາ ACH"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ARP Debit"
+msgstr "ເດບິດ ARP"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Balancing"
+msgstr "ການປັບສົມດຸນບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Closing"
+msgstr "ການປິດບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Management"
+msgstr "ການຄຸ້ມຄອງບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Opening"
+msgstr "ການເປີດບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Transfer"
+msgstr "ການໂອນເງິນລະຫວ່າງບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Additional Info: %s"
+msgstr "ຂໍ້ມູນເພີ່ມເຕີມ: %s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Additional Miscellaneous Credit Operations"
+msgstr "ການດໍາເນີນງານສິນເຊື່ອເບັດເຕັດເພີ່ມເຕີມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Additional Miscellaneous Debit Operations"
+msgstr "ການດໍາເນີນງານເດບິດເບັດເຕັດເພີ່ມເຕີມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Address:\n"
+msgstr "ທີ່ຢູ່:\n"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Adjustments"
+msgstr "ການປັບປຸງລາຍການ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Automatic Transfer"
+msgstr "ການໂອນເງິນອັດຕະໂນມັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Back Value"
+msgstr "ມູນຄ່າຍ້ອນຫຼັງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Bank Cheque"
+msgstr "ແຊັກທະນາຄານ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Bank Fees"
+msgstr "ຄ່າທໍານຽມທະນາຄານ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Blocked Transactions"
+msgstr "ລາຍການທີ່ຖືກລະງັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Bonus Issue/Capitalisation Issue"
+msgstr "ການອອກຮຸ້ນປານຜົນ/ການອອກຮຸ້ນຈາກທຶນສຳຮອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Borrowing fee"
+msgstr "ຄ່າທໍານຽມການກູ້ຢືມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Branch Account Transfer"
+msgstr "ການໂອນເງິນລະຫວ່າງບັນຊີສາຂາ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Branch Deposit"
+msgstr "ການຝາກເງິນທີ່ສາຂາ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Branch Withdrawal"
+msgstr "ການຖອນເງິນທີ່ສາຂາ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Brokerage fee"
+msgstr "ຄ່າທໍານຽມນາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Buy Sell Back"
+msgstr "ສັນຍາຊື້ຄືນ (Buy Sell Back)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "CSD Blocked Transactions"
+msgstr "ລາຍການທີ່ຖືກລະງັບໂດຍ CSD"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Call on intermediate securities"
+msgstr "ການຮຽກຊໍາລະຫຼັກຊັບຊົ່ວຄາວ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Capital Gains Distribution"
+msgstr "ການປັນຜົນກໍາໄລຈາກສ່ວນຕ່າງມູນຄ່າທຶນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Deposit"
+msgstr "ການຝາກເງິນສົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Dividend"
+msgstr "ເງິນປັນຜົນເປັນເງິນສົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Letter"
+msgstr "ເອກະສານນໍາສົ່ງແຊັກ (Cash Letter)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Letter Adjustment"
+msgstr "ການປັບປຸງລາຍການ Cash Letter"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Management"
+msgstr "ການຄຸ້ມຄອງເງິນສົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Pooling"
+msgstr "ການລວມສູນເງິນສົດ (Cash Pooling)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Withdrawal"
+msgstr "ການຖອນເງິນສົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash in lieu"
+msgstr "ການຈ່າຍເງິນສົດແທນຮຸ້ນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Certified Customer Cheque"
+msgstr "ແຊັກລູກຄ້າທີ່ໄດ້ຮັບການຢັ້ງຢືນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Charge/fees"
+msgstr "ຄ່າທໍານຽມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Charges"
+msgstr "ຄ່າໃຊ້ຈ່າຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Check Number: %s"
+msgstr "ເລກທີແຊັກ: %s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque"
+msgstr "ແຊັກ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque Deposit"
+msgstr "ການຝາກແຊັກ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque Reversal"
+msgstr "ການກັບລາຍການແຊັກ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque Under Reserve"
+msgstr "ແຊັກທີ່ຢູ່ພາຍໃຕ້ການສຳຮອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Circular Cheque"
+msgstr "ແຊັກເງິນສົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Clean Collection"
+msgstr "ການຮຽກເກັບເງິນໂດຍບໍ່ມີເອກະສານປະກອບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Client Owned Collateral"
+msgstr "ຫຼັກຊັບຄໍ້າປະກັນຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Collateral Management"
+msgstr "ການຄຸ້ມຄອງຫຼັກຊັບຄໍ້າປະກັນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commission"
+msgstr "ຄ່ານາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commission excluding taxes"
+msgstr "ຄ່ານາຍໜ້າບໍ່ລວມອາກອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commission including taxes"
+msgstr "ຄ່ານາຍໜ້າລວມອາກອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commodities"
+msgstr "ສິນຄ້າໂພຄະພັນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Compensation/Claims"
+msgstr "ການຊົດເຊີຍ/ການຮຽກຮ້ອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Consumer Loans"
+msgstr "ສິນເຊື່ອລາຍຍ່ອຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Controlled Disbursement"
+msgstr "ການເບີກຈ່າຍທີ່ຖືກຄວບຄຸມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Conversion"
+msgstr "ການແລກປ່ຽນ/ການແປງສະພາບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate Action"
+msgstr "ການດໍາເນີນການຂອງບໍລິສັດ (Corporate Action)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate Own Account Transfer"
+msgstr "ການໂອນເງິນລະຫວ່າງບັນຊີຂອງບໍລິສັດເອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate Rebate"
+msgstr "ສ່ວນຫຼຸດສຳລັບບໍລິສັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate mark broker owned"
+msgstr "ເຄື່ອງໝາຍບໍລິສັດທີ່ເປັນຂອງນາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate mark client owned"
+msgstr "ເຄື່ອງໝາຍບໍລິສັດທີ່ເປັນຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Counter Party: %(partner)s"
+msgstr "ຄູ່ສັນຍາ: %(partner)s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Counter Transactions"
+msgstr "ລາຍການທຸລະກໍາທີ່ເຄົາເຕີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Adjustment"
+msgstr "ການປັບປຸງສິນເຊື່ອ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Adjustments"
+msgstr "ການປັບປຸງສິນເຊື່ອ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Card Payment"
+msgstr "ການຈ່າຍຜ່ານບັດເຄຣດິດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Transfer with agreed Commercial Information"
+msgstr "ການໂອນເງິນສິນເຊື່ອພ້ອມຂໍ້ມູນທາງການຄ້າທີ່ຕົກລົງກັນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross Trade"
+msgstr "ການຊື້ຂາຍພາຍໃນກຸ່ມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border"
+msgstr "ຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Cash Withdrawal"
+msgstr "ການຖອນເງິນສົດຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Credit Card Payment"
+msgstr "ການຈ່າຍບັດເຄຣດິດຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Direct Debit"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Intra Company Transfer"
+msgstr "ການໂອນເງິນພາຍໃນບໍລິສັດຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Payroll/Salary Payment"
+msgstr "ການຈ່າຍເງິນເດືອນຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Standing Order"
+msgstr "ລາຍການໂອນເງິນປະຈຳຂ້າມພົມແດນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Crossed Cheque"
+msgstr "ແຊັກຂີດຂ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Custody"
+msgstr "ການຝາກຮັກສາຫຼັກຊັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Custody Collection"
+msgstr "ການຮຽກເກັບເງິນຈາກການຝາກຮັກສາ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Customer Card Transactions"
+msgstr "ລາຍການທຸລະກໍາບັດຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Debit"
+msgstr "ເດບິດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Debit Adjustments"
+msgstr "ການປັບປຸງເດບິດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Decrease in Value"
+msgstr "ມູນຄ່າຫຼຸດລົງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Delivery"
+msgstr "ການສົ່ງມອບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Deposit"
+msgstr "ການຝາກເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Deposit/Contribution"
+msgstr "ການຝາກ/ການສົມທົບທຶນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Depositary Receipt Issue"
+msgstr "ການອອກໃບຮັບຝາກຫຼັກຊັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Derivatives"
+msgstr "ອະນຸພັນທາງການເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Direct Debit"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Direct Debit Payment"
+msgstr "ການຈ່າຍເງິນໂດຍການຕັດບັນຊີອັດຕະໂນມັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Direct Debit under reserve"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດພາຍໃຕ້ການສຳຮອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Discounted Draft"
+msgstr "ການຊື້ຫຼຸດຕົວເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dishonoured/Unpaid Draft"
+msgstr "ຕົວເງິນທີ່ຖືກປະຕິເສດການຈ່າຍ/ບໍ່ໄດ້ຊໍາລະ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dividend Option"
+msgstr "ທາງເລືອກໃນການຮັບເງິນປັນຜົນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dividend Reinvestment"
+msgstr "ການນໍາເງິນປັນຜົນມາລົງທຶນຄືນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Documentary Collection"
+msgstr "ການຮຽກເກັບເງິນໂດຍມີເອກະສານປະກອບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Documentary Credit"
+msgstr "ສິນເຊື່ອເອກະສານ (L/C)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Domestic Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອພາຍໃນປະເທດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Draft Maturity Change"
+msgstr "ການປ່ຽນແປງວັນຄົບກຳນົດຂອງຕົວເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Drafts/BillOfOrders"
+msgstr "ຕົວເງິນ/ໃບສັ່ງຈ່າຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Drawdown"
+msgstr "ການເບີກຖອນເງິນກູ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Drawing"
+msgstr "ການຖອນເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dutch Auction"
+msgstr "ການປະມູນແບບດັດຊ໌ (Dutch Auction)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "End to end ID: %s"
+msgstr "ລະຫັດອ້າງອີງປາຍທາງ: %s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Entry Info: %s"
+msgstr "ຂໍ້ມູນລາຍການ: %s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Equity Premium Reserve"
+msgstr "ສ່ວນເກີນມູນຄ່າຮຸ້ນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Equity mark broker owned"
+msgstr "ເຄື່ອງໝາຍຮຸ້ນທີ່ເປັນຂອງນາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Equity mark client owned"
+msgstr "ເຄື່ອງໝາຍຮຸ້ນທີ່ເປັນຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange"
+msgstr "ການແລກປ່ຽນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Rate Adjustment"
+msgstr "ການປັບປຸງອັດຕາແລກປ່ຽນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Traded"
+msgstr "ການຊື້ຂາຍໃນຕະຫຼາດຫຼັກຊັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Traded CCP"
+msgstr "ການຊື້ຂາຍຜ່ານຕົວກາງ CCP"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Traded Non-CCP"
+msgstr "ການຊື້ຂາຍທີ່ບໍ່ຜ່ານຕົວກາງ CCP"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Extended Domain"
+msgstr "ຂອບເຂດທີ່ຂະຫຍາຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "External Account Transfer"
+msgstr "ການໂອນເງິນໄປບັນຊີພາຍນອກ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Factor Update"
+msgstr "ການປັບປຸງຕົວຄູນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fees"
+msgstr "ຄ່າທໍານຽມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fees, Commission , Taxes, Charges and Interest"
+msgstr "ຄ່າທໍານຽມ, ຄ່ານາຍໜ້າ, ອາກອນ, ຄ່າໃຊ້ຈ່າຍ ແລະ ດອກເບ້ຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Final Maturity"
+msgstr "ວັນຄົບກຳນົດສຸດທ້າຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Final Payment"
+msgstr "ການຊໍາລະງວດສຸດທ້າຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Financial Institution Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອຂອງສະຖາບັນການເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Financial Institution Direct Debit Payment"
+msgstr "ການຈ່າຍເງິນຕັດບັນຊີອັດຕະໂນມັດຂອງສະຖາບັນການເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Financial Institution Own Account Transfer"
+msgstr "ການໂອນເງິນລະຫວ່າງບັນຊີຂອງສະຖາບັນການເງິນເອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fixed Deposit Interest Amount"
+msgstr "ຈໍານວນດອກເບ້ຍເງິນຝາກປະຈຳ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fixed Term Deposits"
+msgstr "ເງິນຝາກປະຈຳຕາມກຳນົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fixed Term Loans"
+msgstr "ເງິນກູ້ຢືມຕາມກຳນົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Float adjustment"
+msgstr "ການປັບປຸງຍອດເງິນລະຫວ່າງທາງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Cheque"
+msgstr "ແຊັກຕ່າງປະເທດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Cheque Under Reserve"
+msgstr "ແຊັກຕ່າງປະເທດພາຍໃຕ້ການສຳຮອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Currency Deposit"
+msgstr "ການຝາກເງິນຕາຕ່າງປະເທດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Currency Withdrawal"
+msgstr "ການຖອນເງິນຕາຕ່າງປະເທດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Exchange"
+msgstr "ການແລກປ່ຽນເງິນຕາຕ່າງປະເທດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Forwards"
+msgstr "ສັນຍາຊື້ຂາຍລ່ວງໜ້າ (Forwards)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Forwards broker owned collateral"
+msgstr "ຫຼັກຊັບຄໍ້າປະກັນສັນຍາລ່ວງໜ້າທີ່ເປັນຂອງນາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Forwards client owned collateral"
+msgstr "ຫຼັກຊັບຄໍ້າປະກັນສັນຍາລ່ວງໜ້າທີ່ເປັນຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Freeze of funds"
+msgstr "ການລະງັບເງິນໃນບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Full Call / Early Redemption"
+msgstr "ການຮຽກຄືນທັງໝົດ / ການໄຖ່ຖອນກ່ອນກຳນົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Future Variation Margin"
+msgstr "ສ່ວນຕ່າງການວາງຫຼັກປະກັນໃນອະນາຄົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Futures"
+msgstr "ສັນຍາຊື້ຂາຍລ່ວງໜ້າ (Futures)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Futures Commission"
+msgstr "ຄ່ານາຍໜ້າສັນຍາຊື້ຂາຍລ່ວງໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Futures Residual Amount"
+msgstr "ຈໍານວນເງິນຄົງຄ້າງຂອງສັນຍາຊື້ຂາຍລ່ວງໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Guarantees"
+msgstr "ການຄໍ້າປະກັນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Inspeci/Share Exchange"
+msgstr "ການແລກປ່ຽນຮຸ້ນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Instruction ID: %s"
+msgstr "ລະຫັດຄຳສັ່ງ: %s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Interest"
+msgstr "ດອກເບ້ຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Interest Payment"
+msgstr "ການຈ່າຍດອກເບ້ຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Interest Payment with Principle"
+msgstr "ການຈ່າຍດອກເບ້ຍພ້ອມຕົ້ນທຶນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Internal Account Transfer"
+msgstr "ການໂອນເງິນພາຍໃນບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Internal Book Transfer"
+msgstr "ການໂອນລາຍການພາຍໃນບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Intra Company Transfer"
+msgstr "ການໂອນເງິນພາຍໃນບໍລິສັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Invoice Accepted with Differed Due Date"
+msgstr "ໃບແຈ້ງໜີ້ທີ່ໄດ້ຮັບການຍອມຮັບພ້ອມວັນຄົບກຳນົດໃໝ່"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Cash Concentration Transactions"
+msgstr "ລາຍການລວມສູນເງິນສົດທີ່ອອກໃຫ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Cheques"
+msgstr "ແຊັກທີ່ອອກໃຫ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Credit Transfers"
+msgstr "ການໂອນເງິນສິນເຊື່ອທີ່ອອກໃຫ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Direct Debits"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດທີ່ອອກໃຫ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Real Time Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອແບບທັນທີທີ່ອອກໃຫ້"
+
+#. module: account_bank_statement_import_camt
+#: model:ir.model,name:account_bank_statement_import_camt.model_account_journal
+msgid "Journal"
+msgstr "ສະໝຸດລາຍວັນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lack"
+msgstr "ການຂາດແຄນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lending Broker Owned Cash Collateral"
+msgstr "ເງິນສົດຄໍ້າປະກັນການກູ້ຢືມທີ່ເປັນຂອງນາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lending Client Owned Cash Collateral"
+msgstr "ເງິນສົດຄໍ້າປະກັນການກູ້ຢືມທີ່ເປັນຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lending income"
+msgstr "ລາຍໄດ້ຈາກການໃຫ້ກູ້ຢືມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Liquidation Dividend / Liquidation Payment"
+msgstr "ເງິນປັນຜົນຈາກການຊໍາລະບັນຊີ / ການຈ່າຍເງິນຈາກການຍຸບເລີກກິດຈະການ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Listed Derivatives – Futures"
+msgstr "ອະນຸພັນໃນຕະຫຼາດຫຼັກຊັບ – ສັນຍາລ່ວງໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Listed Derivatives – Options"
+msgstr "ອະນຸພັນໃນຕະຫຼາດຫຼັກຊັບ – ສັນຍາສິດທິເລືອກ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Loans, Deposits & Syndications"
+msgstr "ເງິນກູ້, ເງິນຝາກ ແລະ ການໃຫ້ສິນເຊື່ອຮ່ວມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lockbox Transactions"
+msgstr "ລາຍການທຸລະກໍາຜ່ານຕູ້ຮັບເງິນ (Lockbox)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Management Fees"
+msgstr "ຄ່າທໍານຽມການຄຸ້ມຄອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Mandate ID: %s"
+msgstr "ລະຫັດໜັງສືມອບສິດ: %s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Margin Payments"
+msgstr "ການຈ່າຍເງິນປະກັນຂອບເຂດ (Margin)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Margin client owned cash collateral"
+msgstr "ເງິນສົດຄໍ້າປະກັນ Margin ຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Merchant Card Transactions"
+msgstr "ລາຍການທຸລະກໍາບັດຮ້ານຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Merger"
+msgstr "ການຄວບລວມກິດຈະການ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Credit Operations"
+msgstr "ການດໍາເນີນງານສິນເຊື່ອເບັດເຕັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Debit Operations"
+msgstr "ການດໍາເນີນງານເດບິດເບັດເຕັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Deposit"
+msgstr "ການຝາກເງິນເບັດເຕັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Securities Operations"
+msgstr "ການດໍາເນີນງານຫຼັກຊັບເບັດເຕັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Mixed Deposit"
+msgstr "ການຝາກເງິນແບບປະສົມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Mortgage Loans"
+msgstr "ສິນເຊື່ອເພື່ອທີ່ຢູ່ອາໄສ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Netting"
+msgstr "ການຫັກກົບລົບໜີ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "No exchange rate was found to convert an amount into the currency of the journal"
+msgstr "ບໍ່ພົບອັດຕາແລກປ່ຽນເພື່ອແປງຈໍານວນເງິນເປັນສະກຸນເງິນຂອງສະໝຸດລາຍວັນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Deliverable"
+msgstr "ບໍ່ສາມາດສົ່ງມອບໄດ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Settled"
+msgstr "ຍັງບໍ່ໄດ້ຊໍາລະສະສາງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Syndicated"
+msgstr "ບໍ່ແມ່ນການໃຫ້ສິນເຊື່ອຮ່ວມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Taxable commissions"
+msgstr "ຄ່ານາຍໜ້າທີ່ບໍ່ຕ້ອງເສຍອາກອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non-Presented Circular Cheque"
+msgstr "ແຊັກເງິນສົດທີ່ຍັງບໍ່ໄດ້ນໍາມາຂຶ້ນເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Not available"
+msgstr "ບໍ່ມີຂໍ້ມູນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Notice Deposits"
+msgstr "ເງິນຝາກທີ່ຕ້ອງແຈ້ງລ່ວງໜ້າກ່ອນຖອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Notice Loans"
+msgstr "ເງິນກູ້ທີ່ຕ້ອງແຈ້ງລ່ວງໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC"
+msgstr "ການຊື້ຂາຍນອກຕະຫຼາດ (OTC)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC CCP"
+msgstr "OTC ຜ່ານຕົວກາງ CCP"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Bonds"
+msgstr "ອະນຸພັນ OTC – ພັນທະບັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Credit Derivatives"
+msgstr "ອະນຸພັນ OTC – ອະນຸພັນສິນເຊື່ອ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Equity"
+msgstr "ອະນຸພັນ OTC – ຮຸ້ນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Interest Rates"
+msgstr "ອະນຸພັນ OTC – ອັດຕາດອກເບ້ຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Structured Exotic Derivatives"
+msgstr "ອະນຸພັນ OTC – ອະນຸພັນປະສົມພິເສດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Swaps"
+msgstr "ອະນຸພັນ OTC – ສັນຍາແລກປ່ຽນ (Swaps)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Non-CCP"
+msgstr "OTC ທີ່ບໍ່ຜ່ານຕົວກາງ CCP"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Odd Lot Sale/Purchase"
+msgstr "ການຊື້/ຂາຍຮຸ້ນໃນຈໍານວນທີ່ບໍ່ຄົບໜ່ວຍ (Odd Lot)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "One-Off Direct Debit"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດຄັ້ງດຽວ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Open Cheque"
+msgstr "ແຊັກບໍ່ລະບຸຊື່ຜູ້ຮັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Opening & Closing"
+msgstr "ການເປີດ ແລະ ການປິດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Option broker owned collateral"
+msgstr "ຫຼັກຊັບຄໍ້າປະກັນສັນຍາສິດທິເລືອກທີ່ເປັນຂອງນາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Option client owned collateral"
+msgstr "ຫຼັກຊັບຄໍ້າປະກັນສັນຍາສິດທິເລືອກທີ່ເປັນຂອງລູກຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Options"
+msgstr "ສັນຍາສິດທິເລືອກ (Options)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Order Cheque"
+msgstr "ແຊັກລະບຸຊື່ຜູ້ຮັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Other"
+msgstr "ອື່ນໆ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Overdraft"
+msgstr "ເງິນເບີກເກີນບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Overdraft Charge"
+msgstr "ຄ່າທໍານຽມເງິນເບີກເກີນບັນຊີ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Pair-Off"
+msgstr "ການຫັກກົບລົບລາຍການ (Pair-Off)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Partial Payment"
+msgstr "ການຊໍາລະບາງສ່ວນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Partial Redemption Without Reduction of Nominal Value"
+msgstr "ການໄຖ່ຖອນບາງສ່ວນໂດຍບໍ່ຫຼຸດມູນຄ່າທີ່ກຳນົດໄວ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Partial Redemption with reduction of nominal value"
+msgstr "ການໄຖ່ຖອນບາງສ່ວນພ້ອມຫຼຸດມູນຄ່າທີ່ກຳນົດໄວ້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Payments"
+msgstr "ການຊໍາລະເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Payroll/Salary Payment"
+msgstr "ການຈ່າຍເງິນເດືອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Placement"
+msgstr "ການນໍາເງິນໄປລົງທຶນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid ""
+"Please check the currency on your bank journal.\n"
+"No statements in currency %s were found in this CAMT file."
+msgstr ""
+"ກະລຸນາກວດສອບສະກຸນເງິນໃນສະໝຸດລາຍວັນທະນາຄານຂອງທ່ານ.\n"
+"ບໍ່ພົບລາຍການເຄື່ອນໄຫວໃນສະກຸນເງິນ %s ໃນໄຟລ໌ CAMT ນີ້."
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid ""
+"Please set the IBAN account on your bank journal.\n"
+"\n"
+"This CAMT file is targeting several IBAN accounts but none match the current journal."
+msgstr ""
+"ກະລຸນາກຳນົດເລກບັນຊີ IBAN ໃນສະໝຸດລາຍວັນທະນາຄານຂອງທ່ານ.\n"
+"\n"
+"ໄຟລ໌ CAMT ນີ້ມີຫຼາຍບັນຊີ IBAN ແຕ່ບໍ່ມີບັນຊີໃດກົງກັບສະໝຸດລາຍວັນປະຈຸບັນ."
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Point-of-Sale (POS) Payment"
+msgstr "ການຈ່າຍເງິນຜ່ານຈຸດຂາຍ (POS)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Point-of-Sale (POS) Payment - Debit Card"
+msgstr "ການຈ່າຍເງິນຜ່ານຈຸດຂາຍ (POS) - ບັດເດບິດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Portfolio Move"
+msgstr "ການເຄື່ອນໄຫວພອດການລົງທຶນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Posting Error"
+msgstr "ຂໍ້ຜິດພາດໃນການບັນທຶກລາຍການ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Pre-Authorised Direct Debit"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດທີ່ໄດ້ຮັບອະນຸຍາດລ່ວງໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Precious Metal"
+msgstr "ໂລຫະທີ່ມີຄ່າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Principal Pay-down/pay-up"
+msgstr "ການຊໍາລະຄືນຕົ້ນທຶນ/ການເພີ່ມຕົ້ນທຶນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Principal Payment"
+msgstr "ການຊໍາລະຕົ້ນທຶນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Priority Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອແບບດ່ວນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Priority Issue"
+msgstr "ການອອກຫຼັກຊັບບຸລິມະສິດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Put Redemption"
+msgstr "ການໄຖ່ຖອນສິດທິເລືອກຂາຍ (Put Redemption)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Cash Concentration Transactions"
+msgstr "ລາຍການລວມສູນເງິນສົດທີ່ໄດ້ຮັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Cheques"
+msgstr "ແຊັກທີ່ໄດ້ຮັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Credit Transfers"
+msgstr "ການໂອນເງິນສິນເຊື່ອທີ່ໄດ້ຮັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Direct Debits"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດທີ່ໄດ້ຮັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Real Time Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອແບບທັນທີທີ່ໄດ້ຮັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Redemption"
+msgstr "ການໄຖ່ຖອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Redemption Asset Allocation"
+msgstr "ການຈັດສັນຊັບສິນຈາກການໄຖ່ຖອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Redemption Withdrawing Plan"
+msgstr "ແຜນການຖອນເງິນຈາກການໄຖ່ຖອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reimbursements"
+msgstr "ການຈ່າຍຄືນ/ການຊົດເຊີຍເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Renewal"
+msgstr "ການຕໍ່ອາຍຸ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Repayment"
+msgstr "ການຊໍາລະຄືນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Repo"
+msgstr "ສັນຍາຊື້ຄືນ (Repo)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Repurchase offer/Issuer Bid/Reverse Rights."
+msgstr "ຂໍ້ສະເໜີຊື້ຄືນ/ການປະມູນໂດຍຜູ້ອອກຫຼັກຊັບ/ສິດທິຍ້ອນກັບ."
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reset Payment"
+msgstr "ຕັ້ງຄ່າການຊໍາລະໃໝ່"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Payment Cancellation Request"
+msgstr "ການກັບລາຍການເນື່ອງຈາກຄຳຮ້ອງຂໍຍົກເລີກການຊໍາລະ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Payment Return/reimbursement of a Credit Transfer"
+msgstr "ການກັບລາຍການເນື່ອງຈາກການສົ່ງຄືນ/ການຈ່າຍຄືນຂອງການໂອນເງິນສິນເຊື່ອ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Payment Reversal"
+msgstr "ການກັບລາຍການເນື່ອງຈາກການກັບລາຍການຊໍາລະ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Return/Unpaid Direct Debit"
+msgstr "ການກັບລາຍການເນື່ອງຈາກການສົ່ງຄືນ/ການບໍ່ຊໍາລະຂອງການຕັດບັນຊີອັດຕະໂນມັດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to a Payment Cancellation Request"
+msgstr "ການກັບລາຍການເນື່ອງຈາກຄຳຮ້ອງຂໍຍົກເລີກການຊໍາລະ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reverse Repo"
+msgstr "ສັນຍາຊື້ຄືນຍ້ອນກັບ (Reverse Repo)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Rights Issue/Subscription Rights/Rights Offer"
+msgstr "ການໃຫ້ສິດຈອງຊື້ຮຸ້ນໃໝ່/ສິດທິໃນການຈອງຊື້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "SEPA B2B Direct Debit"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດ SEPA B2B"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "SEPA Core Direct Debit"
+msgstr "ການຕັດບັນຊີອັດຕະໂນມັດ SEPA Core"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "SEPA Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອ SEPA"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Same Day Value Credit Transfer"
+msgstr "ການໂອນເງິນສິນເຊື່ອທີ່ມີຜົນໃນມື້ດຽວກັນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Securities"
+msgstr "ຫຼັກຊັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Securities Borrowing"
+msgstr "ການຢືມຫຼັກຊັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Securities Lending"
+msgstr "ການໃຫ້ຢືມຫຼັກຊັບ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Sell Buy Back"
+msgstr "ສັນຍາຂາຍແລ້ວຊື້ຄືນ (Sell Buy Back)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement"
+msgstr "ການຊໍາລະສະສາງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement after collection"
+msgstr "ການຊໍາລະສະສາງຫຼັງການຮຽກເກັບເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement against bank guarantee"
+msgstr "ການຊໍາລະສະສາງໂດຍມີການຄໍ້າປະກັນຈາກທະນາຄານ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement at Maturity"
+msgstr "ການຊໍາລະສະສາງເມື່ອຄົບກຳນົດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement of Sight Export document"
+msgstr "ການຊໍາລະສະສາງເອກະສານສົ່ງອອກແບບຈ່າຍທັນທີ (Sight)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement of Sight Import document"
+msgstr "ການຊໍາລະສະສາງເອກະສານນໍາເຂົ້າແບບຈ່າຍທັນທີ (Sight)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement under reserve"
+msgstr "ການຊໍາລະສະສາງພາຍໃຕ້ການສຳຮອງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Smart-Card Payment"
+msgstr "ການຈ່າຍເງິນຜ່ານບັດສະມາດກາດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Spots"
+msgstr "ການຊື້ຂາຍແບບທັນທີ (Spots)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Stamp duty"
+msgstr "ອາກອນສະແຕມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Stand-By Letter Of Credit"
+msgstr "ສິນເຊື່ອເອກະສານແບບສຳຮອງ (Stand-By L/C)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Standing Order"
+msgstr "ຄຳສັ່ງໂອນເງິນປະຈຳ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Subscription"
+msgstr "ການຈອງຊື້/ການສະໝັກສະມາຊິກ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Subscription Asset Allocation"
+msgstr "ການຈັດສັນຊັບສິນຈາກການຈອງຊື້"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Subscription Savings Plan"
+msgstr "ແຜນການອອມເງິນແບບປະຈຳ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Swap Payment"
+msgstr "ການຈ່າຍເງິນແບບແລກປ່ຽນ (Swap)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Swap broker owned collateral"
+msgstr "ຫຼັກຊັບຄໍ້າປະກັນສັນຍາແລກປ່ຽນທີ່ເປັນຂອງນາຍໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Swaps"
+msgstr "ສັນຍາແລກປ່ຽນ (Swaps)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Sweep"
+msgstr "ການໂອນກວາດເງິນ (Sweep)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Sweeping"
+msgstr "ການໂອນກວາດເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Switch"
+msgstr "ການສັບປ່ຽນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Syndicated"
+msgstr "ການໃຫ້ສິນເຊື່ອຮ່ວມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Syndications"
+msgstr "ການໃຫ້ສິນເຊື່ອຮ່ວມ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "TBA closing"
+msgstr "ການປິດລາຍການ TBA"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Tax Reclaim"
+msgstr "ການຂໍຄືນອາກອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Taxes"
+msgstr "ອາກອນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Tender"
+msgstr "ການປະມູນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Topping"
+msgstr "ການເຕີມເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Trade"
+msgstr "ການຊື້ຂາຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Trade Services"
+msgstr "ການບໍລິການດ້ານການຄ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Trade, Clearing and Settlement"
+msgstr "ການຊື້ຂາຍ, ການຊໍາລະບັນຊີ ແລະ ການຊໍາລະສະສາງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Transaction Fees"
+msgstr "ຄ່າທໍານຽມທຸລະກໍາ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Transaction ID: %s"
+msgstr "ລະຫັດທຸລະກໍາ: %s"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Transfer In"
+msgstr "ໂອນເຂົ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Transfer Out"
+msgstr "ໂອນອອກ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Travellers Cheques Deposit"
+msgstr "ການຝາກແຊັກເດີນທາງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Travellers Cheques Withdrawal"
+msgstr "ການຖອນແຊັກເດີນທາງ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Treasury Tax And Loan Service"
+msgstr "ບໍລິການດ້ານພາສີ ແລະ ເງິນກູ້ຂອງຄັງເງິນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Triparty Repo"
+msgstr "ສັນຍາຊື້ຄືນແບບສາມຝ່າຍ (Triparty Repo)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Triparty Reverse Repo"
+msgstr "ສັນຍາຊື້ຄືນຍ້ອນກັບແບບສາມຝ່າຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Turnaround"
+msgstr "ການໝູນວຽນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Underwriting Commission"
+msgstr "ຄ່ານາຍໜ້າໃນການຮັບປະກັນການຈໍາໜ່າຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Unpaid Card Transaction"
+msgstr "ລາຍການທຸລະກໍາບັດທີ່ບໍ່ໄດ້ຊໍາລະ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Unpaid Cheque"
+msgstr "ແຊັກທີ່ບໍ່ໄດ້ຊໍາລະ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Unpaid Foreign Cheque"
+msgstr "ແຊັກຕ່າງປະເທດທີ່ບໍ່ໄດ້ຊໍາລະ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Upfront Payment"
+msgstr "ການຈ່າຍເງິນລ່ວງໜ້າ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Value Date"
+msgstr "ວັນທີທີ່ມີຜົນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Warrant Exercise/Warrant Conversion"
+msgstr "ການໃຊ້ສິດ/ການແປງສະພາບໃບສຳຄັນສະແດງສິດ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Withdrawal/distribution"
+msgstr "ການຖອນ/ການປັນສ່ວນ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Withholding Tax"
+msgstr "ອາກອນຫັກໄວ້ບ່ອນຈ່າຍ"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "YTD Adjustment"
+msgstr "ການປັບປຸງສະສົມຕັ້ງແຕ່ຕົ້ນປີ (YTD)"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Zero Balancing"
+msgstr "ການປັບສົມດຸນໃຫ້ເປັນສູນ"

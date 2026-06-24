@@ -1,0 +1,2406 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* marketing_automation
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-12 17:41+0000\n"
+"PO-Revision-Date: 2025-10-08 18:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "\" <strong>bounced</strong>,"
+msgstr "\" <strong>qaytarildi</strong>,"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "\" did <strong>not receive a reply</strong>,"
+msgstr "\" <strong>javob kelmadi</strong>,"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "\" gets clicked,"
+msgstr "\" bosildi,"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "\" was <strong>not opened</strong>,"
+msgstr "\" <strong>ochilmadi</strong>,"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__link_tracker_click_count
+#, fuzzy
+msgid "# Clicks"
+msgstr "# Bosishlar soni"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mailing_filter_count
+#, fuzzy
+msgid "# Favorite Filters"
+msgstr "# Sevimli filtrlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mass_mailing_count
+#, fuzzy
+msgid "# Mailings"
+msgstr "# Xat yuborishlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__total_participant_count
+#, fuzzy
+msgid "# of active and completed participants"
+msgstr "# faol va yakunlangan ishtirokchilar soni"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__running_participant_count
+#, fuzzy
+msgid "# of active participants"
+msgstr "# faol ishtirokchilar soni"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__completed_participant_count
+#, fuzzy
+msgid "# of completed participants"
+msgstr "# yakunlangan ishtirokchilar soni"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__test_participant_count
+#, fuzzy
+msgid "# of test participants"
+msgstr "# sinov ishtirokchilari soni"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "<br/>This activity will be"
+msgstr "<br/>Bu faoliyat bo‘ladi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-check-circle\"/> Bounced"
+msgstr "<i class=\"fa fa-check-circle\"/> Qaytarildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-check-circle\"/> Clicked"
+msgstr "<i class=\"fa fa-check-circle\"/> Bosildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-check-circle\"/> Opened"
+msgstr "<i class=\"fa fa-check-circle\"/> Ochildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-check-circle\"/> Replied"
+msgstr "<i class=\"fa fa-check-circle\"/> Javob berildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-clock-o pe-1\" role=\"img\" aria-label=\"Select time\" "
+"title=\"Select time\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o pe-1\" role=\"img\" aria-label=\"Select time\" "
+"title=\"Select time\"/>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-envelope-open-o\"/> Not opened within"
+msgstr "<i class=\"fa fa-envelope-open-o\"/> Ichida ochilmadi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-envelope-open-o\"/> Opened after"
+msgstr "<i class=\"fa fa-envelope-open-o\"/> Keyin ochildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-exclamation-circle\"/> Bounced after"
+msgstr "<i class=\"fa fa-exclamation-circle\"/> Keyin qaytarildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-hand-pointer-o\"/> Clicked after"
+msgstr "<i class=\"fa fa-hand-pointer-o\"/> Keyin bosildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-hand-pointer-o\"/> Not clicked within"
+msgstr "<i class=\"fa fa-hand-pointer-o\"/> Ichida bosilmadi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-pie-chart\"/> Details"
+msgstr "<i class=\"fa fa-pie-chart\"/> Tafsilotlar"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-plus-circle\"/> Add child activity"
+msgstr "<i class=\"fa fa-plus-circle\"/> Qo‘shimcha faoliyat qo‘shish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-reply\"/> Not replied within"
+msgstr "<i class=\"fa fa-reply\"/> Ichida javob berilmadi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<i class=\"fa fa-reply\"/> Replied after"
+msgstr "<i class=\"fa fa-reply\"/> Keyin javob berildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid ""
+"<i data-trigger-type=\"activity\" class=\"fa fa-code-fork fa-rotate-180 fa-"
+"flip-vertical o_ma_text_processed o_add_child_activity text-success\" "
+"title=\"Add Another Activity\" role=\"img\" aria-label=\"Add Another "
+"Activity\"/>"
+msgstr ""
+"<i data-trigger-type=\"activity\" class=\"fa fa-code-fork fa-rotate-180 fa-"
+"flip-vertical o_ma_text_processed o_add_child_activity text-success\" "
+"title=\"Boshqa faoliyat qo‘shish\" role=\"img\" aria-label=\"Boshqa faoliyat "
+"qo‘shish\"/>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "<span class=\"d-inline-block w-25\">after</span>"
+msgstr "<span class=\"d-inline-block w-25\">keyin</span>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "<span class=\"o_form_label\">Record</span>"
+msgstr "<span class=\"o_form_label\">Yozuv</span>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid ""
+"<span role=\"img\" title=\"Graph\" aria-label=\"Graph\" "
+"class=\"o_ma_activity_tab active\" data-tab-type=\"graph\">\n"
+"                                                            <i class=\"fa fa-"
+"pie-chart\"/>\n"
+"                                                        </span>\n"
+"                                                        <span "
+"title=\"Filter\" role=\"img\" aria-label=\"Filter\" "
+"class=\"o_ma_activity_tab\" data-tab-type=\"filter\">\n"
+"                                                            <i class=\"fa fa-"
+"filter\"/>\n"
+"                                                        </span>"
+msgstr ""
+"<span role=\"img\" title=\"Graph\" aria-label=\"Graph\" "
+"class=\"o_ma_activity_tab active\" data-tab-type=\"graph\"> <i class=\"fa fa-"
+"pie-chart\"/> </span> <span title=\"Filter\" role=\"img\" aria-"
+"label=\"Filter\" class=\"o_ma_activity_tab\" data-tab-type=\"filter\"> <i "
+"class=\"fa fa-filter\"/> </span>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_kanban
+#, fuzzy
+msgid "<span>Completed</span>"
+msgstr "<span>Tugallandi</span>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_kanban
+#, fuzzy
+msgid "<span>Running</span>"
+msgstr "<span>Davom etmoqda</span>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_kanban
+#, fuzzy
+msgid "<span>Total</span>"
+msgstr "<span>Jami</span>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid ""
+"<strong>Summary</strong><br/>\n"
+"            Starting from"
+msgstr "<strong>Qisqacha ma'lumot</strong><br/> Boshlanish sanasi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "<strong>The workflow has been modified!</strong>"
+msgstr "<strong>Ish jarayoni o‘zgartirildi!</strong>"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_winner_mailing_id
+#, fuzzy
+msgid "A/B Campaign Winner Mailing"
+msgstr "A/B kampaniya g‘olibi xati"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_mailings_count
+#, fuzzy
+msgid "A/B Test Mailings #"
+msgstr "A/B sinov xatlari #"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_completed
+#, fuzzy
+msgid "A/B Testing Campaign Finished"
+msgstr "A/B sinovli kampaniya yakunlandi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__trace_ids
+#, fuzzy
+msgid "Actions"
+msgstr "Amallar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__active
+#, fuzzy
+msgid "Active"
+msgstr "Faol"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__marketing_activity_ids
+#: model_terms:ir.ui.view,arch_db:marketing_automation.mailing_mailing_view_form_marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.mailing_mailing_view_tree_marketing_automation
+#, fuzzy
+msgid "Activities"
+msgstr "Faoliyatlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__parent_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__activity_id
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Activity"
+msgstr "Faoliyat"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__activity_domain
+#, fuzzy
+msgid "Activity Filter"
+msgstr "Faoliyat filtri"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Activity Name"
+msgstr "Faoliyat nomi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__activity_summary
+#, fuzzy
+msgid "Activity Summary"
+msgstr "Faoliyat qisqacha tavsifi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__activity_type
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__activity_type
+#, fuzzy
+msgid "Activity Type"
+msgstr "Faoliyat turi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_activity__domain
+#, fuzzy
+msgid ""
+"Activity will only be performed if record satisfies this domain, obtained "
+"from the combination of the activity filter and its inherited filter"
+msgstr ""
+"Faoliyat faqat yozuv ushbu domenga mos kelganda amalga oshiriladi. Domen "
+"faoliyat filtri va uning meros qilib olingan filtri kombinatsiyasidan olinadi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Add Hot Category"
+msgstr "Muhim turkum qo‘shish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Add Tag"
+msgstr "Teg qo‘shish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Add To Confirmed List"
+msgstr "Tasdiqlangan ro‘yxatga qo‘shish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Add new activity"
+msgstr "Yangi faoliyat qo‘shish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Add to list"
+msgstr "Ro‘yxatga qo‘shish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "After 7 days"
+msgstr "7 kundan so‘ng"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_activity__allowed_parent_ids
+#, fuzzy
+msgid "All activities which can be the parent of this one"
+msgstr "Ushbu faoliyatning ota-onasi bo‘la oladigan barcha faoliyatlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__social_post_ids
+#, fuzzy
+msgid "All related social media posts"
+msgstr "Barcha tegishli ijtimoiy tarmoq postlari"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__allowed_parent_ids
+#, fuzzy
+msgid "Allowed parents"
+msgstr "Ruxsat etilgan ota-onalar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__is_auto_campaign
+#, fuzzy
+msgid "Allows us to filter relevant Campaigns"
+msgstr "Tegishli kampaniyalarni saralash imkonini beradi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/wizard/marketing_campaign_test.py:0
+#, fuzzy
+msgid "Another test has been launched for this participant"
+msgstr "Bu ishtirokchi uchun yangi sinov boshlandi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__domain
+#, fuzzy
+msgid "Applied Filter"
+msgstr "Qo‘llanilgan filtr"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
+#, fuzzy
+msgid "Archived"
+msgstr "Arxivlangan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid ""
+"Are you sure you want to create a new participant for each matching record "
+"that has not been used yet?"
+msgstr ""
+"Hali foydalanilmagan har bir mos yozuv uchun yangi ishtirokchi "
+"yaratmoqchimisiz?"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__is_auto_campaign
+#, fuzzy
+msgid "Automatically Generated Campaign"
+msgstr "Avtomatik yaratilgan kampaniya"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid ""
+"Be aware that participants that had no more activities could be reintroduced "
+"into the campaign and new traces could be created for them."
+msgstr ""
+"E'tibor bering, boshqa faoliyati bo‘lmagan ishtirokchilar kampaniyaga qayta "
+"kiritilishi va ular uchun yangi izlar yaratilishi mumkin"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Blacklist Bounces"
+msgstr "Qaytgan xatlarni qora ro‘yxatga kiritish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Blacklist record"
+msgstr "Yozuvni qora ro‘yxatga kiritish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Bounced"
+msgstr "Qaytgan"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__bounced_ratio
+#, fuzzy
+msgid "Bounced Ratio"
+msgstr "Qaytish nisbati"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__campaign_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__campaign_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__campaign_id
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_tree
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#, fuzzy
+msgid "Campaign"
+msgstr "Kampaniya"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__name
+#, fuzzy
+msgid "Campaign Identifier"
+msgstr "Kampaniya identifikatori"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__title
+#, fuzzy
+msgid "Campaign Name"
+msgstr "Kampaniya nomi"
+
+#. module: marketing_automation
+#: model:ir.actions.act_window,name:marketing_automation.marketing_campaign_action
+#: model:ir.ui.menu,name:marketing_automation.marketing_campaign_menu
+#, fuzzy
+msgid "Campaigns"
+msgstr "Kampaniyalar"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_test_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Cancel after"
+msgstr "dan keyin bekor qilish"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_trace__state__canceled
+#, fuzzy
+msgid "Cancelled"
+msgstr "Bekor qilindi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Check Bounce Contact"
+msgstr "Qaytgan aloqani tekshirish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Check Email Address"
+msgstr "Elektron pochta manzilini tekshirish"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_activity__validity_duration
+#, fuzzy
+msgid ""
+"Check this to make sure your actions are not executed after a specific "
+"amount of time after the scheduled date. (e.g. Time-limited offer, Upcoming "
+"event, …)"
+msgstr ""
+"Amallaringiz belgilangan sanadan keyin muayyan vaqt o‘tgach bajarilmasligini "
+"tekshiring (masalan, vaqti cheklangan taklif, yaqinlashayotgan tadbir va "
+"h.k.) (mas."
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__child_ids
+#, fuzzy
+msgid "Child Activities"
+msgstr "Bolalar faoliyati"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Clicked"
+msgstr "Bosilgan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_tree
+#, fuzzy
+msgid "Clicks"
+msgstr "Bosishlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__color
+#, fuzzy
+msgid "Color Index"
+msgstr "Rang indeksi"
+
+#. module: marketing_automation
+#: model_terms:ir.actions.act_window,help:marketing_automation.marketing_participants_action_reporting
+#, fuzzy
+msgid ""
+"Come back later once your campaigns are running to overview your "
+"participants."
+msgstr ""
+"Ishtirokchilaringizni ko‘rish uchun kampaniyalaringiz ishga tushgandan so‘ng "
+"qaytib keling"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Commercial prospection"
+msgstr "Tijorat istiqboli"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_participant__state__completed
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_search
+#, fuzzy
+msgid "Completed"
+msgstr "Yakunlandi"
+
+#. module: marketing_automation
+#: model:ir.ui.menu,name:marketing_automation.marketing_automation_menu_configuration
+#, fuzzy
+msgid "Configuration"
+msgstr "Konfiguratsiya"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Confirmation"
+msgstr "Tasdiqlash"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Confirmed contacts"
+msgstr "Tasdiqlangan kontaktlar"
+
+#. module: marketing_automation
+#. odoo-javascript
+#: code:addons/marketing_automation/static/src/components/campaign_template_picker_dialog/campaign_template_picker_dialog.xml:0
+#, fuzzy
+msgid "Create Campaign"
+msgstr "Kampaniya yaratish"
+
+#. module: marketing_automation
+#: model_terms:ir.actions.act_window,help:marketing_automation.marketing_campaign_action
+#, fuzzy
+msgid "Create a Campaign"
+msgstr "Kampaniya yaratish"
+
+#. module: marketing_automation
+#. odoo-javascript
+#: code:addons/marketing_automation/static/src/components/campaign_template_picker_dialog/campaign_template_picker_dialog.xml:0
+#, fuzzy
+msgid "Create a Marketing Automation Campaign"
+msgstr "Marketing avtomatlashtirish kampaniyasini yaratish"
+
+#. module: marketing_automation
+#. odoo-javascript
+#: code:addons/marketing_automation/static/src/components/campaign_template_picker_dialog/campaign_template_picker_dialog.xml:0
+#, fuzzy
+msgid "Create one or load a template prepared by our experts."
+msgstr ""
+"Yangi kampaniya yarating yoki mutaxassislarimiz tomonidan tayyorlangan "
+"andozani yuklang."
+
+#. module: marketing_automation
+#: model_terms:ir.actions.act_window,help:marketing_automation.marketing_campaign_action
+#, fuzzy
+msgid ""
+"Create one or load a template prepared by our experts.<br>\n"
+"                            Then sit down and let Odoo handle the rest!"
+msgstr ""
+"Yangi kampaniya yarating yoki mutaxassislarimiz tomonidan tayyorlangan "
+"andozani yuklang.<br> So‘ng o‘tiring va qolganini Odoo bajara qolsin!"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__create_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__create_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__create_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__create_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__create_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__create_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__create_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__create_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__ab_testing_schedule_datetime
+#, fuzzy
+msgid ""
+"Date that will be used to know when to determine and send the winner mailing"
+msgstr ""
+"G‘olib xatni aniqlash va yuborish vaqtini belgilash uchun foydalaniladigan "
+"sana"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__interval_type__days
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__validity_duration_type__days
+#, fuzzy
+msgid "Days"
+msgstr "Kunlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__interval_type
+#, fuzzy
+msgid "Delay Type"
+msgstr "Kechikish turi"
+
+#. module: marketing_automation
+#. odoo-javascript
+#: code:addons/marketing_automation/static/src/js/marketing_automation_one2many.js:0
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Delete"
+msgstr "O‘chirish"
+
+#. module: marketing_automation
+#. odoo-javascript
+#: code:addons/marketing_automation/static/src/js/marketing_automation_one2many.js:0
+#, fuzzy
+msgid ""
+"Deleting this activity will delete ALL its children activities. Are you sure?"
+msgstr ""
+"Ushbu faoliyatni o‘chirish uning BARCHA quyi faoliyatlarini ham o‘chiradi. "
+"Ishonchingiz komilmi?"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Design your own marketing campaign from the ground up."
+msgstr "O‘z marketing kampaniyangizni noldan ishlab chiqing."
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__child_ids
+#, fuzzy
+msgid "Direct child traces"
+msgstr "Bevosita quyi izlar"
+
+#. module: marketing_automation
+#. odoo-javascript
+#: code:addons/marketing_automation/static/src/components/campaign_template_picker_dialog/campaign_template_picker_dialog.xml:0
+#, fuzzy
+msgid "Discard"
+msgstr "Bekor qilish"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_mail_compose_message__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_mailing__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_trace__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_trace_report__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_utm_campaign__display_name
+#: model:ir.model.fields,field_description:marketing_automation.field_utm_source__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__res_id
+#, fuzzy
+msgid "Document ID"
+msgstr "Hujjat ID raqami"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Domain"
+msgstr "Domen"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_activity__activity_domain
+#, fuzzy
+msgid "Domain that applies to this activity and its child activities"
+msgstr "Ushbu faoliyat va uning quyi faoliyatlariga tegishli domen"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Don't update"
+msgstr "Yangilanmasin"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Double Opt-in"
+msgstr "Ikki bosqichli obuna"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__activity_type__email
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__mass_mailing_id_mailing_type__mail
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Email"
+msgstr "Elektron pochta"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Email cancelled"
+msgstr "Elektron xat bekor qilindi"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_mail_compose_message
+#, fuzzy
+msgid "Email composition wizard"
+msgstr "Elektron xat yozish yordamchisi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Email failed"
+msgstr "Elektron xat yuborilmadi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_trace__state__error
+#, fuzzy
+msgid "Error"
+msgstr "Xato"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__state_msg
+#, fuzzy
+msgid "Error message"
+msgstr "Xato xabari"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Error! You can't create recursive hierarchy of Activity."
+msgstr "Xato! Faoliyatning rekursiv ierarxiyasini yarata olmaysiz."
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+msgid "Error! You can't modify the hierarchy of an active Activity."
+msgstr ""
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Exception in mass mailing: %s"
+msgstr "Ommaviy xat yuborishdagi istisno: %s"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Exception in server action: %s"
+msgstr "Server amaliyotidagi istisno: %s"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_search
+#, fuzzy
+msgid "Exclude Test"
+msgstr "Sinovni chiqarib tashlash"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Expiry Duration"
+msgstr "Amal qilish muddati"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mailing_filter_id
+#, fuzzy
+msgid "Favorite Filter"
+msgstr "Sevimli filtr"
+
+#. module: marketing_automation
+#: model:ir.ui.menu,name:marketing_automation.mailing_filter_menu_action_marketing_automaion
+#, fuzzy
+msgid "Favorite Filters"
+msgstr "Sevimli filtrlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mailing_filter_domain
+#, fuzzy
+msgid "Favorite filter domain"
+msgstr "Sevimli filtr domeni"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__domain
+#, fuzzy
+msgid "Filter"
+msgstr "Filtr"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Generate Participants"
+msgstr "Ishtirokchilarni yaratish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Generate participants"
+msgstr "Ishtirokchilarni yaratish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Get 10% OFF"
+msgstr "10% chegirma oling"
+
+#. module: marketing_automation
+#: model_terms:ir.actions.act_window,help:marketing_automation.marketing_trace_action
+#, fuzzy
+msgid ""
+"Here you will be able to check the results of your mailings from all "
+"Marketing Automation Campaigns."
+msgstr ""
+"Bu yerda siz barcha Marketing avtomatlashtirish kampaniyalaridagi xat "
+"yuborishlaringiz natijalarini tekshirishingiz mumkin bo‘ladi."
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Hot"
+msgstr "Qizg‘in"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__interval_type__hours
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__validity_duration_type__hours
+#, fuzzy
+msgid "Hours"
+msgstr "Soatlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_mail_compose_message__id
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_mailing__id
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_trace__id
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_trace_report__id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__id
+#: model:ir.model.fields,field_description:marketing_automation.field_utm_campaign__id
+#: model:ir.model.fields,field_description:marketing_automation.field_utm_source__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__is_mailing_campaign_activated
+#, fuzzy
+msgid "Is Mailing Campaign Activated"
+msgstr "Xat yuborish kampaniyasi faollashtirilganmi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "It will be generated automatically once you save this record."
+msgstr "Bu yozuvni saqlaganingizdan so‘ng avtomatik ravishda yaratiladi."
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Join partnership!"
+msgstr "Hamkorlikka qo‘shiling!"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__write_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__write_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__write_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__write_uid
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__write_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__write_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__write_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__write_date
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilanish sanasi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__last_sync_date
+#, fuzzy
+msgid "Last activities synchronization"
+msgstr "So‘nggi faoliyatlar sinxronizatsiyasi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_test_view_form
+#, fuzzy
+msgid "Launch"
+msgstr "Ishga tushirish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/wizard/marketing_campaign_test.py:0
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Launch a Test"
+msgstr "Sinovni boshlash"
+
+#. module: marketing_automation
+#: model:ir.actions.act_window,name:marketing_automation.marketing_campaign_test_action
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_test_view_form
+#, fuzzy
+msgid "Launch a test"
+msgstr "Sinovni boshlash"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__crm_lead_count
+#, fuzzy
+msgid "Leads/Opportunities count"
+msgstr "Mijozlar/imkoniyatlar soni"
+
+#. module: marketing_automation
+#: model:ir.actions.act_window,name:marketing_automation.link_tracker_action_marketing_campaign
+#, fuzzy
+msgid "Link Statistics"
+msgstr "Havola statistikasi"
+
+#. module: marketing_automation
+#: model:ir.ui.menu,name:marketing_automation.link_tracker_menu_reporting_marketing_automation
+#, fuzzy
+msgid "Link Tracker"
+msgstr "Havola kuzatuvchisi"
+
+#. module: marketing_automation
+#: model_terms:ir.actions.act_window,help:marketing_automation.link_tracker_action_marketing_campaign
+#, fuzzy
+msgid ""
+"Link Trackers are created when mailings with links are sent to track how "
+"many clicks they get."
+msgstr ""
+"Havola kuzatuvchilari havolali xatlar yuborilganda yaratiladi va ularning "
+"necha marta bosilganligini kuzatib boradi."
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__links_click_datetime
+#, fuzzy
+msgid "Links Click Datetime"
+msgstr "Havolaga bosish vaqti"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_category__email
+#, fuzzy
+msgid "Mail"
+msgstr "Xat"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.mailing_mailing_view_form_marketing_automation
+#, fuzzy
+msgid "Mail Body"
+msgstr "Xat matni"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Mail Template"
+msgstr "Xat shabloni"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__mail_bounce
+#, fuzzy
+msgid "Mail: bounced"
+msgstr "Xat: qaytarildi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__mail_click
+#, fuzzy
+msgid "Mail: clicked"
+msgstr "Xat: bosildi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__mail_not_click
+#, fuzzy
+msgid "Mail: not clicked"
+msgstr "Xat: bosilmadi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__mail_not_open
+#, fuzzy
+msgid "Mail: not opened"
+msgstr "Xat: ochilmadi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__mail_not_reply
+#, fuzzy
+msgid "Mail: not replied"
+msgstr "Xat: javob berilmadi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__mail_open
+#, fuzzy
+msgid "Mail: opened"
+msgstr "Xat: ochildi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__mail_reply
+#, fuzzy
+msgid "Mail: replied"
+msgstr "Xat: javob berildi"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_mailing_trace
+#, fuzzy
+msgid "Mailing Statistics"
+msgstr "Xat yuborish statistikasi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__mass_mailing_id_mailing_type
+#, fuzzy
+msgid "Mailing Type"
+msgstr "Xat yuborish turi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_tree
+#, fuzzy
+msgid "Mailings"
+msgstr "Xat yuborishlari"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/mailing_mailing.py:0
+#, fuzzy
+msgid ""
+"Mailings %(mailing_names)s are used in marketing campaigns. You should take "
+"care of this before unlinking the mailings."
+msgstr ""
+"%(mailing_names)s xat yuborishlari marketing kampaniyalarida qo‘llaniladi. "
+"Xat yuborishlarni o‘chirishdan oldin buni hisobga olishingiz kerak."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Mails sent and not bounced"
+msgstr "Yuborilgan va qaytarilmagan xatlar"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_trace.py:0
+#, fuzzy
+msgid "Manually"
+msgstr "Qo‘lda"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_participant.py:0
+#, fuzzy
+msgid "Marked as completed"
+msgstr "Bajarilgan deb belgilandi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Marketing"
+msgstr "Marketing"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_mailing__marketing_activity_ids
+#, fuzzy
+msgid "Marketing Activities"
+msgstr "Marketing faoliyatlari"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_marketing_activity
+#: model:ir.model.fields,field_description:marketing_automation.field_mail_compose_message__marketing_activity_id
+#, fuzzy
+msgid "Marketing Activity"
+msgstr "Marketing faoliyati"
+
+#. module: marketing_automation
+#: model:ir.ui.menu,name:marketing_automation.marketing_automation_menu
+#: model:res.groups.privilege,name:marketing_automation.res_groups_privilege_automation
+#, fuzzy
+msgid "Marketing Automation"
+msgstr "Marketing avtomatizatsiyasi"
+
+#. module: marketing_automation
+#: model:ir.actions.act_window,name:marketing_automation.mail_mass_mailing_action_marketing_automation
+#: model:ir.actions.act_window,name:marketing_automation.mailing_mailing_action_view_form
+#, fuzzy
+msgid "Marketing Automation Mailings"
+msgstr "Marketing avtomatizatsiyasi xat yuborishlari"
+
+#. module: marketing_automation
+#: model:ir.actions.server,name:marketing_automation.ir_cron_campaign_execute_activities_ir_actions_server
+#, fuzzy
+msgid "Marketing Automation: execute activities"
+msgstr "Marketing avtomatizatsiyasi: faoliyatlarni bajarish"
+
+#. module: marketing_automation
+#: model:ir.actions.server,name:marketing_automation.ir_cron_campaign_sync_participants_ir_actions_server
+#, fuzzy
+msgid "Marketing Automation: sync participants"
+msgstr "Marketing avtomatizatsiyasi: ishtirokchilarni sinxronlash"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_marketing_campaign
+#, fuzzy
+msgid "Marketing Campaign"
+msgstr "Marketing kampaniyasi"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_marketing_campaign_test
+#, fuzzy
+msgid "Marketing Campaign: Launch a Test"
+msgstr "Marketing kampaniyasi: Sinovni boshlash"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_marketing_participant
+#, fuzzy
+msgid "Marketing Participant"
+msgstr "Marketing ishtirokchisi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__mass_mailing_id
+#, fuzzy
+msgid "Marketing Template"
+msgstr "Marketing shabloni"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_marketing_trace
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_trace__marketing_trace_id
+#, fuzzy
+msgid "Marketing Trace"
+msgstr "Marketing kuzatuvi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_mailing_mailing__use_in_marketing_automation
+#, fuzzy
+msgid ""
+"Marketing campaigns use mass mailings with some specific behavior; this "
+"field is used to indicate its statistics may be suspicious."
+msgstr ""
+"Marketing kampaniyalari o‘ziga xos xususiyatlarga ega ommaviy xat "
+"yuborishlardan foydalanadi; bu maydon uning statistikasi shubhali bo‘lishi "
+"mumkinligini ko‘rsatish uchun ishlatiladi."
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_mailing_mailing
+#, fuzzy
+msgid "Mass Mailing"
+msgstr "Ommaviy xat yuborish"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_mailing_trace_report
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_form
+#, fuzzy
+msgid "Mass Mailing Statistics"
+msgstr "Ommaviy xat yuborish statistikasi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mailing_mail_ids
+#, fuzzy
+msgid "Mass Mailings"
+msgstr "Ommaviy xat yuborishlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__mailing_trace_ids
+#, fuzzy
+msgid "Mass mailing statistics"
+msgstr "Ommaviy xat yuborish statistikasi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Message for sales person"
+msgstr "Sotuvchi uchun xabar"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Misc"
+msgstr "Boshqa"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__model_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__model_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__model_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__model_id
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#, fuzzy
+msgid "Model"
+msgstr "Model"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.ir_model_view_tree_marketing
+#, fuzzy
+msgid "Model Description"
+msgstr "Model tavsifi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__model_name
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__model_name
+#, fuzzy
+msgid "Model Name"
+msgstr "Model nomi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__interval_type__months
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__validity_duration_type__months
+#, fuzzy
+msgid "Months"
+msgstr "Oylar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__name
+#, fuzzy
+msgid "Name"
+msgstr "Nomi"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_campaign__state__draft
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
+#, fuzzy
+msgid "New"
+msgstr "Yangi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Next activity: Check Email Address"
+msgstr "Keyingi faoliyat: Elektron pochta manzilini tekshirish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "No activity"
+msgstr "Faoliyat yo‘q"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "No activity for this campaign."
+msgstr "Bu kampaniya uchun hech qanday faoliyat yo‘q."
+
+#. module: marketing_automation
+#: model_terms:ir.actions.act_window,help:marketing_automation.link_tracker_action_marketing_campaign
+#: model_terms:ir.actions.act_window,help:marketing_automation.marketing_participants_action_reporting
+#: model_terms:ir.actions.act_window,help:marketing_automation.marketing_trace_action
+#, fuzzy
+msgid "No data yet!"
+msgstr "Hali ma'lumot yo‘q!"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Not Clicked"
+msgstr "Bosilmagan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Not Opened"
+msgstr "Ochilmagan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Not Replied"
+msgstr "Javob berilmagan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Not bounced yet"
+msgstr "Hali qaytarilmagan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Not clicked yet"
+msgstr "Hali bosilmagan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Not opened yet"
+msgstr "Hali ochilmagan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Not replied yet"
+msgstr "Hali javob berilmagan"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mailing_mail_count
+#, fuzzy
+msgid "Number of Mass Mailing"
+msgstr "Ommaviy xat jo‘natmalar soni"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__click_count
+#, fuzzy
+msgid "Number of clicks generated by the campaign"
+msgstr "Kampaniya orqali yaratilgan bosishlar soni"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__social_engagement
+#, fuzzy
+msgid ""
+"Number of interactions (likes, shares, comments ...) with the social posts"
+msgstr ""
+"Ijtimoiy nashrlar bilan o‘zaro ta'sirlar soni (yoqtirishlar, ulashishlar, "
+"sharhlar...)"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Offer free catalog"
+msgstr "Bepul katalog taklif qilish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/mailing_mailing.py:0
+msgid ""
+"Oops! You can't retry sending emails from inside a Marketing Automation "
+"campaign."
+msgstr ""
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Opened"
+msgstr "Ochilgan"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__opened_ratio
+#, fuzzy
+msgid "Opened Ratio"
+msgstr "Ochilish nisbati"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Other activity"
+msgstr "Boshqa faoliyat"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__parent_id
+#, fuzzy
+msgid "Parent"
+msgstr "Asosiy"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_trace.py:0
+#, fuzzy
+msgid "Parent activity mail bounced"
+msgstr "Asosiy faoliyat xati qaytarildi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_trace.py:0
+#, fuzzy
+msgid "Parent activity mail clicked"
+msgstr "Asosiy faoliyat xati bosildi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_trace.py:0
+#, fuzzy
+msgid "Parent activity mail opened"
+msgstr "Asosiy faoliyat xati ochildi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_trace.py:0
+#, fuzzy
+msgid "Parent activity mail replied"
+msgstr "Asosiy faoliyat xatiga javob berildi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__participant_id
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_tree
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_form
+#, fuzzy
+msgid "Participant"
+msgstr "Ishtirokchi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_tree
+#, fuzzy
+msgid "Participant Name"
+msgstr "Ishtirokchi nomi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_graph
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_pivot
+#, fuzzy
+msgid "Participant summary"
+msgstr "Ishtirokchilar xulosasi"
+
+#. module: marketing_automation
+#: model:ir.actions.act_window,name:marketing_automation.marketing_participant_action_campaign
+#: model:ir.actions.act_window,name:marketing_automation.marketing_participant_action_campaign_test
+#: model:ir.actions.act_window,name:marketing_automation.marketing_participants_action_mail
+#: model:ir.actions.act_window,name:marketing_automation.marketing_participants_action_reporting
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__participant_ids
+#: model:ir.ui.menu,name:marketing_automation.marketing_participants_menu
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_tree
+#, fuzzy
+msgid "Participants"
+msgstr "Ishtirokchilar"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Participants of %(activity)s (%(filter)s)"
+msgstr "%(activity)s ishtirokchilari (%(filter)s)"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Pick a Server Action..."
+msgstr "Server amalini tanlang..."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Pick a record..."
+msgstr "Yozuvni tanlang..."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Pick or Create a Template..."
+msgstr "Andoza tanlang yoki yarating..."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_test_view_form
+#, fuzzy
+msgid "Pick or create a/an"
+msgstr "Tanlang yoki yarating"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__processed
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_trace__state__processed
+#, fuzzy
+msgid "Processed"
+msgstr "Qayta ishlangan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "REJECTED"
+msgstr "RAD ETILDI"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__received_ratio
+#, fuzzy
+msgid "Received Ratio"
+msgstr "Qabul qilinish nisbati"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__resource_ref
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__resource_ref
+#, fuzzy
+msgid "Record"
+msgstr "Yozuv"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__res_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__res_id
+#, fuzzy
+msgid "Record ID"
+msgstr "Yozuv ID raqami"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_participant.py:0
+#, fuzzy
+msgid "Record deleted"
+msgstr "Yozuv o‘chirildi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__model_name
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__model_name
+#, fuzzy
+msgid "Record model"
+msgstr "Yozuv modeli"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__rejected
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_trace__state__rejected
+#, fuzzy
+msgid "Rejected"
+msgstr "Rad etilgan"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Rejected by activity filter or record deleted / archived"
+msgstr ""
+"Faoliyat filtri tomonidan rad etilgan yoki yozuv o‘chirilgan / arxivlangan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Reload a favorite filter"
+msgstr "Sevimli filtrni qayta yuklash"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_participant__state__unlinked
+#, fuzzy
+msgid "Removed"
+msgstr "Olib tashlangan"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_participant__state
+#, fuzzy
+msgid "Removed means the related record does not exist anymore."
+msgstr "Olib tashlangan degani, tegishli yozuv endi mavjud emas."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Replied"
+msgstr "Javob berilgan"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__replied_ratio
+#, fuzzy
+msgid "Replied Ratio"
+msgstr "Javob berish nisbati"
+
+#. module: marketing_automation
+#: model:ir.ui.menu,name:marketing_automation.marketing_automation_reporting_menu
+#, fuzzy
+msgid "Reporting"
+msgstr "Hisobot berish"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__require_sync
+#, fuzzy
+msgid "Require trace sync"
+msgstr "Kuzatuv sinxronizatsiyasini talab qilish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Resource ID"
+msgstr "Resurs identifikatori"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#, fuzzy
+msgid "Resource Name"
+msgstr "Resurs nomi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__user_id
+#, fuzzy
+msgid "Responsible"
+msgstr "Mas'ul shaxs"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Run"
+msgstr "Ishga tushirish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+msgid "Run Activities"
+msgstr ""
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Run the next scheduled activity for each participant of this campaign?"
+msgstr ""
+"Ushbu kampaniyaning har bir ishtirokchisi uchun keyingi rejalashtirilgan "
+"faoliyatni ishga tushirishni istaysizmi?"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_campaign__state__running
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_participant__state__running
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_search
+#, fuzzy
+msgid "Running"
+msgstr "Ishlamoqda"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "SUCCESS"
+msgstr "MUVAFFAQIYAT"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__schedule_date
+#, fuzzy
+msgid "Schedule Date"
+msgstr "Rejalashtirilgan sana"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_trace__state__scheduled
+#, fuzzy
+msgid "Scheduled"
+msgstr "Rejalashtirilgan"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
+#, fuzzy
+msgid "Search Campaign"
+msgstr "Kampaniyani qidirish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#, fuzzy
+msgid "Search Participant"
+msgstr "Ishtirokchini qidirish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_search
+#, fuzzy
+msgid "Search Traces"
+msgstr "Izlarni qidirish"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__ab_testing_winner_selection
+#, fuzzy
+msgid "Selection to determine the winner mailing that will be sent."
+msgstr "Yuboriladigan g‘olib xabarni aniqlash uchun tanlov."
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Send 10% Welcome Discount"
+msgstr "10% xush kelibsiz chegirmasini yuborish"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_schedule_datetime
+#, fuzzy
+msgid "Send Final On"
+msgstr "Yakuniy yuborish sanasi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Send Welcome Email"
+msgstr "Salomlashuv xatini yuborish"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Send a free catalog and follow-up according to reactions."
+msgstr "Bepul katalog yuborish va javoblarga ko‘ra kuzatib borish."
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Send a welcome email to contacts and tag them if they click in it."
+msgstr ""
+"Kontaktlarga salomlashuv xatini yuborish va ular xatdagi havolani bosganida "
+"ularni teglash."
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid ""
+"Send a welcome email to new subscribers, remove the addresses that bounced."
+msgstr ""
+"Yangi obunachilarga salomlashuv xatini yuborish, qaytgan manzillarni olib "
+"tashlash."
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__interval_number
+#, fuzzy
+msgid "Send after"
+msgstr "Yuborish vaqti"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__interval_standardized
+#, fuzzy
+msgid "Send after (in hours)"
+msgstr "Yuborish vaqti (soatda)"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Send an email to new recipients to confirm their consent."
+msgstr "Yangi qabul qiluvchilarga roziligini tasdiqlash uchun xat yuborish."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Sent"
+msgstr "Yuborildi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__server_action_id
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__activity_type__action
+#, fuzzy
+msgid "Server Action"
+msgstr "Server harakati"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__social_posts_count
+#, fuzzy
+msgid "Social Media Posts"
+msgstr "Ijtimoiy tarmoqlardagi postlar"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid ""
+"Some participants are already running on this campaign. Click on 'Update' to "
+"apply the modifications you've just made."
+msgstr ""
+"Ba'zi ishtirokchilar allaqachon bu kampaniyada ishtirok etmoqda. Hozirgina "
+"kiritilgan o‘zgarishlarni qo‘llash uchun \"Yangilash\" tugmasini bosing."
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__source_id
+#, fuzzy
+msgid "Source"
+msgstr "Manba"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_mailing_mailing__use_in_marketing_automation
+#, fuzzy
+msgid "Specific mailing used in marketing campaign"
+msgstr "Marketing kampaniyasida foydalaniladigan maxsus xabar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__stage_id
+#, fuzzy
+msgid "Stage"
+msgstr "Bosqich"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Start"
+msgstr "Boshlash"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Start from scratch"
+msgstr "Boshidan boshlash"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__state
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__state
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__state
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
+#, fuzzy
+msgid "State"
+msgstr "Holat"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "State: {{0}}"
+msgstr "Holat: {{0}}"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__statistics_graph_data
+#, fuzzy
+msgid "Statistics Graph Data"
+msgstr "Statistika grafigi ma'lumotlari"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__mailing_trace_status
+#, fuzzy
+msgid "Status"
+msgstr "Holat"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Stop"
+msgstr "To‘xtatish"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_campaign__state__stopped
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
+#, fuzzy
+msgid "Stopped"
+msgstr "To‘xtatilgan"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid "Success"
+msgstr "Muvaffaqiyat"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid ""
+"Switching Target Model invalidates the existing activities. Either update "
+"your activity actions to match the new Target Model or delete them."
+msgstr ""
+"Maqsad modelini o‘zgartirish mavjud faoliyatlarni bekor qiladi. Faoliyat "
+"amallarini yangi Maqsad modeliga moslashtiring yoki ularni o‘chirib tashlang."
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__require_sync
+#, fuzzy
+msgid "Sync of participants is required"
+msgstr "Ishtirokchilarni sinxronlash talab etiladi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Tag Hot Contacts"
+msgstr "Qizg‘in kontaktlarni teglash"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__tag_ids
+#, fuzzy
+msgid "Tags"
+msgstr "Teglar"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_tree
+#, fuzzy
+msgid "Target"
+msgstr "Maqsad"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_tree
+#, fuzzy
+msgid "Target Model"
+msgstr "Maqsadli model"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Templates"
+msgstr "Shablonlar"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Test"
+msgstr "Sinov"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__is_test
+#, fuzzy
+msgid "Test Record"
+msgstr "Sinov yozuvi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__is_test
+#, fuzzy
+msgid "Test Trace"
+msgstr "Sinov izi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Tests"
+msgstr "Sinovlar"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid ""
+"The saved filter targets different model and is incompatible with this "
+"campaign."
+msgstr ""
+"Saqlangan filtr boshqa modelga mo‘ljallangan va bu kampaniya uchun mos emas."
+
+#. module: marketing_automation
+#. odoo-javascript
+#: code:addons/marketing_automation/static/src/components/campaign_template_picker_dialog/campaign_template_picker_dialog.xml:0
+#, fuzzy
+msgid "Then sit down and let Odoo handle the rest!"
+msgstr "Keyin o‘tiring va qolganini Odoo‘ga qo‘yib bering!"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid ""
+"To use this feature you should be an administrator or belong to the "
+"marketing automation group."
+msgstr ""
+"Bu funksiyadan foydalanish uchun administrator bo‘lishingiz yoki marketing "
+"avtomatlashtirish guruhiga a'zo bo‘lishingiz kerak."
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__total_bounce
+#, fuzzy
+msgid "Total Bounce"
+msgstr "Umumiy qaytishlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__total_click
+#, fuzzy
+msgid "Total Click"
+msgstr "Jami bosishlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__total_open
+#, fuzzy
+msgid "Total Open"
+msgstr "Jami ochilishlar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__total_reply
+#, fuzzy
+msgid "Total Reply"
+msgstr "Jami javoblar"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__total_sent
+#, fuzzy
+msgid "Total Sent"
+msgstr "Jami yuborilganlar"
+
+#. module: marketing_automation
+#: model:ir.actions.act_window,name:marketing_automation.marketing_trace_action
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__trace_ids
+#: model:ir.ui.menu,name:marketing_automation.marketing_trace_menu
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_tree
+#, fuzzy
+msgid "Traces"
+msgstr "Izlar"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "Trigger"
+msgstr "Ishga tushiruvchi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__trigger_category
+#, fuzzy
+msgid "Trigger Category"
+msgstr "Ishga tushiruvchi toifasi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__trigger_type
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__trigger_type
+#, fuzzy
+msgid "Trigger Type"
+msgstr "Ishga tushiruvchi turi"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_utm_campaign
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__utm_campaign_id
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__utm_campaign_id
+#, fuzzy
+msgid "UTM Campaign"
+msgstr "UTM kampaniyasi"
+
+#. module: marketing_automation
+#: model:ir.model,name:marketing_automation.model_utm_source
+#, fuzzy
+msgid "UTM Source"
+msgstr "UTM manbasi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Unicity based on"
+msgstr "Yagonalik asosi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__unique_field_id
+#, fuzzy
+msgid "Unique Field"
+msgstr "Noyob maydon"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "Update"
+msgstr "Yangilash"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__use_leads
+#, fuzzy
+msgid "Use Leads"
+msgstr "Lidlardan foydalanish"
+
+#. module: marketing_automation
+#: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__unique_field_id
+#, fuzzy
+msgid ""
+"Used to avoid duplicates based on model field.\n"
+"e.g.\n"
+"                For model 'Customers', select email field here if you don't\n"
+"                want to process records which have the same email address"
+msgstr ""
+"Model maydoniga asoslanib takrorlanishlarning oldini olish uchun "
+"ishlatiladi. Masalan, \"Mijozlar\" modeli uchun bir xil elektron pochta "
+"manziliga ega yozuvlarni qayta ishlashni istamasangiz, bu yerda elektron "
+"pochta maydonini tanlang"
+
+#. module: marketing_automation
+#: model:res.groups,name:marketing_automation.group_marketing_automation_user
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__validity_duration_number
+#, fuzzy
+msgid "Valid during"
+msgstr "Amal qilish muddati"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__validity_duration
+#, fuzzy
+msgid "Validity Duration"
+msgstr "Amal qilish davomiyligi"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__validity_duration_type
+#, fuzzy
+msgid "Validity Duration Type"
+msgstr "Amal qilish davomiyligi turi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Warning"
+msgstr "Ogohlantirish"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__interval_type__weeks
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__validity_duration_type__weeks
+#, fuzzy
+msgid "Weeks"
+msgstr "Haftalar"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Welcome Flow"
+msgstr "Xush kelibsiz oqimi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "Welcome!"
+msgstr "Xush kelibsiz!"
+
+#. module: marketing_automation
+#: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_winner_selection
+#, fuzzy
+msgid "Winner Selection"
+msgstr "G‘olibni tanlash"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Workflow"
+msgstr "Ish jarayoni"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
+#, fuzzy
+msgid "Workflow Started On"
+msgstr "Ish jarayoni boshlangan sana"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_activity.py:0
+#, fuzzy
+msgid ""
+"You are trying to set the activity \"%(parent_activity)s\" as \"%"
+"(parent_type)s\" while its child \"%(activity)s\" has the trigger type \"%"
+"(trigger_type)s\"\n"
+"Please modify one of those activities before saving."
+msgstr ""
+"Siz \"%(parent_activity)s\" harakatini \"%(parent_type)s\" sifatida "
+"o‘rnatmoqchisiz, uning bolasi \"%(activity)s\" esa \"%(trigger_type)s\" "
+"ishga tushirish turiga ega. Iltimos, saqlashdan oldin ushbu harakatlardan "
+"birini o‘zgartiring."
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/utm_campaign.py:0
+#, fuzzy
+msgid ""
+"You cannot delete these UTM Campaigns as they are linked to the following "
+"marketing campaigns in Marketing Automation:\n"
+"%(campaign_names)s"
+msgstr ""
+"Ushbu UTM kampaniyalarini o‘chira olmaysiz, chunki ular Marketing "
+"avtomatlashtirish bo‘limidagi quyidagi marketing kampaniyalariga bog‘langan: "
+"%(campaign_names)s"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/utm_source.py:0
+#, fuzzy
+msgid ""
+"You cannot delete these UTM Sources as they are linked to the following "
+"marketing activities in Marketing Automation:\n"
+"%(activities_names)s"
+msgstr ""
+"Ushbu UTM manbalarini o‘chira olmaysiz, chunki ular Marketing "
+"avtomatlashtirish bo‘limidagi quyidagi marketing faoliyatlariga bog‘langan: %"
+"(activities_names)s"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "You must set up at least one activity to start this campaign."
+msgstr ""
+"Bu kampaniyani boshlash uchun kamida bitta faoliyatni sozlashingiz kerak."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "after the <strong>Mailing</strong> sent by the Activity \""
+msgstr "\"Faoliyat\" tomonidan yuborilgan <strong>Xabar</strong>dan so‘ng"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "after the <strong>beginning of the workflow</strong>,<br/>the"
+msgstr "<strong>ish jarayoni boshlanganidan</strong> so‘ng,<br/>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid ""
+"after the Participant <strong>clicked</strong>,<br/>on any link included in "
+"the <strong>Mailing</strong> sent by the Activity \""
+msgstr ""
+"Ishtirokchi \"Faoliyat\" tomonidan yuborilgan <strong>Xabar</strong>dagi har "
+"qanday havolani <strong>bosganidan</strong> so‘ng,<br/>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid ""
+"after the Participant <strong>opened</strong> the <strong>Mailing</strong> "
+"sent by the Activity \""
+msgstr ""
+"Ishtirokchi \"Faoliyat\" tomonidan yuborilgan <strong>Xabar</strong>ni "
+"<strong>ochganidan</strong> so‘ng"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid ""
+"after the Participant <strong>replied</strong> to the <strong>Mailing</"
+"strong> sent by the Activity \""
+msgstr ""
+"Ishtirokchi \"Faoliyat\" tomonidan yuborilgan <strong>Xabar</strong>ga "
+"<strong>javob berganidan</strong> so‘ng"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "after the execution of the Activity \""
+msgstr "\"Faoliyat\" bajarilganidan so‘ng"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__activity
+#, fuzzy
+msgid "another activity"
+msgstr "boshqa faoliyat"
+
+#. module: marketing_automation
+#: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__trigger_type__begin
+#, fuzzy
+msgid "beginning of workflow"
+msgstr "ish jarayonining boshlanishi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "cancelled, if"
+msgstr "bekor qilinadi, agar"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_test_view_form
+#, fuzzy
+msgid "e.g. \"Brandon Freeman\""
+msgstr "masalan, \"Brandon Freeman\""
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
+#, fuzzy
+msgid "e.g. eCommerce Offers"
+msgstr "masalan, eCommerce takliflari"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
+#, fuzzy
+msgid "e.g. eCommerce Offers Plan"
+msgstr "masalan, eCommerce takliflari rejasi"
+
+#. module: marketing_automation
+#. odoo-python
+#: code:addons/marketing_automation/models/marketing_campaign.py:0
+#, fuzzy
+msgid "email"
+msgstr "elektron pochta"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "have passed since the scheduled date."
+msgstr "rejalashtirilgan sanadan o‘tgan bo‘lsa."
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid ""
+"if no link included in the <strong>Mailing</strong> sent by the Activity \""
+msgstr ""
+"agar \"Faoliyat\" tomonidan yuborilgan <strong>Xabar</strong>da havola "
+"bo‘lmasa"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "if the <strong>Mailing</strong> sent by the Activity \""
+msgstr "agar \"Faoliyat\" tomonidan yuborilgan <strong>Xabar</strong>"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "run"
+msgstr "ishga tushirish"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "sent"
+msgstr "yuborildi"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "the"
+msgstr "o‘sha"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_test_view_form
+#, fuzzy
+msgid "to generate a Test Participant"
+msgstr "Test ishtirokchisini yaratish uchun"
+
+#. module: marketing_automation
+#: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_summary_template
+#, fuzzy
+msgid "will be"
+msgstr "bo‘ladi"

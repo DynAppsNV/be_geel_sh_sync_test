@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_pos_blackbox_be_form" model="ir.ui.view">
+        <field name="name">pos.blackbox.be.form.view</field>
+        <field name="model">pos.blackbox.be</field>
+        <field name="arch" type="xml">
+            <form string="PoS Blackbox BE" create="0">
+                <sheet>
+                    <group class="w-100" name="Blackbox BE">
+                        <group>
+                            <field name="fdm_id" />
+                            <field name="pos_config_ids" widget="many2many_tags" />
+                            <field name="local_ip"/>
+                            <field name="use_lna" />
+                        </group>
+                        <group>
+                            <div style="display:flex; justify-content:flex-end; align-items:flex-start; height:100%;">
+                                <widget name="l10n_be_pos_blackbox_test_button"/>
+                            </div>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_pos_blackbox_be_list" model="ir.ui.view">
+        <field name="name">pos.blackbox_be.list</field>
+        <field name="model">pos.blackbox.be</field>
+        <field name="arch" type="xml">
+            <list string="Blackbox BE" delete="0">
+                <field name="fdm_id"/>
+                <field name="pos_config_ids" widget="many2many_tags" />
+                <field name="local_ip" />
+                <field name="use_lna" />
+            </list>
+        </field>
+    </record>
+
+    <record id="action_pos_blackbox_be_form" model="ir.actions.act_window">
+        <field name="name">Blackbox</field>
+        <field name="res_model">pos.blackbox.be</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Register a new Blackbox
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_pos_blackbox_be"
+        parent="point_of_sale.menu_point_config_product"
+        action="action_pos_blackbox_be_form"
+        groups="point_of_sale.group_pos_manager"
+        sequence="3" />
+
+    <template id="fdm_source">
+        SIGNATURES:
+        --------------------------------------------------------------------
+        GLOBAL HASH: <t t-esc="main_hash" />
+        <t t-foreach="files" t-as="current_file">
+            <t t-out="current_file['name']"/>: <t t-out="current_file['hash']"/> (size in bytes: <t t-out="current_file['size_in_bytes']"/>)
+        </t>
+        --------------------------------------------------------------------
+    </template>
+</odoo>

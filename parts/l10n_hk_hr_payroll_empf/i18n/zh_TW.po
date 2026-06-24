@@ -1,0 +1,1346 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_hk_hr_payroll_empf
+#
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 18:18+0000\n"
+"PO-Revision-Date: 2026-06-06 10:07+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-19-l10n/l10n_hk_hr_payroll_empf/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.constraint,message:l10n_hk_hr_payroll_empf.constraint_l10n_hk_empf_contribution_report_payslip_run_id_uniq
+msgid "A payslip run cannot be linked to multiple eMPF reports."
+msgstr "單次發薪操作不可連結至多份積金易報表。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_needaction
+msgid "Action Needed"
+msgstr "需要採取行動"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_ids
+msgid "Activities"
+msgstr "活動"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活動異常圖示"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_state
+msgid "Activity State"
+msgstr "活動狀態"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活動類型圖示"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__amount
+msgid "Amount"
+msgstr "金額"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__amount
+msgid "Amount of the contribution, depends of the "
+msgstr "供款金額，視乎"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_version__l10n_hk_mpf_contribution_start__at_due_date
+msgid "At Due Date"
+msgstr "到期時供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件數目"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__basic_salary
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__definition_of_income__basic_salary
+msgid "Basic Salary"
+msgstr "基本薪金"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_payroll_group__contribution_frequency__biweekly
+msgid "Bi-weekly"
+msgstr "每兩週"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__company_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置設定"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.res_config_settings_view_form
+msgid "Configure your MPF Schemes"
+msgstr "設定你的強積金計劃"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll_empf.hr_departure_reason_contract_end
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__contract_end
+msgid "Contract Ended"
+msgstr "合約已完結"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__contribution_frequency
+msgid "Contribution Frequency"
+msgstr "供款頻率"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__contribution_line_ids
+msgid "Contribution Lines"
+msgstr "供款資料行"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__contribution_period_end
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__report_contribution_end_date
+msgid "Contribution Period End"
+msgstr "供款期間結束"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__contribution_period_start
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__report_contribution_start_date
+msgid "Contribution Period Start"
+msgstr "供款期間開始"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__contribution_type_ids
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__contribution_type
+msgid "Contribution Type"
+msgstr "供款類型"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_member_class_view_form
+msgid "Contribution Types"
+msgstr "供款類型"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__total_contributions
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+msgid "Contributions"
+msgstr "供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+msgid "Contributions Period"
+msgstr "供款期間"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__create_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__create_uid
+msgid "Created by"
+msgstr "建立人員"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__create_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__create_date
+msgid "Created on"
+msgstr "建立日期"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__currency_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__currency_id
+msgid "Currency"
+msgstr "貨幣"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:l10n_hk.mpf.scheme,name:l10n_hk_hr_payroll_empf.demo_mpf_scheme
+msgid "DEMO Mandatory Provident Fund Scheme"
+msgstr "模擬強積金計劃"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_scheme_join_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_scheme_join_date
+msgid "Date of Joining the Scheme"
+msgstr "加入計劃日期"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__death
+msgid "Death"
+msgstr "死亡/身故"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__is_default
+msgid "Default"
+msgstr "預設"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__definition_of_income
+msgid "Definition Of Income"
+msgstr "收入定義"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__definition_of_service
+msgid "Definition of Service For Vesting"
+msgstr "計算權益歸屬所用的服務年資定義"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid "Department names cannot be longer than 50 characters."
+msgstr "部門名稱長度不可超過 50 個字元。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_hr_departure_reason
+msgid "Departure Reason"
+msgstr "離職原因"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__dismis
+msgid "Dismissal"
+msgstr "解僱"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_departure_reason__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_payslip_run__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__display_name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+msgid "Download Report"
+msgstr "下載報告"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_empf_contribution_report__state__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.constraint,message:l10n_hk_hr_payroll_empf.constraint_l10n_hk_payroll_group_groupid_uniq
+msgid "Each Payroll Group of a same scheme must have unique Group ID."
+msgstr "同一個計劃的不同薪酬組別，必須各自擁有獨一無二的組別識別碼。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll_empf.hr_departure_reason_early_retire
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__early_retire
+msgid "Early Retirement"
+msgstr "提早退休"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__eemc
+msgid "Eemc"
+msgstr "Eemc"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__eevc
+msgid "Eevc"
+msgstr "Eevc"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_hr_employee
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__employee_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__employee_ids
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__employee_ids
+msgid "Employee"
+msgstr "員工"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_hr_version
+msgid "Employee Contract"
+msgstr "員工合約"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/member_class_contribution_type.py:0
+msgid ""
+"Employee Voluntary Contribution cannot use the option 'Match Employee`s "
+"Voluntary Contribution'."
+msgstr "僱員自願供款項目不可使用「配對僱員自願供款」選項。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__employee_surcharge
+msgid "Employee's Surcharge"
+msgstr "員工附加費"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__contribution_type__employee
+msgid "Employee's Voluntary Contribution"
+msgstr "僱員自願供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/member_class.py:0
+#: code:addons/l10n_hk_hr_payroll_empf/model/payroll_group.py:0
+msgid "Employees"
+msgstr "員工"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/payroll_group.py:0
+msgid "Employees In Group"
+msgstr "組別內員工"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.payroll.dashboard.warning,name:l10n_hk_hr_payroll_empf.dashboard_warning_empf_unregistered_employee
+msgid "Employees Without MPF Registration"
+msgstr "未註冊強積金的員工"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid "Employees reported to the eMPF cannot be younger than 16 years old."
+msgstr "向積金易呈報的員工，年齡不可低於 16 歲。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid "Employees reported to the eMPF cannot have numbers in their name."
+msgstr "向積金易呈報的員工，其姓名不可有數目字。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__employer_account_number
+msgid "Employer Account No."
+msgstr "僱主帳戶號碼"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.salary.rule,name:l10n_hk_hr_payroll_empf.cap57_employees_salary_ervc_two
+msgid "Employer Voluntary Contribution 2"
+msgstr "僱主自願供款 2"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__employer_surcharge
+msgid "Employer's Surcharge"
+msgstr "僱主附加費"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__contribution_type__employer
+msgid "Employer's Voluntary Contribution"
+msgstr "僱主自願供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__contribution_type__employer_2
+msgid "Employer's Voluntary Contribution 2"
+msgstr "僱主自願供款 2"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_exempt
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_exempt
+msgid ""
+"Enable this to disable mandatory contributions. Voluntary contributions can "
+"still be used regardless of this setting."
+msgstr "啟用此設定以停用強制性供款。無論此設定為何，自願性供款仍可使用。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__ermc
+msgid "Ermc"
+msgstr "Ermc"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__errors
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+msgid "Errors"
+msgstr "錯誤"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__ervc
+msgid "Ervc"
+msgstr "Ervc"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__ervc_2
+msgid "Ervc 2"
+msgstr "Ervc 2"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_exempt
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_exempt
+msgid "Exempt of MPF"
+msgstr "豁免強積金"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_empf_contribution_report_line__status__e
+msgid "Existing Member"
+msgstr "現有成員"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_visa_issue_date
+msgid "Fill this information for expatriate employees."
+msgstr "若是外派員工，請填寫此資訊。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_previous_employment_date
+msgid "Fill this information in case of intra_group transfer."
+msgstr "若是集團內部（intra_group）轉職，請填寫此資訊。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__contribution_option__fixed
+msgid "Fixed Amount"
+msgstr "固定金額"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__contribution_option__percentage
+msgid "Fixed Percentage of Income"
+msgstr "收入的固定百分比"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__contribution_option__top_up
+msgid "Fixed Percentage of Income minus Mandatory Contribution"
+msgstr "收入固定百分比減強制供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_follower_ids
+msgid "Followers"
+msgstr "關注者"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "關注人（業務夥伴）"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font Awesome 圖示，例如：fa-tasks"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_payroll_group__contribution_frequency__fortnightly
+msgid "Fortnightly"
+msgstr "每 14 天"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__contribution_start_date
+msgid "From"
+msgstr "由"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class__definition_of_service__date_of_employment
+msgid "From the Date of Employment"
+msgstr "自開始僱用日期起計"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class__definition_of_service__date_of_joining_scheme
+msgid "From the Date of Joining Scheme"
+msgstr "自加入計劃日期起計"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class__definition_of_service__previous_date_of_employment
+msgid "From the Previous Date of Employment"
+msgstr "自上一次開始僱用日期起計"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__has_message
+msgid "Has Message"
+msgstr "有訊息"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_l10n_hk_mpf_scheme
+msgid "Hong Kong: MPF Scheme"
+msgstr "香港：強積金計劃"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_l10n_hk_member_class
+msgid "Hong Kong: Member Class"
+msgstr "香港：成員類別"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_l10n_hk_member_class_contribution_type
+msgid "Hong Kong: Member Class Contribution Type"
+msgstr "香港：成員類別供款類型"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_l10n_hk_payroll_group
+msgid "Hong Kong: Payroll Group"
+msgstr "香港：薪酬組別"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_departure_reason__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_payslip__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_payslip_run__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_res_config_settings__id
+msgid "ID"
+msgstr "識別碼"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_exception_icon
+msgid "Icon"
+msgstr "圖示"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "用於指示異常活動的圖示。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "勾選代表有新訊息需要你留意。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_has_error
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "勾選代表有訊息發生傳送錯誤。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__is_default
+msgid ""
+"If marked as default, this group will be set on new employees using this "
+"scheme."
+msgstr "若標記為預設值，採用此計劃的新員工將會加入此組別。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_payslip_run__l10n_hk_payroll_group_id
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__payslip_run_group_id
+msgid ""
+"If set, employees in this Pay Run will be filtered to the selected group and "
+"a eMPF report will be automatically generated once the pay run is validated."
+msgstr ""
+"若設定，將篩選今次發薪操作所涉及的員工，至只限所選群組，並在發薪操作完成驗證"
+"後，自動產生積金易報表。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_payslip_run__l10n_hk_payroll_scheme_id
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__payslip_run_scheme_id
+msgid ""
+"If set, employees in this Pay Run will be filtered to the selected scheme "
+"and a eMPF report will be automatically generated once the pay run is "
+"validated."
+msgstr ""
+"若設定，將篩選今次發薪操作所涉及的員工，至只限所選計劃，並在發薪操作完成驗證"
+"後，自動產生積金易報表。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll_empf.hr_departure_reason_ill_health
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__ill_health
+msgid "Ill Health"
+msgstr "健康不佳"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_version__l10n_hk_mpf_contribution_start__immediate
+msgid "Immediately Upon Registration"
+msgstr "註冊後立即開始"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__is_default
+msgid "Is Default"
+msgstr "是預設"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_is_follower
+msgid "Is Follower"
+msgstr "是關注者"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_member_class_ct_eevc_id
+msgid "L10N Hk Member Class Ct Eevc"
+msgstr "香港本地化成員類別 Ct Eevc"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_member_class_ct_ervc_id
+msgid "L10N Hk Member Class Ct Ervc"
+msgstr "香港本地化成員類別 Ct Ervc"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_member_class_ct_ervc2_id
+msgid "L10N Hk Member Class Ct Ervc2"
+msgstr "香港本地化成員類別 Ct Ervc2"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_scheme_group_count
+msgid "L10N Hk Scheme Group Count"
+msgstr "香港本地化計劃組別數目"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll_empf.hr_departure_reason_laid_off
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__laid_off
+msgid "Laid Off"
+msgstr "解僱"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__write_uid
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__write_date
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__write_date
+msgid "Last Updated on"
+msgstr "最後更新日期"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_scheme_join_date
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_scheme_join_date
+msgid ""
+"Leave empty to set the date automatically upon registering through the eMPF "
+"Contributions Report."
+msgstr "若留空，系統會在透過積金易供款報告註冊時，自動設定日期。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/member_class.py:0
+#: code:addons/l10n_hk_hr_payroll_empf/model/payroll_group.py:0
+msgid "List Employees"
+msgstr "列表顯示員工"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_empf_contribution_report_line__termination_payment_type__l
+msgid "Long Service Payment"
+msgstr "長期服務金"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"Long service payments are only allowed for terminations due to Death, "
+"Dismissal, End of contract, Ill health or Retirement."
+msgstr ""
+"長期服務金只適用於因為僱員死亡、被解僱、合約期滿、健康不佳或退休而引致僱傭關"
+"係終止的情況。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_scheme_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_payslip_run__l10n_hk_payroll_scheme_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_scheme_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__name
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_mpf_scheme_view_form
+msgid "MPF Scheme"
+msgstr "強積金計劃"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/res_config_settings.py:0
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll_empf.action_l10n_hk_mpf_schemes
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll_empf.menu_hk_mpf_schemes
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_mpf_scheme_view_list
+msgid "MPF Schemes"
+msgstr "強積金計劃"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__contribution_option__match
+msgid "Match Employee's Voluntary Contribution"
+msgstr "配對僱員自願供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_account_number
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_account_number
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__mpf_account_number
+msgid "Member Account No."
+msgstr "成員帳戶號碼"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_member_class_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_member_class_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__member_class_id
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_member_class_view_form
+msgid "Member Class"
+msgstr "成員類別"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__member_class_ids
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_mpf_scheme_view_form
+msgid "Member Classes"
+msgstr "成員類別"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_has_error
+msgid "Message Delivery error"
+msgstr "訊息傳送錯誤"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_ids
+msgid "Messages"
+msgstr "訊息"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_payroll_group__contribution_frequency__monthly
+msgid "Monthly"
+msgstr "每月"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活動期限"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__name
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__name
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_tree
+msgid "Name"
+msgstr "名稱"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_empf_contribution_report_line__status__n
+msgid "New Member"
+msgstr "新成員"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "下一個活動的日曆事件"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活動期限"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一活動摘要"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活動類型"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作數目"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_has_error_counter
+msgid "Number of errors"
+msgstr "錯誤數目"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "需要採取行動的訊息數目"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "有傳送錯誤的訊息數目"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class_contribution_type__contribution_option
+msgid "Option"
+msgstr "選項"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_hr_payslip_run
+msgid "Pay Run"
+msgstr "發薪操作"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_hr_payslip
+msgid "Pay Slip"
+msgstr "工資單"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_payroll_group_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_payslip_run__l10n_hk_payroll_group_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_payroll_group_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__payroll_group_id
+msgid "Payroll Group"
+msgstr "薪酬組別"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__group_id
+msgid "Payroll Group ID"
+msgstr "薪酬組別識別碼"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__payroll_group_ids
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_mpf_scheme_view_form
+msgid "Payroll Groups"
+msgstr "薪酬組別"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__payslip_id
+msgid "Payslip"
+msgstr "工資單"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__payslip_run_id
+msgid "Payslip Run"
+msgstr "發薪操作"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__payslip_run_group_id
+msgid "Payslip Run Group"
+msgstr "發薪操作組別"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__payslip_run_scheme_id
+msgid "Payslip Run Scheme"
+msgstr "發薪操作計劃"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/hr_payslip.py:0
+msgid ""
+"Payslips that have been included in a validated eMPF report cannot be "
+"cancelled. Please first reset the eMPF report to draft."
+msgstr ""
+"工資單若已納入完成驗證的積金易報告，便不可取消。請先將積金易報告重設為草稿狀"
+"態。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/hr_payslip.py:0
+msgid ""
+"Payslips that have been included in a validated eMPF report cannot be reset "
+"to draft. Please first reset the eMPF report to draft."
+msgstr ""
+"工資單若已納入完成驗證的積金易報告，便不可重設為草稿。請先將積金易報告重設為"
+"草稿狀態。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+msgid "Period"
+msgstr "期間"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_account_number
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_account_number
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__mpf_account_number
+msgid ""
+"Precising the account is optional, but becomes mandatory if the employee "
+"uses more than one active member account under the same employer and payroll "
+"group."
+msgstr ""
+"你可選擇是否指定帳戶，但若員工在同一僱主及薪酬組別下，有多個有效的成員帳戶，"
+"便必須選擇一個帳戶。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_payroll_group_id
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_payroll_group_id
+msgid ""
+"Precising the group is optional, but becomes mandatory if the company uses "
+"more than one group for the employee scheme."
+msgstr ""
+"你可選擇是否指定組別，但若公司針對此僱員計劃使用多個組別時，便必須設定組別。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_previous_employment_date
+msgid "Previous Date Of Employment"
+msgstr "上一次開始僱用日期"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_payroll_group__contribution_frequency__quarterly
+msgid "Quarterly"
+msgstr "每季"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__rating_ids
+msgid "Ratings"
+msgstr "評分"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_departure_reason__l10n_hk_empf_code
+msgid "Reason Of Termination (eMPF)"
+msgstr "終止僱用原因（積金易）"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.actions.server,name:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_recompute_line
+msgid "Recompute Contributions"
+msgstr "重新計算供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll_empf.hr_departure_reason_redundancy
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__redundancy
+msgid "Redundancy"
+msgstr "裁員"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_version__l10n_hk_mpf_registration_status__next_contribution
+msgid "Register At Next Contribution"
+msgstr "下次供款時註冊"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_version__l10n_hk_mpf_registration_status__registered
+msgid "Registered"
+msgstr "已註冊"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__registration_number
+msgid "Registration Number"
+msgstr "註冊編號"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_registration_status
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_registration_status
+msgid "Registration Status"
+msgstr "註冊狀態"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__relevant_income
+msgid "Relevant Income"
+msgstr "有關入息"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_member_class_contribution_type__definition_of_income__relevant_wages
+msgid "Relevant Wages"
+msgstr "有關工資"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__report_id
+msgid "Report"
+msgstr "報告"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+msgid "Reset To Draft"
+msgstr "重設為草稿"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__resign
+msgid "Resignation"
+msgstr "辭職"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_user_id
+msgid "Responsible User"
+msgstr "負責使用者"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__retire
+msgid "Retirement"
+msgstr "退休"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短訊傳送錯誤"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__scheme_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__report_scheme_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_member_class__scheme_id
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_payroll_group__scheme_id
+msgid "Scheme"
+msgstr "計劃"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_payroll_group__contribution_frequency__semi-monthly
+msgid "Semi-Monthly"
+msgstr "每半月"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_contribution_start
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_contribution_start
+msgid ""
+"Set this to 'Immediately' to start registering contributions through the "
+"eMPF Contributions Report as soon as the employee is registered for MPF. If "
+"Set to 'At Due Date', the contributions will only start after the 60 days "
+"period, and back-payments records will be added to the report if needed."
+msgstr ""
+"若將此項設定為「立即」，表示員工一經註冊參加強積金計劃，即透過積金易平台的供"
+"款報告，開始記錄供款。若設定為「到期時供款」，供款將會在 60 天豁免期過後才開"
+"始。如有需要，可在報告中加入補交供款記錄。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_empf_contribution_report_line__termination_payment_type__s
+msgid "Severance Payment"
+msgstr "遣散費"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"Severance payments are only allowed for terminations due to Redundancy or "
+"Lay off."
+msgstr "遣散費只適用於裁員或解僱所引致的終止僱用情況。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report_line.py:0
+#: code:addons/l10n_hk_hr_payroll_empf/model/member_class.py:0
+#: code:addons/l10n_hk_hr_payroll_empf/model/payroll_group.py:0
+msgid "Show Employee"
+msgstr "顯示員工"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:l10n_hk.member.class,name:l10n_hk_hr_payroll_empf.demo_payroll_class
+msgid "Staff - 5% Top Up Matched"
+msgstr "員工 - 5% 供款配對"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:l10n_hk.payroll.group,name:l10n_hk_hr_payroll_empf.demo_payroll_group
+msgid "Staff - Monthly"
+msgstr "員工 - 每月"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_staff_number
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_staff_number
+msgid "Staff No."
+msgstr "員工編號"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_contribution_start
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_contribution_start
+msgid "Start Contribution"
+msgstr "開始供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__state
+msgid "State"
+msgstr "狀態"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__status
+msgid "Status"
+msgstr "狀態"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"根據活動設定的狀態：\n"
+"逾期：截止日期已過。\n"
+"今天：活動日期是今天。\n"
+"已規劃：將於未來進行的活動。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll_empf.hr_departure_reason_summary_dismissal
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__sum_dismiss
+msgid "Summary Dismissal"
+msgstr "即時解僱"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_version__l10n_hk_mpf_registration_status__terminated
+msgid "Terminated"
+msgstr "已終止僱用"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_empf_contribution_report_line__status__t
+msgid "Terminated Member"
+msgstr "已終止成員"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__termination_payment_type
+msgid "Termination Payment Type"
+msgstr "終止聘用付款類型"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/payroll_group.py:0
+msgid "The Group ID must be a maximum of 20 characters."
+msgstr "組別識別碼最長不可超過 20 個字元。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/member_class.py:0
+msgid "The Member Class name must be a maximum of 50 characters."
+msgstr "成員類別名稱最長不可超過 50 個字元。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"The Private Phone number must be from the country of the employee, or the "
+"country of the company."
+msgstr "私人電話號碼必須位於員工所在的國家/地區，或公司所在的國家/地區。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/hr_version.py:0
+msgid ""
+"The Staff Number must be a maximum of 20 characters and can only contain "
+"letters (a-Z) and numbers (0-9). Please do not use spaces or symbols."
+msgstr ""
+"員工編號最長不得超過 20 個字元，並只可由英文字母（a-Z）及數字（0-9）組成。請"
+"勿使用空格或符號。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_mpf_scheme__employer_account_number
+msgid "This value is specific to the currently selected company."
+msgstr "此值是特定於目前選取的公司。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__contribution_end_date
+msgid "To"
+msgstr "至"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.departure.reason,name:l10n_hk_hr_payroll_empf.hr_departure_reason_total_incap
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__hr_departure_reason__l10n_hk_empf_code__total_incap
+msgid "Total Incapacity"
+msgstr "完全喪失工作能力"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__total_contributions
+msgid "Total amount of all contributions in the period."
+msgstr "該期間內所有供款總額。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"Two report lines for a same employee cannot have overlapping contribution "
+"periods."
+msgstr "同一員工的兩個報告資料行，不可有重疊的供款期間。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "記錄的異常活動的類型。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.view_employee_form
+msgid "Unregistered"
+msgstr "未註冊"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+msgid "Validate"
+msgstr "驗證"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_empf_contribution_report__state__validated
+msgid "Validated"
+msgstr "已驗證"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:hr.payroll.dashboard.warning,name:l10n_hk_hr_payroll_empf.dashboard_warning_empf_unreported_slips
+msgid "Validated Payslip Not Reported To eMPF"
+msgstr "已驗證工資單未呈報至積金易"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report_line__version_id
+msgid "Version"
+msgstr "版本"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_mpf_scheme_view_form
+msgid "View Employees"
+msgstr "檢視員工"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_visa_issue_date
+msgid "Visa Issue Date"
+msgstr "簽證簽發日期"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,field_description:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__website_message_ids
+msgid "Website Messages"
+msgstr "網站訊息"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_l10n_hk_empf_contribution_report__website_message_ids
+msgid "Website communication history"
+msgstr "網站溝通記錄"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields.selection,name:l10n_hk_hr_payroll_empf.selection__l10n_hk_payroll_group__contribution_frequency__weekly
+msgid "Weekly"
+msgstr "每週"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_employee__l10n_hk_mpf_registration_status
+#: model:ir.model.fields,help:l10n_hk_hr_payroll_empf.field_hr_version__l10n_hk_mpf_registration_status
+msgid ""
+"When set to 'Next Contribution', the employee registration will be handled "
+"automatically through the next eMPF Contributions Report."
+msgstr "若設定為下次供款，員工註冊工序會透過下一次的積金易供款報告自動處理。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/member_class.py:0
+msgid "You cannot delete a Member Class that has employees assigned to it."
+msgstr "你不可刪除已有員工的成員類別。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/payroll_group.py:0
+msgid "You cannot delete a Payroll Group that has employees assigned to it."
+msgstr "你不可刪除已有員工的薪酬組別。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid "You cannot delete a validated report. You must first set it to draft."
+msgstr "已驗證的報表不可刪除。若要刪除，必須先將其設為草稿。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid "You cannot export a CSV for an empty report."
+msgstr "無法為空白的報表匯出 CSV 檔案。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.constraint,message:l10n_hk_hr_payroll_empf.constraint_l10n_hk_member_class_contribution_type_contribtype_uniq
+msgid ""
+"You cannot have more than one Contribution Type of each type in a same "
+"Member Class."
+msgstr "同一成員類別中，所有供款類型均不可重複。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.constraint,message:l10n_hk_hr_payroll_empf.constraint_l10n_hk_member_class_default_uniq
+msgid "You cannot have more than one default Member Class for a given scheme."
+msgstr "同一個計劃不可有多於一個預設成員類別。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model.constraint,message:l10n_hk_hr_payroll_empf.constraint_l10n_hk_payroll_group_default_uniq
+msgid "You cannot have more than one default Payroll Group for a given scheme."
+msgstr "同一個計劃不可有多於一個預設薪酬組別。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/mpf_scheme.py:0
+msgid ""
+"You cannot have multiple MPF Scheme with the same Registration Number and "
+"Employer Account Number."
+msgstr "不可有多個強積金計劃擁有相同的註冊編號及僱主帳戶號碼。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"You must either set the Surname and Given Name or the Name in Chinese for "
+"all employees using the eMPF system."
+msgstr "所有使用積金易系統的員工，必須設定姓氏及名字，或設定中文姓名。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid "You must have a Status set on every line of the report."
+msgstr "報告的每一個資料行，都必須設定狀態。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report_line.py:0
+msgid "You must have an Employee or Payslip set on every line of the report."
+msgstr "報告的每一個資料行，都必須設定員工及工資單資料。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"You must set a Birthday for all new employees being registered to the eMPF "
+"system."
+msgstr "所有註冊至積金易系統的新員工，必須設定出生日期。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"You must set a Identification No or Passport No for all employees using the "
+"eMPF system."
+msgstr "所有使用積金易系統的員工，必須設定身份證號碼或護照號碼。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"You must set a Private Email for all new employees being registered to the "
+"eMPF system."
+msgstr "所有註冊至積金易系統的新員工，必須設定私人電郵地址。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"You must set a Private Phone for all new employees being registered to the "
+"eMPF system."
+msgstr "所有註冊至積金易系統的新員工，必須設定私人電話號碼。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/l10n_hk_empf_contribution_report.py:0
+msgid ""
+"You must set a Reason Of Termination (eMPF) for all departure types used by "
+"the eMPF system."
+msgstr "所有離職類型都必須設定「終止僱用原因（積金易）」，以供積金易系統使用。"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-python
+#: code:addons/l10n_hk_hr_payroll_empf/model/hr_version.py:0
+msgid ""
+"You must set the %(start_date_string)s for employee %(employee_name)s in "
+"order to properly calculate the vested percentage."
+msgstr ""
+"你必須為員工 %(employee_name)s 設定「%(start_date_string)s」，以便正確計算歸"
+"屬百分比。"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.ui.menu,name:l10n_hk_hr_payroll_empf.menu_hk_empf_settings
+msgid "eMPF"
+msgstr "積金易"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.actions.act_window,name:l10n_hk_hr_payroll_empf.l10n_hk_empf_action
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_form
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.l10n_hk_empf_contribution_report_tree
+msgid "eMPF Contributions"
+msgstr "積金易供款"
+
+#. module: l10n_hk_hr_payroll_empf
+#. odoo-javascript
+#: code:addons/l10n_hk_hr_payroll_empf/static/src/components/payrun_card/payrun_card.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_hk_hr_payroll_empf.hr_payslip_run_kanban_inherit_l10n_hk_hr_payroll_empf
+msgid "eMPF Report"
+msgstr "積金易報告"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_l10n_hk_empf_contribution_report
+msgid "eMPF contribution report"
+msgstr "積金易供款報告"
+
+#. module: l10n_hk_hr_payroll_empf
+#: model:ir.model,name:l10n_hk_hr_payroll_empf.model_l10n_hk_empf_contribution_report_line
+msgid "eMPF contribution report line"
+msgstr "積金易供款報告資料行"
+
+#~ msgid "You must have a Status set on every lines oif the report."
+#~ msgstr "報告中的每一個資料行，都必須設定狀態。"
+
+#~ msgid "You cannot have multiple MPF Scheme with a same Registration Number."
+#~ msgstr "不同的強積金計劃，不可使用同一個註冊編號。"

@@ -1,0 +1,1751 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * quality_control
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:45+0000\n"
+"PO-Revision-Date: 2026-06-12 04:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19/"
+"quality_control/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "% of the time"
+msgstr "समय का % o भाग"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/quality.py:0
+msgid "%(product_name)s is not in Picking %(picking_name)s"
+msgstr ""
+
+#. module: quality_control
+#: model:ir.actions.report,print_report_name:quality_control.quality_check_report
+#: model:ir.actions.report,print_report_name:quality_control.quality_check_report_internal
+#, fuzzy
+msgid "'Worksheet_%s' % object.name"
+msgstr "'Worksheet_%s' % object.name"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "15.3 cm"
+msgstr "15.3 सेमी"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
+"title=\"Domain alias\"/>&amp;nbsp;"
+msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
+"title=\"Domain alias\"/>&amp;nbsp;"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid ""
+"<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
+"role=\"img\" aria-label=\"Statistics\" title=\"Statistics\"/>"
+msgstr ""
+"<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
+"role=\"img\" aria-label=\"Statistics\" title=\"Statistics\"/>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text text-danger\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text text-danger\">क्वालिटी चेक</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text text-success\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text text-success\">क्वालिटी चेक</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid ""
+"<span class=\"o_stat_text\">AVG:</span>\n"
+"                        <span class=\"o_stat_text\">STD:</span>"
+msgstr ""
+"<span class=\"o_stat_text\">औसत:</span>\n"
+"                        <span class=\"o_stat_text\">STD:</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.product_product_form_view_quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.product_template_form_view_quality_control
+#, fuzzy
+msgid ""
+"<span class=\"o_stat_text\">Pass:</span>\n"
+"                        <span class=\"o_stat_text\">Fail:</span>"
+msgstr ""
+"<span class=\"o_stat_text\">पास:</span>\n"
+"                        <span class=\"o_stat_text\">फेल:</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Alert</span>"
+msgstr "<span class=\"o_stat_text\">क्वालिटी अलर्ट</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_production_lot_view_form
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Alerts:</span>"
+msgstr "<span class=\"o_stat_text\">क्वालिटी अलर्ट:</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Check</span>"
+msgstr "<span class=\"o_stat_text\">क्वालिटी चेक</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Quality Checks</span>"
+msgstr "<span class=\"o_stat_text\">क्वालिटी चेक</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>% of products</span>"
+msgstr "<span>प्रॉडक्ट का % o</span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>Test </span>"
+msgstr "<span>टेस्ट </span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>from </span>"
+msgstr "<span>से </span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "<span>to </span>"
+msgstr "<span>के लिए </span>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Lot/Serial Number: </strong>"
+msgstr "<strong>लॉट/सीरियल नंबर: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Measure: </strong>"
+msgstr "<strong>माप: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Notes: </strong>"
+msgstr "<strong>नोट्स: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Product: </strong>"
+msgstr "<strong>प्रॉडक्ट: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Test Type: </strong>"
+msgstr "<strong>टेस्ट टाइप: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Tested by: </strong>"
+msgstr "<strong>इन्होंने टेस्ट किया: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Tested on: </strong>"
+msgstr "<strong>इस समय टेस्ट किया गया: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Transfer: </strong>"
+msgstr "<strong>ट्रांसफ़र: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "<strong>Warning: </strong>"
+msgstr "<strong>चेतावनी: </strong>"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
+msgid "Accept Emails From"
+msgstr "इनसे ईमेल स्वीकार करें"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_tag_action
+msgid "Add a new tag"
+msgstr "एक नया टैग जोड़ें"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__additional_note
+msgid "Additional Note"
+msgstr "अतिरिक्त नोट"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__additional_note
+#, fuzzy
+msgid "Additional remarks concerning this check."
+msgstr "इस जांच के संबंध में अतिरिक्त टिप्पणियां।"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_alert_ids
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+msgid "Alerts"
+msgstr "अलर्ट"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_type__all
+msgid "All"
+msgstr "सभी"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__pass
+#, fuzzy
+msgid "All checks passed"
+msgstr "सभी जांचें सफल हुईं"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "All parameters passed."
+msgstr "सभी पैरामीटर पास हो गए।"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__allowed_product_ids
+#, fuzzy
+msgid "Allowed Product"
+msgstr "ऐसे प्रॉडक्ट जिनको मंज़ूरी मिली हुई है"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
+msgid "Archived"
+msgstr "संग्रहीत किया गया"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__average
+#, fuzzy
+msgid "Average"
+msgstr "औसत"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+msgid "Back"
+msgstr "वापस जाएं"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__check_ids
+msgid "Check"
+msgstr "जांच करें"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_move_line__check_state
+#, fuzzy
+msgid "Check State"
+msgstr "स्थिति की जांच करें"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_tree
+#, fuzzy
+msgid "Checked By"
+msgstr "इन्होंने चेक किया"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_tree
+#, fuzzy
+msgid "Checked Date"
+msgstr "चेक करने की तारीख"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_move_line__check_ids
+#: model:ir.model.fields,field_description:quality_control.field_stock_picking__check_ids
+msgid "Checks"
+msgstr "चेक्स"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
+#, fuzzy
+msgid "Checks In Progress"
+msgstr "जांच जारी है"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__company_id
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__company_id
+msgid "Company"
+msgstr "कंपनी"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.menu_quality_configuration
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
+msgid "Configuration"
+msgstr "कॉन्फ़िगरेशन"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+msgid "Confirm"
+msgstr "पुष्टि करें"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Confirm Measure"
+msgstr "माप की पुष्टि करें"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_type
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Control Frequency"
+msgstr "कंट्रोल फ़्रीक्वेंसी"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+#, fuzzy
+msgid "Control Person"
+msgstr "कंट्रोल पर्सन"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
+#, fuzzy
+msgid "Control Point"
+msgstr "कंट्रोल पॉइंट"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_point_action
+#: model:ir.ui.menu,name:quality_control.menu_quality_control_points
+msgid "Control Points"
+msgstr "कंट्रोल पॉइंट"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__measure_on
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__measure_on
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_on
+#, fuzzy
+msgid "Control per"
+msgstr "कंट्रोल प्रति"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_point_kanban
+#, fuzzy
+msgid "Control per:"
+msgstr "कंट्रोल प्रति:"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Correct Measure"
+msgstr "सही माप"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Corrective Actions"
+msgstr "करेक्टिव ऐक्शन"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+#, fuzzy
+msgid "Create Alert"
+msgstr "अलर्ट बनाएं"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_alert_action_check
+#, fuzzy
+msgid "Create a new quality alert"
+msgstr "एक नया क्वालिटी अलर्ट बनाएं"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_alert_stage_action
+#, fuzzy
+msgid "Create a new quality alert stage"
+msgstr "एक नया क्वालिटी अलर्ट स्टेज बनाएं"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__create_uid
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__create_uid
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__create_uid
+msgid "Created by"
+msgstr "इन्होंने बनाया"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__create_date
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__create_date
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__create_date
+msgid "Created on"
+msgstr "इस तारीख को बनाया गया"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__current_check_id
+#, fuzzy
+msgid "Current Check"
+msgstr "मौजूदा जांच"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__current_revision_uuid
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__current_revision_uuid
+#, fuzzy
+msgid "Current Revision Uuid"
+msgstr "वर्तमान रिवीज़न Uuid"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_spreadsheet_template_view_list
+msgid "Data"
+msgstr "डेटा"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_unit__day
+msgid "Days"
+msgstr "दिन"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__uom_id
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__uom_id
+#, fuzzy
+msgid "Default unit of measure used for all stock operations."
+msgstr "स्टॉक से जुड़े सभी कामों के लिए इस्तेमाल होने वाली बेसिक यूनिट।"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_main
+#: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_team
+#, fuzzy
+msgid ""
+"Define Quality Control Points in order to automatically generate\n"
+"              quality checks at the right logistic operation: transfers, "
+"manufacturing orders."
+msgstr ""
+"लॉजिस्टिक गतिविधियों (जैसे ट्रांसफर, मैन्युफ़ैक्चरिंग ऑर्डर) के दौरान ऑटोमैटिक क्वालिटी जांच "
+"शुरू करने के लिए,\n"
+"               सिस्टम में 'क्वालिटी कंट्रोल पॉइंट्स' सेट करें।"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__testing_percentage_within_lot
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__testing_percentage_within_lot
+#: model:ir.model.fields,help:quality_control.field_quality_point__testing_percentage_within_lot
+#, fuzzy
+msgid "Defines the percentage within a lot that should be tested"
+msgstr "एक लॉट के भीतर टेस्ट किए जाने वाले प्रतिशत को परिभाषित करता है"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Describe the corrective actions you did..."
+msgstr "आपने जो सुधारात्मक कार्रवाई की, उसके बारे में बताएं..।"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Describe the preventive actions you did..."
+msgstr ""
+"आपने समस्या को फिर से आने से रोकने के लिए क्या-क्या किया, उसके बारे में बताएं..।"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+msgid "Description"
+msgstr "विवरण"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+#, fuzzy
+msgid "Description of the issue..."
+msgstr "समस्या के बारे में जानकारी..।"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__is_lot_tested_fractionally
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__is_lot_tested_fractionally
+#: model:ir.model.fields,help:quality_control.field_quality_point__is_lot_tested_fractionally
+#, fuzzy
+msgid "Determines if only a fraction of the lot should be tested"
+msgstr ""
+"यह निर्धारित करता है कि लॉट के सिर्फ़ एक हिस्से की जांच किया जाना चाहिए या नहीं"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+msgid "Discard"
+msgstr "खारिज करें"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_product_product__display_name
+#: model:ir.model.fields,field_description:quality_control.field_product_template__display_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_alert__display_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__display_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__display_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__display_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__display_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__display_name
+#: model:ir.model.fields,field_description:quality_control.field_report_quality_control_quality_worksheet__display_name
+#: model:ir.model.fields,field_description:quality_control.field_report_quality_control_quality_worksheet_internal__display_name
+#: model:ir.model.fields,field_description:quality_control.field_stock_lot__display_name
+#: model:ir.model.fields,field_description:quality_control.field_stock_move__display_name
+#: model:ir.model.fields,field_description:quality_control.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:quality_control.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "डिस्प्ले का नाम"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__display_thumbnail
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__display_thumbnail
+#, fuzzy
+msgid "Display Thumbnail"
+msgstr "थंबनेल दिखाएं"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_spreadsheet_template_view_list
+msgid "Edit"
+msgstr "संपादित"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
+msgid "Email Alias"
+msgstr "ईमेल एलियास"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__product_tracking
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__product_tracking
+#, fuzzy
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "अपने वेयरहाउस में स्टोरेबल प्रॉडक्ट की ट्रेसेबिलिटी पक्का करें।"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_success__fail
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Fail"
+msgstr "फ़ेल"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+msgid "Failed"
+msgstr "असफल"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+#, fuzzy
+msgid "Failed Quantity"
+msgstr "असफल मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__failure_location_id
+#, fuzzy
+msgid "Failure Location"
+msgstr "खराब प्रॉडक्ट की जगह"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__potential_failure_location_ids
+#, fuzzy
+msgid "Failure Locations"
+msgstr "खराब प्रॉडक्ट की जगहें"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__failure_message
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__failure_message
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__failure_message
+#, fuzzy
+msgid "Failure Message"
+msgstr "विफलता का मैसेज"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+msgid "Frequency"
+msgstr "फ़्रीक्वेंसी"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_unit_value
+#, fuzzy
+msgid "Frequency Unit Value"
+msgstr "फ़्रीक्वेंसी यूनिट वैल्यू"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+msgid "Future Activities"
+msgstr "फ्यूचर ऐक्टिविटी"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__hide_picking_id
+msgid "Hide Picking"
+msgstr ""
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__hide_production_id
+msgid "Hide Production"
+msgstr ""
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__hide_repair_id
+msgid "Hide Repair"
+msgstr ""
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_product_product__id
+#: model:ir.model.fields,field_description:quality_control.field_product_template__id
+#: model:ir.model.fields,field_description:quality_control.field_quality_alert__id
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__id
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__id
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__id
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__id
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__id
+#: model:ir.model.fields,field_description:quality_control.field_report_quality_control_quality_worksheet__id
+#: model:ir.model.fields,field_description:quality_control.field_report_quality_control_quality_worksheet_internal__id
+#: model:ir.model.fields,field_description:quality_control.field_stock_lot__id
+#: model:ir.model.fields,field_description:quality_control.field_stock_move__id
+#: model:ir.model.fields,field_description:quality_control.field_stock_move_line__id
+#: model:ir.model.fields,field_description:quality_control.field_stock_picking__id
+msgid "ID"
+msgstr "आईडी"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__potential_failure_location_ids
+#, fuzzy
+msgid ""
+"If quality check fails, a destination location is chosen from this list for\n"
+"- each failed specific product quantity if control is per quantity\n"
+" /- all quantities of a product if control is per product\n"
+" /- all quantities of products in the operation if control is per operation"
+msgstr ""
+"अगर क्वालिटी चेक विफल हो जाता है, तो इस सूची में से एक गंतव्य स्थान चुना जाता है\n"
+"- हर विफल विशिष्ट प्रॉडक्ट मात्रा के लिए, अगर कंट्रोल 'प्रति मात्रा' है\n"
+" /- प्रॉडक्ट की सभी मात्राओं के लिए, अगर कंट्रोल 'प्रति प्रॉडक्ट' है\n"
+" /- ऑपरेशन में प्रॉडक्ट की सभी मात्राओं के लिए, अगर कंट्रोल 'प्रति ऑपरेशन' है"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+msgid "In Progress"
+msgstr "काम जारी है"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__move_line_id
+#, fuzzy
+msgid ""
+"In case of Quality Check by Quantity, Move Line on which the Quality Check "
+"applies"
+msgstr ""
+"मात्रा के आधार पर क्वालिटी चेक के मामले में, वह मूव लाइन जिस पर क्वालिटी चेक लागू होता है"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+msgid "Instructions"
+msgstr "इंस्ट्रक्शन"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_last_check
+#, fuzzy
+msgid "Is Last Check"
+msgstr "आखिरी जांच है"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "John Doe"
+msgstr "जॉन डोई"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "LT-00045"
+msgstr "LT-00045"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "Laptop XYZ"
+msgstr "लैपटॉप XYZ"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__write_uid
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__write_uid
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__write_uid
+msgid "Last Updated by"
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__write_date
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__write_date
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__write_date
+msgid "Last Updated on"
+msgstr "आखिरी बार अपडेट हुआ"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+msgid "Late Activities"
+msgstr "लेट एक्टिविटी"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__lot_line_id
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__lot_line_id
+#, fuzzy
+msgid "Lot Line"
+msgstr "लॉट लाइन"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__is_lot_tested_fractionally
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_lot_tested_fractionally
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__is_lot_tested_fractionally
+#, fuzzy
+msgid "Lot Tested Fractionally"
+msgstr "थोड़ी मात्रा में टेस्ट किया गया"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Lot/SN"
+msgstr "लॉट/एसएन"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_stock_lot
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__lot_ids
+#, fuzzy
+msgid "Lot/Serial"
+msgstr "लॉट/सीरियल"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__lot_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__lot_name
+#, fuzzy
+msgid "Lot/Serial Number Name"
+msgstr "लॉट/सीरियल नंबर का नाम"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.quality_control_menu_traceability
+#, fuzzy
+msgid "Lots/Serial Numbers"
+msgstr "लॉट्स/सीरियल नंबर"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__tolerance_max
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__tolerance_max
+#, fuzzy
+msgid "Max Tolerance"
+msgstr "अधिकतम टॉलरेंस"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__measure
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__measure
+#: model:quality.point.test_type,name:quality_control.test_type_measure
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+msgid "Measure"
+msgstr "मेज़र"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_unit
+#, fuzzy
+msgid "Measure Frequency Unit"
+msgstr "फ़्रीक्वेंसी यूनिट की माप करें"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__measure_success
+#, fuzzy
+msgid "Measure Success"
+msgstr "सफलता मापें"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Message If Failure"
+msgstr "विफलता पर मैसेज"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__tolerance_min
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__tolerance_min
+#, fuzzy
+msgid "Min Tolerance"
+msgstr "न्यूनतम टॉलरेंस"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+msgid "Miscellaneous"
+msgstr "विविध"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_unit__month
+msgid "Months"
+msgstr "महीने"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__name
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__name
+msgid "Name"
+msgstr "नाम"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__nb_checks
+#, fuzzy
+msgid "Nb Checks"
+msgstr "Nb चेक"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/quality.py:0
+msgid "New"
+msgstr "नया"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+msgid "Next"
+msgstr "अगला"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__no_checks
+#, fuzzy
+msgid "No checks"
+msgstr "कोई चेक नहीं"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_spc
+msgid "No data yet!"
+msgstr "अभी तक कोई डेटा नहीं मिला!"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_success__none
+#, fuzzy
+msgid "No measure"
+msgstr "कोई माप नहीं"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_alert_action_report
+#, fuzzy
+msgid "No quality alert"
+msgstr "कोई क्वालिटी अलर्ट नहीं"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_main
+#: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_team
+#, fuzzy
+msgid "No quality check found"
+msgstr "कोई क्वालिटी जांच नहीं मिली"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_report
+#, fuzzy
+msgid "No quality checks"
+msgstr "कोई क्वालिटी जांच नहीं"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_point_action
+#, fuzzy
+msgid "No quality control point found"
+msgstr "कोई क्वालिटी कंट्रोल पॉइंट नहीं मिला"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__norm
+#, fuzzy
+msgid "Norm"
+msgstr "नियम"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__norm_unit
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__norm_unit
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__norm_unit
+#, fuzzy
+msgid "Norm Unit"
+msgstr "नॉर्म यूनिट"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__note
+msgid "Note"
+msgstr "ध्यान दें"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+msgid "Notes"
+msgstr "नोट्स"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "OK"
+msgstr "ठीक है"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_type__on_demand
+#, fuzzy
+msgid "On-demand"
+msgstr "ऑन-डिमांड"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Open spreadsheet"
+msgstr "स्प्रेडशीट खोलें"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_on__operation
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_on__operation
+msgid "Operation"
+msgstr "ऑपरेशन"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__measure_on
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__measure_on
+#: model:ir.model.fields,help:quality_control.field_quality_point__measure_on
+#, fuzzy
+msgid ""
+"Operation = One quality check is requested at the operation level.\n"
+"                  Product = A quality check is requested per product.\n"
+"                 Quantity = A quality check is requested for each new "
+"product quantity registered, with partial quantity checks also possible."
+msgstr ""
+"ऑपरेशन = ऑपरेशन लेवल पर एक क्वालिटी जांच का अनुरोध किया गया है.\n"
+"                  प्रॉडक्ट = प्रत्येक प्रॉडक्ट के लिए एक क्वालिटी जांच का अनुरोध किया "
+"गया है.\n"
+"                 मात्रा = रजिस्टर की गई प्रत्येक नई प्रॉडक्ट मात्रा के लिए एक क्वालिटी "
+"जांच का अनुरोध किया गया है, आंशिक मात्रा जांच भी संभव है।"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.menu_quality_dashboard
+msgid "Overview"
+msgstr "खास जानकारी"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#, fuzzy
+msgid "Partial Test"
+msgstr "आंशिक टेस्ट"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+msgid "Partner"
+msgstr "साथी"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_success__pass
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Pass"
+msgstr "पास"
+
+#. module: quality_control
+#: model:quality.point.test_type,name:quality_control.test_type_passfail
+#, fuzzy
+msgid "Pass - Fail"
+msgstr "पास - फेल"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+msgid "Passed"
+msgstr "पास किया गया"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_check_todo
+#, fuzzy
+msgid "Pending checks"
+msgstr "जांच अभी पेडिंग है"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_value
+msgid "Percentage"
+msgstr "प्रतिशत"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_type__periodical
+#, fuzzy
+msgid "Periodically"
+msgstr "समय-समय पर"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__picture
+msgid "Picture"
+msgstr "पिक्चर"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/quality.py:0
+#, fuzzy
+msgid "Picture Uploaded"
+msgstr "तस्वीर अपलोड किया गया"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__position_current_check
+#, fuzzy
+msgid "Position Current Check"
+msgstr "पोज़िशन की वर्तमान जांच"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
+msgid "Preventive Actions"
+msgstr "प्रिवेंटिव ऐक्शन"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+msgid "Previous"
+msgstr "पिछला"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_product_template
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__product_id
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__product_id
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_on__product
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_on__product
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+msgid "Product"
+msgstr "प्रॉडक्ट"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_stock_move_line
+#, fuzzy
+msgid "Product Moves (Stock Move Line)"
+msgstr "प्रॉडक्ट मूव्स (स्टॉक मूव लाइन)"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_product_product
+msgid "Product Variant"
+msgstr "उत्पाद प्रकार"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.quality_control_menu_product_variant
+msgid "Product Variants"
+msgstr "प्रॉडक्ट के वेरिएंट"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.quality_control_menu_product
+#: model:ir.ui.menu,name:quality_control.quality_product_menu_product_template
+msgid "Products"
+msgstr "प्रॉडक्ट"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "QC-00123"
+msgstr "QC-00123"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_failed
+#, fuzzy
+msgid "Qty Failed"
+msgstr "विफल मात्रा"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.menu_quality_root
+msgid "Quality"
+msgstr "क्वालिटी"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/quality.py:0
+#: model:ir.actions.server,name:quality_control.stock_picking_action_quality_alert
+#: model:ir.model,name:quality_control.model_quality_alert
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_calendar
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_search_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
+#, fuzzy
+msgid "Quality Alert"
+msgstr "क्वालिटी अलर्ट"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_graph
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_pivot
+#, fuzzy
+msgid "Quality Alert Analysis"
+msgstr "क्वालिटी अलर्ट एनालिसिस"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_alert_count
+#, fuzzy
+msgid "Quality Alert Count"
+msgstr "क्वालिटी अलर्ट की संख्या"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_lot__quality_alert_qty
+#, fuzzy
+msgid "Quality Alert Qty"
+msgstr "क्वालिटी अलर्ट मात्रा"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_alert_stage_action
+#: model:ir.ui.menu,name:quality_control.menu_quality_config_alert_stage
+#, fuzzy
+msgid "Quality Alert Stages"
+msgstr "क्वालिटी अलर्ट स्टेज"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_alert_stage_action
+#, fuzzy
+msgid ""
+"Quality Alert stages define the different steps a quality alert should go "
+"through."
+msgstr ""
+"क्वालिटी अलर्ट स्टेज उन अलग-अलग स्टेप को परिभाषित करते हैं जिनसे एक क्वालिटी अलर्ट को "
+"गुजरना चाहिए।"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_alert_action_check
+#: model:ir.actions.act_window,name:quality_control.quality_alert_action_team
+#: model:ir.ui.menu,name:quality_control.menu_quality_alert
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
+msgid "Quality Alerts"
+msgstr "क्वालिटी अलर्ट"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_alert_action_report
+#: model:ir.ui.menu,name:quality_control.menu_quality_alert_report
+#, fuzzy
+msgid "Quality Alerts Analysis"
+msgstr "क्वालिटी अलर्ट एनालिसिस"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/quality.py:0
+#: model:ir.actions.act_window,name:quality_control.action_quality_check_wizard
+#: model:ir.actions.server,name:quality_control.stock_picking_action_quality_check_on_demand
+#: model:ir.model,name:quality_control.model_quality_check
+#: model_terms:ir.ui.view,arch_db:quality_control.view_stock_move_line_detailed_operation_tree_inherit_quality
+msgid "Quality Check"
+msgstr "क्वालिटी चेक"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_check_action_report
+#: model:ir.ui.menu,name:quality_control.menu_quality_check_report
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_graph
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_pivot
+#, fuzzy
+msgid "Quality Check Analysis"
+msgstr "क्वालिटी की जांच का एनालिसिस"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_check_fail
+#, fuzzy
+msgid "Quality Check Fail"
+msgstr "क्वालिटी चेक फेल"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/wizard/quality_check_wizard.py:0
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Quality Check Failed"
+msgstr "क्वालिटी चेक फेल हो गया"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/wizard/quality_check_wizard.py:0
+#, fuzzy
+msgid "Quality Check Failed for %(product_name)s"
+msgstr "%(product_name)s के लिए क्वालिटी चेक फेल हो गया"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "Quality Check Picture"
+msgstr "क्वालिटी चेक के लिए तस्वीर"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_stock_lot__quality_check_qty
+#, fuzzy
+msgid "Quality Check Qty"
+msgstr "क्वालिटी चेक की मात्रा"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "Quality Check:"
+msgstr "क्वालिटी चेक:"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_check_action_main
+#: model:ir.actions.act_window,name:quality_control.quality_check_action_picking
+#: model:ir.actions.act_window,name:quality_control.quality_check_action_production_lot
+#: model:ir.actions.act_window,name:quality_control.quality_check_action_team
+#: model:ir.ui.menu,name:quality_control.menu_quality_checks
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_search_inherit_quality
+#: model_terms:ir.ui.view,arch_db:quality_control.stock_production_lot_form_quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+msgid "Quality Checks"
+msgstr "क्वालिटी जांच"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_check_action_spc
+#, fuzzy
+msgid "Quality Checks SPC"
+msgstr "क्वालिटी चेक SPC"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.menu_quality_control
+msgid "Quality Control"
+msgstr "क्वालिटी कंट्रोल"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_quality_point
+#, fuzzy
+msgid "Quality Control Point"
+msgstr "क्वालिटी कंट्रोल पॉइंट"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_product_product__quality_control_point_qty
+#: model:ir.model.fields,field_description:quality_control.field_product_template__quality_control_point_qty
+#, fuzzy
+msgid "Quality Control Point Qty"
+msgstr "क्वालिटी कंट्रोल पॉइंट की मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_product_product__quality_fail_qty
+#: model:ir.model.fields,field_description:quality_control.field_product_template__quality_fail_qty
+#, fuzzy
+msgid "Quality Fail Qty"
+msgstr "क्वालिटी फेल की मात्रा"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_alert_team_action
+#, fuzzy
+msgid "Quality Overview"
+msgstr "क्वालिटी की पूरी जानकारी"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_product_product__quality_pass_qty
+#: model:ir.model.fields,field_description:quality_control.field_product_template__quality_pass_qty
+#, fuzzy
+msgid "Quality Pass Qty"
+msgstr "क्वालिटी पास की मात्रा"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.product_product_form_view_quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.product_template_form_view_quality_control
+#, fuzzy
+msgid "Quality Points"
+msgstr "क्वालिटी पॉइंट"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_spreadsheet_template_action_config
+#: model:ir.ui.menu,name:quality_control.menu_config_quality_spreadsheet_template
+#, fuzzy
+msgid "Quality Spreadsheet Templates"
+msgstr "क्वालिटी स्प्रेडशीट टेम्प्लेट"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_tag_action
+#: model:ir.ui.menu,name:quality_control.menu_config_quality_tags
+#, fuzzy
+msgid "Quality Tags"
+msgstr "क्वालिटी टैग"
+
+#. module: quality_control
+#: model:ir.actions.act_window,name:quality_control.quality_alert_team_action_config
+#: model:ir.ui.menu,name:quality_control.menu_quality_config_alert_team
+msgid "Quality Teams"
+msgstr "क्वालिटी टीम"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_alert_team_action
+#, fuzzy
+msgid ""
+"Quality Teams group the different quality alerts/checks\n"
+"              according to the roles (teams) that need them."
+msgstr ""
+"क्वालिटी टीमें अलग-अलग क्वालिटी अलर्ट/चेक को उन भूमिकाओं (टीमों) के\n"
+"               अनुसार ग्रुप करती हैं जिन्हें उनकी आवश्यकता होती है।"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet_internal
+#, fuzzy
+msgid "Quality Worksheet Internal Report"
+msgstr "क्वालिटी वर्कशीट के लिए इंटरनल रिपोर्ट"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet
+#, fuzzy
+msgid "Quality Worksheet Report"
+msgstr "क्वालिटी वर्कशीट की रिपोर्ट"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_quality_check_spreadsheet
+#, fuzzy
+msgid "Quality check spreadsheet"
+msgstr "क्वालिटी चेक के लिए स्प्रेडशीट"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_quality_spreadsheet_template
+#, fuzzy
+msgid "Quality check template spreadsheet"
+msgstr "क्वालिटी चेक के लिए टेम्प्लेट स्प्रेडशीट"
+
+#. module: quality_control
+#: model_terms:ir.actions.act_window,help:quality_control.quality_point_action
+#, fuzzy
+msgid ""
+"Quality control points define the quality checks which should be\n"
+"              performed at each operation, for your different products."
+msgstr ""
+"क्वालिटी कंट्रोल पॉइंट उन क्वालिटी चेक को परिभाषित करते हैं जिन्हें\n"
+"               आपके विभिन्न प्रॉडक्ट के लिए प्रत्येक ऑपरेशन पर किया जाना चाहिए।"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_line
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_line
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_on__move_line
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_on__move_line
+msgid "Quantity"
+msgstr "मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_failed
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
+#, fuzzy
+msgid "Quantity Failed"
+msgstr "मात्रा विफल"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_passed
+#, fuzzy
+msgid "Quantity Passed"
+msgstr "मात्रा पास हो गई"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_tested
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_tested
+#, fuzzy
+msgid "Quantity Tested"
+msgstr "मात्रा की जांच की गई"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__qty_tested
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__qty_tested
+#, fuzzy
+msgid "Quantity of product tested within the lot"
+msgstr "लॉट के अंदर टेस्ट किए गए प्रॉडक्ट की मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__qty_failed
+#, fuzzy
+msgid "Quantity of product that failed the quality check"
+msgstr "क्वालिटी चेक में असफल हुए प्रॉडक्ट की मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__qty_passed
+#, fuzzy
+msgid "Quantity of product that passed the quality check"
+msgstr "क्वालिटी चेक में पास हुए प्रॉडक्ट की मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check__qty_to_test
+#: model:ir.model.fields,help:quality_control.field_quality_check_wizard__qty_to_test
+#, fuzzy
+msgid "Quantity of product to test within the lot"
+msgstr "लॉट के अंदर टेस्ट करने के लिए प्रॉडक्ट की मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_to_test
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_to_test
+#, fuzzy
+msgid "Quantity to Test"
+msgstr "टेस्ट के लिए मात्रा"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_type__random
+#, fuzzy
+msgid "Randomly"
+msgstr "अंधाधुंध तरीके से"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__name
+msgid "Reference"
+msgstr "संदर्भ"
+
+#. module: quality_control
+#: model:ir.ui.menu,name:quality_control.menu_quality_reporting
+msgid "Reporting"
+msgstr "रिपोर्टिंग"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
+msgid "Responsible"
+msgstr "ज़िम्मेदार"
+
+#. module: quality_control
+#. odoo-javascript
+#: code:addons/quality_control/static/src/spreadsheet_bundle/quality_check_spreadsheet_action/quality_check_spreadsheet_action.xml:0
+#, fuzzy
+msgid "Save in"
+msgstr "सेव करें"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__show_lot_text
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__show_lot_text
+#, fuzzy
+msgid "Show Lot Text"
+msgstr "लॉट टेक्स्ट दिखाएं"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__fail
+#, fuzzy
+msgid "Some checks failed"
+msgstr "कुछ जांचें विफल हो गईं"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__in_progress
+#, fuzzy
+msgid "Some checks to be done"
+msgstr "कुछ जांचें की जानी है"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__spreadsheet_id
+#: model:quality.point.test_type,name:quality_control.test_type_spreadsheet
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+msgid "Spreadsheet"
+msgstr "स्प्रेडशीट"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__spreadsheet_data
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__spreadsheet_data
+#, fuzzy
+msgid "Spreadsheet Data"
+msgstr "स्प्रेडशीट डेटा"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__spreadsheet_file_name
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__spreadsheet_file_name
+#, fuzzy
+msgid "Spreadsheet File Name"
+msgstr "स्प्रेडशीट फ़ाइल का नाम"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__spreadsheet_revision_ids
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__spreadsheet_revision_ids
+#, fuzzy
+msgid "Spreadsheet Revision"
+msgstr "स्प्रेडशीट रिवीज़न"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__spreadsheet_snapshot
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__spreadsheet_snapshot
+#, fuzzy
+msgid "Spreadsheet Snapshot"
+msgstr "स्प्रेडशीट स्नैपशॉट"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__spreadsheet_template_id
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__spreadsheet_template_id
+#, fuzzy
+msgid "Spreadsheet Template"
+msgstr "स्प्रेडशीट टेम्पलेट"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__spreadsheet_binary_data
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__spreadsheet_binary_data
+#, fuzzy
+msgid "Spreadsheet file"
+msgstr "स्प्रेडशीट फ़ाइल"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_stage_view_tree
+msgid "Stage Name"
+msgstr "स्टेज का नाम"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__standard_deviation
+#, fuzzy
+msgid "Standard Deviation"
+msgstr "मानक विचलन"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__quality_state
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+msgid "Status"
+msgstr "स्थिति"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_stock_move
+msgid "Stock Move"
+msgstr "चाल स्टॉक"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__move_line_id
+#, fuzzy
+msgid "Stock Move Line"
+msgstr "स्टॉक मूव लाइन"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__check_cell
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__spreadsheet_check_cell
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__check_cell
+#, fuzzy
+msgid "Success cell"
+msgstr "सक्सेस सेल"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_tag_view_search
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_tag_view_tree
+msgid "Tags"
+msgstr "टैग"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
+msgid "Team"
+msgstr "टीम"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "Team Name"
+msgstr "टीम का नाम"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_point_kanban
+#, fuzzy
+msgid "Team:"
+msgstr "टीम:"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_tree
+#, fuzzy
+msgid "Teams"
+msgstr "टीम"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__test_type
+msgid "Technical name"
+msgstr "तकनीकी नाम"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
+msgid "Test Type"
+msgstr "टेस्ट टाइप"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_tree
+#, fuzzy
+msgid "Testing % Within Lot"
+msgstr "लॉट के भीतर % का टेस्टिंग"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__testing_percentage_within_lot
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__testing_percentage_within_lot
+#: model:ir.model.fields,field_description:quality_control.field_quality_point__testing_percentage_within_lot
+#, fuzzy
+msgid "Testing Percentage Within Lot"
+msgstr "लॉट के भीतर टेस्टिंग प्रतिशत"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_check_spreadsheet__check_cell
+#: model:ir.model.fields,help:quality_control.field_quality_point__spreadsheet_check_cell
+#: model:ir.model.fields,help:quality_control.field_quality_spreadsheet_template__check_cell
+#, fuzzy
+msgid ""
+"The check is successful if the success cell value is TRUE. If there are "
+"several sheets, specify which one you want to use (e.g. Sheet2!C4). If not "
+"specified, the first sheet is selected by default."
+msgstr ""
+"चेक सफल होता है अगर सक्सेस सेल की वैल्यू TRUE है. अगर कई शीट हैं, तो तय करें कि आप किसका "
+"उपयोग करना चाहते हैं (जैसे Sheet2!C4). अगर तय नहीं किया गया है, तो डिफ़ॉल्ट रूप से पहली "
+"शीट चुनी जाती है।"
+
+#. module: quality_control
+#: model:ir.model.fields,help:quality_control.field_quality_point__measure_frequency_value
+#, fuzzy
+msgid "The probability of each quality check being generated"
+msgstr "प्रत्येक क्वालिटी चेक के जेनरेट होने की संभावना"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_spreadsheet__thumbnail
+#: model:ir.model.fields,field_description:quality_control.field_quality_spreadsheet_template__thumbnail
+msgid "Thumbnail"
+msgstr "थंबनेल"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_alert__title
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__title
+msgid "Title"
+msgstr "टाइटल"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
+msgid "Today Activities"
+msgstr "आज की गतिविधियां"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+msgid "Tolerance"
+msgstr "टॉलरेंस"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__product_tracking
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__product_tracking
+msgid "Tracking"
+msgstr "ट्रैकिंग"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_stock_picking
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_tree
+msgid "Transfer"
+msgstr "स्थानांतरण"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "Transfer-987"
+msgstr "Transfer-987"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
+msgid "Type"
+msgstr "टाइप"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_point_kanban
+#, fuzzy
+msgid "Type:"
+msgstr "टाइप:"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__uom_id
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__uom_id
+msgid "Unit"
+msgstr "यूनिट"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+msgid "Unit of Measure"
+msgstr "माप की इकाई"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/quality_spreadsheet_template.py:0
+#, fuzzy
+msgid "Untitled spreadsheet"
+msgstr "शीर्षक के बिना स्प्रेडशीट"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+msgid "Validate"
+msgstr "पुष्टि करें"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "Value near threshold."
+msgstr "थ्रेशोल्ड के पास वैल्यू।"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_spreadsheet_template_view_list
+msgid "Visible to all"
+msgstr "सभी को दिखेगा"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
+#, fuzzy
+msgid "Visual Check"
+msgstr "विज़ुअल चेक"
+
+#. module: quality_control
+#: model:ir.model.fields,field_description:quality_control.field_quality_check__warning_message
+#: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__warning_message
+msgid "Warning Message"
+msgstr "वार्निंग मैसेज"
+
+#. module: quality_control
+#: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_unit__week
+msgid "Weeks"
+msgstr "सप्ताह"
+
+#. module: quality_control
+#: model:ir.model,name:quality_control.model_quality_check_wizard
+#, fuzzy
+msgid "Wizard for Quality Check Pop Up"
+msgstr "क्वालिटी चेक पॉप-अप के लिए विज़ॉर्ड"
+
+#. module: quality_control
+#: model:ir.actions.report,name:quality_control.quality_check_report
+#, fuzzy
+msgid "Worksheet Report - External (PDF)"
+msgstr "वर्कशीट रिपोर्ट - एक्सटर्नल (पीडीएफ़)"
+
+#. module: quality_control
+#: model:ir.actions.report,name:quality_control.quality_check_report_internal
+#, fuzzy
+msgid "Worksheet Report - Internal (PDF)"
+msgstr "वर्कशीट रिपोर्ट - इंटरनल (पीडीएफ़)"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
+#, fuzzy
+msgid "Write quality check notes..."
+msgstr "क्वालिटी चेक के नोट्स लिखें..।"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/quality.py:0
+#, fuzzy
+msgid ""
+"You measured %(measure).2f %(unit)s and it should be between %"
+"(tolerance_min).2f and %(tolerance_max).2f %(unit)s."
+msgstr ""
+"आपने %(measure).2f %(unit)s मापा है और यह %(tolerance_min).2f और %"
+"(tolerance_max).2f %(unit)s के बीच होना चाहिए।"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/wizard/quality_check_wizard.py:0
+#, fuzzy
+msgid "You must provide a picture before validating"
+msgstr "मान्य करने से पहले आपको एक तस्वीर देना होगा"
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/stock_picking.py:0
+msgid ""
+"You need to supply a Lot/Serial Number for product:\n"
+"%(products)s"
+msgstr ""
+
+#. module: quality_control
+#. odoo-python
+#: code:addons/quality_control/models/stock_picking.py:0
+#, fuzzy
+msgid "You still need to do the quality checks!"
+msgstr "आपको अभी भी क्वालिटी चेक करने होंगे!"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
+msgid "alias"
+msgstr "उपनाम"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
+#, fuzzy
+msgid "e.g. The QA Masters"
+msgstr "जैसे, द क्यूए मास्टर्स"
+
+#. module: quality_control
+#: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
+msgid "e.g. mycompany.com"
+msgstr "जैसे, mycompany.com"
+
+#~ msgid "2023-08-15"
+#~ msgstr "15-08-2023"

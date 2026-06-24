@@ -1,0 +1,1090 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * voip
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:01+0000\n"
+"PO-Revision-Date: 2026-06-06 14:45+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/voip/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__nbr
+msgid "# of Cases"
+msgstr "# ຂອງກໍລະນີ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "%(number of missed calls)s missed calls"
+msgstr "ບໍ່ໄດ້ຮັບສາຍ %(number of missed calls)s ສາຍ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "1 missed call"
+msgstr "ບໍ່ໄດ້ຮັບສາຍ 1 ສາຍ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "2 missed calls"
+msgstr "ບໍ່ໄດ້ຮັບສາຍ 2 ສາຍ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "A hardware error occured while trying to access audio recording device. Please make sure your drivers are up to date and try again."
+msgstr ""
+"ເກີດຂໍ້ຜິດພາດທາງຮາດແວໃນຂະນະທີ່ພະຍາຍາມເຂົ້າເຖິງອຸປະກອນບັນທຶກສຽງ. ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈວ່າໄດເວີຂອ"
+"ງທ່ານເປັນເວີຊັນຫຼ້າສຸດແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Accept"
+msgstr "ຮັບສາຍ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+#: model:ir.model,name:voip.model_mail_activity
+msgid "Activity"
+msgstr "ກິດຈະກຳ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/components/call_queue_switch/call_queue_switch.js:0
+msgid "Add to Call Queue"
+msgstr "ເພີ່ມເຂົ້າໃນຄິວໂທ"
+
+#. module: voip
+#: model:ir.actions.server,name:voip.action_add_to_call_queue
+msgid "Add to call queue"
+msgstr "ເພີ່ມເຂົ້າໃນຄິວໂທ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "An error occured involving the audio recording device (%(errorName)s):</br>%(errorMessage)s"
+msgstr ""
+"ເກີດຂໍ້ຜິດພາດກ່ຽວກັບອຸປະກອນບັນທຶກສຽງ (%(errorName)s):</br>%(errorMessage)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/user_agent_service.js:0
+msgid "An error occurred during the instantiation of the User Agent:</br></br> %(error message)s"
+msgstr ""
+"ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການເລີ່ມຕົ້ນລະບົບ User Agent:</br></br> %(error message)s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "Are you sure that you want to close this website? There's a call ongoing."
+msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການປິດເວັບໄຊນີ້? ກຳລັງມີການໂທຢູ່."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users_settings__how_to_call_on_mobile__ask
+msgid "Ask"
+msgstr "ຖາມ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call.xml:0
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Avatar"
+msgstr "ຮູບແທນຕົວ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Backspace"
+msgstr "ລົບຖອຍຫຼັງ"
+
+#. module: voip
+#. odoo-python
+#. odoo-javascript
+#: code:addons/voip/models/voip_queue_mixin.py:0
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Call"
+msgstr "ໂທ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__call_date
+msgid "Call Date"
+msgstr "ວັນທີໂທ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__name
+msgid "Call Name"
+msgstr "ຊື່ການໂທ"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_phonecall.py:0
+msgid "Call duration: %(min)smin %(sec)ssec"
+msgstr "ໄລຍະເວລາການໂທ: %(min)s ນາທີ %(sec)s ວິນາທີ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__should_call_from_another_device
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__should_call_from_another_device
+msgid "Call from another device"
+msgstr "ໂທຈາກອຸປະກອນອື່ນ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "Call rejected (reason: \"%(reasonPhrase)s\")"
+msgstr "ການໂທຖືກປະຕິເສດ (ເຫດຜົນ: \"%(reasonPhrase)s\")"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_phonecall.py:0
+msgid "Call to %s"
+msgstr "ໂທຫາ %s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/voip_service.js:0
+msgid "Calling %(phone number)s"
+msgstr "ກຳລັງໂທຫາ %(phone number)s"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Calls Date"
+msgstr "ວັນທີໂທ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/audio_input_device.js:0
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call.xml:0
+msgid "Cancel the activity"
+msgstr "ຍົກເລີກກິດຈະກຳ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__cancel
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_report__state__cancel
+msgid "Cancelled"
+msgstr "ຍົກເລີກແລ້ວ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "Cannot access audio recording device. If you have denied access to your microphone, please grant it and try again. Otherwise, make sure this website runs over HTTPS and that your browser is not set to deny access to media devices."
+msgstr ""
+"ບໍ່ສາມາດເຂົ້າເຖິງອຸປະກອນບັນທຶກສຽງໄດ້. ຫາກທ່ານໄດ້ປະຕິເສດການເຂົ້າເຖິງໄມໂຄຣໂຟນ, ກະລຸນາອະນຸຍາດແລ້ວລ"
+"ອງໃໝ່ອີກຄັ້ງ. ຖ້າບໍ່ດັ່ງນັ້ນ, ໃຫ້ກວດສອບວ່າເວັບໄຊນີ້ເຮັດວຽກຜ່ານ HTTPS ແລະ ບຣາວເຊີຂອງທ່ານບໍ່ໄດ້ຕັ້ງຄ່າປະຕິ"
+"ເສດການເຂົ້າເຖິງອຸປະກອນສື່."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users__how_to_call_on_mobile
+#: model:ir.model.fields,help:voip.field_res_users_settings__how_to_call_on_mobile
+msgid ""
+"Choose the method to be used to place a call when using the mobile application:\n"
+"            • VoIP: Always use the Odoo softphone\n"
+"            • Device's phone: Always use the device's phone\n"
+"            • Ask: Always ask whether the softphone or the device's phone must be used\n"
+"        "
+msgstr ""
+"ເລືອກວິທີທີ່ຈະໃຊ້ໃນການໂທເມື່ອໃຊ້ແອັບພລິເຄຊັນມືຖື:\n"
+"            • VoIP: ໃຊ້ softphone ຂອງ Odoo ສະເໝີ\n"
+"            • ໂທລະສັບຂອງອຸປະກອນ: ໃຊ້ໂທລະສັບຂອງອຸປະກອນສະເໝີ\n"
+"            • ຖາມ: ຖາມທຸກຄັ້ງວ່າຈະໃຊ້ softphone ຫຼື ໂທລະສັບຂອງອຸປະກອນ\n"
+"        "
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "Click to unblock"
+msgstr "ຄລິກເພື່ອປົດບລັອກ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Close"
+msgstr "ປິດ"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/audio_input_device.js:0
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/user_agent_service.js:0
+msgid "Connecting…"
+msgstr "ກຳລັງເຊື່ອມຕໍ່…"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_partner
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__partner_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__partner_id
+msgid "Contact"
+msgstr "ຜູ້ຕິດຕໍ່"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Contacts"
+msgstr "ລາຍຊື່ຜູ້ຕິດຕໍ່"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__create_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__create_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Creation Date"
+msgstr "ວັນທີສ້າງ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Customer"
+msgstr "ລູກຄ້າ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__call_date
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_config_settings__mode__demo
+msgid "Demo"
+msgstr "ຕົວຢ່າງ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_users_settings__how_to_call_on_mobile__phone
+msgid "Device's phone"
+msgstr "ໂທລະສັບຂອງອຸປະກອນ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__direction
+msgid "Direction"
+msgstr "ທິດທາງ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__display_name
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__display_name
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Document"
+msgstr "ເອກະສານ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_log_wizard__reschedule_option__no_reschedule
+msgid "Don't Reschedule"
+msgstr "ບໍ່ຕ້ອງກຳນົດເວລາໃໝ່"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__date_deadline
+msgid "Due Date"
+msgstr "ວັນຄົບກຳນົດ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__duration
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__duration
+msgid "Duration"
+msgstr "ໄລຍະເວລາ"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_phonecall__duration
+msgid "Duration in minutes."
+msgstr "ໄລຍະເວລາເປັນນາທີ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Edit"
+msgstr "ແກ້ໄຂ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "End Call"
+msgstr "ວາງສາຍ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Enter number or name"
+msgstr "ປ້ອນເບີ ຫຼື ຊື່"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Enter the number..."
+msgstr "ປ້ອນເບີໂທ..."
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__external_device_number
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__external_device_number
+msgid "External device number"
+msgstr "ເບີໂທລະສັບອຸປະກອນພາຍນອກ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/user_agent_service.js:0
+msgid "Failed to start the user agent. The URL of the websocket server may be wrong. Please have an administrator verify the websocket server URL in the General Settings."
+msgstr ""
+"ບໍ່ສາມາດເລີ່ມຕົ້ນ user agent ໄດ້. URL ຂອງ websocket server ອາດຈະຜິດ. ກະລຸນາໃຫ້ຜູ້ດູແລລະບົບກ"
+"ວດສອບ URL ຂອງ websocket server ໃນການຕັ້ງຄ່າທົ່ວໄປ."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_phonecall__sequence
+msgid "Gives the sequence order when displaying a list of Phonecalls."
+msgstr "ກຳນົດລຳດັບການສະແດງຜົນເມື່ອສະແດງລາຍຊື່ການໂທລະສັບ."
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Group By"
+msgstr "ຈັດກຸ່ມໂດຍ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Hang up but keep call in queue"
+msgstr "ວາງສາຍແຕ່ຮັກສາການໂທໄວ້ໃນຄິວ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Headphones"
+msgstr "ຫູຟັງ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__done
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_report__state__done
+msgid "Held"
+msgstr "ໂທແລ້ວ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__how_to_call_on_mobile
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__how_to_call_on_mobile
+msgid "How to place calls on mobile"
+msgstr "ວິທີການໂທໃນມືຖື"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users__should_auto_reject_incoming_calls
+#: model:ir.model.fields,help:voip.field_res_users_settings__should_auto_reject_incoming_calls
+msgid "If enabled, incoming calls will be automatically declined in Odoo."
+msgstr "ຫາກເປີດໃຊ້, ສາຍເອີ້ນເຂົ້າຈະຖືກປະຕິເສດໂດຍອັດຕະໂນມັດໃນ Odoo."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users__should_call_from_another_device
+#: model:ir.model.fields,help:voip.field_res_users_settings__should_call_from_another_device
+msgid "If enabled, placing a call in Odoo will transfer the call to the \"External device number\". Use this option to place the call in Odoo but handle it from another device - e.g. your desk phone."
+msgstr ""
+"ຫາກເປີດໃຊ້, ການໂທໃນ Odoo ຈະໂອນສາຍໄປຍັງ \"ເບີໂທລະສັບອຸປະກອນພາຍນອກ\". ໃຊ້ຕົວເລືອກນີ້ເພື່ອທຳກ"
+"ານໂທໃນ Odoo ແຕ່ຈັດການຜ່ານອຸປະກອນອື່ນ - ເຊັ່ນ: ໂທລະສັບຕັ້ງໂຕະຂອງທ່ານ."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users__external_device_number
+#: model:ir.model.fields,help:voip.field_res_users_settings__external_device_number
+msgid "If the \"Call from another device\" option is enabled, calls placed in Odoo will be transfered to this phone number."
+msgstr ""
+"ຫາກຕົວເລືອກ \"ໂທຈາກອຸປະກອນອື່ນ\" ຖືກເປີດໃຊ້, ການໂທໃນ Odoo ຈະຖືກໂອນໄປຫາເບີໂທລະສັບນີ້."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_log_wizard__reschedule_option__7d
+msgid "In 1 Week"
+msgstr "ໃນ 1 ອາທິດ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_log_wizard__reschedule_option__15d
+msgid "In 15 Day"
+msgstr "ໃນ 15 ວັນ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_log_wizard__reschedule_option__2m
+msgid "In 2 Months"
+msgstr "ໃນ 2 ເດືອນ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__in_queue
+msgid "In Call Queue"
+msgstr "ໃນຄິວໂທ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "In call for:"
+msgstr "ກຳລັງໂທຫາ:"
+
+#. module: voip
+#: model_terms:ir.actions.act_window,help:voip.voip_phonecall_view
+msgid ""
+"In order to follow up on the call, you can trigger a request for\n"
+"        another call, a meeting."
+msgstr ""
+"ເພື່ອຕິດຕາມການໂທ, ທ່ານສາມາດສ້າງຄຳຮ້ອງຂໍການໂທອີກຄັ້ງ\n"
+"        ຫຼື ການປະຊຸມ."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__direction__incoming
+msgid "Incoming"
+msgstr "ສາຍເຂົ້າ"
+
+#. module: voip
+#. odoo-python
+#. odoo-javascript
+#: code:addons/voip/models/voip_phonecall.py:0
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "Incoming call from %s"
+msgstr "ສາຍເຂົ້າຈາກ %s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "Incoming call from %s (%s)"
+msgstr "ສາຍເຂົ້າຈາກ %s (%s)"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Incoming call from..."
+msgstr "ສາຍເຂົ້າຈາກ..."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/audio_input_device.js:0
+msgid "Input/output audio settings"
+msgstr "ການຕັ້ງຄ່າສຽງ ຂາເຂົ້າ/ຂາອອກ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_partner__has_call_in_queue
+#: model:ir.model.fields,field_description:voip.field_res_users__has_call_in_queue
+#: model:ir.model.fields,field_description:voip.field_voip_queue_mixin__has_call_in_queue
+msgid "Is in the Call Queue"
+msgstr "ຢູ່ໃນຄິວໂທ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Keypad"
+msgstr "ແປ້ນພິມຕົວເລກ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__last_seen_phone_call
+msgid "Last Seen Phone Call"
+msgstr "ເຫັນການໂທຫຼ້າສຸດເມື່ອ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__write_uid
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__write_date
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__write_date
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__activity_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__activity_id
+msgid "Linked Activity"
+msgstr "ກິດຈະກຳທີ່ກ່ຽວຂ້ອງ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__mail_message_id
+msgid "Linked Chatter Message"
+msgstr "ຂໍ້ຄວາມ Chatter ທີ່ກ່ຽວຂ້ອງ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity__voip_phonecall_id
+msgid "Linked Voip Phonecall"
+msgstr "ການໂທ Voip ທີ່ກ່ຽວຂ້ອງ"
+
+#. module: voip
+#: model_terms:ir.actions.act_window,help:voip.voip_phonecall_view
+msgid "Log the summary of a phonecall"
+msgstr "ບັນທຶກບົດສະຫຼຸບຂອງການໂທລະສັບ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__phonecall_id
+msgid "Logged Phonecall"
+msgstr "ບັນທຶກການໂທແລ້ວ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "Make a call using:"
+msgstr "ທຳການໂທໂດຍໃຊ້:"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Mark as done"
+msgstr "ໝາຍວ່າສຳເລັດແລ້ວ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__missed
+msgid "Missed"
+msgstr "ບໍ່ໄດ້ຮັບສາຍ"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_phonecall.py:0
+msgid "Missed Call from %s"
+msgstr "ບໍ່ໄດ້ຮັບສາຍຈາກ %s"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_mail_activity__mobile
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__mobile
+msgid "Mobile"
+msgstr "ມືຖື"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_partner__sanitized_mobile
+#: model:ir.model.fields,field_description:voip.field_res_users__sanitized_mobile
+msgid "Mobile number sanitized"
+msgstr "ເບີມືຖືທີ່ກວດສອບແລ້ວ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/components/activity/activity_patch.xml:0
+msgid "Mobile:"
+msgstr "ມືຖື:"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Mute"
+msgstr "ປິດສຽງ"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "My Phonecalls"
+msgstr "ການໂທຂອງຂ້ອຍ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Next activities"
+msgstr "ກິດຈະກຳຖັດໄປ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "No audio recording device available. The application requires a microphone in order to be used."
+msgstr "ບໍ່ມີອຸປະກອນບັນທຶກສຽງ. ແອັບພລິເຄຊັນຕ້ອງການໄມໂຄຣໂຟນເພື່ອໃຊ້ງານ."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__pending
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_report__state__pending
+msgid "Not Held"
+msgstr "ຍັງບໍ່ໄດ້ໂທ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__note
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__note
+msgid "Note"
+msgstr "ໝາຍເຫດ"
+
+#. module: voip
+#: model_terms:ir.actions.act_window,help:voip.voip_phonecall_view
+msgid ""
+"Odoo allows you to log inbound calls on the fly to track the\n"
+"        history of the communication with a customer or to inform another\n"
+"        team member."
+msgstr ""
+"Odoo ຊ່ວຍໃຫ້ທ່ານບັນທຶກສາຍເອີ້ນເຂົ້າໄດ້ທັນທີເພື່ອຕິດຕາມ\n"
+"        ປະຫວັດການຕິດຕໍ່ກັບລູກຄ້າ ຫຼື ເພື່ອແຈ້ງໃຫ້\n"
+"        ສະມາຊິກຄົນອື່ນໃນທີມຊາບ."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__direction__outgoing
+msgid "Outgoing"
+msgstr "ສາຍອອກ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_config_settings__pbx_ip
+msgid "PBX Server IP"
+msgstr "ໄອພີເຊີເວີ PBX"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/user_agent_service.js:0
+msgid "PBX or Websocket address is missing. Please check your settings."
+msgstr "ທີ່ຢູ່ PBX ຫຼື Websocket ຫາຍໄປ. ກະລຸນາກວດສອບການຕັ້ງຄ່າຂອງທ່ານ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call.xml:0
+msgid "Pending"
+msgstr "ຄ້າງຄ່າ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+#: model:ir.model.fields,field_description:voip.field_mail_activity__phone
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__phone
+msgid "Phone"
+msgstr "ໂທລະສັບ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_partner__sanitized_phone
+#: model:ir.model.fields,field_description:voip.field_res_users__sanitized_phone
+msgid "Phone number sanitized"
+msgstr "ເບີໂທລະສັບທີ່ກວດສອບແລ້ວ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/components/activity/activity_patch.xml:0
+msgid "Phone:"
+msgstr "ໂທລະສັບ:"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Phonecall details"
+msgstr "ລາຍລະອຽດການໂທ"
+
+#. module: voip
+#: model:ir.actions.act_window,name:voip.voip_phonecall_view
+#: model:ir.ui.menu,name:voip.menu_voip_phonecall_view
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+#: model_terms:ir.ui.view,arch_db:voip.voip_phonecall_tree_view
+msgid "Phonecalls"
+msgstr "ການໂທລະສັບ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "Please accept the use of the microphone."
+msgstr "ກະລຸນາອະນຸຍາດໃຫ້ໃຊ້ໄມໂຄຣໂຟນ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/js/registerer.js:0
+msgid "Please try again later. If the problem persists, you may want to ask an administrator to check the configuration."
+msgstr ""
+"ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ. ຫາກບັນຫາຍັງຄົງຢູ່, ທ່ານອາດຈະຕ້ອງຂໍໃຫ້ຜູ້ດູແລລະບົບກວດສອບການຕັ້ງຄ່າ."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__res_config_settings__mode__prod
+msgid "Production"
+msgstr "ການໃຊ້ງານຈິງ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Recent"
+msgstr "ຫຼ້າສຸດ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Refresh the Panel"
+msgstr "ໂຫຼດແຜງຄວບຄຸມໃໝ່"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/js/registerer.js:0
+msgid "Registration rejected: %(statusCode)s %(reasonPhrase)s."
+msgstr "ການລົງທະບຽນຖືກປະຕິເສດ: %(statusCode)s %(reasonPhrase)s."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Reject"
+msgstr "ປະຕິເສດ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Reject call"
+msgstr "ປະຕິເສດການໂທ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__should_auto_reject_incoming_calls
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__should_auto_reject_incoming_calls
+msgid "Reject incoming calls"
+msgstr "ປະຕິເສດສາຍເອີ້ນເຂົ້າ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__rejected
+msgid "Rejected"
+msgstr "ຖືກປະຕິເສດ"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_phonecall.py:0
+msgid "Rejected Incoming Call from %s"
+msgstr "ປະຕິເສດສາຍເຂົ້າຈາກ %s"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "Remember?"
+msgstr "ຈົດຈຳ?"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/components/call_queue_switch/call_queue_switch.js:0
+msgid "Remove from Call Queue"
+msgstr "ເອົາອອກຈາກຄິວໂທ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call.xml:0
+msgid "Remove from the queue"
+msgstr "ເອົາອອກຈາກຄິວ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__user_id
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__user_id
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Responsible"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Ringing..."
+msgstr "ກຳລັງດັງ..."
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.res_config_settings_view_form
+msgid "Schedule & make calls from your database"
+msgstr "ກຳນົດເວລາ ແລະ ທຳການໂທຈາກຖານຂໍ້ມູນຂອງທ່ານ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__reschedule_option
+msgid "Schedule A New Activity"
+msgstr "ກຳນົດເວລາກິດຈະກຳໃໝ່"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Schedule Activity"
+msgstr "ກຳນົດເວລາກິດຈະກຳ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Schedule Next"
+msgstr "ກຳນົດເວລາຖັດໄປ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/dialing_panel.xml:0
+msgid "Search"
+msgstr "ຄົ້ນຫາ"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Search Phonecalls"
+msgstr "ຄົ້ນຫາການໂທ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Send mail"
+msgstr "ສົ່ງອີເມລ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__sequence
+msgid "Sequence"
+msgstr "ລຳດັບ"
+
+#. module: voip
+#. odoo-python
+#: code:addons/voip/models/voip_queue_mixin.py:0
+msgid "Some documents cannot be added to the call queue as they do not have a phone number set: %(record_names)s"
+msgstr ""
+"ບາງເອກະສານບໍ່ສາມາດເພີ່ມເຂົ້າໃນຄິວໂທໄດ້ ເນື່ອງຈາກບໍ່ໄດ້ຕັ້ງເບີໂທລະສັບໄວ້: %(record_names)s"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__reschedule_date
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_log_wizard__reschedule_option__custom
+msgid "Specific Date"
+msgstr "ວັນທີສະເພາະ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__start_time
+msgid "Start time"
+msgstr "ເວລາເລີ່ມຕົ້ນ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall__state
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__state
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__summary
+msgid "Summary"
+msgstr "ບົດສະຫຼຸບ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Take call"
+msgstr "ຮັບສາຍ"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_config_settings__pbx_ip
+msgid "The IP address of your PBX Server"
+msgstr "ທີ່ຢູ່ IP ຂອງເຊີເວີ PBX ຂອງທ່ານ"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_config_settings__wsServer
+msgid "The URL of your WebSocket"
+msgstr "URL ຂອງ WebSocket ຂອງທ່ານ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "The connection cannot be made.</br> Please check your configuration."
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້.</br> ກະລຸນາກວດສອບການຕັ້ງຄ່າຂອງທ່ານ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/js/registerer.js:0
+msgid "The error may come from the transport layer. Please have an administrator verify the websocket server URL in the General Settings. If the problem persists, this is probably an issue with the server."
+msgstr ""
+"ຂໍ້ຜິດພາດອາດຈະມາຈາກ transport layer. ກະລຸນາໃຫ້ຜູ້ດູແລລະບົບກວດສອບ URL ຂອງ websocket "
+"server ໃນການຕັ້ງຄ່າທົ່ວໄປ. ຫາກບັນຫາຍັງຄົງຢູ່, ອາດຈະເປັນບັນຫາກັບເຊີເວີ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "The number is incorrect, the user credentials could be wrong or the connection cannot be made. Please check your configuration.</br> (Reason received: %(reasonPhrase)s)"
+msgstr ""
+"ເບີໂທລະສັບບໍ່ຖືກຕ້ອງ, ຂໍ້ມູນການເຂົ້າລະບົບອາດຈະຜິດ ຫຼື ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້. ກະລຸນາກວດສອບການຕັ້ງຄ່າຂອງທ່າ"
+"ນ.</br> (ເຫດຜົນທີ່ໄດ້ຮັບ: %(reasonPhrase)s)"
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users__voip_secret
+#: model:ir.model.fields,help:voip.field_res_users_settings__voip_secret
+msgid "The password that will be used to register with the PBX server."
+msgstr "ລະຫັດຜ່ານທີ່ຈະໃຊ້ເພື່ອລົງທະບຽນກັບເຊີເວີ PBX."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/user_agent.js:0
+msgid "The person you try to contact is currently unavailable."
+msgstr "ບຸກຄົນທີ່ທ່ານພະຍາຍາມຕິດຕໍ່ແມ່ນບໍ່ວ່າງໃນເວລານີ້."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "The phonecall has no number"
+msgstr "ການໂທນີ້ບໍ່ມີເບີໂທ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/js/registerer.js:0
+msgid "The server failed to authenticate you. Please have an administrator verify that you are reaching the right server (PBX server IP in the General Settings) and that the credentials in your user preferences are correct."
+msgstr ""
+"ເຊີເວີບໍ່ສາມາດຢືນຢັນຕົວຕົນຂອງທ່ານໄດ້. ກະລຸນາໃຫ້ຜູ້ດູແລລະບົບກວດສອບວ່າທ່ານກຳລັງເຂົ້າເຖິງເຊີເວີທີ່ຖືກຕ້ອງ "
+"(IP ຂອງເຊີເວີ PBX ໃນການຕັ້ງຄ່າທົ່ວໄປ) ແລະ ຂໍ້ມູນການເຂົ້າລະບົບໃນການຕັ້ງຄ່າສ່ວນຕົວຂອງທ່ານນັ້ນຖືກຕ້ອງ."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_voip_phonecall__state
+msgid ""
+"The status is set to To Do, when a call is created.\n"
+"When the call is over, the status is set to Held.\n"
+"If the call is not applicable anymore, the status can be set to Cancelled."
+msgstr ""
+"ສະຖານະຈະຖືກຕັ້ງເປັນ \"ທີ່ຕ້ອງເຮັດ\" ເມື່ອສ້າງການໂທ.\n"
+"ເມື່ອການໂທສິ້ນສຸດລົງ, ສະຖານະຈະຖືກຕັ້ງເປັນ \"ໂທແລ້ວ\".\n"
+"ຫາກການໂທນັ້ນບໍ່ກ່ຽວຂ້ອງອີກຕໍ່ໄປ, ສາມາດຕັ້ງສະຖານະເປັນ \"ຍົກເລີກແລ້ວ\"."
+
+#. module: voip
+#: model:ir.model.fields,help:voip.field_res_users__voip_username
+#: model:ir.model.fields,help:voip.field_res_users_settings__voip_username
+msgid "The username (typically the extension number) that will be used to register with the PBX server."
+msgstr "ຊື່ຜູ້ໃຊ້ (ໂດຍທົ່ວໄປແມ່ນເບີພາຍໃນ) ທີ່ຈະໃຊ້ເພື່ອລົງທະບຽນກັບເຊີເວີ PBX."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/user_agent_service.js:0
+msgid "The websocket connection with the server has been lost. Please try to refresh the page."
+msgstr "ການເຊື່ອມຕໍ່ websocket ກັບເຊີເວີຂາດຫາຍໄປ. ກະລຸນາລອງໂຫຼດໜ້ານີ້ໃໝ່."
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__open
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_report__state__open
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "To Do"
+msgstr "ທີ່ຕ້ອງເຮັດ"
+
+#. module: voip
+#: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_log_wizard__reschedule_option__1d
+msgid "Tomorrow"
+msgstr "ມື້ອື່ນ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "Transfer"
+msgstr "ໂອນສາຍ"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
+msgid "Unassigned"
+msgstr "ບໍ່ໄດ້ມອບໝາຍ"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_users
+msgid "User"
+msgstr "ຜູ້ໃຊ້"
+
+#. module: voip
+#: model:ir.model,name:voip.model_res_users_settings
+msgid "User Settings"
+msgstr "ການຕັ້ງຄ່າຜູ້ໃຊ້"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_phonecall
+msgid "VOIP Phonecall"
+msgstr "ການໂທລະສັບ VOIP"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_phonecall_log_wizard
+msgid "VOIP Phonecall log Wizard"
+msgstr "ຕົວຊ່ວຍບັນທຶກການໂທ VOIP"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_phonecall_report
+msgid "VOIP Phonecalls by user report"
+msgstr "ລາຍງານການໂທ VOIP ຕາມຜູ້ໃຊ້"
+
+#. module: voip
+#: model:ir.model,name:voip.model_voip_queue_mixin
+msgid "VOIP Queue support"
+msgstr "ຮອງຮັບຄິວ VOIP"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+#: model:ir.model.fields.selection,name:voip.selection__res_users_settings__how_to_call_on_mobile__voip
+#: model_terms:ir.ui.view,arch_db:voip.res_user_form
+#: model_terms:ir.ui.view,arch_db:voip.res_users_view_form_preferences
+msgid "VoIP"
+msgstr "VoIP"
+
+#. module: voip
+#: model_terms:ir.ui.view,arch_db:voip.voip_res_users_settings_view_form
+msgid "VoIP Configuration"
+msgstr "ການຕັ້ງຄ່າ VoIP"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_config_settings__mode
+msgid "VoIP Environment"
+msgstr "ສະພາບແວດລ້ອມ VoIP"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__voip_secret
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__voip_secret
+msgid "VoIP secret"
+msgstr "ລະຫັດລັບ VoIP"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_users__voip_username
+#: model:ir.model.fields,field_description:voip.field_res_users_settings__voip_username
+msgid "VoIP username / Extension number"
+msgstr "ຊື່ຜູ້ໃຊ້ VoIP / ເບີພາຍໃນ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "Voip"
+msgstr "Voip"
+
+#. module: voip
+#: model:ir.model.fields,field_description:voip.field_res_config_settings__wsServer
+msgid "WebSocket"
+msgstr "WebSocket"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "You are already in a call"
+msgstr "ທ່ານກຳລັງຢູ່ໃນສາຍແລ້ວ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/legacy/dialing_panel.js:0
+msgid "Your browser could not support WebRTC. Please check your configuration."
+msgstr "ບຣາວເຊີຂອງທ່ານບໍ່ຮອງຮັບ WebRTC. ກະລຸນາກວດສອບການຕັ້ງຄ່າຂອງທ່ານ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/user_agent_service.js:0
+msgid "Your browser does not support some of the features needed for VoIP to work. Please try to update your browser or use a different one."
+msgstr ""
+"ບຣາວເຊີຂອງທ່ານບໍ່ຮອງຮັບຄຸນສົມບັດບາງຢ່າງທີ່ຈຳເປັນສຳລັບ VoIP. ກະລຸນາລອງອັບເດດບຣາວເຊີຂອງທ່ານ ຫຼື ໃຊ້"
+"ບຣາວເຊີອື່ນ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/user_agent_service.js:0
+msgid "Your credentials are not correctly set. Please contact your administrator."
+msgstr ""
+"ຂໍ້ມູນການເຂົ້າລະບົບຂອງທ່ານຖືກຕັ້ງຄ່າບໍ່ຖືກຕ້ອງ. ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງທ່ານ."
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call.xml:0
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "min"
+msgstr "ນາທີ"
+
+#. module: voip
+#. odoo-javascript
+#: code:addons/voip/static/src/xml/phone_call.xml:0
+#: code:addons/voip/static/src/xml/phone_call_details.xml:0
+msgid "sec"
+msgstr "ວິນາທີ"

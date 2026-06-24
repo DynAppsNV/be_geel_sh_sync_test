@@ -1,0 +1,2335 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* accountant_knowledge
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "(description and of the issue, uncertainty, or limitation)"
+msgstr "(muammo, noaniqlik yoki cheklovning tavsifi)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "0,00<br>"
+msgstr "0,00<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "0.0<br>"
+msgstr "0.0<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "<em>To be completed...</em>"
+msgstr "<em>To‘ldirilishi kerak...</em>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#, fuzzy
+msgid "<i class=\"fa fa-fw fa-building me-2\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-fw fa-building me-2\" title=\"Kompaniya\"/>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#, fuzzy
+msgid "<i class=\"fa fa-fw fa-calendar me-2\" title=\"Calendar\"/>"
+msgstr "<i class=\"fa fa-fw fa-calendar me-2\" title=\"Taqvim\"/>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_tax_package
+#, fuzzy
+msgid ""
+"<strong class=\"o-upload-link\">Upload files</strong> to include in the PDF "
+"report."
+msgstr ""
+"PDF hisobotiga kiritish uchun <strong class=\"o-upload-link\">fayllarni "
+"yuklang</strong>."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "<strong>Additional Information</strong><br>"
+msgstr "<strong>Qo‘shimcha ma'lumot</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "<strong>Buildings, Fixtures, and Fittings</strong>"
+msgstr "<strong>Binolar, jihozlar va moslamalar</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "<strong>Category</strong><br>"
+msgstr "<strong>Toifa</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"<strong>Componentized assets</strong>: The company was unable to identify "
+"componentized assets, or the decomposition of such assets does not have a "
+"material impact."
+msgstr ""
+"<strong>Tarkibiy aktivlar</strong>: Kompaniya tarkibiy aktivlarni aniqlay "
+"olmadi yoki bunday aktivlarning bo‘linishi muhim ta'sir ko‘rsatmaydi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "<strong>Depreciation - Cumulative</strong><br>"
+msgstr "<strong>Amortizatsiya - Jamg‘arilgan</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "<strong>Depreciation - Current Year</strong><br>"
+msgstr "<strong>Amortizatsiya - Joriy yil</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "<strong>Description</strong><br>"
+msgstr "<strong>Tavsif</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "<strong>Domestic</strong><br>"
+msgstr "<strong>Ichki</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "<strong>Entry Cost</strong><br>"
+msgstr "<strong>Boshlang‘ich qiymat</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "<strong>Equipment and Tools</strong>"
+msgstr "<strong>Uskunalar va asboblar</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "<strong>Intangible Assets</strong>"
+msgstr "<strong>Nomoddiy aktivlar</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "<strong>International</strong><br>"
+msgstr "<strong>Xalqaro</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "<strong>Items</strong><br>"
+msgstr "<strong>Elementlar</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "<strong>Men</strong><br>"
+msgstr "<strong>Erkaklar</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "<strong>Name</strong><br>"
+msgstr "<strong>Nom</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "<strong>Nature of Relationship</strong><br>"
+msgstr "<strong>Munosabat turi</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "<strong>Net Exceptional Result</strong><br>"
+msgstr "<strong>Sof favqulodda natija</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "<strong>Net Value</strong><br>"
+msgstr "<strong>Sof qiymat</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "<strong>Nominal Value per Share</strong><br>"
+msgstr "<strong>Aksiyaning nominal qiymati</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"<strong>Non-componentized assets</strong>: Benefiting from tolerance "
+"measures, the company has chosen to maintain the existing useful life "
+"periods for the depreciation of non-componentized assets."
+msgstr ""
+"<strong>Tarkibiy bo‘linmagan aktivlar</strong>: Imtiyozli choralardan "
+"foydalanib, kompaniya tarkibiy bo‘linmagan aktivlarning amortizatsiyasi "
+"uchun mavjud foydali xizmat muddatlarini saqlab qolishni ma'qul ko‘rdi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "<strong>Number of Shares</strong><br>"
+msgstr "<strong>Aksiyalar soni</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "<strong>Other Tangible Assets</strong>"
+msgstr "<strong>Boshqa moddiy aktivlar</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "<strong>Share Capital</strong><br>"
+msgstr "<strong>Ustav kapitali</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "<strong>Total</strong><br>"
+msgstr "<strong>Jami</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "<strong>Transaction Amount During the Period</strong><br>"
+msgstr "<strong>Davr mobaynidagi operatsiya summasi</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "<strong>Women</strong><br>"
+msgstr "<strong>Ayollar</strong><br>"
+
+#. module: accountant_knowledge
+#: model:knowledge.article.template.category,name:accountant_knowledge.knowledge_article_template_category_accounting
+#, fuzzy
+msgid "Accounting"
+msgstr "Buxgalteriya hisobi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid "Accounting Principles and Methods"
+msgstr "Buxgalteriya hisobi tamoyillari va usullari"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid "Accounting principles and methods"
+msgstr "Buxgalteriya hisobi tamoyillari va usullari"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_additional_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_additional_information
+#, fuzzy
+msgid "Additional Information"
+msgstr "Qo‘shimcha ma'lumot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"Advances received from public or private organizations to finance the "
+"company's activities, for which repayment is conditional, are presented "
+"under equity in the balance sheet as \"Other Equity.\" Corresponding "
+"interest expenses are recorded as liabilities under \"Loans and Other "
+"Financial Debts.\""
+msgstr ""
+"Kompaniya faoliyatini moliyalashtirish uchun davlat yoki xususiy "
+"tashkilotlardan olingan, qaytarilishi shartli bo‘lgan avanslar balansda "
+"xususiy kapital bo‘limida \"Boshqa xususiy kapital\" sifatida aks "
+"ettiriladi. Tegishli foiz xarajatlari \"Kreditlar va boshqa moliyaviy "
+"qarzlar\" moddasi bo‘yicha majburiyatlar sifatida hisobga olinadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Aged Payable"
+msgstr "Muddati o‘tgan kreditorlik qarzi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Aged Receivable"
+msgstr "Muddati o‘tgan debitorlik qarzi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "Amount:"
+msgstr "Summa:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Amount<br>"
+msgstr "Summa<br>"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_annexes
+#, fuzzy
+msgid "Annexes"
+msgstr "Ilovalar"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_audit_report
+#: model:ir.ui.menu,name:accountant_knowledge.menu_action_accountant_audit_report
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_audit_report
+#, fuzzy
+msgid "Annual Report"
+msgstr "Yillik hisobot"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__knowledge_template_article_id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__is_audit_report_template
+msgid "Annual Report Template"
+msgstr ""
+
+#. module: accountant_knowledge
+#: model:ir.actions.act_window,name:accountant_knowledge.action_audit_report
+msgid "Annual Reports"
+msgstr ""
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__knowledge_article_id
+#, fuzzy
+msgid "Article"
+msgstr "Maqola"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"As a result of these findings, and due to their significant effect, we are "
+"unable to confirm the overall consistency and plausibility of the interim "
+"financial statements attached to this statement."
+msgstr ""
+"Ushbu xulosalar va ularning sezilarli ta'siri tufayli biz ushbu bayonnomaga "
+"ilova qilingan oraliq moliyaviy hisobotlarning umumiy muvofiqligi va "
+"ishonchliligini tasdiqlay olmaymiz."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"As chartered accountants, we have carried out a compilation of the interim "
+"financial statements of {{ company name }} for the period from {{ start of "
+"period }} to {{ end of period }}, which include the following key figures:"
+msgstr ""
+"Sertifikatlangan buxgalterlar sifatida biz {{ kompaniya nomi }} ning {{ davr "
+"boshi }}dan {{ davr oxiri }}gacha bo‘lgan davr uchun oraliq moliyaviy "
+"hisobotlarini tuzdik. Ular quyidagi asosiy ko‘rsatkichlarni o‘z ichiga oladi:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Asset Information"
+msgstr "Aktivlar to‘g‘risida ma'lumot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+#, fuzzy
+msgid ""
+"At each reporting date, and whenever there is an indication of impairment, "
+"the capitalized development costs are reviewed to confirm that the project "
+"continues to meet the criteria for recognition as an asset. If these "
+"criteria are no longer met, an impairment loss or exceptional amortization "
+"is recorded accordingly."
+msgstr ""
+"Har bir hisobot sanasida va qadrsizlanish belgilari mavjud bo‘lganda, "
+"kapitallashtirilgan tadqiqot-taraqqiyot xarajatlari loyihaning aktiv "
+"sifatida tan olinish mezonlariga javob berishda davom etayotganini "
+"tasdiqlash uchun qayta ko‘rib chiqiladi. Agar ushbu mezonlar endi "
+"bajarilmasa, tegishli ravishda qadrsizlanishdan zarar yoki favqulodda "
+"amortizatsiya hisobga olinadi."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_attestation
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Attestation"
+msgstr "Tasdiqlash"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__audit_report_id
+#, fuzzy
+msgid "Audit Report"
+msgstr "Audit hisoboti"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_balance_sheet
+#, fuzzy
+msgid "Balance Sheet"
+msgstr "Buxgalteriya balansi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"Based on our procedures, we have not identified any matters that would call "
+"into question the overall consistency and plausibility of the interim "
+"financial statements as attached to this statement."
+msgstr ""
+"O‘tkazilgan tekshiruvlarimiz asosida ushbu bayonnomaga ilova qilingan oraliq "
+"moliyaviy hisobotlarning umumiy muvofiqligi va ishonchliligini shubha ostiga "
+"qo‘yadigan hech qanday holat aniqlanmadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Buildings<br>"
+msgstr "Binolar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Capital Increase Costs"
+msgstr "Ustav kapitalini oshirish xarajatlari"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"Capital increase costs are recorded directly on the balance sheet as a "
+"deduction from the share premium."
+msgstr ""
+"Ustav kapitalini oshirish xarajatlari bevosita buxgalteriya balansida "
+"emissiya daromadidan chegirma sifatida aks ettiriladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+#, fuzzy
+msgid "Capitalization of Development Costs"
+msgstr "Tadqiqot-taraqqiyot xarajatlarini kapitallashtirish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Cash and Cash Equivalents"
+msgstr "Pul mablag‘lari va ularning ekvivalentlari"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Cash on hand and bank balances are recorded at their nominal value"
+msgstr ""
+"Naqd pul va bank hisobvaraqlari qoldiqlari nominal qiymati bo‘yicha hisobga "
+"olinadi"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_cash_flow_statement
+#, fuzzy
+msgid "Cash-Flow Statement"
+msgstr "Pul oqimlari to‘g‘risidagi hisobot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "Change in Accounting Estimate"
+msgstr "Buxgalteriya bahosining o‘zgarishi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "Change in Accounting Standards"
+msgstr "Buxgalteriya hisobi standartlarining o‘zgarishi"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "Changes in Accounting Policies"
+msgstr "Hisob siyosatidagi o‘zgarishlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Changes in Fixed Assets"
+msgstr "Asosiy vositalardagi o‘zgarishlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Comments<br>"
+msgstr "Izohlar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Commercial buildings: 20 to 50 years"
+msgstr "Tijorat binolari: 20 yildan 50 yilgacha"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Computer equipment: 5 years"
+msgstr "Kompyuter jihozlari: 5 yil"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#, fuzzy
+msgid "Configure"
+msgstr "Sozlash"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid "Consistency of accounting methods from one period to another;"
+msgstr "Buxgalteriya hisobi usullarining davrlar oralig‘idagi izchilligi;"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_contextual_information
+#, fuzzy
+msgid "Contextual Information"
+msgstr "Kontekstual ma'lumot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "Correction of Errors"
+msgstr "Xatolarni tuzatish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "Costs related to under-activity are excluded from the inventory value."
+msgstr ""
+"Kam faollik bilan bog‘liq xarajatlar zaxira qiymatidan chiqarib tashlanadi."
+
+#. module: accountant_knowledge
+#: model:ir.actions.act_window,name:accountant_knowledge.action_audit_report_quick_create
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Create an Annual Report"
+msgstr ""
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/account_report/account_report.xml:0
+#, fuzzy
+msgid "Customize"
+msgstr "Moslashtirish"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+#, fuzzy
+msgid "Customize all of its content.<br>Add sections, pages, or attachments"
+msgstr ""
+"Uning barcha tarkibini moslashtiring.<br>Bo‘limlar, sahifalar yoki "
+"ilovalarni qo‘shing"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+#, fuzzy
+msgid "Dates"
+msgstr "Sanalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Deferred Expenses"
+msgstr "Kechiktirilgan xarajatlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Deferred Revenues"
+msgstr "Kechiktirilgan daromadlar"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#, fuzzy
+msgid "Delete"
+msgstr "O‘chirish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Depreciation Period"
+msgstr "Amortizatsiya davri"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Depreciation Schedule"
+msgstr "Amortizatsiya jadvali"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Depreciation and Impairment"
+msgstr "Amortizatsiya va qadrsizlanish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"Depreciation is calculated using either the straight-line or declining "
+"balance method, based on the estimated useful life of the assets."
+msgstr ""
+"Amortizatsiya to‘g‘ri chiziqli yoki kamayib boruvchi qoldiq usulida, "
+"aktivlarning taxminiy foydali xizmat muddatiga asoslanib hisoblanadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid ""
+"Describe the nature and amounts of commitments given, received, and "
+"reciprocal"
+msgstr ""
+"Berilgan, olingan va o‘zaro majburiyatlarning mohiyati va miqdorini "
+"tavsiflang"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid ""
+"Describe the nature of each provision recorded during the period. For each, "
+"indicate the opening balance, any additional provisions (dotations), any "
+"amounts reversed (reprises), and the closing balance at the end of the "
+"period."
+msgstr ""
+"Davr mobaynida qayd etilgan har bir zaxiraning mohiyatini tavsiflang. Har "
+"biri uchun boshlang‘ich qoldiq, qo‘shimcha ajratmalar, qaytarilgan summalar "
+"va davr oxiridagi yakuniy qoldiqni ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "Describe the nature of the error corrected."
+msgstr "Tuzatilgan xatoning mohiyatini tushuntiring."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Description<br>"
+msgstr "Tavsif<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid ""
+"Detail and explain the key changes in fixed assets — purchases, sales, and "
+"adjustments — over the period for clear tracking of asset value evolution."
+msgstr ""
+"Asosiy vositalarning qiymat o‘zgarishini aniq kuzatish uchun ularning asosiy "
+"o‘zgarishlarini - xaridlar, sotuvlar va tuzatishlarni batafsil yoritib, "
+"tushuntiring."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid ""
+"Detail the factors affecting future tax liabilities and the impact of tax "
+"valuation adjustments."
+msgstr ""
+"Kelajakdagi soliq majburiyatlariga ta'sir qiluvchi omillarni va soliq "
+"baholash tuzatishlarining ta'sirini batafsil yoritib bering."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Details on Inventories and Work-in-Progress"
+msgstr ""
+"Tovar-moddiy zaxiralar va tugallanmagan ishlab chiqarish to‘g‘risida "
+"batafsil ma'lumot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"Directly attributable costs incurred to bring the asset to working condition "
+"for its intended use;"
+msgstr ""
+"Aktivni belgilangan maqsadda ishlatish uchun ishchi holatga keltirish bilan "
+"bog‘liq to‘g‘ridan-to‘g‘ri xarajatlar;"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+#, fuzzy
+msgid "Discard"
+msgstr "Bekor qilish"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__display_name
+#: model:ir.model.fields,field_description:accountant_knowledge.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields.selection,name:accountant_knowledge.selection__audit_report__status__done
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+#, fuzzy
+msgid "Done"
+msgstr "Bajarildi"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#: code:addons/accountant_knowledge/static/src/components/options_dropdown/options_dropdown.xml:0
+#, fuzzy
+msgid "Download Annual Report"
+msgstr "Yillik hisobotni yuklab olish"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#, fuzzy
+msgid "Download PDF"
+msgstr "PDF faylni yuklab olish"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields.selection,name:accountant_knowledge.selection__audit_report__status__draft
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+#, fuzzy
+msgid "Draft"
+msgstr "Qoralama"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"During the course of our engagement, we identified the following matters "
+"that significantly impact the overall consistency and reliability of the "
+"financial statements:"
+msgstr ""
+"Tekshiruv davomida moliyaviy hisobotlarning umumiy izchilligi va "
+"ishonchliligiga sezilarli ta'sir ko‘rsatadigan quyidagi masalalarni "
+"aniqladik:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid ""
+"During this fiscal period, the company generated a net accounting result of  "
+"{{ net accounting result }}, broken down as follows between domestic and "
+"international operations."
+msgstr ""
+"Ushbu moliyaviy davrda kompaniya ichki va xalqaro operatsiyalar o‘rtasida "
+"quyidagicha taqsimlangan {{ sof buxgalteriya natijasi }} miqdorida sof "
+"buxgalteriya natijasini qayd etdi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid ""
+"During this period, the company benefited from the following tax credits, "
+"which have contributed to optimizing its tax position:"
+msgstr ""
+"Ushbu davrda kompaniya o‘zining soliq holatini optimallashtirishga yordam "
+"bergan quyidagi soliq imtiyozlaridan foydalandi:"
+
+#. module: accountant_knowledge
+#. odoo-python
+#: code:addons/accountant_knowledge/models/audit_report.py:0
+msgid "Edit Annual Report"
+msgstr ""
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+#, fuzzy
+msgid "Edit its content"
+msgstr "Mazmunini tahrirlash"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "Employees<br>"
+msgstr "Xodimlar<br>"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__end_date
+#, fuzzy
+msgid "End Date"
+msgstr "Tugash sanasi"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,help:accountant_knowledge.field_audit_report__end_date
+#, fuzzy
+msgid "Ending Date, included in the fiscal year."
+msgstr "Moliya yiliga kiritilgan tugash sanasi."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "Entity Information"
+msgstr "Tashkilot haqida ma'lumot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Equipment: 10 years"
+msgstr "Jihozlar: 10 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"Except for the impact of the issue described above, we did not identify "
+"anything that would call into question the overall consistency and "
+"plausibility of the interim financial statements attached to this statement."
+msgstr ""
+"Yuqorida tavsiflangan masalaning ta'siridan tashqari, biz ushbu bayonnomaga "
+"ilova qilingan oraliq moliyaviy hisobotning umumiy muvofiqligi va "
+"ishonchliligini shubha ostiga qo‘yadigan hech narsani aniqlamadik."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Exceptional Expenses<br>"
+msgstr "Favqulodda xarajatlar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "Exceptional Income &amp; Expenses"
+msgstr "Favqulodda daromadlar va xarajatlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Exceptional Income<br>"
+msgstr "Favqulodda daromadlar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+#, fuzzy
+msgid "Expense Recognition"
+msgstr "Xarajatlarni tan olish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid ""
+"Explain how tax changes made between the balance sheet date and the "
+"financial statement date affect this period's results."
+msgstr ""
+"Buxgalteriya balansi sanasi va moliyaviy hisobot sanasi oralig‘ida sodir "
+"bo‘lgan soliq o‘zgarishlarining joriy davr natijalariga ta'sirini "
+"tushuntiring."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"Explain the impact of the correction on the current period's financial "
+"statements."
+msgstr ""
+"Tuzatishning joriy davr moliyaviy hisobotlariga ko‘rsatgan ta'sirini "
+"tushuntirib bering."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Favorable Opinion with Comments"
+msgstr "Izohli ijobiy xulosa"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Finance Lease"
+msgstr "Moliyaviy lizing"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Financial Assets and Marketable Securities"
+msgstr "Moliyaviy aktivlar va bozordagi qimmatli qog‘ozlar"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Financial Commitments and Guarantees"
+msgstr "Moliyaviy majburiyatlar va kafolatlar"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_position
+#, fuzzy
+msgid "Financial Position"
+msgstr "Moliyaviy holat"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Financial Resources"
+msgstr "Moliyaviy manbalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "First In, First Out (FIFO)"
+msgstr "Birinchi kirdi, birinchi chiqdi (BKBC)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Fiscal Year N - 1<br>"
+msgstr "N-1 moliyaviy yil<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Fiscal Year N<br>"
+msgstr "N moliyaviy yil<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Fixtures and fittings: 10 years"
+msgstr "Jihozlar va moslamalar: 10 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"For cash held in foreign currencies, amounts are converted into euros at the "
+"exchange rate prevailing on the last business day before the fiscal year-"
+"end. Any resulting exchange differences are recognized immediately in the "
+"income statement as foreign exchange gains or losses."
+msgstr ""
+"Chet el valyutasida saqlanayotgan naqd pul mablag‘lari moliyaviy yil "
+"oxiridagi so‘nggi ish kunida amalda bo‘lgan kurs bo‘yicha yevroga "
+"aylantiriladi. Natijada yuzaga keladigan har qanday kurs farqlari darhol "
+"daromad to‘g‘risidagi hisobotda valyuta kursi bo‘yicha foyda yoki zarar "
+"sifatida tan olinadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid ""
+"For each member, indicate the retirement commitments and similar benefits "
+"granted to them."
+msgstr ""
+"Har bir a'zoga berilgan pensiya majburiyatlari va shunga o‘xshash "
+"imtiyozlarni ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid ""
+"For each member, specify the advances and loans granted to them, including "
+"the terms agreed upon and repayments made during the period, as well as the "
+"amount of commitments made on their behalf."
+msgstr ""
+"Har bir a'zoga berilgan avanslar va qarzlarni, shu jumladan kelishilgan "
+"shartlar va davr mobaynida amalga oshirilgan to‘lovlarni, shuningdek "
+"ularning nomidan qabul qilingan majburiyatlar miqdorini ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid ""
+"For tax-consolidated entities, explain the tax allocation method, tax "
+"differences, loss carryforwards, and related accounting specifics."
+msgstr ""
+"Soliq konsolidatsiyasi qilingan korxonalar uchun soliqlarni taqsimlash "
+"usuli, soliq farqlari, zararlarni ko‘chirish va ular bilan bog‘liq "
+"buxgalteriya hisobi xususiyatlarini tushuntiring."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid ""
+"From the Equity app, print the Capitalization Table and insert it <strong "
+"class=\"o-upload-link\">here</strong>"
+msgstr ""
+"Equity ilovasidan Kapitalizatsiya jadvalini chop eting va uni <strong "
+"class=\"o-upload-link\">shu yerga</strong> joylashtiring"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Furniture: 10 years"
+msgstr "Mebellar: 10 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid ""
+"General accounting principles have been applied with due regard to the "
+"prudence principle, based on the following assumptions:"
+msgstr ""
+"Buxgalteriya hisobining umumiy tamoyillari ehtiyotkorlik tamoyilini inobatga "
+"olgan holda quyidagi taxminlarga asoslanib qo‘llanilgan:"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+#, fuzzy
+msgid "Get a complete PDF file, ready to be shared"
+msgstr "Ulashishga tayyor to‘liq PDF faylni oling"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+#, fuzzy
+msgid ""
+"Given the innovative nature of the company's activities, a substantial "
+"portion of its expenses pertains to development costs as defined by "
+"applicable accounting standards"
+msgstr ""
+"Korxona faoliyatining innovatsion xususiyatini hisobga olgan holda, uning "
+"xarajatlarining katta qismi amaldagi buxgalteriya hisobi standartlarida "
+"belgilangan tadqiqot va rivojlanish xarajatlariga to‘g‘ri keladi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid "Going concern;"
+msgstr "Faoliyatning uzluksizligi;"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "Identification Number:"
+msgstr "Identifikatsiya raqami:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"If applicable, specify the impact of the new accounting regulation as "
+"determined at the opening of the period, including which financial statement "
+"items are affected."
+msgstr ""
+"Agar qo‘llanilsa, yangi buxgalteriya hisobi qoidasining davr boshida "
+"aniqlangan ta'sirini, shu jumladan moliyaviy hisobotning qaysi moddalariga "
+"ta'sir qilganini ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"If the change has been applied prospectively, explain the reasons for "
+"prospective application and indicate the impact on key items for the period, "
+"unless impracticable to determine."
+msgstr ""
+"Agar o‘zgarish istiqbolli tarzda qo‘llanilgan bo‘lsa, buning sabablarini "
+"tushuntiring va aniqlash imkonsiz bo‘lmasa, davrning asosiy "
+"ko‘rsatkichlariga ta'sirini ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"If the change has been applied retrospectively, present the main items from "
+"prior periods restated under the new accounting method."
+msgstr ""
+"Agar o‘zgarish orqaga qarab qo‘llanilgan bo‘lsa, yangi buxgalteriya usuli "
+"asosida qayta hisoblangan oldingi davrlarning asosiy ko‘rsatkichlarini "
+"taqdim eting."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"If the change was applied <strong>prospectively</strong>, describe its "
+"impact on the key items of the current period, unless such information is "
+"impracticable to obtain."
+msgstr ""
+"Agar o‘zgarish <strong>istiqbolli</strong> tarzda qo‘llanilgan bo‘lsa, "
+"bunday ma'lumotlarni olish imkonsiz bo‘lmasa, uning joriy davrning asosiy "
+"ko‘rsatkichlariga ta'sirini tavsiflang."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"If the change was applied <strong>retrospectively</strong>, present the key "
+"items from prior periods that have been restated in accordance with the new "
+"method."
+msgstr ""
+"Agar o‘zgarish <strong>orqaga qarab</strong> qo‘llanilgan bo‘lsa, yangi "
+"usulga muvofiq qayta hisoblangan oldingi davrlarning asosiy "
+"ko‘rsatkichlarini taqdim eting."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid ""
+"If this is the first year the company holds inventories, specify the "
+"valuation method used and provide a breakdown of the products concerned."
+msgstr ""
+"Agar bu kompaniya tovar-moddiy zaxiralarni birinchi marta hisobga olayotgan "
+"yil bo‘lsa, qo‘llanilgan baholash usulini ko‘rsating va tegishli "
+"mahsulotlarning taqsimotini taqdim eting."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"In accordance with the terms of our mission, we have prepared a summary of "
+"work performed for {{ company name }} for the period from {{ start of "
+"period }} to {{ end of period }}"
+msgstr ""
+"Topshirig‘imiz shartlariga muvofiq, biz {{ company name }} uchun {{ start of "
+"period }} dan {{ end of period }} gacha bo‘lgan davr uchun bajarilgan ishlar "
+"haqida qisqacha ma'lumot tayyorladik."
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#, fuzzy
+msgid "Include PDF Files"
+msgstr "PDF fayllarni qo‘shish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Include any explanations or justifications as needed."
+msgstr "Zarur bo‘lganda, har qanday tushuntirishlar yoki asoslarni kiriting."
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#, fuzzy
+msgid "Include child articles"
+msgstr "Qo‘shimcha maqolalarni qo‘shish"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Income Statement"
+msgstr "Daromadlar to‘g‘risidagi hisobot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid "Independence of accounting periods."
+msgstr "Hisob davrlarining mustaqilligi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "Indicate and justify the voluntary accounting policy change."
+msgstr "Ixtiyoriy hisob siyosatidagi o‘zgarishni ko‘rsating va asoslang."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid ""
+"Indicate the number and value of shares held by the company during the year. "
+"Include acquisitions, disposals, cancellations, and the reason for holding "
+"these shares (e.g. employee plans, market operations)."
+msgstr ""
+"Yil davomida kompaniya egalik qilgan aksiyalar soni va qiymatini ko‘rsating. "
+"Sotib olish, sotish, bekor qilish va ushbu aksiyalarni saqlash sababini "
+"(masalan, xodimlar uchun rejalar, bozor operatsiyalari) o‘z ichiga oladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid ""
+"Indicate the total book value of inventories as well as the book value by "
+"relevant categories."
+msgstr ""
+"Tovar-moddiy zaxiralarning umumiy balans qiymatini, shuningdek tegishli "
+"toifalar bo‘yicha balans qiymatini ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Information on Specific Nature Operations"
+msgstr "Maxsus operatsiyalar to‘g‘risida ma'lumot"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__inherited_audit_report_id
+#, fuzzy
+msgid "Inherited Audit Report"
+msgstr "Meros qolgan audit hisoboti"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/account_report/cog_menu/cog_menu.js:0
+#, fuzzy
+msgid "Insert in article"
+msgstr "Maqolaga kiritish"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Intangible and Tangible Assets"
+msgstr "Nomoddiy va moddiy aktivlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"Intangible assets are valued at their acquisition or production cost, "
+"including all expenses necessary to prepare these assets for their intended "
+"use. This valuation is net of any trade discounts, rebates, or settlement "
+"discounts obtained."
+msgstr ""
+"Nomoddiy aktivlar ularni sotib olish yoki ishlab chiqarish tannarxi "
+"bo‘yicha, shu jumladan ushbu aktivlarni mo‘ljallangan maqsadda foydalanishga "
+"tayyorlash uchun zarur bo‘lgan barcha xarajatlarni hisobga olgan holda "
+"baholanadi. Ushbu baholash olingan har qanday savdo chegirmalari, "
+"chegirmalar yoki hisob-kitob chegirmalarini hisobga olmaydi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"Interest on borrowings specifically related to the production of tangible "
+"assets is not included in the production cost of these assets."
+msgstr ""
+"Moddiy aktivlarni ishlab chiqarish bilan bevosita bog‘liq qarzlar bo‘yicha "
+"foizlar ushbu aktivlarning ishlab chiqarish tannarxiga kiritilmaydi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "Inventories are valued using one of the following methods:"
+msgstr "Tovar-moddiy zaxiralar quyidagi usullardan biri orqali baholanadi:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "Inventory Overview"
+msgstr "Inventarizatsiya sharhi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "Inventory Valuation"
+msgstr "Zaxiralarni baholash"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_journal_audit
+#, fuzzy
+msgid "Journal Audit"
+msgstr "Jurnal auditi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "Justification:"
+msgstr "Asoslash:"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_knowledge_article
+#, fuzzy
+msgid "Knowledge Article"
+msgstr "Bilim maqolasi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Land<br>"
+msgstr "Yer<br>"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilangan shaxs"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Liabilities Information"
+msgstr "Majburiyatlar to‘g‘risida ma'lumot"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+#, fuzzy
+msgid "Load a Template"
+msgstr "Andozani yuklash"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"Loan issuance costs, where applicable, are recognized as expenses in the "
+"financial year during which the loans are granted."
+msgstr ""
+"Kredit berish xarajatlari, tegishli hollarda, kreditlar berilgan moliyaviy "
+"yildagi xarajatlar sifatida tan olinadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Loans"
+msgstr "Kreditlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Long-Term Investments Held in the Investment Portfolio"
+msgstr "Investitsiya portfelida saqlanadigan uzoq muddatli investitsiyalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid ""
+"Management has chosen not to disclose remuneration information, as doing so "
+"would effectively reveal the individual compensation of executives."
+msgstr ""
+"Rahbariyat ish haqi to‘g‘risidagi ma'lumotlarni oshkor qilmaslikni tanladi, "
+"chunki bu rahbarlarning shaxsiy mukofotlarini samarali ravishda oshkor "
+"qilishga olib keladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "Managers<br>"
+msgstr "Menejerlar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid ""
+"Manufactured products are valued at production cost, which includes "
+"consumables, direct and indirect production expenses, and depreciation of "
+"assets used in production."
+msgstr ""
+"Ishlab chiqarilgan mahsulotlar ishlab chiqarish tannarxi bo‘yicha "
+"baholanadi, bunga sarflanadigan materiallar, to‘g‘ridan-to‘g‘ri va bilvosita "
+"ishlab chiqarish xarajatlari hamda ishlab chiqarishda foydalanilgan "
+"aktivlarning amortizatsiyasi kiradi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Methods of Valuation"
+msgstr "Baholash usullari"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+#, fuzzy
+msgid "My Reports"
+msgstr "Mening hisobotlarim"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "Name:"
+msgstr "Nomi:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Net accounting result: {{ net accounting result }}"
+msgstr "Sof buxgalteriya natijasi: {{ sof buxgalteriya natijasi }}"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "Non-Managers<br>"
+msgstr "Menejer bo‘lmagan xodimlar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+#, fuzzy
+msgid "Non-Pro Rata Recognition"
+msgstr "Proporsional bo‘lmagan tan olish"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "Non-Standard Transaction"
+msgstr "Nostandart operatsiya"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "Non-Standard Transactions"
+msgstr "Nostandart operatsiyalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Non-disclosure"
+msgstr "Oshkor qilmaslik"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Off-Balance Sheet Commitments"
+msgstr "Balansdan tashqari majburiyatlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Offices: 25 years"
+msgstr "Ofislar: 25 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#, fuzzy
+msgid ""
+"Only include events occurring between the end of the reporting period and "
+"the date the financial statements are approved, if they are significant "
+"enough to affect the fair presentation of the accounts."
+msgstr ""
+"Faqat hisobot davri oxiri va moliyaviy hisobotlar tasdiqlangan sana "
+"o‘rtasida sodir bo‘lgan, hisobotlarning haqqoniy taqdim etilishiga ta'sir "
+"ko‘rsatish uchun yetarlicha muhim bo‘lgan voqealarni kiritish lozim."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+#, fuzzy
+msgid "Operating subsidies are recorded as income as soon as they are granted."
+msgstr ""
+"Operatsion subsidiyalar berilgan zahoti daromad sifatida hisobga olinadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#, fuzzy
+msgid "Other Significant Events"
+msgstr "Boshqa muhim hodisalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Other off-balance-sheet transactions"
+msgstr "Boshqa balansdan tashqari operatsiyalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Other tangible fixed assets<br>"
+msgstr "Boshqa moddiy asosiy vositalar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "Others"
+msgstr "Boshqalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "Others (including tax consolidation)"
+msgstr "Boshqalar (jumladan, soliq konsolidatsiyasi)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Others: To be specified..."
+msgstr "Boshqalar: Aniqlanishi lozim..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"Our work was conducted in accordance with the professional standard "
+"applicable to compilation engagements, as issued by the professional body of "
+"chartered accountants. This engagement is however not an audit or a limited "
+"review."
+msgstr ""
+"Bizning ishimiz diplomli buxgalterlarning kasbiy tashkiloti tomonidan "
+"chiqarilgan kompilyatsiya shartnomalariga qo‘llaniladigan kasbiy standartga "
+"muvofiq amalga oshirildi. Biroq, bu kelishuv audit yoki cheklangan ko‘rib "
+"chiqish emas."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "Parent Company Details"
+msgstr "Bosh kompaniya ma'lumotlari"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Partner Ledger"
+msgstr "Hamkorlar kitobi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Patents: To be specified..."
+msgstr "Patentlar: Aniqlanishi lozim..."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_performance_and_operations
+#, fuzzy
+msgid "Performance & Operations"
+msgstr "Samaradorlik va faoliyat"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid ""
+"Please provide details of your share of results from joint operations of a "
+"specific nature"
+msgstr ""
+"Iltimos, o‘ziga xos qo‘shma operatsiyalar natijalaridagi ulushingiz "
+"tafsilotlarini taqdim eting"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "Please specify the method used to calculate inventory write-downs."
+msgstr ""
+"Iltimos, tovar-moddiy zaxiralarni qiymatini kamaytirish uchun ishlatiladigan "
+"usulni ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#, fuzzy
+msgid "Post-Closing Events"
+msgstr "Hisobot davridan keyingi hodisalar"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_preamble
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+#, fuzzy
+msgid "Preamble"
+msgstr "Muqaddima"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"Present the main items of prior period's financial statements that have been "
+"restated to correct the error."
+msgstr ""
+"Xatoni tuzatish uchun qayta hisoblangan o‘tgan davr moliyaviy hisobotining "
+"asosiy bandlarini taqdim eting."
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#, fuzzy
+msgid "Print"
+msgstr "Chop etish"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+#, fuzzy
+msgid "Print your Report"
+msgstr "Hisobotingizni chop etish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+#, fuzzy
+msgid "Pro rata recognition"
+msgstr "Mutanosib tan olish"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_profit_and_loss
+#, fuzzy
+msgid "Profit and Loss"
+msgstr "Foyda va zarar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_additional_information
+#, fuzzy
+msgid "Provide any additional information necessary here..."
+msgstr "Bu yerda zarur qo‘shimcha ma'lumotlarni kiriting..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid ""
+"Provide details of any significant off-balance-sheet transactions or "
+"commitments not recorded in the financial statements"
+msgstr ""
+"Moliyaviy hisobotlarda aks ettirilmagan har qanday muhim balansdan tashqari "
+"operatsiyalar yoki majburiyatlar to‘g‘risida batafsil ma'lumot bering"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid ""
+"Provide details on loan issuance costs and any loan redemption premiums."
+msgstr ""
+"Kredit berish xarajatlari va kreditni so‘ndirish bo‘yicha har qanday "
+"mukofotlar haqida batafsil ma'lumot bering."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid ""
+"Provide details on the carryback and carryforward of tax losses, and the "
+"split of income tax between current and exceptional results."
+msgstr ""
+"Soliq zararlarini ko‘chirish va o‘tkazish, hamda daromad solig‘ini joriy va "
+"favqulodda natijalar o‘rtasida taqsimlash to‘g‘risida batafsil ma'lumot "
+"bering."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid ""
+"Provide information on the estimated value of long-term investments held in "
+"the portfolio and any changes in their value over the financial year."
+msgstr ""
+"Portfelda saqlanayotgan uzoq muddatli investitsiyalarning taxminiy qiymati "
+"va ularning qiymati moliyaviy yil davomida o‘zgarishi to‘g‘risida ma'lumot "
+"bering."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Provisions"
+msgstr "Rezervlar"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+#, fuzzy
+msgid "R&D cost"
+msgstr "Ilmiy-tadqiqot ishlari xarajati"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Receivables and Payables"
+msgstr "Debitorlik va kreditorlik qarzlari"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Receivables and payables are recorded at their nominal value."
+msgstr ""
+"Debitorlik va kreditorlik qarzlari nominal qiymati bo‘yicha hisobga olinadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"Receivables and payables denominated in foreign currencies are converted "
+"into euros using the exchange rate at the invoice date."
+msgstr ""
+"Chet el valyutasida ifodalangan debitorlik va kreditorlik qarzlari hisob-"
+"faktura sanasidagi kurs bo‘yicha yevroga aylantiriladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Refusal to Attest"
+msgstr "Tasdiqlashni rad etish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "Registered Office:"
+msgstr "Ro‘yxatdan o‘tgan manzil:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "Related-Party Transactions"
+msgstr "Aloqador tomonlar bilan operatsiyalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Remuneration due for the fiscal year<br>"
+msgstr "Moliyaviy yil uchun to‘lanadigan haq<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Remuneration for Services"
+msgstr "Xizmatlar uchun haq"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Renovations: 10 years"
+msgstr "Ta'mirlash: 10 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "Repayable Advances"
+msgstr "Qaytariladigan avanslar"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_ir_actions_report
+#, fuzzy
+msgid "Report Action"
+msgstr "Hisobot harakati"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Report on Work Conducted"
+msgstr "Bajarilgan ishlar bo‘yicha hisobot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Report on Work Performed"
+msgstr "Amalga oshirilgan ishlar to‘g‘risida hisobot"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+#, fuzzy
+msgid "Research and Development Expenses"
+msgstr "Ilmiy-tadqiqot va ishlanma xarajatlari"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+#, fuzzy
+msgid ""
+"Research and development costs are recognized as expenses in the period in "
+"which they are incurred."
+msgstr ""
+"Ilmiy-tadqiqot va ishlanma xarajatlari ular amalga oshirilgan davrda xarajat "
+"sifatida tan olinadi."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__responsible_user_ids
+#, fuzzy
+msgid "Responsibles"
+msgstr "Mas'ul shaxslar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Result breakdown by region"
+msgstr "Natijalarni hududlar bo‘yicha taqsimlash"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Revenue: {{ revenue }}"
+msgstr "Daromad: {{ revenue }}"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+#, fuzzy
+msgid "Save"
+msgstr "Saqlash"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Self-Held Shares"
+msgstr "O‘z aksiyalari"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#, fuzzy
+msgid "Set to Done"
+msgstr "Bajarilgan deb belgilash"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#, fuzzy
+msgid "Set to Draft"
+msgstr "Qoralama holatiga o‘tkazish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Share Capital"
+msgstr "Ustav kapitali"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Shares Issues<br>"
+msgstr "Chiqarilgan aksiyalar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Shares Redeemed/Cancelled<br>"
+msgstr "Sotib olingan/Bekor qilingan aksiyalar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Shares at End of Year<br>"
+msgstr "Yil oxiridagi aksiyalar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#, fuzzy
+msgid "Shares at Start of Year<br>"
+msgstr "Yil boshidagi aksiyalar<br>"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/signature_input/signature_input.xml:0
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/core/signature_input/signature_input.xml:0
+#, fuzzy
+msgid "Signature"
+msgstr "Imzo"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#, fuzzy
+msgid "Significant Events"
+msgstr "Muhim hodisalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Software: 3 years"
+msgstr "Dasturiy ta'minot: 3 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid ""
+"Specify details for executives, subsidiaries, investments, related "
+"companies, and others."
+msgstr ""
+"Rahbarlar, sho‘ba korxonalar, investitsiyalar, bog‘liq kompaniyalar va "
+"boshqalar uchun tafsilotlarni ko‘rsating."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid ""
+"Specify the impact of the change as determined at the opening of the period, "
+"identifying the affected financial statement items."
+msgstr ""
+"Davr boshida aniqlangan o‘zgarishning ta'sirini ko‘rsating, moliyaviy "
+"hisobotning ta'sirlangan moddalarini aniqlab."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "Standard Cost"
+msgstr "Standart narx"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__start_date
+#, fuzzy
+msgid "Start Date"
+msgstr "Boshlanish sanasi"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,help:accountant_knowledge.field_audit_report__start_date
+#, fuzzy
+msgid "Start Date, included in the fiscal year."
+msgstr "Moliyaviy yilga kiritilgan boshlanish sanasi."
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+#, fuzzy
+msgid "Start from our ready-to-use templates"
+msgstr "Tayyor andozalarimizdan foydalanishni boshlang"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "State and justify the change in estimate."
+msgstr "Baholashdagi o‘zgarishni ko‘rsating va asoslang."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__status
+#, fuzzy
+msgid "Status"
+msgstr "Holat"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#, fuzzy
+msgid "Subsidiaries and Equity Interests"
+msgstr "Sho‘ba korxonalar va ulushli manfaatlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "Subsidiary Details"
+msgstr "Sho‘ba korxona tafsilotlari"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_subventions
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+#, fuzzy
+msgid "Subventions"
+msgstr "Subvensiyalar"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+#, fuzzy
+msgid "Supporting Documents"
+msgstr "Tasdiqlovchi hujjatlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"Tangible assets are also valued at their production cost where applicable."
+msgstr ""
+"Moddiy aktivlar, tegishli hollarda, ishlab chiqarish tannarxi bo‘yicha ham "
+"baholanadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Tangible assets are valued at their acquisition cost, which includes:"
+msgstr ""
+"Moddiy aktivlar ularni sotib olish qiymati bo‘yicha baholanadi, bu qiymat "
+"o‘z ichiga quyidagilarni oladi:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_tax_and_compliance
+#, fuzzy
+msgid "Tax & Compliance"
+msgstr "Soliq va muvofiqlik"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "Tax Credits"
+msgstr "Soliq imtiyozlari"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_tax_package
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_tax_package
+#, fuzzy
+msgid "Tax Package"
+msgstr "Soliq paketi"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_taxation
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+#, fuzzy
+msgid "Taxation"
+msgstr "Soliq solish"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#, fuzzy
+msgid "Technical installations, equipment, and tools<br>"
+msgstr "Texnik qurilmalar, uskunalar va asboblar<br>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Template"
+msgstr ""
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid ""
+"The annual financial statements have been prepared in accordance with "
+"applicable accounting standards."
+msgstr ""
+"Yillik moliyaviy hisobotlar amaldagi buxgalteriya hisobi standartlariga "
+"muvofiq tayyorlangan."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+#, fuzzy
+msgid ""
+"The company has received subsidies that are recognized in operating income "
+"in proportion to the expenses incurred. As a result, subsidies receivable "
+"may be recorded when the grant agreement is signed and eligible expenses "
+"have been incurred, even if the funds have not yet been received."
+msgstr ""
+"Kompaniya amalga oshirilgan xarajatlarga mutanosib ravishda operatsion "
+"daromad sifatida tan olinadigan subsidiyalar oldi. Natijada, mablag‘lar hali "
+"olinmagan bo‘lsa ham, grant shartnomasi imzolanganda va tegishli xarajatlar "
+"amalga oshirilganda olinishi lozim bo‘lgan subsidiyalar hisobga olinishi "
+"mumkin."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "The consolidated financial statements can be obtained via..."
+msgstr "Konsolidatsiyalangan moliyaviy hisobotni ... orqali olish mumkin."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid "The equity method is used for valuation where applicable."
+msgstr "Tegishli hollarda baholash uchun ulush usuli qo‘llaniladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"The exemption for valuation of securities in case of abnormal and temporary "
+"decline is applied."
+msgstr ""
+"Qimmatli qog‘ozlarni g‘ayritabiiy va vaqtinchalik qiymat pasayishi holatida "
+"baholashdan ozod qilish qo‘llaniladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+#, fuzzy
+msgid ""
+"The fiscal year ended on {{ end of period }} covers a period of 12 months."
+msgstr ""
+"{{ end of period }} sanasida yakunlangan moliyaviy yil 12 oylik davrni "
+"qamrab oladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"The following decisions have been made regarding the presentation of the "
+"annual financial statements:"
+msgstr ""
+"Yillik moliyaviy hisobotni taqdim etish bo‘yicha quyidagi qarorlar qabul "
+"qilindi:"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/core/account_report/account_report.xml:0
+#, fuzzy
+msgid "The full report will be included in the final document."
+msgstr "Yakuniy hujjatga to‘liq hisobot kiritiladi."
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/account_report/account_report.xml:0
+#, fuzzy
+msgid ""
+"The full report will be included in the final document. Feel free to tailor "
+"the result using filters and options from the report."
+msgstr ""
+"Yakuniy hujjatga to‘liq hisobot kiritiladi. Hisobotdagi filtrlar va "
+"variantlardan foydalanib, natijani o‘zingizga moslab olishingiz mumkin."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"The gross value consists of the purchase cost, excluding incidental "
+"expenses. When the inventory value is lower than the gross value, a "
+"provision for impairment is recorded for the amount of the difference."
+msgstr ""
+"Yalpi qiymat qo‘shimcha xarajatlarni hisobga olmagan holda sotib olish "
+"qiymatidan iborat. Inventar qiymati yalpi qiymatdan past bo‘lganda, farq "
+"summasiga teng qadrsizlanish zaxirasi hisobga olinadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid ""
+"The gross value of goods and supplies includes the purchase price and "
+"related incidental costs."
+msgstr ""
+"Tovar-moddiy zaxiralarning yalpi qiymati sotib olish narxi va u bilan "
+"bog‘liq qo‘shimcha xarajatlarni o‘z ichiga oladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "The key figures are as follows:"
+msgstr "Asosiy ko‘rsatkichlar quyidagicha:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+#, fuzzy
+msgid "The net accounting result is a {{ net accounting result }}."
+msgstr ""
+"Sof buxgalteriya natijasi {{ net accounting result }} ni tashkil etadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+#, fuzzy
+msgid ""
+"The notes and tables provided below form an integral part of the annual "
+"financial statements."
+msgstr ""
+"Quyida keltirilgan izohlar va jadvallar yillik moliyaviy hisobotning "
+"ajralmas qismini tashkil etadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+#, fuzzy
+msgid ""
+"The portion of subsidies that finance capital expenditures is recognized in "
+"operating income over the same period as the depreciation of the related "
+"assets. The acquired portion not yet recognized in income is recorded under "
+"equity as investment grants."
+msgstr ""
+"Kapital xarajatlarni moliyalashtiruvchi subsidiyalar qismi tegishli "
+"aktivlarning eskirish muddati davomida operatsion daromad sifatida tan "
+"olinadi. Daromad sifatida hali tan olinmagan qism xususiy kapitalda "
+"investitsiya grantlari sifatida aks ettiriladi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+#, fuzzy
+msgid ""
+"The primary method used to value the items recorded in the accounts is the "
+"historical cost method."
+msgstr ""
+"Hisobga olingan moddalarni baholashning asosiy usuli tarixiy qiymat usuli "
+"hisoblanadi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"The purchase price (including customs duties and non-recoverable taxes, less "
+"any trade discounts, rebates, or settlement discounts);"
+msgstr ""
+"Xarid narxi (bojxona to‘lovlari va qaytarilmaydigan soliqlarni o‘z ichiga "
+"olgan holda, savdo chegirmalari, chegirmalar yoki hisob-kitob chegirmalari "
+"chegirilgan holda);"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+#, fuzzy
+msgid ""
+"The total balance sheet amount before allocation of the result is {{ total "
+"balance sheet }}."
+msgstr ""
+"Natija taqsimlanishidan oldingi balansning umumiy summasi {{ umumiy "
+"balans }}."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "This company is part of a group, and owns the following subsidiaries"
+msgstr ""
+"Ushbu kompaniya guruh tarkibiga kiradi va quyidagi sho‘ba korxonalarga "
+"egalik qiladi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#, fuzzy
+msgid "This company is part of a group, under the following parent company."
+msgstr ""
+"Ushbu kompaniya quyidagi bosh kompaniyaga bo‘ysunuvchi guruh tarkibiga "
+"kiradi."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__title
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+#, fuzzy
+msgid "Title"
+msgstr "Sarlavha"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Tools: 10 years"
+msgstr "Asbob-uskunalar: 10 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Total assets: {{ total balance sheet }}"
+msgstr "Jami aktivlar: {{ jami balans }}"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#, fuzzy
+msgid "Total<br>"
+msgstr "Jami<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+#, fuzzy
+msgid "Transactions with Major Shareholders"
+msgstr "Yirik aksiyadorlar bilan bitimlar"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Transactions with Management"
+msgstr "Rahbariyat bilan tranzaksiyalar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid "Transport equipment: 5 years"
+msgstr "Transport vositalari: 5 yil"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid "Unqualified Attestation"
+msgstr "Shartlarsiz tasdiqlash"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Valuation of free shares granted<br>"
+msgstr "Berilgan bepul aksiyalarni baholash<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Valuation of multi-year variable compensation<br>"
+msgstr "Ko‘p yillik o‘zgaruvchan mukofotlarni baholash<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#, fuzzy
+msgid "Valuation of stock options granted during the year<br>"
+msgstr "Yil davomida berilgan aksiya opsionlarini baholash<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#, fuzzy
+msgid "Voluntary Change in Accounting Policy"
+msgstr "Hisob siyosatining ixtiyoriy o‘zgarishi"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+#, fuzzy
+msgid ""
+"We are making the following comment regarding a matter that may affect the "
+"overall consistency and reliability of the financial statements:"
+msgstr ""
+"Biz moliyaviy hisobotning umumiy izchilligi va ishonchliligiga ta'sir "
+"ko‘rsatishi mumkin bo‘lgan masala yuzasidan quyidagi izohni beramiz:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+#, fuzzy
+msgid "Weighted Average Cost"
+msgstr "O‘rtacha tortilgan qiymat"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#, fuzzy
+msgid ""
+"When applicable, the initial estimate of dismantling, removal, and site "
+"restoration costs related to the asset's location."
+msgstr ""
+"Zarur hollarda, aktivning joylashuvi bilan bog‘liq bo‘lgan demontaj, olib "
+"tashlash va joyni tiklash xarajatlarining dastlabki bahosi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#, fuzzy
+msgid ""
+"Where applicable, receivables are depreciated through provisions to account "
+"for potential collection difficulties. These provisions for impairment are "
+"determined by comparing the acquisition value with the probable realizable "
+"value."
+msgstr ""
+"Lozim bo‘lganda, debitorlik qarzlari ularni undirishda yuzaga kelishi mumkin "
+"bo‘lgan qiyinchiliklarni hisobga olish uchun zaxiralar orqali "
+"qadrsizlantiriladi. Ushbu qadrsizlanish zaxiralari sotib olish qiymatini "
+"ehtimoliy realizatsiya qiymati bilan taqqoslash yo‘li bilan aniqlanadi."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_workforce
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "Workforce"
+msgstr "Xodimlar"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+#, fuzzy
+msgid "Workforce employed during the Period"
+msgstr "Davr mobaynida band bo‘lgan xodimlar soni"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+#, fuzzy
+msgid "e.g. Annual Financial Overview"
+msgstr "Masalan: Yillik moliyaviy sharh"
+
+#, fuzzy
+#~ msgid "Audit Report Template"
+#~ msgstr "Audit hisoboti namunasi"
+
+#, fuzzy
+#~ msgid "Audit Reports"
+#~ msgstr "Audit hisobotlari"
+
+#, fuzzy
+#~ msgid "Audit Template"
+#~ msgstr "Audit shabloni"
+
+#, fuzzy
+#~ msgid "Create an Audit Report"
+#~ msgstr "Audit hisobotini yaratish"
+
+#, fuzzy
+#~ msgid "Edit Audit Report"
+#~ msgstr "Audit hisobotini tahrirlash"

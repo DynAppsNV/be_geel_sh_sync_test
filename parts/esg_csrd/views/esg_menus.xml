@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="menu_esg_collect_csrd"
+        name="ESG"
+        sequence="20"
+        parent="esg.menu_esg_collect"
+    >
+        <menuitem
+            id="menu_esg_metrics"
+            name="Metrics"
+            sequence="10"
+            action="action_view_metrics"
+            groups="esg_csrd.group_esg_csrd_reporting"
+        />
+    </menuitem>
+    <menuitem
+        id="menu_esg_report"
+        name="Report"
+        sequence="38"
+        parent="esg.esg_main_menu"
+    >
+        <menuitem
+            id="menu_esg_vsme_report"
+            name="VSME Report"
+            sequence="10"
+            action="action_view_esg_vsme_report"
+        />
+        <menuitem
+            id="menu_esg_csrd_report"
+            name="CSRD Report"
+            sequence="20"
+            action="action_view_esg_csrd_report"
+            groups="esg_csrd.group_esg_csrd_reporting"
+        />
+    </menuitem>
+</odoo>

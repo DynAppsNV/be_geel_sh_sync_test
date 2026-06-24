@@ -1,0 +1,110 @@
+{
+  "operationName": "M112_2_signSale_RefundPartial",
+  "variables": {
+    "data": {
+      "language": "NL",
+      "vatNo": "BE0000000097",
+      "estNo": "2000000042",
+      "posId": "CPOS0031234567",
+      "posFiscalTicketNo": 6603,
+      "posDateTime": "2024-10-07T13:48:00+02:00",
+      "posSwVersion": "1.8.3",
+      "deviceId": "b54a614f-39cc-4a7b-bd9f-aa6b693d769c",
+      "terminalId": "TER-1-BAR",
+      "bookingPeriodId": "dffcd829-a0e5-41ca-a0ae-9eb887f95637",
+      "bookingDate": "2024-10-07",
+      "ticketMedium": "PAPER",
+      "employeeId": "84022899837",
+      "transaction": {
+        "transactionLines": [
+          {
+            "lineType": "SINGLE_PRODUCT",
+            "mainProduct": {
+              "productId": "10006",
+              "productName": "Dry Martini",
+              "departmentId": "10",
+              "departmentName": "Aperitifs",
+              "quantity": -1,
+              "quantityType": "PIECE",
+              "negQuantityReason": "REFUND",
+              "unitPrice": 12,
+              "vats": [
+                {
+                  "label": "A",
+                  "price": -12
+                }
+              ]
+            },
+            "lineTotal": -12
+          },
+          {
+            "lineType": "SINGLE_PRODUCT",
+            "mainProduct": {
+              "productId": "12009",
+              "productName": "Coca Cola",
+              "departmentId": "12",
+              "departmentName": "Soft Drinks",
+              "quantity": 1,
+              "quantityType": "PIECE",
+              "unitPrice": 3.04,
+              "vats": [
+                {
+                  "label": "A",
+                  "price": 3.04
+                }
+              ]
+            },
+            "lineTotal": 3.04
+          },
+          {
+            "lineType": "SINGLE_PRODUCT",
+            "mainProduct": {
+              "productId": "25008",
+              "productName": "crème brûlée",
+              "departmentId": "25",
+              "departmentName": "Desserts",
+              "quantity": 1,
+              "quantityType": "PIECE",
+              "unitPrice": 10,
+              "vats": [
+                {
+                  "label": "B",
+                  "price": 10
+                }
+              ]
+            },
+            "lineTotal": 10
+          }
+        ],
+        "transactionTotal": 1.04
+      },
+      "financials": [
+        {
+          "id": "1",
+          "name": "CONTANT",
+          "type": "CASH",
+          "inputMethod": "MANUAL",
+          "amount": 1.04,
+          "amountType": "PAYMENT",
+          "drawer": {
+            "id": "1",
+            "name": "Drawer 1"
+          }
+        },
+        {
+          "id": "1",
+          "name": "CONTANT",
+          "type": "CASH",
+          "inputMethod": "MANUAL",
+          "amount": 0.01,
+          "amountType": "TIP",
+          "drawer": {
+            "id": "1",
+            "name": "Drawer 1"
+          }
+        }
+      ]
+    }
+  },
+  "query": "mutation M112_2_signSale_RefundPartial($data: SaleInput!, $training: Boolean! = false) {\n  signSale(data: $data, isTraining: $training) {\n    posId\n    posFiscalTicketNo\n    posDateTime\n    terminalId\n    deviceId\n    fdmSwVersion\n    eventOperation\n    digitalSignature\n    shortSignature\n    verificationUrl\n    bufferCapacityUsed\n    fdmRef {\n      fdmId\n      fdmDateTime\n      eventLabel\n      eventCounter\n      totalCounter\n    }\n    vatCalc {\n      label\n      rate\n      taxableAmount\n      vatAmount\n      totalAmount\n      outOfScope\n    }\n    warnings {\n      message\n      locations {\n        line\n        column\n      }\n      extensions {\n        category\n        code\n        data {\n          name\n          value\n        }\n        showPos\n      }\n    }\n    informations {\n      message\n      locations {\n        line\n        column\n      }\n      extensions {\n        category\n        code\n        data {\n          name\n          value\n        }\n        showPos\n      }\n    }\n  }\n}\n"
+}

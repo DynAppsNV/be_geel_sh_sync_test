@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="dynapps_export_settings" model="ir.ui.view">
+        <field name="name">dynapps.export.settings.form</field>
+        <field name="model">xx.dynapps.export.settings</field>
+        <field name="arch" type="xml">
+            <form string="Export Settings">
+                <sheet>
+                    <notebook>
+                        <page id="technical" string="Technical">
+                            <button
+                                name="export_settings"
+                                string="Export Settings"
+                                type="object"
+                                class="oe_highlight"
+                            />
+                            <notebook>
+                                <page id="module_data" string="Module Data">
+                                    <field name="module_data_ids" />
+                                </page>
+                                <page id="modules" string="Modules">
+                                    <group>
+                                        <group string="Installed Modules">
+                                            <strong colspan="2">__manifest__.py</strong>
+                                            <separator
+                                                string="Diff"
+                                                invisible="not installed_modules_diff"
+                                            />
+                                            <field
+                                                name="installed_modules_diff"
+                                                widget="ace"
+                                                options="{'mode': 'xml'}"
+                                                invisible="not installed_modules_diff"
+                                                nolabel="1"
+                                                colspan="2"
+                                            />
+                                            <field
+                                                name="installed_modules_tech"
+                                                widget="ace"
+                                                options="{'mode': 'python'}"
+                                                nolabel="1"
+                                                colspan="2"
+                                            />
+                                        </group>
+                                        <group string="Disabled Auto-Install Modules">
+                                            <strong colspan="2">dyn-build.yaml</strong>
+                                            <separator
+                                                string="Diff"
+                                                invisible="not disabled_modules_diff"
+                                            />
+                                            <field
+                                                name="disabled_modules_diff"
+                                                widget="ace"
+                                                options="{'mode': 'xml'}"
+                                                invisible="not disabled_modules_diff"
+                                                nolabel="1"
+                                                colspan="2"
+                                            />
+                                            <field
+                                                name="disabled_modules_tech"
+                                                widget="ace"
+                                                nolabel="1"
+                                                colspan="2"
+                                            />
+                                        </group>
+                                    </group>
+                                </page>
+                                <page id="company_logos" string="Company Logos">
+                                    <field name="partner_logo_ids">
+                                        <list>
+                                            <field
+                                                name="logo"
+                                                filename="filename"
+                                                widget='image'
+                                            />
+                                            <field name="filename" />
+                                            <field name="logo_diff" />
+                                            <field
+                                                name="original_logo"
+                                                widget="image"
+                                                invisible="not logo_diff"
+                                            />
+                                        </list>
+                                    </field>
+                                </page>
+                            </notebook>
+                            <div class="oe_title" />
+                        </page>
+                        <page id="functional" string="Functional">
+                            <notebook>
+                                <page id="general" string="General">
+                                    <div id="functional_div" class="oe_title">
+                                        <h1>Active Languages</h1>
+                                        <field name="languages_func" widget="ace" />
+                                        <h1>Settings</h1>
+                                        <field name="settings_func" widget="ace" />
+                                        <h1>Installed Modules</h1>
+                                        <h2>Settings</h2>
+                                        <field
+                                            name="installed_modules_settings_func"
+                                            widget="ace"
+                                        />
+                                        <h2>Apps</h2>
+                                        <field
+                                            name="installed_modules_func"
+                                            widget="ace"
+                                        />
+                                        <h1>Disabled Auto-Install Modules</h1>
+                                        <h2>Settings</h2>
+                                        <field
+                                            name="disabled_modules_settings_func"
+                                            widget="ace"
+                                        />
+                                        <h2>Apps</h2>
+                                        <field
+                                            name="disabled_modules_func"
+                                            widget="ace"
+                                        />
+                                        <h1>Company Settings</h1>
+                                        <field
+                                            name="company_settings_func"
+                                            widget="ace"
+                                        />
+                                    </div>
+                                </page>
+                            </notebook>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.server" id="action_open_dynapps_export_settings">
+        <field name="name">Dynapps Export Settings</field>
+        <field name="model_id" ref="model_xx_dynapps_export_settings" />
+        <field name="state">code</field>
+        <field name="code">
+            action = model.action_open_view()
+        </field>
+    </record>
+
+    <record id="action_dynapps_export_settings" model="ir.actions.act_window">
+        <field name="name">Dynapps Analytics</field>
+        <field name="res_model">xx.dynapps.export.settings</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <menuitem
+        id="menu_dynapps_export_settings"
+        parent="base.menu_custom"
+        action="action_open_dynapps_export_settings"
+        sequence="0"
+    />
+</odoo>

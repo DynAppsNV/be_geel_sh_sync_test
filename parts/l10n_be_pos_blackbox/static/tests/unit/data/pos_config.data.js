@@ -1,0 +1,30 @@
+import { PosConfig } from "@point_of_sale/../tests/unit/data/pos_config.data";
+
+PosConfig._records = [
+    {
+        ...PosConfig._records[0],
+        id: 1,
+        iface_available_categ_ids: [1, 5, 8, 3, 9, 11, 2, 4, 7, 10, 6],
+        currency_id: 125,
+        available_preset_ids: [4, 5],
+        current_session_id: 1,
+        session_ids: [1],
+        company_id: 2,
+        tip_product_id: 1,
+        l10n_be_blackbox_be_id: 1,
+        floor_ids: [1],
+        l10n_be_pos_id: "CPOS0031234567",
+        establishment_number: "8789456149",
+        l10n_be_training_mode: false,
+        default_preset_id: 4,
+        payment_method_ids: [1, 2, 3],
+        current_user_id: 2,
+        use_pricelist: false,
+        use_presets: true,
+        module_pos_restaurant: true,
+        module_pos_hr: false,
+        limit_categories: true,
+        fiscal_position_ids: [],
+        default_fiscal_position_id: false,
+    },
+];

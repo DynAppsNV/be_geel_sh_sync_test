@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="purchase_order_form" model="ir.ui.view">
+        <field name="name">purchase.order.form.inherit.xx.approval.dynamic.user</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_ref']" position="after">
+                <field name="xx_department_id" readonly="locked" />
+            </xpath>
+            <xpath expr="//page[@name='purchase_delivery_invoice']" position="after">
+                <page string="Approvers" name="xx_dynamic_approvers">
+                    <field name="xx_approval_line_ids" readonly="locked">
+                        <list editable="bottom">
+                            <field
+                                name="studio_rule_id"
+                                string="Approval Step"
+                                options="{'no_create': True}"
+                                readonly="True"
+                                force_save="1"
+                            />
+                            <field
+                                name="xx_is_board_approval"
+                                column_invisible="True"
+                            />
+                            <field name="allowed_user_ids" column_invisible="True" />
+                            <field name="allowed_partner_ids" column_invisible="True" />
+                            <field
+                                name="user_id"
+                                widget="many2one_avatar_user"
+                                domain="[('id', 'in', allowed_user_ids)]"
+                                invisible="xx_is_board_approval"
+                            />
+                            <field
+                                name="partner_id"
+                                domain="[('id', 'in', allowed_partner_ids)]"
+                                invisible="not xx_is_board_approval"
+                            />
+                            <field
+                                name="sign_request_state"
+                                invisible="not xx_is_board_approval"
+                            />
+                            <field
+                                name="sign_access_url"
+                                widget="url"
+                                string="Sign Link"
+                                invisible="not xx_is_board_approval"
+                                readonly="True"
+                                groups="base.group_system"
+                            />
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

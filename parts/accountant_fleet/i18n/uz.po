@@ -1,0 +1,50 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* accountant_fleet
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: accountant_fleet
+#: model:account.return.check.template,description:accountant_fleet.account_return_check_template_vehicle_expenses_mileage_or_private_use
+#, fuzzy
+msgid ""
+"Calculate mileage allowances for the owner or identify the private use "
+"portion of company vehicles to be reintegrated."
+msgstr ""
+"Egasi uchun bosib o‘tilgan yo‘l uchun qo‘shimcha to‘lovlarni hisoblang yoki "
+"kompaniya transport vositalarining shaxsiy foydalanish qismini aniqlang va "
+"qayta hisobga oling."
+
+#. module: accountant_fleet
+#: model:ir.ui.menu,name:accountant_fleet.menu_action_audit_inventory_fleet
+#, fuzzy
+msgid "Fleet"
+msgstr "Avtomobil parki"
+
+#. module: accountant_fleet
+#: model:account.return.check.template,name:accountant_fleet.account_return_check_template_vehicle_expenses_mileage_or_private_use
+#, fuzzy
+msgid "Vehicle expenses: mileage or private use"
+msgstr ""
+"Transport vositalari xarajatlari: bosib o‘tilgan masofa yoki shaxsiy "
+"foydalanish"

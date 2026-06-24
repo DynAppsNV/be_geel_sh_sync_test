@@ -1,0 +1,109 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * whatsapp_event
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~18.2+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:49+0000\n"
+"PO-Revision-Date: 2026-06-13 09:44+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bulgarian <https://translate.odoo.com/projects/odoo-19/"
+"whatsapp_event/bg/>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: whatsapp_event
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_mail__display_name
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_mail_registration__display_name
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_registration__display_name
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_type_mail__display_name
+#: model:ir.model.fields,field_description:whatsapp_event.field_whatsapp_template__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Име за показване"
+
+#. module: whatsapp_event
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_registration__date_tz
+msgid "Display Timezone"
+msgstr ""
+
+#. module: whatsapp_event
+#: model:ir.model,name:whatsapp_event.model_event_mail
+#, fuzzy
+msgid "Event Automated Mailing"
+msgstr "Автоматизирано изпращане на събития"
+
+#. module: whatsapp_event
+#: model:ir.model,name:whatsapp_event.model_event_registration
+#, fuzzy
+msgid "Event Registration"
+msgstr "Регистрация на събитие"
+
+#. module: whatsapp_event
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_mail__id
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_mail_registration__id
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_registration__id
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_type_mail__id
+#: model:ir.model.fields,field_description:whatsapp_event.field_whatsapp_template__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: whatsapp_event
+#: model:ir.model.fields,help:whatsapp_event.field_event_registration__date_tz
+msgid ""
+"Indicates the timezone in which the event dates/times will be displayed on "
+"the website."
+msgstr ""
+
+#. module: whatsapp_event
+#: model:ir.model,name:whatsapp_event.model_event_type_mail
+msgid "Mail Scheduling on Event Category"
+msgstr ""
+
+#. module: whatsapp_event
+#: model:ir.model,name:whatsapp_event.model_event_mail_registration
+#, fuzzy
+msgid "Registration Mail Scheduler"
+msgstr "Пощенски планьор за регистреции"
+
+#. module: whatsapp_event
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_mail__notification_type
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_type_mail__notification_type
+#, fuzzy
+msgid "Send"
+msgstr "Изпрати"
+
+#. module: whatsapp_event
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_mail__template_ref
+#: model:ir.model.fields,field_description:whatsapp_event.field_event_type_mail__template_ref
+#, fuzzy
+msgid "Template"
+msgstr "Шаблон"
+
+#. module: whatsapp_event
+#: model:ir.model.fields.selection,name:whatsapp_event.selection__event_mail__notification_type__whatsapp
+#: model:ir.model.fields.selection,name:whatsapp_event.selection__event_mail__template_ref__whatsapp_template
+#: model:ir.model.fields.selection,name:whatsapp_event.selection__event_type_mail__notification_type__whatsapp
+#: model:ir.model.fields.selection,name:whatsapp_event.selection__event_type_mail__template_ref__whatsapp_template
+#, fuzzy
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#. module: whatsapp_event
+#: model:ir.model,name:whatsapp_event.model_whatsapp_template
+msgid "WhatsApp Template"
+msgstr ""
+
+#. module: whatsapp_event
+#. odoo-python
+#: code:addons/whatsapp_event/models/event_mail.py:0
+msgid "Whatsapp Templates in Events must have a phone field set."
+msgstr ""

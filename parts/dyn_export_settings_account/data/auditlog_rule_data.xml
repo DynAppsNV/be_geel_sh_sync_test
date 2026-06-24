@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo noupdate="1">
+    <record id="auditlog_rule_account_tax" model="auditlog.rule">
+        <field name="name">Taxes</field>
+        <field name="model_id" ref="account.model_account_tax" />
+        <field name="log_type">fast</field>
+        <field name="log_read" eval="False" />
+        <field name="log_unlink" eval="True" />
+        <field name="log_write" eval="True" />
+        <field name="log_create" eval="True" />
+    </record>
+    <record id="auditlog_rule_account_fiscal_position" model="auditlog.rule">
+        <field name="name">Fiscal Positions</field>
+        <field name="model_id" ref="account.model_account_fiscal_position" />
+        <field name="log_type">fast</field>
+        <field name="log_read" eval="False" />
+        <field name="log_unlink" eval="True" />
+        <field name="log_write" eval="True" />
+        <field name="log_create" eval="True" />
+    </record>
+    <record id="auditlog_rule_account_payment_term" model="auditlog.rule">
+        <field name="name">Payment Terms</field>
+        <field name="model_id" ref="account.model_account_payment_term" />
+        <field name="log_type">fast</field>
+        <field name="log_read" eval="False" />
+        <field name="log_unlink" eval="True" />
+        <field name="log_write" eval="True" />
+        <field name="log_create" eval="True" />
+    </record>
+    <record id="auditlog_rule_account_journal" model="auditlog.rule">
+        <field name="name">Journals</field>
+        <field name="model_id" ref="account.model_account_journal" />
+        <field name="log_type">fast</field>
+        <field name="log_read" eval="False" />
+        <field name="log_unlink" eval="True" />
+        <field name="log_write" eval="True" />
+        <field name="log_create" eval="True" />
+    </record>
+    <function model="auditlog.rule" name="set_to_confirmed">
+        <value
+            model="auditlog.rule"
+            eval="obj().search([('state', '=', 'draft')]).ids"
+        />
+    </function>
+</odoo>

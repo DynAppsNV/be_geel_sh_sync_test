@@ -1,0 +1,324 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pos_platform_order_gofood
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 18:46+0000\n"
+"PO-Revision-Date: 2026-06-13 09:51+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
+"projects/odoo-19/pos_platform_order_gofood/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,help:pos_platform_order_gofood.field_platform_order_provider__gofood_relay_secret
+#, fuzzy
+msgid ""
+"A security token used to verify that incoming webhooks (system "
+"notifications) are genuinely from GoFood."
+msgstr "用于校验传入网络钩子（系统通知）是否确实来自 GoFood 的安全令牌。"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.constraint,message:pos_platform_order_gofood.constraint_gofood_idempotency_key_key_uniq
+#, fuzzy
+msgid "An idempotency key with the same value already exists."
+msgstr "已经存在相同值的等效密钥。"
+
+#. module: pos_platform_order_gofood
+#: model_terms:ir.ui.view,arch_db:pos_platform_order_gofood.platform_order_provider_form_inherit
+#, fuzzy
+msgid "App ID"
+msgstr "App ID"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_provider__code
+#, fuzzy
+msgid "Code"
+msgstr "代码"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model,name:pos_platform_order_gofood.model_res_partner
+#, fuzzy
+msgid "Contact"
+msgstr "联系人"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model,website_form_label:pos_platform_order_gofood.model_res_partner
+#, fuzzy
+msgid "Create a Customer"
+msgstr "创建客户"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_gofood_idempotency_key__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "创建人"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_gofood_idempotency_key__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_entity.py:0
+#, fuzzy
+msgid "Cutlery Requested: %s"
+msgstr "需要餐具：%s"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_gofood_idempotency_key__display_name
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_entity__display_name
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_provider__display_name
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_res_partner__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_entity.py:0
+#, fuzzy
+msgid "Failed to update menu items on GoFood: %s"
+msgstr "无法更新 GoFood 上的菜单项：%s"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields.selection,name:pos_platform_order_gofood.selection__platform_order_provider__code__gofood
+#, fuzzy
+msgid "GoFood"
+msgstr "GoFood"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_provider__gofood_appid
+msgid "GoFood App ID"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_entity.py:0
+#, fuzzy
+msgid "GoFood Customer %s"
+msgstr "GoFood 客户 %s"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_res_partner__gofood_customer_id
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_res_users__gofood_customer_id
+#, fuzzy
+msgid "GoFood Customer ID"
+msgstr "GoFood 客户 ID"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model,name:pos_platform_order_gofood.model_gofood_idempotency_key
+#, fuzzy
+msgid "GoFood Idempotency Key"
+msgstr "GoFood 同效性密钥 (idempotency key)"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_provider__gofood_partner_id
+msgid "GoFood Partner ID"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_provider__gofood_relay_secret
+msgid "GoFood Relay Secret"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_provider.py:0
+msgid "GoFood Relay Secret is not set for this provider."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_provider__gofood_secret
+msgid "GoFood Secret"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/pos_order.py:0
+msgid ""
+"GoFood: Cannot reject the order as the food is already marked as ready."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/pos_order.py:0
+msgid "GoFood: Failed to accept order: %s"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/pos_order.py:0
+msgid "GoFood: Failed to mark food as ready: %s"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/pos_order.py:0
+msgid "GoFood: Failed to reject order: %s"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/pos_order.py:0
+msgid "GoFood: No order found matching order ID %s."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_entity.py:0
+msgid "GoFood: No store found matching ID %s."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_entity.py:0
+msgid "GoFood: Product with external ID %s was not found."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_entity.py:0
+msgid "GoFood: Received data with missing store ID %s."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-javascript
+#: code:addons/pos_platform_order_gofood/static/src/app/models/pos_order.js:0
+msgid "High Demand"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_gofood_idempotency_key__id
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_entity__id
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_platform_order_provider__id
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_res_partner__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_platform_order_gofood
+#. odoo-javascript
+#: code:addons/pos_platform_order_gofood/static/src/app/models/pos_order.js:0
+#, fuzzy
+msgid "Items Out of Stock"
+msgstr "缺货商品"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_gofood_idempotency_key__key
+#, fuzzy
+msgid "Key"
+msgstr "密钥KEY"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_gofood_idempotency_key__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,field_description:pos_platform_order_gofood.field_gofood_idempotency_key__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "上次更新日期"
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/platform_order_entity.py:0
+#, fuzzy
+msgid "No products found in the store."
+msgstr "商店中未找到任何产品。"
+
+#. module: pos_platform_order_gofood
+#. odoo-python
+#: code:addons/pos_platform_order_gofood/models/pos_order.py:0
+msgid "Order rejected by merchant"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-javascript
+#: code:addons/pos_platform_order_gofood/static/src/app/models/pos_order.js:0
+#, fuzzy
+msgid "Others"
+msgstr "其它"
+
+#. module: pos_platform_order_gofood
+#: model_terms:ir.ui.view,arch_db:pos_platform_order_gofood.platform_order_provider_form_inherit
+#, fuzzy
+msgid "Partner ID"
+msgstr "合作伙伴 ID"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model,name:pos_platform_order_gofood.model_platform_order_entity
+#, fuzzy
+msgid "Platform Order Entity"
+msgstr "平台订单商家/实体"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model,name:pos_platform_order_gofood.model_platform_order_provider
+#, fuzzy
+msgid "Platform Order Provider"
+msgstr "平台订单服务商"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model,name:pos_platform_order_gofood.model_pos_order
+#, fuzzy
+msgid "Point of Sale Orders"
+msgstr "POS 订单"
+
+#. module: pos_platform_order_gofood
+#: model_terms:ir.ui.view,arch_db:pos_platform_order_gofood.platform_order_provider_form_inherit
+msgid "Relay Secret Key"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#. odoo-javascript
+#: code:addons/pos_platform_order_gofood/static/src/app/models/pos_order.js:0
+msgid "Restaurant Closed"
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model_terms:ir.ui.view,arch_db:pos_platform_order_gofood.platform_order_provider_form_inherit
+#, fuzzy
+msgid "Secret Key"
+msgstr "秘钥"
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,help:pos_platform_order_gofood.field_platform_order_provider__gofood_appid
+msgid "The App ID for the GoFood account."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,help:pos_platform_order_gofood.field_res_partner__gofood_customer_id
+#: model:ir.model.fields,help:pos_platform_order_gofood.field_res_users__gofood_customer_id
+msgid "The GoFood Customer ID used for the GoFood payment provider."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,help:pos_platform_order_gofood.field_platform_order_provider__gofood_partner_id
+msgid "The POS ID associated with GoFood."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,help:pos_platform_order_gofood.field_platform_order_provider__gofood_secret
+msgid "The Secret key for accessing the GoFood services."
+msgstr ""
+
+#. module: pos_platform_order_gofood
+#: model:ir.model.fields,help:pos_platform_order_gofood.field_platform_order_provider__code
+#, fuzzy
+msgid "The technical code of this platform order provider."
+msgstr "此平台订单服务商的技术代码。"

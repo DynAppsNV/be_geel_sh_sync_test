@@ -1,0 +1,1723 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_be_pos_blackbox
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-22 18:12+0000\n"
+"PO-Revision-Date: 2026-05-22 18:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/module.py:0
+msgid ""
+"\n"
+"\n"
+"If you want to remove this functionality, please uninstall the '%(replace_by)s' module instead."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "%(user)s must have an INSZ or BIS number."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "(Blackbox -"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.actions.report,print_report_name:l10n_be_pos_blackbox.action_report_pos_user
+msgid "(object.name + '_user_report')"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.fdm_source
+msgid "(size in bytes:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "/ Units"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_users_form_view
+msgid ""
+"<i class=\"fa fa-fw fa-id-card me-1 text-primary\" title=\"Belgian National "
+"Register Number\"/>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "<strong>FDM ID:</strong>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "<strong>From</strong>:<br/>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "<strong>POS Session:</strong>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "<strong>Point of Sale</strong>:<br/>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "<strong>To</strong>:<br/>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "<strong>Total Payments:</strong>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "<strong>Total amount (TVA incl.): </strong>"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "A POS ID must be set for this POS configuration."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/screens/ticket_screen/invoice_button/invoice_button.js:0
+msgid ""
+"A VAT number is required to invoice an order. Please set a VAT number for "
+"the customer."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "A VAT number must be set for the company using this POS configuration."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/blackbox_error.js:0
+msgid "A syntax error occurred while communicating with the FDM."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "A valid POS ID is already set for this configuration."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Amount of I event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Amount of N event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Amount of P event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Amount of T event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "Amount of money in cash register at departure:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Amount of refunds"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "An error has occurred with the blackbox"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "An establishment number must be set for this POS configuration."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/blackbox_warning.js:0
+msgid "An unknown warning was received from the FDM."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "An unspecified error was reported by the FDM."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "An unspecified warning was reported by the FDM."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "Arrival and first event:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "Automatic Receipt Printing must be activated"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/pos_app.xml:0
+msgid "BLACKBOX TRAINING MODE"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_config_settings_view_form
+msgid "Belgian Blackbox"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "Belgian Cash Rounding"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.view_pos_pos_form
+msgid "Belgian Fiscal Data Module information"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_res_users__l10n_be_insz_or_bis_number
+msgid "Belgian National Register number"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.actions.act_window,name:l10n_be_pos_blackbox.action_pos_blackbox_be_form
+#: model:ir.ui.menu,name:l10n_be_pos_blackbox.menu_pos_blackbox_be
+msgid "Blackbox"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.view_pos_blackbox_be_list
+msgid "Blackbox BE"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/components/popups/inspect_popup/inspect_popup.xml:0
+msgid "Blackbox Request Inspector"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid ""
+"Blackbox returned a syntax error:\n"
+"%s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid ""
+"Blackbox returned some error(s) (for %s config):\n"
+"%s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__booking_period_id
+msgid "Booking Period ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Booking date:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/models/pos_order.js:0
+msgid "COPY TICKET"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Canceled order"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Cash Ending Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Cash Starting Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "Cash rounding must be enabled"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "Category"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/components/popups/must_clock_in_popup/must_clock_in_popup.xml:0
+#: model:ir.model.fields.selection,name:l10n_be_pos_blackbox.selection__pos_clock_in_out__type__in
+msgid "Clock In"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/components/popups/must_clock_in_popup/must_clock_in_popup.xml:0
+msgid "Clock In Required"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields.selection,name:l10n_be_pos_blackbox.selection__pos_clock_in_out__type__out
+msgid "Clock Out"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_users_clocked_ids
+msgid "Clocked In Users"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+#: code:addons/l10n_be_pos_blackbox/static/src/common/components/popups/inspect_popup/inspect_popup.xml:0
+msgid "Close"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "Code"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_config_settings_view_form
+msgid "Connect to the Belgian Blackbox for fiscal compliance."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/components/popups/inspect_popup/inspect_popup.xml:0
+msgid "Copy"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Copy made on :"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Corrections"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_config__l10n_be_report_counter
+msgid "Count the number of reports generated for this POS configuration."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__create_uid
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_log_device__create_uid
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__create_date
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_log_device__create_date
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Daily Sales Report"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "Database UUID not found."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "Departure and last event:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_device_id
+msgid "Device ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_log_device__device
+msgid "Device Identifier"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Disc:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_ir_module_module__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_ir_ui_view__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_log_device__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order_line__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_payment_method__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_report_l10n_be_pos_blackbox_user_report_template__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_report_point_of_sale_report_saledetails__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_users__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "EST No:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "EST no:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "Errors:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__establishment_number
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_config_settings_view_form
+msgid "Establishment Number"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_event_counter
+msgid "Event Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__event_date_time
+msgid "Event DateTime"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_event_label
+msgid "Event Label"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Excl."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/blackbox.js:0
+msgid "FDM Connection Error"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.report_invoice_document
+msgid "FDM Data:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_fdm_date_time
+msgid "FDM Date Time"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__fdm_id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_fdm_id
+msgid "FDM ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "FDM turnover report data"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid ""
+"Failed to retrieve POS ID from FDM service:\n"
+"%s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__first_fdm_ref
+msgid "First FDM Reference"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/components/popups/opening_device_error_popup/opening_device_error_popup.xml:0
+msgid "Fiscal Data Module Error"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/components/popups/opening_device_error_popup/opening_device_error_popup.xml:0
+msgid "Go to backend"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_grouping_id
+msgid "Grouping ID by line uuid"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_I_event_counter
+msgid "I Event Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_I_event_label
+msgid "I Event Label"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_I_fdm_date_time
+msgid "I FDM Date Time"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_I_fdm_id
+msgid "I FDM ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_I_total_counter
+msgid "I Total Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_ir_module_module__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_ir_ui_view__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_log_device__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order_line__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_payment_method__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_report_l10n_be_pos_blackbox_user_report_template__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_report_point_of_sale_report_saledetails__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_config_settings__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_users__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_users__l10n_be_insz_or_bis_number
+msgid "INSZ or BIS number"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_config__l10n_be_training_mode
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_training_mode
+msgid "If checked, the POS will be in training mode."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Incl."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid ""
+"Invalid establishment number.\n"
+"\n"
+"An establishment number must meet the following rules:\n"
+"- It must contain exactly 10 digits\n"
+"- The first digit must be between 2 and 8\n"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_correction_amount
+msgid "L10N Be Correction Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_correction_qty_count
+msgid "L10N Be Correction Qty Count"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_correction_ticket_count
+msgid "L10N Be Correction Ticket Count"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_I_event_amount
+msgid "L10N Be I Event Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_I_event_counter
+msgid "L10N Be I Event Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_N_event_amount
+msgid "L10N Be N Event Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_N_event_counter
+msgid "L10N Be N Event Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_NR_event_amount
+msgid "L10N Be Nr Event Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_NR_event_counter
+msgid "L10N Be Nr Event Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_P_event_amount
+msgid "L10N Be P Event Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_P_event_counter
+msgid "L10N Be P Event Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_price_change_amount
+msgid "L10N Be Price Change Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_price_change_qty_count
+msgid "L10N Be Price Change Qty Count"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_price_change_ticket_count
+msgid "L10N Be Price Change Ticket Count"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__l10n_be_report_counter
+msgid "L10N Be Report Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_sign_drawer_open_amount
+msgid "L10N Be Sign Drawer Open Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_T_event_amount
+msgid "L10N Be T Event Amount"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_T_event_counter
+msgid "L10N Be T Event Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Label A"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__last_fdm_ref
+msgid "Last FDM Reference"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_last_transaction_by_line
+msgid "Last Transaction By Line uuid"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__write_uid
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_log_device__write_uid
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__write_date
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_log_device__write_date
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__local_ip
+msgid "Local IP"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "Message"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_ir_module_module
+msgid "Module"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "Mutation"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__name
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Name"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/utils/order_payment_validation.js:0
+msgid "Network Error"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of I event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of N event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of P event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of T event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of cash moves"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of corrections"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of drawer openings without operations"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of line corrected"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of line price changed"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of line refunded"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of price changes"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Number of refunds"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__pos_version
+msgid "Odoo Version"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__old_pos_blackbox_be_data
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__old_pos_blackbox_be_data
+msgid "Old POS Blackbox BE Data"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Old unit price:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_blackbox_be
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__l10n_be_blackbox_be_id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_blackbox_be_id
+msgid "POS Blackbox BE"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_blackbox_log_device
+msgid "POS Blackbox Log Device"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__pos_clock_in_out_ids
+msgid "POS Clock In/Out"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_clock_in_out
+msgid "POS Clock In/Out Event of user/employee"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_users__pos_clock_in_out_ids
+msgid "POS Clock In/Out Events"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__pos_config_ids
+msgid "POS Configurations"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_country_code
+msgid "POS Country Code"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_pos_date_time
+msgid "POS Date Time"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_config_settings__pos_establishment_number
+msgid "POS Establishment Number"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__l10n_be_pos_id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_pos_id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_pos_id
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_config_settings_view_form
+msgid "POS ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "POS ID:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__session_id
+msgid "POS Session"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_report_l10n_be_pos_blackbox_user_report_template
+msgid "POS Session user report"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/models/pos_order.js:0
+msgid "PROVISIONAL BILL"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "Path"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid ""
+"Please configure a valid local IP address in order to test the blackbox"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid "Please save the form before testing the blackbox."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid "Please select at least one POS configuration to test the blackbox."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.view_pos_blackbox_be_form
+msgid "PoS Blackbox BE"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_report_point_of_sale_report_saledetails
+msgid "Point of Sale Details"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_order
+msgid "Point of Sale Orders"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_pos_session
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.pos_session_reports_list_view
+msgid "Point of Sale Session"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Pre-bill made on :"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Price change"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Refund of ticket:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Refunds"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.actions.act_window,help:l10n_be_pos_blackbox.action_pos_blackbox_be_form
+msgid "Register a new Blackbox"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/components/popups/inspect_popup/inspect_popup.xml:0
+msgid "Request"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_config_settings_view_form
+msgid "Request POS ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/components/popups/inspect_popup/inspect_popup.xml:0
+msgid "Response"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "Retry"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Rounding difference"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.fdm_source
+msgid ""
+"SIGNATURES:\n"
+"        --------------------------------------------------------------------\n"
+"        GLOBAL HASH:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/screens/product_screen/control_buttons/control_buttons.xml:0
+msgid "Sales details"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/screens/product_screen/control_buttons/control_buttons.xml:0
+msgid "Sales details reports"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Session First Event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Session Last Event"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "Session first event:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "Session last event:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_short_signature
+msgid "Short Signature"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "Skip Preview Screen must be activated"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid "Successfully reached the blackbox (for %s config)."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "THIS IS NOT A VALID VAT TICKET"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/models/pos_order.js:0
+msgid "THIS IS NOT A VAT TICKET"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "TURNOVER"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "TVA"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "TVA%"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_terminal_id
+msgid "Terminal ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.xml:0
+msgid "Test"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.xml:0
+msgid "Test the blackbox connection for the linked POS configurations"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid ""
+"The %s config does not have a POS ID set. Please set it before testing the "
+"blackbox."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid ""
+"The %s config does not have an establishment number set. Please set it "
+"before testing the blackbox."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM buffer is full. No further transactions can be processed."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM buffer usage exceeds 70%."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not download the task list."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not post a NOP message."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not process the request due to invalid data."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not report task feedback."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not resolve the server certificate."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not synchronize its real-time clock."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not update VAT rates."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not update its URLs."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not update its parameters."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not update the POS allowlist."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM could not update the client certificate."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM detected a corrupt transaction record."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM encountered a technical error."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM encountered an undefined error."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM failed multiple times to upload transactions."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM failed to update trust certificates."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM has encountered too many memory errors."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM initialization has failed."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM is locked and cannot process requests."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM is not operational."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM real-time clock is not synchronized."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM received a duplicate request."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The FDM rejected an unauthorized request."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/blackbox_error.js:0
+msgid ""
+"The FDM rejected the data sent by the POS. Please check the data and try "
+"again."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_config__l10n_be_pos_id
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_pos_id
+msgid ""
+"The ID of the POS configuration. This ID is used to identify the POS "
+"configuration in the blackbox."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_blackbox_be__fdm_id
+msgid "The ID of the blackbox is written on the back of the device."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/res_users.py:0
+msgid "The National Register Number is not valid."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_blackbox_be__pos_config_ids
+msgid "The POS configurations that are linked to this blackbox."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The POS is not authorized to communicate with the FDM."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid ""
+"The VAT number of the company does not match the one registered in the FDM."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "The blackbox must have a local IP address configured."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_config__l10n_be_blackbox_be_id
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_blackbox_be_id
+msgid "The blackbox that is linked to this POS configuration."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The client certificate has expired."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The client certificate will expire in less than 4 months."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid ""
+"The company %s does not have a VAT number set. Please set it before testing "
+"the blackbox."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/fdm_traceback_message.js:0
+msgid "The establishment number does not match the one registered in the FDM."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_config__establishment_number
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_res_config_settings__pos_establishment_number
+msgid "The establishment number of the company using this POS configuration."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,help:l10n_be_pos_blackbox.field_pos_blackbox_be__local_ip
+msgid ""
+"The local IP will automatically be set when the blackbox is registered."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/module.py:0
+msgid ""
+"The module '%(module_name)s' cannot be uninstalled because a Blackbox PoS configuration is still active.\n"
+"Blocking PoS configuration: %(configs)s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid "The rounding method must be set to 0.05 and \"Nearest\""
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid ""
+"This POS has a registered POS ID and requires a blackbox to be configured."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "Time of reporting:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_users_form_view
+msgid ""
+"To open a certified POS session, you must <span class=\"alert-link\">enter "
+"your Belgian National Register number</span>."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_total_counter
+msgid "Total Counter"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Total amount corrected"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Total amount price changed"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Total amount refunded"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Total with rounding"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Total without rounding"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_config__l10n_be_training_mode
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_res_config_settings__pos_l10n_be_training_mode
+msgid "Training Mode"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.view_pos_config_kanban
+msgid "Training mode"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_turnover_z_report_fdm_ref
+msgid "Turnover Z Report FDM Reference"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__type
+msgid "Type"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/blackbox.js:0
+msgid ""
+"Unable to contact the Fiscal Data Module. Please check the connection.\n"
+"%s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/backend/test_blackbox_button/test_blackbox_button.js:0
+msgid ""
+"Unable to reach the blackbox (for %s config). Please verify the IP address, "
+"network connectivity, and that the blackbox is online."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_blackbox_be__use_lna
+msgid "Use Local Network Access"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_res_users
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_clock_in_out__user_id
+msgid "User"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_session__l10n_be_user_z_report_fdm_ref
+msgid "User Z Report FDM Reference"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.actions.report,name:l10n_be_pos_blackbox.action_report_pos_user
+msgid "User-Report"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/screens/product_screen/control_buttons/control_buttons.xml:0
+msgid "Users reports"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_vat_calc
+msgid "VAT Calculation"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/screens/ticket_screen/invoice_button/invoice_button.js:0
+msgid "VAT Number Required"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/models/pos_order.js:0
+msgid "VAT TICKET"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/models/pos_order.js:0
+msgid "VAT TICKET REFUND"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_footer
+msgid "VAT receipt footer"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "VAT:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "VATs Total"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Value"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "Verification QR code:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order__l10n_be_verification_url
+msgid "Verification URL"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model,name:l10n_be_pos_blackbox.model_ir_ui_view
+msgid "View"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/blackbox/utils/error_popup/error_popup.xml:0
+msgid "View order"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/utils/order_payment_validation.js:0
+msgid ""
+"With a blackbox, a network error will prevent the order from being signed. "
+"Please check your connection and try again."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "X"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "X USERS"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/pos_config.py:0
+msgid ""
+"You cannot enable training mode on a POS configuration that has already "
+"processed orders."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/components/popups/opening_device_error_popup/opening_device_error_popup.xml:0
+msgid "You cannot open an uncertified Point of Sale with this device."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox/models/report_sale_details.py:0
+msgid ""
+"You cannot print the Sale details report for a POS session with a Belgian Blackbox configured from the backend. Please print it from the POS interface instead.\n"
+"You can also download Z report from the chatter of closed sessions."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/point_of_sale/components/popups/must_clock_in_popup/must_clock_in_popup.xml:0
+msgid "You must be clocked in before paying an order."
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+msgid "Z"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "Z USERS"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "device:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.report_invoice_document
+msgid "eventCounter:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.report_invoice_document
+msgid "eventLabel:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.report_invoice_document
+msgid "fdmDateTime:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.report_invoice_document
+msgid "fdmId:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox.field_pos_order_line__l10n_be_vats
+msgid "l10n_be VATs JSON"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "posId:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "posIdentifier:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "shortSignature:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "terminal:"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.daily_report
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.user_report_template
+msgid "to"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox
+#. odoo-javascript
+#: code:addons/l10n_be_pos_blackbox/static/src/common/screens/receipt_screen/receipt/order_receipt.xml:0
+#: model_terms:ir.ui.view,arch_db:l10n_be_pos_blackbox.report_invoice_document
+msgid "totalCounter:"
+msgstr ""

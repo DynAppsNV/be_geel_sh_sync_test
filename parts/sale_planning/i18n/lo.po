@@ -1,0 +1,414 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * sale_planning
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:47+0000\n"
+"PO-Revision-Date: 2026-06-08 08:31+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"sale_planning/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_shift_ics_description_inherit
+msgid "<b>Sales Order Item:</b>"
+msgstr "<b>ລາຍການໃບສັ່ງຊື້:</b>"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_form_inherit_sale_planning
+msgid ""
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
+"order associated with this shift has been cancelled. We recommend either "
+"updating the sales order item or unscheduling this shift in line with the "
+"cancellation of the sales order.\" invisible=\"sale_order_state != "
+"'cancel'\"/>"
+msgstr ""
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"ໃບສັ່ງຊື້ທີ່ກ່ຽວຂ້ອງກັ"
+"ບຮອບວຽກນີ້ຖືກຍົກເລີກແລ້ວ. ພວກເຮົາແນະນຳໃຫ້ອັບເດດລາຍການໃບສັ່ງຊື້ ຫຼື ຍົກເລີກການວາງແຜນຮອບວຽກນີ້ໃຫ້ສອ"
+"ດຄ່ອງກັບການຍົກເລີກໃບສັ່ງຊື້.\" invisible=\"sale_order_state != 'cancel'\"/>"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.view_order_form_inherit_sale_planning
+msgid "<span class=\"o_stat_text\">Planned</span>"
+msgstr "<span class=\"o_stat_text\">ວາງແຜນແລ້ວ</span>"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_form_inherit_sale_planning
+msgid "<span class=\"o_stat_text\">Sales Order</span>"
+msgstr "<span class=\"o_stat_text\">ໃບສັ່ງຊື້</span>"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.view_order_form_inherit_sale_planning
+msgid "<span class=\"o_stat_text\">To Plan</span>"
+msgstr "<span class=\"o_stat_text\">ລໍຖ້າວາງແຜນ</span>"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.product_template_form_view_invoice_policy_inherit_sale_planning
+msgid ""
+"<span invisible=\"not planning_enabled\" class=\"oe_inline me-2\">\n"
+"                        as\n"
+"                    </span>"
+msgstr ""
+"<span invisible=\"not planning_enabled\" class=\"oe_inline me-2\">\n"
+"                        ເປັນ\n"
+"                    </span>"
+
+#. module: sale_planning
+#. odoo-javascript
+#: code:addons/sale_planning/static/src/views/planning_hooks.js:0
+msgid ""
+"All open shifts and sales orders have already been assigned, or there are no"
+" resources available to take them at this time."
+msgstr ""
+"ທຸກຮອບວຽກທີ່ວ່າງ ແລະ ໃບສັ່ງຊື້ໄດ້ຖືກມອບໝາຍໝົດແລ້ວ, ຫຼື ບໍ່ມີຊັບພະຍາກອນວ່າງໃນເວລານີ້."
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_tree_inherit_sale_planning
+msgid "Allocated Hours"
+msgstr "ຊົ່ວໂມງທີ່ຈັດສັນ"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__allocated_hours
+msgid "Allocated Time"
+msgstr "ເວລາທີ່ຈັດສັນ"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_search_inherit_sale_planning
+msgid "Billable"
+msgstr "ຄິດເງິນໄດ້"
+
+#. module: sale_planning
+#: model:ir.ui.menu,name:sale_planning.sale_planning_menu_schedule_by_sale_order
+msgid "By Sales Order"
+msgstr "ຕາມໃບສັ່ງຊື້"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__partner_id
+msgid "Customer"
+msgstr "ລູກຄ້າ"
+
+#. module: sale_planning
+#: model:product.template,name:sale_planning.developer_product_product_template
+msgid "Developer (Plan services)"
+msgstr "ນັກພັດທະນາ (ບໍລິການວາງແຜນ)"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_analysis_report__display_name
+#: model:ir.model.fields,field_description:sale_planning.field_planning_role__display_name
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__display_name
+#: model:ir.model.fields,field_description:sale_planning.field_product_template__display_name
+#: model:ir.model.fields,field_description:sale_planning.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sale_planning.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:sale_planning.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__end_datetime
+msgid "End Date"
+msgstr "ວັນທີສິ້ນສຸດ"
+
+#. module: sale_planning
+#: model:planning.role,name:sale_planning.planning_role_tester
+msgid "Functional Tester"
+msgstr "ຜູ້ທົດສອບລະບົບ (Functional Tester)"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.view_order_form_inherit_sale_planning
+msgid "Hours"
+msgstr "ຊົ່ວໂມງ"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_analysis_report__id
+#: model:ir.model.fields,field_description:sale_planning.field_planning_role__id
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__id
+#: model:ir.model.fields,field_description:sale_planning.field_product_template__id
+#: model:ir.model.fields,field_description:sale_planning.field_sale_order__id
+#: model:ir.model.fields,field_description:sale_planning.field_sale_order_line__id
+#: model:ir.model.fields,field_description:sale_planning.field_uom_uom__id
+msgid "ID"
+msgstr "ລະຫັດ (ID)"
+
+#. module: sale_planning
+#: model:product.template,name:sale_planning.technical_maintainance_product_product_template
+msgid "IT Technical Maintenance (Plan services)"
+msgstr "ການບຳລຸງຮັກສາເຕັກນິກ IT (ບໍລິການວາງແຜນ)"
+
+#. module: sale_planning
+#: model:planning.role,name:sale_planning.planning_role_technician
+msgid "IT Technician"
+msgstr "ຊ່າງເຕັກນິກ IT"
+
+#. module: sale_planning
+#: model:ir.model.fields,help:sale_planning.field_planning_slot__sale_line_plannable
+#: model:ir.model.fields,help:sale_planning.field_product_product__planning_enabled
+#: model:ir.model.fields,help:sale_planning.field_product_template__planning_enabled
+msgid ""
+"If enabled, a shift will automatically be generated for the selected role "
+"when confirming the Sales Order.                 With the 'auto plan' "
+"feature, only employees with this role will be automatically assigned shifts"
+" for Sales Orders containing this service.                 The system will "
+"consider employee availability and the remaining time to be planned."
+"                 You can also manually schedule open shifts for your Sales "
+"Order or assign them to any employee you prefer."
+msgstr ""
+"ຫາກເປີດນຳໃຊ້, ຮອບວຽກຈະຖືກສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດສຳລັບບົດບາດທີ່ເລືອກເມື່ອຢືນຢັນໃບສັ່ງຊື້. ດ້ວຍຄຸນສົມບັດ "
+"'ວາງແຜນອັດຕະໂນມັດ', ສະເພາະພະນັກງານທີ່ມີບົດບາດນີ້ເທົ່ານັ້ນທີ່ຈະຖືກມອບໝາຍຮອບວຽກໂດຍອັດຕະໂນມັດສຳລັບໃ"
+"ບສັ່ງຊື້ທີ່ມີບໍລິການນີ້. ລະບົບຈະພິຈາລະນາຄວາມວ່າງຂອງພະນັກງານ ແລະ ເວລາທີ່ເຫຼືອທີ່ຈະຕ້ອງວາງແຜນ. ທ່ານຍັງສ"
+"າມາດຈັດຕາຕະລາງຮອບວຽກທີ່ວ່າງດ້ວຍຕົນເອງສຳລັບໃບສັ່ງຊື້ຂອງທ່ານ ຫຼື ມອບໝາຍໃຫ້ພະນັກງານຄົນໃດກໍໄດ້ທີ່ທ່ານຕ້ອ"
+"ງການ."
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_search_inherit_sale_planning
+msgid "My Sales Orders"
+msgstr "ໃບສັ່ງຊື້ຂອງຂ້ອຍ"
+
+#. module: sale_planning
+#: model_terms:ir.actions.act_window,help:sale_planning.sale_planning_action_schedule_by_sale_order
+msgid "No shifts found. Let's create one!"
+msgstr "ບໍ່ພົບຮອບວຽກ. ມາສ້າງໃໝ່ນຳກັນ!"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_search_inherit_sale_planning
+msgid "Non-Billable"
+msgstr "ຄິດເງິນບໍ່ໄດ້"
+
+#. module: sale_planning
+#: model:ir.model.constraint,message:sale_planning.constraint_planning_slot_check_datetimes_set_or_plannable_slot
+msgid ""
+"Only slots linked to a Sales Order with a plannable service can be "
+"unscheduled."
+msgstr ""
+"ສະເພາະຊ່ອງເວລາທີ່ເຊື່ອມຕໍ່ກັບໃບສັ່ງຊື້ທີ່ມີບໍລິການທີ່ວາງແຜນໄດ້ເທົ່ານັ້ນທີ່ສາມາດຍົກເລີກການວາງແຜນໄດ້."
+
+#. module: sale_planning
+#. odoo-javascript
+#: code:addons/sale_planning/static/src/views/planning_hooks.js:0
+msgid "Open shifts and sales orders assigned"
+msgstr "ມອບໝາຍຮອບວຽກທີ່ວ່າງ ແລະ ໃບສັ່ງຊື້ແລ້ວ"
+
+#. module: sale_planning
+#. odoo-javascript
+#: code:addons/sale_planning/static/src/views/planning_hooks.js:0
+msgid "Open shifts and sales orders unscheduled"
+msgstr "ຍົກເລີກການວາງແຜນຮອບວຽກທີ່ວ່າງ ແລະ ໃບສັ່ງຊື້ແລ້ວ"
+
+#. module: sale_planning
+#: model_terms:product.template,description:sale_planning.developer_product_product_template
+msgid "Our developer will help you to add new features to your Software."
+msgstr "ນັກພັດທະນາຂອງພວກເຮົາຈະຊ່ວຍທ່ານເພີ່ມຟີເຈີໃໝ່ໆເຂົ້າໃນຊອບແວຂອງທ່ານ."
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_product_product__planning_enabled
+#: model:ir.model.fields,field_description:sale_planning.field_product_template__planning_enabled
+msgid "Plan Services"
+msgstr "ວາງແຜນບໍລິການ"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.product_template_form_view_invoice_policy_inherit_sale_planning
+msgid "Plan shifts for your orders for employees who have this role."
+msgstr "ວາງແຜນຮອບວຽກສຳລັບໃບສັ່ງຊື້ຂອງທ່ານໃຫ້ກັບພະນັກງານທີ່ມີບົດບາດນີ້."
+
+#. module: sale_planning
+#. odoo-python
+#: code:addons/sale_planning/models/product.py:0
+msgid ""
+"Plannable services should be a service product, product\n"
+"%s."
+msgstr "ບໍລິການທີ່ວາງແຜນໄດ້ຄວນເປັນຜະລິດຕະພັນປະເພດບໍລິການ, ຜະລິດຕະພັນ %s."
+
+#. module: sale_planning
+#: model:ir.model,name:sale_planning.model_planning_analysis_report
+msgid "Planning Analysis Report"
+msgstr "ລາຍງານການວິເຄາະການວາງແຜນ"
+
+#. module: sale_planning
+#: model:ir.model,name:sale_planning.model_planning_role
+#: model:ir.model.fields,field_description:sale_planning.field_product_product__planning_role_id
+#: model:ir.model.fields,field_description:sale_planning.field_product_template__planning_role_id
+msgid "Planning Role"
+msgstr "ບົດບາດການວາງແຜນ"
+
+#. module: sale_planning
+#: model:ir.model,name:sale_planning.model_planning_slot
+msgid "Planning Shift"
+msgstr "ຮອບວຽກການວາງແຜນ"
+
+#. module: sale_planning
+#: model:ir.model,name:sale_planning.model_product_template
+msgid "Product"
+msgstr "ຜະລິດຕະພັນ"
+
+#. module: sale_planning
+#: model:ir.model,name:sale_planning.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "ຫົວໜ່ວຍວັດແທກຜະລິດຕະພັນ"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_analysis_report__role_product_ids
+msgid "Role Product"
+msgstr "ບົດບາດຜະລິດຕະພັນ"
+
+#. module: sale_planning
+#: model:ir.model,name:sale_planning.model_sale_order
+#: model:ir.model.fields,field_description:sale_planning.field_planning_analysis_report__sale_order_id
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__sale_order_id
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_search_inherit_sale_planning
+msgid "Sales Order"
+msgstr "ໃບສັ່ງຊື້"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_analysis_report__sale_line_id
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__sale_line_id
+#: model_terms:ir.ui.view,arch_db:sale_planning.open_slots_list_template
+#: model_terms:ir.ui.view,arch_db:sale_planning.period_report_template
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_search_inherit_sale_planning
+msgid "Sales Order Item"
+msgstr "ລາຍການໃບສັ່ງຊື້"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_shift_ics_description_inherit
+msgid "Sales Order Item:"
+msgstr "ລາຍການໃບສັ່ງຊື້:"
+
+#. module: sale_planning
+#: model:ir.model,name:sale_planning.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "ແຖວໃບສັ່ງຊື້"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__sale_order_state
+msgid "Sales Order State"
+msgstr "ສະຖານະໃບສັ່ງຊື້"
+
+#. module: sale_planning
+#: model:ir.model.fields,help:sale_planning.field_planning_slot__sale_line_id
+msgid ""
+"Sales order item for which this shift will be performed. When sales orders "
+"are automatically planned, the remaining hours of the sales order item, as "
+"well as the role defined on the service, are taken into account."
+msgstr ""
+"ລາຍການໃບສັ່ງຊື້ທີ່ຮອບວຽກນີ້ຈະຖືກປະຕິບັດ. ເມື່ອໃບສັ່ງຊື້ຖືກວາງແຜນໂດຍອັດຕະໂນມັດ, ຊົ່ວໂມງທີ່ເຫຼືອຂອງລາຍການ"
+"ໃບສັ່ງຊື້, ລວມທັງບົດບາດທີ່ກຳນົດໄວ້ໃນບໍລິການ, ຈະຖືກນຳມາພິຈາລະນາ."
+
+#. module: sale_planning
+#: model:ir.actions.act_window,name:sale_planning.sale_planning_action_schedule_by_sale_order
+msgid "Schedule by Sales Order"
+msgstr "ຈັດຕາຕະລາງຕາມໃບສັ່ງຊື້"
+
+#. module: sale_planning
+#: model_terms:ir.actions.act_window,help:sale_planning.sale_planning_action_schedule_by_sale_order
+msgid ""
+"Schedule your human and material resources across roles, projects and sales "
+"orders."
+msgstr ""
+"ຈັດຕາຕະລາງຊັບພະຍາກອນບຸກຄົນ ແລະ ວັດຖຸອຸປະກອນຂອງທ່ານຕາມບົດບາດ, ໂຄງການ ແລະ ໃບສັ່ງຊື້."
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_role__product_ids
+msgid "Services"
+msgstr "ບໍລິການ"
+
+#. module: sale_planning
+#: model:ir.model.fields,field_description:sale_planning.field_planning_slot__start_datetime
+msgid "Start Date"
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+
+#. module: sale_planning
+#: model_terms:product.template,description:sale_planning.technical_maintainance_product_product_template
+msgid "Take a rest. We'll do our best."
+msgstr "ພັກຜ່ອນສາ. ພວກເຮົາຈະຈັດການໃຫ້ດີທີ່ສຸດ."
+
+#. module: sale_planning
+#. odoo-javascript
+#: code:addons/sale_planning/static/src/views/sale_planning_gantt/sale_planning_gantt_renderer.js:0
+msgid ""
+"There are no hours left to plan, or there are no resources available at the "
+"time."
+msgstr "ບໍ່ມີຊົ່ວໂມງເຫຼືອໃຫ້ວາງແຜນ, ຫຼື ບໍ່ມີຊັບພະຍາກອນວ່າງໃນເວລານີ້."
+
+#. module: sale_planning
+#. odoo-javascript
+#: code:addons/sale_planning/static/src/views/sale_planning_gantt/sale_planning_gantt_renderer.js:0
+msgid "There are no sales order items to plan."
+msgstr "ບໍ່ມີລາຍການໃບສັ່ງຊື້ທີ່ຈະວາງແຜນ."
+
+#. module: sale_planning
+#. odoo-python
+#: code:addons/sale_planning/models/planning_slot.py:0
+msgid "This Sale Order Item doesn't have a target value of planned hours."
+msgstr "ລາຍການໃບສັ່ງຊື້ນີ້ບໍ່ມີມູນຄ່າເປົ້າໝາຍຂອງຊົ່ວໂມງທີ່ວາງແຜນໄວ້."
+
+#. module: sale_planning
+#. odoo-javascript
+#: code:addons/sale_planning/static/src/views/sale_planning_gantt/sale_planning_gantt_renderer.js:0
+msgid ""
+"This resource is not available for this shift during the selected period."
+msgstr "ຊັບພະຍາກອນນີ້ບໍ່ວ່າງສຳລັບຮອບວຽກນີ້ໃນໄລຍະເວລາທີ່ເລືອກ."
+
+#. module: sale_planning
+#. odoo-javascript
+#: code:addons/sale_planning/static/src/views/sale_planning_gantt/sale_planning_gantt_renderer.js:0
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_view_form_in_gantt_inherit_sale_planning
+msgid "Unschedule"
+msgstr "ຍົກເລີກການວາງແຜນ"
+
+#. module: sale_planning
+#. odoo-python
+#: code:addons/sale_planning/models/sale_order.py:0
+msgid "View Planning"
+msgstr "ເບິ່ງການວາງແຜນ"
+
+#. module: sale_planning
+#: model:planning.role,name:sale_planning.planning_role_planner
+msgid "Work Planner"
+msgstr "ຜູ້ວາງແຜນວຽກ"
+
+#. module: sale_planning
+#. odoo-python
+#: code:addons/sale_planning/models/planning_slot.py:0
+msgid "You are attempting to create a slot for a cancelled sales order."
+msgstr "ທ່ານກຳລັງພະຍາຍາມສ້າງຊ່ອງເວລາສຳລັບໃບສັ່ງຊື້ທີ່ຖືກຍົກເລີກແລ້ວ."
+
+#. module: sale_planning
+#. odoo-python
+#: code:addons/sale_planning/models/sale_order.py:0
+msgid ""
+"You cannot update the company for sales order %(order_name)s as it's linked to shifts in another company.\n"
+"Please transfer shifts %(slots_names)s to the destination company first."
+msgstr ""
+"ທ່ານບໍ່ສາມາດອັບເດດບໍລິສັດສຳລັບໃບສັ່ງຊື້ %(order_name)s ເນື່ອງຈາກມັນຖືກເຊື່ອມໂຍງກັບຮອບວຽກໃນບໍລິສັດອື່"
+"ນ.\n"
+"ກະລຸນາໂອນຍ້າຍຮອບວຽກ %(slots_names)s ໄປຍັງບໍລິສັດປາຍທາງກ່ອນ."
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.planning_role_view_tree_inherit_sale_planning
+msgid "e.g. Cleaning Services"
+msgstr "ຕົວຢ່າງ: ບໍລິການທຳຄວາມສະອາດ"
+
+#. module: sale_planning
+#: model_terms:ir.ui.view,arch_db:sale_planning.product_template_form_view_invoice_policy_inherit_sale_planning
+msgid "e.g. Consultant"
+msgstr "ຕົວຢ່າງ: ທີ່ປຶກສາ"
+
+#. module: sale_planning
+#. odoo-python
+#: code:addons/sale_planning/models/sale_order_line.py:0
+msgid "remaining"
+msgstr "ທີ່ເຫຼືອ"
+
+#. module: sale_planning
+#. odoo-python
+#: code:addons/sale_planning/models/sale_order.py:0
+msgid "role_id"
+msgstr "id_ບົດບາດ"

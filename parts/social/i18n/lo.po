@@ -1,0 +1,1914 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * social
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:42+0000\n"
+"PO-Revision-Date: 2026-06-06 14:42+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/social/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__accounts_count
+msgid "# Accounts"
+msgstr "# ບັນຊີ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid "%(media_name)s (max %(max_chars)s chars)"
+msgstr "%(media_name)s (ສູງສຸດ %(max_chars)s ຕົວອັກສອນ)"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid ", you must first link a social media."
+msgstr ", ທ່ານຕ້ອງເຊື່ອມຕໍ່ສື່ສັງຄົມກ່ອນ."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_http_error_view
+msgid "<b>An error occurred while trying to link your account</b>"
+msgstr "<b>ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ພະຍາຍາມເຊື່ອມຕໍ່ບັນຊີຂອງທ່ານ</b>"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "<i class=\"fa fa-calendar me-1 small fw-bold\" title=\"Calendar\"/>"
+msgstr "<i class=\"fa fa-calendar me-1 small fw-bold\" title=\"ປະຕິທິນ\"/>"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "<i class=\"fa fa-calendar-check-o me-1 small fw-bold\" title=\"Calendar\"/>"
+msgstr ""
+"<i class=\"fa fa-calendar-check-o me-1 small fw-bold\" title=\"ປະຕິທິນ\"/>"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "<i class=\"fa fa-globe ms-1\" title=\"See the post\"/>"
+msgstr "<i class=\"fa fa-globe ms-1\" title=\"ເບິ່ງໂພສ\"/>"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_http_error_view
+msgid "<i class=\"oi oi-arrow-left\"/> Go back to Odoo"
+msgstr "<i class=\"oi oi-arrow-left\"/> ກັບຄືນໄປ Odoo"
+
+#. module: social
+#: model_terms:web_tour.tour,rainbow_man_message:social.social_tour
+msgid ""
+"<strong>Congrats! Come back in a few minutes to check your "
+"statistics.</strong>"
+msgstr ""
+"<strong>ຍິນດີດ້ວຍ! ກະລຸນາກັບມາອີກຄັ້ງໃນອີກສອງສາມນາທີເພື່ອເບິ່ງສະຖິຕິຂອງທ່ານ.</strong>"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_needaction
+#: model:ir.model.fields,field_description:social.field_social_post__message_needaction
+msgid "Action Needed"
+msgstr "ຕ້ອງດຳເນີນການ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__active
+msgid "Active"
+msgstr "ເປີດໃຊ້ງານ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_ids
+msgid "Activities"
+msgstr "ກິດຈະກຳ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "ການຕົກແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_state
+msgid "Activity State"
+msgstr "ສະຖານະກິດຈະກຳ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Add"
+msgstr "ເພີ່ມ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+msgid "Add Post"
+msgstr "ເພີ່ມໂພສ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Add Stream"
+msgstr "ເພີ່ມສະຕຣີມ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/add_stream_modal.js:0
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+msgid "Add a Stream"
+msgstr "ເພີ່ມສະຕຣີມ"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream_post
+msgid "Add a stream"
+msgstr "ເພີ່ມສະຕຣີມ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Add an image"
+msgstr "ເພີ່ມຮູບພາບ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "All Companies"
+msgstr "ທຸກບໍລິສັດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_utm_campaign__social_post_ids
+msgid "All related social media posts"
+msgstr "ໂພສສື່ສັງຄົມທີ່ກ່ຽວຂ້ອງທັງໝົດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__account_allowed_ids
+msgid "Allowed Accounts"
+msgstr "ບັນຊີທີ່ໄດ້ຮັບອະນຸຍາດ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_search
+msgid "Archived"
+msgstr "ເກັບໄວ້ໃນຄັງ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__has_active_accounts
+#: model:ir.model.fields,field_description:social.field_social_post_template__has_active_accounts
+msgid "Are Accounts Available?"
+msgstr "ມີບັນຊີໃຫ້ໃຊ້ງານໄດ້ບໍ່?"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__image_ids
+#: model:ir.model.fields,field_description:social.field_social_post_template__image_ids
+msgid "Attach Images"
+msgstr "ແນບຮູບພາບ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__image_ids
+msgid "Attached Images"
+msgstr "ຮູບພາບທີ່ແນບມາ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_attachment_count
+#: model:ir.model.fields,field_description:social.field_social_post__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈຳນວນສິ່ງທີ່ແນບມາ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.model.fields,field_description:social.field_social_account__audience
+msgid "Audience"
+msgstr "ກຸ່ມຜູ້ຊົມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__audience_trend
+msgid "Audience Trend"
+msgstr "ແນວໂນ້ມກຸ່ມຜູ້ຊົມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__author_link
+msgid "Author Link"
+msgstr "ລິງກ໌ຜູ້ຂຽນ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__author_name
+msgid "Author Name"
+msgstr "ຊື່ຜູ້ຂຽນ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__author_link
+msgid "Author link to the external social.media (ex: link to the X Account)."
+msgstr "ລິງກ໌ຜູ້ຂຽນໄປຍັງສື່ສັງຄົມພາຍນອກ (ຕົວຢ່າງ: ລິງກ໌ໄປຫາບັນຊີ X)."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Before posting, links will be converted to be trackable."
+msgstr "ກ່ອນທີ່ຈະໂພສ, ລິງກ໌ຈະຖືກປ່ຽນໃຫ້ສາມາດຕິດຕາມໄດ້."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
+msgid "By Stream"
+msgstr "ຕາມສະຕຣີມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__csrf_token
+msgid "CSRF Token"
+msgstr "CSRF Token"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__calendar_date
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+msgid "Calendar Date"
+msgstr "ວັນທີໃນປະຕິທິນ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__utm_campaign_id
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form_quick_create_social
+msgid "Campaign"
+msgstr "ແຄມເປນ"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_view_utm_campaigns
+#: model:ir.ui.menu,name:social.menu_social_campaign
+msgid "Campaigns"
+msgstr "ແຄມເປນ"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_view_utm_campaigns
+msgid ""
+"Campaigns are used to centralize your marketing efforts and track their "
+"results."
+msgstr ""
+"ແຄມເປນຖືກນໍາໃຊ້ເພື່ອລວມສູນຄວາມພະຍາຍາມໃນການຕະຫຼາດຂອງທ່ານ ແລະ ຕິດຕາມຜົນໄດ້ຮັບ."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__can_link_accounts
+msgid "Can link accounts?"
+msgstr "ສາມາດເຊື່ອມຕໍ່ບັນຊີໄດ້ບໍ່?"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/tours/social.js:0
+msgid "Choose which <b>account</b> you would like to link first."
+msgstr "ເລືອກ <b>ບັນຊີ</b> ທີ່ທ່ານຕ້ອງການຈະເຊື່ອມຕໍ່ກ່ອນ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Click to refresh."
+msgstr "ຄລິກເພື່ອໂຫຼດໃໝ່."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Clicks"
+msgstr "ຄລິກ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "Clicks:"
+msgstr "ຄລິກ:"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Comment Image"
+msgstr "ຮູບພາບຄຳຄິດເຫັນ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__company_id
+#: model:ir.model.fields,field_description:social.field_social_live_post__company_id
+#: model:ir.model.fields,field_description:social.field_social_post__company_id
+#: model:ir.model.fields,field_description:social.field_social_stream__company_id
+#: model:ir.model.fields,field_description:social.field_social_stream_post__company_id
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_stream_view_search
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: social
+#: model:ir.model,name:social.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າກຳນົດຄ່າ"
+
+#. module: social
+#: model:ir.ui.menu,name:social.menu_social_configuration
+msgid "Configuration"
+msgstr "ການກຳນົດຄ່າ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Connecting Problem"
+msgstr "ບັນຫາການເຊື່ອມຕໍ່"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__social_account_handle
+msgid ""
+"Contains the social media handle of the person that created this account. "
+"E.g: '@odoo.official' for the 'Odoo' X account"
+msgstr ""
+"ປະກອບມີຊື່ຜູ້ໃຊ້ສື່ສັງຄົມຂອງຜູ້ທີ່ສ້າງບັນຊີນີ້. ຕົວຢ່າງ: '@odoo.official' ສໍາລັບບັນຊີ X ຂອງ 'Odoo'"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__message
+msgid ""
+"Content of the social post message that is post-processed (links are "
+"shortened, UTMs, ...)"
+msgstr ""
+"ເນື້ອຫາຂອງຂໍ້ຄວາມໂພສທີ່ຜ່ານການປະມວນຜົນແລ້ວ (ລິງກ໌ຖືກຫຍໍ້ໃຫ້ສັ້ນລົງ, ໃສ່ UTM, ...)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__has_streams
+msgid "Controls if social streams are handled on this social media."
+msgstr "ຄວບຄຸມວ່າຈະໃຫ້ມີການຈັດການສະຕຣີມໃນສື່ສັງຄົມນີ້ຫຼືບໍ່."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__can_link_accounts
+msgid "Controls if we can link accounts or not."
+msgstr "ຄວບຄຸມວ່າພວກເຮົາສາມາດເຊື່ອມຕໍ່ບັນຊີໄດ້ຫຼືບໍ່."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_view_utm_campaigns
+msgid "Create a Campaign"
+msgstr "ສ້າງແຄມເປນ"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_post
+msgid "Create a Post"
+msgstr "ສ້າງໂພສ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_account.py:0
+msgid ""
+"Create other accounts for %(media_names)s for this company or ask "
+"%(company_names)s to share their accounts"
+msgstr ""
+"ສ້າງບັນຊີອື່ນສໍາລັບ %(media_names)s ສໍາລັບບໍລິສັດນີ້ ຫຼື ຂໍໃຫ້ %(company_names)s ແບ່ງປັນບັນຊີຂອງພວກ"
+"ເຂົາ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__create_uid
+#: model:ir.model.fields,field_description:social.field_social_live_post__create_uid
+#: model:ir.model.fields,field_description:social.field_social_media__create_uid
+#: model:ir.model.fields,field_description:social.field_social_post__create_uid
+#: model:ir.model.fields,field_description:social.field_social_post_template__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__create_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_type__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__create_date
+#: model:ir.model.fields,field_description:social.field_social_live_post__create_date
+#: model:ir.model.fields,field_description:social.field_social_media__create_date
+#: model:ir.model.fields,field_description:social.field_social_post__create_date
+#: model:ir.model.fields,field_description:social.field_social_post_template__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__create_date
+#: model:ir.model.fields,field_description:social.field_social_stream_type__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__has_account_stats
+msgid ""
+"Defines whether this account has Audience/Engagements/Stories stats.\n"
+"        Account with stats are displayed on the dashboard."
+msgstr ""
+"ກຳນົດວ່າບັນຊີນີ້ມີສະຖິຕິ ກຸ່ມຜູ້ຊົມ/ການມີສ່ວນຮ່ວມ/ສະຕໍຣີ້ ຫຼື ບໍ່. ບັນຊີທີ່ມີສະຖິຕິຈະຖືກສະແດງຢູ່ໃນແດຊບອດ."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__has_trends
+msgid "Defines whether this account has statistics tends or not."
+msgstr "ກຳນົດວ່າບັນຊີນີ້ມີແນວໂນ້ມສະຖິຕິຫຼືບໍ່."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_comment.js:0
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Delete"
+msgstr "ລຶບ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_comment.js:0
+msgid "Delete Comment"
+msgstr "ລຶບຄຳຄິດເຫັນ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+msgid "Delete Post"
+msgstr "ລຶບໂພສ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid "Demo Mode"
+msgstr "ໂໝດຕົວຢ່າງ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__media_description
+msgid "Description"
+msgstr "ຄຳອະທິບາຍ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid "Developer Accounts"
+msgstr "ບັນຊີຜູ້ພັດທະນາ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Discard"
+msgstr "ຖິ້ມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__display_message
+#: model:ir.model.fields,field_description:social.field_social_post_template__display_message
+msgid "Display Message"
+msgstr "ສະແດງຂໍ້ຄວາມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:social.field_social_account__display_name
+#: model:ir.model.fields,field_description:social.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:social.field_social_media__display_name
+#: model:ir.model.fields,field_description:social.field_social_post__display_name
+#: model:ir.model.fields,field_description:social.field_social_post_template__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream_post__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__display_name
+#: model:ir.model.fields,field_description:social.field_social_stream_type__display_name
+#: model:ir.model.fields,field_description:social.field_utm_campaign__display_name
+#: model:ir.model.fields,field_description:social.field_utm_medium__display_name
+#: model:ir.model.fields,field_description:social.field_utm_source__display_name
+msgid "Display Name"
+msgstr "ຊື່ສະແດງ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_comment.js:0
+msgid "Do you really want to delete this %s?"
+msgstr "ທ່ານຕ້ອງການລຶບ %s ນີ້ແທ້ຫຼືບໍ່?"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+msgid "Do you really want to delete this Post ?"
+msgstr "ທ່ານຕ້ອງການລຶບໂພສນີ້ແທ້ຫຼືບໍ່?"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__draft
+msgid "Draft"
+msgstr "ສະບັບຮ່າງ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid ""
+"Due to length restrictions, the following posts cannot be posted:\n"
+" %s"
+msgstr ""
+"ເນື່ອງຈາກຂໍ້ຈຳກັດດ້ານຄວາມຍາວ, ໂພສຕໍ່ໄປນີ້ບໍ່ສາມາດໂພສໄດ້:\n"
+" %s"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Edit"
+msgstr "ແກ້ໄຂ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Edit Your Post"
+msgstr "ແກ້ໄຂໂພສຂອງທ່ານ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_res_config_settings__module_social_demo
+msgid "Enable Demo Mode"
+msgstr "ເປີດໃຊ້ໂໝດຕົວຢ່າງ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid ""
+"Enable this option and load demo data to test the social module. This must "
+"never be used on a production database!"
+msgstr ""
+"ເປີດໃຊ້ຕົວເລືອກນີ້ ແລະ ໂຫຼດຂໍ້ມູນຕົວຢ່າງເພື່ອທົດສອບໂມດູນສັງຄົມ. ຫ້າມໃຊ້ໃນຖານຂໍ້ມູນທີ່ໃຊ້ງານຈິງເດັດຂາດ!"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.model.fields,field_description:social.field_social_account__engagement
+#: model:ir.model.fields,field_description:social.field_social_live_post__engagement
+#: model:ir.model.fields,field_description:social.field_social_post__engagement
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+msgid "Engagement"
+msgstr "ການມີສ່ວນຮ່ວມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__engagement_trend
+msgid "Engagement Trend"
+msgstr "ແນວໂນ້ມການມີສ່ວນຮ່ວມ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "Engagement:"
+msgstr "ການມີສ່ວນຮ່ວມ:"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__utm_medium_id
+msgid ""
+"Every time an account is created, a utm.medium is also created and linked to"
+" the account"
+msgstr ""
+"ທຸກໆຄັ້ງທີ່ບັນຊີຖືກສ້າງຂຶ້ນ, utm.medium ຈະຖືກສ້າງຂຶ້ນ ແລະ ເຊື່ອມຕໍ່ກັບບັນຊີ"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__failed
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "Failed"
+msgstr "ບໍ່ສຳເລັດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__failure_reason
+msgid "Failure Reason"
+msgstr "ເຫດຜົນທີ່ບໍ່ສຳເລັດ"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_stream_post
+#: model:ir.ui.menu,name:social.menu_social_stream_post
+msgid "Feed"
+msgstr "ຟີດ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Feed Posts"
+msgstr "ໂພສໃນຟີດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__stream_posts_count
+msgid "Feed Posts Count"
+msgstr "ຈຳນວນໂພສໃນຟີດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_follower_ids
+#: model:ir.model.fields,field_description:social.field_social_post__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_partner_ids
+#: model:ir.model.fields,field_description:social.field_social_post__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome icon ຕົວຢ່າງ: fa-tasks"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__formatted_published_date
+msgid "Formatted Published Date"
+msgstr "ຮູບແບບວັນທີເຜີຍແຜ່"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__audience
+msgid ""
+"General audience of the Social Account (Page Likes, Account Follows, ...)."
+msgstr "ກຸ່ມຜູ້ຊົມທົ່ວໄປຂອງບັນຊີສັງຄົມ (ໄລກ໌ເພຈ, ຜູ້ຕິດຕາມບັນຊີ, ...)."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "Go to the"
+msgstr "ໄປທີ່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__social_account_handle
+msgid "Handle / Short Name"
+msgstr "ຊື່ຜູ້ໃຊ້ / ຊື່ສັ້ນ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/tours/social.js:0
+msgid "Happy with the result? Let's post it!"
+msgstr "ພໍໃຈກັບຜົນໄດ້ຮັບບໍ່? ມາໂພສກັນເລີຍ!"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__has_account_stats
+msgid "Has Account Stats"
+msgstr "ມີສະຖິຕິບັນຊີ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__has_message
+#: model:ir.model.fields,field_description:social.field_social_post__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__has_trends
+msgid "Has Trends?"
+msgstr "ມີແນວໂນ້ມບໍ່?"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__is_hatched
+msgid "Hatched"
+msgstr "ຟັກອອກແລ້ວ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_res_config_settings__id
+#: model:ir.model.fields,field_description:social.field_social_account__id
+#: model:ir.model.fields,field_description:social.field_social_live_post__id
+#: model:ir.model.fields,field_description:social.field_social_media__id
+#: model:ir.model.fields,field_description:social.field_social_post__id
+#: model:ir.model.fields,field_description:social.field_social_post_template__id
+#: model:ir.model.fields,field_description:social.field_social_stream__id
+#: model:ir.model.fields,field_description:social.field_social_stream_post__id
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__id
+#: model:ir.model.fields,field_description:social.field_social_stream_type__id
+#: model:ir.model.fields,field_description:social.field_utm_campaign__id
+#: model:ir.model.fields,field_description:social.field_utm_medium__id
+#: model:ir.model.fields,field_description:social.field_utm_source__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_exception_icon
+msgid "Icon"
+msgstr "ໄອຄອນ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "ໄອຄອນເພື່ອບົ່ງບອກເຖິງກິດຈະກຳທີ່ຍົກເວັ້ນ."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_needaction
+#: model:ir.model.fields,help:social.field_social_post__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຫາກເລືອກໄວ້, ຂໍ້ຄວາມໃໝ່ຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_has_error
+#: model:ir.model.fields,help:social.field_social_media__message_has_sms_error
+#: model:ir.model.fields,help:social.field_social_post__message_has_error
+#: model:ir.model.fields,help:social.field_social_post__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຫາກເລືອກໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__image
+#: model:ir.model.fields,field_description:social.field_social_media__image
+msgid "Image"
+msgstr "ຮູບພາບ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__image_url
+msgid "Image URL"
+msgstr "URL ຮູບພາບ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Image Url"
+msgstr "Url ຮູບພາບ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__image_urls
+#: model:ir.model.fields,field_description:social.field_social_post_template__image_urls
+msgid "Images URLs"
+msgstr "URLs ຮູບພາບ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__stream_post_image_ids
+msgid "Images that were shared with this post."
+msgstr "ຮູບພາບທີ່ຖືກແບ່ງປັນກັບໂພສນີ້."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Insights"
+msgstr "ຂໍ້ມູນເຈາະເລິກ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__is_author
+msgid "Is Author"
+msgstr "ແມ່ນຜູ້ຂຽນ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_is_follower
+#: model:ir.model.fields,field_description:social.field_social_post__message_is_follower
+msgid "Is Follower"
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid ""
+"It appears there is an issue with the Social Media link, click here to link "
+"the account again"
+msgstr "ເບິ່ງຄືວ່າມີບັນຫາກັບລິງກ໌ສື່ສັງຄົມ, ຄລິກທີ່ນີ້ເພື່ອເຊື່ອມຕໍ່ບັນຊີຄືນໃໝ່"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+msgid "It will appear in the Feed once it has posts to display."
+msgstr "ມັນຈະປາກົດຢູ່ໃນຟີດເມື່ອມີໂພສທີ່ຈະສະແດງ."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__write_uid
+#: model:ir.model.fields,field_description:social.field_social_live_post__write_uid
+#: model:ir.model.fields,field_description:social.field_social_media__write_uid
+#: model:ir.model.fields,field_description:social.field_social_post__write_uid
+#: model:ir.model.fields,field_description:social.field_social_post_template__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__write_uid
+#: model:ir.model.fields,field_description:social.field_social_stream_type__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__write_date
+#: model:ir.model.fields,field_description:social.field_social_live_post__write_date
+#: model:ir.model.fields,field_description:social.field_social_media__write_date
+#: model:ir.model.fields,field_description:social.field_social_post__write_date
+#: model:ir.model.fields,field_description:social.field_social_post_template__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__write_date
+#: model:ir.model.fields,field_description:social.field_social_stream_type__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/tours/social.js:0
+msgid "Let's <b>connect</b> to Facebook, LinkedIn or X."
+msgstr "ມາ <b>ເຊື່ອມຕໍ່</b> ກັບ Facebook, LinkedIn ຫຼື X."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/tours/social.js:0
+msgid "Let's create your own <b>social media</b> dashboard."
+msgstr "ມາສ້າງແດຊບອດ <b>ສື່ສັງຄົມ</b> ຂອງທ່ານເອງ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/tours/social.js:0
+msgid "Let's start posting."
+msgstr "ມາເລີ່ມໂພສກັນເລີຍ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Like"
+msgstr "ຖືກໃຈ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Likes"
+msgstr "ຖືກໃຈ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_description
+msgid "Link Description"
+msgstr "ຄຳອະທິບາຍລິງກ໌"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_kanban
+msgid "Link Image"
+msgstr "ລິງກ໌ຮູບພາບ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_image_url
+msgid "Link Image URL"
+msgstr "URL ລິງກ໌ຮູບພາບ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_title
+msgid "Link Title"
+msgstr "ຫົວຂໍ້ລິງກ໌"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__link_url
+msgid "Link URL"
+msgstr "URL ລິງກ໌"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Link a new account"
+msgstr "ເຊື່ອມຕໍ່ບັນຊີໃໝ່"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_media_view_kanban
+msgid "Link account"
+msgstr "ເຊື່ອມຕໍ່ບັນຊີ"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_account
+msgid "Link an Account"
+msgstr "ເຊື່ອມຕໍ່ບັນຊີ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__company_id
+#: model:ir.model.fields,help:social.field_social_live_post__company_id
+#: model:ir.model.fields,help:social.field_social_stream__company_id
+#: model:ir.model.fields,help:social.field_social_stream_post__company_id
+msgid ""
+"Link an account to a company to restrict its usage or keep empty to let all "
+"companies use it."
+msgstr ""
+"ເຊື່ອມຕໍ່ບັນຊີກັບບໍລິສັດເພື່ອຈຳກັດການນຳໃຊ້ ຫຼື ປະໄວ້ໃຫ້ຫວ່າງເພື່ອໃຫ້ທຸກບໍລິສັດສາມາດໃຊ້ໄດ້."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__live_post_link
+msgid "Link of the live post on the target media."
+msgstr "ລິງກ໌ຂອງໂພສສົດໃນສື່ເປົ້າໝາຍ."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Link social accounts"
+msgstr "ເຊື່ອມຕໍ່ບັນຊີສັງຄົມ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__stats_link
+msgid "Link to the external Social Account statistics"
+msgstr "ລິງກ໌ໄປຫາສະຖິຕິບັນຊີສັງຄົມພາຍນອກ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__is_media_disconnected
+msgid "Link with external Social Media is broken"
+msgstr "ລິງກ໌ກັບສື່ສັງຄົມພາຍນອກຂາດການເຊື່ອມຕໍ່"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__account_allowed_ids
+msgid "List of the accounts which can be selected for this post."
+msgstr "ລາຍຊື່ບັນຊີທີ່ສາມາດເລືອກໄດ້ສໍາລັບໂພສນີ້."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__live_posts_by_media
+msgid "Live Posts by Social Media"
+msgstr "ໂພສສົດຕາມສື່ສັງຄົມ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Load more comments..."
+msgstr "ໂຫຼດຄຳຄິດເຫັນເພີ່ມເຕີມ..."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__max_post_length
+msgid "Max Post Length"
+msgstr "ຄວາມຍາວໂພສສູງສຸດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__media_type
+#: model:ir.model.fields,field_description:social.field_social_post__media_ids
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+msgid "Media"
+msgstr "ສື່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__media_count
+#: model:ir.model.fields,field_description:social.field_social_post_template__media_count
+msgid "Media Count"
+msgstr "ຈຳນວນສື່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__media_type
+#: model:ir.model.fields,field_description:social.field_social_media__media_type
+msgid "Media Type"
+msgstr "ປະເພດສື່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__message
+#: model:ir.model.fields,field_description:social.field_social_post__message
+#: model:ir.model.fields,field_description:social.field_social_post_template__message
+#: model:ir.model.fields,field_description:social.field_social_stream_post__message
+msgid "Message"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_has_error
+#: model:ir.model.fields,field_description:social.field_social_post__message_has_error
+msgid "Message Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid "Message posted"
+msgstr "ຂໍ້ຄວາມຖືກໂພສແລ້ວ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid ""
+"Message posted partially. These are the ones that couldn't be posted:%s"
+msgstr "ໂພສຂໍ້ຄວາມໄດ້ບາງສ່ວນ. ເຫຼົ່ານີ້ແມ່ນອັນທີ່ບໍ່ສາມາດໂພສໄດ້:%s"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_ids
+#: model:ir.model.fields,field_description:social.field_social_post__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__state
+msgid ""
+"Most social.live.posts directly go from Ready to Posted/Failed since they result of a single call to the third party API.\n"
+"        A 'Posting' state is also available for those that are sent through batching (like push notifications)."
+msgstr ""
+"ໂພສສົດສ່ວນໃຫຍ່ຈະປ່ຽນຈາກ 'ພ້ອມແລ້ວ' ເປັນ 'ໂພສແລ້ວ/ບໍ່ສຳເລັດ' ໂດຍກົງ ເນື່ອງຈາກເປັນການເອີ້ນໃຊ້ "
+"API ພາຍນອກພຽງຄັ້ງດຽວ. ສະຖານະ 'ກຳລັງໂພສ' ຍັງມີໄວ້ສຳລັບອັນທີ່ຖືກສົ່ງແບບເປັນກຸ່ມ (ເຊັ່ນ: ການແຈ້ງເຕືອ"
+"ນແບບພຸສ)."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "ກຳນົດເວລາກິດຈະກຳຂອງຂ້ອຍ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+msgid "My Posts"
+msgstr "ໂພສຂອງຂ້ອຍ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
+msgid "My Streams"
+msgstr "ສະຕຣີມຂອງຂ້ອຍ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__name
+#: model:ir.model.fields,field_description:social.field_social_media__name
+#: model:ir.model.fields,field_description:social.field_social_post__name
+#: model:ir.model.fields,field_description:social.field_social_stream_type__name
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_search
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "New Post"
+msgstr "ໂພສໃໝ່"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "New comments are disabled"
+msgstr "ປິດການໃຫ້ຄຳຄິດເຫັນໃໝ່"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "New content available"
+msgstr "ມີເນື້ອຫາໃໝ່ໃຫ້ໃຊ້ງານ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Next"
+msgstr "ຕໍ່ໄປ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "ເຫດການປະຕິທິນກິດຈະກຳຖັດໄປ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "ກຳນົດເວລາກິດຈະກຳຖັດໄປ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_summary
+msgid "Next Activity Summary"
+msgstr "ສະຫຼຸບກິດຈະກຳຖັດໄປ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_type_id
+msgid "Next Activity Type"
+msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_account
+msgid "No Social Account yet!"
+msgstr "ຍັງບໍ່ມີບັນຊີສັງຄົມເທື່ອ!"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "No Social Streams yet!"
+msgstr "ຍັງບໍ່ມີສະຕຣີມສັງຄົມເທື່ອ!"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream_post
+msgid "No Stream added yet!"
+msgstr "ຍັງບໍ່ໄດ້ເພີ່ມສະຕຣີມເທື່ອ!"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "No comments yet."
+msgstr "ຍັງບໍ່ມີຄຳຄິດເຫັນເທື່ອ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+msgid "No social accounts configured, please contact your administrator."
+msgstr "ຍັງບໍ່ໄດ້ກຳນົດຄ່າບັນຊີສັງຄົມ, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_needaction_counter
+#: model:ir.model.fields,field_description:social.field_social_post__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈຳນວນການດຳເນີນການ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Number of Followers of your channel"
+msgstr "ຈຳນວນຜູ້ຕິດຕາມຊ່ອງຂອງທ່ານ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__click_count
+msgid "Number of clicks"
+msgstr "ຈຳນວນຄລິກ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_has_error_counter
+#: model:ir.model.fields,field_description:social.field_social_post__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_utm_campaign__social_engagement
+msgid ""
+"Number of interactions (likes, shares, comments ...) with the social posts"
+msgstr "ຈຳນວນການໂຕ້ຕອບ (ໄລກ໌, ແບ່ງປັນ, ຄຳຄິດເຫັນ ...) ກັບໂພສສັງຄົມ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_needaction_counter
+#: model:ir.model.fields,help:social.field_social_post__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__message_has_error_counter
+#: model:ir.model.fields,help:social.field_social_post__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__engagement
+#: model:ir.model.fields,help:social.field_social_post__engagement
+msgid "Number of people engagements with the post (Likes, comments...)"
+msgstr "ຈຳນວນການມີສ່ວນຮ່ວມຂອງຜູ້ຄົນກັບໂພສ (ໄລກ໌, ຄຳຄິດເຫັນ...)"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__engagement
+msgid "Number of people engagements with your posts (Likes, Comments, ...)."
+msgstr "ຈຳນວນການມີສ່ວນຮ່ວມຂອງຜູ້ຄົນກັບໂພສຂອງທ່ານ (ໄລກ໌, ຄຳຄິດເຫັນ, ...)."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__stories
+msgid "Number of stories created from your posts (Shares, Reposts, ...)."
+msgstr "ຈຳນວນສະຕໍຣີ້ທີ່ສ້າງຂຶ້ນຈາກໂພສຂອງທ່ານ (ແບ່ງປັນ, ຣີໂພສ, ...)."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid ""
+"Number of times people have engaged with your posts (likes, comments, "
+"shares,...)"
+msgstr ""
+"ຈຳນວນຄັ້ງທີ່ຜູ້ຄົນມີສ່ວນຮ່ວມກັບໂພສຂອງທ່ານ (ໄລກ໌, ຄຳຄິດເຫັນ, ແບ່ງປັນ,...)"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid ""
+"Number of times people who have engaged with your channel have created "
+"stories on their friends' or followers' feed (Shares, Reposts...)"
+msgstr ""
+"ຈຳນວນຄັ້ງທີ່ຜູ້ຄົນທີ່ມີສ່ວນຮ່ວມກັບຊ່ອງຂອງທ່ານ ໄດ້ສ້າງສະຕໍຣີ້ໃນຟີດຂອງໝູ່ເພື່ອນ ຫຼື ຜູ້ຕິດຕາມຂອງພວກເຂົາ (ແບ່ງປັ"
+"ນ, ຣີໂພສ...)"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Or add"
+msgstr "ຫຼື ເພີ່ມ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__audience_trend
+msgid "Percentage of increase/decrease of the audience over a defined period."
+msgstr "ເປີເຊັນຂອງການເພີ່ມຂຶ້ນ/ຫຼຸດລົງຂອງກຸ່ມຜູ້ຊົມໃນໄລຍະເວລາທີ່ກຳນົດ."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__engagement_trend
+msgid ""
+"Percentage of increase/decrease of the engagement over a defined period."
+msgstr "ເປີເຊັນຂອງການເພີ່ມຂຶ້ນ/ຫຼຸດລົງຂອງການມີສ່ວນຮ່ວມໃນໄລຍະເວລາທີ່ກຳນົດ."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__stories_trend
+msgid "Percentage of increase/decrease of the stories over a defined period."
+msgstr "ເປີເຊັນຂອງການເພີ່ມຂຶ້ນ/ຫຼຸດລົງຂອງສະຕໍຣີ້ໃນໄລຍະເວລາທີ່ກຳນົດ."
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid "Please specify at least one account to post into (for post ID(s) %s)."
+msgstr "ກະລຸນາລະບຸຢ່າງໜ້ອຍໜຶ່ງບັນຊີເພື່ອໂພສ (ສຳລັບລະຫັດໂພສ %s)."
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post_template.py:0
+msgid "Please specify either a message or upload some images."
+msgstr "ກະລຸນາລະບຸຂໍ້ຄວາມ ຫຼື ອັບໂຫຼດຮູບພາບ."
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Post"
+msgstr "ໂພສ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/fields/social_many2many_images.xml:0
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_kanban
+msgid "Post Image"
+msgstr "ຮູບພາບໂພສ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/fields/social_many2many_images.js:0
+#: code:addons/social/static/src/js/post_kanban_view.js:0
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#: code:addons/social/static/src/js/stream_post_kanban_renderer.js:0
+msgid "Post Images"
+msgstr "ຮູບພາບໂພສ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__live_post_link
+#: model:ir.model.fields,field_description:social.field_social_stream_post__post_link
+msgid "Post Link"
+msgstr "ລິງກ໌ໂພສ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+#: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
+msgid "Post Message"
+msgstr "ຂໍ້ຄວາມໂພສ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Post Now"
+msgstr "ໂພສດຽວນີ້"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__post_link
+msgid ""
+"Post link to the external social.media (ex: link to the actual Facebook "
+"Post)."
+msgstr "ລິງກ໌ໂພສໄປຫາສື່ສັງຄົມພາຍນອກ (ຕົວຢ່າງ: ລິງກ໌ໄປຫາໂພສ Facebook ຕົວຈິງ)."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Post on"
+msgstr "ໂພສໃນ"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__posted
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__posted
+msgid "Posted"
+msgstr "ໂພສແລ້ວ"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__posting
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__posting
+msgid "Posting"
+msgstr "ກຳລັງໂພສ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__stream_post_ids
+#: model:ir.ui.menu,name:social.menu_social_post
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_kanban
+msgid "Posts"
+msgstr "ໂພສ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__live_post_ids
+msgid "Posts By Account"
+msgstr "ໂພສຕາມບັນຊີ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Posts Preview"
+msgstr "ຕົວຢ່າງໂພສ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Press Enter to edit. Press Shift+Enter to insert a Line Break."
+msgstr "ກົດ Enter ເພື່ອແກ້ໄຂ. ກົດ Shift+Enter ເພື່ອຂຶ້ນແຖວໃໝ່."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Press Enter to post. Press Shift+Enter to insert a Line Break."
+msgstr "ກົດ Enter ເພື່ອໂພສ. ກົດ Shift+Enter ເພື່ອຂຶ້ນແຖວໃໝ່."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Preview your post"
+msgstr "ເບິ່ງຕົວຢ່າງໂພສຂອງທ່ານ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Previous"
+msgstr "ກ່ອນໜ້າ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__post_method
+msgid "Publish your post immediately or schedule it at a later time."
+msgstr "ເຜີຍແຜ່ໂພສຂອງທ່ານທັນທີ ຫຼື ກຳນົດເວລາໂພສພາຍຫຼັງ."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_search
+msgid "Published By"
+msgstr "ເຜີຍແຜ່ໂດຍ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__published_date
+msgid "Published Date"
+msgstr "ວັນທີເຜີຍແຜ່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__published_date
+msgid "Published date"
+msgstr "ວັນທີເຜີຍແຜ່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__rating_ids
+#: model:ir.model.fields,field_description:social.field_social_post__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_live_post__state__ready
+msgid "Ready"
+msgstr "ພ້ອມແລ້ວ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__media_type
+msgid "Related Social Media"
+msgstr "ສື່ສັງຄົມທີ່ກ່ຽວຂ້ອງ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__media_id
+msgid "Related Social Media (Facebook, X, ...)."
+msgstr "ສື່ສັງຄົມທີ່ກ່ຽວຂ້ອງ (Facebook, X, ...)."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__account_id
+msgid "Related social Account"
+msgstr "ບັນຊີສັງຄົມທີ່ກ່ຽວຂ້ອງ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Reply"
+msgstr "ຕອບກັບ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__activity_user_id
+msgid "Responsible User"
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_live_post_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Retry"
+msgstr "ລອງໃໝ່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__message_has_sms_error
+#: model:ir.model.fields,field_description:social.field_social_post__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Schedule"
+msgstr "ກຳນົດເວລາ"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__post_method__scheduled
+msgid "Schedule later"
+msgstr "ກຳນົດເວລາພາຍຫຼັງ"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__state__scheduled
+msgid "Scheduled"
+msgstr "ກຳນົດເວລາແລ້ວ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__scheduled_date
+msgid "Scheduled Date"
+msgstr "ວັນທີກຳນົດເວລາ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid ""
+"Selected accounts (%(account_list)s) do not match the selected company "
+"(%(company)s)"
+msgstr "ບັນຊີທີ່ເລືອກ (%(account_list)s) ບໍ່ກົງກັບບໍລິສັດທີ່ເລືອກ (%(company)s)"
+
+#. module: social
+#: model:ir.model.fields.selection,name:social.selection__social_post__post_method__now
+msgid "Send now"
+msgstr "ສົ່ງດຽວນີ້"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__sequence
+msgid "Sequence"
+msgstr "ລຳດັບ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream__sequence
+msgid "Sequence used to order streams (mainly for the 'Feed' kanban view)"
+msgstr "ລຳດັບທີ່ໃຊ້ເພື່ອຈັດລຽງສະຕຣີມ (ສ່ວນໃຫຍ່ແມ່ນສຳລັບມຸມມອງຄຳບັງ 'ຟີດ')"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__max_post_length
+msgid ""
+"Set a maximum number of characters can be posted in post. 0 for no limit."
+msgstr "ຕັ້ງຄ່າຈຳນວນຕົວອັກສອນສູງສຸດທີ່ສາມາດໂພສໄດ້. 0 ໝາຍເຖິງບໍ່ຈຳກັດ."
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_global_settings
+#: model:ir.ui.menu,name:social.menu_social_global_settings
+msgid "Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: social
+#: model:ir.model,name:social.model_social_account
+#: model:ir.model.fields,field_description:social.field_social_live_post__account_id
+#: model:ir.model.fields,field_description:social.field_social_stream__account_id
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_form
+msgid "Social Account"
+msgstr "ບັນຊີສັງຄົມ"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_account
+#: model:ir.model.fields,field_description:social.field_social_media__account_ids
+#: model:ir.model.fields,field_description:social.field_social_post__account_ids
+#: model:ir.model.fields,field_description:social.field_social_post_template__account_ids
+#: model:ir.ui.menu,name:social.menu_social_account
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_list
+msgid "Social Accounts"
+msgstr "ບັນຊີສັງຄົມ"
+
+#. module: social
+#: model:ir.model,name:social.model_social_live_post
+msgid "Social Live Post"
+msgstr "ໂພສສົດໃນສື່ສັງຄົມ"
+
+#. module: social
+#: model:res.groups,name:social.group_social_manager
+msgid "Social Manager"
+msgstr "ຜູ້ຈັດການສື່ສັງຄົມ"
+
+#. module: social
+#: model:ir.ui.menu,name:social.menu_social_global
+#: model:res.groups.privilege,name:social.res_groups_privilege_social_marketing
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid "Social Marketing"
+msgstr "ການຕະຫຼາດຜ່ານສື່ສັງຄົມ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.actions.act_window,name:social.action_social_media
+#: model:ir.model,name:social.model_social_media
+#: model:ir.model.fields,field_description:social.field_social_account__media_id
+#: model:ir.model.fields,field_description:social.field_social_stream__media_id
+#: model:ir.model.fields,field_description:social.field_social_stream_type__media_id
+#: model:ir.ui.menu,name:social.menu_social_media
+#: model_terms:ir.ui.view,arch_db:social.social_media_view_kanban
+#: model_terms:ir.ui.view,arch_db:social.utm_campaign_view_form
+msgid "Social Media"
+msgstr "ສື່ສັງຄົມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_utm_campaign__social_posts_count
+msgid "Social Media Posts"
+msgstr "ໂພສໃນສື່ສັງຄົມ"
+
+#. module: social
+#: model:ir.model,name:social.model_social_post
+#: model:ir.model.fields,field_description:social.field_social_live_post__post_id
+#: model_terms:ir.ui.view,arch_db:social.social_live_post_view_form
+msgid "Social Post"
+msgstr "ໂພສສັງຄົມ"
+
+#. module: social
+#: model:ir.model,name:social.model_social_post_template
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Social Post Template"
+msgstr "ເທມເພລດໂພສສັງຄົມ"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.social_post_template_action
+msgid "Social Post Templates"
+msgstr "ເທມເພລດໂພສສັງຄົມ"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_post
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_calendar
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_pivot
+msgid "Social Posts"
+msgstr "ໂພສສັງຄົມ"
+
+#. module: social
+#: model:ir.model,name:social.model_social_stream
+#: model:ir.model.fields,field_description:social.field_social_stream_post__stream_id
+#: model_terms:ir.ui.view,arch_db:social.social_stream_view_form
+msgid "Social Stream"
+msgstr "ສະຕຣີມສັງຄົມ"
+
+#. module: social
+#: model:ir.model,name:social.model_social_stream_post
+#: model:ir.model,name:social.model_social_stream_type
+msgid "Social Stream Post"
+msgstr "ໂພສໃນສະຕຣີມສັງຄົມ"
+
+#. module: social
+#: model:ir.model,name:social.model_social_stream_post_image
+msgid "Social Stream Post Image Attachment"
+msgstr "ໄຟລ໌ແນບຮູບພາບໂພສໃນສະຕຣີມສັງຄົມ"
+
+#. module: social
+#: model:ir.actions.act_window,name:social.action_social_stream
+#: model:ir.ui.menu,name:social.menu_social_stream
+msgid "Social Streams"
+msgstr "ສະຕຣີມສັງຄົມ"
+
+#. module: social
+#: model:res.groups,name:social.group_social_user
+msgid "Social User"
+msgstr "ຜູ້ໃຊ້ສັງຄົມ"
+
+#. module: social
+#: model:ir.actions.server,name:social.ir_cron_post_scheduled_ir_actions_server
+msgid "Social: Publish Scheduled Posts"
+msgstr "ສັງຄົມ: ເຜີຍແຜ່ໂພສທີ່ກຳນົດເວລາໄວ້"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_kanban_dashboard.js:0
+msgid ""
+"Sorry, you're not allowed to re-link this account, please contact your "
+"administrator."
+msgstr ""
+"ຂໍອະໄພ, ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ບັນຊີນີ້ຄືນໃໝ່, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__source_id
+msgid "Source"
+msgstr "ແຫຼ່ງທີ່ມາ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__live_posts_by_media
+msgid ""
+"Special technical field that holds a dict containing the live posts names by"
+" media ids (used for kanban view)."
+msgstr "ຟີລທາງເຕັກນິກພິເສດທີ່ເກັບກຳຊື່ໂພສສົດຕາມລະຫັດສື່ (ໃຊ້ສຳລັບມຸມມອງຄຳບັງ)."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/fields/social_post_split_per_media.xml:0
+msgid "Split Per Media"
+msgstr "ແຍກຕາມສື່"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__is_split_per_media
+#: model:ir.model.fields,field_description:social.field_social_post_template__is_split_per_media
+msgid "Split Per Network"
+msgstr "ແຍກຕາມເຄືອຂ່າຍ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__stats_link
+msgid "Stats Link"
+msgstr "ລິງກ໌ສະຖິຕິ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_live_post__state
+#: model:ir.model.fields,field_description:social.field_social_post__state
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"ສະຖານະຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນຄົບກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#: model:ir.model.fields,field_description:social.field_social_account__stories
+msgid "Stories"
+msgstr "ສະຕໍຣີ້"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_account__stories_trend
+msgid "Stories Trend"
+msgstr "ແນວໂນ້ມສະຕໍຣີ້"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
+msgid "Stream Added (%s)"
+msgstr "ເພີ່ມສະຕຣີມແລ້ວ (%s)"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post_image__stream_post_id
+msgid "Stream Post"
+msgstr "ໂພສໃນສະຕຣີມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__stream_post_image_ids
+msgid "Stream Post Images"
+msgstr "ຮູບພາບໂພສໃນສະຕຣີມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream_post__stream_post_image_urls
+msgid "Stream Post Images URLs"
+msgstr "URLs ຮູບພາບໂພສໃນສະຕຣີມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__stream_type_ids
+msgid "Stream Types"
+msgstr "ປະເພດສະຕຣີມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__stream_type_type
+#: model:ir.model.fields,field_description:social.field_social_stream_type__stream_type
+msgid "Stream type name (technical)"
+msgstr "ຊື່ປະເພດສະຕຣີມ (ທາງເຕັກນິກ)"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__has_streams
+msgid "Streams Enabled"
+msgstr "ເປີດໃຊ້ງານສະຕຣີມແລ້ວ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__live_post_ids
+msgid "Sub-posts that will be published on each selected social accounts."
+msgstr "ໂພສຍ່ອຍທີ່ຈະຖືກເຜີຍແຜ່ໃນແຕ່ລະບັນຊີສັງຄົມທີ່ເລືອກ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Sync"
+msgstr "ຊິງຄ໌"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__account_ids
+#: model:ir.model.fields,help:social.field_social_post_template__account_ids
+msgid "The accounts on which this post will be published."
+msgstr "ບັນຊີທີ່ຈະໃຊ້ໃນການເຜີຍແຜ່ໂພສນີ້."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__author_name
+msgid ""
+"The post author name based on third party information (ex: 'John Doe')."
+msgstr "ຊື່ຜູ້ຂຽນໂພສໂດຍອີງໃສ່ຂໍ້ມູນຈາກພາຍນອກ (ຕົວຢ່າງ: 'John Doe')."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__state
+msgid ""
+"The post is considered as 'Posted' when all its sub-posts (one per social "
+"account) are either 'Failed' or 'Posted'"
+msgstr ""
+"ໂພສຈະຖືກຖືວ່າເປັນ 'ໂພສແລ້ວ' ເມື່ອໂພສຍ່ອຍທັງໝົດ (ໜຶ່ງອັນຕໍ່ບັນຊີສັງຄົມ) ຢູ່ໃນສະຖານະ 'ບໍ່ສຳເລັດ' ຫຼື 'ໂພສ"
+"ແລ້ວ'"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_stream_post__published_date
+msgid "The post published date based on third party information."
+msgstr "ວັນທີເຜີຍແຜ່ໂພສໂດຍອີງໃສ່ຂໍ້ມູນຈາກພາຍນອກ."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_live_post__failure_reason
+msgid ""
+"The reason why a post is not successfully posted on the Social Media (eg: "
+"connection error, duplicated post, ...)."
+msgstr ""
+"ເຫດຜົນທີ່ໂພສບໍ່ສຳເລັດໃນສື່ສັງຄົມ (ເຊັ່ນ: ຂໍ້ຜິດພາດໃນການເຊື່ອມຕໍ່, ໂພສຊ້ຳກັນ, ...)."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__media_image
+msgid "The related Social Media's image"
+msgstr "ຮູບພາບຂອງສື່ສັງຄົມທີ່ກ່ຽວຂ້ອງ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__media_ids
+msgid "The social medias linked to the selected social accounts."
+msgstr "ສື່ສັງຄົມທີ່ເຊື່ອມຕໍ່ກັບບັນຊີສັງຄົມທີ່ເລືອກ."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__has_post_errors
+msgid "There are post errors on sub-posts"
+msgstr "ມີຂໍ້ຜິດພາດໃນໂພສຍ່ອຍ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__csrf_token
+msgid ""
+"This token can be used to verify that an incoming request from a social "
+"provider has not been forged."
+msgstr ""
+"Token ນີ້ສາມາດໃຊ້ເພື່ອຢືນຢັນວ່າຄຳຮ້ອງຂໍທີ່ມາຈາກຜູ້ໃຫ້ບໍລິການສັງຄົມບໍ່ໄດ້ຖືກປອມແປງ."
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__name
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "To add a stream"
+msgstr "ເພື່ອເພີ່ມສະຕຣີມ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_stream__stream_type_id
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+
+#. module: social
+#: model:ir.model,name:social.model_utm_campaign
+msgid "UTM Campaign"
+msgstr "ແຄມເປນ UTM"
+
+#. module: social
+#: model:ir.model,name:social.model_utm_medium
+#: model:ir.model.fields,field_description:social.field_social_account__utm_medium_id
+msgid "UTM Medium"
+msgstr "ສື່ກາງ UTM"
+
+#. module: social
+#: model:ir.model,name:social.model_utm_source
+msgid "UTM Source"
+msgstr "ແຫຼ່ງທີ່ມາ UTM"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/controllers/main.py:0
+msgid "Uh-oh! It looks like this message has been deleted from X."
+msgstr "ໂອ້! ເບິ່ງຄືວ່າຂໍ້ຄວາມນີ້ຖືກລຶບອອກຈາກ X ແລ້ວ."
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid "Unknown error"
+msgstr "ຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post_template.py:0
+msgid "Uploaded file does not seem to be a valid image."
+msgstr "ໄຟລ໌ທີ່ອັບໂຫຼດເບິ່ງຄືວ່າບໍ່ແມ່ນຮູບພາບທີ່ຖືກຕ້ອງ."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.res_config_settings_view_form
+msgid ""
+"Use your own Developer Accounts on our Social app. Those credentials are "
+"provided in the developer section of your professional social media account."
+msgstr ""
+"ໃຊ້ບັນຊີຜູ້ພັດທະນາຂອງທ່ານເອງໃນແອັບສັງຄົມຂອງພວກເຮົາ. ຂໍ້ມູນເຫຼົ່ານັ້ນມີຢູ່ໃນພາກສ່ວນຜູ້ພັດທະນາຂອງບັນຊີສື່ສັງຄົມ"
+"ຂອງທ່ານ."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_account__media_type
+#: model:ir.model.fields,help:social.field_social_live_post__media_type
+#: model:ir.model.fields,help:social.field_social_media__media_type
+#: model:ir.model.fields,help:social.field_social_stream_post__media_type
+msgid ""
+"Used to make comparisons when we need to restrict some features to a "
+"specific media ('facebook', 'x', ...)."
+msgstr ""
+"ໃຊ້ເພື່ອປຽບທຽບເມື່ອພວກເຮົາຕ້ອງການຈຳກັດບາງຟີເຈີໃຫ້ກັບສື່ສະເພາະ ('facebook', 'x', ...)."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "View"
+msgstr "ເບິ່ງ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_account_view_form
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Visible to all"
+msgstr "ເຫັນໄດ້ໂດຍທັງໝົດ"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_media__website_message_ids
+#: model:ir.model.fields,field_description:social.field_social_post__website_message_ids
+msgid "Website Messages"
+msgstr "ຂໍ້ຄວາມເວັບໄຊທ໌"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_media__website_message_ids
+#: model:ir.model.fields,help:social.field_social_post__website_message_ids
+msgid "Website communication history"
+msgstr "ປະຫວັດການສື່ສານທາງເວັບໄຊທ໌"
+
+#. module: social
+#: model:ir.model.fields,field_description:social.field_social_post__post_method
+msgid "When"
+msgstr "ເວລາໃດ"
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__published_date
+msgid ""
+"When the global post was published. The actual sub-posts published dates may"
+" be different depending on the media."
+msgstr ""
+"ເວລາທີ່ໂພສຫຼັກຖືກເຜີຍແຜ່. ວັນທີເຜີຍແຜ່ໂພສຍ່ອຍຕົວຈິງອາດຈະແຕກຕ່າງກັນໄປຕາມແຕ່ລະສື່."
+
+#. module: social
+#: model:ir.model.fields,help:social.field_social_post__image_ids
+#: model:ir.model.fields,help:social.field_social_post_template__image_ids
+msgid "Will attach images to your posts (if the social media supports it)."
+msgstr "ຈະແນບຮູບພາບໃນໂພສຂອງທ່ານ (ຖ້າສື່ສັງຄົມນັ້ນຮອງຮັບ)."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Write a comment..."
+msgstr "ຂຽນຄຳຄິດເຫັນ..."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Write a message or upload an image"
+msgstr "ຂຽນຂໍ້ຄວາມ ຫຼື ອັບໂຫຼດຮູບພາບ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/tours/social.js:0
+msgid "Write a message to get a preview of your post."
+msgstr "ຂຽນຂໍ້ຄວາມເພື່ອເບິ່ງຕົວຢ່າງໂພສຂອງທ່ານ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "Write a reply..."
+msgstr "ຂຽນຄຳຕອບ..."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_post
+msgid ""
+"Write an enticing post, add images and schedule it to be posted later on "
+"multiple platforms at once."
+msgstr ""
+"ຂຽນໂພສທີ່ໜ້າສົນໃຈ, ເພີ່ມຮູບພາບ ແລະ ກຳນົດເວລາໂພສລົງໃນຫຼາຍແພລັດຟອມພ້ອມກັນ."
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/utm_medium.py:0
+msgid ""
+"You cannot delete these UTM Mediums as they are linked to the following social accounts in Social:\n"
+"%(social_accounts)s"
+msgstr ""
+"ທ່ານບໍ່ສາມາດລຶບສື່ກາງ UTM ເຫຼົ່ານີ້ໄດ້ ເນື່ອງຈາກພວກມັນເຊື່ອມຕໍ່ກັບບັນຊີສັງຄົມຕໍ່ໄປນີ້:\n"
+"%(social_accounts)s"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/utm_source.py:0
+msgid ""
+"You cannot delete these UTM Sources as they are linked to social posts in Social:\n"
+"%(utm_sources)s"
+msgstr ""
+"ທ່ານບໍ່ສາມາດລຶບແຫຼ່ງທີ່ມາ UTM ເຫຼົ່ານີ້ໄດ້ ເນື່ອງຈາກພວກມັນເຊື່ອມຕໍ່ກັບໂພສສັງຄົມ:\n"
+"%(utm_sources)s"
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid "You cannot reschedule a post that has already been posted."
+msgstr "ທ່ານບໍ່ສາມາດກຳນົດເວລາໃໝ່ສຳລັບໂພສທີ່ຖືກໂພສໄປແລ້ວ."
+
+#. module: social
+#. odoo-python
+#: code:addons/social/models/social_post.py:0
+msgid "You cannot schedule a post in the past."
+msgstr "ທ່ານບໍ່ສາມາດກຳນົດເວລາໂພສໃນອະດີດໄດ້."
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "Your Post"
+msgstr "ໂພສຂອງທ່ານ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "a Stream from an existing account"
+msgstr "ສະຕຣີມຈາກບັນຊີທີ່ມີຢູ່ແລ້ວ"
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
+msgid "before posting."
+msgstr "ກ່ອນທີ່ຈະໂພສ."
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/js/stream_post_comment.js:0
+msgid "comment/reply"
+msgstr "ຄຳຄິດເຫັນ/ຕອບກັບ"
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "dashboard"
+msgstr "ແດຊບອດ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "for"
+msgstr "ສຳລັບ"
+
+#. module: social
+#. odoo-javascript
+#: code:addons/social/static/src/xml/social_templates.xml:0
+msgid "replies..."
+msgstr "ຕອບກັບ..."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream_post
+msgid "to keep an eye on your own posts and monitor all social activities."
+msgstr "ເພື່ອຕິດຕາມໂພສຂອງທ່ານເອງ ແລະ ກວດສອບທຸກກິດຈະກຳທາງສັງຄົມ."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_stream
+msgid "to link your accounts and start posting."
+msgstr "ເພື່ອເຊື່ອມຕໍ່ບັນຊີຂອງທ່ານ ແລະ ເລີ່ມໂພສ."
+
+#. module: social
+#: model_terms:ir.actions.act_window,help:social.action_social_account
+msgid "to start posting from Odoo."
+msgstr "ເພື່ອເລີ່ມໂພສຈາກ Odoo."

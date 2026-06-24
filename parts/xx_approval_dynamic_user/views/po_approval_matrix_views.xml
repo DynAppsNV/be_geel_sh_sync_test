@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_xx_po_approval_matrix_list" model="ir.ui.view">
+        <field name="name">xx.po.approval.matrix.list</field>
+        <field name="model">xx.po.approval.matrix</field>
+        <field name="arch" type="xml">
+            <list editable="top">
+                <field name="sequence" widget="handle" />
+                <field name="company_id" readonly="True" />
+                <field name="analytic_account_id" />
+                <field name="group_id" />
+                <field name="user_id" widget="many2one_avatar_user" optional="show" />
+                <field name="partner_id" optional="show" />
+            </list>
+        </field>
+    </record>
+
+    <record id="action_xx_po_approval_matrix" model="ir.actions.act_window">
+        <field name="name">Approval Matrix</field>
+        <field name="res_model">xx.po.approval.matrix</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem
+        id="menu_xx_po_approval_matrix"
+        name="Approval Matrix"
+        parent="purchase.menu_purchase_config"
+        action="action_xx_po_approval_matrix"
+        sequence="20"
+        groups="purchase.group_purchase_manager"
+    />
+</odoo>

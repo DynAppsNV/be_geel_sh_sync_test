@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="vat_return_lock_wizard_form" model="ir.ui.view">
+        <field name="name">l10n_ro.d300.lock.wizard.form</field>
+        <field name="model">l10n_ro.d300.lock.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Export D300 Declaration">
+                <group>
+                    <group string="Declarant Data">
+                        <field name="l10n_ro_declarant_name" required="True"/>
+                        <field name="l10n_ro_declarant_surname" required="True"/>
+                        <field name="l10n_ro_declarant_role" required="True"/>
+                        <field name="l10n_ro_bank_name" required="True"/>
+                        <field name="l10n_ro_bank_account" required="True"/>
+                    </group>
+                    <group string="Configuration">
+                        <field name="l10n_ro_fiscal_address"/>
+                        <field name="l10n_ro_caen_code" required="True"/>
+                        <field name="l10n_ro_return_period"/>
+                        <field name="l10n_ro_pro_rata"/>
+                        <field name="l10n_ro_request_refund"/>
+                    </group>
+                </group>
+                <group>
+                    <group string="Exceptional Cases">
+                        <field name="l10n_ro_filed_by_representative"/>
+                        <field name="l10n_ro_simplified_internal"/>
+                    </group>
+                    <group string="Special Reverse Charge">
+                        <field name="l10n_ro_sale_cereals"/>
+                        <field name="l10n_ro_sale_mobile_phones"/>
+                        <field name="l10n_ro_sale_integrated_circuits"/>
+                        <field name="l10n_ro_sale_consoles_tablets_laptops"/>
+                        <field name="l10n_ro_post_audit_filing"/>
+                    </group>
+                </group>
+                <footer>
+                    <button name="action_proceed_with_locking" string="Confirm" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

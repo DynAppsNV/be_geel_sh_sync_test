@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+"access_gofood_idempotency_key","access_gofood_idempotency_key","model_gofood_idempotency_key","base.group_user",0,0,0,0

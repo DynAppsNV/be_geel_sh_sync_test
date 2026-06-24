@@ -1,0 +1,42 @@
+import { PosPaymentMethod } from "@point_of_sale/../tests/unit/data/pos_payment_method.data";
+
+PosPaymentMethod._records = [
+    {
+        id: 1,
+        name: "Bank",
+        is_cash_count: false,
+        use_payment_terminal: false,
+        split_transactions: false,
+        type: "bank",
+        image: false,
+        sequence: 0,
+        payment_method_type: "none",
+        default_qr: false,
+        is_online_payment: false,
+    },
+    {
+        id: 2,
+        name: "Cash",
+        is_cash_count: true,
+        use_payment_terminal: false,
+        split_transactions: false,
+        type: "cash",
+        image: false,
+        sequence: 0,
+        payment_method_type: "none",
+        default_qr: false,
+        is_online_payment: false,
+    },
+    {
+        id: 3,
+        name: "Customer Account",
+        is_cash_count: false,
+        use_payment_terminal: false,
+        split_transactions: true,
+        type: "pay_later",
+        image: false,
+        sequence: 0,
+        payment_method_type: "none",
+        default_qr: false,
+    },
+];

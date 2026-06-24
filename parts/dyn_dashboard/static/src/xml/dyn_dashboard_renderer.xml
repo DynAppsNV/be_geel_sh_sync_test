@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="dyn_dashboard.Renderer">
+        <div id="dyn-custom-filters" />
+        <div class="o_dyn_dashboard grid-stack" />
+        <div class="h-100" t-ref="root">
+            <div class="h-100 position-relative" t-ref="container">
+                <canvas t-ref="canvas">
+                    <div class="o_dyn_dashboard grid-stack" />
+                </canvas>
+            </div>
+        </div>
+    </t>
+    <!--    Dashboard Header : Show title and dashboard settings button-->
+    <t t-name="dyn_dashboard_header">
+        <div class="dyn_dashboard_header">
+            <!-- Custom Filters -->
+            <div id="custom_filters" class="dyn_filter_selection_input">
+                <t
+                    t-foreach="data_custom_filters"
+                    t-as="custom_filter"
+                    t-key="custom_filter"
+                >
+                    <div class="custom_filter">
+                        <t t-if="custom_filter.selection">
+                            <input
+                                type="hidden"
+                                t-att-id="'selectbox_'+custom_filter.filter_id"
+                                class="form-control dropdown custom_filter"
+                            />
+                        </t>
+                        <t t-else="">
+                            <div class="custom_filter form-control padding-right-block">
+                                <input
+                                    class="select2-input custom_filter input-box"
+                                    t-att-id="custom_filter.filter_id"
+                                    type="text"
+                                    t-att-placeholder="custom_filter.name"
+                                    t-att-value="custom_filter.value"
+                                />
+                            </div>
+                        </t>
+                    </div>
+                </t>
+                <div class="custom_filter">
+                    <div class="form-control padding-right-block">
+                        <button
+                            type='button'
+                            class='button btn btn-primary apply-custom-filter dyn_hide'
+                        >Apply</button>
+                    </div>
+                </div>
+
+                <!-- Date Filters -->
+                <br />
+                <br />
+                <div
+                    id="date_period"
+                    class="custom_filter dropdown dyn_datefilter_dropdown dyn_hide"
+                >
+                    <div class="form-control padding-right-block">
+                        <button
+                            class="btn btn-primary dropdown-toggle apply-custom-filter"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            style="margin-top: 4px;"
+                        >
+                            <span
+                                class="fa fa-lg fa-calendar"
+                                style="margin-right: 10px;"
+                            />
+                            <span
+                                id="dyn_date_filter_selection"
+                                style="margin-right: 10px;"
+                            />
+                            <span class="caret" />
+                        </button>
+                        <ul
+                            id="date_filter_menu"
+                            class="dropdown-menu o_filters_menu scrollable-menu"
+                            role="menu"
+                        >
+                            <li id="l_none">
+                                <span class="df_selection_text">All Time</span>
+                            </li>
+                            <li class="divider" />
+                            <t
+                                t-foreach="date_selection_order"
+                                t-as="date_id"
+                                t-key="date_id"
+                            >
+                                <li
+                                    role="menuitem"
+                                    class="dropdown-item df_selection_text"
+                                    t-att-id="date_id"
+                                >
+                                    <span class="df_selection_text">
+                                        <t t-esc="date_selection_data[date_id]" />
+                                    </span>
+                                </li>
+                            </t>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dyn_hide" id="date-range-picker_div" style="float: right;">
+                    <div class="custom_filter form-control padding-right-block">
+                        <input
+                            type="text"
+                            id="date-range-picker"
+                            style="width: 180px"
+                            class="select2-input input-box"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+
+
+    <t t-name="dyn_kpi_template">
+        <div class="col-12 dyn-header">
+            <i t-att-class="data['icon']" />
+            <t t-esc="data['name']" />
+        </div>
+        <div
+            class='col-12 dyn-kpi-value dashboard_drill_action'
+            t-att-data-id="data['id']"
+        >
+            <t t-esc="data['value']" />
+        </div>
+    </t>
+    <t t-name="dyn_text_template">
+        <div class="col-12 dyn-header">
+            <i t-att-class="data['icon']" />
+            <t t-esc="data['name']" />
+        </div>
+        <div
+            class='col-12 dyn-text-value dashboard_drill_action'
+            t-att-data-id="data['id']"
+        >
+            <t t-esc="data['value']" />
+        </div>
+    </t>
+    <t t-name="dyn_dummy_template">
+        <div class="col-12 dyn-dummy-container" />
+    </t>
+    <t t-name="dyn_graph_template">
+        <div class="col-12 dyn-header">
+            <i t-att-class="data['icon']" />
+            <t t-esc="data['name']" />
+        </div>
+        <div class='dyn-graph-value' />
+    </t>
+    <t t-name="dyn_table_template">
+        <div class="col-12 dyn-header">
+            <i t-att-class="data['icon']" />
+            <t t-esc="data['name']" />
+        </div>
+
+        <t t-if="data.download_data">
+            <button
+                t-attf-id="btn-download-csv-{{data['id']}}"
+                type='button'
+                class='button btn btn-primary btn-export'
+            >
+                Export CSV
+            </button>
+            <button
+                t-attf-id="btn-download-xlsx-{{data['id']}}"
+                type='button'
+                class='button btn btn-primary btn-export'
+            >
+                Export XLSX
+            </button>
+            <button
+                t-attf-id="btn-download-pdf-{{data['id']}}"
+                type='button'
+                class='button btn btn-primary btn-export'
+            >
+                Export PDF
+            </button>
+            <button
+                t-attf-id="btn-download-json-{{data['id']}}"
+                type='button'
+                class='button btn btn-primary btn-export'
+            >
+                Export JSON
+            </button>
+        </t>
+
+        <div class="col-12 dyn-table-container">
+            <div t-attf-id="dyn-table-{{data['id']}}" />
+        </div>
+    </t>
+</templates>

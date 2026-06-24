@@ -1,0 +1,1988 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * accountant_knowledge
+#
+# Odoo Translation Bot <c3p@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Tomáš Píšek <Tomas.Pisek@seznam.cz>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
+"PO-Revision-Date: 2026-06-06 11:14+0000\n"
+"Last-Translator: Tomáš Píšek <Tomas.Pisek@seznam.cz>\n"
+"Language-Team: Slovak <https://translate.odoo.com/projects/odoo-19/"
+"accountant_knowledge/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "(description and of the issue, uncertainty, or limitation)"
+msgstr "(opis problému, neistoty alebo obmedzenia)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "0,00<br>"
+msgstr "0,00<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "0.0<br>"
+msgstr "0,0<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "<em>To be completed...</em>"
+msgstr "<em>Doplní sa...</em>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "<i class=\"fa fa-fw fa-building me-2\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-fw fa-building me-2\" title=\"Spoločnosť\"/>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "<i class=\"fa fa-fw fa-calendar me-2\" title=\"Calendar\"/>"
+msgstr "<i class=\"fa fa-fw fa-calendar me-2\" title=\"Kalendár\"/>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_tax_package
+msgid ""
+"<strong class=\"o-upload-link\">Upload files</strong> to include in the PDF "
+"report."
+msgstr ""
+"<strong class=\"o-upload-link\">Nahrajte súbory</strong>, ktoré chcete "
+"zahrnúť do správy PDF."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Additional Information</strong><br>"
+msgstr "<strong>Ďalšie informácie</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Buildings, Fixtures, and Fittings</strong>"
+msgstr "<strong>Budovy, zariadenia a vybavenie</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Category</strong><br>"
+msgstr "<strong>Kategória</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"<strong>Componentized assets</strong>: The company was unable to identify "
+"componentized assets, or the decomposition of such assets does not have a "
+"material impact."
+msgstr ""
+"<strong>Majetok rozdelený na komponenty</strong>: Spoločnosť nebola schopná "
+"identifikovať majetok na rozdelenie alebo rozdelenie takéhoto majetku nemá "
+"významný vplyv."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Depreciation - Cumulative</strong><br>"
+msgstr "<strong>Odpisy – kumulatívne</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Depreciation - Current Year</strong><br>"
+msgstr "<strong>Odpisy – bežný rok</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "<strong>Description</strong><br>"
+msgstr "<strong>Popis</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "<strong>Domestic</strong><br>"
+msgstr "<strong>Vnútroštátne</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Entry Cost</strong><br>"
+msgstr "<strong>Vstupné náklady</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Equipment and Tools</strong>"
+msgstr "<strong>Vybavenie a nástroje</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Intangible Assets</strong>"
+msgstr "<strong>Nehmotný majetok</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "<strong>International</strong><br>"
+msgstr "<strong>Medzinárodné</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Items</strong><br>"
+msgstr "<strong>Položky</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Men</strong><br>"
+msgstr "<strong>Muži</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Name</strong><br>"
+msgstr "<strong>Meno</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Nature of Relationship</strong><br>"
+msgstr "<strong>Povaha vzťahu</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "<strong>Net Exceptional Result</strong><br>"
+msgstr "<strong>Čistý mimoriadny výsledok</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Net Value</strong><br>"
+msgstr "<strong>Čistá hodnota</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "<strong>Nominal Value per Share</strong><br>"
+msgstr "<strong>Nominálna hodnota jednej akcie</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"<strong>Non-componentized assets</strong>: Benefiting from tolerance "
+"measures, the company has chosen to maintain the existing useful life "
+"periods for the depreciation of non-componentized assets."
+msgstr ""
+"<strong>Majetok nečlenený na komponenty</strong>: Vďaka tolerančným "
+"opatreniam sa spoločnosť rozhodla zachovať existujúce doby použiteľnosti pre "
+"odpisy nečleneného majetku."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "<strong>Number of Shares</strong><br>"
+msgstr "<strong>Počet akcií</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Other Tangible Assets</strong>"
+msgstr "<strong>Ostatný hmotný majetok</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "<strong>Share Capital</strong><br>"
+msgstr "<strong>Základný kapitál</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Total</strong><br>"
+msgstr "<strong>Celkom</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Transaction Amount During the Period</strong><br>"
+msgstr "<strong>Výška transakcie počas obdobia</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Women</strong><br>"
+msgstr "<strong>Ženy</strong><br>"
+
+#. module: accountant_knowledge
+#: model:knowledge.article.template.category,name:accountant_knowledge.knowledge_article_template_category_accounting
+msgid "Accounting"
+msgstr "Účtovníctvo"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Accounting Principles and Methods"
+msgstr "Účtovné zásady a metódy"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Accounting principles and methods"
+msgstr "Účtovné zásady a metódy"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_additional_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_additional_information
+msgid "Additional Information"
+msgstr "Dodatočné informácie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Advances received from public or private organizations to finance the "
+"company's activities, for which repayment is conditional, are presented "
+"under equity in the balance sheet as \"Other Equity.\" Corresponding "
+"interest expenses are recorded as liabilities under \"Loans and Other "
+"Financial Debts.\""
+msgstr ""
+"Zálohy prijaté od verejných alebo súkromných organizácií na financovanie "
+"činností spoločnosti, ktorých splatenie je podmienené, sú v súvahe vykázané "
+"v rámci vlastného imania ako „Ostatné vlastné imanie“. Príslušné úrokové "
+"náklady sú vykázané ako záväzky v položke „Úvery a ostatné finančné záväzky.“"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Aged Payable"
+msgstr "Splatné záväzky"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Aged Receivable"
+msgstr "Splatné pohľadávky"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Amount:"
+msgstr "Suma:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Amount<br>"
+msgstr "Suma<br>"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_annexes
+msgid "Annexes"
+msgstr "Prílohy"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_audit_report
+#: model:ir.ui.menu,name:accountant_knowledge.menu_action_accountant_audit_report
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_audit_report
+msgid "Annual Report"
+msgstr "Výročná správa"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__knowledge_template_article_id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__is_audit_report_template
+msgid "Annual Report Template"
+msgstr "Šablóna výročnej správy"
+
+#. module: accountant_knowledge
+#: model:ir.actions.act_window,name:accountant_knowledge.action_audit_report
+msgid "Annual Reports"
+msgstr "Výročné správy"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__knowledge_article_id
+msgid "Article"
+msgstr "Článok"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"As a result of these findings, and due to their significant effect, we are "
+"unable to confirm the overall consistency and plausibility of the interim "
+"financial statements attached to this statement."
+msgstr ""
+"Na základe týchto zistení a vzhľadom na ich významný vplyv nie sme schopní "
+"potvrdiť celkovú konzistentnosť a vierohodnosť predbežných finančných "
+"výkazov priložených k tomuto vyhláseniu."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"As chartered accountants, we have carried out a compilation of the interim "
+"financial statements of {{ company name }} for the period from {{ start of "
+"period }} to {{ end of period }}, which include the following key figures:"
+msgstr ""
+"Ako autorizovaní účtovníci sme vypracovali súhrnnú správu o priebežnej "
+"účtovnej závierke spoločnosti {{ company name }} za obdobie od {{ start of "
+"period }} do {{ end of period }}, ktorá obsahuje nasledujúce kľúčové údaje:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Asset Information"
+msgstr "Informácie o majetku"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid ""
+"At each reporting date, and whenever there is an indication of impairment, "
+"the capitalized development costs are reviewed to confirm that the project "
+"continues to meet the criteria for recognition as an asset. If these "
+"criteria are no longer met, an impairment loss or exceptional amortization "
+"is recorded accordingly."
+msgstr ""
+"K každému dátumu vykazovania a vždy, keď existujú náznaky zníženia hodnoty, "
+"sa kapitalizované náklady na vývoj prehodnocujú s cieľom potvrdiť, že "
+"projekt naďalej spĺňa kritériá na vykazovanie ako majetok. Ak tieto kritériá "
+"už nie sú splnené, zaznamená sa zodpovedajúca strata zo zníženia hodnoty "
+"alebo mimoriadna amortizácia."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_attestation
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Attestation"
+msgstr "Osvedčenie"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__audit_report_id
+msgid "Audit Report"
+msgstr "Audítorská správa"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_balance_sheet
+msgid "Balance Sheet"
+msgstr "Súvaha"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"Based on our procedures, we have not identified any matters that would call "
+"into question the overall consistency and plausibility of the interim "
+"financial statements as attached to this statement."
+msgstr ""
+"Na základe našich postupov sme nezistili žiadne skutočnosti, ktoré by "
+"spochybňovali celkovú konzistentnosť a vierohodnosť priebežnej účtovnej "
+"závierky priloženej k tomuto vyhláseniu."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Buildings<br>"
+msgstr "Budovy<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Capital Increase Costs"
+msgstr "Náklady na zvýšenie kapitálu"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Capital increase costs are recorded directly on the balance sheet as a "
+"deduction from the share premium."
+msgstr ""
+"Náklady na zvýšenie kapitálu sa zaznamenávajú priamo v súvahe ako odpočet z "
+"emisného ážia."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "Capitalization of Development Costs"
+msgstr "Kapitalizácia vývojových nákladov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Cash and Cash Equivalents"
+msgstr "Hotovosť a hotovostné ekvivalenty"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Cash on hand and bank balances are recorded at their nominal value"
+msgstr "Hotovosť a bankové zostatky sú zaznamenávané v ich nominálnej hodnote"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_cash_flow_statement
+msgid "Cash-Flow Statement"
+msgstr "Výkaz cash-flow"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Change in Accounting Estimate"
+msgstr "Zmena v účtovnom odhade"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Change in Accounting Standards"
+msgstr "Zmena účtovných štandardov"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Changes in Accounting Policies"
+msgstr "Zmeny v účtovných zásadách"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Changes in Fixed Assets"
+msgstr "Zmeny v hmotnom majetku"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Comments<br>"
+msgstr "Komentáre<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Commercial buildings: 20 to 50 years"
+msgstr "Obchodné budovy: 20 až 50 rokov"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__company_id
+msgid "Company"
+msgstr "Spoločnosť"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Computer equipment: 5 years"
+msgstr "Počítačové vybavenie: 5 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Configure"
+msgstr "Nakonfigurovať"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Consistency of accounting methods from one period to another;"
+msgstr "Konzistentnosť účtovných metód medzi jednotlivými obdobiami;"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_contextual_information
+msgid "Contextual Information"
+msgstr "Kontextové informácie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Correction of Errors"
+msgstr "Oprava chýb"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Costs related to under-activity are excluded from the inventory value."
+msgstr ""
+"Náklady súvisiace s nedostatočnou činnosťou sú vylúčené z hodnoty zásob."
+
+#. module: accountant_knowledge
+#: model:ir.actions.act_window,name:accountant_knowledge.action_audit_report_quick_create
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Create an Annual Report"
+msgstr "Vytvorte výročnú správu"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__create_uid
+msgid "Created by"
+msgstr "Vytvoril"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__create_date
+msgid "Created on"
+msgstr "Vytvorené"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/account_report/account_report.xml:0
+msgid "Customize"
+msgstr "Prispôsobiť"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Customize all of its content.<br>Add sections, pages, or attachments"
+msgstr "Prispôsobte si celý obsah. Pridajte sekcie, stránky alebo prílohy"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Dates"
+msgstr "Dátum"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Deferred Expenses"
+msgstr "Časovo rozlíšené náklady"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Deferred Revenues"
+msgstr "Časovo rozlíšené výnosy"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Delete"
+msgstr "Zmazať"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Depreciation Period"
+msgstr "Odpisové obdobie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Depreciation Schedule"
+msgstr "Odpisy majetku"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Depreciation and Impairment"
+msgstr "Odpisy a znehodnotenie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Depreciation is calculated using either the straight-line or declining "
+"balance method, based on the estimated useful life of the assets."
+msgstr ""
+"Odpisy sa vypočítavajú buď lineárnou metódou, alebo metódou klesajúcej "
+"zostatkovej hodnoty na základe odhadovanej životnosti majetku."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid ""
+"Describe the nature and amounts of commitments given, received, and "
+"reciprocal"
+msgstr "Opíšte povahu a výšku poskytnutých, prijatých a recipročných záväzkov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid ""
+"Describe the nature of each provision recorded during the period. For each, "
+"indicate the opening balance, any additional provisions (dotations), any "
+"amounts reversed (reprises), and the closing balance at the end of the "
+"period."
+msgstr ""
+"Opíšte povahu každého rezervného fondu zaznamenaného počas obdobia. Pre "
+"každý z nich uveďte počiatočný zostatok, akékoľvek dodatočné rezervné fondy "
+"(dotácie), akékoľvek zrušené sumy (reprízy) a konečný zostatok na konci "
+"obdobia."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Describe the nature of the error corrected."
+msgstr "Opíšte povahu opravenej chyby."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Description<br>"
+msgstr "Popis<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Detail and explain the key changes in fixed assets — purchases, sales, and "
+"adjustments — over the period for clear tracking of asset value evolution."
+msgstr ""
+"Podrobne opíšte a vysvetlite kľúčové zmeny v dlhodobom majetku – nákupy, "
+"predaje a úpravy – za dané obdobie, aby bolo možné jasne sledovať vývoj "
+"hodnoty majetku."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"Detail the factors affecting future tax liabilities and the impact of tax "
+"valuation adjustments."
+msgstr ""
+"Uveďte podrobnosti o faktoroch ovplyvňujúcich budúce daňové záväzky a vplyv "
+"daňových úprav."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Details on Inventories and Work-in-Progress"
+msgstr "Podrobnosti o zásobách a nedokončenej výrobe"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Directly attributable costs incurred to bring the asset to working condition "
+"for its intended use;"
+msgstr ""
+"Priamo priraditeľné náklady vynaložené na uvedenie majetku do "
+"prevádzkyschopného stavu na účely jeho zamýšľaného použitia;"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Discard"
+msgstr "Zrušiť"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__display_name
+#: model:ir.model.fields,field_description:accountant_knowledge.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__display_name
+msgid "Display Name"
+msgstr "Zobrazovaný názov"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields.selection,name:accountant_knowledge.selection__audit_report__status__done
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+msgid "Done"
+msgstr "Hotové"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#: code:addons/accountant_knowledge/static/src/components/options_dropdown/options_dropdown.xml:0
+msgid "Download Annual Report"
+msgstr "Stiahnuť výročnú správu"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+msgid "Download PDF"
+msgstr "Stiahnuť PDF"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields.selection,name:accountant_knowledge.selection__audit_report__status__draft
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+msgid "Draft"
+msgstr "Návrh"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"During the course of our engagement, we identified the following matters "
+"that significantly impact the overall consistency and reliability of the "
+"financial statements:"
+msgstr ""
+"V priebehu nášho auditu sme identifikovali nasledujúce skutočnosti, ktoré "
+"majú významný vplyv na celkovú konzistentnosť a spoľahlivosť účtovnej "
+"závierky:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid ""
+"During this fiscal period, the company generated a net accounting result of  "
+"{{ net accounting result }}, broken down as follows between domestic and "
+"international operations."
+msgstr ""
+"Počas tohto fiškálneho obdobia dosiahla spoločnosť čistý účtovný výsledok vo "
+"výške  {{ net accounting result }}, ktorý sa medzi domáce a medzinárodné "
+"operácie rozdelil nasledovne."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"During this period, the company benefited from the following tax credits, "
+"which have contributed to optimizing its tax position:"
+msgstr ""
+"Počas tohto obdobia spoločnosť využila nasledujúce daňové úľavy, ktoré "
+"prispeli k optimalizácii jej daňovej pozície:"
+
+#. module: accountant_knowledge
+#. odoo-python
+#: code:addons/accountant_knowledge/models/audit_report.py:0
+msgid "Edit Annual Report"
+msgstr "Upraviť výročnú správu"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Edit its content"
+msgstr "Upravte obsah"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Employees<br>"
+msgstr "Zamestnanci<br>"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__end_date
+msgid "End Date"
+msgstr "Dátum ukončenia"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,help:accountant_knowledge.field_audit_report__end_date
+msgid "Ending Date, included in the fiscal year."
+msgstr "Posledný dátum obsiahnutý vo fiškálnom roku."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Entity Information"
+msgstr "Informácie o subjekte"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Equipment: 10 years"
+msgstr "Vybavenie: 10 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"Except for the impact of the issue described above, we did not identify "
+"anything that would call into question the overall consistency and "
+"plausibility of the interim financial statements attached to this statement."
+msgstr ""
+"Okrem vplyvu vyššie opísanej skutočnosti sme nezistili nič, čo by "
+"spochybňovalo celkovú konzistentnosť a vierohodnosť priebežnej účtovnej "
+"závierky priloženej k tomuto vyhláseniu."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Exceptional Expenses<br>"
+msgstr "Mimoriadne výdavky<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Exceptional Income &amp; Expenses"
+msgstr "Mimoriadne výnosy a náklady"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Exceptional Income<br>"
+msgstr "Mimoriadny výnos<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "Expense Recognition"
+msgstr "Uznanie nákladov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"Explain how tax changes made between the balance sheet date and the "
+"financial statement date affect this period's results."
+msgstr ""
+"Vysvetlite, ako daňové zmeny vykonané medzi dátumom zostavenia súvahy a "
+"dátumom zostavenia účtovnej závierky ovplyvňujú výsledky za toto obdobie."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"Explain the impact of the correction on the current period's financial "
+"statements."
+msgstr "Vysvetlite vplyv opravy na finančné výkazy za bežné obdobie."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Favorable Opinion with Comments"
+msgstr "Kladné stanovisko s pripomienkami"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Finance Lease"
+msgstr "Finančný leasing"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Financial Assets and Marketable Securities"
+msgstr "Finančné aktíva a obchodovateľné cenné papiere"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Financial Commitments and Guarantees"
+msgstr "Finančné záväzky a záruky"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_position
+msgid "Financial Position"
+msgstr "Finančná situácia"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Financial Resources"
+msgstr "Finančné zdroje"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "First In, First Out (FIFO)"
+msgstr "First In, First Out (FIFO)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Fiscal Year N - 1<br>"
+msgstr "Fiškálny rok N - 1<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Fiscal Year N<br>"
+msgstr "Fiškálny rok N<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Fixtures and fittings: 10 years"
+msgstr "Vybavenie a príslušenstvo: 10 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"For cash held in foreign currencies, amounts are converted into euros at the "
+"exchange rate prevailing on the last business day before the fiscal year-"
+"end. Any resulting exchange differences are recognized immediately in the "
+"income statement as foreign exchange gains or losses."
+msgstr ""
+"Hotovosť v cudzích menách sa prepočíta na eurá podľa kurzu platného v "
+"posledný pracovný deň pred koncom fiškálneho roka. Akékoľvek výsledné "
+"kurzové rozdiely sa okamžite vykazujú vo výkaze ziskov a strát ako kurzové "
+"zisky alebo straty."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid ""
+"For each member, indicate the retirement commitments and similar benefits "
+"granted to them."
+msgstr ""
+"Pre každého člena uveďte dôchodkové záväzky a podobné výhody, ktoré mu boli "
+"poskytnuté."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid ""
+"For each member, specify the advances and loans granted to them, including "
+"the terms agreed upon and repayments made during the period, as well as the "
+"amount of commitments made on their behalf."
+msgstr ""
+"Pre každého člena uveďte poskytnuté zálohy a pôžičky, vrátane dohodnutých "
+"podmienok a splátok vykonaných počas daného obdobia, ako aj výšku záväzkov "
+"prijatých v ich mene."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"For tax-consolidated entities, explain the tax allocation method, tax "
+"differences, loss carryforwards, and related accounting specifics."
+msgstr ""
+"V prípade daňovo konsolidovaných subjektov vysvetlite metódu rozdelenia "
+"daní, daňové rozdiely, prenesené straty a súvisiace účtovné špecifiká."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"From the Equity app, print the Capitalization Table and insert it <strong "
+"class=\"o-upload-link\">here</strong>"
+msgstr ""
+"V aplikácii Správa kapitálu vytlačte tabuľku kapitalizácie a vložte ju "
+"<strong class=\"o-upload-link\">sem</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Furniture: 10 years"
+msgstr "Nábytok: 10 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid ""
+"General accounting principles have been applied with due regard to the "
+"prudence principle, based on the following assumptions:"
+msgstr ""
+"Všeobecné účtovné zásady boli uplatnené s náležitým zreteľom na zásadu "
+"obozretnosti na základe nasledujúcich predpokladov:"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Get a complete PDF file, ready to be shared"
+msgstr "Získajte kompletný súbor PDF, pripravený na zdieľanie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid ""
+"Given the innovative nature of the company's activities, a substantial "
+"portion of its expenses pertains to development costs as defined by "
+"applicable accounting standards"
+msgstr ""
+"Vzhľadom na inovatívny charakter činností spoločnosti sa podstatná časť jej "
+"výdavkov týka nákladov na vývoj, ako sú definované v platných účtovných "
+"štandardoch"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Going concern;"
+msgstr "Pokračujúca činnosť;"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__id
+msgid "ID"
+msgstr "ID"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Identification Number:"
+msgstr "Identifikačné číslo:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If applicable, specify the impact of the new accounting regulation as "
+"determined at the opening of the period, including which financial statement "
+"items are affected."
+msgstr ""
+"Ak je to relevantné, uveďte vplyv nového účtovného predpisu stanovený na "
+"začiatku obdobia, vrátane položiek účtovnej závierky, ktorých sa to týka."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change has been applied prospectively, explain the reasons for "
+"prospective application and indicate the impact on key items for the period, "
+"unless impracticable to determine."
+msgstr ""
+"Ak bola zmena uplatnená prospektívne, vysvetlite dôvody prospektívneho "
+"uplatnenia a uveďte vplyv na kľúčové položky za dané obdobie, pokiaľ je "
+"možné tento vplyv určiť."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change has been applied retrospectively, present the main items from "
+"prior periods restated under the new accounting method."
+msgstr ""
+"Ak bola zmena uplatnená retrospektívne, uveďte hlavné položky z "
+"predchádzajúcich období prepočítané podľa novej účtovnej metódy."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change was applied <strong>prospectively</strong>, describe its "
+"impact on the key items of the current period, unless such information is "
+"impracticable to obtain."
+msgstr ""
+"Ak bola zmena uplatnená <strong>prospektívne</strong>, opíšte jej vplyv na "
+"kľúčové položky bežného obdobia, pokiaľ nie je získanie takýchto informácií "
+"nemožné."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change was applied <strong>retrospectively</strong>, present the key "
+"items from prior periods that have been restated in accordance with the new "
+"method."
+msgstr ""
+"Ak bola zmena uplatnená <strong>retrospektívne</strong>, uveďte kľúčové "
+"položky z predchádzajúcich období, ktoré boli prehodnotené v súlade s novou "
+"metódou."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"If this is the first year the company holds inventories, specify the "
+"valuation method used and provide a breakdown of the products concerned."
+msgstr ""
+"Ak je to prvý rok, kedy spoločnosť vedie zásoby, uveďte použitú metódu "
+"oceňovania a poskytnite rozpis príslušných výrobkov."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"In accordance with the terms of our mission, we have prepared a summary of "
+"work performed for {{ company name }} for the period from {{ start of "
+"period }} to {{ end of period }}"
+msgstr ""
+"V súlade s podmienkami nášho poslania sme pripravili súhrn prác vykonaných "
+"pre spoločnosť {{ company name }} za obdobie od {{ start of period }} do "
+"{{ end of period }}"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+msgid "Include PDF Files"
+msgstr "Zahrnúť súbory PDF"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Include any explanations or justifications as needed."
+msgstr "Podľa potreby uveďte akékoľvek vysvetlenia alebo odôvodnenia."
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+msgid "Include child articles"
+msgstr "Zahrnúť podčlánky"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Income Statement"
+msgstr "Výkaz ziskov a strát"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Independence of accounting periods."
+msgstr "Nezávislosť účtovných období."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Indicate and justify the voluntary accounting policy change."
+msgstr "Uveďte a odôvodnite dobrovoľnú zmenu účtovnej politiky."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid ""
+"Indicate the number and value of shares held by the company during the year. "
+"Include acquisitions, disposals, cancellations, and the reason for holding "
+"these shares (e.g. employee plans, market operations)."
+msgstr ""
+"Uveďte počet a hodnotu akcií, ktoré spoločnosť držala počas roka. Uveďte "
+"akvizície, predaje, zrušenia a dôvod držania týchto akcií (napr. "
+"zamestnanecké plány, trhové operácie)."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Indicate the total book value of inventories as well as the book value by "
+"relevant categories."
+msgstr ""
+"Uveďte celkovú účtovnú hodnotu zásob, ako aj účtovnú hodnotu podľa "
+"príslušných kategórií."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Information on Specific Nature Operations"
+msgstr "Informácie o operáciách špecifického charakteru"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__inherited_audit_report_id
+msgid "Inherited Audit Report"
+msgstr "Zdedená audítorská správa"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/account_report/cog_menu/cog_menu.js:0
+msgid "Insert in article"
+msgstr "Vložiť do článku"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Intangible and Tangible Assets"
+msgstr "Nehmotný a hmotný majetok"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Intangible assets are valued at their acquisition or production cost, "
+"including all expenses necessary to prepare these assets for their intended "
+"use. This valuation is net of any trade discounts, rebates, or settlement "
+"discounts obtained."
+msgstr ""
+"Nehmotný majetok sa oceňuje v obstarávacej alebo výrobnej cene vrátane "
+"všetkých nákladov potrebných na prípravu tohto majetku na zamýšľané "
+"použitie. Toto ocenenie je bez akýchkoľvek obchodných zliav, rabátov alebo "
+"zliav za včasnú platbu."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Interest on borrowings specifically related to the production of tangible "
+"assets is not included in the production cost of these assets."
+msgstr ""
+"Úroky z úverov, ktoré sa konkrétne týkajú výroby hmotného majetku, nie sú "
+"zahrnuté do výrobných nákladov tohto majetku."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Inventories are valued using one of the following methods:"
+msgstr "Zásoby sa oceňujú jednou z nasledujúcich metód:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Inventory Overview"
+msgstr "Prehľad zásob"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Inventory Valuation"
+msgstr "Hodnota zásob"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_journal_audit
+msgid "Journal Audit"
+msgstr "Audit denníka"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Justification:"
+msgstr "Odôvodnenie:"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_knowledge_article
+msgid "Knowledge Article"
+msgstr "Vedomostný článok"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Land<br>"
+msgstr "Pozemok<br>"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__write_uid
+msgid "Last Updated by"
+msgstr "Naposledy upravoval"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__write_date
+msgid "Last Updated on"
+msgstr "Naposledy upravované"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Liabilities Information"
+msgstr "Informácie o záväzkoch"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Load a Template"
+msgstr "Načítať šablónu"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Loan issuance costs, where applicable, are recognized as expenses in the "
+"financial year during which the loans are granted."
+msgstr ""
+"Náklady na poskytnutie úverov, ak sú uplatniteľné, sa vykazujú ako výdavky v "
+"účtovnom roku, v ktorom sú úvery poskytnuté."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Loans"
+msgstr "Úvery"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Long-Term Investments Held in the Investment Portfolio"
+msgstr "Dlhodobé investície držané v investičnom portfóliu"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid ""
+"Management has chosen not to disclose remuneration information, as doing so "
+"would effectively reveal the individual compensation of executives."
+msgstr ""
+"Vedenie sa rozhodlo nezverejňovať informácie o odmeňovaní, pretože by tým "
+"došlo k odhaleniu individuálnych odmien vedúcich pracovníkov."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Managers<br>"
+msgstr "Manažéri<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid ""
+"Manufactured products are valued at production cost, which includes "
+"consumables, direct and indirect production expenses, and depreciation of "
+"assets used in production."
+msgstr ""
+"Vyrobené produkty sa oceňujú výrobnými nákladmi, ktoré zahŕňajú spotrebný "
+"materiál, priame a nepriame výrobné náklady a odpisy majetku používaného vo "
+"výrobe."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Methods of Valuation"
+msgstr "Metódy oceňovania"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+msgid "My Reports"
+msgstr "Moje výkazy"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Name:"
+msgstr "Meno:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Net accounting result: {{ net accounting result }}"
+msgstr "Čistý účtovný výsledok: {{ net accounting result }}"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Non-Managers<br>"
+msgstr "Nemanažéri<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid "Non-Pro Rata Recognition"
+msgstr "Nepomerné uznanie"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Non-Standard Transaction"
+msgstr "Neštandardná transakcia"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Non-Standard Transactions"
+msgstr "Neštandardné transakcie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Non-disclosure"
+msgstr "Záväzok mlčanlivosti"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Off-Balance Sheet Commitments"
+msgstr "Záväzky mimo bilancie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Offices: 25 years"
+msgstr "Kancelárie: 25 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid ""
+"Only include events occurring between the end of the reporting period and "
+"the date the financial statements are approved, if they are significant "
+"enough to affect the fair presentation of the accounts."
+msgstr ""
+"Zahrňte len udalosti, ktoré nastali medzi koncom vykazovaného obdobia a "
+"dátumom schválenia účtovnej závierky, ak sú dostatočne významné na to, aby "
+"ovplyvnili verné zobrazenie účtovnej závierky."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid "Operating subsidies are recorded as income as soon as they are granted."
+msgstr "Prevádzkové dotácie sa vykazujú ako príjmy hneď po ich poskytnutí."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid "Other Significant Events"
+msgstr "Ďalšie významné udalosti"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Other off-balance-sheet transactions"
+msgstr "Ostatné podsúvahové transakcie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Other tangible fixed assets<br>"
+msgstr "Ostatný hmotný nehnuteľný majetok<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Others"
+msgstr "Iné"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Others (including tax consolidation)"
+msgstr "Ostatné (vrátane daňovej konsolidácie)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Others: To be specified..."
+msgstr "Ostatné: Upresní sa..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"Our work was conducted in accordance with the professional standard "
+"applicable to compilation engagements, as issued by the professional body of "
+"chartered accountants. This engagement is however not an audit or a limited "
+"review."
+msgstr ""
+"Naša práca bola vykonaná v súlade s odbornými štandardmi platnými pre "
+"zostavovanie správ, ktoré vydala profesijná organizácia certifikovaných "
+"účtovníkov. Táto úloha však nie je auditom ani obmedzeným preskúmaním."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Parent Company Details"
+msgstr "Údaje o materskej spoločnosti"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Partner Ledger"
+msgstr "Saldokonto"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Patents: To be specified..."
+msgstr "Patenty: Bude upresnené..."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_performance_and_operations
+msgid "Performance & Operations"
+msgstr "Výkonnosť a prevádzka"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid ""
+"Please provide details of your share of results from joint operations of a "
+"specific nature"
+msgstr ""
+"Uveďte podrobnosti o vašom podiele na výsledkoch spoločných operácií "
+"osobitnej povahy"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Please specify the method used to calculate inventory write-downs."
+msgstr "Uveďte metódu použitú na výpočet zníženia hodnoty zásob."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid "Post-Closing Events"
+msgstr "Udalosti po závierke"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_preamble
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid "Preamble"
+msgstr "Preambula"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"Present the main items of prior period's financial statements that have been "
+"restated to correct the error."
+msgstr ""
+"Uveďte hlavné položky finančných výkazov predchádzajúceho obdobia, ktoré "
+"boli prehodnotené s cieľom opraviť chybu."
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Print"
+msgstr "Tlač"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Print your Report"
+msgstr "Vytlačte svoju správu"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid "Pro rata recognition"
+msgstr "Pomerové uznanie"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_profit_and_loss
+msgid "Profit and Loss"
+msgstr "Zisk a strata"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_additional_information
+msgid "Provide any additional information necessary here..."
+msgstr "Tu uveďte všetky potrebné doplňujúce informácie..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid ""
+"Provide details of any significant off-balance-sheet transactions or "
+"commitments not recorded in the financial statements"
+msgstr ""
+"Uveďte podrobnosti o všetkých významných podsúvahových transakciách alebo "
+"záväzkoch, ktoré nie sú zaznamenané vo finančných výkazoch"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Provide details on loan issuance costs and any loan redemption premiums."
+msgstr ""
+"Uveďte podrobnosti o nákladoch na poskytnutie úveru a akýchkoľvek bonusoch "
+"za splatenie úveru."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"Provide details on the carryback and carryforward of tax losses, and the "
+"split of income tax between current and exceptional results."
+msgstr ""
+"Uveďte podrobnosti o prenose daňových strát do predchádzajúcich období a do "
+"budúcich období a o rozdelení dane z príjmov medzi bežné a mimoriadne "
+"výsledky."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Provide information on the estimated value of long-term investments held in "
+"the portfolio and any changes in their value over the financial year."
+msgstr ""
+"Poskytnite informácie o odhadovanej hodnote dlhodobých investícií v "
+"portfóliu a o akýchkoľvek zmenách ich hodnoty počas finančného roka."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Provisions"
+msgstr "Opatrenia"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "R&D cost"
+msgstr "Náklady na výskum a vývoj"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Receivables and Payables"
+msgstr "Pohľadávky a záväzky"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Receivables and payables are recorded at their nominal value."
+msgstr "Pohľadávky a záväzky sú zaznamenávané v ich nominálnej hodnote."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Receivables and payables denominated in foreign currencies are converted "
+"into euros using the exchange rate at the invoice date."
+msgstr ""
+"Pohľadávky a záväzky denominované v cudzích menách sa prepočítavajú na eurá "
+"pomocou menového kurzu platného v deň vystavenia faktúry."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Refusal to Attest"
+msgstr "Odmietnutie osvedčenia"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Registered Office:"
+msgstr "Sídlo spoločnosti:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Related-Party Transactions"
+msgstr "Transakcie so spriaznenými stranami"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Remuneration due for the fiscal year<br>"
+msgstr "Nárokované odmeny za účtovný rok<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Remuneration for Services"
+msgstr "Odmena za služby"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Renovations: 10 years"
+msgstr "Renovácie: 10 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Repayable Advances"
+msgstr "Splatné zálohy"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_ir_actions_report
+msgid "Report Action"
+msgstr "Akcia výkazu"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Report on Work Conducted"
+msgstr "Správa o vykonanej práci"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Report on Work Performed"
+msgstr "Správa o vykonanej práci"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "Research and Development Expenses"
+msgstr "Náklady na výskum a vývoj"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid ""
+"Research and development costs are recognized as expenses in the period in "
+"which they are incurred."
+msgstr ""
+"Náklady na výskum a vývoj sa vykazujú ako výdavky v období, v ktorom vznikli."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__responsible_user_ids
+msgid "Responsibles"
+msgstr "Zodpovední"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Result breakdown by region"
+msgstr "Rozdelenie výsledkov podľa regiónov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Revenue: {{ revenue }}"
+msgstr "Tržby: {{ revenue }}"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Save"
+msgstr "Uložiť"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Self-Held Shares"
+msgstr "Vlastné akcie"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Set to Done"
+msgstr "Nastaviť na Hotovo"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Set to Draft"
+msgstr "Nastaviť na koncept"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Share Capital"
+msgstr "Základné imanie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares Issues<br>"
+msgstr "Emisie akcií<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares Redeemed/Cancelled<br>"
+msgstr "Vykúpené/zrušené akcie<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares at End of Year<br>"
+msgstr "Akcie na konci roka<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares at Start of Year<br>"
+msgstr "Akcie na začiatku roka<br>"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/signature_input/signature_input.xml:0
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/core/signature_input/signature_input.xml:0
+msgid "Signature"
+msgstr "Podpis"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid "Significant Events"
+msgstr "Významné udalosti"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Software: 3 years"
+msgstr "Softvér: 3 roky"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid ""
+"Specify details for executives, subsidiaries, investments, related "
+"companies, and others."
+msgstr ""
+"Uveďte podrobnosti o vedúcich pracovníkoch, dcérskych spoločnostiach, "
+"investíciách, pridružených spoločnostiach a iných subjektoch."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"Specify the impact of the change as determined at the opening of the period, "
+"identifying the affected financial statement items."
+msgstr ""
+"Uveďte vplyv zmeny stanovený na začiatku obdobia a identifikujte príslušné "
+"položky finančnej správy."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Standard Cost"
+msgstr "Pevné náklady"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__start_date
+msgid "Start Date"
+msgstr "Dátum začiatku"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,help:accountant_knowledge.field_audit_report__start_date
+msgid "Start Date, included in the fiscal year."
+msgstr "Dátum začatia, zahrnutý vo fiškálnom roku."
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Start from our ready-to-use templates"
+msgstr "Začnite s našimi pripravenými šablónami"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "State and justify the change in estimate."
+msgstr "Uveďte a odôvodnite zmenu odhadu."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__status
+msgid "Status"
+msgstr "Stav"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Subsidiaries and Equity Interests"
+msgstr "Dcérske spoločnosti a majetkové podiely"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Subsidiary Details"
+msgstr "Podrobnosti o dcérskej spoločnosti"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_subventions
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid "Subventions"
+msgstr "Dotácie"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+msgid "Supporting Documents"
+msgstr "Podporné dokumenty"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Tangible assets are also valued at their production cost where applicable."
+msgstr ""
+"Hmotný majetok sa tiež oceňuje podľa výrobných nákladov, ak je to vhodné."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Tangible assets are valued at their acquisition cost, which includes:"
+msgstr "Hmotný majetok sa oceňuje v obstarávacej cene, ktorá zahŕňa:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_tax_and_compliance
+msgid "Tax & Compliance"
+msgstr "Dane a daňová povinnosť"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Tax Credits"
+msgstr "Daňové úľavy"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_tax_package
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_tax_package
+msgid "Tax Package"
+msgstr "Daňový balík"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_taxation
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Taxation"
+msgstr "Zdanenie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Technical installations, equipment, and tools<br>"
+msgstr "Technické zariadenia, vybavenie a nástroje<br>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Template"
+msgstr "Šablóna"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid ""
+"The annual financial statements have been prepared in accordance with "
+"applicable accounting standards."
+msgstr ""
+"Ročná účtovná závierka bola zostavená v súlade s platnými účtovnými "
+"štandardmi."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid ""
+"The company has received subsidies that are recognized in operating income "
+"in proportion to the expenses incurred. As a result, subsidies receivable "
+"may be recorded when the grant agreement is signed and eligible expenses "
+"have been incurred, even if the funds have not yet been received."
+msgstr ""
+"Spoločnosť získala dotácie, ktoré sú vykázané v prevádzkových výnosoch "
+"úmerne k vynaloženým nákladom. V dôsledku toho môžu byť pohľadávky z dotácií "
+"zaúčtované v momente podpísania dohody o poskytnutí dotácie a vynaložení "
+"oprávnených nákladov, aj keď finančné prostriedky ešte neboli prijaté."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "The consolidated financial statements can be obtained via..."
+msgstr "Konsolidované finančné výkazy je možné získať prostredníctvom..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "The equity method is used for valuation where applicable."
+msgstr "Na oceňovanie sa v prípade potreby používa metóda ekvivalencie."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"The exemption for valuation of securities in case of abnormal and temporary "
+"decline is applied."
+msgstr ""
+"Uplatňuje sa výnimka pre oceňovanie cenných papierov v prípade abnormálneho "
+"a dočasného poklesu."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid ""
+"The fiscal year ended on {{ end of period }} covers a period of 12 months."
+msgstr ""
+"Fiškálny rok, ktorý skončil {{ end of period }}, pokrýva obdobie 12 mesiacov."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"The following decisions have been made regarding the presentation of the "
+"annual financial statements:"
+msgstr ""
+"V súvislosti s predložením ročnej účtovnej závierky boli prijaté tieto "
+"rozhodnutia:"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/core/account_report/account_report.xml:0
+msgid "The full report will be included in the final document."
+msgstr "Úplná správa bude zahrnutá do záverečného dokumentu."
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/account_report/account_report.xml:0
+msgid ""
+"The full report will be included in the final document. Feel free to tailor "
+"the result using filters and options from the report."
+msgstr ""
+"Úplná správa bude zahrnutá v konečnom dokumente. Výsledok si môžete "
+"prispôsobiť pomocou filtrov a možností zo správy."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"The gross value consists of the purchase cost, excluding incidental "
+"expenses. When the inventory value is lower than the gross value, a "
+"provision for impairment is recorded for the amount of the difference."
+msgstr ""
+"Hrubá hodnota sa skladá z nákupnej ceny bez vedľajších nákladov. Ak je "
+"hodnota zásob nižšia ako hrubá hodnota, zaúčtuje sa opravná položka na "
+"zníženie hodnoty vo výške rozdielu."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid ""
+"The gross value of goods and supplies includes the purchase price and "
+"related incidental costs."
+msgstr ""
+"Hrubá hodnota tovaru a dodávok zahŕňa nákupnú cenu a súvisiace vedľajšie "
+"náklady."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "The key figures are as follows:"
+msgstr "Kľúčové údaje sú nasledovné:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid "The net accounting result is a {{ net accounting result }}."
+msgstr "Čistý účtovný výsledok je {{ net accounting result }}."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid ""
+"The notes and tables provided below form an integral part of the annual "
+"financial statements."
+msgstr ""
+"Poznámky a tabuľky uvedené nižšie tvoria neoddeliteľnú súčasť ročnej "
+"účtovnej závierky."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid ""
+"The portion of subsidies that finance capital expenditures is recognized in "
+"operating income over the same period as the depreciation of the related "
+"assets. The acquired portion not yet recognized in income is recorded under "
+"equity as investment grants."
+msgstr ""
+"Časť dotácií, ktorá financuje kapitálové výdavky, sa vykazuje v "
+"prevádzkových výnosoch v tom istom období ako odpisy príslušných aktív. "
+"Nadobudnutá časť, ktorá ešte nebola vykázaná vo výnosoch, sa vykazuje v "
+"vlastnom imaní ako investičná dotácia."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid ""
+"The primary method used to value the items recorded in the accounts is the "
+"historical cost method."
+msgstr ""
+"Primárnou metódou používanou na oceňovanie položiek zaznamenaných v účtovnej "
+"evidencii je metóda historických nákladov."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"The purchase price (including customs duties and non-recoverable taxes, less "
+"any trade discounts, rebates, or settlement discounts);"
+msgstr ""
+"Kúpna cena (vrátane cla a nevratných daní, mínus akékoľvek obchodné zľavy, "
+"rabaty alebo zľavy z platby);"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid ""
+"The total balance sheet amount before allocation of the result is {{ total "
+"balance sheet }}."
+msgstr ""
+"Celková suma súvahy pred rozdelením výsledku je {{ total balance sheet }}."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "This company is part of a group, and owns the following subsidiaries"
+msgstr ""
+"Táto spoločnosť je súčasťou skupiny a vlastní nasledujúce dcérske spoločnosti"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "This company is part of a group, under the following parent company."
+msgstr ""
+"Táto spoločnosť je súčasťou skupiny pod nasledujúcou materskou spoločnosťou."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__title
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Title"
+msgstr "Titul"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Tools: 10 years"
+msgstr "Nástroje: 10 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Total assets: {{ total balance sheet }}"
+msgstr "Celkové aktíva: {{ total balance sheet }}"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Total<br>"
+msgstr "Celkom<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Transactions with Major Shareholders"
+msgstr "Transakcie s hlavnými akcionármi"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Transactions with Management"
+msgstr "Transakcie s vedením"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Transport equipment: 5 years"
+msgstr "Dopravné prostriedky: 5 rokov"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Unqualified Attestation"
+msgstr "Nekvalifikované osvedčenie"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Valuation of free shares granted<br>"
+msgstr "Ocenenie bezplatne pridelených akcií<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Valuation of multi-year variable compensation<br>"
+msgstr "Ocenenie viacročnej variabilnej odmeny<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Valuation of stock options granted during the year<br>"
+msgstr "Ocenenie akciových opcií udelených počas roka<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Voluntary Change in Accounting Policy"
+msgstr "Dobrovoľná zmena účtovnej politiky"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"We are making the following comment regarding a matter that may affect the "
+"overall consistency and reliability of the financial statements:"
+msgstr ""
+"K záležitosti, ktorá môže ovplyvniť celkovú konzistentnosť a spoľahlivosť "
+"účtovnej závierky, uvádzame nasledujúcu poznámku:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Weighted Average Cost"
+msgstr "Vážený priemerný náklad"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"When applicable, the initial estimate of dismantling, removal, and site "
+"restoration costs related to the asset's location."
+msgstr ""
+"V prípade potreby počiatočný odhad nákladov na demontáž, odstránenie a "
+"obnovu lokality súvisiacej s umiestnením majetku."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Where applicable, receivables are depreciated through provisions to account "
+"for potential collection difficulties. These provisions for impairment are "
+"determined by comparing the acquisition value with the probable realizable "
+"value."
+msgstr ""
+"V prípade potreby sa pohľadávky znehodnocujú prostredníctvom rezerv, aby sa "
+"zohľadnili potenciálne ťažkosti so splácaním. Tieto rezervy na zníženie "
+"hodnoty sa stanovujú porovnaním nadobúdacej hodnoty s pravdepodobnou "
+"realizovateľnou hodnotou."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_workforce
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Workforce"
+msgstr "Pracovná sila"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Workforce employed during the Period"
+msgstr "Počet zamestnancov počas obdobia"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "e.g. Annual Financial Overview"
+msgstr "napr. Ročný finančný prehľad"
+
+#~ msgid "Audit Report Template"
+#~ msgstr "Šablóna audítorskej správy"
+
+#~ msgid "Audit Reports"
+#~ msgstr "Audítorské výkazy"
+
+#~ msgid "Audit Template"
+#~ msgstr "Šablóna auditu"
+
+#~ msgid "Create an Audit Report"
+#~ msgstr "Vytvoriť audítorskú správu"
+
+#~ msgid "Edit Audit Report"
+#~ msgstr "Upraviť správu o audite"

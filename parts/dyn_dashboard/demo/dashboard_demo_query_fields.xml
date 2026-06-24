@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="0">
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_piechart')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_radialbarchart')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_radialbarchart')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_horbarchart')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_linechart')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_linechart')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_linechart-column')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_table')]"
+        />
+    </function>
+    <function name="compute_query_key_ids" model="xx.dashboard.tile">
+        <value
+            model="xx.dashboard.tile"
+            eval="[ref('dyn_dashboard.xx_dashboard_tile_demo-ver-bar')]"
+        />
+    </function>
+    <!-- Field updates -->
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value eval="[('name', '=', 'State Name')]" />
+        </function>
+        <value eval="{'show_on_axis': None}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_piechart')), ('name', '=', 'State Name')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'xaxis'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_piechart')), ('name', '=', 'State Name')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'xaxis'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_radialbarchart')), ('name', '=', 'State Name')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'xaxis'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_radialbarchart')), ('name', '=', '# Partners')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'yaxis'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_demo-ver-bar')), ('name', '=', 'State Name')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'xaxis'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_horbarchart')), ('name', '=', 'State Name')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'xaxis'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_linechart')), ('name', '=', 'State Name')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'xaxis'}" />
+    </function>
+
+    <!--    # Partners linechart (column) Fields-->
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_linechart-column')), ('name', '=', 'state')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'legend'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_linechart-column')), ('name', '=', 'prd')]"
+            />
+        </function>
+        <value eval="{'show_on_axis': 'xaxis'}" />
+    </function>
+
+    <function name="write" model="xx.dashboard.query.field">
+        <function name="search" model="xx.dashboard.query.field">
+            <value
+                eval="[('dashboard_tile_id', '=', ref('dyn_dashboard.xx_dashboard_tile_table')), ('name', '=', 'is_company')]"
+            />
+        </function>
+        <value eval="{'download': False}" />
+    </function>
+</odoo>

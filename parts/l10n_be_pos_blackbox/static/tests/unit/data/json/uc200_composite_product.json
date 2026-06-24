@@ -1,0 +1,127 @@
+{
+  "data": {
+    "language": "NL",
+    "vatNo": "BE0000000097",
+    "estNo": "2000000042",
+    "posId": "CPOS0031234567",
+    "posFiscalTicketNo": 903,
+    "posDateTime": "2024-08-30T15:53:23+02:00",
+    "posSwVersion": "1.8.3",
+    "deviceId": "1631678d-7a85-4ac3-b296-bb4565e873fe",
+    "terminalId": "TER-2-DIN",
+    "bookingPeriodId": "abccd829-a0e5-41ca-a0ae-9eb887f95637",
+    "bookingDate": "2024-08-30",
+    "ticketMedium": "PAPER",
+    "employeeId": "84022899837",
+    "transaction": {
+      "transactionLines": [
+        {
+          "lineType": "COMPOSITE_PRODUCT",
+          "mainProduct": {
+            "productId": "30010",
+            "productName": "Business menu all-in",
+            "departmentId": "30",
+            "departmentName": "Menus",
+            "quantity": 1,
+            "quantityType": "PIECE",
+            "unitPrice": 58,
+            "vats": []
+          },
+          "subProducts": [
+            {
+              "productId": "20001",
+              "productName": "Carpaccio Beef",
+              "departmentId": "20",
+              "departmentName": "Starters",
+              "quantity": 1,
+              "quantityType": "PIECE",
+              "unitPrice": 20,
+              "vats": [
+                {
+                  "label": "B",
+                  "price": 20,
+                  "priceChanges": [
+                    {
+                      "id": "5",
+                      "groupingId": 1,
+                      "name": "MenuDiscount",
+                      "scope": "LINE",
+                      "type": "INTERNAL",
+                      "amount": -4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productId": "22001",
+              "productName": "Burger of the Chef",
+              "departmentId": "22",
+              "departmentName": "Main Dishes",
+              "quantity": 1,
+              "quantityType": "PIECE",
+              "unitPrice": 28,
+              "vats": [
+                {
+                  "label": "B",
+                  "price": 28,
+                  "priceChanges": [
+                    {
+                      "id": "5",
+                      "groupingId": 1,
+                      "name": "MenuDiscount",
+                      "scope": "LINE",
+                      "type": "INTERNAL",
+                      "amount": -6
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productId": "15023",
+              "productName": "MATCHING WINES",
+              "departmentId": "15",
+              "departmentName": "Wines",
+              "quantity": 1,
+              "quantityType": "PIECE",
+              "unitPrice": 24,
+              "vats": [
+                {
+                  "label": "A",
+                  "price": 24,
+                  "priceChanges": [
+                    {
+                      "id": "5",
+                      "groupingId": 1,
+                      "name": "MenuDiscount",
+                      "scope": "LINE",
+                      "type": "INTERNAL",
+                      "amount": -4
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "lineTotal": 58
+        }
+      ],
+      "transactionTotal": 58
+    },
+    "financials": [
+      {
+        "id": "1",
+        "name": "CONTANT",
+        "type": "CASH",
+        "inputMethod": "MANUAL",
+        "amount": 58,
+        "amountType": "PAYMENT",
+        "drawer": {
+          "id": "1",
+          "name": "Drawer 1"
+        }
+      }
+    ]
+  }
+}

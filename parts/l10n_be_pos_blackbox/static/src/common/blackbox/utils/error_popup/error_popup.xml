@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="l10n_be_pos_blackbox.L10nBeBlackboxErrorPopup">
+        <Dialog bodyClass="'p-0'">
+            <t t-set-slot="header">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <h4 class="align-middle my-1">An error has occurred with the blackbox</h4>
+                    <div class="total-orders fw-bolder align-middle my-1">
+                        Errors: <t t-esc="props.errors.length"/>
+                    </div>
+                </div>
+            </t>
+            <div class="o-blackbox-error">
+                <div t-foreach="props.errors" t-as="error" t-key="error_index">
+                    <div class="d-flex align-items-center justify-content-between gap-3 px-3 py-2 mb-2">
+                        <div t-if="props.mutationName">
+                            <p class="p-0 m-0">Mutation</p>
+                            <h3 t-esc="props.mutationName"/>
+                        </div>
+                        <div t-if="error.details.category">
+                            <p class="p-0 m-0">Category</p>
+                            <h3 t-esc="error.details.category"/>
+                        </div>
+                        <div t-if="error.details.message">
+                            <p class="p-0 m-0">Message</p>
+                            <h3 t-esc="error.details.message"/>
+                        </div>
+                        <div t-if="error.details.code">
+                            <p class="p-0 m-0">Code</p>
+                            <h3 t-esc="error.details.code"/>
+                        </div>
+                        <div t-if="error.details.path">
+                            <p class="p-0 m-0">Path</p>
+                            <h3 t-esc="error.details.path"/>
+                        </div>
+                        <div>
+                            <p class="p-0 m-0">View order</p>
+                            <button t-att-class="{'disabled': !this.showViewOrderButton}" class="btn btn-info btn-sm" t-on-click="() => this.viewOrder(this.props.data.order)">
+                                <i class="fa fa-eye" aria-hidden="true" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <t t-set-slot="footer">
+                <div class="w-100 d-flex flex-wrap justify-content-end gap-2">
+                    <button t-if="order" class="btn btn-primary" t-on-click="retry">
+                        Retry
+                    </button>
+                    <button class="btn btn-secondary" t-on-click="props.close">
+                        Close
+                    </button>
+                </div>
+            </t>
+        </Dialog>
+    </t>
+</templates>

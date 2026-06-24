@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.esg_csrd_hr_fleet</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="base.res_config_settings_view_form" />
+            <field name="priority">50</field>
+            <field name="arch" type="xml">
+                <xpath expr="//app[@name='esg']" position="inside">
+                    <xpath expr="//block[@name='esg_report_setting_container']" position="move"/>
+                </xpath>
+                <xpath expr="//app[@name='esg_csrd']" position="replace"/>
+            </field>
+        </record>
+    </data>
+</odoo>

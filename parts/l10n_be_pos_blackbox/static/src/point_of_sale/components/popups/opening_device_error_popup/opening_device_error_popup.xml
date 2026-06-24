@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="l10n_be_pos_blackbox.OpeningDeviceErrorPopup">
+        <Dialog size="'lg'">
+            <t t-set-slot="header">
+                <h4 class="modal-title text-break">
+                    Fiscal Data Module Error
+                </h4>
+            </t>
+            <div class="mb-3">
+                <div class="alert alert-danger" role="alert">
+                    You cannot open an uncertified Point of Sale with this device.
+                </div>
+            </div>
+            <t t-set-slot="footer">
+                <button class="button btn btn-lg btn-primary"
+                    t-on-click="() => this.pos.closePos()">
+                    Go to backend
+                </button>
+            </t>
+        </Dialog>
+    </t>
+</templates>

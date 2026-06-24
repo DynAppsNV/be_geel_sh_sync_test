@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="account_accountant.BankRecReconcileDialogListRenderer" t-inherit="web.ListRenderer" t-inherit-mode="primary">
+        <xpath expr="//th[@t-if='hasOpenFormViewColumn']" position="replace">
+            <th class="o_list_open_form_view w-print-0 p-print-0"/>
+        </xpath>
+
+        <xpath expr="//div[hasclass('o_list_renderer')]" position="attributes">
+            <attribute name="class" add="o_bank_rec_list_renderer" separator=" "/>
+        </xpath>
+
+        <xpath expr="//table" position="before">
+            <div t-if="props.bankRecInfo and !env.isSmall" class="o_bank_rec_info_header p-3 d-flex gap-2 min-w-0 border-bottom" name="bank_reconciliation_info">
+                <span class="text-nowrap min-w-2 o_bank_rec_statement_line_date" t-esc="props.bankRecInfo.date"/> -
+                <div t-esc="props.bankRecInfo.reference"/>
+                <div class="text-nowrap text-end o_bank_rec_statement_line_remaining_amount ms-auto" name="remaining_amount">
+                    <span class="text-muted">Balance: </span>
+                    <t t-if="!hideRemainingAmount" t-esc="remainingAmountFormatted"/>
+                    <t t-else=""> / </t>
+                </div>
+            </div>
+        </xpath>
+    </t>
+
+    <t t-name="account_accountant.BankRecReconcileDialogListView" t-inherit="web.ListView" t-inherit-mode="primary">
+        <xpath expr="//t[@t-component='props.Renderer']" position="attributes">
+            <attribute name="bankRecInfo">props.bankRecInfo</attribute>
+        </xpath>
+    </t>
+
+    <t t-name="account_accountant.BankRecReconcileDialogListRenderer.RecordRow" t-inherit="web.ListRenderer.RecordRow" t-inherit-mode="primary">
+        <xpath expr="//t[@t-if='hasOpenFormViewColumn']" position="replace">
+            <td class="o_list_record_open_form_view w-print-0 p-print-0 text-center"
+                t-custom-click.stop="() => this.openMoveView(record)"
+            >
+                <button class="btn btn-link align-top text-end"
+                        name="Open in form view"
+                        aria-label="Open in form view"
+                >View</button>
+            </td>
+        </xpath>
+    </t>
+</templates>

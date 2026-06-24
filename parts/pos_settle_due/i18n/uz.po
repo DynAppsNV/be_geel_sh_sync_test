@@ -1,0 +1,432 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_settle_due
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-27 18:44+0000\n"
+"PO-Revision-Date: 2025-10-08 18:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "(with cart:"
+msgstr "(savat bilan:"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_account_bank_statement_line__pos_amount_unsettled
+#: model:ir.model.fields,field_description:pos_settle_due.field_account_move__pos_amount_unsettled
+#, fuzzy
+msgid "Amount To Pay In POS"
+msgstr "POS orqali to‘lanadigan summa"
+
+#. module: pos_settle_due
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.customer_due_pos_order_list_view
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.due_account_move_list_view
+#, fuzzy
+msgid "Amount total"
+msgstr "Umumiy summa"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order__commercial_partner_id
+#, fuzzy
+msgid "Commercial Entity"
+msgstr "Tijorat tashkiloti"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_res_company
+#, fuzzy
+msgid "Companies"
+msgstr "Kompaniyalar"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_res_partner
+#, fuzzy
+msgid "Contact"
+msgstr "Aloqa"
+
+#. module: pos_settle_due
+#: model:ir.model,website_form_label:pos_settle_due.model_res_partner
+#, fuzzy
+msgid "Create a Customer"
+msgstr "Mijoz yaratish"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_list.xml:0
+#, fuzzy
+msgid "Credit limit reached!"
+msgstr "Kredit limiti tugadi!"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "Credit limit:"
+msgstr "Kredit limiti:"
+
+#. module: pos_settle_due
+#: model:product.template,name:pos_settle_due.product_product_deposit_product_template
+#, fuzzy
+msgid "Deposit"
+msgstr "Depozit"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_config__deposit_product_id
+#, fuzzy
+msgid "Deposit Product"
+msgstr "Depozit mahsuloti"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "Deposit money"
+msgstr "Pul qo‘yish"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "Deposited:"
+msgstr "Qo‘yilgan summa:"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_account_move__display_name
+#: model:ir.model.fields,field_description:pos_settle_due.field_ir_ui_view__display_name
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order_line__display_name
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_session__display_name
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_company__display_name
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_partner__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid "Do you want to deposit %s to %s?"
+msgstr "%s ni %s ga qo‘ymoqchimisiz?"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid ""
+"Do you want to deposit money to a specific customer? If so, first select him/"
+"her."
+msgstr ""
+"Ma'lum bir mijozga pul qo‘ymoqchimisiz? Agar shunday bo‘lsa, avval uni "
+"tanlang."
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order__customer_due_total
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.due_account_move_list_view
+#, fuzzy
+msgid "Due"
+msgstr "Qarz"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/payment_screen/payment_screen.js:0
+#, fuzzy
+msgid "Empty Order"
+msgstr "Bo‘sh buyurtma"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/payment_screen/payment_screen.js:0
+#, fuzzy
+msgid "Empty orders cannot be invoiced."
+msgstr "Bo‘sh buyurtmalarga hisob-faktura yozib bo‘lmaydi."
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid "Error"
+msgstr "Xatolik"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_account_move__id
+#: model:ir.model.fields,field_description:pos_settle_due.field_ir_ui_view__id
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order_line__id
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_session__id
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_company__id
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_partner__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order__init_customer_due_total
+#, fuzzy
+msgid "Initial due (before any settlement)"
+msgstr "Dastlabki qarz (har qanday to‘lovgacha)"
+
+#. module: pos_settle_due
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.due_account_move_list_view
+#, fuzzy
+msgid "Invoice Date"
+msgstr "Hisob-faktura sanasi"
+
+#. module: pos_settle_due
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.due_account_move_list_view
+#, fuzzy
+msgid "Invoices"
+msgstr "Hisob-fakturalar"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_account_move
+#, fuzzy
+msgid "Journal Entry"
+msgstr "Jurnal yozuvi"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order__settled_orders_count
+#, fuzzy
+msgid "Number of settled orders"
+msgstr "To‘langan buyurtmalar soni"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_account_bank_statement_line__pos_order_line_ids
+#: model:ir.model.fields,field_description:pos_settle_due.field_account_move__pos_order_line_ids
+#, fuzzy
+msgid "Order lines settling the invoice"
+msgstr "Hisob-fakturani to‘lovchi buyurtma qatorlari"
+
+#. module: pos_settle_due
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.customer_due_pos_order_list_view
+#, fuzzy
+msgid "POS Orders"
+msgstr "POS buyurtmalari"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_pos_config
+#, fuzzy
+msgid "Point of Sale Configuration"
+msgstr "Sotuv nuqtasi sozlamalari"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_pos_order_line
+#, fuzzy
+msgid "Point of Sale Order Lines"
+msgstr "Sotuv nuqtasi buyurtma qatorlari"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_pos_order
+#, fuzzy
+msgid "Point of Sale Orders"
+msgstr "Sotuv nuqtasi buyurtmalari"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_pos_session
+#, fuzzy
+msgid "Point of Sale Session"
+msgstr "Sotuv nuqtasi sessiyasi"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/services/pos_store.js:0
+#, fuzzy
+msgid "Select the payment method to deposit money"
+msgstr "Pul qo‘yish uchun to‘lov usulini tanlang"
+
+#. module: pos_settle_due
+#: model:product.template,name:pos_settle_due.product_product_settle_product_template
+#, fuzzy
+msgid "Settle Due"
+msgstr "Qarzni to‘lash"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_config__settle_due_product_id
+#, fuzzy
+msgid "Settle Due Product"
+msgstr "Qarz to‘lash mahsuloti"
+
+#. module: pos_settle_due
+#: model:product.template,name:pos_settle_due.product_product_settle_invoice_product_template
+#, fuzzy
+msgid "Settle Invoice"
+msgstr "Hisob-fakturani to‘lash"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_config__settle_invoice_product_id
+#, fuzzy
+msgid "Settle Invoice Product"
+msgstr "Hisob-faktura to‘lash mahsuloti"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "Settle due amount"
+msgstr "Qarz summasini to‘lash"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid "Settle due orderlines"
+msgstr "Qarz buyurtma qatorlarini to‘lash"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "Settle invoices"
+msgstr "Hisob-fakturalarni to‘lash"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "Settle orders"
+msgstr "Buyurtmalarni to‘lash"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order_line__settled_invoice_id
+#, fuzzy
+msgid "Settled Invoice"
+msgstr "To‘langan hisob-faktura"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order_line__settled_order_id
+#, fuzzy
+msgid "Settled Order"
+msgstr "To‘langan buyurtma"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_pos_order__settled_order_line_ids
+#, fuzzy
+msgid "Settled Order Lines"
+msgstr "To‘langan buyurtma qatorlari"
+
+#. module: pos_settle_due
+#. odoo-python
+#: code:addons/pos_settle_due/models/pos_order.py:0
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.pos_order_form_inherit_pos_settle_due
+#, fuzzy
+msgid "Settled Orders"
+msgstr "To‘langan buyurtmalar"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_partner__pos_orders_amount_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_users__pos_orders_amount_due
+#, fuzzy
+msgid "Sum of customers PoS orders's due amount"
+msgstr "Mijozlarning POS buyurtmalari bo‘yicha qarz summalari yig‘indisi"
+
+#. module: pos_settle_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_partner__invoices_amount_due
+#: model:ir.model.fields,field_description:pos_settle_due.field_res_users__invoices_amount_due
+#, fuzzy
+msgid "Sum of customers's invoice due amount"
+msgstr "Mijozlarning hisob-fakturalari bo‘yicha qarz summalari yig‘indisi"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid "The order is empty"
+msgstr "Buyurtma bo‘sh"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid ""
+"The selected customer is not in the list of partners of the ongoing settling "
+"orderlines."
+msgstr ""
+"Tanlangan mijoz joriy to‘lanayotgan buyurtma qatorlaridagi hamkorlar "
+"ro‘yxatida yo‘q."
+
+#. module: pos_settle_due
+#: model:ir.model.fields,help:pos_settle_due.field_pos_config__settle_due_product_id
+#, fuzzy
+msgid "This product is used as to settle due of customer account."
+msgstr "Bu mahsulot mijoz hisobidagi qarzlarni to‘lash uchun qo‘llaniladi."
+
+#. module: pos_settle_due
+#: model:ir.model.fields,help:pos_settle_due.field_pos_config__settle_invoice_product_id
+#, fuzzy
+msgid "This product is used as to settle invoices of customer."
+msgstr "Bu mahsulot mijozning hisob-fakturalarini to‘lash uchun qo‘llaniladi."
+
+#. module: pos_settle_due
+#: model:ir.model.fields,help:pos_settle_due.field_pos_config__deposit_product_id
+#, fuzzy
+msgid "This product is used to deposit money on customer account."
+msgstr "Ushbu mahsulot mijoz hisobiga pul qo‘yish uchun ishlatiladi."
+
+#. module: pos_settle_due
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.customer_due_pos_order_list_view
+#: model_terms:ir.ui.view,arch_db:pos_settle_due.due_account_move_list_view
+#, fuzzy
+msgid "Total due"
+msgstr "Jami qarz"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/screens/partner_list/partner_line/partner_line.xml:0
+#, fuzzy
+msgid "Total due:"
+msgstr "Jami to‘lanishi kerak:"
+
+#. module: pos_settle_due
+#: model:ir.model,name:pos_settle_due.model_ir_ui_view
+#, fuzzy
+msgid "View"
+msgstr "Ko‘rish"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid "Yes"
+msgstr "Ha"
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid "You can not deposit zero amount."
+msgstr "Nol miqdordagi summani depozitga qo‘ya olmaysiz."
+
+#. module: pos_settle_due
+#. odoo-javascript
+#: code:addons/pos_settle_due/static/src/app/utils/order_payment_validation.js:0
+#, fuzzy
+msgid "You cannot refund a deposit/settling order."
+msgstr "Depozit yoki hisob-kitob orderini qaytarib ololmaysiz."
+
+#. module: pos_settle_due
+#. odoo-python
+#: code:addons/pos_settle_due/models/pos_order.py:0
+#, fuzzy
+msgid "id"
+msgstr "id"

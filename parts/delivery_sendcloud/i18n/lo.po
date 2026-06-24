@@ -1,0 +1,774 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * delivery_sendcloud
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-08 17:41+0000\n"
+"PO-Revision-Date: 2026-06-06 13:16+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"delivery_sendcloud/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"\n"
+"Additionally, some individual product(s) are too heavy for the heaviest available shipping method.\n"
+"                             \n"
+"Divide the quantity of the following product(s) across your packages if possible or choose another carrier:\n"
+"\t%s"
+msgstr ""
+"\n"
+"ນອກຈາກນີ້, ບາງສິນຄ້າແມ່ນມີນ້ຳໜັກເກີນໄປສຳລັບວິທີການຈັດສົ່ງທີ່ຮອງຮັບນ້ຳໜັກໄດ້ຫຼາຍທີ່ສຸດທີ່ມີໃຫ້.\n"
+"                             \n"
+"ກະລຸນາແບ່ງຈຳນວນສິນຄ້າຕໍ່ໄປນີ້ໃສ່ຫຼາຍຫໍ່ເຄື່ອງຖ້າເປັນໄປໄດ້ ຫຼື ເລືອກຜູ້ໃຫ້ບໍລິການຈັດສົ່ງອື່ນ:\n"
+"\t%s"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"\n"
+"Try to distribute your products across your packages so that they weigh less than %(max_weight)s %(unit)s or choose another carrier."
+msgstr ""
+"\n"
+"ພະຍາຍາມແບ່ງສິນຄ້າຂອງທ່ານໃສ່ໃນຫຼາຍຫໍ່ເຄື່ອງ ເພື່ອໃຫ້ນ້ຳໜັກຂອງພວກມັນໜ້ອຍກວ່າ %(max_weight)s %"
+"(unit)s ຫຼື ເລືອກຜູ້ໃຫ້ບໍລິການຈັດສົ່ງອື່ນ."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+" Please make sure there is an address with the same name under \"Address "
+"Name (optional)\" in your Sendcloud Address configuration."
+msgstr ""
+"ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈວ່າ ມີທີ່ຢູ່ທີ່ມີຊື່ດຽວກັນພາຍໃຕ້ \"ຊື່ທີ່ຢູ່ (ທາງເລືອກ)\" ໃນການຕັ້ງຄ່າທີ່ຢູ່ Sendcloud "
+"ຂອງທ່ານ."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "%(partner_name)s email required"
+msgstr "ຕ້ອງການອີເມວຂອງ %(partner_name)s"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "%(partner_name)s phone required"
+msgstr "ຕ້ອງການເບີໂທລະສັບຂອງ %(partner_name)s"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid ""
+"<i class=\"fa fa-exclamation-triangle\"/> Do not forget to load your "
+"SendCloud shipping products for a valid configuration."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> ຢ່າລືມໂຫລດສິນຄ້າການຈັດສົ່ງ SendCloud ຂອງທ່າ"
+"ນເພື່ອໃຫ້ການຕັ້ງຄ່າຖືກຕ້ອງ."
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid ""
+"<i class=\"fa fa-exclamation-triangle\"/> In test environment, to avoid "
+"charges, your shippings are automatically <b>cancelled</b> after the label "
+"creation."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> ໃນສະພາບແວດລ້ອມທົດລອງ, ເພື່ອຫຼີກເວັ້ນຄ່າໃຊ້ຈ່າ"
+"ຍ, ການຈັດສົ່ງຂອງທ່ານຈະຖືກ <b>ຍົກເລີກ</b> ໂດຍອັດຕະໂນມັດ ຫຼັງຈາກສ້າງປ້າຍຕິດ."
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid ""
+"<i class=\"fa fa-exclamation-triangle\"/> Only administrators can configure "
+"the public and private keys."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/> ມີພຽງແຕ່ຜູ້ເບິ່ງແຍງລະບົບເທົ່ານັ້ນທີ່ສາມາດຕັ້ງຄ່າລະຫັ"
+"ດສາທາລະນະ ແລະ ລະຫັດສ່ວນຕົວໄດ້."
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_shipping_method_sendcloud
+msgid ""
+"<i class=\"fa fa-info-circle\"/> Available shipping products depend on "
+"enabled carriers in your Sendcloud account."
+msgstr ""
+"<i class=\"fa fa-info-circle\"/> ສິນຄ້າການຈັດສົ່ງທີ່ມີໃຫ້ ແມ່ນຂຶ້ນກັບຜູ້ໃຫ້ບໍລິການຈັດສົ່ງທີ່ເປີດໃຊ້ໃນບັ"
+"ນຊີ Sendcloud ຂອງທ່ານ."
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__sendcloud_products_code
+msgid "Active Products Code"
+msgstr "ລະຫັດສິນຄ້າທີ່ໃຊ້ງານຢູ່"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__functionalities
+msgid "Available Functionalities"
+msgstr "ຄຸນສົມບັດທີ່ມີໃຫ້"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_has_custom_functionalities
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__can_customize_functionalities
+msgid "Can Customize Functionalities"
+msgstr "ສາມາດປັບແຕ່ງຄຸນສົມບັດໄດ້"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_shipping_method_sendcloud
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_stock_package_type__package_carrier_type
+msgid "Carrier"
+msgstr "ຜູ້ໃຫ້ບໍລິການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "Choose Sendcloud Shipping Products"
+msgstr "ເລືອກສິນຄ້າການຈັດສົ່ງ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model,name:delivery_sendcloud.model_sendcloud_shipping_wizard
+msgid "Choose from the available sendcloud shipping methods"
+msgstr "ເລືອກຈາກວິທີການຈັດສົ່ງ Sendcloud ທີ່ມີໃຫ້"
+
+#. module: delivery_sendcloud
+#: model:ir.model,name:delivery_sendcloud.model_sendcloud_shipping_product
+msgid "Choose from the available sendcloud shipping products"
+msgstr "ເລືອກຈາກສິນຄ້າການຈັດສົ່ງ Sendcloud ທີ່ມີໃຫ້"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_shipping_method_sendcloud
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "Could not find currency %s"
+msgstr "ບໍ່ສາມາດຊອກຫາສະກຸນເງິນ %s"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "Could not get document!"
+msgstr "ບໍ່ສາມາດເອົາເອກະສານໄດ້!"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__create_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__create_date
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid "Default Package Type"
+msgstr "ປະເພດຫໍ່ເຄື່ອງເລີ່ມຕົ້ນ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_default_package_type_id
+msgid "Default Package Type for Sendcloud"
+msgstr "ປະເພດຫໍ່ເຄື່ອງເລີ່ມຕົ້ນສຳລັບ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__carrier_id
+msgid "Delivery"
+msgstr "ການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_shipping_method_sendcloud
+msgid "Delivery Product"
+msgstr "ສິນຄ້າການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,help:delivery_sendcloud.field_delivery_carrier__sendcloud_shipping_rules
+msgid ""
+"Depending your Sendcloud account type, through rules you can define the shipping method to use depending on different conditions like destination, weight, value, etc.\n"
+"Rules can override shipping product selected in Odoo"
+msgstr ""
+"ຂຶ້ນກັບປະເພດບັນຊີ Sendcloud ຂອງທ່ານ, ທ່ານສາມາດກຳນົດກົດເກນເພື່ອເລືອກວິທີການຈັດສົ່ງທີ່ຈະໃຊ້ ໂດຍອີງຕາ"
+"ມເງື່ອນໄຂຕ່າງໆ ເຊັ່ນ: ປາຍທາງ, ນ້ຳໜັກ, ມູນຄ່າ ແລະ ອື່ນໆ.\n"
+"ກົດເກນເຫຼົ່ານີ້ສາມາດປ່ຽນແທນສິນຄ້າການຈັດສົ່ງທີ່ເລືອກໃນ Odoo ໄດ້"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__display_name
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__display_name
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__display_name
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_stock_package_type__display_name
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"Each address line can only contain a maximum of 75 characters. You can split"
+" the address into multiple lines to try to avoid this limitation."
+msgstr ""
+"ທີ່ຢູ່ແຕ່ລະແຖວສາມາດມີຕົວອັກສອນໄດ້ສູງສຸດ 75 ຕົວ. ທ່ານສາມາດແບ່ງທີ່ຢູ່ອອກເປັນຫຼາຍແຖວເພື່ອຫຼີກເວັ້ນຂໍ້ຈຳກັດນີ້."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"Ensure picking has shipping weight, if using packages, each package should "
+"have a shipping weight"
+msgstr ""
+"ກວດສອບໃຫ້ແນ່ໃຈວ່າການເບີກເຄື່ອງມີນ້ຳໜັກການຈັດສົ່ງ, ຖ້າໃຊ້ຫໍ່ເຄື່ອງ, ແຕ່ລະຫໍ່ຄວນມີນ້ຳໜັກການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "Failed to create the return label!"
+msgstr "ສ້າງປ້າຍຕິດການສົ່ງຄືນບໍ່ສຳເລັດ!"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "Failed to get the actual price!"
+msgstr "ດຶງລາຄາຕົວຈິງບໍ່ສຳເລັດ!"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_product_functionalities
+msgid "Functionalities"
+msgstr "ຄຸນສົມບັດ"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid "Functionality Filters"
+msgstr "ຕົວກັ່ນຕອງຄຸນສົມບັດ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "Go to the shipping product"
+msgstr "ໄປທີ່ສິນຄ້າການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_can_batch_shipping
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__has_multicollo
+msgid "Has Multicollo"
+msgstr "ມີການຈັດສົ່ງຫຼາຍຫໍ່ (Multicollo)"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__id
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__id
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__id
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_stock_package_type__id
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_stock_picking__id
+msgid "ID"
+msgstr "ລະຫັດ (ID)"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid "Integration"
+msgstr "ການເຊື່ອມຕໍ່ລະບົບ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__write_uid
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__write_date
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid "Load your products"
+msgstr "ໂຫລດສິນຄ້າຂອງທ່ານ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"Make sure country codes are set in partner country and warehouse country"
+msgstr ""
+"ກວດສອບໃຫ້ແນ່ໃຈວ່າມີການຕັ້ງລະຫັດປະເທດໃນປະເທດຂອງຄູ່ຄ້າ ແລະ ປະເທດຂອງສາງສິນຄ້າ"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid "Max height"
+msgstr "ຄວາມສູງສູງສຸດ"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid "Max length"
+msgstr "ຄວາມຍາວສູງສຸດ"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid "Max width"
+msgstr "ຄວາມກວ້າງສູງສຸດ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__max_weight
+msgid "Maximum Weight"
+msgstr "ນ້ຳໜັກສູງສຸດ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__min_weight
+msgid "Minimum Weight"
+msgstr "ນ້ຳໜັກຕ່ຳສຸດ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "Must be a Sendcloud carrier!"
+msgstr "ຕ້ອງເປັນຜູ້ໃຫ້ບໍລິການຈັດສົ່ງຂອງ Sendcloud!"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "No address found with contact name %s on your sendcloud account."
+msgstr "ບໍ່ພົບທີ່ຢູ່ທີ່ມີຊື່ຜູ້ຕິດຕໍ່ %s ໃນບັນຊີ Sendcloud ຂອງທ່ານ."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "No picking or order provided"
+msgstr "ບໍ່ມີການລະບຸການເບີກເຄື່ອງ ຫຼື ການສັ່ງຊື້"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid ""
+"Note that a unit of the product '%s' is heavier than the maximum weight "
+"allowed by the shipping method."
+msgstr ""
+"ໝາຍເຫດ: ສິນຄ້າ '%s' ໜຶ່ງໜ່ວຍ ມີນ້ຳໜັກເກີນກວ່ານ້ຳໜັກສູງສຸດທີ່ວິທີການຈັດສົ່ງນີ້ອະນຸຍາດ."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid ""
+"Note that this price is for %s packages since the order weight is more than "
+"the maximum packaging weight."
+msgstr ""
+"ໝາຍເຫດ: ລາຄານີ້ແມ່ນສຳລັບຫໍ່ເຄື່ອງ %s ຫໍ່ ເນື່ອງຈາກນ້ຳໜັກການສັ່ງຊື້ເກີນນ້ຳໜັກສູງສຸດຂອງແຕ່ລະຫໍ່."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid ""
+"Note that this price is for %s packages since the order weight is more than "
+"the maximum weight allowed by the shipping method."
+msgstr ""
+"ໝາຍເຫດ: ລາຄານີ້ແມ່ນສຳລັບຫໍ່ເຄື່ອງ %s ຫໍ່ ເນື່ອງຈາກນ້ຳໜັກການສັ່ງຊື້ເກີນນ້ຳໜັກສູງສຸດທີ່ວິທີການຈັດສົ່ງນີ້ອະນຸຍາດ."
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid "Options"
+msgstr "ທາງເລືອກ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "Order below minimum weight of carrier"
+msgstr "ການສັ່ງຊື້ມີນ້ຳໜັກຕ່ຳກວ່ານ້ຳໜັກຂັ້ນຕ່ຳຂອງຜູ້ຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid "Other Functionalities"
+msgstr "ຄຸນສົມບັດອື່ນໆ"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid ""
+"Please check SendCloud return product documentation before selecting return "
+"product. For some products, you can be charged for return labels printed but"
+" not used."
+msgstr ""
+"ກະລຸນາກວດສອບເອກະສານສິນຄ້າສົ່ງຄືນຂອງ SendCloud ກ່ອນທີ່ຈະເລືອກສິນຄ້າສົ່ງຄືນ. ສຳລັບບາງສິນຄ້າ, ທ່ານອ"
+"າດຈະຖືກຄິດຄ່າທຳນຽມສຳລັບປ້າຍສົ່ງຄືນທີ່ພິມອອກແລ້ວແຕ່ບໍ່ໄດ້ໃຊ້."
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_shipping_method_sendcloud
+msgid "Return Product"
+msgstr "ສິນຄ້າສົ່ງຄືນ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__return_products
+msgid "Return Products"
+msgstr "ສິນຄ້າສົ່ງຄືນ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,help:delivery_sendcloud.field_delivery_carrier__country_id
+msgid "Select the country to be used by this delivery method"
+msgstr "ເລືອກປະເທດທີ່ຈະໃຊ້ກັບວິທີການຈັດສົ່ງນີ້"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_delivery_carrier_form
+msgid "SendCloud Configuration"
+msgstr "ການຕັ້ງຄ່າ SendCloud"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.res_config_settings_view_form_sale
+msgid "SendCloud Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ SendCloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields.selection,name:delivery_sendcloud.selection__delivery_carrier__delivery_type__sendcloud
+#: model:ir.model.fields.selection,name:delivery_sendcloud.selection__stock_package_type__package_carrier_type__sendcloud
+msgid "Sendcloud"
+msgstr "Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,help:delivery_sendcloud.field_delivery_carrier__sendcloud_public_key
+msgid "Sendcloud API Integration Public key"
+msgstr "ລະຫັດສາທາລະນະ (Public key) ສຳລັບການເຊື່ອມຕໍ່ Sendcloud API"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,help:delivery_sendcloud.field_delivery_carrier__sendcloud_secret_key
+msgid "Sendcloud API Integration Secret key"
+msgstr "ລະຫັດລັບ (Secret key) ສຳລັບການເຊື່ອມຕໍ່ Sendcloud API"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_stock_picking__sendcloud_parcel_ref
+msgid "Sendcloud Parcel Reference"
+msgstr "ລະຫັດອ້າງອີງຫໍ່ເຄື່ອງ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__sendcloud_code
+msgid "Sendcloud Product Identifier"
+msgstr "ລະຫັດລະບຸສິນຄ້າ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_public_key
+msgid "Sendcloud Public Key"
+msgstr "ລະຫັດສາທາລະນະ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_return_id
+msgid "Sendcloud Return"
+msgstr "ການສົ່ງຄືນ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_stock_picking__sendcloud_return_parcel_ref
+msgid "Sendcloud Return Parcel Ref"
+msgstr "ລະຫັດອ້າງອີງຫໍ່ເຄື່ອງສົ່ງຄືນ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_return_name
+msgid "Sendcloud Return Shipping Product"
+msgstr "ສິນຄ້າການຈັດສົ່ງສົ່ງຄືນ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_secret_key
+msgid "Sendcloud Secret Key"
+msgstr "ລະຫັດລັບ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_shipping_id
+msgid "Sendcloud Shipping"
+msgstr "ການຈັດສົ່ງ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.res_config_settings_view_form_stock
+msgid "Sendcloud Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ Sendcloud"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_shipping_name
+msgid "Sendcloud Shipping Product"
+msgstr "ສິນຄ້າການຈັດສົ່ງ Sendcloud"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"Sendcloud is not responding. Check your credentials and/or retry later."
+msgstr ""
+"Sendcloud ບໍ່ຕອບສະໜອງ. ກະລຸນາກວດສອບຂໍ້ມູນປະຈຳຕົວຂອງທ່ານ ແລະ/ຫຼື ລອງໃໝ່ພາຍຫຼັງ."
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__country_id
+msgid "Ship From"
+msgstr "ສົ່ງຈາກ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "Shipment %s cancelled"
+msgstr "ການຈັດສົ່ງ %s ຖືກຍົກເລີກແລ້ວ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__carrier
+msgid "Shipping Carrier"
+msgstr "ຜູ້ໃຫ້ບໍລິການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#: model:ir.model,name:delivery_sendcloud.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_product__name
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.view_shipping_method_sendcloud
+msgid "Shipping Product"
+msgstr "ສິນຄ້າການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_sendcloud_shipping_wizard__shipping_products
+msgid "Shipping Products"
+msgstr "ສິນຄ້າການຈັດສົ່ງ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,help:delivery_sendcloud.field_delivery_carrier__sendcloud_default_package_type_id
+msgid ""
+"Some carriers require package dimensions, you can define these in a package "
+"type that you set as default"
+msgstr ""
+"ຜູ້ໃຫ້ບໍລິການບາງລາຍຕ້ອງການຂະໜາດຂອງຫໍ່ເຄື່ອງ, ທ່ານສາມາດກຳນົດສິ່ງເຫຼົ່ານີ້ໄວ້ໃນປະເພດຫໍ່ເຄື່ອງທີ່ທ່ານຕັ້ງເປັນຄ່"
+"າເລີ່ມຕົ້ນ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"Some packages in your transfer are too heavy for the heaviest available "
+"shipping method."
+msgstr ""
+"ບາງຫໍ່ເຄື່ອງໃນການໂອນຍ້າຍຂອງທ່ານ ມີນ້ຳໜັກເກີນໄປສຳລັບວິທີການຈັດສົ່ງທີ່ຮອງຮັບນ້ຳໜັກໄດ້ຫຼາຍທີ່ສຸດທີ່ມີໃຫ້."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"Something went wrong, parcel not returned from Sendcloud:\n"
+" %s'."
+msgstr ""
+"ມີບາງຢ່າງຜິດພາດ, ຫໍ່ເຄື່ອງບໍ່ໄດ້ຖືກສົ່ງຄືນຈາກ Sendcloud:\n"
+" %s'."
+
+#. module: delivery_sendcloud
+#: model:ir.model,name:delivery_sendcloud.model_stock_package_type
+msgid "Stock package type"
+msgstr "ປະເພດຫໍ່ເຄື່ອງໃນສາງ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid "The %s address needs to have the street, city, zip, and country"
+msgstr "ທີ່ຢູ່ %s ຈຳເປັນຕ້ອງມີ ຖະໜົນ, ເມືອງ, ລະຫັດໄປສະນີ ແລະ ປະເທດ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid ""
+"The cancellation was rejected for the parcel(s) with the following id:\n"
+"%(details)s\n"
+"Either:\n"
+"\t - The parcel is already cancelled\n"
+"\t - The parcel has been announced more than 42 days ago\n"
+"\t - The parcel has already been delivered"
+msgstr ""
+"ການຍົກເລີກຖືກປະຕິເສດສຳລັບຫໍ່ເຄື່ອງທີ່ມີລະຫັດດັ່ງຕໍ່ໄປນີ້:\n"
+"%(details)s\n"
+"ສາເຫດອາດຈະເປັນ:\n"
+"\t - ຫໍ່ເຄື່ອງຖືກຍົກເລີກແລ້ວ\n"
+"\t - ຫໍ່ເຄື່ອງໄດ້ຖືກແຈ້ງລົງທະບຽນມາຫຼາຍກວ່າ 42 ວັນແລ້ວ\n"
+"\t - ຫໍ່ເຄື່ອງໄດ້ຖືກຈັດສົ່ງສຳເລັດແລ້ວ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"The delivery address of the customer has been removed from the pickup "
+"location. This information is required by Sendcloud. Please go to the "
+"delivery partner via the delivery order and make sure the parent of the "
+"delivery partner is the partner you want to ship to."
+msgstr ""
+"ທີ່ຢູ່ຈັດສົ່ງຂອງລູກຄ້າຖືກລຶບອອກຈາກສະຖານທີ່ຮັບເຄື່ອງ. ຂໍ້ມູນນີ້ແມ່ນຈຳເປັນສຳລັບ Sendcloud. ກະລຸນາໄປທີ່ຄູ່ຄ້າກ"
+"ານຈັດສົ່ງຜ່ານໃບສັ່ງຈັດສົ່ງ ແລະ ກວດສອບໃຫ້ແນ່ໃຈວ່າ ບໍລິສັດແມ່ຂອງຄູ່ຄ້າການຈັດສົ່ງ ແມ່ນຄູ່ຄ້າທີ່ທ່ານຕ້ອງການຈັດສົ່ງ"
+"ໃຫ້."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"The estimated shipping price cannot be computed because the weight is missing for the following product(s): \n"
+" %s"
+msgstr ""
+"ບໍ່ສາມາດຄິດໄລ່ລາຄາການຈັດສົ່ງໂດຍປະມານໄດ້ ເນື່ອງຈາກບໍ່ມີຂໍ້ມູນນ້ຳໜັກສຳລັບສິນຄ້າຕໍ່ໄປນີ້: \n"
+" %s"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "The shipping product actually configured can't handle this delivery"
+msgstr "ສິນຄ້າການຈັດສົ່ງທີ່ຕັ້ງຄ່າໄວ້ໃນປະຈຸບັນ ບໍ່ສາມາດຮອງຮັບການຈັດສົ່ງນີ້ໄດ້"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"The total weight of your transfer is too heavy for the heaviest available "
+"shipping method."
+msgstr ""
+"ນ້ຳໜັກທັງໝົດຂອງການໂອນຍ້າຍຂອງທ່ານ ມີນ້ຳໜັກເກີນໄປສຳລັບວິທີການຈັດສົ່ງທີ່ຮອງຮັບນ້ຳໜັກໄດ້ຫຼາຍທີ່ສຸດທີ່ມີໃຫ້."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid ""
+"There are no shipping products available, please update the 'Shipping From' "
+"field or activate suitable carriers in your sendcloud account"
+msgstr ""
+"ບໍ່ມີສິນຄ້າການຈັດສົ່ງທີ່ມີໃຫ້, ກະລຸນາອັບເດດຂໍ້ມູນໃນຫ້ອງ 'ສົ່ງຈາກ' ຫຼື ເປີດໃຊ້ຜູ້ໃຫ້ບໍລິການທີ່ເໝາະສົມໃນບັນຊີ "
+"Sendcloud ຂອງທ່ານ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid ""
+"There is no rate available for this order with the selected shipping "
+"product."
+msgstr "ບໍ່ມີອັດຕາຄ່າບໍລິການສຳລັບໃບສັ່ງຊື້ນີ້ ດ້ວຍສິນຄ້າການຈັດສົ່ງທີ່ເລືອກ."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+#: code:addons/delivery_sendcloud/tests/test_delivery_sendcloud.py:0
+msgid ""
+"There is no shipping method available for this order with the selected "
+"carrier"
+msgstr "ບໍ່ມີວິທີການຈັດສົ່ງສຳລັບໃບສັ່ງຊື້ນີ້ ດ້ວຍຜູ້ໃຫ້ບໍລິການທີ່ເລືອກ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"There is no shipping method available for this picking with the selected "
+"carrier"
+msgstr "ບໍ່ມີວິທີການຈັດສົ່ງສຳລັບການເບີກເຄື່ອງນີ້ ດ້ວຍຜູ້ໃຫ້ບໍລິການທີ່ເລືອກ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"There's no method with matching weight range for packages :\n"
+"%s\n"
+"You can either choose another carrier, change your filters or redefine the content of your package(s)."
+msgstr ""
+"ບໍ່ມີວິທີການທີ່ມີຊ່ວງນ້ຳໜັກກົງກັບຫໍ່ເຄື່ອງ :\n"
+"%s\n"
+"ທ່ານສາມາດເລືອກຜູ້ໃຫ້ບໍລິການອື່ນ, ປ່ຽນຕົວກັ່ນຕອງຂອງທ່ານ ຫຼື ກຳນົດສິນຄ້າໃນຫໍ່ເຄື່ອງໃໝ່."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/sendcloud_service.py:0
+msgid ""
+"There's no shipping method matching all your selected filters for this "
+"picking/order."
+msgstr ""
+"ບໍ່ມີວິທີການຈັດສົ່ງທີ່ກົງກັບຕົວກັ່ນຕອງທັງໝົດທີ່ທ່ານເລືອກ ສຳລັບການເບີກເຄື່ອງ/ການສັ່ງຊື້ນີ້."
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "There's no unit of measure with the name \"%s\"."
+msgstr "ບໍ່ມີຫົວໜ່ວຍວັດແທກທີ່ມີຊື່ \"%s\"."
+
+#. module: delivery_sendcloud
+#: model:ir.model,name:delivery_sendcloud.model_stock_picking
+msgid "Transfer"
+msgstr "ການໂອນຍ້າຍ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_use_batch_shipping
+msgid "Use Batch Shipping"
+msgstr "ໃຊ້ການຈັດສົ່ງແບບເປັນຊຸດ (Batch)"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,field_description:delivery_sendcloud.field_delivery_carrier__sendcloud_shipping_rules
+msgid "Use Sendcloud shipping rules"
+msgstr "ໃຊ້ກົດເກນການຈັດສົ່ງຂອງ Sendcloud"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid "Weight range"
+msgstr "ຊ່ວງນ້ຳໜັກ"
+
+#. module: delivery_sendcloud
+#: model:ir.model.fields,help:delivery_sendcloud.field_delivery_carrier__sendcloud_use_batch_shipping
+msgid ""
+"When sending multiple parcels, combine them in one shipment. Not supported "
+"for international shipping requiring customs' documentation"
+msgstr ""
+"ເມື່ອສົ່ງຫໍ່ເຄື່ອງຫຼາຍຫໍ່, ໃຫ້ຮວມພວກມັນເຂົ້າເປັນການຈັດສົ່ງດຽວ. ບໍ່ຮອງຮັບສຳລັບການຈັດສົ່ງລະຫວ່າງປະເທດທີ່ຕ້ອງໃ"
+"ຊ້ເອກະສານທາງດ້ານພາສີ"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "You must add your public and secret key for sendcloud delivery type!"
+msgstr "ທ່ານຕ້ອງເພີ່ມລະຫັດສາທາລະນະ ແລະ ລະຫັດລັບ ສຳລັບປະເພດການຈັດສົ່ງ Sendcloud!"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid ""
+"You must assign the required 'Shipping From' field in order to search for "
+"available products"
+msgstr "ທ່ານຕ້ອງກຳນົດຂໍ້ມູນໃນຫ້ອງ 'ສົ່ງຈາກ' ເພື່ອຄົ້ນຫາສິນຄ້າທີ່ມີໃຫ້"
+
+#. module: delivery_sendcloud
+#. odoo-python
+#: code:addons/delivery_sendcloud/models/delivery_carrier.py:0
+msgid "You must have a shipping product configured!"
+msgstr "ທ່ານຕ້ອງມີສິນຄ້າການຈັດສົ່ງທີ່ຖືກຕັ້ງຄ່າໄວ້!"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid "cm"
+msgstr "ຊມ"
+
+#. module: delivery_sendcloud
+#: model_terms:ir.ui.view,arch_db:delivery_sendcloud.sendcloud_label_tracking
+msgid ""
+"created in Sendcloud. <br/>\n"
+"            <b>Tracking Numbers:</b>"
+msgstr ""
+"ສ້າງຂຶ້ນໃນ Sendcloud. <br/>\n"
+"            <b>ເລກຕິດຕາມ:</b>"
+
+#. module: delivery_sendcloud
+#. odoo-javascript
+#: code:addons/delivery_sendcloud/static/src/views/sendcloud_product_selection_widget.xml:0
+msgid "g"
+msgstr "ກ"

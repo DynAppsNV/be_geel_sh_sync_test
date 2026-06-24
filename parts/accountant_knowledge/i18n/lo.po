@@ -1,0 +1,1920 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * accountant_knowledge
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:47+0000\n"
+"PO-Revision-Date: 2026-06-06 11:32+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"accountant_knowledge/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "(description and of the issue, uncertainty, or limitation)"
+msgstr "(ລາຍລະອຽດ ແລະ ບັນຫາ, ຄວາມບໍ່ແນ່ນອນ, ຫຼື ຂໍ້ຈຳກັດ)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "0,00<br>"
+msgstr "0,00<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "0.0<br>"
+msgstr "0.0<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "<em>To be completed...</em>"
+msgstr "<em>ລໍຖ້າການຕື່ມຂໍ້ມູນ...</em>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "<i class=\"fa fa-fw fa-building me-2\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-fw fa-building me-2\" title=\"ບໍລິສັດ\"/>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "<i class=\"fa fa-fw fa-calendar me-2\" title=\"Calendar\"/>"
+msgstr "<i class=\"fa fa-fw fa-calendar me-2\" title=\"ປະຕິທິນ\"/>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_tax_package
+msgid ""
+"<strong class=\"o-upload-link\">Upload files</strong> to include in the PDF "
+"report."
+msgstr ""
+"<strong class=\"o-upload-link\">ອັບໂຫຼດໄຟລ໌</strong> ເພື່ອລວມເຂົ້າໃນບົດລາຍງານ PDF."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Additional Information</strong><br>"
+msgstr "<strong>ຂໍ້ມູນເພີ່ມເຕີມ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Buildings, Fixtures, and Fittings</strong>"
+msgstr "<strong>ອາຄານ, ສິ່ງຕິດຕັ້ງ ແລະ ອຸປະກອນຕິດຕົວ</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Category</strong><br>"
+msgstr "<strong>ໝວດໝູ່</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"<strong>Componentized assets</strong>: The company was unable to identify "
+"componentized assets, or the decomposition of such assets does not have a "
+"material impact."
+msgstr ""
+"<strong>ຊັບສິນທີ່ແຍກສ່ວນປະກອບ</strong>: ບໍລິສັດບໍ່ສາມາດລະບຸຊັບສິນທີ່ແຍກສ່ວນປະກອບໄດ້, ຫຼື ການແຍກສ່"
+"ວນປະກອບຂອງຊັບສິນດັ່ງກ່າວບໍ່ມີຜົນກະທົບທີ່ສຳຄັນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Depreciation - Cumulative</strong><br>"
+msgstr "<strong>ຄ່າເສື່ອມລາຄາ - ສະສົມ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Depreciation - Current Year</strong><br>"
+msgstr "<strong>ຄ່າເສື່ອມລາຄາ - ປີປັດຈຸບັນ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "<strong>Description</strong><br>"
+msgstr "<strong>ຄຳອະທິບາຍ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "<strong>Domestic</strong><br>"
+msgstr "<strong>ພາຍໃນປະເທດ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Entry Cost</strong><br>"
+msgstr "<strong>ມູນຄ່າເລີ່ມຕົ້ນ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Equipment and Tools</strong>"
+msgstr "<strong>ອຸປະກອນ ແລະ ເຄື່ອງມື</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Intangible Assets</strong>"
+msgstr "<strong>ຊັບສິນບໍ່ມີຕົວຕົນ</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "<strong>International</strong><br>"
+msgstr "<strong>ຕ່າງປະເທດ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Items</strong><br>"
+msgstr "<strong>ລາຍການ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Men</strong><br>"
+msgstr "<strong>ຊາຍ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Name</strong><br>"
+msgstr "<strong>ຊື່</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Nature of Relationship</strong><br>"
+msgstr "<strong>ລັກສະນະຂອງສາຍພົວພັນ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "<strong>Net Exceptional Result</strong><br>"
+msgstr "<strong>ຜົນໄດ້ຮັບພິເສດສຸດທິ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "<strong>Net Value</strong><br>"
+msgstr "<strong>ມູນຄ່າສຸດທິ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "<strong>Nominal Value per Share</strong><br>"
+msgstr "<strong>ມູນຄ່າກຳນົດໄວ້ຕໍ່ຮຸ້ນ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"<strong>Non-componentized assets</strong>: Benefiting from tolerance "
+"measures, the company has chosen to maintain the existing useful life "
+"periods for the depreciation of non-componentized assets."
+msgstr ""
+"<strong>ຊັບສິນທີ່ບໍ່ແຍກສ່ວນປະກອບ</strong>: ໂດຍໄດ້ຮັບຜົນປະໂຫຍດຈາກມາດຕະການຜ່ອນຜັນ, ບໍລິສັດໄດ້ເລື"
+"ອກທີ່ຈະຮັກສາໄລຍະເວລາການນຳໃຊ້ທີ່ມີຢູ່ແລ້ວ ສຳລັບການຄິດໄລ່ຄ່າເສື່ອມລາຄາຂອງຊັບສິນທີ່ບໍ່ແຍກສ່ວນປະກອບ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "<strong>Number of Shares</strong><br>"
+msgstr "<strong>ຈຳນວນຮຸ້ນ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "<strong>Other Tangible Assets</strong>"
+msgstr "<strong>ຊັບສິນມີຕົວຕົນອື່ນໆ</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "<strong>Share Capital</strong><br>"
+msgstr "<strong>ທຶນຮຸ້ນ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Total</strong><br>"
+msgstr "<strong>ທັງໝົດ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "<strong>Transaction Amount During the Period</strong><br>"
+msgstr "<strong>ມູນຄ່າທຸລະກຳໃນໄລຍະເວລາ</strong><br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "<strong>Women</strong><br>"
+msgstr "<strong>ຍິງ</strong><br>"
+
+#. module: accountant_knowledge
+#: model:knowledge.article.template.category,name:accountant_knowledge.knowledge_article_template_category_accounting
+msgid "Accounting"
+msgstr "ການບັນຊີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Accounting Principles and Methods"
+msgstr "ຫຼັກການ ແລະ ວິທີການທາງບັນຊີ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Accounting principles and methods"
+msgstr "ຫຼັກການ ແລະ ວິທີການທາງບັນຊີ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_additional_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_additional_information
+msgid "Additional Information"
+msgstr "ຂໍ້ມູນເພີ່ມເຕີມ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Advances received from public or private organizations to finance the "
+"company's activities, for which repayment is conditional, are presented "
+"under equity in the balance sheet as \"Other Equity.\" Corresponding "
+"interest expenses are recorded as liabilities under \"Loans and Other "
+"Financial Debts.\""
+msgstr ""
+"ເງິນລ່ວງໜ້າທີ່ໄດ້ຮັບຈາກອົງການຈັດຕັ້ງລັດ ຫຼື ເອກະຊົນ ເພື່ອສະໜອງທຶນໃຫ້ແກ່ກິດຈະກຳຂອງບໍລິສັດ, ເຊິ່ງການຊຳລະຄື"
+"ນມີເງື່ອນໄຂ, ແມ່ນໄດ້ສະແດງໄວ້ພາຍໃຕ້ສ່ວນທຶນໃນໃບສະຫຼຸບຊັບສົມບັດເປັນ \"ສ່ວນທຶນອື່ນໆ.\" ຄ່າໃຊ້ຈ່າຍດອກເບ້ຍ"
+"ທີ່ກ່ຽວຂ້ອງແມ່ນໄດ້ບັນທຶກເປັນໜີ້ສິນພາຍໃຕ້ \"ເງິນກູ້ ແລະ ໜີ້ສິນທາງການເງິນອື່ນໆ.\""
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Aged Payable"
+msgstr "ໜີ້ຕ້ອງສົ່ງຕາມອາຍຸໜີ້"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Aged Receivable"
+msgstr "ໜີ້ຕ້ອງຮັບຕາມອາຍຸໜີ້"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Amount:"
+msgstr "ຈຳນວນ:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Amount<br>"
+msgstr "ຈຳນວນ<br>"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_annexes
+msgid "Annexes"
+msgstr "ເອກະສານຄັດຕິດ"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_audit_report
+#: model:ir.ui.menu,name:accountant_knowledge.menu_action_accountant_audit_report
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_audit_report
+msgid "Annual Report"
+msgstr "ບົດລາຍງານປະຈຳປີ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__knowledge_template_article_id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__is_audit_report_template
+msgid "Annual Report Template"
+msgstr "ແບບຟອມບົດລາຍງານປະຈຳປີ"
+
+#. module: accountant_knowledge
+#: model:ir.actions.act_window,name:accountant_knowledge.action_audit_report
+msgid "Annual Reports"
+msgstr "ບົດລາຍງານປະຈຳປີ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__knowledge_article_id
+msgid "Article"
+msgstr "ບົດຄວາມ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"As a result of these findings, and due to their significant effect, we are "
+"unable to confirm the overall consistency and plausibility of the interim "
+"financial statements attached to this statement."
+msgstr ""
+"ເນື່ອງຈາກຜົນການກວດພົບເຫຼົ່ານີ້, ແລະ ຍ້ອນຜົນກະທົບທີ່ສຳຄັນຂອງມັນ, ພວກເຮົາບໍ່ສາມາດຢືນຢັນຄວາມສອດຄ່ອງ ແລ"
+"ະ ຄວາມເປັນໄປໄດ້ໂດຍລວມຂອງໃບລາຍງານການເງິນຊົ່ວຄາວທີ່ຄັດຕິດມານີ້ໄດ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"As chartered accountants, we have carried out a compilation of the interim "
+"financial statements of {{ company name }} for the period from {{ start of "
+"period }} to {{ end of period }}, which include the following key figures:"
+msgstr ""
+"ໃນນາມນັກບັນຊີທີ່ໄດ້ຮັບອະນຸຍາດ, ພວກເຮົາໄດ້ດຳເນີນການຮວບຮວມໃບລາຍງານການເງິນຊົ່ວຄາວຂອງ {{ "
+"company name }} ສຳລັບໄລຍະເວລາແຕ່ {{ start of period }} ຫາ {{ end of period }}, "
+"ເຊິ່ງລວມມີຕົວເລກທີ່ສຳຄັນດັ່ງນີ້:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Asset Information"
+msgstr "ຂໍ້ມູນຊັບສິນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid ""
+"At each reporting date, and whenever there is an indication of impairment, "
+"the capitalized development costs are reviewed to confirm that the project "
+"continues to meet the criteria for recognition as an asset. If these "
+"criteria are no longer met, an impairment loss or exceptional amortization "
+"is recorded accordingly."
+msgstr ""
+"ໃນແຕ່ລະວັນທີລາຍງານ, ແລະ ເມື່ອໃດກໍຕາມທີ່ມີສັນຍານຂອງການຫລຸດນ້ອຍຖອຍລົງຂອງມູນຄ່າ, ຕົ້ນທຶນການພັດທະນາທີ່"
+"ບັນທຶກເປັນຊັບສິນຈະຖືກທົບທວນຄືນ ເພື່ອຢືນຢັນວ່າໂຄງການຍັງຄົງສອດຄ່ອງກັບມາດຖານການຮັບຮູ້ເປັນຊັບສິນ. ຫາກມາດ"
+"ຖານເຫຼົ່ານີ້ບໍ່ໄດ້ຮັບການຕອບສະໜອງອີກຕໍ່ໄປ, ຜົນຂາດທຶນຈາກການຫລຸດນ້ອຍຖອຍລົງຂອງມູນຄ່າ ຫຼື ການຕັດຈ່າຍພິເສດຈ"
+"ະຖືກບັນທຶກຕາມນັ້ນ."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_attestation
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Attestation"
+msgstr "ການຢັ້ງຢືນ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__audit_report_id
+msgid "Audit Report"
+msgstr "ບົດລາຍງານການກວດສອບ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_balance_sheet
+msgid "Balance Sheet"
+msgstr "ໃບສະຫຼຸບຊັບສົມບັດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"Based on our procedures, we have not identified any matters that would call "
+"into question the overall consistency and plausibility of the interim "
+"financial statements as attached to this statement."
+msgstr ""
+"ອີງຕາມຂັ້ນຕອນຂອງພວກເຮົາ, ພວກເຮົາບໍ່ພົບເຫັນບັນຫາໃດໆ ທີ່ຈະເຮັດໃຫ້ເກີດຂໍ້ສົງໄສກ່ຽວກັບຄວາມສອດຄ່ອງ ແລະ "
+"ຄວາມເປັນໄປໄດ້ໂດຍລວມຂອງໃບລາຍງານການເງິນຊົ່ວຄາວທີ່ຄັດຕິດມານີ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Buildings<br>"
+msgstr "ອາຄານ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Capital Increase Costs"
+msgstr "ຕົ້ນທຶນການເພີ່ມທຶນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Capital increase costs are recorded directly on the balance sheet as a "
+"deduction from the share premium."
+msgstr ""
+"ຕົ້ນທຶນການເພີ່ມທຶນແມ່ນຖືກບັນທຶກໂດຍກົງໃນໃບສະຫຼຸບຊັບສົມບັດ ເປັນລາຍການຫັກອອກຈາກສ່ວນເກີນມູນຄ່າຮຸ້ນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "Capitalization of Development Costs"
+msgstr "ການບັນທຶກຕົ້ນທຶນການພັດທະນາເປັນຊັບສິນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Cash and Cash Equivalents"
+msgstr "ເງິນສົດ ແລະ ສິ່ງທຽບເທົ່າເງິນສົດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Cash on hand and bank balances are recorded at their nominal value"
+msgstr "ເງິນສົດໃນມື ແລະ ຍອດເງິນໃນທະນາຄານ ແມ່ນຖືກບັນທຶກຕາມມູນຄ່າທີ່ກຳນົດໄວ້"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_cash_flow_statement
+msgid "Cash-Flow Statement"
+msgstr "ໃບລາຍງານກະແສເງິນສົດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Change in Accounting Estimate"
+msgstr "ການປ່ຽນແປງປະມານການທາງບັນຊີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Change in Accounting Standards"
+msgstr "ການປ່ຽນແປງມາດຕະຖານການບັນຊີ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Changes in Accounting Policies"
+msgstr "ການປ່ຽນແປງນະໂຍບາຍການບັນຊີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Changes in Fixed Assets"
+msgstr "ການປ່ຽນແປງຂອງຊັບສິນຄົງທີ່"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Comments<br>"
+msgstr "ຄຳເຫັນ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Commercial buildings: 20 to 50 years"
+msgstr "ອາຄານພານິດ: 20 ຫາ 50 ປີ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Computer equipment: 5 years"
+msgstr "ອຸປະກອນຄອມພິວເຕີ: 5 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Configure"
+msgstr "ຕັ້ງຄ່າ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Consistency of accounting methods from one period to another;"
+msgstr "ຄວາມສະໝ່ຳສະເໝີຂອງວິທີການທາງບັນຊີຈາກໄລຍະໜຶ່ງຫາອີກໄລຍະໜຶ່ງ;"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_contextual_information
+msgid "Contextual Information"
+msgstr "ຂໍ້ມູນສະພາບແວດລ້ອມ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Correction of Errors"
+msgstr "ການແກ້ໄຂຂໍ້ຜິດພາດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Costs related to under-activity are excluded from the inventory value."
+msgstr ""
+"ຕົ້ນທຶນທີ່ກ່ຽວຂ້ອງກັບການປະຕິບັດງານທີ່ຕ່ຳກວ່າເກນແມ່ນບໍ່ຖືກລວມເຂົ້າໃນມູນຄ່າສິນຄ້າໃນສາງ."
+
+#. module: accountant_knowledge
+#: model:ir.actions.act_window,name:accountant_knowledge.action_audit_report_quick_create
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Create an Annual Report"
+msgstr "ສ້າງບົດລາຍງານປະຈຳປີ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/account_report/account_report.xml:0
+msgid "Customize"
+msgstr "ປັບແຕ່ງ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Customize all of its content.<br>Add sections, pages, or attachments"
+msgstr "ປັບແຕ່ງເນື້ອຫາທັງໝົດ.<br>ເພີ່ມພາກສ່ວນ, ໜ້າ, ຫຼື ເອກະສານຄັດຕິດ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Dates"
+msgstr "ວັນທີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Deferred Expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍລ່ວງໜ້າ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Deferred Revenues"
+msgstr "ລາຍຮັບລ່ວງໜ້າ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Delete"
+msgstr "ລຶບ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Depreciation Period"
+msgstr "ໄລຍະເວລາການຄິດໄລ່ຄ່າເສື່ອມລາຄາ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Depreciation Schedule"
+msgstr "ຕາຕະລາງຄ່າເສື່ອມລາຄາ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Depreciation and Impairment"
+msgstr "ຄ່າເສື່ອມລາຄາ ແລະ ການຫລຸດນ້ອຍຖອຍລົງຂອງມູນຄ່າ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Depreciation is calculated using either the straight-line or declining "
+"balance method, based on the estimated useful life of the assets."
+msgstr ""
+"ຄ່າເສື່ອມລາຄາແມ່ນຖືກຄິດໄລ່ໂດຍໃຊ້ວິທີເສັ້ນຊື່ ຫຼື ວິທີມູນຄ່າຫລຸດນ້ອຍຖອຍລົງ, ອີງຕາມການປະມານການອາຍຸການນຳໃ"
+"ຊ້ຂອງຊັບສິນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid ""
+"Describe the nature and amounts of commitments given, received, and "
+"reciprocal"
+msgstr ""
+"ອະທິບາຍລັກສະນະ ແລະ ຈຳນວນເງິນຂອງພັນທະທີ່ໃຫ້, ທີ່ໄດ້ຮັບ ແລະ ພັນທະຕ່າງຝ່າຍຕ່າງມີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid ""
+"Describe the nature of each provision recorded during the period. For each, "
+"indicate the opening balance, any additional provisions (dotations), any "
+"amounts reversed (reprises), and the closing balance at the end of the "
+"period."
+msgstr ""
+"ອະທິບາຍລັກສະນະຂອງການຕັ້ງສຳຮອງແຕ່ລະລາຍການທີ່ບັນທຶກໃນໄລຍະເວລາ. ສຳລັບແຕ່ລະລາຍການ, ໃຫ້ລະບຸຍອດຍົ"
+"ກມາ, ການຕັ້ງສຳຮອງເພີ່ມ, ການປີ້ນລາຍການສຳຮອງຄືນ, ແລະ ຍອດຍົກໄປໃນທ້າຍໄລຍະເວລາ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Describe the nature of the error corrected."
+msgstr "ອະທິບາຍລັກສະນະຂອງຂໍ້ຜິດພາດທີ່ໄດ້ແກ້ໄຂ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Description<br>"
+msgstr "ຄຳອະທິບາຍ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Detail and explain the key changes in fixed assets — purchases, sales, and "
+"adjustments — over the period for clear tracking of asset value evolution."
+msgstr ""
+"ໃຫ້ລາຍລະອຽດ ແລະ ອະທິບາຍການປ່ຽນແປງທີ່ສຳຄັນໃນຊັບສິນຄົງທີ່ — ການຊື້, ການຂາຍ, ແລະ ການປັບປຸງ — ໃນ"
+"ໄລຍະເວລາ ເພື່ອຕິດຕາມການປ່ຽນແປງຂອງມູນຄ່າຊັບສິນໃຫ້ຊັດເຈນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"Detail the factors affecting future tax liabilities and the impact of tax "
+"valuation adjustments."
+msgstr ""
+"ໃຫ້ລາຍລະອຽດກ່ຽວກັບປັດໄຈທີ່ມີຜົນກະທົບຕໍ່ໜີ້ສິນພາສີໃນອະນາຄົດ ແລະ ຜົນກະທົບຂອງການປັບປຸງການຕີລາຄາທາງພາ"
+"ສີ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Details on Inventories and Work-in-Progress"
+msgstr "ລາຍລະອຽດກ່ຽວກັບສິນຄ້າໃນສາງ ແລະ ສິນຄ້າລະຫວ່າງຜະລິດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Directly attributable costs incurred to bring the asset to working condition"
+" for its intended use;"
+msgstr ""
+"ຕົ້ນທຶນທີ່ກ່ຽວຂ້ອງໂດຍກົງທີ່ເກີດຂຶ້ນເພື່ອເຮັດໃຫ້ຊັບສິນຢູ່ໃນສະພາບທີ່ພ້ອມນຳໃຊ້ຕາມຈຸດປະສົງ;"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__display_name
+#: model:ir.model.fields,field_description:accountant_knowledge.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields.selection,name:accountant_knowledge.selection__audit_report__status__done
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+msgid "Done"
+msgstr "ສຳເລັດ"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+#: code:addons/accountant_knowledge/static/src/components/options_dropdown/options_dropdown.xml:0
+msgid "Download Annual Report"
+msgstr "ດາວໂຫຼດບົດລາຍງານປະຈຳປີ"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+msgid "Download PDF"
+msgstr "ດາວໂຫຼດ PDF"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields.selection,name:accountant_knowledge.selection__audit_report__status__draft
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+msgid "Draft"
+msgstr "ຮ່າງ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"During the course of our engagement, we identified the following matters "
+"that significantly impact the overall consistency and reliability of the "
+"financial statements:"
+msgstr ""
+"ໃນລະຫວ່າງການປະຕິບັດວຽກງານຂອງພວກເຮົາ, ພວກເຮົາໄດ້ພົບເຫັນບັນຫາດັ່ງຕໍ່ໄປນີ້ ທີ່ມີຜົນກະທົບຢ່າງຫຼວງຫຼາຍຕໍ່ຄວ"
+"າມສອດຄ່ອງ ແລະ ຄວາມໜ້າເຊື່ອຖືໂດຍລວມຂອງໃບລາຍງານການເງິນ:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid ""
+"During this fiscal period, the company generated a net accounting result of"
+"  {{ net accounting result }}, broken down as follows between domestic and "
+"international operations."
+msgstr ""
+"ໃນສົກປີບັນຊີນີີ້, ບໍລິສັດມີຜົນໄດ້ຮັບທາງບັນຊີສຸດທິ {{ net accounting result }}, ເຊິ່ງແບ່ງອອກເປັນການດ"
+"ຳເນີນງານພາຍໃນປະເທດ ແລະ ຕ່າງປະເທດ ດັ່ງນີ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"During this period, the company benefited from the following tax credits, "
+"which have contributed to optimizing its tax position:"
+msgstr ""
+"ໃນໄລຍະເວລານີ້, ບໍລິສັດໄດ້ຮັບຜົນປະໂຫຍດຈາກເຄຣດິດພາສີດັ່ງຕໍ່ໄປນີ້, ເຊິ່ງໄດ້ຊ່ວຍປັບປຸງສະຖານະທາງພາສີໃຫ້ມີປະ"
+"ສິດທິພາບ:"
+
+#. module: accountant_knowledge
+#. odoo-python
+#: code:addons/accountant_knowledge/models/audit_report.py:0
+msgid "Edit Annual Report"
+msgstr "ແກ້ໄຂບົດລາຍງານປະຈຳປີ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Edit its content"
+msgstr "ແກ້ໄຂເນື້ອຫາ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Employees<br>"
+msgstr "ພະນັກງານ<br>"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__end_date
+msgid "End Date"
+msgstr "ວັນທີສິ້ນສຸດ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,help:accountant_knowledge.field_audit_report__end_date
+msgid "Ending Date, included in the fiscal year."
+msgstr "ວັນທີສິ້ນສຸດ, ລວມຢູ່ໃນສົກປີບັນຊີ."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_entity_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Entity Information"
+msgstr "ຂໍ້ມູນຫົວໜ່ວຍທຸລະກິດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Equipment: 10 years"
+msgstr "ອຸປະກອນ: 10 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"Except for the impact of the issue described above, we did not identify "
+"anything that would call into question the overall consistency and "
+"plausibility of the interim financial statements attached to this statement."
+msgstr ""
+"ຍົກເວັ້ນຜົນກະທົບຈາກບັນຫາທີ່ໄດ້ອະທິບາຍຂ້າງເທິງ, ພວກເຮົາບໍ່ພົບເຫັນສິ່ງໃດທີ່ຈະເຮັດໃຫ້ເກີດຂໍ້ສົງໄສກ່ຽວກັບຄວາມສ"
+"ອດຄ່ອງ ແລະ ຄວາມເປັນໄປໄດ້ໂດຍລວມຂອງໃບລາຍງານການເງິນຊົ່ວຄາວທີ່ຄັດຕິດມານີ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Exceptional Expenses<br>"
+msgstr "ຄ່າໃຊ້ຈ່າຍພິເສດ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Exceptional Income &amp; Expenses"
+msgstr "ລາຍຮັບ ແລະ ຄ່າໃຊ້ຈ່າຍພິເສດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Exceptional Income<br>"
+msgstr "ລາຍຮັບພິເສດ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "Expense Recognition"
+msgstr "ການຮັບຮູ້ຄ່າໃຊ້ຈ່າຍ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"Explain how tax changes made between the balance sheet date and the "
+"financial statement date affect this period's results."
+msgstr ""
+"ອະທິບາຍວ່າການປ່ຽນແປງທາງພາສີທີ່ເກີດຂຶ້ນລະຫວ່າງວັນທີໃນໃບສະຫຼຸບຊັບສົມບັດ ແລະ ວັນທີໃນໃບລາຍງານການເງິນ "
+"ມີຜົນກະທົບແນວໃດຕໍ່ຜົນໄດ້ຮັບຂອງໄລຍະເວລານີ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"Explain the impact of the correction on the current period's financial "
+"statements."
+msgstr "ອະທິບາຍຜົນກະທົບຂອງການແກ້ໄຂທີ່ມີຕໍ່ໃບລາຍງານການເງິນຂອງໄລຍະເວລາປັດຈຸບັນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Favorable Opinion with Comments"
+msgstr "ຄຳເຫັນແບບມີເງື່ອນໄຂໃນທາງທີ່ດີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Finance Lease"
+msgstr "ສັນຍາເຊົ່າທາງການເງິນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Financial Assets and Marketable Securities"
+msgstr "ຊັບສິນທາງການເງິນ ແລະ ຫຼັກຊັບໃນຄວາມຕ້ອງການຂອງຕະຫຼາດ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Financial Commitments and Guarantees"
+msgstr "ພັນທະທາງການເງິນ ແລະ ການຄ້ຳປະກັນ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_position
+msgid "Financial Position"
+msgstr "ຖານະທາງການເງິນ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Financial Resources"
+msgstr "ແຫຼ່ງທຶນທາງການເງິນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "First In, First Out (FIFO)"
+msgstr "ເຂົ້າກ່ອນ, ອອກກ່ອນ (FIFO)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Fiscal Year N - 1<br>"
+msgstr "ສົກປີບັນຊີ N - 1<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Fiscal Year N<br>"
+msgstr "ສົກປີບັນຊີ N<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Fixtures and fittings: 10 years"
+msgstr "ສິ່ງຕິດຕັ້ງ ແລະ ອຸປະກອນຕິດຕົວ: 10 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"For cash held in foreign currencies, amounts are converted into euros at the"
+" exchange rate prevailing on the last business day before the fiscal year-"
+"end. Any resulting exchange differences are recognized immediately in the "
+"income statement as foreign exchange gains or losses."
+msgstr ""
+"ສຳລັບເງິນສົດໃນສະກຸນເງິນຕາຕ່າງປະເທດ, ຈຳນວນເງິນຈະຖືກແປງເປັນເງິນເອີໂຣ ໂດຍໃຊ້ອັດຕາແລກປ່ຽນໃນວັນເຮັ"
+"ດວຽກສຸດທ້າຍກ່ອນສິ້ນສຸດສົກປີບັນຊີ. ຜົນຕ່າງອັດຕາແລກປ່ຽນທີ່ເກີດຂຶ້ນຈະຖືກຮັບຮູ້ທັນທີໃນໃບລາຍງານຜົນໄດ້ຮັບ ເປັນກຳ"
+"ໄລ ຫຼື ຂາດທຶນຈາກອັດຕາແລກປ່ຽນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid ""
+"For each member, indicate the retirement commitments and similar benefits "
+"granted to them."
+msgstr ""
+"ສຳລັບສະມາຊິກແຕ່ລະຄົນ, ໃຫ້ລະບຸພັນທະການເງິນເບ້ຍບຳນານ ແລະ ຜົນປະໂຫຍດທີ່ຄ້າຍຄືກັນທີ່ໄດ້ມອບໃຫ້ເຂົາເຈົ້າ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid ""
+"For each member, specify the advances and loans granted to them, including "
+"the terms agreed upon and repayments made during the period, as well as the "
+"amount of commitments made on their behalf."
+msgstr ""
+"ສຳລັບສະມາຊິກແຕ່ລະຄົນ, ໃຫ້ລະບຸເງິນລ່ວງໜ້າ ແລະ ເງິນກູ້ທີ່ມອບໃຫ້ເຂົາເຈົ້າ, ລວມທັງເງື່ອນໄຂທີ່ຕົກລົງກັນ ແລະ "
+"ການຊຳລະຄືນໃນໄລຍະເວລາ, ຕະຫຼອດຮອດມູນຄ່າພັນທະທີ່ໄດ້ເຮັດໃນນາມເຂົາເຈົ້າ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"For tax-consolidated entities, explain the tax allocation method, tax "
+"differences, loss carryforwards, and related accounting specifics."
+msgstr ""
+"ສຳລັບຫົວໜ່ວຍທຸລະກິດທີ່ລວມສູນທາງພາສີ, ໃຫ້ອະທິບາຍວິທີການຈັດສັນພາສີ, ຜົນຕ່າງທາງພາສີ, ການຍົກຍອດຜົນຂາດທຶ"
+"ນໄປ, ແລະ ລາຍລະອຽດທາງບັນຊີທີ່ກ່ຽວຂ້ອງ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"From the Equity app, print the Capitalization Table and insert it <strong "
+"class=\"o-upload-link\">here</strong>"
+msgstr ""
+"ຈາກແອັບ Equity, ໃຫ້ພິມຕາຕະລາງໂຄງສ້າງທຶນ (Capitalization Table) ແລະ ແຊກໃສ່ <strong "
+"class=\"o-upload-link\">ທີ່ນີ້</strong>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Furniture: 10 years"
+msgstr "ເຄື່ອງເຟີນີເຈີ: 10 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid ""
+"General accounting principles have been applied with due regard to the "
+"prudence principle, based on the following assumptions:"
+msgstr ""
+"ຫຼັກການບັນຊີທົ່ວໄປໄດ້ຖືກນຳໃຊ້ໂດຍຄຳນຶງເຖິງຫຼັກການລະມັດລະວັງ, ອີງຕາມຂໍ້ສົມມຸດຖານດັ່ງນີ້:"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Get a complete PDF file, ready to be shared"
+msgstr "ຮັບໄຟລ໌ PDF ທີ່ສົມບູນ, ພ້ອມທີ່ຈະແບ່ງປັນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid ""
+"Given the innovative nature of the company's activities, a substantial "
+"portion of its expenses pertains to development costs as defined by "
+"applicable accounting standards"
+msgstr ""
+"ເນື່ອງຈາກລັກສະນະນະວັດຕະກຳຂອງກິດຈະກຳຂອງບໍລິສັດ, ສ່ວນໃຫຍ່ຂອງຄ່າໃຊ້ຈ່າຍແມ່ນກ່ຽວຂ້ອງກັບຕົ້ນທຶນການພັດທະ"
+"ນາ ຕາມທີ່ກຳນົດໂດຍມາດຕະຖານການບັນຊີທີ່ກ່ຽວຂ້ອງ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Going concern;"
+msgstr "ຄວາມຕໍ່ເນື່ອງຂອງການດຳເນີນງານ;"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__id
+msgid "ID"
+msgstr "ID"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Identification Number:"
+msgstr "ເລກທະບຽນວິສາຫະກິດ:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If applicable, specify the impact of the new accounting regulation as "
+"determined at the opening of the period, including which financial statement"
+" items are affected."
+msgstr ""
+"ຫາກມີ, ໃຫ້ລະບຸຜົນກະທົບຂອງກົດລະບຽບການບັນຊີໃໝ່ ຕາມທີ່ໄດ້ກຳນົດໃນຕອນຕົ້ນໄລຍະເວລາ, ລວມທັງລາຍການໃດໃ"
+"ນໃບລາຍງານການເງິນທີ່ໄດ້ຮັບຜົນກະທົບ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change has been applied prospectively, explain the reasons for "
+"prospective application and indicate the impact on key items for the period,"
+" unless impracticable to determine."
+msgstr ""
+"ຫາກການປ່ຽນແປງໄດ້ຖືກນຳໃຊ້ແບບມີຜົນໄປຂ້າງໜ້າ (prospective), ໃຫ້ອະທິບາຍເຫດຜົນ ແລະ ລະບຸຜົນກະທົບຕໍ່"
+"ລາຍການທີ່ສຳຄັນຂອງໄລຍະເວລານີ້, ເວັ້ນເສຍແຕ່ຈະບໍ່ສາມາດກຳນົດໄດ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change has been applied retrospectively, present the main items from "
+"prior periods restated under the new accounting method."
+msgstr ""
+"ຫາກການປ່ຽນແປງໄດ້ຖືກນຳໃຊ້ແບບມີຜົນຍ້ອນຫຼັງ (retrospective), ໃຫ້ສະແດງລາຍການທີ່ສຳຄັນຈາກໄລຍະເວລ"
+"າກ່ອນທີ່ໄດ້ຮັບການປັບປຸງພາຍໃຕ້ວິທີການບັນຊີໃໝ່."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change was applied <strong>prospectively</strong>, describe its "
+"impact on the key items of the current period, unless such information is "
+"impracticable to obtain."
+msgstr ""
+"ຫາກການປ່ຽນແປງໄດ້ຖືກນຳໃຊ້ແບບ <strong>ມີຜົນໄປຂ້າງໜ້າ</strong>, ໃຫ້ອະທິບາຍຜົນກະທົບຕໍ່ລາຍການທີ່ສຳ"
+"ຄັນຂອງໄລຍະເວລາປັດຈຸບັນ, ເວັ້ນເສຍແຕ່ຈະບໍ່ສາມາດຫາຂໍ້ມູນດັ່ງກ່າວໄດ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"If the change was applied <strong>retrospectively</strong>, present the key "
+"items from prior periods that have been restated in accordance with the new "
+"method."
+msgstr ""
+"ຫາກການປ່ຽນແປງໄດ້ຖືກນຳໃຊ້ແບບ <strong>ມີຜົນຍ້ອນຫຼັງ</strong>, ໃຫ້ສະແດງລາຍການທີ່ສຳຄັນຈາກໄລຍະເ"
+"ວລາກ່ອນທີ່ໄດ້ຮັບການປັບປຸງຄືນຕາມວິທີການໃໝ່."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"If this is the first year the company holds inventories, specify the "
+"valuation method used and provide a breakdown of the products concerned."
+msgstr ""
+"ຫາກນີ້ເປັນປີທຳອິດທີ່ບໍລິສັດມີສິນຄ້າໃນສາງ, ໃຫ້ລະບຸວິທີການຕີລາຄາທີ່ນຳໃຊ້ ແລະ ລາຍລະອຽດຂອງສິນຄ້າທີ່ກ່ຽວຂ້ອງ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"In accordance with the terms of our mission, we have prepared a summary of "
+"work performed for {{ company name }} for the period from {{ start of period"
+" }} to {{ end of period }}"
+msgstr ""
+"ອີງຕາມເງື່ອນໄຂຂອງພາລະກິດຂອງພວກເຮົາ, ພວກເຮົາໄດ້ຈັດເຮັດບົດສະຫຼຸບວຽກງານທີ່ໄດ້ປະຕິບັດສຳລັບ {{ "
+"company name }} ສຳລັບໄລຍະເວລາແຕ່ {{ start of period }} ຫາ {{ end of period }}"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+msgid "Include PDF Files"
+msgstr "ລວມໄຟລ໌ PDF"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Include any explanations or justifications as needed."
+msgstr "ລວມເອົາຄຳອະທິບາຍ ຫຼື ເຫດຜົນປະກອບຕາມຄວາມຈຳເປັນ."
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/export_audit_report_to_pdf_dialog/export_audit_report_to_pdf_dialog.xml:0
+msgid "Include child articles"
+msgstr "ລວມບົດຄວາມຍ່ອຍ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_income_statement
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Income Statement"
+msgstr "ໃບລາຍງານຜົນໄດ້ຮັບ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid "Independence of accounting periods."
+msgstr "ຄວາມເປັນເອກະລາດຂອງແຕ່ລະສົກປີບັນຊີ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Indicate and justify the voluntary accounting policy change."
+msgstr "ລະບຸ ແລະ ໃຫ້ເຫດຜົນຂອງການປ່ຽນແປງນະໂຍບາຍການບັນຊີໂດຍຄວາມສະໝັກໃຈ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid ""
+"Indicate the number and value of shares held by the company during the year."
+" Include acquisitions, disposals, cancellations, and the reason for holding "
+"these shares (e.g. employee plans, market operations)."
+msgstr ""
+"ລະບຸຈຳນວນ ແລະ ມູນຄ່າຂອງຮຸ້ນທີ່ບໍລິສັດຖືຄອງໃນລະຫວ່າງປີ. ລວມທັງການໄດ້ມາ, ການຈຳໜ່າຍ, ການຍົກເລີກ, ແ"
+"ລະ ເຫດຜົນໃນການຖືຮຸ້ນເຫຼົ່ານີ້ (ເຊັ່ນ: ແຜນສຳລັບພະນັກງານ, ການດຳເນີນງານໃນຕະຫຼາດ)."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Indicate the total book value of inventories as well as the book value by "
+"relevant categories."
+msgstr ""
+"ລະບຸມູນຄ່າຕາມບັນຊີທັງໝົດຂອງສິນຄ້າໃນສາງ ຕະຫຼອດຮອດມູນຄ່າຕາມບັນຊີແຍກຕາມໝວດໝູ່ທີ່ກ່ຽວຂ້ອງ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Information on Specific Nature Operations"
+msgstr "ຂໍ້ມູນກ່ຽວກັບການດຳເນີນງານທີ່ມີລັກສະນະສະເພາະ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_knowledge_article__inherited_audit_report_id
+msgid "Inherited Audit Report"
+msgstr "ບົດລາຍງານການກວດສອບທີ່ສືບທອດມາ"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/components/account_report/cog_menu/cog_menu.js:0
+msgid "Insert in article"
+msgstr "ແຊກເຂົ້າໃນບົດຄວາມ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Intangible and Tangible Assets"
+msgstr "ຊັບສິນບໍ່ມີຕົວຕົນ ແລະ ມີຕົວຕົນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Intangible assets are valued at their acquisition or production cost, "
+"including all expenses necessary to prepare these assets for their intended "
+"use. This valuation is net of any trade discounts, rebates, or settlement "
+"discounts obtained."
+msgstr ""
+"ຊັບສິນບໍ່ມີຕົວຕົນແມ່ນຖືກຕີລາຄາຕາມຕົ້ນທຶນການໄດ້ມາ ຫຼື ຕົ້ນທຶນການຜະລິດ, ລວມທັງຄ່າໃຊ້ຈ່າຍທັງໝົດທີ່ຈຳເປັນເພື່ອເຮັ"
+"ດໃຫ້ຊັບສິນເຫຼົ່ານີ້ພ້ອມນຳໃຊ້ຕາມຈຸດປະສົງ. ການຕີລາຄານີ້ແມ່ນມູນຄ່າສຸດທິຫຼັງຈາກຫັກສ່ວນຫຼຸດທາງການຄ້າ ຫຼື ສ່ວນຫຼຸດກ"
+"ານຊຳລະເງິນທີ່ໄດ້ຮັບ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Interest on borrowings specifically related to the production of tangible "
+"assets is not included in the production cost of these assets."
+msgstr ""
+"ດອກເບ້ຍເງິນກູ້ທີ່ກ່ຽວຂ້ອງໂດຍກົງກັບການຜະລິດຊັບສິນມີຕົວຕົນ ແມ່ນບໍ່ຖືກລວມເຂົ້າໃນຕົ້ນທຶນການຜະລິດຂອງຊັບສິນເຫຼົ່ານັ້"
+"ນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Inventories are valued using one of the following methods:"
+msgstr "ສິນຄ້າໃນສາງແມ່ນຖືກຕີລາຄາໂດຍໃຊ້ວິທີໃດໜຶ່ງດັ່ງນີ້:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Inventory Overview"
+msgstr "ພາບລວມສິນຄ້າໃນສາງ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Inventory Valuation"
+msgstr "ການຕີລາຄາສິນຄ້າໃນສາງ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_journal_audit
+msgid "Journal Audit"
+msgstr "ການກວດສອບປຶ້ມບັນຊີປະຈຳວັນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Justification:"
+msgstr "ເຫດຜົນປະກອບ:"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_knowledge_article
+msgid "Knowledge Article"
+msgstr "ບົດຄວາມຄວາມຮູ້"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Land<br>"
+msgstr "ທີ່ດິນ<br>"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Liabilities Information"
+msgstr "ຂໍ້ມູນໜີ້ສິນ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Load a Template"
+msgstr "ໂຫຼດແບບຟອມ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Loan issuance costs, where applicable, are recognized as expenses in the "
+"financial year during which the loans are granted."
+msgstr ""
+"ຕົ້ນທຶນການອອກເງິນກູ້, ຫາກມີ, ແມ່ນຖືກຮັບຮູ້ເປັນຄ່າໃຊ້ຈ່າຍໃນສົກປີບັນຊີທີ່ເງິນກູ້ໄດ້ຮັບການອະນຸມັດ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Loans"
+msgstr "ເງິນກູ້"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Long-Term Investments Held in the Investment Portfolio"
+msgstr "ການລົງທຶນໄລຍະຍາວທີ່ຖືຄອງໃນພອດການລົງທຶນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid ""
+"Management has chosen not to disclose remuneration information, as doing so "
+"would effectively reveal the individual compensation of executives."
+msgstr ""
+"ຝ່າຍບໍລິຫານໄດ້ເລືອກທີ່ຈະບໍ່ເປີດເຜີຍຂໍ້ມູນຄ່າຕອບແທນ, ເນື່ອງຈາກການເຮັດແນວນັ້ນຈະເປັນການເປີດເຜີຍຄ່າຕອບແທນ"
+"ສ່ວນບຸກຄົນຂອງຜູ້ບໍລິຫານ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Managers<br>"
+msgstr "ຜູ້ຈັດການ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid ""
+"Manufactured products are valued at production cost, which includes "
+"consumables, direct and indirect production expenses, and depreciation of "
+"assets used in production."
+msgstr ""
+"ຜະລິດຕະພັນທີ່ຜະລິດເອງແມ່ນຖືກຕີລາຄາຕາມຕົ້ນທຶນການຜະລິດ, ເຊິ່ງລວມມີ ວັດຖຸສິ້ນເປືອງ, ຄ່າໃຊ້ຈ່າຍໃນການຜະລິດ"
+"ໂດຍກົງ ແລະ ທາງອ້ອມ, ແລະ ຄ່າເສື່ອມລາຄາຂອງຊັບສິນທີ່ໃຊ້ໃນການຜະລິດ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Methods of Valuation"
+msgstr "ວິທີການຕີລາຄາ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_search
+msgid "My Reports"
+msgstr "ບົດລາຍງານຂອງຂ້ອຍ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Name:"
+msgstr "ຊື່:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Net accounting result: {{ net accounting result }}"
+msgstr "ຜົນໄດ້ຮັບທາງບັນຊີສຸດທິ: {{ net accounting result }}"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Non-Managers<br>"
+msgstr "ພະນັກງານລະດັບປະຕິບັດການ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid "Non-Pro Rata Recognition"
+msgstr "ການຮັບຮູ້ແບບບໍ່ສະເລ່ຍຕາມສ່ວນ (Non-Pro Rata)"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Non-Standard Transaction"
+msgstr "ທຸລະກຳທີ່ບໍ່ເປັນມາດຕະຖານ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Non-Standard Transactions"
+msgstr "ທຸລະກຳທີ່ບໍ່ເປັນມາດຕະຖານ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Non-disclosure"
+msgstr "ການບໍ່ເປີດເຜີຍຂໍ້ມູນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Off-Balance Sheet Commitments"
+msgstr "ພັນທະນອກໃບສະຫຼຸບຊັບສົມບັດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Offices: 25 years"
+msgstr "ຫ້ອງການ: 25 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid ""
+"Only include events occurring between the end of the reporting period and "
+"the date the financial statements are approved, if they are significant "
+"enough to affect the fair presentation of the accounts."
+msgstr ""
+"ລວມເອົາສະເພາະເຫດການທີ່ເກີດຂຶ້ນລະຫວ່າງວັນສິ້ນສຸດໄລຍະເວລາລາຍງານ ແລະ ວັນທີໃບລາຍງານການເງິນໄດ້ຮັບກ"
+"ານອະນຸມັດ, ຫາກເຫດການເຫຼົ່ານັ້ນມີຄວາມສຳຄັນພໍທີ່ຈະສົ່ງຜົນກະທົບຕໍ່ຄວາມຖືກຕ້ອງຂອງບັນຊີ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid ""
+"Operating subsidies are recorded as income as soon as they are granted."
+msgstr "ເງິນອຸດໜູນການດຳເນີນງານແມ່ນຖືກບັນທຶກເປັນລາຍຮັບທັນທີທີ່ໄດ້ຮັບການອະນຸມັດ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid "Other Significant Events"
+msgstr "ເຫດການສຳຄັນອື່ນໆ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Other off-balance-sheet transactions"
+msgstr "ທຸລະກຳນອກໃບສະຫຼຸບຊັບສົມບັດອື່ນໆ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Other tangible fixed assets<br>"
+msgstr "ຊັບສິນຄົງທີ່ທີ່ມີຕົວຕົນອື່ນໆ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Others"
+msgstr "ອື່ນໆ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Others (including tax consolidation)"
+msgstr "ອື່ນໆ (ລວມທັງການລວມສູນທາງພາສີ)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Others: To be specified..."
+msgstr "ອື່ນໆ: ໃຫ້ລະບຸ..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"Our work was conducted in accordance with the professional standard "
+"applicable to compilation engagements, as issued by the professional body of"
+" chartered accountants. This engagement is however not an audit or a limited"
+" review."
+msgstr ""
+"ວຽກງານຂອງພວກເຮົາໄດ້ຖືກດຳເນີນຕາມມາດຕະຖານວິຊາຊີບທີ່ນຳໃຊ້ກັບການຮວບຮວມຂໍ້ມູນ, ຕາມທີ່ອອກໂດຍສະພາວິຊ"
+"າຊີບນັກບັນຊີ. ຢ່າງໃດກໍຕາມ, ວຽກງານນີ້ບໍ່ແມ່ນການກວດສອບ ຫຼື ການທົບທວນແບບຈຳກັດ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Parent Company Details"
+msgstr "ລາຍລະອຽດຂອງບໍລິສັດແມ່"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Partner Ledger"
+msgstr "ບັນຊີແຍກປະເພດຄູ່ຄ້າ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Patents: To be specified..."
+msgstr "ສິດທິບັດ: ໃຫ້ລະບຸ..."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_performance_and_operations
+msgid "Performance & Operations"
+msgstr "ຜົນການດຳເນີນງານ ແລະ ການປະຕິບັດງານ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid ""
+"Please provide details of your share of results from joint operations of a "
+"specific nature"
+msgstr ""
+"ກະລຸນາໃຫ້ລາຍລະອຽດກ່ຽວກັບສ່ວນແບ່ງຜົນໄດ້ຮັບຂອງທ່ານ ຈາກການດຳເນີນງານຮ່ວມທີ່ມີລັກສະນະສະເພາະ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Please specify the method used to calculate inventory write-downs."
+msgstr "ກະລຸນາລະບຸວິທີການທີ່ໃຊ້ໃນການຄິດໄລ່ການຫລຸດມູນຄ່າສິນຄ້າໃນສາງ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid "Post-Closing Events"
+msgstr "ເຫດການຫຼັງວັນສິ້ນສຸດງວດບັນຊີ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_preamble
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid "Preamble"
+msgstr "ຄຳນຳ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"Present the main items of prior period's financial statements that have been"
+" restated to correct the error."
+msgstr ""
+"ສະແດງລາຍການທີ່ສຳຄັນຂອງໃບລາຍງານການເງິນໃນໄລຍະເວລາກ່ອນ ທີ່ໄດ້ຮັບການປັບປຸງຄືນເພື່ອແກ້ໄຂຂໍ້ຜິດພາດ."
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Print"
+msgstr "ພິມ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Print your Report"
+msgstr "ພິມບົດລາຍງານຂອງທ່ານ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid "Pro rata recognition"
+msgstr "ການຮັບຮູ້ຕາມສ່ວນ (Pro rata)"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_profit_and_loss
+msgid "Profit and Loss"
+msgstr "ກຳໄລ ແລະ ຂາດທຶນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_additional_information
+msgid "Provide any additional information necessary here..."
+msgstr "ໃຫ້ຂໍ້ມູນເພີ່ມເຕີມທີ່ຈຳເປັນຢູ່ທີ່ນີ້..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid ""
+"Provide details of any significant off-balance-sheet transactions or "
+"commitments not recorded in the financial statements"
+msgstr ""
+"ໃຫ້ລາຍລະອຽດກ່ຽວກັບທຸລະກຳ ຫຼື ພັນທະນອກໃບສະຫຼຸບຊັບສົມບັດທີ່ສຳຄັນ ເຊິ່ງບໍ່ໄດ້ບັນທຶກໄວ້ໃນໃບລາຍງານການເງິນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Provide details on loan issuance costs and any loan redemption premiums."
+msgstr ""
+"ໃຫ້ລາຍລະອຽດກ່ຽວກັບຕົ້ນທຶນການອອກເງິນກູ້ ແລະ ສ່ວນເກີນມູນຄ່າການໄຖ່ຖອນເງິນກູ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid ""
+"Provide details on the carryback and carryforward of tax losses, and the "
+"split of income tax between current and exceptional results."
+msgstr ""
+"ໃຫ້ລາຍລະອຽດກ່ຽວກັບການນຳຜົນຂາດທຶນທາງພາສີໄປຫັກຍ້ອນຫຼັງ ແລະ ຍົກໄປຂ້າງໜ້າ, ແລະ ການແບ່ງພາສີເງິນໄດ້ລ"
+"ະຫວ່າງຜົນໄດ້ຮັບປົກກະຕິ ແລະ ພິເສດ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid ""
+"Provide information on the estimated value of long-term investments held in "
+"the portfolio and any changes in their value over the financial year."
+msgstr ""
+"ໃຫ້ຂໍ້ມູນກ່ຽວກັບມູນຄ່າຄາດຄະເນຂອງການລົງທຶນໄລຍະຍາວທີ່ຖືຄອງໃນບັນຊີລາຍການ ແລະ ການປ່ຽນແປງໃດໆຂອງມູນຄ່"
+"າໃນຕະຫຼອດສົກປີງົບປະມານ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Provisions"
+msgstr "ການຕັ້ງສຳຮອງ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "R&D cost"
+msgstr "ຕົ້ນທຶນການວິໄຈ ແລະ ພັດທະນາ (R&D)"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Receivables and Payables"
+msgstr "ໜີ້ຕ້ອງຮັບ ແລະ ໜີ້ຕ້ອງສົ່ງ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Receivables and payables are recorded at their nominal value."
+msgstr "ໜີ້ຕ້ອງຮັບ ແລະ ໜີ້ຕ້ອງສົ່ງ ແມ່ນຖືກບັນທຶກຕາມມູນຄ່າທີ່ກຳນົດໄວ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Receivables and payables denominated in foreign currencies are converted "
+"into euros using the exchange rate at the invoice date."
+msgstr ""
+"ໜີ້ຕ້ອງຮັບ ແລະ ໜີ້ຕ້ອງສົ່ງ ໃນສະກຸນເງິນຕາຕ່າງປະເທດ ແມ່ນຖືກແປງເປັນເງິນເອີໂຣ ໂດຍໃຊ້ອັດຕາແລກປ່ຽນໃນວັນທີ"
+"ອອກໃບເກັບເງິນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Refusal to Attest"
+msgstr "ການປະຕິເສດການຢັ້ງຢືນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Registered Office:"
+msgstr "ສຳນັກງານທີ່ຈົດທະບຽນ:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Related-Party Transactions"
+msgstr "ທຸລະກຳກັບບຸກຄົນ ຫຼື ນິຕິບຸກຄົນທີ່ກ່ຽວຂ້ອງກັນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Remuneration due for the fiscal year<br>"
+msgstr "ຄ່າຕອບແທນທີ່ຄ້າງຈ່າຍສຳລັບສົກປີບັນຊີ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Remuneration for Services"
+msgstr "ຄ່າຕອບແທນການບໍລິການ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Renovations: 10 years"
+msgstr "ການປັບປຸງສ້ອມແປງ: 10 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "Repayable Advances"
+msgstr "ເງິນລ່ວງໜ້າທີ່ຕ້ອງຊຳລະຄືນ"
+
+#. module: accountant_knowledge
+#: model:ir.model,name:accountant_knowledge.model_ir_actions_report
+msgid "Report Action"
+msgstr "ການດຳເນີນການບົດລາຍງານ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Report on Work Conducted"
+msgstr "ບົດລາຍງານກ່ຽວກັບວຽກງານທີ່ໄດ້ດຳເນີນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Report on Work Performed"
+msgstr "ບົດລາຍງານກ່ຽວກັບວຽກງານທີ່ໄດ້ປະຕິບັດ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid "Research and Development Expenses"
+msgstr "ຄ່າໃຊ້ຈ່າຍໃນການວິໄຈ ແລະ ພັດທະນາ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_research_and_development_costs
+msgid ""
+"Research and development costs are recognized as expenses in the period in "
+"which they are incurred."
+msgstr ""
+"ຕົ້ນທຶນການວິໄຈ ແລະ ພັດທະນາ ແມ່ນຖືກຮັບຮູ້ເປັນຄ່າໃຊ້ຈ່າຍໃນໄລຍະເວລາທີ່ມັນເກີດຂຶ້ນ."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__responsible_user_ids
+msgid "Responsibles"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Result breakdown by region"
+msgstr "ລາຍລະອຽດຜົນໄດ້ຮັບແຍກຕາມພາກພື້ນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Revenue: {{ revenue }}"
+msgstr "ລາຍຮັບ: {{ revenue }}"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Save"
+msgstr "ບັນທຶກ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Self-Held Shares"
+msgstr "ຮຸ້ນທີ່ບໍລິສັດຖືຄອງເອງ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Set to Done"
+msgstr "ກຳນົດເປັນສຳເລັດ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_kanban
+msgid "Set to Draft"
+msgstr "ກຳນົດເປັນຮ່າງ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Share Capital"
+msgstr "ທຶນຮຸ້ນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares Issues<br>"
+msgstr "ການອອກຮຸ້ນ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares Redeemed/Cancelled<br>"
+msgstr "ຮຸ້ນທີ່ໄຖ່ຖອນ/ຍົກເລີກ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares at End of Year<br>"
+msgstr "ຮຸ້ນໃນທ້າຍປີ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_liabilities_information
+msgid "Shares at Start of Year<br>"
+msgstr "ຮຸ້ນໃນຕົ້ນປີ<br>"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/signature_input/signature_input.xml:0
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/core/signature_input/signature_input.xml:0
+msgid "Signature"
+msgstr "ລາຍເຊັນ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_significant_events
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_significant_events
+msgid "Significant Events"
+msgstr "ເຫດການທີ່ສຳຄັນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Software: 3 years"
+msgstr "ຊອບແວ: 3 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid ""
+"Specify details for executives, subsidiaries, investments, related "
+"companies, and others."
+msgstr ""
+"ລະບຸລາຍລະອຽດສຳລັບຜູ້ບໍລິຫານ, ບໍລິສັດຍ່ອຍ, ການລົງທຶນ, ບໍລິສັດທີ່ກ່ຽວຂ້ອງ ແລະ ອື່ນໆ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid ""
+"Specify the impact of the change as determined at the opening of the period,"
+" identifying the affected financial statement items."
+msgstr ""
+"ລະບຸຜົນກະທົບຂອງການປ່ຽນແປງຕາມທີ່ໄດ້ກຳນົດໃນຕອນຕົ້ນໄລຍະເວລາ, ໂດຍລະບຸລາຍການໃນໃບລາຍງານການເງິນທີ່"
+"ໄດ້ຮັບຜົນກະທົບ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Standard Cost"
+msgstr "ຕົ້ນທຶນມາດຕະຖານ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__start_date
+msgid "Start Date"
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,help:accountant_knowledge.field_audit_report__start_date
+msgid "Start Date, included in the fiscal year."
+msgstr "ວັນທີເລີ່ມຕົ້ນ, ລວມຢູ່ໃນສົກປີບັນຊີ."
+
+#. module: accountant_knowledge
+#: model_terms:ir.actions.act_window,help:accountant_knowledge.action_audit_report
+msgid "Start from our ready-to-use templates"
+msgstr "ເລີ່ມຈາກແບບຟອມທີ່ພ້ອມນຳໃຊ້ຂອງພວກເຮົາ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "State and justify the change in estimate."
+msgstr "ລະບຸ ແລະ ໃຫ້ເຫດຜົນຂອງການປ່ຽນແປງປະມານການ."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__status
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_asset_information
+msgid "Subsidiaries and Equity Interests"
+msgstr "ບໍລິສັດຍ່ອຍ ແລະ ສ່ວນໄດ້ເສຍໃນສ່ວນທຶນ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "Subsidiary Details"
+msgstr "ລາຍລະອຽດຂອງບໍລິສັດຍ່ອຍ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_subventions
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid "Subventions"
+msgstr "ເງິນອຸດໜູນ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_supporting_documents
+msgid "Supporting Documents"
+msgstr "ເອກະສານປະກອບ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"Tangible assets are also valued at their production cost where applicable."
+msgstr "ຊັບສິນມີຕົວຕົນຍັງຖືກຕີລາຄາຕາມຕົ້ນທຶນການຜະລິດ ຫາກສາມາດນຳໃຊ້ໄດ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Tangible assets are valued at their acquisition cost, which includes:"
+msgstr "ຊັບສິນມີຕົວຕົນແມ່ນຖືກຕີລາຄາຕາມຕົ້ນທຶນການໄດ້ມາ, ເຊິ່ງລວມມີ:"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_tax_and_compliance
+msgid "Tax & Compliance"
+msgstr "ພາສີ ແລະ ການປະຕິບັດຕາມກົດລະບຽບ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Tax Credits"
+msgstr "ເຄຣດິດພາສີ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_tax_package
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_tax_package
+msgid "Tax Package"
+msgstr "ຊຸດຂໍ້ມູນທາງພາສີ"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_taxation
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_taxation
+msgid "Taxation"
+msgstr "ການເສຍພາສີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_commitments_and_guarantees
+msgid "Technical installations, equipment, and tools<br>"
+msgstr "ການຕິດຕັ້ງທາງເຕັກນິກ, ອຸປະກອນ, ແລະ ເຄື່ອງມື<br>"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Template"
+msgstr "ແບບຟອມ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid ""
+"The annual financial statements have been prepared in accordance with "
+"applicable accounting standards."
+msgstr "ໃບລາຍງານການເງິນປະຈຳປີໄດ້ຖືກຈັດເຮັດຕາມມາດຕະຖານການບັນຊີທີ່ກ່ຽວຂ້ອງ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid ""
+"The company has received subsidies that are recognized in operating income "
+"in proportion to the expenses incurred. As a result, subsidies receivable "
+"may be recorded when the grant agreement is signed and eligible expenses "
+"have been incurred, even if the funds have not yet been received."
+msgstr ""
+"ບໍລິສັດໄດ້ຮັບເງິນອຸດໜູນເຊິ່ງຖືກຮັບຮູ້ເປັນລາຍຮັບການດຳເນີນງານ ຕາມສ່ວນຂອງຄ່າໃຊ້ຈ່າຍທີ່ເກີດຂຶ້ນ. ດັ່ງນັ້ນ, ເງິນອຸ"
+"ດໜູນຄ້າງຮັບອາດຈະຖືກບັນທຶກເມື່ອມີການເຊັນສັນຍາໃຫ້ທຶນ ແລະ ມີຄ່າໃຊ້ຈ່າຍທີ່ກົງຕາມເງື່ອນໄຂເກີດຂຶ້ນ, ເຖິງແມ່ນວ່າ"
+"ຍັງບໍ່ທັນໄດ້ຮັບເງິນຕົວຈິງກໍຕາມ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "The consolidated financial statements can be obtained via..."
+msgstr "ໃບລາຍງານການເງິນລວມສາມາດຂໍໄດ້ຜ່ານ..."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid "The equity method is used for valuation where applicable."
+msgstr ""
+"ວິທີສ່ວນໄດ້ເສຍ (equity method) ແມ່ນຖືກນຳໃຊ້ໃນການຕີລາຄາ ຫາກສາມາດນຳໃຊ້ໄດ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"The exemption for valuation of securities in case of abnormal and temporary "
+"decline is applied."
+msgstr ""
+"ການຍົກເວັ້ນໃນການຕີລາຄາຫຼັກຊັບ ໃນກໍລະນີທີ່ມີການຫລຸດລົງທີ່ຜິດປົກກະຕິ ແລະ ຊົ່ວຄາວ ແມ່ນໄດ້ຖືກນຳໃຊ້."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid ""
+"The fiscal year ended on {{ end of period }} covers a period of 12 months."
+msgstr "ສົກປີບັນຊີທີ່ສິ້ນສຸດໃນວັນທີ {{ end of period }} ມີໄລຍະເວລາ 12 ເດືອນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"The following decisions have been made regarding the presentation of the "
+"annual financial statements:"
+msgstr "ການຕັດສິນໃຈດັ່ງຕໍ່ໄປນີ້ແມ່ນກ່ຽວກັບການນຳສະເໜີໃບລາຍງານການເງິນປະຈຳປີ:"
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/core/account_report/account_report.xml:0
+msgid "The full report will be included in the final document."
+msgstr "ບົດລາຍງານສະບັບເຕັມຈະຖືກລວມເຂົ້າໃນເອກະສານສຸດທ້າຍ."
+
+#. module: accountant_knowledge
+#. odoo-javascript
+#: code:addons/accountant_knowledge/static/src/editor/embedded_components/backend/account_report/account_report.xml:0
+msgid ""
+"The full report will be included in the final document. Feel free to tailor "
+"the result using filters and options from the report."
+msgstr ""
+"ບົດລາຍງານສະບັບເຕັມຈະຖືກລວມເຂົ້າໃນເອກະສານສຸດທ້າຍ. ທ່ານສາມາດປັບແຕ່ງຜົນໄດ້ຮັບໂດຍໃຊ້ຕົວຕອງ ແລະ ຕົວ"
+"ເລືອກຕ່າງໆຈາກບົດລາຍງານ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"The gross value consists of the purchase cost, excluding incidental "
+"expenses. When the inventory value is lower than the gross value, a "
+"provision for impairment is recorded for the amount of the difference."
+msgstr ""
+"ມູນຄ່າເບື້ອງຕົ້ນປະກອບດ້ວຍຕົ້ນທຶນການຊື້, ບໍ່ລວມຄ່າໃຊ້ຈ່າຍອື່ນໆທີ່ກ່ຽວຂ້ອງ. ເມື່ອມູນຄ່າສິນຄ້າໃນສາງຕ່ຳກວ່າມູນຄ່າເ"
+"ບື້ອງຕົ້ນ, ການຕັ້ງສຳຮອງການຫລຸດນ້ອຍຖອຍລົງຂອງມູນຄ່າຈະຖືກບັນທຶກຕາມສ່ວນຕ່າງ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid ""
+"The gross value of goods and supplies includes the purchase price and "
+"related incidental costs."
+msgstr ""
+"ມູນຄ່າເບື້ອງຕົ້ນຂອງສິນຄ້າ ແລະ ວັດສະດຸ ລວມມີລາຄາຊື້ ແລະ ຕົ້ນທຶນອື່ນໆທີ່ກ່ຽວຂ້ອງ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "The key figures are as follows:"
+msgstr "ຕົວເລກທີ່ສຳຄັນມີດັ່ງນີ້:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid "The net accounting result is a {{ net accounting result }}."
+msgstr "ຜົນໄດ້ຮັບທາງບັນຊີສຸດທິແມ່ນ {{ net accounting result }}."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid ""
+"The notes and tables provided below form an integral part of the annual "
+"financial statements."
+msgstr ""
+"ໝາຍເຫດ ແລະ ຕາຕະລາງທີ່ສະແດງລຸ່ມນີ້ ແມ່ນສ່ວນໜຶ່ງທີ່ບໍ່ສາມາດແຍກອອກໄດ້ຂອງໃບລາຍງານການເງິນປະຈຳປີ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_subventions
+msgid ""
+"The portion of subsidies that finance capital expenditures is recognized in "
+"operating income over the same period as the depreciation of the related "
+"assets. The acquired portion not yet recognized in income is recorded under "
+"equity as investment grants."
+msgstr ""
+"ສ່ວນຂອງເງິນອຸດໜູນທີ່ໃຊ້ສຳລັບລາຍຈ່າຍທຶນ ແມ່ນຖືກຮັບຮູ້ເປັນລາຍຮັບການດຳເນີນງານໃນໄລຍະເວລາດຽວກັນກັບການຄິ"
+"ດໄລ່ຄ່າເສື່ອມລາຄາຂອງຊັບສິນທີ່ກ່ຽວຂ້ອງ. ສ່ວນທີ່ໄດ້ຮັບແລ້ວແຕ່ຍັງບໍ່ທັນຮັບຮູ້ເປັນລາຍຮັບ ແມ່ນຖືກບັນທຶກພາຍໃຕ້ສ່ວນທຶ"
+"ນເປັນເງິນອຸດໜູນເພື່ອການລົງທຶນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_account_principles_and_methods
+msgid ""
+"The primary method used to value the items recorded in the accounts is the "
+"historical cost method."
+msgstr ""
+"ວິທີການຫຼັກທີ່ໃຊ້ໃນການຕີລາຄາລາຍການທີ່ບັນທຶກໃນບັນຊີ ແມ່ນວິທີຕົ້ນທຶນປະຫວັດສາດ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"The purchase price (including customs duties and non-recoverable taxes, less"
+" any trade discounts, rebates, or settlement discounts);"
+msgstr ""
+"ລາຄາຊື້ (ລວມທັງພາສີຂາເຂົ້າ ແລະ ພາສີທີ່ບໍ່ສາມາດຂໍຄືນໄດ້, ຫັກສ່ວນຫຼຸດທາງການຄ້າ ຫຼື ສ່ວນຫຼຸດການຊຳລະເງິນ);"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_preamble
+msgid ""
+"The total balance sheet amount before allocation of the result is {{ total "
+"balance sheet }}."
+msgstr ""
+"ຍອດລວມຂອງໃບສະຫຼຸບຊັບສົມບັດ ກ່ອນການຈັດສັນຜົນໄດ້ຮັບແມ່ນ {{ total balance sheet }}."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "This company is part of a group, and owns the following subsidiaries"
+msgstr ""
+"ບໍລິສັດນີ້ເປັນສ່ວນໜຶ່ງຂອງກຸ່ມບໍລິສັດ, ແລະ ເປັນເຈົ້າຂອງບໍລິສັດຍ່ອຍດັ່ງນີ້"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_entity_information
+msgid "This company is part of a group, under the following parent company."
+msgstr "ບໍລິສັດນີ້ເປັນສ່ວນໜຶ່ງຂອງກຸ່ມບໍລິສັດ, ພາຍໃຕ້ບໍລິສັດແມ່ດັ່ງນີ້."
+
+#. module: accountant_knowledge
+#: model:ir.model.fields,field_description:accountant_knowledge.field_audit_report__title
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Tools: 10 years"
+msgstr "ເຄື່ອງມື: 10 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Total assets: {{ total balance sheet }}"
+msgstr "ຊັບສິນທັງໝົດ: {{ total balance sheet }}"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_income_statement
+msgid "Total<br>"
+msgstr "ທັງໝົດ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_non_standard_transactions
+msgid "Transactions with Major Shareholders"
+msgstr "ທຸລະກຳກັບຜູ້ຖືຮຸ້ນລາຍໃຫຍ່"
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Transactions with Management"
+msgstr "ທຸລະກຳກັບຝ່າຍບໍລິຫານ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid "Transport equipment: 5 years"
+msgstr "ພາຫະນະຂົນສົ່ງ: 5 ປີ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid "Unqualified Attestation"
+msgstr "ການຢັ້ງຢືນແບບບໍ່ມີເງື່ອນໄຂ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Valuation of free shares granted<br>"
+msgstr "ການຕີລາຄາຮຸ້ນທີ່ມອບໃຫ້ໂດຍບໍ່ເສຍຄ່າ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Valuation of multi-year variable compensation<br>"
+msgstr "ການຕີລາຄາຄ່າຕອບແທນແບບຜັນແປຫຼາຍປີ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_transactions_with_management
+msgid "Valuation of stock options granted during the year<br>"
+msgstr "ການຕີລາຄາສິດທິໃນການຊື້ຮຸ້ນ (stock options) ທີ່ມອບໃຫ້ໃນລະຫວ່າງປີ<br>"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_changes_in_accounting_policies
+msgid "Voluntary Change in Accounting Policy"
+msgstr "ການປ່ຽນແປງນະໂຍບາຍການບັນຊີໂດຍຄວາມສະໝັກໃຈ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_attestation
+msgid ""
+"We are making the following comment regarding a matter that may affect the "
+"overall consistency and reliability of the financial statements:"
+msgstr ""
+"ພວກເຮົາຂໍໃຫ້ຄຳເຫັນດັ່ງຕໍ່ໄປນີ້ ກ່ຽວກັບບັນຫາທີ່ອາດຈະສົ່ງຜົນກະທົບຕໍ່ຄວາມສອດຄ່ອງ ແລະ ຄວາມໜ້າເຊື່ອຖືໂດຍລວມຂ"
+"ອງໃບລາຍງານການເງິນ:"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_inventory_overview
+msgid "Weighted Average Cost"
+msgstr "ຕົ້ນທຶນສະເລ່ຍຖ່ວງນ້ຳໜັກ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_intangible_and_tangible_assets
+msgid ""
+"When applicable, the initial estimate of dismantling, removal, and site "
+"restoration costs related to the asset's location."
+msgstr ""
+"ຫາກສາມາດນຳໃຊ້ໄດ້, ໃຫ້ລວມການປະມານການເບື້ອງຕົ້ນຂອງຕົ້ນທຶນການຮື້ຖອນ, ການຍ້າຍ ແລະ ການຟື້ນຟູສະຖານທີ່"
+"ທີ່ກ່ຽວຂ້ອງກັບທີ່ຕັ້ງຂອງຊັບສິນ."
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_financial_resources
+msgid ""
+"Where applicable, receivables are depreciated through provisions to account "
+"for potential collection difficulties. These provisions for impairment are "
+"determined by comparing the acquisition value with the probable realizable "
+"value."
+msgstr ""
+"ຫາກສາມາດນຳໃຊ້ໄດ້, ໜີ້ຕ້ອງຮັບຈະຖືກຫລຸດມູນຄ່າຜ່ານການຕັ້ງສຳຮອງ ເພື່ອຮອງຮັບຄວາມຫຍຸ້ງຍາກທີ່ອາດເກີດຂຶ້ນໃນກ"
+"ານເກັບໜີ້. ການຕັ້ງສຳຮອງການຫລຸດນ້ອຍຖອຍລົງຂອງມູນຄ່ານີ້ ແມ່ນກຳນົດໂດຍການປຽບທຽບມູນຄ່າທີ່ໄດ້ມາ ກັບມູນຄ່າທີ່"
+"ຄາດວ່າຈະໄດ້ຮັບຕົວຈິງ."
+
+#. module: accountant_knowledge
+#: model:knowledge.article,template_name:accountant_knowledge.accountant_knowledge_article_template_workforce
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Workforce"
+msgstr "ກຳລັງແຮງງານ"
+
+#. module: accountant_knowledge
+#: model_terms:knowledge.article,template_body:accountant_knowledge.accountant_knowledge_article_template_workforce
+msgid "Workforce employed during the Period"
+msgstr "ກຳລັງແຮງງານທີ່ຖືກຈ້າງໃນໄລຍະເວລາ"
+
+#. module: accountant_knowledge
+#: model_terms:ir.ui.view,arch_db:accountant_knowledge.audit_report_view_form
+msgid "e.g. Annual Financial Overview"
+msgstr "ເຊັ່ນ: ພາບລວມການເງິນປະຈຳປີ"

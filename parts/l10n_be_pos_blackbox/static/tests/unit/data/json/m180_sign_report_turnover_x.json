@@ -1,0 +1,143 @@
+{
+  "data": {
+    "language": "NL",
+    "vatNo": "BE0000000097",
+    "estNo": "2000000042",
+    "posId": "CPOS0031234567",
+    "posFiscalTicketNo": 208,
+    "posDateTime": "2024-07-30T13:00:35+02:00",
+    "posSwVersion": "1.8.3",
+    "deviceId": "F0:1D:3D:CC:13:C8",
+    "terminalId": "POS-1-BAR",
+    "bookingPeriodId": "dffcd829-a0e5-41ca-a0ae-9eb887f95637",
+    "bookingDate": "2024-07-30",
+    "ticketMedium": "PAPER",
+    "employeeId": "75061189702",
+    "posDevices": [
+      {
+        "posId": "CPOS0031234567",
+        "terminalId": "TER-1-BAR",
+        "firstPosDateTime": "2024-07-30T08:30:12+02:00",
+        "lastPosDateTime": "2024-07-30T08:40:12+02:00"
+      },
+      {
+        "posId": "CPOS0031234567",
+        "terminalId": "TER-2-DIN",
+        "firstPosDateTime": "2024-07-30T11:45:12+02:00",
+        "lastPosDateTime": "2024-07-30T12:57:12+02:00"
+      },
+      {
+        "posId": "CPOS0031234568",
+        "terminalId": "POS-2-REC",
+        "firstPosDateTime": "2024-07-30T09:40:12+02:00",
+        "lastPosDateTime": "2024-07-30T09:45:12+02:00"
+      }
+    ],
+    "fdmDevices": [
+      {
+        "fdmId": "FOD01000001",
+        "firstFdmDateTime": "2024-07-30T06:30:12Z",
+        "firstTotalCounter": 49,
+        "lastFdmDateTime": "2024-07-30T10:57:18Z",
+        "lastTotalCounter": 56
+      }
+    ],
+    "turnover": {
+      "transactions": [
+        {
+          "eventLabel": "N",
+          "ticketCount": 4,
+          "amount": 102.04
+        },
+        {
+          "eventLabel": "P",
+          "ticketCount": 3,
+          "amount": 198
+        }
+      ],
+      "departments": [
+        {
+          "departmentId": "10",
+          "departmentName": "Aperitifs",
+          "amount": 24
+        },
+        {
+          "departmentId": "12",
+          "departmentName": "Soft Drinks",
+          "amount": 3.04
+        },
+        {
+          "departmentId": "15",
+          "departmentName": "Wines",
+          "amount": 35
+        },
+        {
+          "departmentId": "22",
+          "departmentName": "Main Dishes",
+          "amount": 40
+        }
+      ],
+      "vats": [
+        {
+          "label": "A",
+          "rate": 21,
+          "taxableAmount": 51.27,
+          "vatAmount": 10.77,
+          "totalAmount": 62.04
+        },
+        {
+          "label": "B",
+          "rate": 12,
+          "taxableAmount": 35.71,
+          "vatAmount": 4.29,
+          "totalAmount": 40
+        }
+      ],
+      "payments": [
+        {
+          "id": "1",
+          "name": "Contant",
+          "type": "CASH",
+          "amount": [
+            {
+              "type": "PAYMENT",
+              "normalAmount": 99,
+              "negativeCorrections": 0,
+              "positiveCorrections": 0,
+              "correctionsCount": 0,
+              "totalAmount": 99,
+              "normalForeign": null,
+              "correctionsForeign": null
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Mastercard",
+          "type": "CARD_CREDIT",
+          "amount": [
+            {
+              "type": "PAYMENT",
+              "normalAmount": 3.04,
+              "negativeCorrections": 0,
+              "positiveCorrections": 0,
+              "correctionsCount": 0,
+              "totalAmount": 3.04
+            }
+          ]
+        }
+      ],
+      "drawersOpenCount": 0,
+      "negQuantities": [
+        {
+          "negQuantityReason": "REFUND",
+          "negQuantityCount": 2,
+          "ticketCount": 1,
+          "amount": -52
+        }
+      ],
+      "priceChanges": [],
+      "invoices": []
+    }
+  }
+}

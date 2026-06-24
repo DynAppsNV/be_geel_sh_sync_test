@@ -1,0 +1,346 @@
+<odoo>
+    <record id="dyn_dashboard_query_field_form_view" model="ir.ui.view">
+        <field name="name">xx.dashboard.query.field.form.view</field>
+        <field name="model">xx.dashboard.query.field</field>
+        <field name="arch" type="xml">
+            <form string="Query Field">
+                <group>
+                    <field name="sequence" />
+                    <field name="name" />
+                    <field name="is_visible" />
+                    <field name="dashboard_tile_type" invisible="1" />
+                    <field name="download" invisible="dashboard_tile_type != 'table'" />
+                    <field name="field_label" />
+                    <field name="field_layout_params" />
+                    <field name="alignment" />
+                    <field name="formatter" />
+                    <field name="formatter_params" />
+                    <field name="has_filter" />
+                    <field name="header_filter" />
+                    <field name="header_filter_params" />
+                    <field name="width" />
+                    <field name="is_group_by" />
+                    <field name="type_output" />
+                    <field name="show_on_axis" />
+                    <field name="opposite_axis_label" />
+                    <field name="axis_label_color" />
+                </group>
+            </form>
+        </field>
+    </record>
+    <record id="dyn_dashboard_item_form_view" model="ir.ui.view">
+        <field name="name">xx.dashboard.item.form.view</field>
+        <field name="model">xx.dashboard.tile</field>
+        <field name="priority">10</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="dashboard_id" invisible="1" />
+                    <field name="name" />
+                    <field name="display_type" />
+                </group>
+                <notebook>
+                    <page string="Query &amp; Data options" name="query">
+                        <group string="Query settings" name="query_settings">
+                            <field name="query" />
+                            <field name="query_result" invisible="1" />
+                            <field name="query_key_ids" readonly="0">
+                                <list>
+                                    <field name="sequence" widget="handle" />
+                                    <field name="name" readonly="1" />
+                                    <field name="is_visible" readonly="1" />
+                                    <field name="dashboard_tile_type" invisible="1" />
+                                    <field
+                                        name="download"
+                                        attrs='{"invisible": [("dashboard_tile_type", "!=", "table")]}'
+                                    />
+                                    <field name="field_label" readonly="1" />
+                                    <field name="show_on_axis" readonly="1" />
+                                    <button
+                                        name="open_self_one2many"
+                                        type="object"
+                                        string="Open Field settings"
+                                    />
+                                </list>
+                            </field>
+                        </group>
+                        <group string="Graph settings" name="graph_settings">
+                            <field name="sub_title" />
+                            <field name="direction" />
+                            <field name="is_stacked" />
+                            <field name="stacked_type" />
+                            <field name="is_area" />
+                            <field name="show_labels" />
+                            <field name="show_legend" />
+                            <field name="show_markers" />
+                            <field name="is_radial_semi_circle" />
+                            <field name="graph_locale" />
+                        </group>
+                        <group
+                            string="Table settings"
+                            name="table_settings"
+                            invisible="display_type != 'table'"
+                        >
+                            <field name="table_format_params" />
+                            <field name="download_data" />
+                            <field
+                                name="pdf_orientation"
+                                invisible="download_data == False"
+                            />
+                        </group>
+                    </page>
+                    <page string="Plain Text" name="plain_text">
+                        <group>
+                            <field name="plain_text" />
+                        </group>
+                    </page>
+                    <page string="Drill Action" name="action">
+                        <group>
+                            <field name="drill_type" />
+                        </group>
+
+                        <div class="text-muted" invisible="drill_type != 'dashboard'">
+                            Set a dashboard if you want to drill from this tile to another dashboard
+                        </div>
+                        <group invisible="drill_type != 'dashboard'">
+                            <field name="xx_dashboard_drill" string="Dashboard" />
+                            <field name="new_tab" />
+                        </group>
+                        <field name="has_res_model" invisible="1" />
+                        <div
+                            class="text-muted"
+                            invisible="drill_type != 'model' or has_res_model"
+                        >
+                            Select a model to drill to a list of ids.<br />
+                            In your query provide the list of IDs that need to be displayed on the selected model.
+                        </div>
+                        <div
+                            class="text-muted"
+                            invisible="drill_type != 'model' or not has_res_model"
+                        >
+                            The model referenced in res_model field will be used to drill down on the selected record.
+                        </div>
+                        <group invisible="drill_type != 'model' or has_res_model">
+                            <field
+                                name="model_id"
+                                options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"
+                                string="Model"
+                                invisible="has_res_model"
+                            />
+                            <field name="new_tab" invisible="drill_type == 'filter'" />
+                        </group>
+                        <group invisible="drill_type != 'filter'">
+                            <field name="filter_drill" />
+                        </group>
+                    </page>
+                    <page string="Styling options" name="layout">
+                        <group>
+                            <field name="width" />
+                            <field name="height" />
+                            <field name="icon" />
+                            <field name="icon_size" />
+                            <field name="bg_color" />
+                            <field name="bg_color_header" />
+
+                            <field name="font_color_title" />
+                            <field name="font_size_title" />
+                            <field name="font_color_text" />
+                            <field name="font_size_text" />
+                            <field name="custom_color_array" />
+                            <field name="graph_theme_palette" />
+                            <field name="text_align_header" />
+                        </group>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+    <record id="dyn_dashboard_tree_view" model="ir.ui.view">
+        <field name="name">xx.dashboard.list.view</field>
+        <field name="model">xx.dashboard</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name" />
+                <field name="menu_name" />
+            </list>
+        </field>
+    </record>
+
+    <record id="dyn_dashboard_form_view" model="ir.ui.view">
+        <field name="name">xx.dashboard.form.view</field>
+        <field name="model">xx.dashboard</field>
+        <field name="arch" type="xml">
+            <form string="Dashboard">
+                <group>
+                    <field name="name" />
+                    <field name="menu_name" />
+                    <field name="parent_menu_id" />
+                    <field name="show_date_filter" />
+                    <field name="graph_locale" />
+                    <field name="tile_ids">
+                        <list>
+                            <field name="sequence" widget="handle" />
+                            <field name="name" />
+                            <field name="display_type" />
+                            <field name="width" />
+                            <field name="height" />
+                            <button
+                                name="open_self_one2many"
+                                type="object"
+                                string="Open tile settings"
+                            />
+                        </list>
+                    </field>
+                </group>
+
+                <notebook>
+                    <page string="Custom filters">
+                        <group>
+                            <field name="xx_custom_filter_ids">
+                                <list>
+                                    <field name="sequence" widget="handle" />
+                                    <field name="filter_name" />
+                                    <field name="wildcard" />
+                                    <field name="query_wildcard_replace" />
+                                    <field name="manual_selection_ids">
+                                        <form>
+                                            <group>
+                                                <field name="sequence" />
+                                                <field name="name" />
+                                                <field name="value" />
+                                            </group>
+                                        </form>
+                                        <list>
+                                            <field name="sequence" />
+                                            <field name="name" />
+                                            <field name="value" />
+                                        </list>
+                                    </field>
+                                    <button
+                                        name="open_self_one2many"
+                                        type="object"
+                                        string="Open filter settings"
+                                    />
+                                </list>
+                                <form>
+                                    <group>
+                                        <field name="filter_name" />
+                                        <field name="use_odoo_data" />
+                                        <field
+                                            name="model_id"
+                                            invisible="use_odoo_data == False"
+                                        />
+                                        <field
+                                            name="model_field_name"
+                                            invisible="use_odoo_data == False"
+                                        />
+                                        <field
+                                            name="model_field_value"
+                                            invisible="use_odoo_data == False"
+                                        />
+                                        <field
+                                            name="query_threshold"
+                                            invisible="use_odoo_data == False"
+                                        />
+
+                                        <field name="wildcard" />
+                                        <field name="query_wildcard_replace" />
+                                        <field name="selection_ids" invisible="1" />
+                                        <field
+                                            name="manual_selection_ids"
+                                            invisible="use_odoo_data == True"
+                                        >
+                                            <form>
+                                                <group>
+                                                    <field name="sequence" />
+                                                    <field name="name" />
+                                                    <field name="value" />
+                                                </group>
+                                            </form>
+                                            <list>
+                                                <field name="sequence" />
+                                                <field name="name" />
+                                                <field name="value" />
+                                            </list>
+                                        </field>
+                                    </group>
+                                </form>
+                            </field>
+                        </group>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="xx_my_dashboard">
+        <field name="model">xx.dashboard</field>
+        <field name="mode">primary</field>
+        <field name="priority">1</field>
+        <field name="type">dyn_dashboard</field>
+        <field name="arch" type="xml">
+            <dyn_dashboard>
+                <field name="name" />
+            </dyn_dashboard>
+        </field>
+    </record>
+
+    <record id="dyn_dashboard_action" model="ir.actions.act_window">
+        <field name="name">Config Dashboards</field>
+        <field name="res_model">xx.dashboard</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="dyn_my_dashboard_action" model="ir.actions.act_window">
+        <field name="name">My Dashboard</field>
+        <field name="res_model">xx.dashboard</field>
+        <!--        <field name="type">ir.actions.act_window</field>-->
+        <field name="view_mode">dyn_dashboard</field>
+        <field name="view_id" ref="xx_my_dashboard" />
+        <field name="context">{'dashboard_id': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No data yet!
+            </p>
+        </field>
+    </record>
+
+    <menuitem
+        id="dyn_dashboard_menu_root"
+        name="Dashboards"
+        web_icon="sale_management,static/description/icon.png"
+        sequence="999"
+        groups="dyn_dashboard.dyn_dashboard_group_user"
+    />
+    <menuitem
+        id="menu_dyn_dashboard_settings"
+        name="Config"
+        parent="dyn_dashboard_menu_root"
+        sequence="100"
+        groups="dyn_dashboard.dyn_dashboard_group_manager"
+    />
+    <menuitem
+        id="menu_dyn_dashboard_overview"
+        name="All Dashboard"
+        parent="dyn_dashboard_menu_root"
+        sequence="10"
+        groups="dyn_dashboard.dyn_dashboard_group_user"
+    />
+
+    <menuitem
+        action="dyn_dashboard_action"
+        id="menu_dyn_dashboard"
+        parent="menu_dyn_dashboard_settings"
+        sequence="1"
+        groups="dyn_dashboard.dyn_dashboard_group_manager"
+    />
+    <menuitem
+        action="dyn_dashboard_export_action"
+        id="menu_dyn_dashboard_export"
+        parent="menu_dyn_dashboard_settings"
+        sequence="100"
+        name="Export/import Dashboards"
+        groups="dyn_dashboard.dyn_dashboard_group_manager"
+    />
+</odoo>

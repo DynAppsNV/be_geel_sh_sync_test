@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="point_of_sale.TestBlackboxButton">
+        <button type="button"
+                class="btn btn-secondary"
+                data-tooltip="Test the blackbox connection for the linked POS configurations"
+                aria-label="Test the blackbox connection for the linked POS configurations"
+                t-on-click.stop="onClick">
+            Test
+        </button>
+    </t>
+
+</templates>

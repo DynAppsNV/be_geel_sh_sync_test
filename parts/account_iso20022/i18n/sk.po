@@ -1,0 +1,677 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_sepa
+#
+# Translators:
+# Martin Trigaux, 2022
+#
+# Tomáš Píšek <Tomas.Pisek@seznam.cz>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-20 18:42+0000\n"
+"PO-Revision-Date: 2026-01-05 18:45+0000\n"
+"Last-Translator: Tomáš Píšek <Tomas.Pisek@seznam.cz>\n"
+"Language-Team: Slovak <https://translate.odoo.com/projects/odoo-19/"
+"account_iso20022/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
+">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "A bank account is not defined."
+msgstr "Bankový účet nie je definovaný."
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_account_batch_payment__iso20022_batch_booking
+msgid ""
+"Ask the bank to group the bank transactions corresponding to these payments "
+"into a single transaction."
+msgstr ""
+"Požiadajte banku, aby zoskupila bankové transakcie zodpovedajúce týmto "
+"platbám do jednej transakcie."
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_03_austrian_004
+msgid "Austrian"
+msgstr "Rakúsky"
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "Riadok bankového výpisu"
+
+#. module: account_iso20022
+#: model_terms:ir.ui.view,arch_db:account_iso20022.view_batch_payment_form_inherit
+msgid "Batch Booking"
+msgstr "Hromadné spracovanie"
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_account_batch_payment
+msgid "Batch Payment"
+msgstr "Hromadná platba"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__iso20022_charge_bearer
+msgid "Charge Bearer"
+msgstr "Nositeľ poplatku"
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_res_company
+msgid "Companies"
+msgstr "Spoločnosti"
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_res_config_settings
+msgid "Config Settings"
+msgstr "Nastavenia konfigurácie"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "Configure Journal"
+msgstr "Nastaviť denník"
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: account_iso20022
+#: model:ir.model,website_form_label:account_iso20022.model_res_partner
+msgid "Create a Customer"
+msgstr "Vytvoriť zákazníka"
+
+#. module: account_iso20022
+#: model_terms:ir.ui.view,arch_db:account_iso20022.view_account_journal_form
+msgid "Credit Transfer"
+msgstr "Kreditný prevod"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_charge_bearer__cred
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_charge_bearer__cred
+msgid "Creditor"
+msgstr "Veriteľ"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_charge_bearer__debt
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_charge_bearer__debt
+msgid "Debtor"
+msgstr "Dlžník"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_journal__iso20022_default_priority
+msgid "Default Priority"
+msgstr "Štandardná priorita"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__display_name
+#: model:ir.model.fields,field_description:account_iso20022.field_account_journal__display_name
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__display_name
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment_method__display_name
+#: model:ir.model.fields,field_description:account_iso20022.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_iso20022.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:account_iso20022.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Zobrazovaný názov"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal.py:0
+msgid "Employee %s has no country in their address."
+msgstr "Zamestnanec %s nemá v adrese uvedenú krajinu."
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_bank_statement_line__end_to_end_uuid
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__end_to_end_uuid
+msgid "End to End ID"
+msgstr "End to End ID"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_orgid_issr
+msgid ""
+"Entity that assigns the identification (eg. KBE-BCO or Finanzamt Muenchen "
+"IV)."
+msgstr ""
+"Subjekt, ktorý priraďuje identifikáciu (napr. KBE-BCO alebo Finanzamt "
+"Muenchen IV)."
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_03_de
+msgid "German"
+msgstr "Nemecký"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "Go to settings"
+msgstr "Prejsť do nastavení"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_default_priority__high
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_priority__high
+msgid "HIGH - High priority"
+msgstr "HIGH - Vysoká priorita"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_journal__has_iso20022_payment_method
+msgid "Has Iso20022 Payment Method"
+msgstr "Má spôsob platby ISO20022"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_journal__has_sepa_ct_payment_method
+msgid "Has Sepa Ct Payment Method"
+msgstr "Má spôsob platby SEPA CT"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__id
+#: model:ir.model.fields,field_description:account_iso20022.field_account_journal__id
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__id
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment_method__id
+#: model:ir.model.fields,field_description:account_iso20022.field_res_company__id
+#: model:ir.model.fields,field_description:account_iso20022.field_res_config_settings__id
+#: model:ir.model.fields,field_description:account_iso20022.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_journal__iso20022_charge_bearer
+msgid "ISO 20022 Charge Bearer"
+msgstr "ISO 20022 Nositeľ poplatku"
+
+#. module: account_iso20022
+#: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022
+msgid "ISO20022"
+msgstr "ISO20022"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_res_company__iso20022_orgid_id
+#: model:ir.model.fields,field_description:account_iso20022.field_res_config_settings__iso20022_orgid_id
+msgid "Identification"
+msgstr "Identifikácia"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_orgid_id
+#: model:ir.model.fields,help:account_iso20022.field_res_config_settings__iso20022_orgid_id
+msgid "Identification assigned by an institution (eg. VAT number)."
+msgstr "Identifikácia pridelená inštitúciou (napr. IČ DPH)."
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__payment_method_is_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__payment_method_is_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment_method__is_iso20022
+msgid "Is Iso20022"
+msgstr "Je ISO20022"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_res_company__iso20022_orgid_issr
+#: model:ir.model.fields,field_description:account_iso20022.field_res_config_settings__iso20022_orgid_issr
+msgid "Issuer"
+msgstr "Emitent"
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_account_journal
+msgid "Journal"
+msgstr "Účtovný denník"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_res_company__iso20022_lei
+#: model:ir.model.fields,field_description:account_iso20022.field_res_partner__iso20022_lei
+#: model:ir.model.fields,field_description:account_iso20022.field_res_users__iso20022_lei
+msgid "LEI"
+msgstr "LEI"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_lei
+#: model:ir.model.fields,help:account_iso20022.field_res_partner__iso20022_lei
+#: model:ir.model.fields,help:account_iso20022.field_res_users__iso20022_lei
+msgid "Legal Entity Identifier"
+msgstr "Identifikátor právnickej osoby"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_default_priority__norm
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_priority__norm
+msgid "NORM - Normal"
+msgstr "NORM - Normálna"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_res_config_settings__iso20022_initiating_party_name
+msgid ""
+"Name of the Creditor Reference Party. Usage Rule: Limited to 70 characters "
+"in length."
+msgstr ""
+"Názov referenčnej strany veriteľa. Pravidlo použitia: Obmedzené na 70 znakov."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "Non-EUR Payments"
+msgstr "Platby v inej mene ako EUR"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal.py:0
+msgid "Partner %s has no country code defined."
+msgstr "Partner %s nemá definovaný kód krajiny."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal.py:0
+msgid "Partner %s has not bank account defined."
+msgstr "Partner %s nemá definovaný bankový účet."
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_account_payment_method
+msgid "Payment Methods"
+msgstr "Platobné metódy"
+
+#. module: account_iso20022
+#: model_terms:ir.ui.view,arch_db:account_iso20022.account_journal_dashboard_kanban_view_inherited
+msgid "Payment to send via SEPA"
+msgstr "Platba na odoslanie cez SEPA"
+
+#. module: account_iso20022
+#: model:ir.model,name:account_iso20022.model_account_payment
+msgid "Payments"
+msgstr "Platby"
+
+#. module: account_iso20022
+#: model_terms:ir.ui.view,arch_db:account_iso20022.account_journal_dashboard_kanban_view_inherited
+msgid "Payments to send via SEPA"
+msgstr "Platby na odoslanie cez SEPA"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "Payments without IBAN"
+msgstr "Platby bez IBAN"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__iso20022_priority
+msgid "Priority"
+msgstr "Priorita"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_batch_payment__iso20022_batch_booking
+msgid "SCT Batch Booking"
+msgstr "Dávkové spracovanie SCT"
+
+#. module: account_iso20022
+#: model:account.payment.method,name:account_iso20022.account_payment_method_sepa_ct
+msgid "SEPA Credit Transfer"
+msgstr "Kreditný prevod SEPA"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal_dashboard.py:0
+msgid "SEPA Credit Transfers to Send"
+msgstr "Kreditný prevod SEPA na odoslanie"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_journal__sepa_pain_version
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__sepa_pain_version
+msgid "SEPA XML Format"
+msgstr "SEPA XML formát"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_payment.py:0
+msgid "SEPA only accepts payments in EUR."
+msgstr "SEPA akceptuje len platby v EUR."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid ""
+"SEPA only accepts payments in EUR. Some payments are using another currency."
+msgstr "SEPA akceptuje iba platby v EUR. Niektoré platby používajú inú menu."
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_account_journal__sepa_pain_version
+#: model:ir.model.fields,help:account_iso20022.field_account_payment__sepa_pain_version
+msgid ""
+"SEPA version to use to generate Credit Transfer XML files from this journal"
+msgstr ""
+"Verzia SEPA, ktorá sa používa na generovanie súborov XML pre kreditné "
+"prevody z tohto denníka"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_default_priority__svda
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_priority__svda
+msgid "SVDA - Same value date"
+msgstr "SVDA – rovnaký dátum valuty"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_charge_bearer__slev
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_charge_bearer__slev
+msgid "Service Level"
+msgstr "Úroveň služieb"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_charge_bearer__shar
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_charge_bearer__shar
+msgid "Shared"
+msgstr "Zdieľané"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "Some payments are above the maximum amount allowed."
+msgstr "Niektoré platby presahujú maximálnu povolenú sumu."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "Some payments have no recipient bank account set."
+msgstr "Niektoré platby nemajú nastavený bankový účet príjemcu."
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_account_journal__iso20022_charge_bearer
+msgid ""
+"Specifies which party/parties will bear the charges associated with the "
+"processing of ISO 20022 payment transactions from this journal."
+msgstr ""
+"Určuje, ktorá strana/strany budú znášať poplatky spojené so spracovaním "
+"platobných transakcií ISO 20022 z tohto denníka."
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_account_payment__iso20022_charge_bearer
+msgid ""
+"Specifies which party/parties will bear the charges associated with the "
+"processing of the payment transaction."
+msgstr ""
+"Určuje, ktorá strana/strany budú znášať poplatky spojené so spracovaním "
+"platobnej transakcie."
+
+#. module: account_iso20022
+#: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022_se
+msgid "Swedish ISO20022"
+msgstr "Švédska norma ISO20022"
+
+#. module: account_iso20022
+#: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022_ch
+msgid "Swiss ISO20022"
+msgstr "Švédska norma ISO20022"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal.py:0
+msgid ""
+"The BIC code '%(bic_code)s' associated to the bank '%(bank)s' of bank "
+"account '%(account)s' of partner '%(partner)s' does not respect the required "
+"convention.\n"
+"It must contain 8 or 11 characters and match the following structure:\n"
+"- 4 letters: institution code or bank code\n"
+"- 2 letters: country code\n"
+"- 2 letters or digits: location code\n"
+"- 3 letters or digits: branch code, optional\n"
+msgstr ""
+"Kód BIC „%(bic_code)s“ pridelený banke „%(bank)s“ bankového účtu „%"
+"(account)s“ partnera „%(partner)s“ nespĺňa požadované konvencie.\n"
+"Musí obsahovať 8 alebo 11 znakov a zodpovedať nasledujúcej štruktúre:\n"
+"- 4 písmená: kód inštitúcie alebo kód banky\n"
+"- 2 písmená: kód krajiny\n"
+"- 2 písmená alebo číslice: kód miesta\n"
+"- 3 písmená alebo číslice: kód pobočky, voliteľné\n"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/res_partner.py:0
+msgid ""
+"The LEI number must contain 20 characters and match the following "
+"structure:\n"
+"- 18 alphanumeric characters with capital letters\n"
+"- 2 digits in the end\n"
+msgstr ""
+"Číslo LEI musí obsahovať 20 znakov a zodpovedať nasledujúcej štruktúre:\n"
+"- 18 alfanumerických znakov s veľkými písmenami\n"
+"- 2 číslice na konci\n"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid ""
+"The Name Identification and Issuer details are required to proceed. Please "
+"configure them in the settings."
+msgstr ""
+"Na pokračovanie sú potrebné údaje Identifikácia mena a Emitent. Nastavte ich "
+"v nastaveniach."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid ""
+"The bank account %(account)s, of journal '%(journal)s', is not of type "
+"IBAN.\n"
+"A valid IBAN account is required to use SEPA features."
+msgstr ""
+"Bankový účet %(account)s v denníku „%(journal)s“ nie je typu IBAN.\n"
+"Na používanie funkcií SEPA je potrebný platný účet IBAN."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid ""
+"The customer bank account set on some payments does not have an IBAN number. "
+"This is required for SEPA."
+msgstr ""
+"Bankový účet zákazníka nastavený pre niektoré platby nemá číslo IBAN. Toto "
+"číslo je potrebné pre SEPA."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_payment.py:0
+msgid ""
+"The journal '%s' requires a proper IBAN account to pay via SEPA. Please "
+"configure it first."
+msgstr ""
+"Účtovná kniha '%s' vyžaduje riadny IBAN účet na platbu cez SEPA. Prosím, "
+"najskôr ho nakonfigurujte."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal.py:0
+msgid "This journal does not have a bank account defined."
+msgstr "Tento denník nemá definovaný bankový účet."
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal.py:0
+msgid "Too many transactions for a single file."
+msgstr "Príliš veľa transakcií pre jeden súbor."
+
+#. module: account_iso20022
+#: model:account.payment.method,name:account_iso20022.account_payment_method_iso20022_us
+msgid "U.S. ISO20022"
+msgstr "U.S. ISO20022"
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_account_payment__iso20022_uetr
+msgid "UETR"
+msgstr "UETR"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__iso20022_default_priority__urgp
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_payment__iso20022_priority__urgp
+msgid "URGP - Critical urgency"
+msgstr "URGP – Kritická naliehavosť"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_account_bank_statement_line__end_to_end_uuid
+#: model:ir.model.fields,help:account_iso20022.field_account_payment__end_to_end_uuid
+msgid "Unique end-to-end assigned by the initiating party"
+msgstr "Jedinečný end-to-end pridelený iniciujúcou stranou"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_account_payment__iso20022_uetr
+msgid "Unique end-to-end transaction reference"
+msgstr "Jedinečná end-to-end (emitent - príjemca) referencia transakcie"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_batch_payment.py:0
+msgid "View Payments"
+msgstr "Zobraziť platby"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_res_company__iso20022_initiating_party_name
+msgid ""
+"Will appear as the name of the party initiating the payment. Limited to 70 "
+"characters."
+msgstr ""
+"Zobrazí sa ako meno strany, ktorá iniciuje platbu. Obmedzené na 70 znakov."
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_res_config_settings__iso20022_orgid_issr
+msgid ""
+"Will appear in SEPA payments as the name of the party initiating the "
+"payment. Limited to 70 characters."
+msgstr ""
+"Bude zobrazený v SEPA platbe ako meno strany zadávajúcej platbu. Obmedzené "
+"na 70 znakov."
+
+#. module: account_iso20022
+#: model:ir.model.fields,field_description:account_iso20022.field_res_company__iso20022_initiating_party_name
+#: model:ir.model.fields,field_description:account_iso20022.field_res_config_settings__iso20022_initiating_party_name
+msgid "Your Company Name"
+msgstr "Názov vašej spoločnosti"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal_dashboard.py:0
+msgid "is_sent"
+msgstr "is_sent"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_03
+msgid "pain.001.001.03"
+msgstr "pain.001.001.03"
+
+#. module: account_iso20022
+#: model:ir.model.fields.selection,name:account_iso20022.selection__account_journal__sepa_pain_version__pain_001_001_09
+msgid "pain.001.001.09"
+msgstr "pain.001.001.09"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal_dashboard.py:0
+msgid "payment_method_line_id.code"
+msgstr "payment_method_line_id.code"
+
+#. module: account_iso20022
+#. odoo-python
+#: code:addons/account_iso20022/models/account_journal_dashboard.py:0
+msgid "state"
+msgstr "stav"
+
+#. module: account_iso20022
+#: model:ir.model.fields,help:account_iso20022.field_account_journal__iso20022_default_priority
+#: model:ir.model.fields,help:account_iso20022.field_account_payment__iso20022_priority
+msgid ""
+"• NORM: Standard processing time.\n"
+"• HIGH: High priority payment.\n"
+"• URGP: Critical, requires immediate processing.\n"
+"• SVDA: Payments must settle on same day as submission."
+msgstr ""
+"• NORM: Štandardná doba spracovania.\n"
+"• HIGH: Platba s vysokou prioritou.\n"
+"• URGP: Kritická, vyžaduje okamžité spracovanie.\n"
+"• SVDA: Platby musia byť uhradené v deň podania."
+
+#~ msgid ""
+#~ "Some payments are missing a value for 'UETR', required for the SEPA "
+#~ "Pain.001.001.09 format."
+#~ msgstr ""
+#~ "Niektorým platbám chýba hodnota „UETR“, ktorá je požadovaná pre formát "
+#~ "SEPA Pain.001.001.09."
+
+#~ msgid "A bank account must be set on the following documents: "
+#~ msgstr "Bankový účet musí byť nastavený v nasledujúcich dokumentoch:"
+
+#~ msgid ""
+#~ "Bank account %s 's bank does not have any BIC number associated. Please "
+#~ "define one."
+#~ msgstr ""
+#~ "bankový účet %s 's bankou nie je spojené žiadne BIC číslo. Prosím, "
+#~ "definujte jeden."
+
+#~ msgid "Generic"
+#~ msgstr "Všeobencné"
+
+#~ msgid "Maximum amount is %s for payments in Euros, %s for other currencies."
+#~ msgstr "Maximálna suma je %s pre platby v eurách,%s pre iné meny."
+
+#~ msgid ""
+#~ "Please first set a SEPA identification number in the accounting settings."
+#~ msgstr ""
+#~ "Najskôr prosím nastavte identifikačné číslo SEPA v nastaveniach "
+#~ "účtovníctva."
+
+#~ msgid "Register Payment"
+#~ msgstr "Registrovať platbu"
+
+#~ msgid "Request batch booking from the bank for the related bank statements."
+#~ msgstr ""
+#~ "Vyžiadajte si od banky hromadnú rezerváciu súvisiacich bankových výpisov."
+
+#~ msgid "SEPA Pain Version"
+#~ msgstr "Verzia Pain SEPA"
+
+#~ msgid "Sct Generic"
+#~ msgstr "Sct Generic"
+
+#~ msgid ""
+#~ "Some payments are not made on an IBAN recipient account. This batch might "
+#~ "not be accepted by certain banks because of that."
+#~ msgstr ""
+#~ "Niektoré platby sa neuskutočňujú na účte príjemcu IBAN. Niektoré banky "
+#~ "preto nemusia túto dávku akceptovať."
+
+#~ msgid ""
+#~ "Some payments were instructed in another currency than Euro. This batch "
+#~ "might not be accepted by certain banks because of that."
+#~ msgstr ""
+#~ "Niektoré platby dostali pokyny v inej mene ako euro. Niektoré banky preto "
+#~ "nemusia túto dávku akceptovať."
+
+#~ msgid ""
+#~ "Technical feature used during the file creation. A SEPA message is said "
+#~ "to be 'generic' if it cannot be considered as a standard european credit "
+#~ "transfer. That is if the bank journal is not in €, a transaction is not "
+#~ "in € or a payee is not identified by an IBAN account number."
+#~ msgstr ""
+#~ "Technická vlastnosť použitá pri vytváraní súboru. Hovorí sa o tom, že "
+#~ "správa SEPA je „všeobecná“, ak ju nemožno považovať za štandardný "
+#~ "európsky prevod. To znamená, že bankový denník nie je vedený v EUR, "
+#~ "transakcia nie je vedená v EUR alebo príjemca platby nie je "
+#~ "identifikovaný číslom účtu IBAN."
+
+#~ msgid ""
+#~ "The account %s, linked to partner '%s', is not of type IBAN.\n"
+#~ "A valid IBAN account is required to use SEPA features."
+#~ msgstr ""
+#~ "Účet %s, prepojený na partnera '%s', nie je IBAN typu.\n"
+#~ "Platný IBAN účet je vyžadovaný pre používanie SEPA funkcií."
+
+#~ msgid ""
+#~ "The account %s, of journal '%s', is not of type IBAN.\n"
+#~ "A valid IBAN account is required to use SEPA features."
+#~ msgstr ""
+#~ "Účet %s, účtovnej knihy '%s', nie je IBAN typu.\n"
+#~ "Platný IBAN účet je vyžadovaný pre používanie SEPA funkcií."
+
+#~ msgid ""
+#~ "The amount of the payment '%(payment)s' is too high. The maximum "
+#~ "permitted is %(limit)s."
+#~ msgstr ""
+#~ "Výška platby '%(payment)s'je príliš vysoká. Maximálna povolená hodnota je "
+#~ "%(limit)s."

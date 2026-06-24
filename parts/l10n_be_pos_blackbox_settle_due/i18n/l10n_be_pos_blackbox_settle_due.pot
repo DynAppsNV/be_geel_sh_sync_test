@@ -1,0 +1,54 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_be_pos_blackbox_settle_due
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-22 18:12+0000\n"
+"PO-Revision-Date: 2026-05-22 18:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_be_pos_blackbox_settle_due
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_settle_due.field_pos_config__display_name
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_settle_due.field_product_template__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_settle_due
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_settle_due.field_pos_config__id
+#: model:ir.model.fields,field_description:l10n_be_pos_blackbox_settle_due.field_product_template__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_settle_due
+#: model:ir.model,name:l10n_be_pos_blackbox_settle_due.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_settle_due
+#: model:ir.model,name:l10n_be_pos_blackbox_settle_due.model_product_template
+msgid "Product"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_settle_due
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox_settle_due/models/product_template.py:0
+msgid ""
+"Products used for settling due amounts, deposits, or invoice settlements in POS with a certified Belgian blackbox must not have any taxes.\n"
+"Please remove all taxes from the product: %s"
+msgstr ""
+
+#. module: l10n_be_pos_blackbox_settle_due
+#. odoo-python
+#: code:addons/l10n_be_pos_blackbox_settle_due/models/pos_config.py:0
+msgid ""
+"Products used for settling due amounts, deposits, or invoice settlements in POS with a certified Belgian blackbox must not have any taxes.\n"
+"Please remove taxes from the following products: %s"
+msgstr ""

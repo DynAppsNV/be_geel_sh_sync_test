@@ -1,0 +1,232 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * helpdesk_sale_loyalty
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:45+0000\n"
+"PO-Revision-Date: 2026-06-13 19:31+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"helpdesk_sale_loyalty/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/wizard/helpdesk_sale_giftcard_generate_wizard.py:0
+msgid "%s Gift Card created"
+msgstr "ສ້າງ %s ບັດຂອງຂວັນແລ້ວ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_giftcard_generate_wizard_view_form
+msgid ""
+"<span>\n"
+"                            Generate &amp; Send Gift Card\n"
+"                        </span>"
+msgstr ""
+"<span>\n"
+"                            ສ້າງ ແລະ ສົ່ງບັດຂອງຂວັນ\n"
+"                        </span>"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/wizard/helpdesk_sale_coupon_generate.py:0
+msgid "Compose Email"
+msgstr "ຂຽນອີເມວ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_ticket_view_form_inherit_helpdesk_sale_coupon
+msgid "Coupon"
+msgstr "ຄູປອງ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__program
+msgid "Coupon Program"
+msgstr "ແຜນງານຄູປອງ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__points_granted
+msgid "Coupon Value"
+msgstr "ມູນຄ່າຄູປອງ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/wizard/helpdesk_sale_coupon_generate.py:0
+msgid "Coupon created"
+msgstr "ສ້າງຄູປອງແລ້ວ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/models/helpdesk_ticket.py:0
+#: model:ir.actions.act_window,name:helpdesk_sale_loyalty.loyalty_open_card_action
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_ticket_view_form_inherit_helpdesk_sale_coupon
+msgid "Coupons"
+msgstr "ຄູປອງ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model,website_form_label:helpdesk_sale_loyalty.model_helpdesk_ticket
+msgid "Create a Ticket"
+msgstr "ສ້າງປີ້ແຈ້ງບັນຫາ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/models/helpdesk_ticket.py:0
+msgid "Create a new one from scratch"
+msgstr "ສ້າງໃໝ່ແຕ່ເລີ່ມຕົ້ນ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_giftcard_generate_wizard_view_form
+msgid "Description"
+msgstr "ຄຳອະທິບາຍ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_coupon_generate_view_form
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_giftcard_generate_wizard_view_form
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.loyalty_card_view_form_helpdesk_sale_loyalty
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__display_name
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_ticket__display_name
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_loyalty_generate_wizard__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_giftcard_generate_wizard_view_form
+msgid "Example: Gift for customer"
+msgstr "ຕົວຢ່າງ: ຂອງຂວັນສຳລັບລູກຄ້າ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_giftcard_generate_wizard_view_form
+msgid "Generate"
+msgstr "ສ້າງ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.actions.act_window,name:helpdesk_sale_loyalty.helpdesk_sale_giftcard_generate_wizard_action
+msgid "Generate & Send Gift Card"
+msgstr "ສ້າງ ແລະ ສົ່ງບັດຂອງຂວັນ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model,name:helpdesk_sale_loyalty.model_loyalty_generate_wizard
+msgid "Generate Gift Card Wizard"
+msgstr "ຕົວຊ່ວຍສ້າງບັດຂອງຂວັນ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model,name:helpdesk_sale_loyalty.model_helpdesk_sale_coupon_generate
+msgid "Generate Sales Coupon from Helpdesk"
+msgstr "ສ້າງຄູປອງການຂາຍຈາກ ໜ່ວຍງານຊ່ວຍເຫຼືອ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.actions.act_window,name:helpdesk_sale_loyalty.helpdesk_sale_coupon_generate_action
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_coupon_generate_view_form
+msgid "Generate a Coupon"
+msgstr "ສ້າງຄູປອງ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_ticket__coupon_ids
+msgid "Generated Coupons"
+msgstr "ຄູປອງທີ່ສ້າງຂຶ້ນ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_ticket_view_form_inherit_helpdesk_sale_coupon
+msgid "Gift Card"
+msgstr "ບັດຂອງຂວັນ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_giftcard_generate_wizard_view_form
+msgid "Gift Card value"
+msgstr "ມູນຄ່າບັດຂອງຂວັນ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/models/helpdesk_ticket.py:0
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_ticket_view_form_inherit_helpdesk_sale_coupon
+msgid "Gift Cards"
+msgstr "ບັດຂອງຂວັນ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model,name:helpdesk_sale_loyalty.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "ປີ້ແຈ້ງບັນຫາ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__id
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_ticket__id
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_loyalty_generate_wizard__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__write_uid
+msgid "Last Updated by"
+msgstr "ປັບປຸງລ້າສຸດໂດຍ"
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__write_date
+msgid "Last Updated on"
+msgstr "ປັບປຸງລ້າສຸດເມື່ອ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/models/helpdesk_ticket.py:0
+msgid "No Coupon found"
+msgstr "ບໍ່ພົບຄູປອງ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/models/helpdesk_ticket.py:0
+msgid "No gift cards found"
+msgstr "ບໍ່ພົບບັດຂອງຂວັນ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/models/helpdesk_ticket.py:0
+msgid "Reimburse customers with a voucher code for future purchases"
+msgstr "ສົ່ງຄືນໃຫ້ລູກຄ້າດ້ວຍລະຫັດບັດສ່ວນຫຼຸດສຳລັບການຊື້ໃນຄັ້ງຕໍ່ໄປ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.loyalty_card_view_form_helpdesk_sale_loyalty
+msgid "Send"
+msgstr "ສົ່ງ"
+
+#. module: helpdesk_sale_loyalty
+#: model_terms:ir.ui.view,arch_db:helpdesk_sale_loyalty.helpdesk_sale_coupon_generate_view_form
+msgid "Send by Email"
+msgstr "ສົ່ງທາງອີເມວ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/wizard/helpdesk_sale_giftcard_generate_wizard.py:0
+msgid "Unable to generate Gift Card(s), please set a program first."
+msgstr "ບໍ່ສາມາດສ້າງບັດຂອງຂວັນໄດ້, ກະລຸນາຕັ້ງຄ່າແຜນງານກ່ອນ."
+
+#. module: helpdesk_sale_loyalty
+#: model:ir.model.fields,field_description:helpdesk_sale_loyalty.field_helpdesk_sale_coupon_generate__valid_until
+msgid "Valid Until"
+msgstr "ໃຊ້ໄດ້ຈົນເຖິງ"
+
+#. module: helpdesk_sale_loyalty
+#. odoo-python
+#: code:addons/helpdesk_sale_loyalty/models/helpdesk_ticket.py:0
+msgid "id"
+msgstr "ໄອດີ"

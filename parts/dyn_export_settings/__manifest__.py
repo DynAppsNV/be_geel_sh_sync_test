@@ -1,0 +1,26 @@
+{
+    "name": "Dynapps Export Settings",
+    "version": "19.0.1.0.5",
+    "author": "dynapps",
+    "license": "AGPL-3",
+    "website": "https://www.dynapps.eu",
+    "category": "Dynapps/Custom module",
+    "depends": [
+        "auditlog",
+        "base_setup",
+        "iap_mail",
+        "module_change_auto_install",
+        "web",
+    ],
+    "data": [
+        "security/ir.model.access.csv",
+        "data/auditlog_rule_data.xml",
+        "wizard/export_settings.xml",
+        "wizard/module_custom_fields.xml",
+        "wizard/module_data.xml",
+    ],
+    "demo": ["demo/base_demo.xml"],
+    "external_dependencies": {"python": ["pyyaml"]},
+    "installable": True,
+    "post_init_hook": "post_init_hook",
+}

@@ -1,0 +1,294 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* whatsapp_account_followup
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:51+0000\n"
+"PO-Revision-Date: 2025-10-08 18:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: whatsapp_account_followup
+#. odoo-python
+#: code:addons/whatsapp_account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "A phone number is required to use WhatsApp"
+msgstr "WhatsAppdan foydalanish uchun telefon raqami talab etiladi"
+
+#. module: whatsapp_account_followup
+#. odoo-python
+#: code:addons/whatsapp_account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "A template is required to use WhatsApp"
+msgstr "WhatsAppdan foydalanish uchun shablon talab etiladi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__button_dynamic_url_1
+#, fuzzy
+msgid "Button Url 1"
+msgstr "Tugma havolasi 1"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__button_dynamic_url_2
+#, fuzzy
+msgid "Button Url 2"
+msgstr "Tugma havolasi 2"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_res_partner
+#, fuzzy
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,website_form_label:whatsapp_account_followup.model_res_partner
+#, fuzzy
+msgid "Create a Customer"
+msgstr "Mijoz yaratish"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__display_name
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__display_name
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_report__display_name
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_res_partner__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__res_ids
+#, fuzzy
+msgid "Document IDs"
+msgstr "Hujjat identifikatorlari"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__res_model
+#, fuzzy
+msgid "Document Model Name"
+msgstr "Hujjat modelining nomi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_account_followup_followup_line
+#, fuzzy
+msgid "Follow-up Criteria"
+msgstr "Kuzatuv mezonlari"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_account_followup_report
+#, fuzzy
+msgid "Follow-up Report"
+msgstr "Kuzatuv hisoboti"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_1
+#, fuzzy
+msgid "Free Text 1"
+msgstr "Erkin matn 1"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_10
+#, fuzzy
+msgid "Free Text 10"
+msgstr "Erkin matn 10"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_2
+#, fuzzy
+msgid "Free Text 2"
+msgstr "Erkin matn 2"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_3
+#, fuzzy
+msgid "Free Text 3"
+msgstr "Erkin matn 3"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_4
+#, fuzzy
+msgid "Free Text 4"
+msgstr "Erkin matn 4"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_5
+#, fuzzy
+msgid "Free Text 5"
+msgstr "Erkin matn 5"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_6
+#, fuzzy
+msgid "Free Text 6"
+msgstr "Erkin matn 6"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_7
+#, fuzzy
+msgid "Free Text 7"
+msgstr "Erkin matn 7"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_8
+#, fuzzy
+msgid "Free Text 8"
+msgstr "Erkin matn 8"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_9
+#, fuzzy
+msgid "Free Text 9"
+msgstr "Erkin matn 9"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__header_text_1
+#, fuzzy
+msgid "Header Free Text"
+msgstr "Sarlavha erkin matni"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__id
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__id
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_report__id
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_res_partner__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__invalid_phone_number_count
+#, fuzzy
+msgid "Invalid Phone Number Count"
+msgstr "Noto‘g‘ri telefon raqamlari soni"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__is_button_dynamic
+#, fuzzy
+msgid "Is Button Dynamic"
+msgstr "Tugma dinamikmi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__is_header_free_text
+#, fuzzy
+msgid "Is Header Free Text"
+msgstr "Sarlavha erkin matnmi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__batch_mode
+#, fuzzy
+msgid "Is Multiple Records"
+msgstr "Bir nechta yozuvlarmi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__preview_whatsapp
+#, fuzzy
+msgid "Message Preview"
+msgstr "Xabar ko‘rinishi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__number_of_free_text
+#, fuzzy
+msgid "Number of free text"
+msgstr "Erkin matnlar soni"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__number_of_free_text_button
+#, fuzzy
+msgid "Number of free text Buttons"
+msgstr "Erkin matn tugmalari soni"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__phone
+#, fuzzy
+msgid "Phone"
+msgstr "Telefon"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__wa_template_id
+#, fuzzy
+msgid "Template"
+msgstr "Shablon"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__send_whatsapp
+#: model_terms:ir.ui.view,arch_db:whatsapp_account_followup.manual_reminder_view_form_inherit_whatsapp_followup
+#, fuzzy
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#. module: whatsapp_account_followup
+#: model_terms:ir.ui.view,arch_db:whatsapp_account_followup.view_account_followup_followup_line_form_inherit_whatsapp
+#, fuzzy
+msgid "WhatsApp Template"
+msgstr "WhatsApp shabloni"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__attachment_id
+#, fuzzy
+msgid "WhatsApp attachment"
+msgstr "WhatsApp ilovasi"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__whatsapp
+#, fuzzy
+msgid "Whatsapp"
+msgstr "WhatsApp"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__whatsapp_template_id
+#, fuzzy
+msgid "Whatsapp Template"
+msgstr "WhatsApp shabloni"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_account_followup_manual_reminder
+#, fuzzy
+msgid "Wizard for sending manual reminders to clients"
+msgstr "Mijozlarga qo‘lda eslatmalar yuborish uchun yordamchi"
+
+#. module: whatsapp_account_followup
+#. odoo-python
+#: code:addons/whatsapp_account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "whatsapp_composer and followup_line cannot both be None"
+msgstr ""
+"whatsapp_composer va followup_line ikkalasi ham Yo‘q bo‘lishi mumkin emas"

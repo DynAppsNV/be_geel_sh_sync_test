@@ -1,0 +1,7 @@
+<templates id="working_schedule_templates" xml:space="preserve">
+    <t t-name="l10n_be_hr_payroll.WorkingScheduleEmployeeMenu">
+        <DropdownItem onSelected.bind="onClick">
+            Working Schedule Change
+        </DropdownItem>
+    </t>
+</templates>

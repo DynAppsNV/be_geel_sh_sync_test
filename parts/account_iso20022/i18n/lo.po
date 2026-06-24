@@ -1,0 +1,329 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_sepa
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:02+0000\n"
+"PO-Revision-Date: 2026-06-06 13:21+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"account_iso20022/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+msgid "A bank account is not defined."
+msgstr "ບັນຊີທະນາຄານບໍ່ໄດ້ຖືກກຳນົດໄວ້."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_payment_register.py:0
+msgid "A bank account must be set on the following documents: "
+msgstr "ຕ້ອງກຳນົດບັນຊີທະນາຄານໃນເອກະສານດັ່ງຕໍ່ໄປນີ້: "
+
+#. module: account_sepa
+#: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03_austrian_004
+msgid "Austrian"
+msgstr "ອົດສະຕຣີ"
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid "Bank account %s 's bank does not have any BIC number associated. Please define one."
+msgstr "ທະນາຄານຂອງບັນຊີທະນາຄານ %s ບໍ່ມີເລກ BIC ທີ່ກ່ຽວຂ້ອງ. ກະລຸນາກຳນົດເລກ BIC."
+
+#. module: account_sepa
+#: model_terms:ir.ui.view,arch_db:account_sepa.view_batch_payment_form_inherit
+msgid "Batch Booking"
+msgstr "ການຈອງແບບກຸ່ມ"
+
+#. module: account_sepa
+#: model:ir.model,name:account_sepa.model_account_batch_payment
+msgid "Batch Payment"
+msgstr "ການຊຳລະແບບກຸ່ມ"
+
+#. module: account_sepa
+#: model:ir.model,name:account_sepa.model_res_company
+msgid "Companies"
+msgstr "ບໍລິສັດ"
+
+#. module: account_sepa
+#: model:ir.model,name:account_sepa.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າກຳນົດຄ່າ"
+
+#. module: account_sepa
+#: model:ir.model.fields,help:account_sepa.field_res_company__sepa_orgid_issr
+msgid "Entity that assigns the identification (eg. KBE-BCO or Finanzamt Muenchen IV)."
+msgstr ""
+"ນິຕິບຸກຄົນທີ່ກຳນົດການລະບຸຕົວຕົນ (ຕົວຢ່າງ: KBE-BCO ຫຼື Finanzamt Muenchen IV)."
+
+#. module: account_sepa
+#: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03
+msgid "Generic"
+msgstr "ທົ່ວໄປ"
+
+#. module: account_sepa
+#: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03_de
+msgid "German"
+msgstr "ເຢຍລະມັນ"
+
+#. module: account_sepa
+#: model:ir.model.fields,field_description:account_sepa.field_account_journal__has_sepa_ct_payment_method
+msgid "Has Sepa Ct Payment Method"
+msgstr "ມີວິທີການຊຳລະເງິນ SEPA CT"
+
+#. module: account_sepa
+#: model:ir.model.fields,field_description:account_sepa.field_res_company__sepa_orgid_id
+#: model:ir.model.fields,field_description:account_sepa.field_res_config_settings__sepa_orgid_id
+msgid "Identification"
+msgstr "ການລະບຸຕົວຕົນ"
+
+#. module: account_sepa
+#: model:ir.model.fields,help:account_sepa.field_res_company__sepa_orgid_id
+#: model:ir.model.fields,help:account_sepa.field_res_config_settings__sepa_orgid_id
+msgid "Identification assigned by an institution (eg. VAT number)."
+msgstr "ການລະບຸຕົວຕົນທີ່ກຳນົດໂດຍສະຖາບັນ (ຕົວຢ່າງ: ເລກປະຈຳຕົວຜູ້ເສຍພາສີ)."
+
+#. module: account_sepa
+#: model:ir.model.fields,field_description:account_sepa.field_res_company__sepa_orgid_issr
+#: model:ir.model.fields,field_description:account_sepa.field_res_config_settings__sepa_orgid_issr
+msgid "Issuer"
+msgstr "ຜູ້ອອກໃຫ້"
+
+#. module: account_sepa
+#: model:ir.model,name:account_sepa.model_account_journal
+msgid "Journal"
+msgstr "ສະມຸດລາຍວັນ"
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+msgid "Maximum amount is %s for payments in Euros, %s for other currencies."
+msgstr ""
+"ຈຳນວນສູງສຸດແມ່ນ %s ສຳລັບການຊຳລະເປັນສະກຸນເງິນເອີໂຣ, %s ສຳລັບສະກຸນເງິນອື່ນໆ."
+
+#. module: account_sepa
+#: model:ir.model.fields,help:account_sepa.field_res_config_settings__sepa_initiating_party_name
+msgid "Name of the Creditor Reference Party. Usage Rule: Limited to 70 characters in length."
+msgstr ""
+"ຊື່ຂອງພາກສ່ວນອ້າງອີງເຈົ້າໜີ້. ກົດການນຳໃຊ້: ຈຳກັດຄວາມຍາວບໍ່ເກີນ 70 ຕົວອັກສອນ."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid "Partner %s has no country code defined."
+msgstr "ຄູ່ຄ້າ %s ບໍ່ມີການກຳນົດລະຫັດປະເທດ."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid "Partner %s has not bank account defined."
+msgstr "ຄູ່ຄ້າ %s ບໍ່ມີການກຳນົດບັນຊີທະນາຄານ."
+
+#. module: account_sepa
+#: model:ir.model,name:account_sepa.model_account_payment_method
+msgid "Payment Methods"
+msgstr "ວິທີການຊຳລະເງິນ"
+
+#. module: account_sepa
+#: model_terms:ir.ui.view,arch_db:account_sepa.account_journal_dashboard_kanban_view_inherited
+msgid "Payment to send via SEPA"
+msgstr "ການຊຳລະເງິນທີ່ຈະສົ່ງຜ່ານ SEPA"
+
+#. module: account_sepa
+#: model:ir.model,name:account_sepa.model_account_payment
+msgid "Payments"
+msgstr "ການຊຳລະເງິນ"
+
+#. module: account_sepa
+#: model_terms:ir.ui.view,arch_db:account_sepa.account_journal_dashboard_kanban_view_inherited
+msgid "Payments to send via SEPA"
+msgstr "ການຊຳລະເງິນທີ່ຈະສົ່ງຜ່ານ SEPA"
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid "Please first set a SEPA identification number in the accounting settings."
+msgstr "ກະລຸນາກຳນົດເລກລະບຸຕົວຕົນ SEPA ໃນການຕັ້ງຄ່າການບັນຊີກ່ອນ."
+
+#. module: account_sepa
+#: model:ir.model,name:account_sepa.model_account_payment_register
+msgid "Register Payment"
+msgstr "ລົງທະບຽນການຊຳລະເງິນ"
+
+#. module: account_sepa
+#: model:ir.model.fields,help:account_sepa.field_account_batch_payment__sct_batch_booking
+msgid "Request batch booking from the bank for the related bank statements."
+msgstr "ຮ້ອງຂໍການຈອງແບບກຸ່ມຈາກທະນາຄານສຳລັບໃບລາຍງານທະນາຄານທີ່ກ່ຽວຂ້ອງ."
+
+#. module: account_sepa
+#: model:ir.model.fields,field_description:account_sepa.field_account_batch_payment__sct_batch_booking
+msgid "SCT Batch Booking"
+msgstr "ການຈອງແບບກຸ່ມ SCT"
+
+#. module: account_sepa
+#: model:account.payment.method,name:account_sepa.account_payment_method_sepa_ct
+msgid "SEPA Credit Transfer"
+msgstr "ການໂອນເງິນ SEPA"
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal_dashboard.py:0
+msgid "SEPA Credit Transfers to Send"
+msgstr "ການໂອນເງິນ SEPA ທີ່ຈະສົ່ງ"
+
+#. module: account_sepa
+#: model:ir.model.fields,field_description:account_sepa.field_account_journal__sepa_pain_version
+#: model_terms:ir.ui.view,arch_db:account_sepa.view_account_journal_form
+msgid "SEPA Pain Version"
+msgstr "ເວີຊັນ SEPA Pain"
+
+#. module: account_sepa
+#: model:ir.model.fields,help:account_sepa.field_account_journal__sepa_pain_version
+msgid "SEPA may be a generic format, some countries differ from the SEPA recommendations made by the EPC (European Payment Council) and thus the XML created need some tweaking."
+msgstr ""
+"SEPA ອາດຈະເປັນຮູບແບບທົ່ວໄປ, ບາງປະເທດອາດແຕກຕ່າງຈາກຂໍ້ແນະນຳ SEPA ທີ່ອອກໂດຍ EPC (ສະພາການຊ"
+"ຳລະເງິນເອີຣົບ) ແລະ ດັ່ງນັ້ນ XML ທີ່ສ້າງຂຶ້ນຈຶ່ງຕ້ອງມີການປັບແຕ່ງບາງສ່ວນ."
+
+#. module: account_sepa
+#: model:ir.model.fields,field_description:account_sepa.field_account_batch_payment__sct_generic
+msgid "Sct Generic"
+msgstr "SCT ທົ່ວໄປ"
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+msgid "Some payments are above the maximum amount allowed."
+msgstr "ບາງລາຍການຊຳລະເງິນແມ່ນເກີນຈຳນວນສູງສຸດທີ່ອະນຸຍາດ."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+msgid "Some payments are not made on an IBAN recipient account. This batch might not be accepted by certain banks because of that."
+msgstr ""
+"ບາງລາຍການຊຳລະເງິນບໍ່ໄດ້ເຮັດຜ່ານບັນຊີຜູ້ຮັບ IBAN. ດ້ວຍເຫດນີ້, ການຊຳລະແບບກຸ່ມນີ້ອາດຈະບໍ່ໄດ້ຮັບການຍອມຮັ"
+"ບຈາກບາງທະນາຄານ."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+msgid "Some payments have no recipient bank account set."
+msgstr "ບາງລາຍການຊຳລະເງິນບໍ່ໄດ້ກຳນົດບັນຊີທະນາຄານຜູ້ຮັບ."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+msgid "Some payments were instructed in another currency than Euro. This batch might not be accepted by certain banks because of that."
+msgstr ""
+"ບາງລາຍການຊຳລະເງິນຖືກສັ່ງໃນສະກຸນເງິນອື່ນນອກຈາກເອີໂຣ. ດ້ວຍເຫດນີ້, ການຊຳລະແບບກຸ່ມນີ້ອາດຈະບໍ່ໄດ້ຮັບກາ"
+"ນຍອມຮັບຈາກບາງທະນາຄານ."
+
+#. module: account_sepa
+#: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03_se
+msgid "Swedish"
+msgstr "ສະວີເດັນ"
+
+#. module: account_sepa
+#: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03_ch_02
+msgid "Swiss"
+msgstr "ສະວິດ"
+
+#. module: account_sepa
+#: model:ir.model.fields,help:account_sepa.field_account_batch_payment__sct_generic
+msgid "Technical feature used during the file creation. A SEPA message is said to be 'generic' if it cannot be considered as a standard european credit transfer. That is if the bank journal is not in €, a transaction is not in € or a payee is not identified by an IBAN account number."
+msgstr ""
+"ຄຸນສົມບັດທາງເຕັກນິກທີ່ໃຊ້ໃນລະຫວ່າງການສ້າງໄຟລ໌. ຂໍ້ຄວາມ SEPA ຈະຖືກເອີ້ນວ່າ 'ທົ່ວໄປ' ຖ້າມັນບໍ່ສາມາດຖືວ່າ"
+"ເປັນການໂອນເງິນມາດຕະຖານຂອງເອີຣົບໄດ້. ນັ້ນແມ່ນ ຖ້າສະມຸດລາຍວັນທະນາຄານບໍ່ແມ່ນສະກຸນເງິນ €, ການເຮັດທຸ"
+"ລະກຳບໍ່ແມ່ນສະກຸນເງິນ € ຫຼື ຜູ້ຮັບເງິນບໍ່ໄດ້ຖືກລະບຸດ້ວຍເລກບັນຊີ IBAN."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid ""
+"The BIC code '%s' associated to the bank '%s' of bank account '%s' of partner '%s' does not respect the required convention.\n"
+"It must contain 8 or 11 characters and match the following structure:\n"
+"- 4 letters: institution code or bank code\n"
+"- 2 letters: country code\n"
+"- 2 letters or digits: location code\n"
+"- 3 letters or digits: branch code, optional\n"
+msgstr ""
+"ລະຫັດ BIC '%s' ທີ່ກ່ຽວຂ້ອງກັບທະນາຄານ '%s' ຂອງບັນຊີທະນາຄານ '%s' ຂອງຄູ່ຄ້າ '%s' ບໍ່ຖືກຕ້ອງຕາມຮູ"
+"ບແບບທີ່ກຳນົດໄວ້.\n"
+"ມັນຕ້ອງມີ 8 ຫຼື 11 ຕົວອັກສອນ ແລະ ກົງກັບໂຄງສ້າງດັ່ງນີ້:\n"
+"- 4 ຕົວອັກສອນ: ລະຫັດສະຖາບັນ ຫຼື ລະຫັດທະນາຄານ\n"
+"- 2 ຕົວອັກສອນ: ລະຫັດປະເທດ\n"
+"- 2 ຕົວອັກສອນ ຫຼື ຕົວເລກ: ລະຫັດສະຖານທີ່\n"
+"- 3 ຕົວອັກສອນ ຫຼື ຕົວເລກ: ລະຫັດສາຂາ (ເລືອກໄດ້)\n"
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid ""
+"The account %s, linked to partner '%s', is not of type IBAN.\n"
+"A valid IBAN account is required to use SEPA features."
+msgstr ""
+"ບັນຊີ %s, ທີ່ເຊື່ອມໂຍງກັບຄູ່ຄ້າ '%s', ບໍ່ແມ່ນປະເພດ IBAN.\n"
+"ຕ້ອງມີບັນຊີ IBAN ທີ່ຖືກຕ້ອງເພື່ອໃຊ້ຄຸນສົມບັດຂອງ SEPA."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+msgid ""
+"The account %s, of journal '%s', is not of type IBAN.\n"
+"A valid IBAN account is required to use SEPA features."
+msgstr ""
+"ບັນຊີ %s, ຂອງສະມຸດລາຍວັນ '%s', ບໍ່ແມ່ນປະເພດ IBAN.\n"
+"ຕ້ອງມີບັນຊີ IBAN ທີ່ຖືກຕ້ອງເພື່ອໃຊ້ຄຸນສົມບັດຂອງ SEPA."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid "The amount of the payment '%(payment)s' is too high. The maximum permitted is %(limit)s."
+msgstr ""
+"ຈຳນວນເງິນຂອງການຊຳລະ '%(payment)s' ແມ່ນສູງເກີນໄປ. ຈຳນວນສູງສຸດທີ່ອະນຸຍາດແມ່ນ %(limit)s."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid "The bank defined on account %s (from partner %s) has no BIC. Please first set one."
+msgstr ""
+"ທະນາຄານທີ່ກຳນົດໃນບັນຊີ %s (ຈາກຄູ່ຄ້າ %s) ບໍ່ມີ BIC. ກະລຸນາກຳນົດໃຫ້ຮຽບຮ້ອຍກ່ອນ."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_payment.py:0
+msgid "The journal '%s' requires a proper IBAN account to pay via SEPA. Please configure it first."
+msgstr ""
+"ສະມຸດລາຍວັນ '%s' ຕ້ອງການບັນຊີ IBAN ທີ່ຖືກຕ້ອງເພື່ອຊຳລະຜ່ານ SEPA. ກະລຸນາຕັ້ງຄ່າມັນກ່ອນ."
+
+#. module: account_sepa
+#. odoo-python
+#: code:addons/account_sepa/models/account_journal.py:0
+msgid "Too many transactions for a single file."
+msgstr "ມີທຸລະກຳຫຼາຍເກີນໄປສຳລັບໄຟລ໌ດຽວ."
+
+#. module: account_sepa
+#: model:ir.model.fields,help:account_sepa.field_res_company__sepa_initiating_party_name
+#: model:ir.model.fields,help:account_sepa.field_res_config_settings__sepa_orgid_issr
+msgid "Will appear in SEPA payments as the name of the party initiating the payment. Limited to 70 characters."
+msgstr ""
+"ຈະປະກົດຢູ່ໃນການຊຳລະເງິນ SEPA ເປັນຊື່ຂອງພາກສ່ວນທີ່ເລີ່ມຕົ້ນການຊຳລະເງິນ. ຈຳກັດບໍ່ເກີນ 70 ຕົວອັກສອນ."
+
+#. module: account_sepa
+#: model:ir.model.fields,field_description:account_sepa.field_res_company__sepa_initiating_party_name
+#: model:ir.model.fields,field_description:account_sepa.field_res_config_settings__sepa_initiating_party_name
+msgid "Your Company Name"
+msgstr "ຊື່ບໍລິສັດຂອງທ່ານ"

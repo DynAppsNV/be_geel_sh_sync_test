@@ -1,0 +1,268 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_hr_payroll
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:49+0000\n"
+"PO-Revision-Date: 2025-10-08 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "#Payslips"
+msgstr "#Ish haqi varaqalari"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Absenteeism Rate"
+msgstr "Ishga kelmaslik darajasi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Attendance Rate"
+msgstr "Davomat darajasi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Average Basic Wage"
+msgstr "O‘rtacha asosiy ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Average Gross Wage"
+msgstr "O‘rtacha umumiy ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Average Hours per Days of Work"
+msgstr "Ish kunidagi o‘rtacha soatlar"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Average Net Wage"
+msgstr "O‘rtacha sof ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#, fuzzy
+msgid "Avg Basic Wage"
+msgstr "O‘rtacha asosiy ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#, fuzzy
+msgid "Avg Hours/Day"
+msgstr "O‘rtacha soat/kun"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Avg Hours/Days"
+msgstr "O‘rtacha soat/kun"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#, fuzzy
+msgid "Avg Net Wage"
+msgstr "O‘rtacha sof ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Current"
+msgstr "Joriy"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Days"
+msgstr "Kunlar"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Employees"
+msgstr "Xodimlar"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Employees (%)"
+msgstr "Xodimlar (%)"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "FTE"
+msgstr "To‘liq stavka ekvivalenti"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "FTE (%)"
+msgstr "To‘liq stavka ekvivalenti (%)"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Paid Time Off"
+msgstr "Haq to‘lanadigan ta'til"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_hr_payroll.spreadsheet_dashboard_payroll
+#, fuzzy
+msgid "Payroll"
+msgstr "Ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Payroll Analysis"
+msgstr "Ish haqi tahlili"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#, fuzzy
+msgid "Payslip Lines"
+msgstr "Ish haqi varaqasi qatorlari"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Previous"
+msgstr "Oldingi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Total Basic Wage"
+msgstr "Jami asosiy ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#, fuzzy
+msgid "Total Days of Work"
+msgstr "Jami ish kunlari"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Total Gross Wage"
+msgstr "Jami umumiy ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#, fuzzy
+msgid "Total Hours of Work"
+msgstr "Jami ish soatlari"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Total Net Wage"
+msgstr "Jami sof ish haqi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Unpaid TIme Off"
+msgstr "Haq to‘lanmaydigan ta'til"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Work Days"
+msgstr "Ish kunlari"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Work Entries Analysis"
+msgstr "Ish yozuvlari tahlili"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Work Hours"
+msgstr "Ish soatlari"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_sample_dashboard.json:0
+#, fuzzy
+msgid "Work type"
+msgstr "Ish turi"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+#, fuzzy
+msgid "last 12 month"
+msgstr "Oxirgi 12 oy"

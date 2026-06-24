@@ -1,0 +1,94 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_social
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:46+0000\n"
+"PO-Revision-Date: 2025-10-08 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: event_social
+#. odoo-python
+#: code:addons/event_social/models/event_mail.py:0
+#: code:addons/event_social/models/event_type_mail.py:0
+#, fuzzy
+msgid ""
+"As social posts have no recipients, they cannot be triggered by "
+"registrations."
+msgstr ""
+"Ijtimoiy postlarning qabul qiluvchilari bo‘lmagani sababli, ularni "
+"ro‘yxatdan o‘tish orqali faollashtirish mumkin emas."
+
+#. module: event_social
+#: model:ir.model.fields,field_description:event_social.field_event_mail__display_name
+#: model:ir.model.fields,field_description:event_social.field_event_type_mail__display_name
+#: model:ir.model.fields,field_description:event_social.field_social_post_template__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatish nomi"
+
+#. module: event_social
+#: model:ir.model,name:event_social.model_event_mail
+#, fuzzy
+msgid "Event Automated Mailing"
+msgstr "Tadbir uchun avtomatik xabar yuborish"
+
+#. module: event_social
+#: model:ir.model.fields,field_description:event_social.field_event_mail__id
+#: model:ir.model.fields,field_description:event_social.field_event_type_mail__id
+#: model:ir.model.fields,field_description:event_social.field_social_post_template__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: event_social
+#: model:ir.model,name:event_social.model_event_type_mail
+#, fuzzy
+msgid "Mail Scheduling on Event Category"
+msgstr "Tadbir toifasiga ko‘ra pochta jadvali"
+
+#. module: event_social
+#: model:ir.model.fields,field_description:event_social.field_event_mail__notification_type
+#: model:ir.model.fields,field_description:event_social.field_event_type_mail__notification_type
+#, fuzzy
+msgid "Send"
+msgstr "Jo‘natish"
+
+#. module: event_social
+#: model:ir.model.fields.selection,name:event_social.selection__event_mail__notification_type__social_post
+#: model:ir.model.fields.selection,name:event_social.selection__event_mail__template_ref__social_post_template
+#: model:ir.model.fields.selection,name:event_social.selection__event_type_mail__notification_type__social_post
+#: model:ir.model.fields.selection,name:event_social.selection__event_type_mail__template_ref__social_post_template
+#, fuzzy
+msgid "Social Post"
+msgstr "Ijtimoiy post"
+
+#. module: event_social
+#: model:ir.model,name:event_social.model_social_post_template
+#, fuzzy
+msgid "Social Post Template"
+msgstr "Ijtimoiy post shabloni"
+
+#. module: event_social
+#: model:ir.model.fields,field_description:event_social.field_event_mail__template_ref
+#: model:ir.model.fields,field_description:event_social.field_event_type_mail__template_ref
+#, fuzzy
+msgid "Template"
+msgstr "Shablon"

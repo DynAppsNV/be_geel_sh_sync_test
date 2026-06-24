@@ -1,0 +1,427 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * social_linkedin
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:47+0000\n"
+"PO-Revision-Date: 2026-06-08 08:25+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"social_linkedin/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: social_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.linkedin_preview
+msgid "<b>LinkedIn Post</b>"
+msgstr "<b>ໂພສ LinkedIn</b>"
+
+#. module: social_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.social_stream_post_view_kanban
+msgid "<i class=\"fa fa-comments me-1\" title=\"Comments\"/>"
+msgstr "<i class=\"fa fa-comments me-1\" title=\"ຄວາມຄິດເຫັນ\"/>"
+
+#. module: social_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.social_stream_post_view_kanban
+msgid "<i class=\"fa fa-thumbs-up me-1\" title=\"Likes\"/>"
+msgstr "<i class=\"fa fa-thumbs-up me-1\" title=\"ຖືກໃຈ\"/>"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_live_post__linkedin_post_id
+msgid "Actual LinkedIn ID of the post"
+msgstr "ID LinkedIn ຕົວຈິງຂອງໂພສ"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_account.py:0
+msgid "An error occurred when fetching your pages data: “%s”."
+msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ດຶງຂໍ້ມູນໜ້າຂອງທ່ານ: “%s”."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_account.py:0
+msgid "An error occurred when fetching your pages: “%s”."
+msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ດຶງຂໍ້ມູນໜ້າຂອງທ່ານ: “%s”."
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__linkedin_app_id
+msgid "App ID"
+msgstr "ID ແອັບ"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__linkedin_client_secret
+msgid "App Secret"
+msgstr "ລະຫັດລັບແອັບ"
+
+#. module: social_linkedin
+#. odoo-javascript
+#: code:addons/social_linkedin/static/src/xml/social_linkedin_templates.xml:0
+#: model_terms:ir.ui.view,arch_db:social_linkedin.social_stream_post_view_kanban
+msgid "Author Image"
+msgstr "ຮູບພາບຜູ້ຂຽນ"
+
+#. module: social_linkedin
+#: model:ir.model.fields,help:social_linkedin.field_res_config_settings__linkedin_use_own_account
+msgid ""
+"Check this if you want to use your personal LinkedIn Developer Account "
+"instead of the provided one."
+msgstr ""
+"ໝາຍເອົາບ່ອນນີ້ ຖ້າທ່ານຕ້ອງການໃຊ້ບັນຊີ LinkedIn Developer ສ່ວນຕົວຂອງທ່ານ ແທນທີ່ບັນຊີທີ່ລະບົບໃຫ້ມາ."
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າກຳນົດຄ່າ"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_stream_post.py:0
+msgid "Could not like / dislike this comment."
+msgstr "ບໍ່ສາມາດກົດຖືກໃຈ / ເຊົາຖືກໃຈ ຄວາມຄິດເຫັນນີ້ໄດ້."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_stream_post.py:0
+msgid "Couldn't delete the post: “%s”."
+msgstr "ບໍ່ສາມາດລຶບໂພສໄດ້: “%s”."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_stream_post.py:0
+msgid "Couldn't update the post: “%s”."
+msgstr "ບໍ່ສາມາດອັບເດດໂພສໄດ້: “%s”."
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post__display_linkedin_preview
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__display_linkedin_preview
+msgid "Display LinkedIn Preview"
+msgstr "ສະແດງຕົວຢ່າງ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:social_linkedin.field_social_account__display_name
+#: model:ir.model.fields,field_description:social_linkedin.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:social_linkedin.field_social_media__display_name
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post__display_name
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__display_name
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream__display_name
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_stream_post.py:0
+msgid "Failed to post the comment: “%(error_description)s”"
+msgstr "ການໂພສຄວາມຄິດເຫັນລົ້ມເຫຼວ: “%(error_description)s”"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_stream_post.py:0
+msgid ""
+"Failed to retrieve the post. It might have been deleted or you may not have "
+"permission to view it."
+msgstr ""
+"ດຶງຂໍ້ມູນໂພສລົ້ມເຫຼວ. ມັນອາດຈະຖືກລຶບໄປແລ້ວ ຫຼື ທ່ານອາດຈະບໍ່ມີສິດໃນການເບິ່ງມັນ."
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post__has_linkedin_account
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__has_linkedin_account
+msgid "Has LinkedIn Account"
+msgstr "ມີບັນຊີ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__id
+#: model:ir.model.fields,field_description:social_linkedin.field_social_account__id
+#: model:ir.model.fields,field_description:social_linkedin.field_social_live_post__id
+#: model:ir.model.fields,field_description:social_linkedin.field_social_media__id
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post__id
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__id
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream__id
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__id
+msgid "ID"
+msgstr "ID"
+
+#. module: social_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.social_post_template_view_form
+msgid "Images"
+msgstr "ຮູບພາບ"
+
+#. module: social_linkedin
+#. odoo-javascript
+#: code:addons/social_linkedin/static/src/xml/social_linkedin_templates.xml:0
+msgid "Likes"
+msgstr "ຖືກໃຈ"
+
+#. module: social_linkedin
+#: model:ir.model.fields.selection,name:social_linkedin.selection__social_media__media_type__linkedin
+#: model:social.media,name:social_linkedin.social_media_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.social_post_template_view_form
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_account__linkedin_account_id
+msgid "LinkedIn Account ID"
+msgstr "ID ບັນຊີ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_account__linkedin_account_urn
+#: model:ir.model.fields,help:social_linkedin.field_social_account__linkedin_account_urn
+msgid "LinkedIn Account URN"
+msgstr "URN ບັນຊີ LinkedIn"
+
+#. module: social_linkedin
+#. odoo-javascript
+#: code:addons/social_linkedin/static/src/js/stream_post_kanban_record.js:0
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_comments_count
+msgid "LinkedIn Comments"
+msgstr "ຄວາມຄິດເຫັນ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post__linkedin_image_ids
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__linkedin_image_ids
+msgid "LinkedIn Images"
+msgstr "ຮູບພາບ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_likes_count
+msgid "LinkedIn Likes"
+msgstr "ຖືກໃຈ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post__linkedin_message
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__linkedin_message
+msgid "LinkedIn Message"
+msgstr "ຂໍ້ຄວາມ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post__linkedin_preview
+#: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__linkedin_preview
+msgid "LinkedIn Preview"
+msgstr "ຕົວຢ່າງ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_author_vanity_name
+msgid "LinkedIn Vanity Name"
+msgstr "ຊື່ Vanity LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_account__linkedin_access_token
+msgid "LinkedIn access token"
+msgstr "Token ເຂົ້າເຖິງ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_author_id
+msgid "LinkedIn author ID"
+msgstr "ID ຜູ້ຂຽນ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_author_urn
+msgid "LinkedIn author URN"
+msgstr "URN ຜູ້ຂຽນ LinkedIn"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_author_image_url
+msgid "LinkedIn author image URL"
+msgstr "URL ຮູບພາບຜູ້ຂຽນ LinkedIn"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/controllers/main.py:0
+msgid "LinkedIn did not provide a valid access token."
+msgstr "LinkedIn ບໍ່ໄດ້ໃຫ້ Token ການເຂົ້າເຖິງທີ່ຖືກຕ້ອງ."
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_post_urn
+msgid "LinkedIn post URN"
+msgstr "URN ໂພສ LinkedIn"
+
+#. module: social_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.res_config_settings_view_form
+msgid "Linkedin Developer Account"
+msgstr "ບັນຊີ LinkedIn Developer"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_social_media__media_type
+msgid "Media Type"
+msgstr "ປະເພດສື່"
+
+#. module: social_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.social_post_template_view_form
+msgid "Message"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_media.py:0
+msgid ""
+"Oops! You currently don't have an active subscription. No worries, though! You can easily get one here: %s.\n"
+"Grab a subscription and unlock a world of amazing features!"
+msgstr ""
+"ຂໍອະໄພ! ປະຈຸບັນທ່ານຍັງບໍ່ມີການສະໝັກໃຊ້ບໍລິການທີ່ໃຊ້ງານໄດ້. ແຕ່ບໍ່ຕ້ອງເປັນຫ່ວງ! ທ່ານສາມາດສະໝັກໄດ້ງ່າຍໆທີ່"
+"ນີ້: %s.\n"
+"ສະໝັກໃຊ້ບໍລິການເພື່ອເປີດໃຊ້ງານຟີເຈີທີ່ໜ້າສົນໃຈຫຼາຍຢ່າງ!"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_post_template.py:0
+msgid ""
+"Please specify either a LinkedIn Message or upload some LinkedIn Images."
+msgstr "ກະລຸນາລະບຸຂໍ້ຄວາມ LinkedIn ຫຼື ອັບໂຫລດຮູບພາບ LinkedIn."
+
+#. module: social_linkedin
+#: model_terms:ir.ui.view,arch_db:social_linkedin.linkedin_preview
+msgid "Post Image"
+msgstr "ຮູບພາບໂພສ"
+
+#. module: social_linkedin
+#: model:social.stream.type,name:social_linkedin.stream_type_linkedin_company_post
+msgid "Posts"
+msgstr "ໂພສ"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_account.py:0
+msgid "Read More about Business Accounts"
+msgstr "ອ່ານເພີ່ມເຕີມກ່ຽວກັບບັນຊີທຸລະກິດ"
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_social_account
+msgid "Social Account"
+msgstr "ບັນຊີໂຊຊຽວ"
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_social_live_post
+msgid "Social Live Post"
+msgstr "ໂພສໂຊຊຽວແບບສົດ"
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_social_media
+msgid "Social Media"
+msgstr "ສື່ສັງຄົມອອນລາຍ"
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_social_post
+msgid "Social Post"
+msgstr "ໂພສໂຊຊຽວ"
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_social_post_template
+msgid "Social Post Template"
+msgstr "ແບບຜັງໂພສໂຊຊຽວ"
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_social_stream
+msgid "Social Stream"
+msgstr "ກະແສໂຊຊຽວ"
+
+#. module: social_linkedin
+#: model:ir.model,name:social_linkedin.model_social_stream_post
+msgid "Social Stream Post"
+msgstr "ໂພສໃນກະແສໂຊຊຽວ"
+
+#. module: social_linkedin
+#: model:ir.model.fields,help:social_linkedin.field_social_account__linkedin_access_token
+msgid "The access token is used to perform request to the REST API"
+msgstr "Token ການເຂົ້າເຖິງແມ່ນໃຊ້ເພື່ອສົ່ງຄຳຮ້ອງຂໍໄປຫາ REST API"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_media.py:0
+msgid ""
+"The url that this service requested returned an error. Please contact the "
+"author of the app."
+msgstr ""
+"URL ທີ່ບໍລິການນີ້ຮ້ອງຂໍໄດ້ສົ່ງຂໍ້ຜິດພາດກັບຄືນມາ. ກະລຸນາຕິດຕໍ່ຜູ້ຂຽນແອັບ."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/controllers/main.py:0
+msgid "There was a authentication issue during your request."
+msgstr "ມີບັນຫາການຢືນຢັນຕົວຕົນໃນລະຫວ່າງການຮ້ອງຂໍຂອງທ່ານ."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/controllers/main.py:0
+msgid "Unauthorized. Please contact your administrator."
+msgstr "ບໍ່ໄດ້ຮັບອະນຸຍາດ. ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_stream.py:0
+#: code:addons/social_linkedin/models/social_stream_post.py:0
+msgid "Unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
+
+#. module: social_linkedin
+#: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__linkedin_use_own_account
+msgid "Use your own LinkedIn Account"
+msgstr "ໃຊ້ບັນຊີ LinkedIn ຂອງທ່ານເອງ"
+
+#. module: social_linkedin
+#: model:ir.model.fields,help:social_linkedin.field_social_media__media_type
+msgid ""
+"Used to make comparisons when we need to restrict some features to a "
+"specific media ('facebook', 'x', ...)."
+msgstr ""
+"ໃຊ້ເພື່ອປຽບທຽບເມື່ອພວກເຮົາຕ້ອງການຈຳກັດບາງຟີເຈີໃຫ້ກັບສື່ສະເພາະໃດໜຶ່ງ ('facebook', 'x', ...)."
+
+#. module: social_linkedin
+#: model:ir.model.fields,help:social_linkedin.field_social_stream_post__linkedin_author_vanity_name
+msgid "Vanity name, used to generate a link to the author"
+msgstr "ຊື່ Vanity, ໃຊ້ເພື່ອສ້າງລິ້ງໄປຫາຜູ້ຂຽນ"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_account.py:0
+msgid ""
+"We could not upload your image, try reducing its size and posting it again "
+"(error: Failed during upload registering)."
+msgstr ""
+"ພວກເຮົາບໍ່ສາມາດອັບໂຫລດຮູບພາບຂອງທ່ານໄດ້, ລອງຫຼຸດຂະໜາດຂອງມັນລົງ ແລະ ໂພສໃໝ່ອີກຄັ້ງ (ຂໍ້ຜິດພາດ: ການ"
+"ລົງທະບຽນອັບໂຫລດລົ້ມເຫຼວ)."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_account.py:0
+msgid ""
+"We could not upload your image, try reducing its size and posting it again."
+msgstr ""
+"ພວກເຮົາບໍ່ສາມາດອັບໂຫລດຮູບພາບຂອງທ່ານໄດ້, ລອງຫຼຸດຂະໜາດຂອງມັນລົງ ແລະ ໂພສໃໝ່ອີກຄັ້ງ."
+
+#. module: social_linkedin
+#: model:ir.model.fields,help:social_linkedin.field_social_post__linkedin_image_ids
+#: model:ir.model.fields,help:social_linkedin.field_social_post_template__linkedin_image_ids
+msgid "Will attach images to your posts."
+msgstr "ຈະຄັດຕິດຮູບພາບໄປກັບໂພສຂອງທ່ານ."
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_stream.py:0
+msgid "Wrong stream type for \"%s\""
+msgstr "ປະເພດກະແສຜິດສຳລັບ \"%s\""
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_account.py:0
+msgid ""
+"You need a Business Account to post on LinkedIn with Odoo Social.\n"
+" Please create one and make sure it is linked to your account"
+msgstr ""
+"ທ່ານຕ້ອງການບັນຊີທຸລະກິດເພື່ອໂພສລົງໃນ LinkedIn ດ້ວຍ Odoo Social.\n"
+" ກະລຸນາສ້າງບັນຊີໃໝ່ ແລະ ກວດສອບໃຫ້ແນ່ໃຈວ່າມັນໄດ້ເຊື່ອມຕໍ່ກັບບັນຊີຂອງທ່ານແລ້ວ"
+
+#. module: social_linkedin
+#. odoo-python
+#: code:addons/social_linkedin/models/social_live_post.py:0
+msgid "unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"

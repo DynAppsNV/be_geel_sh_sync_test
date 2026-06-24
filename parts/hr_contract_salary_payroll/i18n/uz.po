@@ -1,0 +1,607 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_contract_salary_payroll
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-22 18:43+0000\n"
+"PO-Revision-Date: 2025-10-08 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ 10 days"
+msgstr "/ 10 kun"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ 14 days"
+msgstr "/ 14 kun"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ day"
+msgstr "/ kun"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ half-month"
+msgstr "/ yarim oy"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ half-year"
+msgstr "/ yarim yil"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ quarter"
+msgstr "/ chorak"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ two months"
+msgstr "/ ikki oy"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ two weeks"
+msgstr "/ ikki hafta"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ week"
+msgstr "/ hafta"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+#, fuzzy
+msgid "/ year"
+msgstr "/ yil"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.salary_package_sidebar_payroll
+#, fuzzy
+msgid ""
+"<option value=\"100\" selected=\"1\">Full Time</option>\n"
+"                <option value=\"90\">9/10</option>\n"
+"                <option value=\"80\">4/5</option>\n"
+"                <option value=\"60\">3/5</option>\n"
+"                <option value=\"50\">Half Time</option>\n"
+"                <option value=\"40\">2/5</option>\n"
+"                <option value=\"20\">1/5</option>"
+msgstr ""
+"<option value=\"100\" selected=\"1\">To‘liq stavka</option> <option "
+"value=\"90\">9/10</option> <option value=\"80\">4/5</option> <option "
+"value=\"60\">3/5</option> <option value=\"50\">Yarim stavka</option> <option "
+"value=\"40\">2/5</option> <option value=\"20\">1/5</option>"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_applicant
+#, fuzzy
+msgid "Applicant"
+msgstr "Nomzod"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,website_form_label:hr_contract_salary_payroll.model_hr_applicant
+#, fuzzy
+msgid "Apply for a Job"
+msgstr "Ishga ariza topshirish"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__source
+#, fuzzy
+msgid "Benefit Source"
+msgstr "Imtiyoz manbasi"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "Benefits"
+msgstr "Imtiyozlar"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__budget_type
+#, fuzzy
+msgid "Budget Type"
+msgstr "Budjet turi"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#, fuzzy
+msgid "Close"
+msgstr "Yopish"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__code
+#, fuzzy
+msgid "Code"
+msgstr "Kod"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "Company cost"
+msgstr "Kompaniya xarajati"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#, fuzzy
+msgid "Company's Working Schedule"
+msgstr "Kompaniyaning ish jadvali"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#, fuzzy
+msgid "Configure Benefits"
+msgstr "Imtiyozlarni sozlash"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.menu_hr_payroll_configuration_contract
+#, fuzzy
+msgid "Contracts"
+msgstr "Shartnomalar"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#, fuzzy
+msgid "Copy Link"
+msgstr "Havolani nusxalash"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__country_id
+#, fuzzy
+msgid "Country"
+msgstr "Mamlakat"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_applicant__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payroll_headcount_line__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_employee
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#, fuzzy
+msgid "Employee"
+msgstr "Xodim"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_version
+#, fuzzy
+msgid "Employee Contract"
+msgstr "Xodim shartnomasi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__final_yearly_costs
+#, fuzzy
+msgid "Employer Budget"
+msgstr "Ish beruvchi budjeti"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payroll_headcount_line__employer_cost
+#, fuzzy
+msgid "Employer Cost"
+msgstr "Ish beruvchi xarajati"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.hr_payroll_menu_contract_type
+#, fuzzy
+msgid "Employment Types"
+msgstr "Bandlik turlari"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "Gross <span invisible=\"is_full_time\">(Part Time)</span>"
+msgstr "Yalpi <span invisible=\"is_full_time\">(Qisman bandlik)</span>"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_offer__budget_type__monthly_gross
+#, fuzzy
+msgid "Gross Per Month"
+msgstr "Oylik yalpi daromad"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__gross_wage
+#, fuzzy
+msgid "Gross Wage"
+msgstr "Yalpi ish haqi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.actions.act_window,name:hr_contract_salary_payroll.action_hr_salary_simulator
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#, fuzzy
+msgid "Gross-Net Salary Calculator"
+msgstr "Yalpi-sof ish haqi kalkulyatori"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_payroll_headcount_line
+#, fuzzy
+msgid "Headcount Line"
+msgstr "Xodimlar soni"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_applicant__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payroll_headcount_line__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_resume_view_search_inherit
+#, fuzzy
+msgid "Impacts Monthly Total"
+msgstr "Oylik umumiy summaga ta'sir qiladi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__is_full_time
+#, fuzzy
+msgid "Is Full Time"
+msgstr "To‘liq bandlik"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__is_simulation_offer
+#, fuzzy
+msgid "Is Simulation Offer"
+msgstr "Simulyatsiya taklifi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__monthly_benefits
+#, fuzzy
+msgid "Monthly Benefits"
+msgstr "Oylik imtiyozlar"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__monthly_yearly_costs
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__monthly_yearly_costs
+#, fuzzy
+msgid "Monthly Cost"
+msgstr "Oylik xarajat"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__monthly_employer_cost
+#, fuzzy
+msgid "Monthly Employer Cost"
+msgstr "Ish beruvchining oylik xarajati"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__monthly_wage
+#, fuzzy
+msgid "Monthly Wage"
+msgstr "Oylik ish haqi"
+
+#. module: hr_contract_salary_payroll
+#: model:hr.contract.salary.resume,name:hr_contract_salary_payroll.hr_contract_salary_resume_net_employee
+#: model:hr.contract.salary.resume,name:hr_contract_salary_payroll.hr_contract_salary_resume_net_worker
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "Net"
+msgstr "Sof"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__net_wage
+#, fuzzy
+msgid "Net Wage"
+msgstr "Sof ish haqi"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#, fuzzy
+msgid "Optional"
+msgstr "Ixtiyoriy"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.actions.server,name:hr_contract_salary_payroll.ir_cron_remove_simulation_offers_ir_actions_server
+#, fuzzy
+msgid "Payroll Salary Configurator: Remove Simulation Offers"
+msgstr "Ish haqi sozlagichi: Simulyatsiya takliflarini olib tashlash"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_resume__value_type__payslip
+#, fuzzy
+msgid "Payslip Value"
+msgstr "To‘lov qaydnomasidagi qiymat"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_payslip_worked_days
+#, fuzzy
+msgid "Payslip Worked Days"
+msgstr "To‘lov qaydnomasidagi ishlangan kunlar"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,help:hr_contract_salary_payroll.field_hr_contract_salary_resume__value_type
+#, fuzzy
+msgid ""
+"Pick how the value of the information is computed:\n"
+"Fixed value: Set a determined value static for all links\n"
+"Employee Record value: Get the value from a field on the Employee Record\n"
+"Payslip value: Get the value from a field on the payslip record\n"
+"Sum of Benefits value: You can pick in all benefits and compute a sum of "
+"them\n"
+"Monthly Total: The information will be a total of all the information in the "
+"category Monthly Benefits"
+msgstr ""
+"Ma'lumot qiymati qanday hisoblanishini tanlang: Belgilangan qiymat: Barcha "
+"havolalar uchun aniq qiymatni o‘rnating Xodim yozuvi qiymati: Xodim "
+"yozuvidagi maydondan qiymatni oling To‘lov qaydnomasi qiymati: To‘lov "
+"qaydnomasi yozuvidagi maydondan qiymatni oling Imtiyozlar yig‘indisi "
+"qiymati: Barcha imtiyozlarni tanlashingiz va ularning yig‘indisini "
+"hisoblashingiz mumkin Oylik jami: Ma'lumot toifadagi barcha ma'lumotlarning "
+"oylik jami bo‘ladi Oylik imtiyozlar"
+
+#. module: hr_contract_salary_payroll
+#. odoo-javascript
+#: code:addons/hr_contract_salary_payroll/static/src/xml/brut2net_modal.xml:0
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid ""
+"Please note that this information may be inaccurate and should be used for "
+"reference only."
+msgstr ""
+"Eslatma: ushbu ma'lumot noaniq bo‘lishi mumkin va faqat ma'lumot olish uchun "
+"foydalanilishi lozim."
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "Salary"
+msgstr "Maosh"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.menu_hr_payroll_salary_calculator
+#, fuzzy
+msgid "Salary Calculator"
+msgstr "Maosh kalkulyatori"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__salary_offer_ids
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__salary_offer_ids
+msgid "Salary Offer"
+msgstr ""
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_contract_salary_benefit
+#, fuzzy
+msgid "Salary Package Benefit"
+msgstr "Maosh paketi imtiyozi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_contract_salary_offer
+#, fuzzy
+msgid "Salary Package Offer"
+msgstr "Maosh paketi taklifi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_contract_salary_resume
+#, fuzzy
+msgid "Salary Package Resume"
+msgstr "Maosh paketi rezyumesi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__salary_rule_id
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_benefit__source__rule
+#, fuzzy
+msgid "Salary Rule"
+msgstr "Maosh qoidasi"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "Salary Simulation Preview"
+msgstr "Maosh simulyatsiyasi ko‘rinishi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__structure_id
+#, fuzzy
+msgid "Salary Structure"
+msgstr "Maosh tuzilmasi"
+
+#. module: hr_contract_salary_payroll
+#. odoo-javascript
+#: code:addons/hr_contract_salary_payroll/static/src/js/tours/hr_payroll.js:0
+#, fuzzy
+msgid "Select an <strong>HR Responsible</strong> for the contract."
+msgstr ""
+"Shartnoma uchun <strong>kadrlar bo‘limi mas'ul xodimi</strong>ni tanlang."
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,help:hr_contract_salary_payroll.field_hr_contract_salary_benefit__salary_rule_id
+#, fuzzy
+msgid "Select the salary rule associated with this benefit"
+msgstr "Ushbu imtiyozga tegishli maosh qoidasini tanlang"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__simulation_employee_id
+#, fuzzy
+msgid "Simulation Employee"
+msgstr "Simulyatsiya xodimi"
+
+#. module: hr_contract_salary_payroll
+#: model:hr.contract.salary.resume,name:hr_contract_salary_payroll.hr_contract_salary_payroll_resume_gross_worker
+#, fuzzy
+msgid "Taxable Salary"
+msgstr "Soliq solinadigan maosh"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.hr_payroll_menu_contract_templates
+#, fuzzy
+msgid "Templates"
+msgstr "Namunalar"
+
+#. module: hr_contract_salary_payroll
+#. odoo-javascript
+#: code:addons/hr_contract_salary_payroll/static/src/xml/brut2net_modal.xml:0
+#, fuzzy
+msgid ""
+"There is no defined payroll structure for your contract. Please contact a "
+"responsible for more information."
+msgstr ""
+"Shartnomagiz uchun belgilangan maosh tuzilmasi mavjud emas. Qo‘shimcha "
+"ma'lumot olish uchun mas'ul xodimga murojaat qiling."
+
+#. module: hr_contract_salary_payroll
+#. odoo-python
+#: code:addons/hr_contract_salary_payroll/controllers/main.py:0
+#, fuzzy
+msgid ""
+"This is the gross calculated for the current month with a total of %s hours."
+msgstr ""
+"Bu joriy oy uchun hisoblangan yalpi maosh bo‘lib, jami %s soatni tashkil "
+"etadi."
+
+#. module: hr_contract_salary_payroll
+#. odoo-python
+#: code:addons/hr_contract_salary_payroll/controllers/main.py:0
+#, fuzzy
+msgid ""
+"This link is invalid. Please contact the HR Responsible to get a new one..."
+msgstr ""
+"Bu havola yaroqsiz. Yangi havola olish uchun kadrlar bo‘limi mas'ul xodimiga "
+"murojaat qiling..."
+
+#. module: hr_contract_salary_payroll
+#. odoo-python
+#: code:addons/hr_contract_salary_payroll/controllers/main.py:0
+#, fuzzy
+msgid "This offer is a simulation. You cannot submit this salary package."
+msgstr ""
+"Bu taklif simulyatsiya hisoblanadi. Ushbu maosh paketini yubora olmaysiz."
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__display_name
+#, fuzzy
+msgid "Title"
+msgstr "Sarlavha"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__value_type
+#, fuzzy
+msgid "Value Type"
+msgstr "Qiymat turi"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__wage_on_signature
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__wage_on_signature
+#, fuzzy
+msgid "Wage on Signature"
+msgstr "Imzolash paytidagi maosh"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__wage_with_holidays
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__wage_with_holidays
+#, fuzzy
+msgid "Wage with Holidays"
+msgstr "Ta'til kunlari bilan maosh"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__resource_calendar_id
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.salary_package_sidebar_payroll
+#, fuzzy
+msgid "Working Schedule"
+msgstr "Ish jadvali"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__yearly_benefits
+#, fuzzy
+msgid "Yearly Benefits"
+msgstr "Yillik imtiyozlar"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__final_yearly_costs
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__final_yearly_costs
+#, fuzzy
+msgid "Yearly Cost"
+msgstr "Yillik xarajat"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__yearly_employer_cost
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_offer__budget_type__yearly_employer
+#, fuzzy
+msgid "Yearly Employer Cost"
+msgstr "Yillik ish beruvchi xarajati"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "month"
+msgstr "oy"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+#, fuzzy
+msgid "year"
+msgstr "yil"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please note that this information may be inaccurate and should be used "
+#~ "for reference only. The amounts are calculated based on a full time "
+#~ "permanent contract, and benefits are computed from the selected contract "
+#~ "template"
+#~ msgstr ""
+#~ "Eslatma: ushbu ma'lumot noaniq bo‘lishi mumkin va faqat ma'lumot olish "
+#~ "uchun foydalanilishi lozim. Summalar to‘liq stavkali doimiy shartnoma "
+#~ "asosida hisoblanadi, imtiyozlar esa tanlangan shartnoma namunasidan "
+#~ "hisoblab chiqariladi."
+
+#, fuzzy
+#~ msgid ""
+#~ "Please note that this information may be inaccurate and should be used "
+#~ "for reference only. The amounts are calculated based on a full time "
+#~ "permanent contract, and benefits are computed from the selected employee "
+#~ "and/or the selected contract template"
+#~ msgstr ""
+#~ "Eslatma: ushbu ma'lumot noaniq bo‘lishi mumkin va faqat ma'lumot olish "
+#~ "uchun foydalanilishi lozim. Summalar to‘liq stavkali doimiy shartnoma "
+#~ "asosida hisoblanadi, imtiyozlar esa tanlangan xodim va/yoki tanlangan "
+#~ "shartnoma namunasidan hisoblab chiqariladi."
+
+#, fuzzy
+#~ msgid "The amounts are calculated  based on a full time permanent contract."
+#~ msgstr "Summalar to‘liq stavkali doimiy shartnoma asosida hisoblanadi."

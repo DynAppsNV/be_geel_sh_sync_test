@@ -1,0 +1,72 @@
+{
+  "data": {
+    "language": "NL",
+    "vatNo": "BE0000000097",
+    "estNo": "2000000042",
+    "posId": "CPOS0031234567",
+    "posFiscalTicketNo": 3002,
+    "posDateTime": "2024-09-03T14:35:23+02:00",
+    "posSwVersion": "1.8.3",
+    "deviceId": "1631678d-7a85-4ac3-b296-bb4565e873fe",
+    "terminalId": "TER-2-DIN",
+    "bookingPeriodId": "123cd829-a0e5-41ca-a0ae-9eb887f95637",
+    "bookingDate": "2024-09-03",
+    "ticketMedium": "PAPER",
+    "employeeId": "84022899837",
+    "transaction": {
+      "transactionLines": [
+        {
+          "lineType": "SINGLE_PRODUCT",
+          "mainProduct": {
+            "productId": "10006",
+            "productName": "Dry Martini",
+            "departmentId": "10",
+            "departmentName": "Aperitifs",
+            "quantity": 3,
+            "quantityType": "PIECE",
+            "unitPrice": 12,
+            "vats": [
+              {
+                "label": "A",
+                "price": 36
+              }
+            ]
+          },
+          "lineTotal": 36
+        },
+        {
+          "lineType": "SINGLE_PRODUCT",
+          "mainProduct": {
+            "productId": "10006",
+            "productName": "Dry Martini",
+            "departmentId": "10",
+            "departmentName": "Aperitifs",
+            "quantity": -1,
+            "negQuantityReason": "CORRECTION",
+            "quantityType": "PIECE",
+            "unitPrice": 12,
+            "vats": [
+              {
+                "label": "A",
+                "price": -12
+              }
+            ]
+          },
+          "lineTotal": -12
+        }
+      ],
+      "transactionTotal": 24
+    },
+    "financials": [
+      {
+        "id": "C1",
+        "name": "BANCONTACT",
+        "type": "CARD_DEBIT",
+        "inputMethod": "AUTOMATIC",
+        "provider": "VISA",
+        "amount": 24,
+        "amountType": "PAYMENT"
+      }
+    ]
+  }
+}

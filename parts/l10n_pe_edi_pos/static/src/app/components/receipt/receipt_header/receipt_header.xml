@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="ReceiptHeader" t-inherit="point_of_sale.ReceiptHeader" t-inherit-mode="extension">
+        <xpath expr="//img[@class='pos-receipt-logo']" position="after">
+            <t t-if="order.company.country_id?.code === 'PE' and order.to_invoice">
+                <div class="text-center fw-bold mt-2">
+                    <div t-out="order.company.name" />
+                    <div t-out="order.account_move.l10n_latam_document_type_id?.report_name"/>
+                    <div t-out="order.invoiceName"/>
+                </div>
+            </t>
+        </xpath>
+    </t>
+</templates>

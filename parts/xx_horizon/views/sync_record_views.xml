@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="view_sync_record_tree" model="ir.ui.view">
+        <field name="name">xx.sync.record.list</field>
+        <field name="model">xx.sync.record</field>
+        <field name="arch" type="xml">
+            <list string="Sync Records">
+                <field name="id" />
+                <field name="user_login" />
+                <field name="timestamp" />
+                <field name="model_name" />
+                <field name="endpoint" />
+                <field name="method" />
+                <field name="synced" />
+                <field name="sync_date" />
+            </list>
+        </field>
+    </record>
+
+    <record id="view_sync_record_form" model="ir.ui.view">
+        <field name="name">xx.sync.record.form</field>
+        <field name="model">xx.sync.record</field>
+        <field name="arch" type="xml">
+            <form string="Sync Record">
+                <sheet>
+                    <group>
+                        <field name="id" />
+                        <field name="user_login" />
+                        <field name="timestamp" />
+                        <field name="model_name" />
+                        <field name="endpoint" />
+                        <field name="method" />
+                        <field name="synced" />
+                        <field name="sync_date" />
+                    </group>
+                    <group>
+                        <field name="content" widget="monospace" />
+                        <field name="response_message" widget="monospace" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

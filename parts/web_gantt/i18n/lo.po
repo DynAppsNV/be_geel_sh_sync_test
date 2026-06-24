@@ -1,0 +1,419 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * web_gantt
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-29 17:47+0000\n"
+"PO-Revision-Date: 2026-06-08 08:30+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/web_gantt/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_model.js:0
+msgid "%(hour)sh%(minute)s"
+msgstr "%(hour)sຊມ%(minute)s"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "%s cannot be scheduled in the past"
+msgstr "ບໍ່ສາມາດຈັດຕາຕະລາງ %s ໃນອະດີດໄດ້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_model.js:0
+msgid "%sh"
+msgstr "%sຊມ"
+
+#. module: web_gantt
+#: model:ir.model,name:web_gantt.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "ມຸມມອງປ່ອງຢ້ຽມການດຳເນີນການ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.js:0
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.xml:0
+msgid "Activate dense mode"
+msgstr "ເປີດໃຊ້ໂໝດໜາແໜ້ນ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.js:0
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.xml:0
+msgid "Activate sparse mode"
+msgstr "ເປີດໃຊ້ໂໝດເບົາບາງ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_scale_selector.xml:0
+msgid "Apply"
+msgstr "ນຳໃຊ້"
+
+#. module: web_gantt
+#: model:ir.model,name:web_gantt.model_base
+msgid "Base"
+msgstr "ພື້ນຖານ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "Bye-bye, record!"
+msgstr "ລາກ່ອນ, ຂໍ້ມູນ!"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.xml:0
+msgid "Collapse rows"
+msgstr "ຫຍໍ້ແຖວ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "Create"
+msgstr "ສ້າງ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Day"
+msgstr "ມື້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "Delete"
+msgstr "ລຶບ"
+
+#. module: web_gantt
+#: model:ir.model.fields,field_description:web_gantt.field_ir_actions_act_window_view__display_name
+#: model:ir.model.fields,field_description:web_gantt.field_ir_ui_view__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Edit"
+msgstr "ແກ້ໄຂ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Ending date cannot be before the starting date"
+msgstr "ວັນທີສິ້ນສຸດບໍ່ສາມາດຢູ່ກ່ອນວັນທີເລີ່ມຕົ້ນໄດ້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.xml:0
+msgid "Expand rows"
+msgstr "ຂະຫຍາຍແຖວ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Failed to undo reschedule"
+msgstr "ບໍ່ສາມາດຍົກເລີກການເລື່ອນເວລາໄດ້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.xml:0
+msgid "Focus Today"
+msgstr "ເນັ້ນໃສ່ວັນນີ້"
+
+#. module: web_gantt
+#: model:ir.model.fields.selection,name:web_gantt.selection__ir_actions_act_window_view__view_mode__gantt
+#: model:ir.model.fields.selection,name:web_gantt.selection__ir_ui_view__type__gantt
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Gantt View"
+msgstr "ມຸມມອງ Gantt"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt child can only be field or template, got %s"
+msgstr "ລູກຂອງ Gantt ສາມາດເປັນໄດ້ພຽງຟິວ ຫຼື ເທັມເພລດເທົ່ານັ້ນ, ແຕ່ໄດ້ຮັບ %s"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt must have a 'date_start' attribute"
+msgstr "Gantt ຕ້ອງມີຄຸນລັກສະນະ 'date_start'"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt must have a 'date_stop' attribute"
+msgstr "Gantt ຕ້ອງມີຄຸນລັກສະນະ 'date_stop'"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid ""
+"Gantt must have a 'dependency_inverted_field' attribute once the "
+"'dependency_field' is specified"
+msgstr ""
+"Gantt ຕ້ອງມີຄຸນລັກສະນະ 'dependency_inverted_field' ເມື່ອມີການກຳນົດ 'dependency_field'"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_scale_selector.js:0
+msgid "Gantt start date"
+msgstr "ວັນທີເລີ່ມຕົ້ນ Gantt"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_scale_selector.js:0
+msgid "Gantt stop date"
+msgstr "ວັນທີສິ້ນສຸດ Gantt"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt view can contain only one templates tag"
+msgstr "ມຸມມອງ Gantt ສາມາດມີແທັກ templates ໄດ້ພຽງອັນດຽວ"
+
+#. module: web_gantt
+#: model:ir.model.fields,field_description:web_gantt.field_ir_actions_act_window_view__id
+#: model:ir.model.fields,field_description:web_gantt.field_ir_ui_view__id
+msgid "ID"
+msgstr "ລະຫັດ (ID)"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "Impossible to schedule in the past."
+msgstr "ບໍ່ສາມາດຈັດຕາຕະລາງໃນອະດີດໄດ້."
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "Insufficient fields for Gantt View!"
+msgstr "ຟິວບໍ່ພຽງພໍສຳລັບມຸມມອງ Gantt!"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid ""
+"Invalid attributes (%(invalid_attributes)s) in gantt view. Attributes must "
+"be in (%(valid_attributes)s)"
+msgstr ""
+"ຄຸນລັກສະນະບໍ່ຖືກຕ້ອງ (%(invalid_attributes)s) ໃນມຸມມອງ gantt. ຄຸນລັກສະນະຕ້ອງຢູ່ໃນ (%"
+"(valid_attributes)s)"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Invalid default_range '%s' in gantt"
+msgstr "default_range '%s' ບໍ່ຖືກຕ້ອງໃນ gantt"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Invalid default_scale '%s' in gantt"
+msgstr "default_scale '%s' ບໍ່ຖືກຕ້ອງໃນ gantt"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Invalid display_mode '%s' in gantt"
+msgstr "display_mode '%s' ບໍ່ຖືກຕ້ອງໃນ gantt"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "Invalid reschedule method %s"
+msgstr "ວິທີການເລື່ອນເວລາ %s ບໍ່ຖືກຕ້ອງ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Month"
+msgstr "ເດືອນ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.xml:0
+msgid "New"
+msgstr "ໃໝ່"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "No, keep it"
+msgstr "ບໍ່, ຮັກສາມັນໄວ້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "Open"
+msgstr "ເປີດ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_multi_selection_buttons.xml:0
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Plan"
+msgstr "ວາງແຜນ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Quarter"
+msgstr "ໄຕມາດ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Record could not be removed"
+msgstr "ບໍ່ສາມາດລຶບຂໍ້ມູນໄດ້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Record duplicated"
+msgstr "ຂໍ້ມູນຖືກສຳເນົາແລ້ວ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Record removed"
+msgstr "ລຶບຂໍ້ມູນແລ້ວ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Record reschedule undone"
+msgstr "ຍົກເລີກການເລື່ອນເວລາຂໍ້ມູນແລ້ວ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Record rescheduled"
+msgstr "ເລື່ອນເວລາຂໍ້ມູນແລ້ວ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Start"
+msgstr "ເລີ່ມ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Starting date cannot be after the ending date"
+msgstr "ວັນທີເລີ່ມຕົ້ນບໍ່ສາມາດຢູ່ຫຼັງວັນທີສິ້ນສຸດໄດ້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Stop"
+msgstr "ຢຸດ"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "Tasks rescheduled"
+msgstr "ວຽກຖືກເລື່ອນເວລາແລ້ວ"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "The dependencies are not valid, there is a cycle."
+msgstr "ຄວາມກ່ຽວຂ້ອງບໍ່ຖືກຕ້ອງ, ມີວົງຈອນຊ້ຳຊ້ອນ."
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.xml:0
+msgid "Today"
+msgstr "ວັນນີ້"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer_controls.xml:0
+msgid "Toolbar menu"
+msgstr "ເມນູແຖບເຄື່ອງມື"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Total"
+msgstr "ທັງໝົດ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_model.js:0
+msgid "Undefined %s"
+msgstr "ບໍ່ໄດ້ກຳນົດ %s"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+#: model:ir.model,name:web_gantt.model_ir_ui_view
+msgid "View"
+msgstr "ມຸມມອງ"
+
+#. module: web_gantt
+#: model:ir.model.fields,field_description:web_gantt.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:web_gantt.field_ir_ui_view__type
+msgid "View Type"
+msgstr "ປະເພດມຸມມອງ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Week"
+msgstr "ອາທິດ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Week %(week)s, %(startDate)s - %(endDate)s"
+msgstr "ອາທິດ %(week)s, %(startDate)s - %(endDate)s"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Year"
+msgstr "ປີ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "hours"
+msgstr "ຊົ່ວໂມງ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "minutes"
+msgstr "ນາທີ"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "months"
+msgstr "ເດືອນ"

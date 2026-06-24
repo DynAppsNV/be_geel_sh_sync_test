@@ -1,0 +1,581 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * social_push_notifications
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:47+0000\n"
+"PO-Revision-Date: 2026-06-08 08:24+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"social_push_notifications/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "<span class=\"ps-2\">seconds</span>"
+msgstr "<span class=\"ps-2\">ວິນາທີ</span>"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_post_ids
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_post_ids
+msgid "All related social media posts"
+msgstr "ໂພສສື່ສັງຄົມທີ່ກ່ຽວຂ້ອງທັງໝົດ"
+
+#. module: social_push_notifications
+#. odoo-javascript
+#: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
+msgid "Allow"
+msgstr "ອະນຸຍາດ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "App ID"
+msgstr "ໄອດີແອັບ (App ID)"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Body"
+msgstr "ເນື້ອໃນ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າກຳນົດຄ່າ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Configure Push Notifications"
+msgstr "ກຳນົດຄ່າການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Delay"
+msgstr "ການຊັກຊ້າ"
+
+#. module: social_push_notifications
+#. odoo-javascript
+#: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
+msgid "Deny"
+msgstr "ປະຕິເສດ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_ir_http__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_media__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__display_name
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__display_name
+msgid "Display Name"
+msgstr "ຊື່ສະແດງ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__display_push_notifications_preview
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__display_push_notifications_preview
+msgid "Display Push Notifications Preview"
+msgstr "ສະແດງຕົວຢ່າງການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_post__visitor_domain
+#: model:ir.model.fields,help:social_push_notifications.field_social_post_template__visitor_domain
+msgid "Domain to send push notifications to visitors."
+msgstr "ໂດເມນທີ່ຈະສົ່ງການແຈ້ງເຕືອນແບບພຸສໄປຫາຜູ້ຢ້ຽມຊົມ."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_enable_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_enable_push_notifications
+msgid "Enable Web Push Notifications"
+msgstr "ເປີດໃຊ້ການແຈ້ງເຕືອນແບບພຸສຜ່ານເວັບ"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/controllers/main.py:0
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Enable push notifications to be notified about new features."
+msgstr "ເປີດໃຊ້ການແຈ້ງເຕືອນແບບພຸສເພື່ອຮັບການແຈ້ງເຕືອນກ່ຽວກັບຄຸນສົມບັດໃໝ່."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_admin_key_file
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_admin_key_file
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_admin_key_file
+msgid "Firebase Admin Key File"
+msgstr "ໄຟລ໌ຄີຜູ້ດູແລລະບົບ Firebase"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_account.py:0
+msgid "Firebase Admin Key File is missing from the configuration."
+msgstr "ໄຟລ໌ຄີຜູ້ດູແລລະບົບ Firebase ຫາຍໄປຈາກການກຳນົດຄ່າ."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_project_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_project_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_project_id
+msgid "Firebase Project ID"
+msgstr "ໄອດີໂຄງການ Firebase"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_push_certificate_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_push_certificate_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_push_certificate_key
+msgid "Firebase Push Certificate Key"
+msgstr "ຄີໃບຢັ້ງຢືນການພຸສ Firebase"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_sender_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_sender_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_sender_id
+msgid "Firebase Sender ID"
+msgstr "ໄອດີຜູ້ສົ່ງ Firebase"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_web_api_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_web_api_key
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_web_api_key
+msgid "Firebase Web API Key"
+msgstr "ຄີ Web API ຂອງ Firebase"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_web_app_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_web_app_id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_web_app_id
+msgid "Firebase Web App ID"
+msgstr "ໄອດີເວັບແອັບ Firebase"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.push_notifications_preview
+msgid "Google Chrome ·"
+msgstr "Google Chrome ·"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_ir_http
+msgid "HTTP Routing"
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__has_push_notifications_account
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__has_push_notifications_account
+msgid "Has Push Notifications Account"
+msgstr "ມີບັນຊີການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_ir_http__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_media__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__id
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__id
+msgid "ID"
+msgstr "ໄອດີ (ID)"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Icon"
+msgstr "ໄອຄອນ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+msgid "Icon Image"
+msgstr "ຮູບພາບໄອຄອນ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Key File"
+msgstr "ໄຟລ໌ຄີ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_view_form
+msgid "Local Time"
+msgstr "ເວລາທ້ອງຖິ່ນ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_media__media_type
+msgid "Media Type"
+msgstr "ປະເພດສື່"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+msgid "Message"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_live_post.py:0
+#: code:addons/social_push_notifications/models/social_post_template.py:0
+msgid "New Message"
+msgstr "ຂໍ້ຄວາມໃໝ່"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_delay
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_delay
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_delay
+msgid "Notification Request Delay (seconds)"
+msgstr "ເວລາຊັກຊ້າການຂໍຄຳອະນຸຍາດແຈ້ງເຕືອນ (ວິນາທີ)"
+
+#. module: social_push_notifications
+#. odoo-javascript
+#: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_icon
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_icon
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_icon
+msgid "Notification Request Icon"
+msgstr "ໄອຄອນການຂໍຄຳອະນຸຍາດແຈ້ງເຕືອນ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_body
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_body
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_body
+msgid "Notification Request Text"
+msgstr "ຂໍ້ຄວາມການຂໍຄຳອະນຸຍາດແຈ້ງເຕືອນ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_title
+msgid "Notification Request Title"
+msgstr "ຫົວຂໍ້ການຂໍຄຳອະນຸຍາດແຈ້ງເຕືອນ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+msgid "Notification Title"
+msgstr "ຫົວຂໍ້ການແຈ້ງເຕືອນ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_kanban
+msgid "Notifications"
+msgstr "ການແຈ້ງເຕືອນ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_push_notifications_count
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_push_notifications_count
+msgid "Number Of Push Notifications"
+msgstr "ຈຳນວນການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_post_template.py:0
+msgid "Please specify a Notification Message."
+msgstr "ກະລຸນາລະບຸຂໍ້ຄວາມການແຈ້ງເຕືອນ."
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Project ID"
+msgstr "ໄອດີໂຄງການ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_kanban
+msgid "Push"
+msgstr "ພຸສ (Push)"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Push Certificate Key ID"
+msgstr "ໄອດີຄີໃບຢັ້ງຢືນການພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__push_notification_image
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_image
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_image
+msgid "Push Icon Image"
+msgstr "ຮູບພາບໄອຄອນພຸສ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+msgid "Push Notification"
+msgstr "ການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
+msgid "Push Notification Off"
+msgstr "ປິດການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
+msgid "Push Notification On"
+msgstr "ເປີດການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+msgid "Push Notification Options"
+msgstr "ຕົວເລືອກການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__push_notification_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_title
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_title
+msgid "Push Notification Title"
+msgstr "ຫົວຂໍ້ການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_push_notification_ids
+#: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_push_notification_ids
+#: model:ir.model.fields.selection,name:social_push_notifications.selection__social_media__media_type__push_notifications
+#: model:social.media,name:social_push_notifications.social_media_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
+msgid "Push Notifications"
+msgstr "ການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__has_push_notifications
+msgid "Push Notifications Enabled"
+msgstr "ເປີດໃຊ້ການແຈ້ງເຕືອນແບບພຸສແລ້ວ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_message
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_message
+msgid "Push Notifications Message"
+msgstr "ຂໍ້ຄວາມການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notifications_preview
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notifications_preview
+msgid "Push Notifications Preview"
+msgstr "ຕົວຢ່າງການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__push_token
+msgid "Push Subscription"
+msgstr "ການຕິດຕາມແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_website_visitor_push_subscription
+msgid "Push Subscription for a Website Visitor"
+msgstr "ການຕິດຕາມແບບພຸສສຳລັບຜູ້ຢ້ຽມຊົມເວັບໄຊ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__push_subscription_ids
+msgid "Push Subscriptions"
+msgstr "ການຕິດຕາມແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__push_notification_target_url
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_target_url
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__push_notification_target_url
+msgid "Push Target URL"
+msgstr "URL ເປົ້າໝາຍການພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.constraint,message:social_push_notifications.constraint_website_visitor_push_subscription_push_token_uniq
+msgid "Push token can't be duplicated!"
+msgstr "ໂທເຄັນພຸສ (Push token) ບໍ່ສາມາດຊ້ຳກັນໄດ້!"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__reached_visitor_ids
+msgid "Reached Visitors"
+msgstr "ຜູ້ຢ້ຽມຊົມທີ່ເຂົ້າເຖິງແລ້ວ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
+msgid "Send Push"
+msgstr "ສົ່ງພຸສ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_form
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_tree
+msgid "Send Push Notification"
+msgstr "ສົ່ງການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.actions.server,name:social_push_notifications.social_send_push_notifications_action_server
+msgid "Send Push Notifications"
+msgstr "ສົ່ງການແຈ້ງເຕືອນແບບພຸສ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__use_visitor_timezone
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__use_visitor_timezone
+msgid "Send at Visitors' Timezone"
+msgstr "ສົ່ງຕາມເຂດເວລາຂອງຜູ້ຢ້ຽມຊົມ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Sender ID"
+msgstr "ໄອດີຜູ້ສົ່ງ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_account
+msgid "Social Account"
+msgstr "ບັນຊີສື່ສັງຄົມ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_live_post
+msgid "Social Live Post"
+msgstr "ໂພສສົດສື່ສັງຄົມ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_media
+msgid "Social Media"
+msgstr "ສື່ສັງຄົມ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_post
+msgid "Social Post"
+msgstr "ໂພສສື່ສັງຄົມ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_social_post_template
+msgid "Social Post Template"
+msgstr "ແມ່ແບບໂພສສື່ສັງຄົມ"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/website_visitor.py:0
+msgid "Some selected visitors do not allow push notifications."
+msgstr "ຜູ້ຢ້ຽມຊົມບາງຄົນທີ່ເລືອກໄວ້ບໍ່ອະນຸຍາດໃຫ້ແຈ້ງເຕືອນແບບພຸສ."
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
+msgid "Target URL"
+msgstr "URL ເປົ້າໝາຍ"
+
+#. module: social_push_notifications
+#: model:ir.model.constraint,message:social_push_notifications.constraint_social_account_website_unique
+msgid "There is already a configuration for this website."
+msgstr "ມີການກຳນົດຄ່າສຳລັບເວັບໄຊນີ້ຢູ່ແລ້ວ."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_account__website_id
+msgid ""
+"This firebase configuration will only be used for the specified website"
+msgstr "ການກຳນົດຄ່າ firebase ນີ້ຈະຖືກໃຊ້ສຳລັບເວັບໄຊທີ່ລະບຸໄວ້ເທົ່ານັ້ນ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_live_post__push_notification_image
+#: model:ir.model.fields,help:social_push_notifications.field_social_post__push_notification_image
+#: model:ir.model.fields,help:social_push_notifications.field_social_post_template__push_notification_image
+msgid "This icon will be displayed in the browser notification"
+msgstr "ໄອຄອນນີ້ຈະຖືກສະແດງໃນການແຈ້ງເຕືອນຂອງບຣາວເຊີ"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_utm_campaign
+msgid "UTM Campaign"
+msgstr "ແຄມເປນ UTM"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Use your own Firebase Account for this website's push notifications"
+msgstr "ໃຊ້ບັນຊີ Firebase ຂອງທ່ານເອງສຳລັບການແຈ້ງເຕືອນແບບພຸສຂອງເວັບໄຊນີ້"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_use_own_account
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_use_own_account
+#: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_use_own_account
+msgid "Use your own Firebase account"
+msgstr "ໃຊ້ບັນຊີ Firebase ຂອງທ່ານເອງ"
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_media__media_type
+msgid ""
+"Used to make comparisons when we need to restrict some features to a "
+"specific media ('facebook', 'x', ...)."
+msgstr ""
+"ໃຊ້ເພື່ອປຽບທຽບເມື່ອພວກເຮົາຕ້ອງການຈຳກັດບາງຄຸນສົມບັດໃຫ້ກັບສື່ສະເພາະ ('facebook', 'x', ...)."
+
+#. module: social_push_notifications
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post__visitor_domain
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_post_template__visitor_domain
+msgid "Visitor Domain"
+msgstr "ໂດເມນຜູ້ຢ້ຽມຊົມ"
+
+#. module: social_push_notifications
+#: model:ir.ui.menu,name:social_push_notifications.social_visitor
+msgid "Visitors"
+msgstr "ຜູ້ຢ້ຽມຊົມ"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/controllers/main.py:0
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Want to discover new versions?"
+msgstr "ຕ້ອງການຄົ້ນພົບເວີຊັນໃໝ່ໆບໍ່?"
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "Web API Key"
+msgstr "ຄີ Web API"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_website
+#: model:ir.model.fields,field_description:social_push_notifications.field_social_account__website_id
+msgid "Website"
+msgstr "ເວັບໄຊ"
+
+#. module: social_push_notifications
+#: model:ir.model,name:social_push_notifications.model_website_visitor
+#: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor_push_subscription__website_visitor_id
+msgid "Website Visitor"
+msgstr "ຜູ້ຢ້ຽມຊົມເວັບໄຊ"
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_account.py:0
+msgid "You can't delete a Push Notification account."
+msgstr "ທ່ານບໍ່ສາມາດລຶບບັນຊີການແຈ້ງເຕືອນແບບພຸສໄດ້."
+
+#. module: social_push_notifications
+#. odoo-python
+#: code:addons/social_push_notifications/models/social_account.py:0
+msgid ""
+"You have to install \"google_auth>=1.18.0\" to be able to send push "
+"notifications."
+msgstr ""
+"ທ່ານຕ້ອງຕິດຕັ້ງ \"google_auth>=1.18.0\" ເພື່ອໃຫ້ສາມາດສົ່ງການແຈ້ງເຕືອນແບບພຸສໄດ້."
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "e.g. \"1:280765099157:web:7c7b7d7b7d7b7d7b7d7b7d\""
+msgstr "ຕົວຢ່າງ: \"1:280765099157:web:7c7b7d7b7d7b7d7b7d7b7d\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "e.g. \"280765099157\""
+msgstr "ຕົວຢ່າງ: \"280765099157\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "e.g. \"BIzbSyXhhsFHEgphW55CSg5cV7h7c_S-AuTMKc9\""
+msgstr "ຕົວຢ່າງ: \"BIzbSyXhhsFHEgphW55CSg5cV7h7c_S-AuTMKc9\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "e.g. \"CCSc77KP_LX8dTAogFakOoJ_VqNP15u0-43psDJe__a9B...\""
+msgstr "ຕົວຢ່າງ: \"CCSc77KP_LX8dTAogFakOoJ_VqNP15u0-43psDJe__a9B...\""
+
+#. module: social_push_notifications
+#: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
+msgid "e.g. \"my-project-id\""
+msgstr "ຕົວຢ່າງ: \"my-project-id\""
+
+#. module: social_push_notifications
+#: model:ir.model.fields,help:social_push_notifications.field_social_post__use_visitor_timezone
+#: model:ir.model.fields,help:social_push_notifications.field_social_post_template__use_visitor_timezone
+msgid ""
+"e.g: If you post at 15:00 your time, all visitors will receive the post at "
+"15:00 their time."
+msgstr ""
+"ຕົວຢ່າງ: ຖ້າທ່ານໂພສໃນເວລາ 15:00 ຕາມເວລາຂອງທ່ານ, ຜູ້ຢ້ຽມຊົມທັງໝົດຈະໄດ້ຮັບໂພສໃນເວລາ 15:00 ຕາ"
+"ມເວລາຂອງພວກເຂົາ."

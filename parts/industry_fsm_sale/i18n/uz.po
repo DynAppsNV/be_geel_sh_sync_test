@@ -1,0 +1,829 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_sale
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-24 17:44+0000\n"
+"PO-Revision-Date: 2025-10-08 18:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid "%(project_name)s - %(task_name)s"
+msgstr "%(project_name)s - %(task_name)s"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+msgid "<b>Click to edit."
+msgstr ""
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "<b>Invoice your time and material</b> to your customer."
+msgstr ""
+"Mijozingizga <b>vaqtingiz va materialingiz</b> uchun hisob-faktura yuboring."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "<b>Review and sign</b> the <b>task report</b> with your customer."
+msgstr ""
+"Mijozingiz bilan <b>vazifa hisobotini</b> <b>ko‘rib chiqing va imzolang</b>."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "<b>Send your task report</b> to your customer."
+msgstr "<b>Vazifa hisobotini</b> mijozingizga yuboring."
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid ""
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                            No products found. Let's create one!\n"
+"                        </p><p>\n"
+"                            Keep track of the products you are using to "
+"complete your tasks, and invoice your customers for the goods.\n"
+"                            Tip: using kits, you can add multiple products "
+"at once.\n"
+"                        </p><p>\n"
+"                            When your task is marked as done, your stock "
+"will be updated automatically. Simply choose a warehouse\n"
+"                            in your profile from where to draw stock.\n"
+"                        </p>"
+msgstr ""
+"<p class=\"o_view_nocontent_smiling_face\">Hech qanday mahsulot topilmadi. "
+"Keling, yangi mahsulot yaratamiz!</p><p>Vazifalaringizni bajarish uchun "
+"foydalanayotgan mahsulotlarni kuzatib boring va mijozlaringizga tovarlar "
+"uchun hisob-faktura yuboring. Maslahat: to‘plamlardan foydalanib, bir "
+"vaqtning o‘zida bir nechta mahsulotni qo‘shishingiz mumkin.</p><p>Vazifangiz "
+"bajarildi deb belgilanganda, zaxirangiz avtomatik ravishda yangilanadi. "
+"Shunchaki profilingizdagi omborxonani tanlang, u yerdan zaxira olishingiz "
+"mumkin.</p>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_view_form_inherit
+#, fuzzy
+msgid ""
+"<span invisible=\"not allow_material\" class=\"text-muted\">Hide prices on "
+"customer report</span>"
+msgstr ""
+"<span invisible=\"not allow_material\" class=\"text-muted\">Mijozlar "
+"hisobotida narxlarni yashirish</span>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_view_form_inherit
+#, fuzzy
+msgid ""
+"<span invisible=\"not is_fsm\">\n"
+"                    Define the service and the rate at which an employee's "
+"time is billed based on their expertise, skills or experience.\n"
+"                </span>"
+msgstr ""
+"<span invisible=\"not is_fsm\">Xodimning tajribasi, malakasi yoki "
+"ko‘nikmalariga asoslanib, xizmat va uning vaqti hisoblanadigan stavkani "
+"belgilang.</span>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "<span>Disc.%</span>"
+msgstr "<span>Chegirma %</span>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_sharing_project_task_inherit_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
+#, fuzzy
+msgid "<span>Products</span>"
+msgstr "<span>Mahsulotlar</span>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Oraliq jami</strong>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "<strong>Amount Due: </strong>"
+msgstr "<strong>To‘lanadigan summa: </strong>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "<strong>Taxes</strong>"
+msgstr "<strong>Soliqlar</strong>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "<strong>Total</strong>"
+msgstr "<strong>Jami</strong>"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "<strong>Untaxed amount</strong>"
+msgstr "<strong>Soliqsiz summa</strong>"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid "A customer should be set on the task to generate a worksheet."
+msgstr "Ishchi varaqni yaratish uchun vazifaga mijoz belgilanishi kerak."
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid "Add Products"
+msgstr "Mahsulotlar qo‘shish"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.industry_fsm_sale_product_catalog_inherit_search_view
+#, fuzzy
+msgid "Added Products"
+msgstr "Qo‘shilgan mahsulotlar"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "Amount"
+msgstr "Miqdor"
+
+#. module: industry_fsm_sale
+#: model:ir.model.constraint,message:industry_fsm_sale.constraint_project_project_fsm_imply_task_rate
+#, fuzzy
+msgid "An FSM project must be billed at task rate or employee rate."
+msgstr ""
+"FSM loyihasi vazifa stavkasi yoki xodim stavkasi bo‘yicha hisoblanishi kerak."
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/wizard/sale_make_invoice_advance.py:0
+#, fuzzy
+msgid "An invoice has been created: %s"
+msgstr "Hisob-faktura yaratildi: %s"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_account_analytic_line
+#, fuzzy
+msgid "Analytic Line"
+msgstr "Tahliliy qator"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/components/product_catalog/kanban_controller.xml:0
+#, fuzzy
+msgid "Back to Task"
+msgstr "Vazifaga qaytish"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__allow_billable
+#, fuzzy
+msgid "Billable"
+msgstr "To‘lovga yaroqli"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid ""
+"By saving this change, all timesheet entries will be linked to the selected "
+"Sales Order Item without distinction."
+msgstr ""
+"Bu o‘zgarishni saqlasangiz, barcha vaqt jadvali yozuvlari tanlangan Savdo "
+"buyurtmasi elementiga hech qanday farqsiz bog‘lanadi."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid ""
+"Choose a <b>name</b> for your product <i>(e.g. Bolts, Screws, Boiler, etc.)."
+"</i>"
+msgstr ""
+"Mahsulotingiz uchun <b>nom</b> tanlang <i>(masalan, boltlar, vintlar, qozon "
+"va hokazo).</i>"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid ""
+"Click on a product to add it to your <b>list of materials</b>. <i>Tip: for "
+"large quantities, click on the number to edit it directly.</i>"
+msgstr ""
+"Mahsulotni <b>materiallar ro‘yxatiga</b> qo‘shish uchun ustiga bosing. "
+"<i>Maslahat: katta miqdorlar uchun raqam ustiga bosib, uni bevosita "
+"tahrirlashingiz mumkin.</i>"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Confirm the creation of your <b>invoice</b>."
+msgstr "<b>Hisob-faktura</b> yaratilganini tasdiqlang."
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_task_view_list_fsm_sale_inherit
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
+#, fuzzy
+msgid "Create Invoice"
+msgstr "Hisob-faktura yaratish"
+
+#. module: industry_fsm_sale
+#: model:ir.model,website_form_label:industry_fsm_sale.model_project_task
+#, fuzzy
+msgid "Create a Task"
+msgstr "Vazifa yaratish"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_view_form_inherit
+#, fuzzy
+msgid "Create new quotations directly from tasks"
+msgstr "Yangi takliflarni bevosita vazifalardan yarating"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__currency_id
+#, fuzzy
+msgid "Currency"
+msgstr "Valyuta"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Customize your <b>layout</b>."
+msgstr "<b>Tartibni</b> moslashtiring."
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_view_form_inherit
+#, fuzzy
+msgid "Default Service"
+msgstr "Standart xizmat"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_account_analytic_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_product_product__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_product_template__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_sale_line_employee_map__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_template_create_wizard__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_report_project_task_user_fsm__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_sale_advance_payment_inv__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_sale_order__display_name
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_sale_order_line__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/sale_order.py:0
+#, fuzzy
+msgid "Extra Quotation Created: %s"
+msgstr "Qo‘shimcha narxnoma yaratildi: %s"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__allow_quotations
+#, fuzzy
+msgid "Extra Quotations"
+msgstr "Qo‘shimcha narxnomalar"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_report_project_task_user_fsm
+#, fuzzy
+msgid "FSM Tasks Analysis"
+msgstr "FSM vazifalari tahlili"
+
+#. module: industry_fsm_sale
+#: model:product.template,name:industry_fsm_sale.field_service_product_product_template
+#, fuzzy
+msgid "Field Service"
+msgstr "Dala xizmati"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields.selection,name:industry_fsm_sale.selection__report_project_task_user_fsm__invoice_status__invoiced
+#, fuzzy
+msgid "Fully Invoiced"
+msgstr "To‘liq hisoblanganlar"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Go back to your <b>task</b>."
+msgstr "<b>Vazifangizga</b> qayting."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Go back to your Field Service <b>task</b>."
+msgstr "Dala xizmati <b>vazifangizga</b> qayting."
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__hide_price
+#, fuzzy
+msgid "Hide price on customer report and portal"
+msgstr "Mijoz hisoboti va portalida narxni yashirish"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_account_analytic_line__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_product_product__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_product_template__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_sale_line_employee_map__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_template_create_wizard__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_report_project_task_user_fsm__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_sale_advance_payment_inv__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_sale_order__id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_sale_order_line__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,help:industry_fsm_sale.field_project_task__under_warranty
+#, fuzzy
+msgid ""
+"If ticked, the time and materials used for this task will not be billed to "
+"the customer. However, the inventory of consumed materials will still be "
+"updated."
+msgstr ""
+"Agar belgilansa, bu vazifa uchun sarflangan vaqt va materiallar mijozga "
+"hisoblanmaydi. Biroq, ishlatilgan materiallar hisobi yangilanadi."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Invite your customer to <b>validate and sign your task report</b>."
+msgstr ""
+"Mijozingizni <b>vazifa hisobotini tasdiqlash va imzolashga</b> taklif qiling."
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid "Invoice"
+msgstr "Hisob-faktura"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__portal_invoice_count
+#, fuzzy
+msgid "Invoice Count"
+msgstr "Hisob-fakturalar soni"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_report_project_task_user_fsm__invoice_status
+#, fuzzy
+msgid "Invoice Status"
+msgstr "Hisob-faktura holati"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm2
+#, fuzzy
+msgid ""
+"Invoice your time and material to your customers once your tasks are done."
+msgstr ""
+"Vazifalaringiz bajarilgach, mijozlaringizga vaqt va materiallar uchun hisob-"
+"faktura yozing."
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_sharing_project_task_inherit_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
+#, fuzzy
+msgid "Invoices"
+msgstr "Hisob-fakturalar"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Let's <b>track the material</b> you use for your task."
+msgstr ""
+"Keling, vazifangiz uchun ishlatadigan <b>materiallarni</b> kuzatib boraylik."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Let's create a new <b>product</b>."
+msgstr "Yangi <b>mahsulot</b> yarataylik."
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__material_line_total_price
+#, fuzzy
+msgid "Material Line Total Price"
+msgstr "Material qatorining umumiy narxi"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_product_product__fsm_quantity
+#, fuzzy
+msgid "Material Quantity"
+msgstr "Material miqdori"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
+#, fuzzy
+msgid "New Quotation"
+msgstr "Yangi narxnoma"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.actions.act_window,help:industry_fsm_sale.product_action_fsm
+#, fuzzy
+msgid "No products found. Let's create one!"
+msgstr "Hech qanday mahsulot topilmadi. Keling, bitta yarataylik!"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm2
+#, fuzzy
+msgid "No tasks found. Let's create one!"
+msgstr "Hech qanday vazifa topilmadi. Keling, bitta yarataylik!"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields.selection,name:industry_fsm_sale.selection__report_project_task_user_fsm__invoice_status__no
+#, fuzzy
+msgid "Nothing to Invoice"
+msgstr "Hisoblash uchun hech narsa yo‘q"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__invoice_count
+#, fuzzy
+msgid "Number of invoices"
+msgstr "Hisob-fakturalar soni"
+
+#. module: industry_fsm_sale
+#: model:product.template,name:industry_fsm_sale.field_service_product_zero_cost_1_product_template
+#, fuzzy
+msgid "Plumbing Valves"
+msgstr "Santexnika klapanlari"
+
+#. module: industry_fsm_sale
+#: model:product.template,name:industry_fsm_sale.field_service_product_zero_cost_4_product_template
+#, fuzzy
+msgid "Plumbing Washers"
+msgstr "Santexnika shaybalari"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid "Portal Invoices"
+msgstr "Portal hisob-fakturalari"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__portal_quotation_count
+#, fuzzy
+msgid "Portal Quotation Count"
+msgstr "Portal narxnomalar soni"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid "Portal Quotations"
+msgstr "Portal narxnomalari"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_product_template
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_product_product
+#, fuzzy
+msgid "Product Variant"
+msgstr "Mahsulot varianti"
+
+#. module: industry_fsm_sale
+#: model:ir.actions.act_window,name:industry_fsm_sale.product_action_fsm
+#: model:ir.ui.menu,name:industry_fsm_sale.fsm_menu_settings_product
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
+#, fuzzy
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__allow_material
+#, fuzzy
+msgid "Products on Tasks"
+msgstr "Vazifalardagi mahsulotlar"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_project_project
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_product_product__project_id
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_product_template__project_id
+#, fuzzy
+msgid "Project"
+msgstr "Loyiha"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_project_sale_line_employee_map
+#, fuzzy
+msgid "Project Sales line, employee mapping"
+msgstr "Loyiha savdo qatori, xodimlar xaritasi"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_project_template_create_wizard
+msgid "Project Template create Wizard"
+msgstr ""
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "Quantity"
+msgstr "Miqdor"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/controllers/portal.py:0
+#, fuzzy
+msgid "Quotation"
+msgstr "Narxnoma"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__quotation_count
+#, fuzzy
+msgid "Quotation Count"
+msgstr "Narxnomalar soni"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/controllers/portal.py:0
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_sharing_project_task_inherit_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
+#, fuzzy
+msgid "Quotations"
+msgstr "Narxnomalar"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_order_form_inherit_sale_project
+#, fuzzy
+msgid "Related Task"
+msgstr "Tegishli vazifa"
+
+#. module: industry_fsm_sale
+#: model:product.template,name:industry_fsm_sale.field_service_product_zero_cost_2_product_template
+#, fuzzy
+msgid "Safety Gloves"
+msgstr "Xavfsizlik qo‘lqoplari"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_sale_advance_payment_inv
+#, fuzzy
+msgid "Sales Advance Payment Invoice"
+msgstr "Oldindan to‘lov hisob-fakturasi"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_sale_order
+#, fuzzy
+msgid "Sales Order"
+msgstr "Savdo buyurtmasi"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_project__sale_line_id
+#, fuzzy
+msgid "Sales Order Item"
+msgstr "Savdo buyurtmasi elementi"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_sale_order_line
+#, fuzzy
+msgid "Sales Order Line"
+msgstr "Savdo buyurtmasi qatori"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,help:industry_fsm_sale.field_project_project__sale_line_id
+#, fuzzy
+msgid ""
+"Sales order item that will be selected by default on the tasks and "
+"timesheets of this project, except if the employee set on the timesheets is "
+"explicitely linked to another sales order item on the project.\n"
+"It can be modified on each task and timesheet entry individually if "
+"necessary."
+msgstr ""
+"Ushbu loyihaning vazifalari va tabellarida standart bo‘yicha tanlanadigan "
+"savdo buyurtmasi elementi, agar tabellarda ko‘rsatilgan xodim loyihadagi "
+"boshqa savdo buyurtmasi elementi bilan aniq bog‘lanmagan bo‘lsa. Zarur "
+"bo‘lganda, uni har bir vazifa va tabel yozuvida alohida o‘zgartirish mumkin."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Save time by automatically generating a <b>signature</b>."
+msgstr "<b>Imzo</b>ni avtomatik ravishda yaratib vaqtingizni tejang."
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_sale_line_employee_map__timesheet_product_id
+#, fuzzy
+msgid "Service"
+msgstr "Xizmat"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_sale_order__task_id
+#, fuzzy
+msgid "Source Task"
+msgstr "Manba vazifasi"
+
+#. module: industry_fsm_sale
+#: model:ir.model,name:industry_fsm_sale.model_project_task
+#, fuzzy
+msgid "Task"
+msgstr "Vazifa"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,help:industry_fsm_sale.field_sale_order__task_id
+#, fuzzy
+msgid "Task from which this quotation have been created"
+msgstr "Ushbu iqtibos yaratilgan vazifa"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/project_task.py:0
+#, fuzzy
+msgid "Tasks need to be linked to a sales order to be invoiced."
+msgstr ""
+"Hisob-faktura qilinishi uchun vazifalar sotish buyurtmasiga bog‘lanishi "
+"kerak."
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "Taxes"
+msgstr "Soliqlar"
+
+#. module: industry_fsm_sale
+#. odoo-python
+#: code:addons/industry_fsm_sale/models/product_template.py:0
+#, fuzzy
+msgid ""
+"The following products are currently associated with a Field Service "
+"project, you cannot change their Invoicing Policy or Type:%s"
+msgstr ""
+"Quyidagi mahsulotlar hozirda Dala xizmati loyihasi bilan bog‘langan, shuning "
+"uchun ularning hisob-kitob siyosati yoki turini o‘zgartira olmaysiz: %s"
+
+#. module: industry_fsm_sale
+#: model:ir.model.constraint,message:industry_fsm_sale.constraint_project_project_material_imply_billable
+#, fuzzy
+msgid "The material can be allowed only when the task can be billed."
+msgstr ""
+"Material faqat vazifani hisoblash mumkin bo‘lganda ruxsat etilishi mumkin."
+
+#. module: industry_fsm_sale
+#: model:ir.model.constraint,message:industry_fsm_sale.constraint_project_project_timesheet_product_required_if_billable_and_time
+#, fuzzy
+msgid ""
+"The timesheet product is required when the fsm project can be billed and "
+"timesheets are allowed."
+msgstr ""
+"Vaqt hisobi mahsuloti FSM loyihasini hisoblash mumkin bo‘lganda va vaqt "
+"hisobi ruxsat etilganda talab qilinadi."
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.portal_my_task
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_custom_page
+#, fuzzy
+msgid "Time &amp; Material"
+msgstr "Vaqt va material"
+
+#. module: industry_fsm_sale
+#: model:ir.actions.act_window,name:industry_fsm_sale.project_task_action_to_invoice_fsm
+#: model:ir.actions.act_window,name:industry_fsm_sale.project_task_action_to_invoice_fsm2
+#: model:ir.model.fields.selection,name:industry_fsm_sale.selection__report_project_task_user_fsm__invoice_status__to_invoice
+#: model:ir.ui.menu,name:industry_fsm_sale.fsm_menu_all_tasks_invoice
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_task_view_search_fsm_inherit_sale
+#, fuzzy
+msgid "To Invoice"
+msgstr "Hisob-faktura qilish"
+
+#. module: industry_fsm_sale
+#: model:ir.actions.server,name:industry_fsm_sale.project_task_to_invoice_fsm_server_action
+#, fuzzy
+msgid "To Invoice Server Action"
+msgstr "Server harakatini hisob-faktura qilish"
+
+#. module: industry_fsm_sale
+#: model_terms:ir.actions.act_window,help:industry_fsm_sale.product_action_fsm
+#, fuzzy
+msgid "Track and bill the material used to complete your tasks."
+msgstr ""
+"Vazifalaringizni bajarish uchun ishlatilgan materialni kuzatib boring va "
+"hisoblang."
+
+#. module: industry_fsm_sale
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_view_form_inherit
+#, fuzzy
+msgid "Track the material used to complete tasks"
+msgstr "Vazifalarni bajarish uchun ishlatilgan materialni kuzatish"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__under_warranty
+#, fuzzy
+msgid "Under Warranty"
+msgstr "Kafolat ostida"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,field_description:industry_fsm_sale.field_project_sale_line_employee_map__price_unit
+#: model_terms:ir.ui.view,arch_db:industry_fsm_sale.worksheet_time_and_material
+#, fuzzy
+msgid "Unit Price"
+msgstr "Birlik narxi"
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields.selection,name:industry_fsm_sale.selection__report_project_task_user_fsm__invoice_status__upselling
+#, fuzzy
+msgid "Upselling Opportunity"
+msgstr "Qo‘shimcha sotish imkoniyati"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Use the breadcrumbs to navigate to your <b>list of products</b>."
+msgstr ""
+"<b>Mahsulotlar ro‘yxati</b>ga o‘tish uchun navigatsiya panelidan foydalaning."
+
+#. module: industry_fsm_sale
+#: model:ir.model.fields,help:industry_fsm_sale.field_project_task__display_name
+#, fuzzy
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a medium priority\n"
+"        !! Set the task a high priority\n"
+"        !!! Set the task a urgent priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"Yangi vazifalarni belgilash uchun sarlavhada quyidagi kalit so‘zlardan "
+"foydalaning: 30h Vazifaga 30 soat ajrating #teglar Vazifaga teglar qo‘ying "
+"@foydalanuvchi Vazifani foydalanuvchiga topshiring ! Vazifani o‘rtacha "
+"ustuvorlikka qo‘ying !! Vazifani yuqori ustuvorlikka qo‘ying !!! Vazifani "
+"juda shoshilinch ustuvorlikka qo‘ying To‘g‘ri format va tartibdan "
+"foydalanishni unutmang, masalan: Sozlamalar ekranini yaxshilash 5h #funksiya "
+"#v16 @Mitchell !"
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Validate the <b>signature</b>."
+msgstr "<b>Imzo</b>ni tasdiqlang."
+
+#. module: industry_fsm_sale
+#. odoo-javascript
+#: code:addons/industry_fsm_sale/static/src/js/tours/industry_fsm_sale_tour.js:0
+#, fuzzy
+msgid "Wait for the invoice to show up"
+msgstr "Hisob-faktura paydo bo‘lishini kuting"
+
+#. module: industry_fsm_sale
+#: model:product.template,name:industry_fsm_sale.field_service_product_zero_cost_3_product_template
+#, fuzzy
+msgid "Water Testing Kits"
+msgstr "Suvni sinash to‘plamlari"

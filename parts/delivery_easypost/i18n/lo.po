@@ -1,0 +1,489 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * delivery_easypost
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:42+0000\n"
+"PO-Revision-Date: 2026-06-06 16:18+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"delivery_easypost/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid ""
+"<b>Copy your API keys in Odoo</b>\n"
+"                <br/>"
+msgstr ""
+"<b>ຄັດລອກລະຫັດ API ຂອງທ່ານໃນ Odoo</b>\n"
+"                <br/>"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid ""
+"<b>Once your account is created, go to your Dashboard and click on the arrow next to your username to configure your carrier accounts. </b>\n"
+"                <b>You can add new carrier accounts on the right side of the same page.</b>\n"
+"                <br/>"
+msgstr ""
+"<b>ເມື່ອສ້າງບັນຊີຂອງທ່ານແລ້ວ, ໃຫ້ໄປທີ່ ແຜງຄວບຄຸມ (Dashboard) ແລະ ຄລິກທີ່ລູກສອນຂ້າງຊື່ຜູ້ໃຊ້ຂອງທ່ານເ"
+"ພື່ອຕັ້ງຄ່າບັນຊີຜູ້ຂົນສົ່ງ. </b>\n"
+"                <b>ທ່ານສາມາດເພີ່ມບັນຊີຜູ້ຂົນສົ່ງໃໝ່ໄດ້ຢູ່ເບື້ອງຂວາຂອງໜ້າດຽວກັນນີ້.</b>\n"
+"                <br/>"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_stock_package_type_form_inherit_easypost
+msgid "<span invisible=\"package_carrier_type != 'easypost'\">Inches</span>"
+msgstr "<span invisible=\"package_carrier_type != 'easypost'\">ນິ້ວ</span>"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/delivery_carrier.py:0
+msgid "A production key is required in order to load your easypost carriers."
+msgstr ""
+"ຈຳເປັນຕ້ອງມີລະຫັດ API ໃຊ້ງານຈິງ (Production key) ເພື່ອດຶງຂໍ້ມູນຜູ້ຂົນສົ່ງ Easypost ຂອງທ່ານ."
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/delivery_carrier.py:0
+msgid "A production key is required in order to load your insurance fees."
+msgstr ""
+"ຈຳເປັນຕ້ອງມີລະຫັດ API ໃຊ້ງານຈິງ (Production key) ເພື່ອດຶງຂໍ້ມູນຄ່າທຳນຽມປະກັນໄພ."
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "API keys"
+msgstr "ລະຫັດ API"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_easypost_carrier_type
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_stock_package_type__package_carrier_type
+msgid "Carrier"
+msgstr "ຜູ້ຂົນສົ່ງ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__easypost_carrier
+#: model:ir.model.fields,field_description:delivery_easypost.field_stock_package_type__easypost_carrier
+msgid "Carrier Prefix"
+msgstr "ຄຳນຳໜ້າຜູ້ຂົນສົ່ງ"
+
+#. module: delivery_easypost
+#: model:ir.model,name:delivery_easypost.model_delivery_carrier_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__carrier_type
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_easypost_carrier_type
+msgid "Carrier Type"
+msgstr "ປະເພດຜູ້ຂົນສົ່ງ"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Carrier accounts"
+msgstr "ບັນຊີຜູ້ຂົນສົ່ງ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__create_uid
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__create_date
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Default Package Type"
+msgstr "ປະເພດເຄື່ອງຫຸ້ມຫໍ່ເລີ່ມຕົ້ນ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_default_package_type_id
+msgid "Default Package Type for Easypost"
+msgstr "ປະເພດເຄື່ອງຫຸ້ມຫໍ່ເລີ່ມຕົ້ນສຳລັບ Easypost"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_default_service_id
+msgid "Default Service Level"
+msgstr "ລະດັບການບໍລິການເລີ່ມຕົ້ນ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__delivery_carrier_id
+msgid "Delivery Carrier"
+msgstr "ຜູ້ບໍລິການຈັດສົ່ງ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__display_name
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__display_name
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__display_name
+#: model:ir.model.fields,field_description:delivery_easypost.field_stock_package_type__display_name
+#: model:ir.model.fields,field_description:delivery_easypost.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid ""
+"Do not forget to load your Easypost carrier accounts for a valid "
+"configuration."
+msgstr ""
+"ຢ່າລືມດຶງຂໍ້ມູນບັນຊີຜູ້ຂົນສົ່ງ Easypost ຂອງທ່ານເພື່ອໃຫ້ການຕັ້ງຄ່າສົມບູນ."
+
+#. module: delivery_easypost
+#: model:ir.model.fields.selection,name:delivery_easypost.selection__delivery_carrier__easypost_label_file_type__epl2
+msgid "EPL2"
+msgstr "EPL2"
+
+#. module: delivery_easypost
+#: model:ir.model.fields.selection,name:delivery_easypost.selection__delivery_carrier__delivery_type__easypost
+#: model:ir.model.fields.selection,name:delivery_easypost.selection__stock_package_type__package_carrier_type__easypost
+msgid "Easypost"
+msgstr "Easypost"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_delivery_type
+msgid "Easypost Carrier Type"
+msgstr "ປະເພດຜູ້ຂົນສົ່ງ Easypost"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_delivery_type_id
+msgid "Easypost Carrier Type ID, technical for API request"
+msgstr "ID ປະເພດຜູ້ຂົນສົ່ງ Easypost, ທາງດ້ານເຕັກນິກສຳລັບການຮ້ອງຂໍ API"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Easypost Configuration"
+msgstr "ການຕັ້ງຄ່າ Easypost"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/delivery_carrier.py:0
+msgid "Easypost Documents:"
+msgstr "ເອກະສານ Easypost:"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_label_file_type
+msgid "Easypost Label File Type"
+msgstr "ປະເພດໄຟລ໌ສະຫຼາກ Easypost"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_stock_picking__ep_order_ref
+msgid "Easypost Order Reference"
+msgstr "ເອກະສານອ້າງອີງຄຳສັ່ງຊື້ Easypost"
+
+#. module: delivery_easypost
+#: model:ir.model,name:delivery_easypost.model_easypost_service
+msgid "Easypost Service"
+msgstr "ການບໍລິການ Easypost"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.res_config_settings_view_form_sale
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.res_config_settings_view_form_stock
+msgid "Easypost Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ Easypost"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Easypost Tutorial"
+msgstr "ຄູ່ມືການໃຊ້ງານ Easypost"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Easypost Website"
+msgstr "ເວັບໄຊ Easypost"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid "Easypost returned an error: %s"
+msgstr "Easypost ແຈ້ງຂໍ້ຜິດພາດ: %s"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,help:delivery_easypost.field_delivery_carrier__easypost_production_api_key
+msgid "Enter your API production key from Easypost account"
+msgstr "ປ້ອນລະຫັດ API ໃຊ້ງານຈິງຈາກບັນຊີ Easypost ຂອງທ່ານ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,help:delivery_easypost.field_delivery_carrier__easypost_test_api_key
+msgid "Enter your API test key from Easypost account."
+msgstr "ປ້ອນລະຫັດ API ສຳລັບທົດລອງຈາກບັນຊີ Easypost ຂອງທ່ານ."
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Go to"
+msgstr "ໄປທີ່"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__id
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__id
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__id
+#: model:ir.model.fields,field_description:delivery_easypost.field_stock_package_type__id
+#: model:ir.model.fields,field_description:delivery_easypost.field_stock_picking__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,help:delivery_easypost.field_delivery_carrier__easypost_default_service_id
+msgid "If not set, the less expensive available service level will be chosen."
+msgstr "ຫາກບໍ່ໄດ້ກຳນົດ, ລະບົບຈະເລືອກລະດັບການບໍລິການທີ່ມີລາຄາຖືກທີ່ສຸດທີ່ມີໃຫ້."
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_insurance_fee_minimum
+msgid "Insurance fee minimum (USD)"
+msgstr "ຄ່າທຳນຽມປະກັນໄພຂັ້ນຕ່ຳ (USD)"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_insurance_fee_rate
+msgid "Insurance fee rate (USD)"
+msgstr "ອັດຕາຄ່າທຳນຽມປະກັນໄພ (USD)"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"It seems Easypost do not provide shipments for this order.                We"
+" advise you to try with another package type or service level."
+msgstr ""
+"ເບິ່ງຄືວ່າ Easypost ບໍ່ມີການຈັດສົ່ງສຳລັບຄຳສັ່ງຊື້ນີ້. ພວກເຮົາແນະນຳໃຫ້ທ່ານລອງໃຊ້ປະເພດເຄື່ອງຫຸ້ມຫໍ່ ຫຼື ລະດັບ"
+"ການບໍລິການອື່ນ."
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Label Format"
+msgstr "ຮູບແບບສະຫຼາກ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__write_uid
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__write_uid
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier_easypost__write_date
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__write_date
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Load your Easypost carrier accounts"
+msgstr "ດຶງຂໍ້ມູນບັນຊີຜູ້ຂົນສົ່ງ Easypost ຂອງທ່ານ"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Options"
+msgstr "ຕົວເລືອກ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields.selection,name:delivery_easypost.selection__delivery_carrier__easypost_label_file_type__pdf
+msgid "PDF"
+msgstr "PDF"
+
+#. module: delivery_easypost
+#: model:ir.model.fields.selection,name:delivery_easypost.selection__delivery_carrier__easypost_label_file_type__png
+msgid "PNG"
+msgstr "PNG"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid "Package type used in pack %s is not configured for easypost."
+msgstr "ປະເພດເຄື່ອງຫຸ້ມຫໍ່ທີ່ໃຊ້ໃນແພັກ %s ຍັງບໍ່ໄດ້ກຳນົດຄ່າສຳລັບ Easypost."
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid "Please provide at least one item to ship."
+msgstr "ກະລຸນາລະບຸຢ່າງໜ້ອຍໜຶ່ງລາຍການເພື່ອຈັດສົ່ງ."
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_production_api_key
+msgid "Production API Key"
+msgstr "ລະຫັດ API ໃຊ້ງານຈິງ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/delivery_carrier.py:0
+msgid "Return Label<br/>"
+msgstr "ສະຫຼາກສົ່ງຄືນ<br/>"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid "Sale Order/Stock Picking is missing."
+msgstr "ບໍ່ພົບຄຳສັ່ງຊື້ ຫຼື ໃບບິນເບີກສິນຄ້າ."
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_easypost_carrier_type
+msgid "Select"
+msgstr "ເລືອກ"
+
+#. module: delivery_easypost
+#: model:ir.actions.act_window,name:delivery_easypost.act_delivery_easypost_carrier_type
+msgid "Select a carrier"
+msgstr "ເລືອກຜູ້ຂົນສົ່ງ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_easypost_service__name
+msgid "Service Level Name"
+msgstr "ຊື່ລະດັບການບໍລິການ"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/delivery_carrier.py:0
+msgid "Shipment created into Easypost<br/><b>Tracking Numbers:</b> %s<br/>"
+msgstr "ສ້າງການຈັດສົ່ງໃນ Easypost ແລ້ວ<br/><b>ເລກຕິດຕາມ:</b> %s<br/>"
+
+#. module: delivery_easypost
+#: model:ir.model,name:delivery_easypost.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "Sign up"
+msgstr "ລົງທະບຽນ"
+
+#. module: delivery_easypost
+#: model:ir.model,name:delivery_easypost.model_stock_package_type
+msgid "Stock package type"
+msgstr "ປະເພດເຄື່ອງຫຸ້ມຫໍ່ສິນຄ້າ"
+
+#. module: delivery_easypost
+#: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_test_api_key
+msgid "Test API Key"
+msgstr "ລະຫັດ API ທົດລອງ"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"The %s carrier is missing (Missing field(s) :\n"
+" Default Package Type)"
+msgstr ""
+"ຜູ້ຂົນສົ່ງ %s ຂໍ້ມູນບໍ່ຄົບຖ້ວນ (ຫ້ອງຂໍ້ມູນທີ່ຂາດ:\n"
+" ປະເພດເຄື່ອງຫຸ້ມຫໍ່ເລີ່ມຕົ້ນ)"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"The %s carrier is missing (Missing field(s) :\n"
+" Delivery Carrier Type)"
+msgstr ""
+"ຜູ້ຂົນສົ່ງ %s ຂໍ້ມູນບໍ່ຄົບຖ້ວນ (ຫ້ອງຂໍ້ມູນທີ່ຂາດ:\n"
+" ປະເພດຜູ້ບໍລິການຈັດສົ່ງ)"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"The %s carrier is missing (Missing field(s) :\n"
+" Production API Key)"
+msgstr ""
+"ຜູ້ຂົນສົ່ງ %s ຂໍ້ມູນບໍ່ຄົບຖ້ວນ (ຫ້ອງຂໍ້ມູນທີ່ຂາດ:\n"
+" ລະຫັດ API ໃຊ້ງານຈິງ)"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"The %s carrier is missing (Missing field(s) :\n"
+" Test API Key)"
+msgstr ""
+"ຜູ້ຂົນສົ່ງ %s ຂໍ້ມູນບໍ່ຄົບຖ້ວນ (ຫ້ອງຂໍ້ມູນທີ່ຂາດ:\n"
+" ລະຫັດ API ທົດລອງ)"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"The estimated price cannot be computed because the weight of your product is"
+" missing."
+msgstr "ບໍ່ສາມາດຄຳນວນລາຄາປະມານການໄດ້ ເພາະບໍ່ມີຂໍ້ມູນນ້ຳໜັກຂອງສິນຄ້າ."
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"The estimated shipping price cannot be computed because the weight is missing for the following product(s): \n"
+" %s"
+msgstr ""
+"ບໍ່ສາມາດຄຳນວນລາຄາຈັດສົ່ງປະມານການໄດ້ ເພາະບໍ່ມີຂໍ້ມູນນ້ຳໜັກຂອງສິນຄ້າຕໍ່ໄປນີ້: \n"
+" %s"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"There is no rate available for the selected service level for one of your "
+"package. Please choose another service level."
+msgstr ""
+"ບໍ່ມີອັດຕາຄ່າບໍລິການສຳລັບລະດັບການບໍລິການທີ່ເລືອກໃນບາງຫີບຫໍ່ຂອງທ່ານ. ກະລຸນາເລືອກລະດັບການບໍລິການອື່ນ."
+
+#. module: delivery_easypost
+#: model:ir.model,name:delivery_easypost.model_stock_picking
+msgid "Transfer"
+msgstr "ການໂອນຍ້າຍ"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/delivery_carrier.py:0
+msgid "Unable to retrieve your default insurance rates."
+msgstr "ບໍ່ສາມາດດຶງຂໍ້ມູນອັດຕາປະກັນໄພເລີ່ມຕົ້ນຂອງທ່ານໄດ້."
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid "Unknown error"
+msgstr "ຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid "Unspecified field"
+msgstr "ຫ້ອງຂໍ້ມູນທີ່ບໍ່ໄດ້ລະບຸ"
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/delivery_carrier.py:0
+msgid "You can't cancel Easypost shipping."
+msgstr "ທ່ານບໍ່ສາມາດຍົກເລີກການຈັດສົ່ງຂອງ Easypost ໄດ້."
+
+#. module: delivery_easypost
+#. odoo-python
+#: code:addons/delivery_easypost/models/easypost_request.py:0
+msgid ""
+"You have no carrier linked to your Easypost Account.                Please "
+"connect to Easypost, link your account to carriers and then retry."
+msgstr ""
+"ທ່ານຍັງບໍ່ໄດ້ເຊື່ອມຕໍ່ຜູ້ຂົນສົ່ງກັບບັນຊີ Easypost ຂອງທ່ານ. ກະລຸນາເຊື່ອມຕໍ່ກັບ Easypost, ເຊື່ອມບັນຊີຂອງທ່ານ"
+"ກັບຜູ້ຂົນສົ່ງ ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+
+#. module: delivery_easypost
+#: model:ir.model.fields.selection,name:delivery_easypost.selection__delivery_carrier__easypost_label_file_type__zpl
+msgid "ZPL"
+msgstr "ZPL"
+
+#. module: delivery_easypost
+#: model_terms:ir.ui.view,arch_db:delivery_easypost.view_delivery_carrier_form_inherit_delivery_easypost
+msgid "to create a new account:"
+msgstr "ເພື່ອສ້າງບັນຊີໃໝ່:"

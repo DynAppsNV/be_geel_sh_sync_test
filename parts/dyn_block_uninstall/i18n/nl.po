@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dyn_block_uninstall
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-20 09:46+0000\n"
+"PO-Revision-Date: 2023-11-20 09:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dyn_block_uninstall
+#: model:ir.model.fields,help:dyn_block_uninstall.field_ir_module_module__dyn_required_dependency
+msgid ""
+"A (indirect) dependency is required or a required installed module needs "
+"this module."
+msgstr ""
+"Een (indirecte) afhankelijkheid is vereist of een vereiste geïnstalleerde "
+"module heeft deze module nodig."
+
+#. module: dyn_block_uninstall
+#: model:ir.model.fields,field_description:dyn_block_uninstall.field_ir_module_module__dyn_required
+msgid "Dyn Required"
+msgstr "Dyn Vereist"
+
+#. module: dyn_block_uninstall
+#: model:ir.model.fields,field_description:dyn_block_uninstall.field_ir_module_module__dyn_required_dependency
+msgid "Dyn Required Dependency"
+msgstr "Dyn Vereiste Afhankelijkheid"
+
+#. module: dyn_block_uninstall
+#: model:ir.model,name:dyn_block_uninstall.model_ir_module_module
+msgid "Module"
+msgstr ""
+
+#. module: dyn_block_uninstall
+#: model_terms:ir.ui.view,arch_db:dyn_block_uninstall.module_form
+msgid "Module required by Dynapps"
+msgstr "Module vereist door Dynapps"
+
+#. module: dyn_block_uninstall
+#. odoo-python
+#: code:addons/dyn_block_uninstall/models/ir_module.py:0
+#: code:addons/dyn_block_uninstall/models/ir_module.py:0
+#, python-format
+msgid "Uninstalling a Dynapps required module is not possible."
+msgstr "Deïnstalleren van een Dynapps vereiste module is niet mogelijk."

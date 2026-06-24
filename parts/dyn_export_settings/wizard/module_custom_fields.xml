@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="module_custom_fields_form" model="ir.ui.view">
+        <field name="name">module.custom.fields.form</field>
+        <field name="model">xx.module.custom.fields</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="module_id" />
+                        <field name="model_id" />
+                        <field name="field_ids">
+                            <list>
+                                <field name="name" />
+                            </list>
+                        </field>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="module_custom_fields_tree" model="ir.ui.view">
+        <field name="name">module.custom.fields.list</field>
+        <field name="model">xx.module.custom.fields</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="module_name" />
+                <field name="model_name" />
+                <field name="field_ids" widget="many2many_tags" />
+            </list>
+        </field>
+    </record>
+</odoo>

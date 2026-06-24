@@ -1,0 +1,293 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_winbooks_import
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_winbooks_import
+#: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
+#, fuzzy
+msgid ""
+"<span invisible=\"only_open\"/>\n"
+"                    <span class=\"text-warning mb4 mt16\" "
+"invisible=\"only_open\">\n"
+"                        The export of data from Winbooks for closed years "
+"might contain unbalanced entries. However if you want to try to import "
+"everything, Odoo will set the difference of balance in a Suspense Account.\n"
+"                    </span>"
+msgstr ""
+"<span invisible=\"only_open\"/> <span class=\"text-warning mb4 mt16\" "
+"invisible=\"only_open\"> Yopiq yillar uchun Winbooks'dan ma'lumotlarni "
+"eksport qilish muvozanatlashmagan yozuvlarni o‘z ichiga olishi mumkin. "
+"Biroq, agar siz barcha ma'lumotlarni import qilishga harakat qilmoqchi "
+"bo‘lsangiz, Odoo balans farqini Suspenziya hisobida o‘rnatadi. </span>"
+
+#. module: account_winbooks_import
+#: model:ir.model,name:account_winbooks_import.model_account_winbooks_import_wizard
+#, fuzzy
+msgid "Account Winbooks import wizard"
+msgstr "Winbooks hisobini import qilish yordamchisi"
+
+#. module: account_winbooks_import
+#: model:ir.model,name:account_winbooks_import.model_account_import_summary
+#, fuzzy
+msgid "Account import summary view"
+msgstr "Hisobni import qilish xulosasini ko‘rish"
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid "Accounting Settings"
+msgstr "Buxgalteriya sozlamalari"
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid ""
+"At least one automatic counterpart has been created at import. This is "
+"probably an error. Please check entry lines with reference: Counterpart "
+"(generated at import from Winbooks)"
+msgstr ""
+"Import paytida kamida bitta avtomatik qarshi tomonlama yozuv yaratilgan. Bu "
+"ehtimol xatolikdir. Iltimos, \"Qarshi tomonlama yozuv (Winbooks'dan import "
+"qilinganda yaratilgan)\" havolasi bilan kirish qatorlarini tekshiring"
+
+#. module: account_winbooks_import
+#: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
+#, fuzzy
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#. module: account_winbooks_import
+#: model:ir.model,name:account_winbooks_import.model_res_company
+#, fuzzy
+msgid "Companies"
+msgstr "Kompaniyalar"
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid "Company Settings"
+msgstr "Kompaniya sozlamalari"
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid "Counterpart (generated at import from Winbooks)"
+msgstr "Qarshi tomonlama yozuv (Winbooks'dan import qilinganda yaratilgan)"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_import_summary__display_name
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__display_name
+#: model:ir.model.fields,field_description:account_winbooks_import.field_res_company__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__zip_file
+#, fuzzy
+msgid "File"
+msgstr "Fayl"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_import_summary__id
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_move_line__id
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__id
+#: model:ir.model.fields,field_description:account_winbooks_import.field_res_company__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: account_winbooks_import
+#: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
+#, fuzzy
+msgid "Import"
+msgstr "Import qilish"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_import_summary__import_summary_analytic_ids
+#, fuzzy
+msgid "Import Summary Analytic"
+msgstr "Import qilish xulosasi tahlili"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_import_summary__import_summary_analytic_line_ids
+#, fuzzy
+msgid "Import Summary Analytic Line"
+msgstr "Import qilish xulosasi tahliliy qatori"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_import_summary__import_summary_len_analytic
+#, fuzzy
+msgid "Import Summary Len Analytic"
+msgstr "Import qilish xulosasi tahlili uzunligi"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_import_summary__import_summary_len_analytic_line
+#, fuzzy
+msgid "Import Summary Len Analytic Line"
+msgstr "Import qilish xulosasi tahliliy qatori uzunligi"
+
+#. module: account_winbooks_import
+#. odoo-javascript
+#: code:addons/account_winbooks_import/static/src/xml/account_winbooks_import.xml:0
+#, fuzzy
+msgid "Import WBK"
+msgstr "WBK import qilish"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__only_open
+#, fuzzy
+msgid "Import only open years"
+msgstr "Faqat ochiq yillarni import qilish"
+
+#. module: account_winbooks_import
+#: model:ir.model,name:account_winbooks_import.model_account_move_line
+#, fuzzy
+msgid "Journal Item"
+msgstr "Jurnal yozuvi"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,help:account_winbooks_import.field_account_move_line__winbooks_line_id
+#, fuzzy
+msgid "Line ID that was used in Winbooks"
+msgstr "Winbooks'da ishlatilgan qator ID'si"
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid ""
+"No data zip in the main archive. Please use the complete Winbooks export."
+msgstr ""
+"Asosiy arxivda zip ma'lumotlari yo‘q. Iltimos, to‘liq Winbooks eksportidan "
+"foydalaning."
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid "Please define the country on your company."
+msgstr "Iltimos, kompaniyangiz uchun mamlakatni belgilang."
+
+#. module: account_winbooks_import
+#: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
+#, fuzzy
+msgid "Stage Search"
+msgstr "Bosqich qidiruvi"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__suspense_code
+#, fuzzy
+msgid "Suspense Account Code"
+msgstr "Suspenziya hisobi kodi"
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid "The code for the Suspense Account you entered doesn't match any account"
+msgstr "Siz kiritgan Suspenziya hisobi kodi hech qanday hisobga mos kelmaydi"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,help:account_winbooks_import.field_account_winbooks_import_wizard__suspense_code
+#, fuzzy
+msgid ""
+"This is the code of the account in which you want to put the counterpart of "
+"unbalanced moves. This might be an account from your Winbooks data, or an "
+"account that you created in Odoo before the import."
+msgstr ""
+"Bu muvozanatlashmagan harakatlarning qarshi tomonini joylashtirmoqchi "
+"bo‘lgan hisobning kodi. Bu Winbooks ma'lumotlaringizdagi hisob yoki import "
+"qilishdan oldin Odoo‘da yaratgan hisobingiz bo‘lishi mumkin."
+
+#. module: account_winbooks_import
+#: model:ir.actions.act_window,name:account_winbooks_import.winbooks_import_action
+#, fuzzy
+msgid "Winbooks Import"
+msgstr "Winbooks importi"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,field_description:account_winbooks_import.field_account_move_line__winbooks_line_id
+#, fuzzy
+msgid "Winbooks Line"
+msgstr "Winbooks qatori"
+
+#. module: account_winbooks_import
+#: model:ir.model.fields,help:account_winbooks_import.field_account_winbooks_import_wizard__only_open
+#, fuzzy
+msgid ""
+"Years closed in Winbooks are likely to have incomplete data. The counter "
+"part of incomplete entries will be set in a suspense account"
+msgstr ""
+"Winbooks'da yopilgan yillar ma'lumotlari to‘liq bo‘lmasligi mumkin. To‘liq "
+"bo‘lmagan yozuvlarning qarshi tomoni suspenziya hisobida o‘rnatiladi"
+
+#. module: account_winbooks_import
+#. odoo-python
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, fuzzy
+msgid "You should install a Fiscal Localization first."
+msgstr "Avval moliyaviy mahalliylashtirish paketini o‘rnatishingiz kerak."
+
+#. module: account_winbooks_import
+#: model_terms:ir.ui.view,arch_db:account_winbooks_import.account_import_summary_form
+#, fuzzy
+msgid "account analytic lines imported"
+msgstr "ta hisob tahliliy qatori import qilindi"
+
+#. module: account_winbooks_import
+#: model_terms:ir.ui.view,arch_db:account_winbooks_import.account_import_summary_form
+#, fuzzy
+msgid "account analytics imported"
+msgstr "ta hisob tahlili import qilindi"

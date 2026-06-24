@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.ReceiptHeader" t-inherit-mode="extension">
+        <xpath expr="//span[hasclass('pos-receipt-vat')]" position="replace">
+            <t t-if="order.config.l10n_be_blackbox_be_id">
+                <span class="pos-receipt-vat pos-receipt-header">
+                    <t t-if="order.orderTypeBlackbox == 'PRO FORMA'">
+                        <bold>THIS IS NOT A VALID VAT TICKET</bold>
+                        <br/>
+                    </t>
+                    <span><bold><t t-esc="order.orderTypeStringBlackbox"/></bold></span>
+                    <span class="ms-1"><bold><t t-esc="order.pos_reference"/></bold></span>
+                </span>
+            </t>
+            <t t-else="">$0</t>
+        </xpath>
+
+        <xpath expr="//div[hasclass('cashier')]" position="before">
+            <t t-if="order.config.l10n_be_blackbox_be_id">
+                <t t-if="order.company.street" t-esc="order.company.street"/>
+            </t>
+        </xpath>
+    </t>
+    <t t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension">
+        <xpath expr="//OrderDisplay" position="attributes">
+            <attribute name="t-if" add="!props.empty_receipt" separator=" and "/>
+        </xpath>
+        <xpath expr="//div[hasclass('after-footer')]" position="after">
+            <t t-if="order.config.l10n_be_blackbox_be_id">
+                <br/>
+                <div class="blackbox-data" style="font-size: 75%;">
+                    <div>
+                        EST No: <t t-esc="order.config.establishment_number"/>
+                    </div>
+                    <div t-if="order.l10n_be_fdm_id">
+                        fdmId: <t t-esc="order.l10n_be_fdm_id"/>
+                    </div>
+                    <div t-if="order.l10n_be_pos_id">
+                        posId: <t t-esc="order.l10n_be_pos_id"/>
+                    </div>
+                    <div t-if="order.l10n_be_terminal_id">
+                        terminal: <t t-esc="order.l10n_be_terminal_id"/>
+                    </div>
+                    <div t-if="order.l10n_be_device_id">
+                        device: <t t-esc="order.l10n_be_device_id"/>
+                    </div>
+                    <div t-if="order.l10n_be_fdm_date_time">
+                        fdmDateTime: <t t-esc="order.l10n_be_fdm_date_time"/>
+                    </div>
+                    <div t-if="order.l10n_be_event_label">
+                        eventLabel: <t t-esc="order.l10n_be_event_label"/>
+                    </div>
+                    <div t-if="order.l10n_be_event_counter">
+                        eventCounter: <t t-esc="order.l10n_be_event_counter"/>
+                    </div>
+                    <div t-if="order.l10n_be_total_counter">
+                        totalCounter: <t t-esc="order.l10n_be_total_counter"/>
+                    </div>
+                    <div t-if="order.l10n_be_short_signature">
+                        shortSignature: <t t-esc="order.l10n_be_short_signature"/>
+                    </div>
+                    <div t-if="order.l10n_be_verification_url">
+                        <div>Verification QR code:</div>
+                        <img t-att-src="verificationUrlQrCode"/>
+                    </div>
+                    <div t-if="order.refunded_order_id">
+                        <br/>
+                        <div>
+                            Refund of ticket: <t t-esc="order.refunded_order_id.pos_reference"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_fdm_id">
+                            fdmId: <t t-esc="order.refunded_order_id.l10n_be_fdm_id"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_pos_id">
+                            posIdentifier: <t t-esc="order.refunded_order_id.l10n_be_pos_id"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_terminal_id">
+                            terminal: <t t-esc="order.refunded_order_id.l10n_be_terminal_id"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_device_id">
+                            device: <t t-esc="order.refunded_order_id.l10n_be_device_id"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_fdm_date_time">
+                            fdmDateTime: <t t-esc="order.refunded_order_id.l10n_be_fdm_date_time"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_event_label">
+                            eventLabel: <t t-esc="order.refunded_order_id.l10n_be_event_label"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_event_counter">
+                            eventCounter: <t t-esc="order.refunded_order_id.l10n_be_event_counter"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_total_counter">
+                            totalCounter: <t t-esc="order.refunded_order_id.l10n_be_total_counter"/>
+                        </div>
+                        <div t-if="order.refunded_order_id.l10n_be_short_signature">
+                            shortSignature: <t t-esc="order.refunded_order_id.l10n_be_short_signature"/>
+                        </div>
+                    </div>
+                    <div t-if="order.uiState['COPY'] and order.uiState['COPY'] !== {}">
+                        <t t-set="copyFdmRef" t-value="order.uiState['COPY']" />
+                        <br/>
+                        <div t-if="copyFdmRef.l10n_be_fdm_date_time">
+                            Copy made on : <t t-esc="copyFdmRef.l10n_be_fdm_date_time"/>
+                        </div>
+                        <div t-if="copyFdmRef.l10n_be_fdm_id">
+                            fdmId: <t t-esc="copyFdmRef.l10n_be_fdm_id"/>
+                        </div>
+                        <div t-if="copyFdmRef.l10n_be_event_label">
+                            eventLabel: <t t-esc="copyFdmRef.l10n_be_event_label"/>
+                        </div>
+                        <div t-if="copyFdmRef.l10n_be_event_counter">
+                            eventCounter: <t t-esc="copyFdmRef.l10n_be_event_counter"/>
+                        </div>
+                        <div t-if="copyFdmRef.l10n_be_total_counter">
+                            totalCounter: <t t-esc="copyFdmRef.l10n_be_total_counter"/>
+                        </div>
+                    </div>
+                    <div t-if="order.uiState['PRE_BILL'] and order.uiState['PRE_BILL'] !== {}">
+                        <t t-set="preBillFdmRef" t-value="order.uiState['PRE_BILL']" />
+                        <br/>
+                        <div t-if="preBillFdmRef.l10n_be_fdm_date_time">
+                            Pre-bill made on : <t t-esc="preBillFdmRef.l10n_be_fdm_date_time"/>
+                        </div>
+                        <div t-if="preBillFdmRef.l10n_be_fdm_id">
+                            fdmId: <t t-esc="preBillFdmRef.l10n_be_fdm_id"/>
+                        </div>
+                        <div t-if="preBillFdmRef.l10n_be_event_label">
+                            eventLabel: <t t-esc="preBillFdmRef.l10n_be_event_label"/>
+                        </div>
+                        <div t-if="preBillFdmRef.l10n_be_event_counter">
+                            eventCounter: <t t-esc="preBillFdmRef.l10n_be_event_counter"/>
+                        </div>
+                        <div t-if="preBillFdmRef.l10n_be_total_counter">
+                            totalCounter: <t t-esc="preBillFdmRef.l10n_be_total_counter"/>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+        <xpath expr="//Orderline" position="inside">
+            <t t-if="order.config.l10n_be_blackbox_be_id and line.discount and line.discount !== '0'">
+                <div>
+                    Old unit price:
+                    <span><s><t t-esc="env.utils.formatCurrency(line.displayPriceNoDiscount, line.currency)" /> / Units</s></span>
+                </div>
+            </t>
+        </xpath>
+        <xpath expr="//div[hasclass('restaurant-pro-forma-receipt')]" position="attributes">
+            <attribute name="t-if" add="!order.config.l10n_be_blackbox_be_id" separator=" and " />
+        </xpath>
+        <!-- When using blackbox, we must display the taxes calculated by the signSale on the receipt-->
+        <xpath expr="//div[hasclass('pos-receipt-taxes')]" position="replace">
+            <t t-if="order.config.l10n_be_blackbox_be_id">
+            </t>
+            <t t-else="">$0</t>
+        </xpath>
+        <xpath expr="//div[hasclass('receipt-total')]" position="before">
+            <t t-if="props.empty_receipt">
+                <div class="text-center fw-bolder pt-2">Canceled order</div>
+            </t>
+        </xpath>
+        <xpath expr="//div[hasclass('receipt-total')]//span[hasclass('pos-receipt-right-align')]" position="replace">
+            <span t-if="props.empty_receipt" t-out="formatCurrency(0)" class="pos-receipt-right-align font-monospace"/>
+            <t t-else="">$0</t>
+        </xpath>
+        <xpath expr="//div[hasclass('pos-receipt-qr')]" position="before">
+            <t t-if="order.config.l10n_be_blackbox_be_id and order.l10n_be_vat_calc">
+                <table class="l10n_be_vat_table table table-sm table-borderless mx-auto mt-2 mb-0 w-100" style="font-size: 80%;">
+                    <thead>
+                        <tr>
+                            <th class="fw-bolder py-1">TVA%</th>
+                            <th class="fw-bolder py-1 text-end">TVA</th>
+                            <th class="fw-bolder py-1 text-end">Excl.</th>
+                            <th class="fw-bolder py-1 text-end">Incl.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="order.l10n_be_vat_calc" t-as="tax" t-key="tax.rate">
+                            <tr>
+                                <td class="py-1">
+                                    <t t-esc="tax['rate']"/>%(<t t-esc="tax['label']"/>)
+                                </td>
+                                <td class="py-1 text-end font-monospace">
+                                    <t t-esc="tax['vatAmount']"/>
+                                </td>
+                                <td class="py-1 text-end font-monospace">
+                                    <t t-esc="tax['taxableAmount']"/>
+                                </td>
+                                <td class="py-1 text-end font-monospace">
+                                    <t t-esc="tax['totalAmount']"/>
+                                </td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+            </t>
+        </xpath>
+        <xpath expr="//div[hasclass('footer-powered-by')]" position="before">
+            <t t-if="order.config.l10n_be_blackbox_be_id and order.l10n_be_footer">
+                <t t-foreach="order.l10n_be_footer" t-as="footerLine" t-key="footerLine">
+                    <div t-esc="footerLine" class="text-center pos-receipt-order-data" />
+                </t>
+            </t>
+        </xpath>
+    </t>
+</templates>

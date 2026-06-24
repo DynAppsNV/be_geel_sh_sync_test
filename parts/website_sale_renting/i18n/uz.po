@@ -1,0 +1,684 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_sale_renting
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-15 17:46+0000\n"
+"PO-Revision-Date: 2025-10-08 18:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid ""
+"\n"
+"                Your rental duration was too short. Unfortunately, we do not "
+"process\n"
+"                rentals that last less than %(duration)s %(unit)s.\n"
+"            "
+msgstr ""
+"Ijara muddatingiz juda qisqa edi. Afsuski, biz %(duration)s %(unit)s dan kam "
+"davom etadigan ijaralarni qabul qilmaymiz."
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid ""
+"\n"
+"                Your rental product had invalid date of pickup (%"
+"(start_date)s).\n"
+"                Unfortunately, we do not process pickups on that weekday.\n"
+"            "
+msgstr ""
+"Ijara mahsulotingizning olib ketish sanasi (%(start_date)s) noto‘g‘ri. "
+"Afsuski, biz bu hafta kunida olib ketishlarni amalga oshirmaymiz."
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid ""
+"\n"
+"                Your rental product had invalid date of return (%"
+"(end_date)s).\n"
+"                Unfortunately, we do not process returns on that weekday.\n"
+"            "
+msgstr ""
+"Ijara mahsulotingizning qaytarish sanasi (%(end_date)s) noto‘g‘ri. Afsuski, "
+"biz bu hafta kunida qaytarishlarni qabul qilmaymiz."
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid ""
+"\n"
+"                Your rental product had invalid dates of pickup (%"
+"(start_date)s) and\n"
+"                return (%(end_date)s). Unfortunately, we do not process "
+"pickups nor\n"
+"                returns on those weekdays.\n"
+"            "
+msgstr ""
+"Ijara mahsulotingizning olib ketish (%(start_date)s) va qaytarish (%"
+"(end_date)s) sanalari noto‘g‘ri. Afsuski, biz bu hafta kunlarida na olib "
+"ketish, na qaytarishni amalga oshirmaymiz."
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid ""
+"\n"
+"            Some of your rental products (%(product)s) cannot be rented "
+"during the\n"
+"            selected period and your cart must be updated. We're sorry for "
+"the\n"
+"            inconvenience.\n"
+"        "
+msgstr ""
+"Ba'zi ijara mahsulotlaringiz (%(product)s) tanlangan muddat davomida ijaraga "
+"berilmaydi va savatchangiz yangilanishi kerak. Noqulaylik uchun uzr "
+"so‘raymiz."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "(%s days)."
+msgstr "(%s kun)."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "(%s hours)."
+msgstr "(%s soat)."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "(%s months)."
+msgstr "(%s oy)."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "(%s weeks)."
+msgstr "(%s hafta)."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+msgid "- From %(startPeriod)s to %(endPeriod)s.\n"
+msgstr ""
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.o_wsale_offcanvas
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.products
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.products_collapsible
+#, fuzzy
+msgid "<b>Rental Period</b>"
+msgstr "<b>Ijara muddati</b>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_product
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/>\n"
+"                            <span name=\"renting_warning_message\"/>"
+msgstr ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/> <span "
+"name=\"renting_warning_message\"/>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.cart
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/>\n"
+"                        <span name=\"renting_warning_message\"/>"
+msgstr ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/> <span "
+"name=\"renting_warning_message\"/>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.s_rental_search
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/>\n"
+"                    <span name=\"renting_warning_message\"/>"
+msgstr ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/> <span "
+"name=\"renting_warning_message\"/>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.datepicker
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/>\n"
+"                <span name=\"renting_warning_message\"/>"
+msgstr ""
+"<i class=\"fa fa-warning\" role=\"img\" aria-label=\"Warning\"/> <span "
+"name=\"renting_warning_message\"/>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.o_wsale_offcanvas
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.products
+#, fuzzy
+msgid ""
+"<small class=\"mx-auto\"><b>Clear Rental Period</b></small>\n"
+"                                <i class=\"oi oi-close\" role=\"img\"/>"
+msgstr ""
+"<small class=\"mx-auto\"><b>Ijara muddatini tozalash</b></small> <i "
+"class=\"oi oi-close\" role=\"img\"/>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_search_result_price
+#, fuzzy
+msgid "<small>from</small>"
+msgstr "<small>dan</small>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_search_result_price
+#, fuzzy
+msgid "<small>per</small>"
+msgstr "<small>uchun</small>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.s_rental_search
+#, fuzzy
+msgid ""
+"<span class=\"d-md-none me-2\">Search period</span>\n"
+"                                <i class=\"oi oi-search\" role=\"img\"/>"
+msgstr ""
+"<span class=\"d-md-none me-2\">Qidiruv muddati</span> <i class=\"oi oi-"
+"search\" role=\"img\"/>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.suggested_products_list
+#, fuzzy
+msgid "<span class=\"ps-1\">per</span>"
+msgstr "<span class=\"ps-1\">uchun</span>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.price_dynamic_filter_template_product_product
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_products_price
+#, fuzzy
+msgid "<span>/</span>"
+msgstr "<span>/</span>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.products_item
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_products_price
+#, fuzzy
+msgid "<span>per</span>"
+msgstr "<span>uchun</span>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_product
+#, fuzzy
+msgid "<strong class=\"attribute_name\">Pricing</strong>"
+msgstr "<strong class=\"attribute_name\">Narxlash</strong>"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_product
+#, fuzzy
+msgid "<strong>Rental Period</strong>"
+msgstr "<strong>Ijara muddati</strong>"
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/plugins/rental_search_option_plugin.js:0
+#, fuzzy
+msgid "All"
+msgstr "Barchasi"
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/plugins/rental_search_option.xml:0
+#, fuzzy
+msgid "Attribute Filter"
+msgstr "Atribut filtri"
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_res_company
+#, fuzzy
+msgid "Companies"
+msgstr "Kompaniyalar"
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_res_config_settings
+#, fuzzy
+msgid "Config Settings"
+msgstr "Sozlamalarni moslash"
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/plugins/rental_search_option.xml:0
+#, fuzzy
+msgid "Day"
+msgstr "Kun"
+
+#. module: website_sale_renting
+#: model:ir.model.fields.selection,name:website_sale_renting.selection__res_company__renting_minimal_time_unit__day
+#, fuzzy
+msgid "Days"
+msgstr "Kunlar"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.res_config_settings_view_form
+#, fuzzy
+msgid "Days during which pickup and return are not possible."
+msgstr "Olib ketish va qaytarish mumkin bo‘lmagan kunlar."
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_pricelist__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_pricing__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_product__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_template__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_sale_order__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:website_sale_renting.field_website__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.cart
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.datepicker
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_product
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.s_rental_search
+#, fuzzy
+msgid "End date"
+msgstr "Tugash sanasi"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_forbidden_fri
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_forbidden_fri
+#, fuzzy
+msgid "Friday"
+msgstr "Juma"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.price_dynamic_filter_template_product_product
+#, fuzzy
+msgid "From"
+msgstr "Boshlanish"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.o_wsale_offcanvas
+#, fuzzy
+msgid "Go to your cart"
+msgstr "Savatchangizga o‘ting"
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/plugins/rental_search_option.xml:0
+#, fuzzy
+msgid "Hour"
+msgstr "Soat"
+
+#. module: website_sale_renting
+#: model:ir.model.fields.selection,name:website_sale_renting.selection__res_company__renting_minimal_time_unit__hour
+#, fuzzy
+msgid "Hours"
+msgstr "Soat"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_pricelist__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_pricing__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_product__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_product_template__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_sale_order__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_sale_order_line__id
+#: model:ir.model.fields,field_description:website_sale_renting.field_website__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_minimal_time_duration
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_minimal_time_duration
+#, fuzzy
+msgid "Minimal Rental Duration"
+msgstr "Minimal ijara muddati"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_minimal_time_unit
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_minimal_time_unit
+#, fuzzy
+msgid "Minimal Rental Duration Unit"
+msgstr "Minimal ijara muddati birligi"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.res_config_settings_view_form
+#, fuzzy
+msgid "Minimal duration between pickup and return."
+msgstr "Olib ketish va qaytarish orasidagi minimal muddat."
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.res_config_settings_view_form
+#, fuzzy
+msgid "Minimal time of rental"
+msgstr "Ijaraning minimal muddati"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_forbidden_mon
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_forbidden_mon
+#, fuzzy
+msgid "Monday"
+msgstr "Dushanba"
+
+#. module: website_sale_renting
+#: model:ir.model.fields.selection,name:website_sale_renting.selection__res_company__renting_minimal_time_unit__month
+#, fuzzy
+msgid "Months"
+msgstr "Oylar"
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+msgid "No dates were specified on your rental order."
+msgstr ""
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/product_template.py:0
+#, fuzzy
+msgid "Please choose a return date that is after the pickup date."
+msgstr "Iltimos, qaytarish sanasini olib ketish sanasidan keyin tanlang."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "Please select a rental period."
+msgstr "Iltimos, ijara muddatini tanlang."
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_product_pricelist
+#, fuzzy
+msgid "Pricelist"
+msgstr "Narxlar ro‘yxati"
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_product_pricing
+msgid "Pricing rule of rental products"
+msgstr ""
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_product_template
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_product_product
+#, fuzzy
+msgid "Product Variant"
+msgstr "Mahsulot varianti"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.res_config_settings_view_form
+#, fuzzy
+msgid "Rent Online"
+msgstr "Onlayn ijara"
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/plugins/product_page_list_option.xml:0
+#, fuzzy
+msgid "Rental Date"
+msgstr "Ijara sanasi"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.cart_summary_total
+#, fuzzy
+msgid "Rental Period"
+msgstr "Ijara muddati"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.accordion_rental_item
+#, fuzzy
+msgid "Rental Pricing"
+msgstr "Ijara narxlari"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.snippets
+#, fuzzy
+msgid "Rental Search"
+msgstr "Ijara qidiruvi"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.cart
+#, fuzzy
+msgid "Rental period"
+msgstr "Ijara muddati"
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_sale_order
+#, fuzzy
+msgid "Sales Order"
+msgstr "Sotish buyurtmasi"
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_sale_order_line
+#, fuzzy
+msgid "Sales Order Line"
+msgstr "Sotish buyurtmasi qatori"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_forbidden_sat
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_forbidden_sat
+#, fuzzy
+msgid "Saturday"
+msgstr "Shanba"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,help:website_sale_renting.field_res_config_settings__tz
+#: model:ir.model.fields,help:website_sale_renting.field_website__tz
+#, fuzzy
+msgid "Select your website timezone here."
+msgstr "Veb-saytingiz vaqt mintaqasini shu yerda tanlang."
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid ""
+"Some of your rental products cannot be rented during the selected period and "
+"your cart must be updated. We're sorry for the inconvenience."
+msgstr ""
+"Ayrim ijara mahsulotlaringizni tanlangan muddat davomida ijaraga olish "
+"imkonsiz va savatchangiz yangilanishi kerak. Noqulaylik uchun uzr so‘raymiz."
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.cart
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.datepicker
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_product
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.s_rental_search
+#, fuzzy
+msgid "Start date"
+msgstr "Boshlanish sanasi"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_forbidden_sun
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_forbidden_sun
+#, fuzzy
+msgid "Sunday"
+msgstr "Yakshanba"
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid ""
+"The new period is not valid for some products of your cart. Your changes on "
+"the rental period are not taken into account."
+msgstr ""
+"Yangi muddat savatingizdagi ba'zi mahsulotlar uchun amal qilmaydi. Ijara "
+"muddati bo‘yicha o‘zgartirishlaringiz hisobga olinmaydi."
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.o_wsale_offcanvas
+#, fuzzy
+msgid "The period must be the same for all the products in your cart."
+msgstr "Muddat savatingizdagi barcha mahsulotlar uchun bir xil bo‘lishi kerak."
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.products
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.rental_product
+#, fuzzy
+msgid ""
+"The period must be the same for all the products in your cart. Go to your "
+"cart to change it or create different orders."
+msgstr ""
+"Muddat savatingizdagi barcha mahsulotlar uchun bir xil bo‘lishi kerak. Uni "
+"o‘zgartirish yoki boshqa buyurtmalar yaratish uchun savatingizga o‘ting."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "The pickup date cannot be in the past."
+msgstr "Olib ketish sanasi o‘tmishda bo‘lishi mumkin emas."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+msgid "The product is not available for the following time period(s):\n"
+msgstr ""
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "The rental lasts less than the minimal rental duration %s"
+msgstr "Ijara minimal ijara muddati %s dan qisqaroq"
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "The return date should be after the pickup date."
+msgstr "Qaytarish sanasi olib ketish sanasidan keyin bo‘lishi kerak."
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_forbidden_thu
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_forbidden_thu
+#, fuzzy
+msgid "Thursday"
+msgstr "Payshanba"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__tz
+#: model:ir.model.fields,field_description:website_sale_renting.field_website__tz
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.res_config_settings_view_form_inherit_website
+#, fuzzy
+msgid "Timezone"
+msgstr "Vaqt mintaqasi"
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/plugins/rental_search_option.xml:0
+#, fuzzy
+msgid "Timing"
+msgstr "Vaqt"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_forbidden_tue
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_forbidden_tue
+#, fuzzy
+msgid "Tuesday"
+msgstr "Seshanba"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.res_config_settings_view_form
+#, fuzzy
+msgid "Unavailability days"
+msgstr "Mavjud bo‘lmagan kunlar"
+
+#. module: website_sale_renting
+#: model:ir.model,name:website_sale_renting.model_website
+#, fuzzy
+msgid "Website"
+msgstr "Veb-sayt"
+
+#. module: website_sale_renting
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_company__renting_forbidden_wed
+#: model:ir.model.fields,field_description:website_sale_renting.field_res_config_settings__renting_forbidden_wed
+#, fuzzy
+msgid "Wednesday"
+msgstr "Chorshanba"
+
+#. module: website_sale_renting
+#: model:ir.model.fields.selection,name:website_sale_renting.selection__res_company__renting_minimal_time_unit__week
+#, fuzzy
+msgid "Weeks"
+msgstr "Haftalar"
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid "You cannot mix different rental periods in the same order."
+msgstr "Bir xil buyurtmada turli ijara muddatlarini aralashtirib bo‘lmaydi."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "You cannot pick up your rental on that day of the week."
+msgstr "Haftaning bu kunida ijarangizni olib ketolmaysiz."
+
+#. module: website_sale_renting
+#. odoo-javascript
+#: code:addons/website_sale_renting/static/src/js/renting_mixin.js:0
+#, fuzzy
+msgid "You cannot return your rental on that day of the week."
+msgstr "Haftaning bu kunida ijarangizni qaytara olmaysiz."
+
+#. module: website_sale_renting
+#. odoo-python
+#: code:addons/website_sale_renting/models/sale_order.py:0
+#, fuzzy
+msgid "Your rental product cannot be pickedup in the past."
+msgstr "Ijara mahsulotingizni o‘tmishda olib ketish mumkin emas."
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.products_item
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.suggested_products_list
+#, fuzzy
+msgid "from"
+msgstr "dan"
+
+#. module: website_sale_renting
+#: model_terms:ir.ui.view,arch_db:website_sale_renting.o_wsale_offcanvas
+#, fuzzy
+msgid "to change it or create different orders."
+msgstr "uni o‘zgartirish yoki boshqa buyurtmalar yaratish uchun."

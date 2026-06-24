@@ -1,0 +1,311 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * industry_fsm_stock
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:45+0000\n"
+"PO-Revision-Date: 2026-06-13 10:44+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"industry_fsm_stock/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_task_form2_inherit
+#, fuzzy
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                            to Pick up\n"
+"                        </span>"
+msgstr ""
+"<span class=\"o_stat_text\">\n"
+"                            ລໍຖ້າຮັບ\n"
+"                        </span>"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_task_form2_inherit
+#, fuzzy
+msgid "<span>Products</span>"
+msgstr "<span>ສິນຄ້າ</span>"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/product.py:0
+#, fuzzy
+msgid ""
+"Adding or updating this product is restricted due to its tracked status. "
+"Your current access rights do not allow you to perform these actions. Please"
+" contact your administrator to request the necessary permissions."
+msgstr ""
+"ການເພີ່ມ ຫຼື ອັບເດດສິນຄ້ານີ້ຖືກຈຳກັດເນື່ອງຈາກສະຖານະການຕິດຕາມຂອງມັນ. ສິດການເຂົ້າເຖິງປັດຈຸບັນຂອງທ່ານບໍ່ອ"
+"ະນຸຍາດໃຫ້ດຳເນີນການເຫຼົ່ານີ້ໄດ້. ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານເພື່ອຂໍສິດທີ່ຈຳເປັນ."
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Already Delivered"
+msgstr "ສົ່ງແລ້ວ"
+
+#. module: industry_fsm_stock
+#: model:ir.model,website_form_label:industry_fsm_stock.model_project_task
+#, fuzzy
+msgid "Create a Task"
+msgstr "ສ້າງວຽກ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__create_uid
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__create_date
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_product_product__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_stock_move__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/wizard/fsm_stock_tracking.py:0
+#, fuzzy
+msgid "Each line needs a Lot/Serial Number"
+msgstr "ແຕ່ລະແຖວຕ້ອງມີ ເລກລັອດ/ເລກຊີຣີ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,help:industry_fsm_stock.field_fsm_stock_tracking__tracking
+#, fuzzy
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "ຮັບປະກັນການຕິດຕາມຍ້ອນກັບຂອງສິນຄ້າທີ່ເກັບໄວ້ໃນສາງຂອງທ່ານ."
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order_line__fsm_lot_id
+#, fuzzy
+msgid "Fsm Lot"
+msgstr "ລັອດ FSM"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_product_product__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order_line__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_stock_move__id
+#, fuzzy
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__write_uid
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__write_date
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_fsm_stock_tracking_line
+#, fuzzy
+msgid "Lines for FSM Stock Tracking"
+msgstr "ລາຍການສຳລັບການຕິດຕາມສາງ FSM"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__lot_id
+#, fuzzy
+msgid "Lot/Serial Number"
+msgstr "ເລກ ລັອດ/ຊີຣຽວ"
+
+#. module: industry_fsm_stock
+#. odoo-javascript
+#: code:addons/industry_fsm_stock/static/src/js/product_catalog/sale_order_line/sale_order_line.xml:0
+#, fuzzy
+msgid "Lot/Serial number"
+msgstr "ເລກລັອດ/ເລກຊີຣຽວ"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/project_task.py:0
+#, fuzzy
+msgid "Pick Up Material"
+msgstr "ຮັບອຸປະກອນ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__product_id
+#, fuzzy
+msgid "Product"
+msgstr "ສິນຄ້າ"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_product_product
+#, fuzzy
+msgid "Product Variant"
+msgstr "ສິນຄ້າທີ່ແຕກຕ່າງ"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_task_form2_inherit
+#, fuzzy
+msgid "Products"
+msgstr "ສິນຄ້າ"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_project_project
+#, fuzzy
+msgid "Project"
+msgstr "ໂຄງການ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__quantity
+#, fuzzy
+msgid "Quantity"
+msgstr "ຈຳນວນ"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_move_kanban_picking_redirect
+#, fuzzy
+msgid "Quantity:"
+msgstr "ຈຳນວນ:"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_sale_order
+#, fuzzy
+msgid "Sales Order"
+msgstr "ໃບສັ່ງຊື້"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_sale_order_line
+#, fuzzy
+msgid "Sales Order Line"
+msgstr "ລາຍການສິນຄ້າທີ່ສັ່ງຊື້"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_move_kanban_picking_redirect
+#, fuzzy
+msgid "Source Location:"
+msgstr "ບ່ອນເກັບຕົ້ນທາງ:"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_stock_move
+#, fuzzy
+msgid "Stock Move"
+msgstr "ການເຄື່ອນຍ້າຍສະຕັອກ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_task__stock_move_customer_product_count
+#, fuzzy
+msgid "Stock Move Customer Product Count"
+msgstr "ຈຳນວນການເຄື່ອນຍ້າຍສາງສິນຄ້າລູກຄ້າ"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_project_task
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__task_id
+#, fuzzy
+msgid "Task"
+msgstr "ໜ້າວຽກ"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/product.py:0
+#, fuzzy
+msgid ""
+"The ordered quantity cannot be decreased below the amount already delivered."
+" Instead, create a return in your inventory."
+msgstr ""
+"ຈຳນວນທີ່ສັ່ງຊື້ບໍ່ສາມາດຫຼຸດລົງຕ່ຳກວ່າຈຳນວນທີ່ໄດ້ສົ່ງມອບແລ້ວ. ໃຫ້ສ້າງການສົ່ງຄືນໃນສາງສິນຄ້າຂອງທ່ານແທນ."
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_fsm_stock_tracking
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_line_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Track Stock"
+msgstr "ຕິດຕາມສາງ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__tracking
+#, fuzzy
+msgid "Tracking"
+msgstr "ການຕິດຕາມ"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,help:industry_fsm_stock.field_project_task__display_name
+#, fuzzy
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a medium priority\n"
+"        !! Set the task a high priority\n"
+"        !!! Set the task a urgent priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"ໃຊ້ຄຳສຳຄັນເຫຼົ່ານີ້ໃນຫົວຂໍ້ເພື່ອຕັ້ງຄ່າວຽກໃໝ່:\n"
+"\n"
+"        30h ຈັດສັນ 30 ຊົ່ວໂມງໃຫ້ກັບວຽກ\n"
+"        #tags ຕັ້ງແທັກໃນວຽກ\n"
+"        @user ມອບໝາຍວຽກໃຫ້ກັບຜູ້ໃຊ້\n"
+"        ! ຕັ້ງຄ່າວຽກໃຫ້ມີຄວາມສຳຄັນລະດັບກາງ\n"
+"        !! ຕັ້ງຄ່າວຽກໃຫ້ມີຄວາມສຳຄັນລະດັບສູງ\n"
+"        !!! ຕັ້ງຄ່າວຽກໃຫ້ມີຄວາມສຳຄັນລະດັບດ່ວນ\n"
+"\n"
+"        ໃຫ້ແນ່ໃຈວ່າໃຊ້ຮູບແບບ ແລະ ລຳດັບທີ່ຖືກຕ້ອງ ເຊັ່ນ: ປັບປຸງໜ້າຈໍການຕັ້ງຄ່າ 5h #feature #v16 "
+"@Mitchell !"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Validate"
+msgstr "ກວດສອບຄວາມຖືກຕ້ອງ"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/product.py:0
+#, fuzzy
+msgid "Validate Lot/Serial Number"
+msgstr "ກວດສອບເລກລັອດ/ເລກຊີຣີ"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/project_task.py:0
+#, fuzzy
+msgid "id"
+msgstr "ໄອດີ (ID)"

@@ -1,0 +1,535 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * theme_buzzy
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-17 17:38+0000\n"
+"PO-Revision-Date: 2026-06-13 19:40+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/theme_buzzy/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_empowerment
+msgid "<br/>Driving innovation and excellence in every partnership.<br/><br/>"
+msgstr "<br/>ຂັບເຄື່ອນນະວັດຕະກຳ ແລະ ຄວາມເປັນເລີດໃນທຸກໆການຮ່ວມມື.<br/><br/>"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_empowerment
+msgid ""
+"<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/>  Industry "
+"Leaders"
+msgstr ""
+"<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/"
+">  ຜູ້ນຳໃນອຸດສາຫະກຳ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_discovery
+msgid "<span style=\"font-weight: normal;\">Discover our solutions</span>"
+msgstr "<span style=\"font-weight: normal;\">ຄົ້ນຫາວິທີການແກ້ໄຂຂອງພວກເຮົາ</span>"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_benefits
+msgid ""
+"<span style=\"font-weight: normal;\">Discover our</span><br/><span "
+"style=\"font-weight: normal;\">main <span class=\"o_text_highlight "
+"o_translate_inline o_text_highlight_bold_2 o_text_highlight_fill\">three "
+"benefits</span></span>"
+msgstr ""
+"<span style=\"font-weight: normal;\">ຄົ້ນຫາ</span><br/><span style=\"font-"
+"weight: normal;\">ສາມ <span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_bold_2 o_text_highlight_fill\">ຜົນປະໂຫຍດຫຼັກ</span> ຂອງພວກເຮົາ</"
+"span>"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_image_text
+msgid "A new open world"
+msgstr "ໂລກໃໝ່ທີ່ເປີດກວ້າງ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_empowerment
+msgid "About us"
+msgstr "ກ່ຽວກັບພວກເຮົາ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_three_columns
+msgid "All data <br/>in your hands"
+msgstr "ທຸກຂໍ້ມູນ <br/>ຢູ່ໃນມືຂອງທ່ານ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_benefits
+msgid ""
+"Benefit from unique collaborations and partnerships that give your business "
+"a competitive edge in the market."
+msgstr ""
+"ໄດ້ຮັບຜົນປະໂຫຍດຈາກການຮ່ວມມືທີ່ໂດດເດັ່ນ ເຊິ່ງຈະຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານມີທ່າແຮງໃນການແຂ່ງຂັນໃນຕະຫຼາດ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_cover
+msgid ""
+"Bring the best for your team, start the journey with our amazing tools <br/"
+">and collaborate no matter where you are."
+msgstr ""
+"ມອບສິ່ງທີ່ດີທີ່ສຸດໃຫ້ກັບທີມງານຂອງທ່ານ, ເລີ່ມຕົ້ນການເດີນທາງດ້ວຍເຄື່ອງມືທີ່ຍອດຢ້ຽມ <br/>ແລະ "
+"ເຮັດວຽກຮ່ວມກັນໄດ້ບໍ່ວ່າທ່ານຈະຢູ່ໃສ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_three_columns
+msgid "Built to <br/>your effigy"
+msgstr "ສ້າງຂຶ້ນ <br/>ຕາມແບບຂອງທ່ານ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Business Strategy Consulting"
+msgstr "ການໃຫ້ຄຳປຶກສາດ້ານກົນລະຍຸດທຸລະກິດ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Cloud Computing Solutions"
+msgstr "ວິທີການແກ້ໄຂດ້ານຄລາວຄອມພິວຕິງ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid ""
+"Comprehensive financial planning, including risk assessment, investment "
+"strategy, and tax optimization for your business."
+msgstr ""
+"ການວາງແຜນການເງິນແບບຮອບດ້ານ, ລວມທັງການປະເມີນຄວາມສ່ຽງ, ກົນລະຍຸດການລົງທຶນ ແລະ "
+"ການບໍລິຫານພາສີສຳລັບທຸລະກິດຂອງທ່ານ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid ""
+"Customized HR solutions, including talent acquisition, employee training, "
+"and performance management to boost productivity."
+msgstr ""
+"ວິທີການແກ້ໄຂດ້ານບຸກຄະລາກອນທີ່ປັບແຕ່ງໄດ້, ລວມທັງການຈັດຫາບຸກຄະລາກອນ, ການຝຶກອົບຮົມພະນັກງານ ແລະ "
+"ການບໍລິຫານຜົນງານເພື່ອເພີ່ມປະສິດທິພາບ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_images
+msgid "Customized solutions for your business needs"
+msgstr "ວິທີການແກ້ໄຂທີ່ປັບແຕ່ງຕາມຄວາມຕ້ອງການຂອງທຸລະກິດທ່ານ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_image_punchy
+msgid "DRIVING INNOVATION"
+msgstr "ຂັບເຄື່ອນນະວັດຕະກຳ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_benefits
+msgid "Dedicated Support"
+msgstr "ການຊ່ວຍເຫຼືອທີ່ເອົາໃຈໃສ່"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Digital Marketing Services"
+msgstr "ບໍລິການການຕະຫຼາດດິຈິຕອນ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_freegrid
+msgid "Discover Services"
+msgstr "ຄົ້ນຫາບໍລິການ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_cta_box
+msgid "Discover our<br/>different open-spaces"
+msgstr "ຄົ້ນຫາ <br/>ພື້ນທີ່ເຮັດວຽກແບບເປີດຂອງພວກເຮົາ"
+
+#. module: theme_buzzy
+#: model:ir.model.fields,field_description:theme_buzzy.field_theme_utils__display_name
+msgid "Display Name"
+msgstr "ຊື່ສະແດງ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_three_columns
+msgid ""
+"Don't miss any data anymore and get all reports you need when and where you "
+"want. Analyze them easily with our friendly interface and grow your activity."
+msgstr ""
+"ບໍ່ພາດຂໍ້ມູນໃດໆອີກຕໍ່ໄປ ແລະ ຮັບທຸກລາຍງານທີ່ທ່ານຕ້ອງການໄດ້ທຸກເວລາ ແລະ ທຸກບ່ອນ. "
+"ວິເຄາະຂໍ້ມູນໄດ້ງ່າຍດ້ວຍລະບົບທີ່ເປັນມິດ ແລະ ເຮັດໃຫ້ທຸລະກິດຂອງທ່ານເຕີບໂຕ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_card_offset
+msgid "Drive success through innovation."
+msgstr "ຂັບເຄື່ອນຄວາມສຳເລັດຜ່ານນະວັດຕະກຳ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_striped_center_top
+msgid ""
+"Drive success with our cutting-edge corporate services, blending technology "
+"and creative design to deliver impactful results."
+msgstr ""
+"ຂັບເຄື່ອນຄວາມສຳເລັດດ້ວຍບໍລິການອົງກອນທີ່ທັນສະໄໝ, ປະສົມປະສານເຕັກໂນໂລຊີ ແລະ "
+"ການອອກແບບທີ່ສ້າງສັນເພື່ອມອບຜົນຮັບທີ່ຊັດເຈນ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_freegrid
+msgid "Driving Innovation in Corporate Services"
+msgstr "ຂັບເຄື່ອນນະວັດຕະກຳໃນບໍລິການອົງກອນ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_images
+msgid "Driving Success Through Innovation"
+msgstr "ຂັບເຄື່ອນຄວາມສຳເລັດຜ່ານນະວັດຕະກຳ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_three_columns
+msgid "Editable from <br/>A to Z"
+msgstr "ປັບແຕ່ງໄດ້ <br/>ຕັ້ງແຕ່ຕົ້ນຈົນຈົບ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_empowerment
+msgid "Elevate your business<br/>with ApexCorp Solutions"
+msgstr "ຍົກລະດັບທຸລະກິດຂອງທ່ານ <br/>ດ້ວຍ ApexCorp Solutions"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_images
+msgid "Empowering Businesses to Reach New Heights"
+msgstr "ເສີມສັກກະຍະພາບໃຫ້ທຸລະກິດບັນລຸເປົ້າໝາຍໃໝ່"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid ""
+"Enhance your business operations with our comprehensive suite of "
+"professional services, tailored to meet your corporate needs."
+msgstr ""
+"ເພີ່ມປະສິດທິພາບການດຳເນີນງານຂອງທຸລະກິດທ່ານດ້ວຍບໍລິການມືອາຊີບແບບຄົບວົງຈອນ "
+"ທີ່ອອກແບບມາເພື່ອຕອບໂຈດຄວາມຕ້ອງການຂອງອົງກອນ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_benefits
+msgid "Exclusive Partnerships"
+msgstr "ການຮ່ວມມືແບບພິເສດ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid ""
+"Expert advice on business planning, market analysis, and competitive "
+"strategy to help your company achieve its goals."
+msgstr ""
+"ຄຳແນະນຳຈາກຜູ້ຊ່ຽວຊານດ້ານການວາງແຜນທຸລະກິດ, ການວິເຄາະຕະຫຼາດ ແລະ ກົນລະຍຸດການແຂ່ງຂັນ "
+"ເພື່ອຊ່ວຍໃຫ້ບໍລິສັດຂອງທ່ານບັນລຸເປົ້າໝາຍ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_images
+msgid "Expert advice to navigate complex challenges"
+msgstr "ຄຳແນະນຳຈາກຜູ້ຊ່ຽວຊານເພື່ອຜ່ານຜ່າສິ່ງທ້າທາຍທີ່ຊັບຊ້ອນ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_cover
+msgid "Faster, lighter and more powerful"
+msgstr "ໄວຂຶ້ນ, ເບົາຂຶ້ນ ແລະ ມີປະສິດທິພາບຫຼາຍຂຶ້ນ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_showcase
+msgid ""
+"Features <span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_scribble_3 o_text_highlight_fill\">showcase</span>"
+msgstr ""
+"ສະແດງ <span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_scribble_3 o_text_highlight_fill\">ຄຸນສົມບັດ</span>"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_three_columns
+msgid ""
+"Feel free to edit your content the way like you want. You don't need to know "
+"any technical and complex computer language. You will helped by our "
+"intuitive tools."
+msgstr ""
+"ປັບແຕ່ງເນື້ອຫາຂອງທ່ານໄດ້ຕາມໃຈມັກ. ທ່ານບໍ່ຈຳເປັນຕ້ອງມີຄວາມຮູ້ດ້ານເຕັກນິກ ຫຼື ພາສາຄອມພິວເຕີທີ່ຊັບຊ້ອນ. "
+"ເຄື່ອງມືທີ່ໃຊ້ງ່າຍຂອງພວກເຮົາຈະຊ່ວຍທ່ານເອງ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Financial Advisory Services"
+msgstr "ບໍລິການໃຫ້ຄຳປຶກສາດ້ານການເງິນ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_striped_center_top
+msgid "Get Started"
+msgstr "ເລີ່ມຕົ້ນ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_empowerment
+msgid "Get in touch"
+msgstr "ຕິດຕໍ່ພວກເຮົາ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_image_text
+msgid "Get what you want, where and when you want."
+msgstr "ໄດ້ຮັບສິ່ງທີ່ທ່ານຕ້ອງການ, ທຸກບ່ອນ ແລະ ທຸກເວລາ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Human Resources Management"
+msgstr "ການບໍລິຫານຊັບພະຍາກອນມະນຸດ"
+
+#. module: theme_buzzy
+#: model:ir.model.fields,field_description:theme_buzzy.field_theme_utils__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "IT Support Services"
+msgstr "ບໍລິການຊ່ວຍເຫຼືອດ້ານໄອທີ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_text_image
+msgid "Improve your efficiency"
+msgstr "ປັບປຸງປະສິດທິພາບຂອງທ່ານ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_title
+msgid "Increase your productivity"
+msgstr "ເພີ່ມຜົນຜະລິດຂອງທ່ານ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_card_offset
+msgid "Innovation at the Heart of Business"
+msgstr "ນະວັດຕະກຳຄືຫົວໃຈຂອງທຸລະກິດ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_striped_center_top
+msgid "Innovative Solutions for Your Business"
+msgstr "ວິທີການແກ້ໄຂທີ່ທັນສະໄໝສຳລັບທຸລະກິດຂອງທ່ານ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_text_image
+msgid ""
+"It's not that easy to be efficient if we don't have the correct tools than "
+"we need. Can you imagine Batman saving Gotham City without his bat-tools?"
+msgstr ""
+"ມັນບໍ່ງ່າຍທີ່ຈະມີປະສິດທິພາບຖ້າພວກເຮົາບໍ່ມີເຄື່ອງມືທີ່ເໝາະສົມ. ທ່ານລອງນຶກພາບເບິ່ງວ່າ ແບັດແມນ ຈະຊ່ວຍເມືອງ "
+"ກັອດແຮມ ໄດ້ແນວໃດ ຖ້າບໍ່ມີເຄື່ອງມືຂອງລາວ?"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_carousel_intro
+msgid "Leading the future with innovation"
+msgstr "ນຳພາອະນາຄົດດ້ວຍນະວັດຕະກຳ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_cta_box
+msgid "Learn more"
+msgstr "ຮຽນຮູ້ເພີ່ມເຕີມ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_cta_box
+msgid "Looking for a place to work ? We got you covered<br/><br/>"
+msgstr "ກຳລັງຊອກຫາບ່ອນເຮັດວຽກຢູ່ບໍ? ພວກເຮົາພ້ອມໃຫ້ບໍລິການທ່ານ<br/><br/>"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_call_to_action
+msgid "Make your company a better place."
+msgstr "ເຮັດໃຫ້ບໍລິສັດຂອງທ່ານເປັນບ່ອນທີ່ດີຂຶ້ນ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Our Corporate Services"
+msgstr "ບໍລິການອົງກອນຂອງພວກເຮົາ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_freegrid
+msgid ""
+"Our corporate services are designed to enhance your business operations "
+"through innovative technology and creative design. Explore how we can help "
+"your business reach new heights."
+msgstr ""
+"ບໍລິການອົງກອນຂອງພວກເຮົາຖືກອອກແບບມາເພື່ອເພີ່ມປະສິດທິພາບການດຳເນີນງານຂອງທ່ານ "
+"ຜ່ານເຕັກໂນໂລຊີທີ່ທັນສະໄໝ ແລະ ການອອກແບບທີ່ສ້າງສັນ. "
+"ຄົ້ນຫາວິທີທີ່ພວກເຮົາຈະຊ່ວຍໃຫ້ທຸລະກິດຂອງທ່ານກ້າວໄປສູ່ລະດັບໃໝ່."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_benefits
+msgid ""
+"Our team provides continuous support, ensuring your projects run smoothly "
+"and challenges are addressed promptly."
+msgstr ""
+"ທີມງານຂອງພວກເຮົາໃຫ້ການຊ່ວຍເຫຼືອຢ່າງຕໍ່ເນື່ອງ ເພື່ອຮັບປະກັນວ່າໂຄງການຂອງທ່ານຈະດຳເນີນໄປຢ່າງຮາບລື່ນ "
+"ແລະ ສິ່ງທ້າທາຍຕ່າງໆຈະໄດ້ຮັບການແກ້ໄຂຢ່າງທັນທ່ວງທີ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_images
+msgid "Partner with us to unlock your potential"
+msgstr "ຮ່ວມມືກັບພວກເຮົາເພື່ອປົດລັອກສັກກະຍະພາບຂອງທ່ານ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_images
+msgid "Proven strategies for sustainable growth"
+msgstr "ກົນລະຍຸດທີ່ຜ່ານການພິສູດແລ້ວເພື່ອການເຕີບໂຕທີ່ຍືນຍົງ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid ""
+"Reliable IT support, network management, and cybersecurity solutions to "
+"safeguard your business operations and data integrity."
+msgstr ""
+"ບໍລິການຊ່ວຍເຫຼືອດ້ານໄອທີທີ່ເຊື່ອຖືໄດ້, ການບໍລິຫານເຄືອຂ່າຍ ແລະ ວິທີການແກ້ໄຂດ້ານຄວາມປອດໄພທາງໄຊເບີ "
+"ເພື່ອປົກປ້ອງການດຳເນີນງານ ແລະ ຂໍ້ມູນຂອງທຸລະກິດທ່ານ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid ""
+"Scalable cloud services to enhance your business’s flexibility and data "
+"accessibility, supporting remote work and collaboration."
+msgstr ""
+"ບໍລິການຄລາວທີ່ປັບຂະໜາດໄດ້ເພື່ອເພີ່ມຄວາມຢືດຢຸ່ນ ແລະ ການເຂົ້າເຖິງຂໍ້ມູນຂອງທຸລະກິດທ່ານ, "
+"ຮອງຮັບການເຮັດວຽກຈາກທາງໄກ ແລະ ການຮ່ວມມືກັນ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_empowerment
+msgid ""
+"See our Success Stories   <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
+msgstr ""
+"ເບິ່ງເລື່ອງລາວຄວາມສຳເລັດຂອງພວກເຮົາ   <i class=\"fa fa-long-arrow-right\" "
+"role=\"img\"/>"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_striped_center_top
+msgid "Solutions crafted with precision"
+msgstr "ວິທີການແກ້ໄຂທີ່ສ້າງຂຶ້ນດ້ວຍຄວາມແມ່ນຍຳ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_call_to_action
+msgid "Start to build your robust activity with these powerful tools"
+msgstr "ເລີ່ມຕົ້ນສ້າງທຸລະກິດທີ່ເຂັ້ມແຂງຂອງທ່ານດ້ວຍເຄື່ອງມືທີ່ມີປະສິດທິພາບເຫຼົ່ານີ້"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Starting at $1,500"
+msgstr "ເລີ່ມຕົ້ນທີ່ $1,500"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Starting at $1,800"
+msgstr "ເລີ່ມຕົ້ນທີ່ $1,800"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Starting at $2,000"
+msgstr "ເລີ່ມຕົ້ນທີ່ $2,000"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Starting at $2,500"
+msgstr "ເລີ່ມຕົ້ນທີ່ $2,500"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "Starting at $3,000"
+msgstr "ເລີ່ມຕົ້ນທີ່ $3,000"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_benefits
+msgid "Strategic Solutions"
+msgstr "ວິທີການແກ້ໄຂທາງກົນລະຍຸດ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid ""
+"Strategic online marketing, SEO optimization, and social media management to "
+"boost your brand visibility and customer engagement."
+msgstr ""
+"ການຕະຫຼາດອອນລາຍທາງກົນລະຍຸດ, ການເຮັດ SEO ແລະ ການບໍລິຫານໂຊຊຽວມີເດຍ ເພື່ອເພີ່ມການຮັບຮູ້ແບຣນ "
+"ແລະ ການມີສ່ວນຮ່ວມຂອງລູກຄ້າ."
+
+#. module: theme_buzzy
+#: model:ir.model,name:theme_buzzy.model_theme_utils
+msgid "Theme Utils"
+msgstr "ເຄື່ອງມືຊ່ວຍເຫຼືອທີມ (Theme)"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_text_image
+msgid "There is no magic, it's time to get the tools you deserve."
+msgstr "ມັນບໍ່ມີມົນວິເສດດອກ, ຮອດເວລາແລ້ວທີ່ທ່ານຈະໄດ້ຮັບເຄື່ອງມືທີ່ທ່ານຄູ່ຄວນ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_accordion_image
+msgid ""
+"Top <span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_scribble_4 o_text_highlight_fill\">questions</span> answered"
+msgstr ""
+"ຕອບ <span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_scribble_4 o_text_highlight_fill\">ຄຳຖາມ</span> ທີ່ພົບເລື້ອຍ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_card_offset
+msgid ""
+"Transform your business with our technology-driven services. We integrate "
+"innovative solutions that streamline operations and enhance corporate "
+"efficiency."
+msgstr ""
+"ປ່ຽນໂສມທຸລະກິດຂອງທ່ານດ້ວຍບໍລິການທີ່ຂັບເຄື່ອນດ້ວຍເຕັກໂນໂລຊີ. ພວກເຮົາລວມເອົາວິທີການແກ້ໄຂທີ່ທັນສະໄໝ "
+"ເພື່ອເຮັດໃຫ້ການດຳເນີນງານມີຄວາມຄ່ອງຕົວ ແລະ ເພີ່ມປະສິດທິພາບຂອງອົງກອນ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_banner
+msgid ""
+"Unleash your <strong><span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_scribble_3 o_text_highlight_fill\">potential</span>.</"
+"strong>"
+msgstr ""
+"ປົດປ່ອຍ <strong><span class=\"o_text_highlight o_translate_inline "
+"o_text_highlight_scribble_3 o_text_highlight_fill\">ສັກກະຍະພາບ</span> ຂອງທ່ານ."
+"</strong>"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_key_benefits
+msgid ""
+"We offer tailored strategies that align with your business goals, driving "
+"growth and maximizing efficiency."
+msgstr ""
+"ພວກເຮົານຳສະເໜີກົນລະຍຸດທີ່ປັບແຕ່ງໃຫ້ສອດຄ່ອງກັບເປົ້າໝາຍທຸລະກິດຂອງທ່ານ, ເພື່ອຂັບເຄື່ອນການເຕີບໂຕ ແລະ "
+"ເພີ່ມປະສິດທິພາບສູງສຸດ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_image_text
+msgid ""
+"Working at the office is good, but working where we want without distraction "
+"is better. With our Cloud service accessing to your data has never been so "
+"easy."
+msgstr ""
+"ການເຮັດວຽກຢູ່ຫ້ອງການກໍດີ, ແຕ່ການເຮັດວຽກຢູ່ບ່ອນທີ່ພວກເຮົາຕ້ອງການໂດຍບໍ່ມີສິ່ງລົບກວນນັ້ນດີກວ່າ. "
+"ດ້ວຍບໍລິການຄລາວຂອງພວກເຮົາ, ການເຂົ້າເຖິງຂໍ້ມູນຂອງທ່ານຈະງ່າຍກວ່າທີ່ເຄີຍ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_three_columns
+msgid ""
+"You will always find the ideal choice adapted to your needs. From the basic "
+"website based on our attractive templates to the tailor-made website "
+"reflecting your company's values."
+msgstr ""
+"ທ່ານຈະພົບກັບທາງເລືອກທີ່ເໝາະສົມກັບຄວາມຕ້ອງການຂອງທ່ານສະເໝີ. "
+"ຕັ້ງແຕ່ເວັບໄຊທ໌ພື້ນຖານຈາກເທັມເພດທີ່ສວຍງາມ "
+"ຈົນຮອດເວັບໄຊທ໌ທີ່ອອກແບບມາເປັນພິເສດເພື່ອສະທ້ອນເຖິງຄຸນຄ່າຂອງບໍລິສັດທ່ານ."
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "✽  Consulting Services"
+msgstr "✽  ບໍລິການໃຫ້ຄຳປຶກສາ"
+
+#. module: theme_buzzy
+#: model_terms:theme.ir.ui.view,arch:theme_buzzy.s_pricelist_boxed
+msgid "✽  Technology Solutions"
+msgstr "✽  ວິທີການແກ້ໄຂດ້ານເຕັກໂນໂລຊີ"
+
+#~ msgid "30+"
+#~ msgstr "30+"
+
+#~ msgid "45%"
+#~ msgstr "45%"
+
+#~ msgid "90%"
+#~ msgstr "90%"

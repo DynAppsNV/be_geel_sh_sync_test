@@ -1,0 +1,245 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * whatsapp_account_followup
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:49+0000\n"
+"PO-Revision-Date: 2026-06-08 08:28+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"whatsapp_account_followup/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: whatsapp_account_followup
+#. odoo-python
+#: code:addons/whatsapp_account_followup/models/account_followup_report.py:0
+msgid "A phone number is required to use WhatsApp"
+msgstr "ຈໍາເປັນຕ້ອງມີເບີໂທລະສັບເພື່ອໃຊ້ WhatsApp"
+
+#. module: whatsapp_account_followup
+#. odoo-python
+#: code:addons/whatsapp_account_followup/models/account_followup_report.py:0
+msgid "A template is required to use WhatsApp"
+msgstr "ຈໍາເປັນຕ້ອງມີແບບຟອມເພື່ອໃຊ້ WhatsApp"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__button_dynamic_url_1
+msgid "Button Url 1"
+msgstr "URL ປຸ່ມ 1"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__button_dynamic_url_2
+msgid "Button Url 2"
+msgstr "URL ປຸ່ມ 2"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_res_partner
+msgid "Contact"
+msgstr "ຜູ້ຕິດຕໍ່"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,website_form_label:whatsapp_account_followup.model_res_partner
+msgid "Create a Customer"
+msgstr "ສ້າງລູກຄ້າ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__display_name
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__display_name
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_report__display_name
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_res_partner__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__res_ids
+msgid "Document IDs"
+msgstr "ລະຫັດເອກະສານ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__res_model
+msgid "Document Model Name"
+msgstr "ຊື່ໂມເດວເອກະສານ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_account_followup_followup_line
+msgid "Follow-up Criteria"
+msgstr "ເງື່ອນໄຂການຕິດຕາມໜີ້"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_account_followup_report
+msgid "Follow-up Report"
+msgstr "ລາຍງານການຕິດຕາມໜີ້"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_1
+msgid "Free Text 1"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 1"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_10
+msgid "Free Text 10"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 10"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_2
+msgid "Free Text 2"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 2"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_3
+msgid "Free Text 3"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 3"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_4
+msgid "Free Text 4"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 4"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_5
+msgid "Free Text 5"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 5"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_6
+msgid "Free Text 6"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 6"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_7
+msgid "Free Text 7"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 7"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_8
+msgid "Free Text 8"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 8"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__free_text_9
+msgid "Free Text 9"
+msgstr "ຂໍ້ຄວາມອິດສະຫຼະ 9"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__header_text_1
+msgid "Header Free Text"
+msgstr "ຂໍ້ຄວາມສ່ວນຫົວອິດສະຫຼະ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__id
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__id
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_report__id
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_res_partner__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__invalid_phone_number_count
+msgid "Invalid Phone Number Count"
+msgstr "ຈໍານວນເບີໂທລະສັບທີ່ບໍ່ຖືກຕ້ອງ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__is_button_dynamic
+msgid "Is Button Dynamic"
+msgstr "ແມ່ນປຸ່ມແບບໄດນາມິກ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__is_header_free_text
+msgid "Is Header Free Text"
+msgstr "ແມ່ນຂໍ້ຄວາມສ່ວນຫົວອິດສະຫຼະ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__batch_mode
+msgid "Is Multiple Records"
+msgstr "ແມ່ນຫຼາຍລາຍການ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__write_uid
+msgid "Last Updated by"
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__write_date
+msgid "Last Updated on"
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__preview_whatsapp
+msgid "Message Preview"
+msgstr "ຕົວຢ່າງຂໍ້ຄວາມ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__number_of_free_text
+msgid "Number of free text"
+msgstr "ຈໍານວນຂໍ້ຄວາມອິດສະຫຼະ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__number_of_free_text_button
+msgid "Number of free text Buttons"
+msgstr "ຈໍານວນປຸ່ມຂໍ້ຄວາມອິດສະຫຼະ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__phone
+msgid "Phone"
+msgstr "ເບີໂທລະສັບ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__wa_template_id
+msgid "Template"
+msgstr "ແບບຟອມ"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__send_whatsapp
+#: model_terms:ir.ui.view,arch_db:whatsapp_account_followup.manual_reminder_view_form_inherit_whatsapp_followup
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#. module: whatsapp_account_followup
+#: model_terms:ir.ui.view,arch_db:whatsapp_account_followup.view_account_followup_followup_line_form_inherit_whatsapp
+msgid "WhatsApp Template"
+msgstr "ແບບຟອມ WhatsApp"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__attachment_id
+msgid "WhatsApp attachment"
+msgstr "ໄຟລ໌ຄັດຕິດ WhatsApp"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_manual_reminder__whatsapp
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#. module: whatsapp_account_followup
+#: model:ir.model.fields,field_description:whatsapp_account_followup.field_account_followup_followup_line__whatsapp_template_id
+msgid "Whatsapp Template"
+msgstr "ແບບຟອມ Whatsapp"
+
+#. module: whatsapp_account_followup
+#: model:ir.model,name:whatsapp_account_followup.model_account_followup_manual_reminder
+msgid "Wizard for sending manual reminders to clients"
+msgstr "ຕົວຊ່ວຍສໍາລັບການສົ່ງການແຈ້ງເຕືອນດ້ວຍຕົນເອງໃຫ້ລູກຄ້າ"
+
+#. module: whatsapp_account_followup
+#. odoo-python
+#: code:addons/whatsapp_account_followup/models/account_followup_report.py:0
+msgid "whatsapp_composer and followup_line cannot both be None"
+msgstr "whatsapp_composer ແລະ followup_line ບໍ່ສາມາດເປັນຄ່າວ່າງທັງສອງໄດ້"

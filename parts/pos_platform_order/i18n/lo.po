@@ -1,0 +1,908 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * pos_platform_order
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-03 18:47+0000\n"
+"PO-Revision-Date: 2026-06-08 08:24+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"pos_platform_order/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "<span class=\"o_stat_text text-success\">Entites</span>"
+msgstr "<span class=\"o_stat_text text-success\">ຫົວໜ່ວຍທຸລະກິດ</span>"
+
+#. module: pos_platform_order
+#: model:ir.model.constraint,message:pos_platform_order.constraint_platform_order_entity_entity_id_uniq
+msgid "A store with the same external ID already exists for this provider."
+msgstr "ມີຮ້ານຄ້າທີ່ມີ ID ພາຍນອກດຽວກັນນີ້ຢູ່ແລ້ວສຳລັບຜູ້ໃຫ້ບໍລິການນີ້."
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Accept Order"
+msgstr "ຮັບຄຳສັ່ງຊື້"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__accepted
+msgid "Accepted"
+msgstr "ຮັບແລ້ວ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Accounting"
+msgstr "ການບັນຊີ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "An unknown error occurred."
+msgstr "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ສາເຫດ."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__available_categ_ids_domain
+msgid "Available Categ Ids Domain"
+msgstr "ໂດເມນ ID ໝວດໝູ່ທີ່ມີໃຫ້ໃຊ້"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__available_categ_ids
+msgid "Available Product Categories"
+msgstr "ໝວດໝູ່ສິນຄ້າທີ່ມີໃຫ້ໃຊ້"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_product__platform_order_available
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_template__platform_order_available
+msgid "Available for Platform Orders"
+msgstr "ມີໃຫ້ໃຊ້ສຳລັບການສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_cancel_reason
+msgid "Cancellation Reason"
+msgstr "ເຫດຜົນການຍົກເລີກ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__cancelled
+msgid "Cancelled"
+msgstr "ຍົກເລີກແລ້ວ"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Cannot reject the order as the driver has already arrived."
+msgstr "ບໍ່ສາມາດປະຕິເສດຄຳສັ່ງຊື້ໄດ້ ເນື່ອງຈາກຄົນຂັບມາຮອດແລ້ວ."
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Cannot update state for orders that are not in the allowed states: %s."
+msgstr "ບໍ່ສາມາດອັບເດດສະຖານະສຳລັບຄຳສັ່ງຊື້ທີ່ບໍ່ໄດ້ຢູ່ໃນສະຖານະທີ່ອະນຸຍາດ: %s."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__provider_code
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__code
+msgid "Code"
+msgstr "ລະຫັດ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__collected
+msgid "Collected"
+msgstr "ຮັບສິນຄ້າແລ້ວ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_res_company
+msgid "Companies"
+msgstr "ບໍລິສັດ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__company_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Configuration"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__module_id
+msgid "Corresponding Module"
+msgstr "ໂມດູນທີ່ກ່ຽວຂ້ອງ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__country_id
+msgid "Country"
+msgstr "ປະເທດ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__country_code
+msgid "Country Code"
+msgstr "ລະຫັດປະເທດ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__create_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__create_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__create_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__create_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Credentials"
+msgstr "ຂໍ້ມູນການເຂົ້າລະບົບ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__currency_id
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__default_payment_method_id
+msgid "Default Payment Method"
+msgstr "ວິທີການຊຳລະເງິນເລີ່ມຕົ້ນ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__default_pricelist_id
+msgid "Default Price List"
+msgstr "ລາຍການລາຄາເລີ່ມຕົ້ນ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__sequence
+msgid "Define the display order"
+msgstr "ກຳນົດລຳດັບການສະແດງຜົນ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__delivered
+msgid "Delivered"
+msgstr "ສົ່ງແລ້ວ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_type__delivery
+msgid "Delivery"
+msgstr "ການຈັດສົ່ງ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__delivery_preset_id
+msgid "Delivery Preset"
+msgstr "ຄ່າກຳນົດການຈັດສົ່ງໄວ້ລ່ວງໜ້າ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Device is offline. Platform order requires an internet connection."
+msgstr "ອຸປະກອນອອບລາຍຢູ່. ການສັ່ງຊື້ຜ່ານແພລດຟອມຕ້ອງມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ."
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_type__dine_in
+msgid "Dine In"
+msgstr "ກິນຢູ່ຮ້ານ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__dinein_preset_id
+msgid "Dine-in Preset"
+msgstr "ຄ່າກຳນົດການກິນຢູ່ຮ້ານໄວ້ລ່ວງໜ້າ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__state__disabled
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Disabled"
+msgstr "ປິດການໃຊ້ງານ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_category__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_payment__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_session__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_template__display_name
+#: model:ir.model.fields,field_description:pos_platform_order.field_res_company__display_name
+msgid "Display Name"
+msgstr "ຊື່ສະແດງຜົນ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__done
+msgid "Done"
+msgstr "ສຳເລັດ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__draft
+msgid "Draft"
+msgstr "ຮ່າງ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__driver_allocated
+msgid "Driver Allocated"
+msgstr "ຈັດສັນຄົນຂັບແລ້ວ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__driver_arrived
+msgid "Driver Arrived"
+msgstr "ຄົນຂັບມາຮອດແລ້ວ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__state__enabled
+msgid "Enabled"
+msgstr "ເປີດການໃຊ້ງານ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__external_id
+msgid "External ID"
+msgstr "ID ພາຍນອກ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_entity__external_id
+msgid "External ID used in the provider's system"
+msgstr "ID ພາຍນອກທີ່ໃຊ້ໃນລະບົບຂອງຜູ້ໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__external_key
+msgid "External Key"
+msgstr "ຄີ (Key) ພາຍນອກ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__failed
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__failed
+msgid "Failed"
+msgstr "ຫຼົ້ມເຫຼວ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid ""
+"Failed to reject order. Please reject the order manually from the %s "
+"terminal."
+msgstr ""
+"ປະຕິເສດຄຳສັ່ງຊື້ບໍ່ສຳເລັດ. ກະລຸນາປະຕິເສດຄຳສັ່ງຊື້ດ້ວຍຕົນເອງຈາກເຄື່ອງ %s."
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Food Is Ready"
+msgstr "ອາຫານພ້ອມແລ້ວ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_food_ready
+msgid "Food Ready"
+msgstr "ອາຫານພ້ອມ"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Food is already marked as ready for pickup or delivery."
+msgstr "ອາຫານຖືກໝາຍວ່າພ້ອມສຳລັບການມາຮັບ ຫຼື ການຈັດສົ່ງແລ້ວ."
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Food is now marked as ready for pickup or delivery."
+msgstr "ຕອນນີ້ອາຫານຖືກໝາຍວ່າພ້ອມສຳລັບການມາຮັບ ຫຼື ການຈັດສົ່ງແລ້ວ."
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Food marked as ready successfully."
+msgstr "ໝາຍວ່າອາຫານພ້ອມສຳເລັດແລ້ວ."
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Food ordering provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການສັ່ງອາຫານ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+msgid "General"
+msgstr "ທົ່ວໄປ"
+
+#. module: pos_platform_order
+#: model:platform.order.provider,name:pos_platform_order.platform_order_provider_gofood
+msgid "GoFood"
+msgstr "GoFood"
+
+#. module: pos_platform_order
+#: model:platform.order.provider,name:pos_platform_order.platform_order_provider_grabfood
+msgid "GrabFood"
+msgstr "GrabFood"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_category__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_payment__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_session__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_product_template__id
+#: model:ir.model.fields,field_description:pos_platform_order.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+msgid "If no categories are selected, all categories will be available."
+msgstr "ຖ້າບໍ່ມີການເລືອກໝວດໝູ່, ທຸກໝວດໝູ່ຈະສາມາດໃຊ້ໄດ້."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_product_product__platform_order_available
+#: model:ir.model.fields,help:pos_platform_order.field_product_template__platform_order_available
+msgid "If this product is available for platform orders."
+msgstr "ຖ້າສິນຄ້ານີ້ມີໃຫ້ສັ່ງຜ່ານແພລດຟອມ."
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/provider_logo.xml:0
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_1920
+msgid "Image"
+msgstr "ຮູບພາບ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_1024
+msgid "Image 1024"
+msgstr "ຮູບພາບ 1024"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_128
+msgid "Image 128"
+msgstr "ຮູບພາບ 128"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_256
+msgid "Image 256"
+msgstr "ຮູບພາບ 256"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__image_512
+msgid "Image 512"
+msgstr "ຮູບພາບ 512"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_kanban
+msgid "Install"
+msgstr "ຕິດຕັ້ງ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__module_state
+msgid "Installation State"
+msgstr "ສະຖານະການຕິດຕັ້ງ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+msgid "Installed"
+msgstr "ຕິດຕັ້ງແລ້ວ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__last_menu_synced
+msgid "Last Menu Synced"
+msgstr "ການຊິງຄ໌ເມນູຫຼ້າສຸດ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__write_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__write_uid
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__write_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__write_date
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_entity__pricelist_line_ids
+msgid "List of pricelist configurations for this entity."
+msgstr "ລາຍການການຕັ້ງຄ່າລາຍການລາຄາສຳລັບຫົວໜ່ວຍທຸລະກິດນີ້."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__menu_sync_state
+msgid "Menu Sync Status"
+msgstr "ສະຖານະການຊິງຄ໌ເມນູ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__name
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__name
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_list
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_status__new
+msgid "New"
+msgstr "ໃໝ່"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "New platform order received."
+msgstr "ໄດ້ຮັບຄຳສັ່ງຊື້ຈາກແພລດຟອມໃໝ່."
+
+#. module: pos_platform_order
+#: model_terms:ir.actions.act_window,help:pos_platform_order.action_platform_order_providers
+msgid "No Platform Order Providers found"
+msgstr "ບໍ່ພົບຜູ້ໃຫ້ບໍລິການຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__code__none
+msgid "No Provider Set"
+msgstr "ບໍ່ມີການກຳນົດຜູ້ໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+msgid "Ongoing"
+msgstr "ກຳລັງດຳເນີນການ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_ref
+msgid "Online Order Reference"
+msgstr "ເອກະສານອ້າງອີງຄຳສັ່ງຊື້ອອນລາຍ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_pos_category__service_hours_id
+msgid ""
+"Only work for Platform Order. This calendar defines the service hours for "
+"this category."
+msgstr ""
+"ໃຊ້ໄດ້ສະເພາະກັບຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ. ປະຕິທິນນີ້ກຳນົດຊົ່ວໂມງໃຫ້ບໍລິການສຳລັບໝວດໝູ່ນີ້."
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Order %s has a total of %s. Are you sure you want to reject it?"
+msgstr "ຄຳສັ່ງຊື້ %s ມີຍອດລວມແມ່ນ %s. ເຈົ້າມັ້ນໃຈບໍ່ວ່າຕ້ອງການປະຕິເສດ?"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_pin
+msgid "Order PIN"
+msgstr "ລະຫັດ PIN ຄຳສັ່ງຊື້"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Order Reference: %s"
+msgstr "ເອກະສານອ້າງອີງຄຳສັ່ງຊື້: %s"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_status
+msgid "Order Status"
+msgstr "ສະຖານະຄຳສັ່ງຊື້"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_type
+msgid "Order Type"
+msgstr "ປະເພດຄຳສັ່ງຊື້"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Order cancelled with reason: %s"
+msgstr "ຄຳສັ່ງຊື້ຖືກຍົກເລີກດ້ວຍເຫດຜົນ: %s"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Order has been accepted successfully."
+msgstr "ຮັບຄຳສັ່ງຊື້ສຳເລັດແລ້ວ."
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Order has been rejected successfully."
+msgstr "ປະຕິເສດຄຳສັ່ງຊື້ສຳເລັດແລ້ວ."
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Order rejected successfully."
+msgstr "ປະຕິເສດຄຳສັ່ງຊື້ສຳເລັດແລ້ວ."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__source
+msgid "Origin"
+msgstr "ແຫຼ່ງທີ່ມາ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/components/order_display/order_display.xml:0
+msgid "PIN"
+msgstr "PIN"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+msgid "Paid"
+msgstr "ຈ່າຍແລ້ວ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__payment_method_id
+msgid "Payment Method"
+msgstr "ວິທີການຊຳລະເງິນ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__platform_order_type__pickup
+msgid "Pickup"
+msgstr "ມາຮັບເອງ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__pickup_preset_id
+msgid "Pickup Preset"
+msgstr "ຄ່າກຳນົດການມາຮັບໄວ້ລ່ວງໜ້າ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Plat. Orders"
+msgstr "ອໍເດີແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__pos_order__source__platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.product_template_form_view
+msgid "Platform Order"
+msgstr "ຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.actions.act_window,name:pos_platform_order.action_platform_order_entity
+msgid "Platform Order Entities"
+msgstr "ຫົວໜ່ວຍທຸລະກິດຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_platform_order_entity
+msgid "Platform Order Entity"
+msgstr "ຫົວໜ່ວຍທຸລະກິດຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_platform_order_pricelist_line
+msgid "Platform Order Pricelist Line"
+msgstr "ລາຍການລາຄາຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_platform_order_provider
+msgid "Platform Order Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.actions.act_window,name:pos_platform_order.action_platform_order_providers
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_list
+msgid "Platform Order Providers"
+msgstr "ຜູ້ໃຫ້ບໍລິການຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.product_pos_category_form_view_inherit
+msgid "Platform Order Settings"
+msgstr "ການຕັ້ງຄ່າຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#: model:ir.ui.menu,name:pos_platform_order.menu_pos_platform_order_root
+msgid "Platform Orders"
+msgstr "ຄຳສັ່ງຊື້ຜ່ານແພລດຟອມ"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Platform status updated to %s."
+msgstr "ອັບເດດສະຖານະແພລດຟອມເປັນ %s."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__config_id
+msgid "Point of Sale"
+msgstr "ຈຸດຂາຍ (POS)"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_category
+msgid "Point of Sale Category"
+msgstr "ໝວດໝູ່ຈຸດຂາຍ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "ການຕັ້ງຄ່າຈຸດຂາຍ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "ຄຳສັ່ງຊື້ຈຸດຂາຍ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_payment
+msgid "Point of Sale Payments"
+msgstr "ການຊຳລະເງິນຈຸດຂາຍ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_pos_session
+msgid "Point of Sale Session"
+msgstr "ຮອບການຂາຍ POS"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+msgid "Presets"
+msgstr "ຄ່າກຳນົດໄວ້ລ່ວງໜ້າ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__pricelist_id
+msgid "Pricelist"
+msgstr "ລາຍການລາຄາ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__pricelist_line_ids
+msgid "Pricelist Lines"
+msgstr "ລາຍການໃນລາຍການລາຄາ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__processing
+msgid "Processing"
+msgstr "ກຳລັງປະມວນຜົນ"
+
+#. module: pos_platform_order
+#: model:ir.model,name:pos_platform_order.model_product_template
+msgid "Product"
+msgstr "ສິນຄ້າ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__provider_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_provider_id
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+msgid "Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_provider_code
+msgid "Provider Code"
+msgstr "ລະຫັດຜູ້ໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_list
+msgid "Provider Entities"
+msgstr "ຫົວໜ່ວຍທຸລະກິດຂອງຜູ້ໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+msgid "Provider Store"
+msgstr "ຮ້ານຄ້າຂອງຜູ້ໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#: model:ir.ui.menu,name:pos_platform_order.menu_platform_order_providers
+msgid "Providers"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_entity__menu_sync_state__queuing
+msgid "Queuing"
+msgstr "ກຳລັງລໍຖ້າຄິວ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_pos_order__platform_order_ref
+msgid "Reference of the order in the food ordering platform."
+msgstr "ເອກະສານອ້າງອີງຂອງຄຳສັ່ງຊື້ໃນແພລດຟອມສັ່ງອາຫານ."
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Reject Order"
+msgstr "ປະຕິເສດຄຳສັ່ງຊື້"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Reject reason"
+msgstr "ເຫດຜົນການປະຕິເສດ"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Rejected by user with error: %s"
+msgstr "ຖືກປະຕິເສດໂດຍຜູ້ໃຊ້ດ້ວຍຂໍ້ຜິດພາດ: %s"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Review Orders"
+msgstr "ກວດສອບຄຳສັ່ງຊື້"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/components/order_display/order_display.xml:0
+msgid "Rider"
+msgstr "ຄົນຂັບຈັດສົ່ງ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_rider_name
+msgid "Rider Name"
+msgstr "ຊື່ຄົນຂັບຈັດສົ່ງ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__sequence
+msgid "Sequence"
+msgstr "ລຳດັບ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Server Error: Unable to fetch order."
+msgstr "ຂໍ້ຜິດພາດຂອງເຊີບເວີ: ບໍ່ສາມາດດຶງຂໍ້ມູນຄຳສັ່ງຊື້ໄດ້."
+
+#. module: pos_platform_order
+#: model:ir.actions.act_window,name:pos_platform_order.action_platform_order_service_hours
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_entity__service_hours_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_category__service_hours_id
+#: model:ir.ui.menu,name:pos_platform_order.menu_platform_order_service_hours
+msgid "Service Hours"
+msgstr "ຊົ່ວໂມງໃຫ້ບໍລິການ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.xml:0
+msgid "Set Food Ready"
+msgstr "ຕັ້ງຄ່າອາຫານພ້ອມແລ້ວ"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/platform_order_entity.py:0
+msgid "Shop is closed."
+msgstr "ຮ້ານປິດແລ້ວ."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__state
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+msgid "State"
+msgstr "ສະຖານະ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/components/order_display/order_display.xml:0
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_pricelist_line__store_id
+#: model:ir.model.fields,field_description:pos_platform_order.field_pos_order__platform_order_store_id
+msgid "Store"
+msgstr "ຮ້ານຄ້າ"
+
+#. module: pos_platform_order
+#: model:ir.ui.menu,name:pos_platform_order.menu_platform_order_entity
+msgid "Stores"
+msgstr "ຮ້ານຄ້າ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__support_combo
+msgid "Supports Combo"
+msgstr "ຮອງຮັບຊຸດຄອມໂບ້"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_form
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_entity_list
+msgid "Sync Menu"
+msgstr "ຊິງຄ໌ເມນູ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields.selection,name:pos_platform_order.selection__platform_order_provider__state__test
+msgid "Test"
+msgstr "ທົດສອບ"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_form
+msgid "Test Mode"
+msgstr "ໂໝດທົດສອບ"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"ລະຫັດປະເທດ ISO ເປັນຕົວອັກສອນສອງຕົວ. \n"
+"ທ່ານສາມາດໃຊ້ຟິລນີ້ເພື່ອການຄົ້ນຫາແບບໄວ."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__default_payment_method_id
+msgid "The default payment method to use for this provider."
+msgstr "ວິທີການຊຳລະເງິນເລີ່ມຕົ້ນທີ່ຈະໃຊ້ສຳລັບຜູ້ໃຫ້ບໍລິການນີ້."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__default_pricelist_id
+msgid "The default price list to use for this provider."
+msgstr "ລາຍການລາຄາເລີ່ມຕົ້ນທີ່ຈະໃຊ້ສຳລັບຜູ້ໃຫ້ບໍລິການນີ້."
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/platform_order_provider.py:0
+msgid "The following fields must be filled: %s"
+msgstr "ຟິລຕໍ່ໄປນີ້ຕ້ອງໄດ້ຮັບການປ້ອນຂໍ້ມູນ: %s"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/platform_order_pricelist_line.py:0
+msgid "The pricelist currency must match the store currency."
+msgstr "ສະກຸນເງິນໃນລາຍການລາຄາຕ້ອງກົງກັບສະກຸນເງິນຂອງຮ້ານຄ້າ."
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "The provider '%s' is disabled."
+msgstr "ຜູ້ໃຫ້ບໍລິການ '%s' ຖືກປິດການໃຊ້ງານ."
+
+#. module: pos_platform_order
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_entity__provider_code
+#: model:ir.model.fields,help:pos_platform_order.field_platform_order_provider__code
+#: model:ir.model.fields,help:pos_platform_order.field_pos_order__platform_order_provider_code
+msgid "The technical code of this platform order provider."
+msgstr "ລະຫັດທາງເຕັກນິກຂອງຜູ້ໃຫ້ບໍລິການຄຳສັ່ງຊື້ຜ່ານແພລດຟອມນີ້."
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/models/pos_order.js:0
+msgid "Unknown"
+msgstr "ບໍ່ຮູ້ສາເຫດ"
+
+#. module: pos_platform_order
+#. odoo-javascript
+#: code:addons/pos_platform_order/static/src/app/screens/ticket_screen/ticket_screen.js:0
+#: code:addons/pos_platform_order/static/src/app/services/pos_store.js:0
+msgid "Unknown error"
+msgstr "ຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ສາເຫດ"
+
+#. module: pos_platform_order
+#. odoo-python
+#: code:addons/pos_platform_order/models/pos_order.py:0
+msgid "Unsupported status update action: %s"
+msgstr "ການດຳເນີນການອັບເດດສະຖານະທີ່ບໍ່ຮອງຮັບ: %s"
+
+#. module: pos_platform_order
+#: model:ir.model.fields,field_description:pos_platform_order.field_platform_order_provider__valid_for_seconds
+msgid "Valid for (Seconds)"
+msgstr "ໃຊ້ໄດ້ເປັນເວລາ (ວິນາທີ)"
+
+#. module: pos_platform_order
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_kanban
+#: model_terms:ir.ui.view,arch_db:pos_platform_order.view_platform_order_provider_search
+msgid "provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"

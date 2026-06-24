@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_mx_view_hr_payslip_form" model="ir.ui.view">
+        <field name="name">hr.payslip.form.inherit.l10n.mx.hr.payroll.account</field>
+        <field name="model">hr.payslip</field>
+        <field name="inherit_id" ref="hr_payroll.view_hr_payslip_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_payslip_paid']" position="attributes">
+                <attribute name="invisible">state != 'validated'</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

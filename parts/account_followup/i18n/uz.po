@@ -1,0 +1,1314 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_followup
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:46+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "%(company)s Payment Reminder - %(partner)s"
+msgstr "%(company)s To‘lov eslatmasi - %(partner)s"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup.py:0
+#, fuzzy
+msgid "%(delay)s days (copy of %(name)s)"
+msgstr "%(delay)s kun (%(name)s nusxasi)"
+
+#. module: account_followup
+#: model:ir.actions.report,print_report_name:account_followup.action_report_followup
+#, fuzzy
+msgid "'Follow-up ' + object.display_name"
+msgstr "'Kuzatuv ' + object.display_name"
+
+#. module: account_followup
+#: model:account_followup.followup.line,name:account_followup.demo_followup_line1
+#, fuzzy
+msgid "15 Days"
+msgstr "15 kun"
+
+#. module: account_followup
+#: model:account_followup.followup.line,name:account_followup.demo_followup_line2
+#, fuzzy
+msgid "30 Days"
+msgstr "30 kun"
+
+#. module: account_followup
+#: model:account_followup.followup.line,name:account_followup.demo_followup_line3
+#, fuzzy
+msgid "40 Days"
+msgstr "40 kun"
+
+#. module: account_followup
+#: model:account_followup.followup.line,name:account_followup.demo_followup_line4
+#, fuzzy
+msgid "50 Days"
+msgstr "50 kun"
+
+#. module: account_followup
+#: model:account_followup.followup.line,name:account_followup.demo_followup_line5
+#, fuzzy
+msgid "60 Days"
+msgstr "60 kun"
+
+#. module: account_followup
+#: model:mail.template,body_html:account_followup.demo_followup_email_template_4
+#, fuzzy
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p>\n"
+"                        <t t-if=\"object.id != "
+"object.commercial_partner_id.id\">Dear <t t-out=\"object.name or ''\"/> (<t "
+"t-out=\"object.commercial_partner_id.name or ''\"/>),</t>\n"
+"                        <t t-else=\"\">Dear <t t-out=\"object.name or ''\"/>,"
+"</t>\n"
+"                        <br/>\n"
+"                        Despite several reminders, your account is still not "
+"settled.\n"
+"                        Unless full payment is made in next 8 days, then "
+"legal action for the recovery of the debt will be taken without further "
+"notice.\n"
+"                        I trust that this action will prove unnecessary and "
+"details of due payments is printed below.\n"
+"                        In case of any queries concerning this matter, do "
+"not hesitate to contact our accounting department.\n"
+"                        <br/>\n"
+"                        Best Regards,\n"
+"                        <br/>\n"
+"                        <t t-if=\"not "
+"is_html_empty(object._get_followup_responsible().signature)\">\n"
+"                            <br/>\n"
+"                            <t t-"
+"out=\"object._get_followup_responsible().signature\"/>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <br/>\n"
+"                            --\n"
+"                            <br/>\n"
+"                            <t t-"
+"out=\"object._get_followup_responsible().name\"/>\n"
+"                        </t>\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\"> <p> <t t-if=\"object.id != "
+"object.commercial_partner_id.id\">Hurmatli <t t-out=\"object.name or ''\"/> "
+"(<t t-out=\"object.commercial_partner_id.name or ''\"/>),</t> <t t-"
+"else=\"\">Hurmatli <t t-out=\"object.name or ''\"/>,</t> <br/> Bir necha bor "
+"eslatishimizga qaramay, hisobingiz hali ham to‘lanmagan. Agar keyingi 8 kun "
+"ichida to‘liq to‘lov amalga oshirilmasa, qo‘shimcha ogohlantirishsiz qarzni "
+"undirish uchun qonuniy choralar ko‘riladi. Umid qilamanki, bunday choralar "
+"keraksiz bo‘ladi. To‘lanishi lozim bo‘lgan summalar tafsilotlari quyida "
+"keltirilgan. Ushbu masala yuzasidan savollaringiz bo‘lsa, buxgalteriya "
+"bo‘limimizga murojaat qilishdan tortinmang. <br/> Hurmat bilan, <br/> <t t-"
+"if=\"not is_html_empty(object._get_followup_responsible().signature)\"> <br/"
+"> <t t-out=\"object._get_followup_responsible().signature\"/> </t> <t t-"
+"else=\"\"> <br/> -- <br/> <t t-"
+"out=\"object._get_followup_responsible().name\"/> </t> </p> </div>"
+
+#. module: account_followup
+#: model:mail.template,body_html:account_followup.demo_followup_email_template_2
+#, fuzzy
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p>\n"
+"                        <t t-if=\"object.id != "
+"object.commercial_partner_id.id\">Dear <t t-out=\"object.name or ''\"/> (<t "
+"t-out=\"object.commercial_partner_id.name or ''\"/>),</t>\n"
+"                        <t t-else=\"\">Dear <t t-out=\"object.name or ''\"/>,"
+"</t>\n"
+"                        <br/>\n"
+"                        We are disappointed to see that despite sending a "
+"reminder, that your account is now seriously overdue.\n"
+"                        <br/>\n"
+"                        It is essential that immediate payment is made, "
+"otherwise we will have to consider placing a stop on your account which "
+"means that we will no longer be able to supply your company with (goods/"
+"services). Please, take appropriate measures in order to carry out this "
+"payment in the next 8 days.\n"
+"                        <br/>\n"
+"                        If there is a problem with paying invoice that we "
+"are not aware of, do not hesitate to contact our accounting department, so "
+"that we can resolve the matter quickly.\n"
+"                        <br/>\n"
+"                        Details of due payments is printed below.\n"
+"                        <br/>\n"
+"                        Best Regards,\n"
+"                        <t t-if=\"not "
+"is_html_empty(object._get_followup_responsible().signature)\">\n"
+"                            <br/>\n"
+"                            <t t-"
+"out=\"object._get_followup_responsible().signature\"/>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <br/>\n"
+"                            --\n"
+"                            <br/>\n"
+"                            <t t-"
+"out=\"object._get_followup_responsible().name\"/>\n"
+"                        </t>\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\"> <p> <t t-if=\"object.id!= "
+"object.commercial_partner_id.id\">Hurmatli <t t-out=\"object.name or ''\"/> "
+"(<t t-out=\"object.commercial_partner_id.name or ''\"/>),</t> <t t-"
+"else=\"\">Hurmatli <t t-out=\"object.name or ''\"/>,</t> <br/> Eslatma "
+"yuborganimizga qaramay, hisobingizning to‘lov muddati ancha o‘tib ketganini "
+"ko‘rib, juda xafa bo‘ldik. <br/> Darhol to‘lov amalga oshirilishi juda "
+"muhim, aks holda sizning hisobingizni to‘xtatishni ko‘rib chiqishga majbur "
+"bo‘lamiz. Bu esa kompaniyangizga (tovarlar/xizmatlar) yetkazib berishni "
+"to‘xtatishimizni anglatadi. Iltimos, keyingi 8 kun ichida ushbu to‘lovni "
+"amalga oshirish uchun zarur choralarni ko‘ring. <br/> Agar hisob-fakturani "
+"to‘lashda biz bilmagan biror muammo bo‘lsa, masalani tezda hal qilishimiz "
+"uchun buxgalteriya bo‘limimiz bilan bog‘lanishdan tortinmang. <br/> "
+"To‘lanishi kerak bo‘lgan summalar tafsiloti quyida keltirilgan. <br/> Hurmat "
+"bilan, <t t-if=\"not "
+"is_html_empty(object._get_followup_responsible().signature)\"> <br/> <t t-"
+"out=\"object._get_followup_responsible().signature\"/> </t> <t t-else=\"\"> "
+"<br/> -- <br/> <t t-out=\"object._get_followup_responsible().name\"/> </t> </"
+"p> </div>"
+
+#. module: account_followup
+#: model:mail.template,body_html:account_followup.email_template_followup_1
+#, fuzzy
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p>\n"
+"                        <t t-if=\"object.id != "
+"object.commercial_partner_id.id\">Dear <t t-out=\"object.name or ''\"/> (<t "
+"t-out=\"object.commercial_partner_id.name or ''\"/>),</t>\n"
+"                        <t t-else=\"\">Dear <t t-out=\"object.name or ''\"/>,"
+"</t>\n"
+"                    </p>\n"
+"                    <p>\n"
+"                        We would like to inform you that your account shows "
+"an outstanding balance of <b><t t-"
+"out=\"format_amount(object.total_overdue_followup, object.currency_id) or "
+"''\"/></b>.\n"
+"                        We kindly ask that you settle this amount within the "
+"next <b>8 days</b>.\n"
+"                    </p>\n"
+"                    <p t-if=\"object._show_pay_now_button()\">\n"
+"                        <a t-att-href=\"'/my/invoices/overdue'\" "
+"style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: "
+"none !important; font-weight: 400; background-color: #875A7B; border: 0px "
+"solid #875A7B; border-radius:3px\">Pay now</a>\n"
+"                    </p>\n"
+"                    <p>\n"
+"                        If payment has already been made, please disregard "
+"this notice.\n"
+"                        For any questions or if you need assistance, feel "
+"free to contact our accounting department.\n"
+"                    </p>\n"
+"                    <p>\n"
+"                        We appreciate your cooperation in resolving this "
+"matter.\n"
+"                    </p>\n"
+"                    <p>\n"
+"                        Sincerely,\n"
+"                    </p>\n"
+"                    <p>\n"
+"                        <t t-if=\"not "
+"is_html_empty(object._get_followup_responsible().signature)\">\n"
+"                            <t t-"
+"out=\"object._get_followup_responsible().signature\"/>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <t t-"
+"out=\"object._get_followup_responsible().name\"/>\n"
+"                        </t>\n"
+"                    </p>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p>\n"
+"        <t t-if=\"object.id != object.commercial_partner_id.id\">Hurmatli <t "
+"t-out=\"object.name or ''\"/> (<t t-out=\"object.commercial_partner_id.name "
+"or ''\"/>),</t>\n"
+"        <t t-else=\"\">Hurmatli <t t-out=\"object.name or ''\"/>,</t>\n"
+"    </p>\n"
+"    <p>\n"
+"        Sizning hisobingizda <b><t t-"
+"out=\"format_amount(object.total_overdue_followup, object.currency_id) or "
+"''\"/></b> miqdoridagi to‘lanmagan qarz mavjudligini ma'lum qilmoqchimiz. "
+"Iltimos, ushbu summani keyingi <b>8 kun ichida</b> to‘lashingizni so‘raymiz. "
+"</p>\n"
+"    <p t-if=\"object._show_pay_now_button()\">\n"
+"        <a t-att-href=\"'/my/invoices/overdue'\" style=\"padding: 8px 12px; "
+"font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-"
+"weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-"
+"radius:3px\">Hozir to‘lash</a>\n"
+"    </p>\n"
+"    <p>\n"
+"        Agar to‘lov allaqachon amalga oshirilgan bo‘lsa, ushbu xabarnomani "
+"e'tiborsiz qoldiring. Savollaringiz bo‘lsa yoki yordam kerak bo‘lsa, "
+"buxgalteriya bo‘limimiz bilan bog‘lanishingiz mumkin. </p>\n"
+"    <p>\n"
+"        Ushbu masalani hal qilishdagi hamkorligingiz uchun minnatdormiz. </"
+"p>\n"
+"    <p>\n"
+"        Hurmat bilan,\n"
+"    </p>\n"
+"    <p>\n"
+"        <t t-if=\"not "
+"is_html_empty(object._get_followup_responsible().signature)\">\n"
+"            <t t-out=\"object._get_followup_responsible().signature\"/>\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            <t t-out=\"object._get_followup_responsible().name\"/>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.res_partner_view_form
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Due</span>"
+msgstr "<span class=\"o_stat_text\">To‘lanishi kerak</span>"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.template_followup_report
+#, fuzzy
+msgid ""
+"<strong>\n"
+"                                Pending Invoices\n"
+"                            </strong>"
+msgstr "<strong>Kutilayotgan schot-fakturalar</strong>"
+
+#. module: account_followup
+#: model:ir.model.constraint,message:account_followup.constraint_account_followup_followup_line_uniq_name
+#, fuzzy
+msgid ""
+"A follow-up action name must be unique. This name is already set to another "
+"action."
+msgstr ""
+"Kuzatuv harakati nomi noyob bo‘lishi kerak. Bu nom allaqachon boshqa "
+"harakatga berilgan."
+
+#. module: account_followup
+#: model:ir.model.fields.selection,name:account_followup.selection__account_followup_followup_line__activity_default_responsible_type__account_manager
+#, fuzzy
+msgid "Account Manager"
+msgstr "Hisob boshqaruvchisi"
+
+#. module: account_followup
+#: model:ir.actions.server,name:account_followup.ir_cron_follow_up_ir_actions_server
+#, fuzzy
+msgid "Account Report Followup; Execute followup"
+msgstr "Hisob hisoboti kuzatuvi; Kuzatuvni amalga oshirish"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "Actions"
+msgstr "Harakatlar"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_tree
+#, fuzzy
+msgid "Activity"
+msgstr "Faoliyat"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "Activity Notes"
+msgstr "Faoliyat yozuvlari"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__activity_type_id
+#, fuzzy
+msgid "Activity Type"
+msgstr "Faoliyat turi"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.template_followup_report
+#, fuzzy
+msgid "Add a note"
+msgstr "Izoh qo‘shish"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Add contacts to notify..."
+msgstr "Xabardor qilish uchun kontaktlar qo‘shish..."
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__additional_follower_ids
+#, fuzzy
+msgid "Add followers"
+msgstr "Kuzatuvchilar qo‘shish"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.followup_filter_info_template
+#, fuzzy
+msgid "Address"
+msgstr "Manzil"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__join_invoices
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__join_invoices
+#, fuzzy
+msgid "Attach Invoices"
+msgstr "Schot-fakturalarni biriktirish"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__attachment_ids
+#, fuzzy
+msgid "Attachment"
+msgstr "Ilova"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__auto_execute
+#: model:ir.model.fields.selection,name:account_followup.selection__res_partner__followup_reminder_type__automatic
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_line_filter
+#, fuzzy
+msgid "Automatic"
+msgstr "Avtomatik"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__body_has_template_value
+#, fuzzy
+msgid "Body content is the same as the template"
+msgstr "Matn mazmuni andoza bilan bir xil"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__can_edit_body
+#, fuzzy
+msgid "Can Edit Body"
+msgstr "Matnni tahrirlash mumkin"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.missing_information_view_form
+#, fuzzy
+msgid "Close"
+msgstr "Yopish"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "Communication"
+msgstr "Muloqot"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: account_followup
+#: model:ir.model,name:account_followup.model_res_partner
+#, fuzzy
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Content Template"
+msgstr "Mazmun andozasi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__body
+#, fuzzy
+msgid "Contents"
+msgstr "Tarkib"
+
+#. module: account_followup
+#: model:ir.model,website_form_label:account_followup.model_res_partner
+#, fuzzy
+msgid "Create a Customer"
+msgstr "Mijoz yaratish"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__create_uid
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__create_uid
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_missing_information_wizard__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__create_date
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__create_date
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_missing_information_wizard__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.followup_filter_info_template
+#, fuzzy
+msgid "Customer ref:"
+msgstr "Mijoz havolasi:"
+
+#. module: account_followup
+#: model:ir.actions.client,name:account_followup.action_account_followup
+#, fuzzy
+msgid "Customers Statement"
+msgstr "Mijozlar bayonoti"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "Date"
+msgstr "Sana"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.followup_filter_info_template
+#, fuzzy
+msgid "Date:"
+msgstr "Sana:"
+
+#. module: account_followup
+#: model:ir.model.constraint,message:account_followup.constraint_account_followup_followup_line_days_uniq
+#, fuzzy
+msgid "Days of the follow-up lines must be different per company"
+msgstr ""
+"Kuzatuv qatorlari kunlari har bir kompaniya uchun farqli bo‘lishi kerak"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid ""
+"Dear %s,\n"
+"\n"
+"\n"
+"Exception made if there was a mistake of ours, it seems that the following "
+"amount stays unpaid. Please, take appropriate measures in order to carry out "
+"this payment in the next 8 days.\n"
+"\n"
+"Would your payment have been carried out after this mail was sent, please "
+"ignore this message. Do not hesitate to contact our accounting department.\n"
+"\n"
+"Best Regards,\n"
+"\n"
+msgstr ""
+"Hurmatli %s, Bizning xatomiz tufayli istisno qilingan holatlar bundan "
+"mustasno, quyidagi summa to‘lanmay qolganini ma'lum qilamiz. Iltimos, ushbu "
+"to‘lovni keyingi 8 kun ichida amalga oshirish uchun tegishli choralar "
+"ko‘ring.  Agar to‘lov ushbu xat yuborilganidan so‘ng amalga oshirilgan "
+"bo‘lsa, bu xabarga e'tibor bermang. Bizning buxgalteriya bo‘limimiz bilan "
+"bog‘lanishdan tortinmang.  Hurmat bilan,"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid ""
+"Dear client, we kindly remind you that you still have unpaid invoices. "
+"Please check them and take appropriate action. %s"
+msgstr ""
+"Hurmatli mijoz, sizda hali ham to‘lanmagan schot-fakturalar borligini "
+"eslatib o‘tamiz. Iltimos, ularni tekshiring va tegishli choralar ko‘ring. %s"
+
+#. module: account_followup
+#: model_terms:ir.actions.act_window,help:account_followup.action_account_followup_line_definition_form
+#, fuzzy
+msgid "Define follow-up levels and their related actions"
+msgstr "Kuzatuv darajalari va ularga tegishli harakatlarni belgilash"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.followup_filter_info_template
+#, fuzzy
+msgid "Demo Ref"
+msgstr "Demo havola"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__name
+#, fuzzy
+msgid "Description"
+msgstr "Tavsif"
+
+#. module: account_followup
+#: model:ir.model.fields,help:account_followup.field_account_followup_followup_line__activity_default_responsible_type
+#, fuzzy
+msgid ""
+"Determine who will be assigned to the activity:\n"
+"- Follow-up Responsible (default)\n"
+"- Salesperson: Sales Person defined on the invoice\n"
+"- Account Manager: Sales Person defined on the customer"
+msgstr ""
+"Faoliyatga kim tayinlanishini aniqlang: - Kuzatuv mas'uli (standart) - "
+"Sotuvchi: Schot-fakturada ko‘rsatilgan sotuvchi - Hisob boshqaruvchisi: "
+"Mijozda ko‘rsatilgan sotuvchi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__display_name
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__display_name
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_missing_information_wizard__display_name
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_report__display_name
+#: model:ir.model.fields,field_description:account_followup.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:account_followup.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "Due Date"
+msgstr "To‘lov muddati"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__delay
+#, fuzzy
+msgid "Due Days"
+msgstr "Muddatli kunlar"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__send_email
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__email
+#, fuzzy
+msgid "Email"
+msgstr "Elektron pochta"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Email Recipients"
+msgstr "Elektron pochta qabul qiluvchilari"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Email Subject"
+msgstr "Elektron pochta mavzusi"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "Email Template"
+msgstr "Elektron pochta andozasi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__email_recipient_ids
+#, fuzzy
+msgid "Extra Recipients"
+msgstr "Qo‘shimcha qabul qiluvchilar"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/res_partner.py:0
+#, fuzzy
+msgid "Follow-up %(partner)s - %(date)s.pdf"
+msgstr "%(partner)s kuzatuvi - %(date)s.pdf"
+
+#. module: account_followup
+#: model:ir.model,name:account_followup.model_account_followup_followup_line
+#, fuzzy
+msgid "Follow-up Criteria"
+msgstr "Kuzatuv mezonlari"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_move_line__followup_line_id
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__followup_line_id
+#: model:ir.model.fields,field_description:account_followup.field_res_users__followup_line_id
+#, fuzzy
+msgid "Follow-up Level"
+msgstr "Kuzatuv darajasi"
+
+#. module: account_followup
+#: model:ir.actions.act_window,name:account_followup.action_account_followup_line_definition_form
+#: model:ir.ui.menu,name:account_followup.account_followup_menu
+#, fuzzy
+msgid "Follow-up Levels"
+msgstr "Kuzatuv darajalari"
+
+#. module: account_followup
+#: model:ir.model,name:account_followup.model_account_followup_report
+#, fuzzy
+msgid "Follow-up Report"
+msgstr "Kuzatuv hisoboti"
+
+#. module: account_followup
+#: model:ir.model.fields.selection,name:account_followup.selection__account_followup_followup_line__activity_default_responsible_type__followup
+#, fuzzy
+msgid "Follow-up Responsible"
+msgstr "Kuzatuv mas'uli"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__followup_status
+#: model:ir.model.fields,field_description:account_followup.field_res_users__followup_status
+#, fuzzy
+msgid "Follow-up Status"
+msgstr "Kuzatuv holati"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_tree
+#, fuzzy
+msgid "Follow-up Steps"
+msgstr "Keyingi qadamlar"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.report_followup_print_all
+#, fuzzy
+msgid "Follow-up details"
+msgstr "Kuzatuv tafsilotlari"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "Follow-up letter generated"
+msgstr "Kuzatuv xati yaratildi"
+
+#. module: account_followup
+#: model:ir.model,name:account_followup.model_account_followup_missing_information_wizard
+#, fuzzy
+msgid "Followup missing information wizard"
+msgstr "Yetishmayotgan ma'lumotlar uchun kuzatuv yordamchisi"
+
+#. module: account_followup
+#: model_terms:ir.actions.act_window,help:account_followup.action_account_followup_line_definition_form
+#, fuzzy
+msgid ""
+"For each step, specify the actions to be taken and delay in days. It is\n"
+"            possible to use print and e-mail templates to send specific "
+"messages to\n"
+"            the customer."
+msgstr ""
+"Har bir qadam uchun bajarilishi kerak bo‘lgan harakatlarni va kechikish "
+"kunlarini belgilang. Mijozga aniq xabarlar yuborish uchun chop etish va "
+"elektron pochta andozalaridan foydalanish mumkin."
+
+#. module: account_followup
+#: model:mail.template,name:account_followup.demo_followup_email_template_4
+#, fuzzy
+msgid "Fourth reminder followup"
+msgstr "To‘rtinchi eslatma kuzatuvi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__has_moves
+#: model:ir.model.fields,field_description:account_followup.field_res_users__has_moves
+#, fuzzy
+msgid "Has Moves"
+msgstr "Harakatlari mavjud"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__id
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__id
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_missing_information_wizard__id
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_report__id
+#: model:ir.model.fields,field_description:account_followup.field_account_move_line__id
+#: model:ir.model.fields,field_description:account_followup.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: account_followup
+#: model:ir.model.fields,help:account_followup.field_account_followup_followup_line__additional_follower_ids
+#, fuzzy
+msgid ""
+"If set, those users will be added as followers on the partner and receive "
+"notifications about any email reply made by the partner on the reminder "
+"email."
+msgstr ""
+"Agar belgilansa, bu foydalanuvchilar hamkor kuzatuvchilari sifatida "
+"qo‘shiladi va eslatma xatiga hamkor tomonidan yuborilgan har qanday elektron "
+"pochta javobi haqida bildirishnomalar oladi."
+
+#. module: account_followup
+#: model:ir.model.fields.selection,name:account_followup.selection__res_partner__followup_status__in_need_of_action
+#, fuzzy
+msgid "In need of action"
+msgstr "Harakat talab etiladi"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_partner_property_form_followup
+#, fuzzy
+msgid "Invoice Follow-ups"
+msgstr "Hisob-faktura kuzatuvlari"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.template_followup_report
+#, fuzzy
+msgid "Invoices Analysis"
+msgstr "Hisob-fakturalar tahlili"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__is_mail_template_editor
+#, fuzzy
+msgid "Is Editor"
+msgstr "Muharrir"
+
+#. module: account_followup
+#: model:ir.model,name:account_followup.model_account_move_line
+#, fuzzy
+msgid "Journal Item"
+msgstr "Jurnal yozuvi"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/res_partner.py:0
+#: model_terms:ir.ui.view,arch_db:account_followup.view_partner_property_form_followup
+#, fuzzy
+msgid "Journal Items"
+msgstr "Jurnal yozuvlari"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Kind reminder!"
+msgstr "Muloyim eslatma!"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__lang
+#, fuzzy
+msgid "Language"
+msgstr "Til"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__write_uid
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__write_uid
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_missing_information_wizard__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__write_date
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__write_date
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_missing_information_wizard__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Letter/Email Content"
+msgstr "Xat/Elektron pochta mazmuni"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__mail_template_id
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__template_id
+#, fuzzy
+msgid "Mail Template"
+msgstr "Xat andozasi"
+
+#. module: account_followup
+#: model:ir.model.fields.selection,name:account_followup.selection__res_partner__followup_reminder_type__manual
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_line_filter
+#, fuzzy
+msgid "Manual"
+msgstr "Qo‘lda"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/res_partner.py:0
+#: code:addons/account_followup/wizard/followup_missing_information.py:0
+#, fuzzy
+msgid "Missing information"
+msgstr "Yetishmayotgan ma'lumot"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.line_template
+#, fuzzy
+msgid "Name"
+msgstr "Nomi"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/res_partner.py:0
+#, fuzzy
+msgid "Next Reminder Date set to %s"
+msgstr "Keyingi eslatma sanasi %s ga belgilandi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__followup_next_action_date
+#: model:ir.model.fields,field_description:account_followup.field_res_users__followup_next_action_date
+#, fuzzy
+msgid "Next reminder"
+msgstr "Keyingi eslatma"
+
+#. module: account_followup
+#: model:ir.model.fields.selection,name:account_followup.selection__res_partner__followup_status__no_action_needed
+#, fuzzy
+msgid "No action needed"
+msgstr "Harakat talab etilmaydi"
+
+#. module: account_followup
+#: model:ir.model.fields,help:account_followup.field_res_partner__followup_next_action_date
+#: model:ir.model.fields,help:account_followup.field_res_users__followup_next_action_date
+#, fuzzy
+msgid ""
+"No follow-up action will be taken before this date.\n"
+"                Sending a reminder will set this date depending on the "
+"levels configuration, and you can change it manually."
+msgstr ""
+"Bu sanadan oldin hech qanday kuzatuv harakati amalga oshirilmaydi. Eslatma "
+"yuborish bu sanani darajalar sozlamasiga ko‘ra o‘rnatadi va siz uni qo‘lda "
+"o‘zgartirishingiz mumkin."
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__activity_note
+#, fuzzy
+msgid "Note"
+msgstr "Izoh"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "Notification"
+msgstr "Bildirishnoma"
+
+#. module: account_followup
+#: model:ir.model.fields,help:account_followup.field_account_followup_manual_reminder__lang
+#, fuzzy
+msgid ""
+"Optional translation language (ISO code) to select when sending out an "
+"email. If not set, the main partner's language will be used. This should "
+"usually be a placeholder expression that provides the appropriate language, "
+"e.g. {{ object.partner_id.lang }}."
+msgstr ""
+"Elektron pochta yuborishda tanlanadigan ixtiyoriy tarjima tili (ISO kodi). "
+"Agar belgilanmasa, asosiy hamkorning tili ishlatiladi. Bu odatda mos tilni "
+"ta'minlaydigan to‘ldiruvchi ifoda bo‘lishi kerak, masalan: "
+"{{ object.partner_id.lang }}."
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "Options"
+msgstr "Parametrlar"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#: model:ir.model.fields,field_description:account_followup.field_account_move_line__invoice_origin
+#, fuzzy
+msgid "Origin"
+msgstr "Kelib chiqishi"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.customer_statements_search_view
+msgid "Overdue Customer Invoices"
+msgstr ""
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/res_partner.py:0
+#, fuzzy
+msgid "Overdue Invoices"
+msgstr "Muddati o‘tgan hisob-fakturalar"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__partner_id
+#, fuzzy
+msgid "Partner"
+msgstr "Hamkor"
+
+#. module: account_followup
+#: model:mail.template,name:account_followup.email_template_followup_1
+#, fuzzy
+msgid "Payment Reminder"
+msgstr "To‘lov eslatmasi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__print
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Print"
+msgstr "Chop etish"
+
+#. module: account_followup
+#: model:ir.actions.report,name:account_followup.action_report_followup
+#, fuzzy
+msgid "Print Follow-up Letter"
+msgstr "Kuzatuv xatini chop etish"
+
+#. module: account_followup
+#: model:ir.actions.server,name:account_followup.action_account_reports_customer_statements_do_followup
+#, fuzzy
+msgid "Process Follow-ups"
+msgstr "Kuzatuvlarni amalga oshirish"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "Reference"
+msgstr "Havola"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "Remind"
+msgstr "Eslatish"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__followup_reminder_type
+#: model:ir.model.fields,field_description:account_followup.field_res_users__followup_reminder_type
+#, fuzzy
+msgid "Reminders"
+msgstr "Eslatmalar"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__render_model
+#, fuzzy
+msgid "Rendering Model"
+msgstr "Aks ettirish modeli"
+
+#. module: account_followup
+#: model:ir.model,name:account_followup.model_ir_actions_report
+#, fuzzy
+msgid "Report Action"
+msgstr "Hisobot harakati"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.customer_statements_search_view
+#, fuzzy
+msgid "Requires Follow-up"
+msgstr "Kuzatuv talab etiladi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__activity_default_responsible_type
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__followup_responsible_id
+#: model:ir.model.fields,field_description:account_followup.field_res_users__followup_responsible_id
+#, fuzzy
+msgid "Responsible"
+msgstr "Mas'ul"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__send_sms
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "SMS"
+msgstr "SMS"
+
+#. module: account_followup
+#: model:ir.model.fields.selection,name:account_followup.selection__account_followup_followup_line__activity_default_responsible_type__salesperson
+#, fuzzy
+msgid "Salesperson"
+msgstr "Sotuvchi"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__create_activity
+#, fuzzy
+msgid "Schedule Activity"
+msgstr "Faoliyatni rejalashtirish"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_line_filter
+#, fuzzy
+msgid "Search Follow-up"
+msgstr "Kuzatuvni qidirish"
+
+#. module: account_followup
+#: model:mail.template,name:account_followup.demo_followup_email_template_2
+#, fuzzy
+msgid "Second reminder followup"
+msgstr "Ikkinchi eslatma kuzatuvi"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#: model_terms:ir.ui.view,arch_db:account_followup.view_partner_property_form_followup
+#, fuzzy
+msgid "Send"
+msgstr "Yuborish"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Send & Print"
+msgstr "Yuborish va chop etish"
+
+#. module: account_followup
+#: model:ir.actions.act_window,name:account_followup.manual_reminder_action
+#, fuzzy
+msgid "Send and Print"
+msgstr "Yuborish va chop etish"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__show_print_button
+#, fuzzy
+msgid "Show Print Button"
+msgstr "Chop etish tugmasini ko‘rsatish"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__show_send_button
+#, fuzzy
+msgid "Show Send Button"
+msgstr "Yuborish tugmasini ko‘rsatish"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__sms
+#, fuzzy
+msgid "Sms"
+msgstr "SMS"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__sms_body
+#, fuzzy
+msgid "Sms Body"
+msgstr "SMS matni"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Sms Content"
+msgstr "SMS mazmuni"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__sms_template_id
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__sms_template_id
+#, fuzzy
+msgid "Sms Template"
+msgstr "SMS shabloni"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_manual_reminder__subject
+#, fuzzy
+msgid "Subject"
+msgstr "Mavzu"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__activity_summary
+#, fuzzy
+msgid "Summary"
+msgstr "Qisqacha mazmun"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.table_header_template_followup_report
+#, fuzzy
+msgid "Table Header"
+msgstr "Jadval sarlavhasi"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.line_template
+#, fuzzy
+msgid "Table Value"
+msgstr "Jadval qiymati"
+
+#. module: account_followup
+#: model:ir.model.fields,help:account_followup.field_account_move_line__invoice_origin
+#, fuzzy
+msgid "The document(s) that generated the invoice."
+msgstr "Hisob-fakturani yaratgan hujjat(lar)."
+
+#. module: account_followup
+#: model:ir.model.fields,help:account_followup.field_account_followup_followup_line__delay
+#, fuzzy
+msgid ""
+"The number of days after the due date of the invoice to wait before sending "
+"the reminder. Can be negative if you want to send the reminder before the "
+"invoice due date."
+msgstr ""
+"Eslatmani yuborishdan oldin hisob-faktura muddati tugaganidan keyin kutish "
+"kerak bo‘lgan kunlar soni. Agar eslatmani to‘lov muddatidan oldin "
+"yubormoqchi bo‘lsangiz, manfiy son bo‘lishi mumkin."
+
+#. module: account_followup
+#: model:ir.model.fields,help:account_followup.field_res_partner__followup_responsible_id
+#: model:ir.model.fields,help:account_followup.field_res_users__followup_responsible_id
+#, fuzzy
+msgid ""
+"The responsible assigned to manual followup activities, if defined in the "
+"level."
+msgstr ""
+"Agar darajada belgilangan bo‘lsa, qo‘lda kuzatish faoliyatlariga mas'ul "
+"shaxs."
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.customer_statements_tree_view
+#, fuzzy
+msgid "Total"
+msgstr "Jami"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__total_all_due
+#: model:ir.model.fields,field_description:account_followup.field_res_users__total_all_due
+#, fuzzy
+msgid "Total All Due"
+msgstr "Jami to‘lanishi kerak"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__total_all_overdue
+#: model:ir.model.fields,field_description:account_followup.field_res_users__total_all_overdue
+#, fuzzy
+msgid "Total All Overdue"
+msgstr "Jami muddati o‘tgan"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__total_due
+#: model:ir.model.fields,field_description:account_followup.field_res_users__total_due
+#, fuzzy
+msgid "Total Due"
+msgstr "Umumiy to‘lov"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__total_overdue
+#: model:ir.model.fields,field_description:account_followup.field_res_users__total_overdue
+#, fuzzy
+msgid "Total Overdue"
+msgstr "Umumiy muddati o‘tgan"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__total_overdue_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_users__total_overdue_followup
+#, fuzzy
+msgid "Total Overdue Followup"
+msgstr "Jami kechiktirilgan kuzatuv"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__unpaid_invoice_ids
+#: model:ir.model.fields,field_description:account_followup.field_res_users__unpaid_invoice_ids
+#, fuzzy
+msgid "Unpaid Invoice"
+msgstr "To‘lanmagan hisob-faktura"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__unpaid_invoices_count
+#: model:ir.model.fields,field_description:account_followup.field_res_users__unpaid_invoices_count
+#, fuzzy
+msgid "Unpaid Invoices Count"
+msgstr "To‘lanmagan hisob-fakturalar soni"
+
+#. module: account_followup
+#: model:ir.model.fields,field_description:account_followup.field_res_partner__unreconciled_aml_ids
+#: model:ir.model.fields,field_description:account_followup.field_res_users__unreconciled_aml_ids
+#, fuzzy
+msgid "Unreconciled Aml"
+msgstr "Kelishilmagan Aml"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.missing_information_view_form
+#, fuzzy
+msgid "View partners"
+msgstr "Hamkorlarni ko‘rish"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.missing_information_view_form
+#, fuzzy
+msgid ""
+"We were not able to process some of the automated follow-up actions due to "
+"missing information on the partners."
+msgstr ""
+"Hamkorlar haqidagi ma'lumotlar yetishmasligi sababli ba'zi avtomatik kuzatuv "
+"harakatlarini bajara olmadik."
+
+#. module: account_followup
+#: model:ir.model.fields.selection,name:account_followup.selection__res_partner__followup_status__with_overdue_invoices
+#, fuzzy
+msgid "With overdue invoices"
+msgstr "Muddati o‘tgan hisob-fakturalari bor"
+
+#. module: account_followup
+#: model:ir.model,name:account_followup.model_account_followup_manual_reminder
+#, fuzzy
+msgid "Wizard for sending manual reminders to clients"
+msgstr "Mijozlarga qo‘lda eslatmalar yuborish yo‘riqnomasi"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.manual_reminder_view_form
+#, fuzzy
+msgid "Write your message here..."
+msgstr "Xabaringizni shu yerga yozing..."
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid ""
+"You are trying to send an Email, but no follow-up contact has any email "
+"address set for customer '%s'"
+msgstr ""
+"Siz elektron xat yubormoqchisiz, lekin '%s' mijozi uchun hech qaysi kuzatuv "
+"kontaktida elektron pochta manzili o‘rnatilmagan"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid ""
+"You are trying to send an SMS, but no follow-up contact has any mobile/phone "
+"number set for customer '%s'"
+msgstr ""
+"Siz SMS yubormoqchisiz, lekin '%s' mijozi uchun hech qaysi kuzatuv "
+"kontaktida mobil/telefon raqami o‘rnatilmagan"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/res_partner.py:0
+#, fuzzy
+msgid "commercial_partner_id"
+msgstr "tijoriy_hamkor_id"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "days after due date"
+msgstr "muddatdan keyin kunlar"
+
+#. module: account_followup
+#: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
+#, fuzzy
+msgid "e.g. First Reminder Email"
+msgstr "masalan, Birinchi eslatma xati"
+
+#. module: account_followup
+#. odoo-python
+#: code:addons/account_followup/models/account_followup_report.py:0
+#, fuzzy
+msgid "payment reminder"
+msgstr "to‘lov eslatmasi"
+
+#. module: account_followup
+#: model:mail.template,subject:account_followup.demo_followup_email_template_2
+#: model:mail.template,subject:account_followup.demo_followup_email_template_4
+#: model:mail.template,subject:account_followup.email_template_followup_1
+#, fuzzy
+msgid ""
+"{{ (object.company_id or "
+"object._get_followup_responsible().company_id).name }} Payment Reminder - "
+"{{ object.commercial_company_name }}"
+msgstr ""
+"{{ (object.company_id or "
+"object._get_followup_responsible().company_id).name }} To‘lov eslatmasi - "
+"{{ object.commercial_company_name }}"

@@ -1,0 +1,513 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_generator
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:48+0000\n"
+"PO-Revision-Date: 2026-06-08 08:25+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"website_generator/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: website_generator
+#: model:mail.template,body_html:website_generator.email_template_website_scrapped
+msgid ""
+"<div>\n"
+"            <p><b>Great news!</b> Your website conversion is complete and your new integrated Odoo website is now live.</p>\n"
+"            <p>Check out your new website here: <a t-att-href=\"ctx.get('website_url')\"><t t-out=\"ctx.get('website_url')\"/></a></p>\n"
+"            <p>Thank you for choosing Odoo for your web integration!</p>\n"
+"            <p>Best regards,</p>\n"
+"            <br/>\n"
+"            <p>Odoo - The best open source website builder.</p>\n"
+"            </div>\n"
+"            "
+msgstr ""
+"<div>\n"
+"            <p><b>ຂ່າວດີ!</b> ການແປງເວັບໄຊຂອງທ່ານສຳເລັດແລ້ວ ແລະ ເວັບໄຊ Odoo ໃໝ່ທີ່ເຊື່ອມຕໍ່"
+"ຄົບຊຸດຂອງທ່ານແມ່ນພ້ອມໃຊ້ງານແລ້ວ.</p>\n"
+"            <p>ກວດເບິ່ງເວັບໄຊໃໝ່ຂອງທ່ານໄດ້ທີ່ນີ້: <a t-att-href=\"ctx.get"
+"('website_url')\"><t t-out=\"ctx.get('website_url')\"/></a></p>\n"
+"            <p>ຂອບໃຈທີ່ເລືອກໃຊ້ Odoo ສຳລັບການເຊື່ອມຕໍ່ເວັບໄຊຂອງທ່ານ!</p>\n"
+"            <p>ດ້ວຍຄວາມນັບຖື,</p>\n"
+"            <br/>\n"
+"            <p>Odoo - ເຄື່ອງມືສ້າງເວັບໄຊແບບ Open Source ທີ່ດີທີ່ສຸດ.</p>\n"
+"            </div>\n"
+"            "
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__additional_urls
+msgid "Additional URLs"
+msgstr "URL ເພີ່ມເຕີມ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "An error occurred"
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Attachment not found"
+msgstr "ບໍ່ພົບໄຟລ໌ຄັດຕິດ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Banned url"
+msgstr "URL ທີ່ຖືກຫ້າມ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid ""
+"By clicking \"Import my website\", you confirm that you are the owner of the"
+" website and all associated components (such as images and other content), "
+"and you take full responsibility for their use and any potential legal "
+"implications."
+msgstr ""
+"ໂດຍການຄລິກ \"ນຳເຂົ້າເວັບໄຊຂອງຂ້ອຍ\", ທ່ານຢືນຢັນວ່າທ່ານເປັນເຈົ້າຂອງເວັບໄຊ ແລະ ສ່ວນປະກອບທັງໝົດທີ່ກ່"
+"ຽວຂ້ອງ (ເຊັ່ນ: ຮູບພາບ ແລະ ເນື້ອຫາອື່ນໆ), ແລະ ທ່ານຮັບຜິດຊອບຢ່າງເຕັມສ່ວນຕໍ່ການນຳໃຊ້ ແລະ ຜົນກະທົບທາ"
+"ງກົດໝາຍທີ່ອາດຈະເກີດຂຶ້ນ."
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Could not fetch result, invalid output uuid or result expired"
+msgstr "ບໍ່ສາມາດດຶງຜົນໄດ້ຮັບໄດ້, UUID ຜົນອອກບໍ່ຖືກຕ້ອງ ຫຼື ຜົນໄດ້ຮັບໝົດອາຍຸແລ້ວ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_ir_http__display_name
+#: model:ir.model.fields,field_description:website_generator.field_website__display_name
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__display_name
+#: model:ir.model.fields,field_description:website_generator.field_website_page__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Done, website generated"
+msgstr "ສຳເລັດແລ້ວ, ສ້າງເວັບໄຊແລ້ວ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.js:0
+msgid "Error"
+msgstr "ຂໍ້ຜິດພາດ"
+
+#. module: website_generator
+#: model:ir.model,name:website_generator.model_ir_http
+msgid "HTTP Routing"
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_ir_http__id
+#: model:ir.model.fields,field_description:website_generator.field_website__id
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__id
+#: model:ir.model.fields,field_description:website_generator.field_website_page__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "If you require more, you can contact us at"
+msgstr "ຖ້າທ່ານຕ້ອງການເພີ່ມເຕີມ, ທ່ານສາມາດຕິດຕໍ່ພວກເຮົາໄດ້ທີ່"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "Import Products"
+msgstr "ນຳເຂົ້າສິນຄ້າ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "Import my website"
+msgstr "ນຳເຂົ້າເວັບໄຊຂອງຂ້ອຍ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "Import your"
+msgstr "ນຳເຂົ້າ ຂອງທ່ານ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/builder/imported_footer_template_choice.xml:0
+msgid "Imported"
+msgstr "ນຳເຂົ້າແລ້ວ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/builder/imported_footer_plugin.js:0
+msgid "Imported Footer"
+msgstr "ສ່ວນທ້າຍເວັບໄຊທີ່ນຳເຂົ້າ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/generator_wait/generator.js:0
+msgid "Importing your website."
+msgstr "ກຳລັງນຳເຂົ້າເວັບໄຊຂອງທ່ານ."
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Invalid dbuuid"
+msgstr "dbuuid ບໍ່ຖືກຕ້ອງ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Invalid import products"
+msgstr "ການນຳເຂົ້າສິນຄ້າບໍ່ຖືກຕ້ອງ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Invalid token"
+msgstr "Token ບໍ່ຖືກຕ້ອງ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Invalid url"
+msgstr "URL ບໍ່ຖືກຕ້ອງ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "Loading..."
+msgstr "ກຳລັງໂຫຼດ..."
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__notified
+msgid "Notified"
+msgstr "ແຈ້ງເຕືອນແລ້ວ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Number of allowed requests exhausted"
+msgstr "ຈຳນວນຄຳຮ້ອງຂໍທີ່ອະນຸຍາດໝົດແລ້ວ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Number of concurrent requests exceeded"
+msgstr "ຈຳນວນຄຳຮ້ອງຂໍທີ່ເຮັດພ້ອມກັນເກີນກຳນົດ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__page_count
+msgid "Number of pages"
+msgstr "ຈຳນວນໜ້າ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__uuid
+msgid "Output UUID generated from Website Scraper Server"
+msgstr "Output UUID ທີ່ສ້າງຈາກເຊີບເວີດຶງຂໍ້ມູນເວັບໄຊ"
+
+#. module: website_generator
+#: model:ir.model,name:website_generator.model_website_page
+msgid "Page"
+msgstr "ໜ້າ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "Pages"
+msgstr "ໜ້າຕ່າງໆ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Processing"
+msgstr "ກຳລັງປະມວນຜົນ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "Products"
+msgstr "ສິນຄ້າ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Request is still processing, result not available yet"
+msgstr "ຄຳຮ້ອງຂໍຍັງຢູ່ໃນລະຫວ່າງການປະມວນຜົນ, ຍັງບໍ່ທັນມີຜົນໄດ້ຮັບເທື່ອ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Server is currently under maintenance. Please retry later"
+msgstr "ເຊີບເວີກຳລັງຢູ່ໃນລະຫວ່າງການບຳລຸງຮັກສາ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/generator_wait/generator.xml:0
+msgid "Something went wrong"
+msgstr "ມີບາງຢ່າງຜິດພາດ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.js:0
+msgid "Something went wrong while importing your website."
+msgstr "ມີບາງຢ່າງຜິດພາດໃນລະຫວ່າງການນຳເຂົ້າເວັບໄຊຂອງທ່ານ."
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__status
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__status_message
+msgid "Status Message"
+msgstr "ຂໍ້ຄວາມສະຖານະ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Success"
+msgstr "ສຳເລັດ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "The URL is not reachable."
+msgstr "ບໍ່ສາມາດເຂົ້າເຖິງ URL ນີ້ໄດ້."
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "The URL is reachable."
+msgstr "ສາມາດເຂົ້າເຖິງ URL ນີ້ໄດ້."
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/systray_items/generator_request.js:0
+msgid "The import of your website has started!"
+msgstr "ການນຳເຂົ້າເວັບໄຊຂອງທ່ານເລີ່ມຕົ້ນແລ້ວ!"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "The maximum number of pages is 200 by default."
+msgstr "ຈຳນວນໜ້າສູງສຸດແມ່ນ 200 ໜ້າ ໂດຍຄ່າເລີ່ມຕົ້ນ."
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.js:0
+msgid "The provided URL is not allowed"
+msgstr "URL ທີ່ລະບຸບໍ່ໄດ້ຮັບອະນຸຍາດ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.js:0
+msgid "The provided URL is not reachable"
+msgstr "URL ທີ່ລະບຸບໍ່ສາມາດເຂົ້າເຖິງໄດ້"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "The request asks for too many pages"
+msgstr "ຄຳຮ້ອງຂໍນີ້ຕ້ອງການໜ້າຫຼາຍເກີນໄປ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid ""
+"The requested url redirected to another url, try again with the redirected "
+"url"
+msgstr ""
+"URL ທີ່ຮ້ອງຂໍຖືກປ່ຽນເສັ້ນທາງໄປຫາ URL ອື່ນ, ກະລຸນາລອງໃໝ່ດ້ວຍ URL ທີ່ຖືກປ່ຽນເສັ້ນທາງນັ້ນ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid ""
+"The requested url took too long to load and is probably unreachable from the"
+" server"
+msgstr ""
+"URL ທີ່ຮ້ອງຂໍໃຊ້ເວລາໂຫຼດດົນເກີນໄປ ແລະ ອາດຈະບໍ່ສາມາດເຂົ້າເຖິງໄດ້ຈາກເຊີບເວີ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid ""
+"The same request has just been made, please wait before sending another "
+"identical request"
+msgstr ""
+"ມີການສົ່ງຄຳຮ້ອງຂໍດຽວກັນນີ້ແລ້ວ, ກະລຸນາລໍຖ້າກ່ອນທີ່ຈະສົ່ງຄຳຮ້ອງຂໍທີ່ຄືກັນອີກຄັ້ງ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/generator_wait/generator.xml:0
+msgid "This can take a few minutes."
+msgstr "ສິ່ງນີ້ອາດໃຊ້ເວລາສອງສາມນາທີ."
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.js:0
+msgid "Too many requests"
+msgstr "ມີຄຳຮ້ອງຂໍຫຼາຍເກີນໄປ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/page.py:0
+msgid "Top Menu for Website %s"
+msgstr "ເມນູເທິງສຸດສຳລັບເວັບໄຊ %s"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.js:0
+msgid "URL redirection"
+msgstr "ການປ່ຽນເສັ້ນທາງ URL"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__target_url
+msgid "URL to scrape"
+msgstr "URL ທີ່ຕ້ອງການດຶງຂໍ້ມູນ"
+
+#. module: website_generator
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__version
+msgid "Version"
+msgstr "ເວີຊັນ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Version is unsupported"
+msgstr "ເວີຊັນນີ້ບໍ່ຮອງຮັບ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Waiting for the server to process the request"
+msgstr "ກຳລັງລໍຖ້າໃຫ້ເຊີບເວີປະມວນຜົນຄຳຮ້ອງຂໍ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/generator_wait/generator.xml:0
+msgid "We could not convert your website, please try again later"
+msgstr "ພວກເຮົາບໍ່ສາມາດແປງເວັບໄຊຂອງທ່ານໄດ້, ກະລຸນາລອງໃໝ່ພາຍຫຼັງ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/systray_items/generator_request.js:0
+msgid "We will notify %(email)s when everything is ready."
+msgstr "ພວກເຮົາຈະແຈ້ງເຕືອນ %(email)s ເມື່ອທຸກຢ່າງພ້ອມແລ້ວ."
+
+#. module: website_generator
+#: model:ir.model,name:website_generator.model_website
+#: model:ir.model.fields,field_description:website_generator.field_website_generator_request__website_id
+msgid "Website"
+msgstr "ເວັບໄຊ"
+
+#. module: website_generator
+#: model:ir.actions.client,name:website_generator.website_generator_screen
+msgid "Website Generator"
+msgstr "ເຄື່ອງມືສ້າງເວັບໄຊ"
+
+#. module: website_generator
+#: model:ir.actions.server,name:website_generator.action_convert_scraping_request_ICP
+msgid "Website Generator After Install"
+msgstr "ເຄື່ອງມືສ້າງເວັບໄຊຫຼັງຈາກການຕິດຕັ້ງ"
+
+#. module: website_generator
+#: model:ir.model,name:website_generator.model_website_generator_request
+msgid "Website Generator Request"
+msgstr "ຄຳຮ້ອງຂໍສ້າງເວັບໄຊ"
+
+#. module: website_generator
+#: model:ir.actions.server,name:website_generator.cron_get_result_ir_actions_server
+msgid "Website Generator: Get website scraper results"
+msgstr "ເຄື່ອງມືສ້າງເວັບໄຊ: ດຶງຜົນໄດ້ຮັບຈາກລະບົບດຶງຂໍ້ມູນເວັບໄຊ"
+
+#. module: website_generator
+#: model:mail.template,name:website_generator.email_template_website_scrapped
+msgid "Website Scraped"
+msgstr "ດຶງຂໍ້ມູນເວັບໄຊສຳເລັດແລ້ວ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "Website URL"
+msgstr "URL ຂອງເວັບໄຊ"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Website blocked or unreachable"
+msgstr "ເວັບໄຊຖືກບລັອກ ຫຼື ບໍ່ສາມາດເຂົ້າເຖິງໄດ້"
+
+#. module: website_generator
+#. odoo-python
+#: code:addons/website_generator/models/generator.py:0
+msgid "Website not supported"
+msgstr "ເວັບໄຊບໍ່ຮອງຮັບ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/generator_wait/generator.xml:0
+msgid "You will be redirected once your website is ready."
+msgstr "ທ່ານຈະຖືກປ່ຽນເສັ້ນທາງເມື່ອເວັບໄຊຂອງທ່ານພ້ອມແລ້ວ."
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "You'll be able to create additional pages later on."
+msgstr "ທ່ານຈະສາມາດສ້າງໜ້າເພີ່ມເຕີມໄດ້ໃນພາຍຫຼັງ."
+
+#. module: website_generator
+#: model:mail.template,subject:website_generator.email_template_website_scrapped
+msgid "Your Odoo Website is Ready!"
+msgstr "ເວັບໄຊ Odoo ຂອງທ່ານພ້ອມແລ້ວ!"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "and"
+msgstr "ແລະ"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "https://www.odoo.com/"
+msgstr "https://www.odoo.com/"
+
+#. module: website_generator
+#. odoo-javascript
+#: code:addons/website_generator/static/src/client_actions/configurator/configurator.xml:0
+msgid "odoo.com/help"
+msgstr "odoo.com/help"

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<odoo noupdate="1">
+    <record id="dynapps_analytic_endpoint" model="ir.config_parameter">
+        <field name="key">dynapps_analytic_endpoint</field>
+        <field name="value">https://analytics.dynapps.eu</field>
+    </record>
+    <record id="dynapps_analytic_fetch_details" model="ir.config_parameter">
+        <field name="key">dynapps_analytic_fetch_details</field>
+        <field name="value">False</field>
+    </record>
+</odoo>

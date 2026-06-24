@@ -1,0 +1,259 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* delivery_iot
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:44+0000\n"
+"PO-Revision-Date: 2025-10-08 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: delivery_iot
+#: model:ir.actions.report,print_report_name:delivery_iot.action_report_shipping_docs
+#: model:ir.actions.report,print_report_name:delivery_iot.action_report_shipping_labels
+#, fuzzy
+msgid "'Empty Report - Used for assigning IoT printer'"
+msgstr "'IoT printerini belgilash uchun ishlatiladigan bo‘sh hisobot'"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__auto_print_carrier_labels
+#, fuzzy
+msgid "Auto Print Carrier Labels"
+msgstr "Tashuvchi yorliqlarini avtomatik chop etish"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__auto_print_export_documents
+#, fuzzy
+msgid "Auto Print Export Documents"
+msgstr "Eksport hujjatlarini avtomatik chop etish"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_put_in_pack__available_scale_ids
+#, fuzzy
+msgid "Available Scale"
+msgstr "Mavjud tarozi"
+
+#. module: delivery_iot
+#: model_terms:ir.ui.view,arch_db:delivery_iot.view_picking_type_form_inherit
+#, fuzzy
+msgid "Carrier Labels"
+msgstr "Tashuvchi yorliqlari"
+
+#. module: delivery_iot
+#: model:ir.model.fields,help:delivery_iot.field_stock_picking_type__iot_scale_ids
+#, fuzzy
+msgid ""
+"Choose the scales you want to use for this operation type. Those scales can "
+"be used to weigh the packages created."
+msgstr ""
+"Ushbu amaliyot turi uchun foydalanmoqchi bo‘lgan tarozilarni tanlang. Bu "
+"tarozilar yordamida yaratilgan paketlarni tortish mumkin."
+
+#. module: delivery_iot
+#: model_terms:ir.ui.view,arch_db:delivery_iot.view_picking_type_form_inherit
+#, fuzzy
+msgid "Connect Scale"
+msgstr "Tarozini ulash"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_iot_device__display_name
+#: model:ir.model.fields,field_description:delivery_iot.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__display_name
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_put_in_pack__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_put_in_pack__iot_ip
+#, fuzzy
+msgid "Domain Address"
+msgstr "Domen manzili"
+
+#. module: delivery_iot
+#: model_terms:ir.ui.view,arch_db:delivery_iot.view_picking_type_form_inherit
+#, fuzzy
+msgid "Export Documents"
+msgstr "Eksport hujjatlari"
+
+#. module: delivery_iot
+#: model_terms:ir.ui.view,arch_db:delivery_iot.view_picking_type_form_inherit
+#, fuzzy
+msgid "How to connect scales?"
+msgstr "Tarozilarni qanday ulash mumkin?"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_iot_device__id
+#: model:ir.model.fields,field_description:delivery_iot.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_picking__id
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__id
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_put_in_pack__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: delivery_iot
+#: model:ir.model,name:delivery_iot.model_iot_device
+#, fuzzy
+msgid "IOT Device"
+msgstr "IoT qurilmasi"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_put_in_pack__iot_device_identifier
+#, fuzzy
+msgid "Identifier"
+msgstr "Identifikator"
+
+#. module: delivery_iot
+#: model:ir.model.fields,help:delivery_iot.field_stock_picking_type__auto_print_carrier_labels
+#, fuzzy
+msgid ""
+"If this checkbox is ticked, Odoo will automatically print the carrier labels "
+"of the picking when they are created. Note this requires a printer to be "
+"assigned to this report."
+msgstr ""
+"Agar bu katakcha belgilansa, Odoo tanlangan tashuvchi yorliqlarini ular "
+"yaratilishi bilanoq avtomatik ravishda chop etadi. E'tibor bering, buning "
+"uchun ushbu hisobotga printer biriktirilgan bo‘lishi kerak."
+
+#. module: delivery_iot
+#: model:ir.model.fields,help:delivery_iot.field_stock_picking_type__auto_print_export_documents
+#, fuzzy
+msgid ""
+"If this checkbox is ticked, Odoo will automatically print the export "
+"documents of the picking when they are created. Availability of export "
+"documents depends on the carrier and the destination. Note this requires a "
+"printer to be assigned to this report. "
+msgstr ""
+"Agar bu katakcha belgilansa, Odoo terim eksport hujjatlarini ular "
+"yaratilishi bilanoq avtomatik ravishda chop etadi. Eksport hujjatlarining "
+"mavjudligi tashuvchi va manzilga bog‘liq. E'tibor bering, buning uchun ushbu "
+"hisobotga printer biriktirilgan bo‘lishi kerak."
+
+#. module: delivery_iot
+#: model_terms:ir.ui.view,arch_db:delivery_iot.view_picking_type_form_inherit
+#, fuzzy
+msgid ""
+"If you connect your scales through the IoT App, the\n"
+"                            weight of the package will be set automatically "
+"when\n"
+"                            you do a \"Put in Pack\" operation.\n"
+"                            <br/>"
+msgstr ""
+"Agar tarozingizni IoT ilovasi orqali ulasangiz, \"Paketga joylash\" amalini "
+"bajarganingizda paketning og‘irligi avtomatik ravishda o‘rnatiladi. <br/>"
+
+#. module: delivery_iot
+#: model_terms:ir.ui.view,arch_db:delivery_iot.iot_device_view_form_inherit
+#, fuzzy
+msgid "Linked Operation Types"
+msgstr "Bog‘langan amaliyot turlari"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_put_in_pack__manual_measurement
+#, fuzzy
+msgid "Manual Measurement"
+msgstr "Qo‘lda o‘lchash"
+
+#. module: delivery_iot
+#: model:ir.model.fields,help:delivery_iot.field_stock_put_in_pack__manual_measurement
+#, fuzzy
+msgid "Manually read the measurement from the device"
+msgstr "Qurilmadan o‘lchovni qo‘lda o‘qish"
+
+#. module: delivery_iot
+#. odoo-python
+#: code:addons/delivery_iot/models/ir_action_report.py:0
+msgid ""
+"One of the printer used to print the document has been removed.\n"
+"To reset printers, go to the Inventory App, Configuration tab, \"Reset "
+"Linked Printers\" and retry the operation."
+msgstr ""
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_iot_device__picking_type_ids
+#, fuzzy
+msgid "Operation Types"
+msgstr "Amaliyot turlari"
+
+#. module: delivery_iot
+#: model:ir.model,name:delivery_iot.model_stock_picking_type
+#, fuzzy
+msgid "Picking Type"
+msgstr "Terish turi"
+
+#. module: delivery_iot
+#: model:ir.model,name:delivery_iot.model_stock_put_in_pack
+#, fuzzy
+msgid "Put In Pack Wizard"
+msgstr "Paketga joylash ustasi"
+
+#. module: delivery_iot
+#. odoo-javascript
+#: code:addons/delivery_iot/static/src/field_many2one_iot_scale.xml:0
+#, fuzzy
+msgid "Read weight"
+msgstr "Vaznni o‘qish"
+
+#. module: delivery_iot
+#: model:ir.model,name:delivery_iot.model_ir_actions_report
+msgid "Report Action"
+msgstr ""
+
+#. module: delivery_iot
+#: model:ir.ui.menu,name:delivery_iot.iot_cached_printers_section
+msgid "Reporting"
+msgstr ""
+
+#. module: delivery_iot
+#: model:ir.ui.menu,name:delivery_iot.iot_cached_printers_action
+msgid "Reset Linked Printers"
+msgstr ""
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_put_in_pack__iot_device_id
+#, fuzzy
+msgid "Scale"
+msgstr "Tarozi"
+
+#. module: delivery_iot
+#: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__iot_scale_ids
+#: model_terms:ir.ui.view,arch_db:delivery_iot.view_picking_type_form_inherit
+#, fuzzy
+msgid "Scales"
+msgstr "Tarozilar"
+
+#. module: delivery_iot
+#: model:ir.actions.report,name:delivery_iot.action_report_shipping_docs
+#, fuzzy
+msgid "Shipping Documents"
+msgstr "Jo‘natish hujjatlari"
+
+#. module: delivery_iot
+#: model:ir.actions.report,name:delivery_iot.action_report_shipping_labels
+#, fuzzy
+msgid "Shipping Labels"
+msgstr "Jo‘natish yorliqlari"
+
+#. module: delivery_iot
+#: model:ir.model,name:delivery_iot.model_stock_picking
+#, fuzzy
+msgid "Transfer"
+msgstr "O‘tkazish"

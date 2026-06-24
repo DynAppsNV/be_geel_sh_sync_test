@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_xx_po_approval_user_read,xx.po.approval.user read,model_xx_po_approval_user,base.group_user,1,0,0,0
+access_xx_po_approval_user_write,xx.po.approval.user write,model_xx_po_approval_user,purchase.group_purchase_user,1,1,1,1
+access_xx_po_approval_matrix_manager,xx.po.approval.matrix,model_xx_po_approval_matrix,purchase.group_purchase_manager,1,1,1,1
+access_xx_po_approval_matrix_user,xx.po.approval.matrix,model_xx_po_approval_matrix,purchase.group_purchase_user,1,0,0,0

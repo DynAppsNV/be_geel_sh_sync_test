@@ -1,0 +1,489 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_contract_salary_payroll
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-22 18:43+0000\n"
+"PO-Revision-Date: 2026-06-06 10:49+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"hr_contract_salary_payroll/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ 10 days"
+msgstr "/ 10 ມື້"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ 14 days"
+msgstr "/ 14 ມື້"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ day"
+msgstr "/ ມື້"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ half-month"
+msgstr "/ ເຄິ່ງເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ half-year"
+msgstr "/ ເຄິ່ງປີ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ quarter"
+msgstr "/ ໄຕມາດ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ two months"
+msgstr "/ ສອງເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ two weeks"
+msgstr "/ ສອງອາທິດ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ week"
+msgstr "/ ອາທິດ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_employee_view_form
+msgid "/ year"
+msgstr "/ ປີ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.salary_package_sidebar_payroll
+msgid ""
+"<option value=\"100\" selected=\"1\">Full Time</option>\n"
+"                <option value=\"90\">9/10</option>\n"
+"                <option value=\"80\">4/5</option>\n"
+"                <option value=\"60\">3/5</option>\n"
+"                <option value=\"50\">Half Time</option>\n"
+"                <option value=\"40\">2/5</option>\n"
+"                <option value=\"20\">1/5</option>"
+msgstr ""
+"<option value=\"100\" selected=\"1\">ເຕັມເວລາ</option>\n"
+"                <option value=\"90\">9/10</option>\n"
+"                <option value=\"80\">4/5</option>\n"
+"                <option value=\"60\">3/5</option>\n"
+"                <option value=\"50\">ເຄິ່ງເວລາ</option>\n"
+"                <option value=\"40\">2/5</option>\n"
+"                <option value=\"20\">1/5</option>"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_applicant
+msgid "Applicant"
+msgstr "ຜູ້ສະໝັກ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,website_form_label:hr_contract_salary_payroll.model_hr_applicant
+msgid "Apply for a Job"
+msgstr "ສະໝັກວຽກ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__source
+msgid "Benefit Source"
+msgstr "ແຫຼ່ງທີ່ມາຂອງສະຫວັດດີການ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "Benefits"
+msgstr "ສະຫວັດດີການ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__budget_type
+msgid "Budget Type"
+msgstr "ປະເພດງົບປະມານ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+msgid "Close"
+msgstr "ປິດ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__code
+msgid "Code"
+msgstr "ລະຫັດ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "Company cost"
+msgstr "ຄ່າໃຊ້ຈ່າຍຂອງບໍລິສັດ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+msgid "Company's Working Schedule"
+msgstr "ຕາຕະລາງການເຮັດວຽກຂອງບໍລິສັດ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+msgid "Configure Benefits"
+msgstr "ຕັ້ງຄ່າສະຫວັດດີການ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.menu_hr_payroll_configuration_contract
+msgid "Contracts"
+msgstr "ສັນຍາ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+msgid "Copy Link"
+msgstr "ຄັດລອກລິ້ງ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__country_id
+msgid "Country"
+msgstr "ປະເທດ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_applicant__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payroll_headcount_line__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payslip_worked_days__display_name
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_employee
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+msgid "Employee"
+msgstr "ພະນັກງານ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_version
+msgid "Employee Contract"
+msgstr "ສັນຍາພະນັກງານ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__final_yearly_costs
+msgid "Employer Budget"
+msgstr "ງົບປະມານຂອງນາຍຈ້າງ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payroll_headcount_line__employer_cost
+msgid "Employer Cost"
+msgstr "ຄ່າໃຊ້ຈ່າຍຂອງນາຍຈ້າງ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.hr_payroll_menu_contract_type
+msgid "Employment Types"
+msgstr "ປະເພດການຈ້າງງານ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "Gross <span invisible=\"is_full_time\">(Part Time)</span>"
+msgstr "ລາຍຮັບລວມ <span invisible=\"is_full_time\">(ນອກເວລາ)</span>"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_offer__budget_type__monthly_gross
+msgid "Gross Per Month"
+msgstr "ລາຍຮັບລວມຕໍ່ເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__gross_wage
+msgid "Gross Wage"
+msgstr "ຄ່າຈ້າງລວມ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.actions.act_window,name:hr_contract_salary_payroll.action_hr_salary_simulator
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+msgid "Gross-Net Salary Calculator"
+msgstr "ເຄື່ອງຄິດໄລ່ເງິນເດືອນ ລວມ-ສຸດທິ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_payroll_headcount_line
+msgid "Headcount Line"
+msgstr "ລາຍການຈຳນວນພະນັກງານ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_applicant__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payroll_headcount_line__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_payslip_worked_days__id
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_resume_view_search_inherit
+msgid "Impacts Monthly Total"
+msgstr "ມີຜົນຕໍ່ຍອດລວມປະຈຳເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__is_full_time
+msgid "Is Full Time"
+msgstr "ແມ່ນເຕັມເວລາ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__is_simulation_offer
+msgid "Is Simulation Offer"
+msgstr "ແມ່ນຂໍ້ສະເໜີຈຳລອງ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__monthly_benefits
+msgid "Monthly Benefits"
+msgstr "ສະຫວັດດີການປະຈຳເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__monthly_yearly_costs
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__monthly_yearly_costs
+msgid "Monthly Cost"
+msgstr "ຄ່າໃຊ້ຈ່າຍປະຈຳເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__monthly_employer_cost
+msgid "Monthly Employer Cost"
+msgstr "ຄ່າໃຊ້ຈ່າຍຂອງນາຍຈ້າງປະຈຳເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__monthly_wage
+msgid "Monthly Wage"
+msgstr "ຄ່າຈ້າງປະຈຳເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:hr.contract.salary.resume,name:hr_contract_salary_payroll.hr_contract_salary_resume_net_employee
+#: model:hr.contract.salary.resume,name:hr_contract_salary_payroll.hr_contract_salary_resume_net_worker
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "Net"
+msgstr "ສຸດທິ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__net_wage
+msgid "Net Wage"
+msgstr "ຄ່າຈ້າງສຸດທິ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+msgid "Optional"
+msgstr "ທາງເລືອກ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.actions.server,name:hr_contract_salary_payroll.ir_cron_remove_simulation_offers_ir_actions_server
+msgid "Payroll Salary Configurator: Remove Simulation Offers"
+msgstr "ຕົວຕັ້ງຄ່າເງິນເດືອນ: ລຶບຂໍ້ສະເໜີຈຳລອງ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_resume__value_type__payslip
+msgid "Payslip Value"
+msgstr "ຄ່າໃນໃບຈ່າຍເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_payslip_worked_days
+msgid "Payslip Worked Days"
+msgstr "ມື້ເຮັດວຽກໃນໃບຈ່າຍເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,help:hr_contract_salary_payroll.field_hr_contract_salary_resume__value_type
+msgid ""
+"Pick how the value of the information is computed:\n"
+"Fixed value: Set a determined value static for all links\n"
+"Employee Record value: Get the value from a field on the Employee Record\n"
+"Payslip value: Get the value from a field on the payslip record\n"
+"Sum of Benefits value: You can pick in all benefits and compute a sum of them\n"
+"Monthly Total: The information will be a total of all the information in the category Monthly Benefits"
+msgstr ""
+"ເລືອກວິທີຄິດໄລ່ຄ່າຂອງຂໍ້ມູນ:\n"
+"ຄ່າຄົງທີ່: ກຳນົດຄ່າທີ່ແນ່ນອນສຳລັບທຸກລິ້ງ\n"
+"ຄ່າຈາກບັນທຶກພະນັກງານ: ດຶງຄ່າຈາກຟິວໃນບັນທຶກພະນັກງານ\n"
+"ຄ່າຈາກໃບຈ່າຍເງິນເດືອນ: ດຶງຄ່າຈາກຟິວໃນບັນທຶກໃບຈ່າຍເງິນເດືອນ\n"
+"ຜົນລວມຂອງສະຫວັດດີການ: ເລືອກສະຫວັດດີການທັງໝົດແລ້ວຄິດໄລ່ເປັນຜົນລວມ\n"
+"ຍອດລວມປະຈຳເດືອນ: ຂໍ້ມູນຈະເປັນຜົນລວມຂອງຂໍ້ມູນທັງໝົດໃນໝວດສະຫວັດດີການປະຈຳເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#. odoo-javascript
+#: code:addons/hr_contract_salary_payroll/static/src/xml/brut2net_modal.xml:0
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid ""
+"Please note that this information may be inaccurate and should be used for "
+"reference only."
+msgstr ""
+"ກະລຸນາຮັບຊາບວ່າຂໍ້ມູນນີ້ອາດຈະບໍ່ຊັດເຈນ ແລະ ຄວນໃຊ້ເພື່ອເປັນບ່ອນອີງເທົ່ານັ້ນ."
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "Salary"
+msgstr "ເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.menu_hr_payroll_salary_calculator
+msgid "Salary Calculator"
+msgstr "ເຄື່ອງຄິດໄລ່ເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__salary_offer_ids
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__salary_offer_ids
+msgid "Salary Offer"
+msgstr "ຂໍ້ສະເໜີເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_contract_salary_benefit
+msgid "Salary Package Benefit"
+msgstr "ສະຫວັດດີການໃນຊຸດເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_contract_salary_offer
+msgid "Salary Package Offer"
+msgstr "ຂໍ້ສະເໜີຊຸດເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model,name:hr_contract_salary_payroll.model_hr_contract_salary_resume
+msgid "Salary Package Resume"
+msgstr "ບົດສະຫຼຸບຊຸດເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_benefit__salary_rule_id
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_benefit__source__rule
+msgid "Salary Rule"
+msgstr "ກົດເກນເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "Salary Simulation Preview"
+msgstr "ຕົວຢ່າງການຈຳລອງເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__structure_id
+msgid "Salary Structure"
+msgstr "ໂຄງສ້າງເງິນເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#. odoo-javascript
+#: code:addons/hr_contract_salary_payroll/static/src/js/tours/hr_payroll.js:0
+msgid "Select an <strong>HR Responsible</strong> for the contract."
+msgstr "ເລືອກ <strong>ຜູ້ຮັບຜິດຊອບຝ່າຍບຸກຄົນ</strong> ສຳລັບສັນຍາ."
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,help:hr_contract_salary_payroll.field_hr_contract_salary_benefit__salary_rule_id
+msgid "Select the salary rule associated with this benefit"
+msgstr "ເລືອກກົດເກນເງິນເດືອນທີ່ກ່ຽວຂ້ອງກັບສະຫວັດດີການນີ້"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__simulation_employee_id
+msgid "Simulation Employee"
+msgstr "ພະນັກງານຈຳລອງ"
+
+#. module: hr_contract_salary_payroll
+#: model:hr.contract.salary.resume,name:hr_contract_salary_payroll.hr_contract_salary_payroll_resume_gross_worker
+msgid "Taxable Salary"
+msgstr "ເງິນເດືອນທີ່ຕ້ອງເສຍພາສີ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.ui.menu,name:hr_contract_salary_payroll.hr_payroll_menu_contract_templates
+msgid "Templates"
+msgstr "ແບບຟອມ"
+
+#. module: hr_contract_salary_payroll
+#. odoo-javascript
+#: code:addons/hr_contract_salary_payroll/static/src/xml/brut2net_modal.xml:0
+msgid ""
+"There is no defined payroll structure for your contract. Please contact a "
+"responsible for more information."
+msgstr ""
+"ບໍ່ມີການກຳນົດໂຄງສ້າງເງິນເດືອນສຳລັບສັນຍາຂອງທ່ານ. ກະລຸນາຕິດຕໍ່ຜູ້ຮັບຜິດຊອບສຳລັບຂໍ້ມູນເພີ່ມເຕີມ."
+
+#. module: hr_contract_salary_payroll
+#. odoo-python
+#: code:addons/hr_contract_salary_payroll/controllers/main.py:0
+msgid ""
+"This is the gross calculated for the current month with a total of %s hours."
+msgstr ""
+"ນີ້ແມ່ນລາຍຮັບລວມທີ່ຄິດໄລ່ສຳລັບເດືອນປັດຈຸບັນ ດ້ວຍຊົ່ວໂມງລວມທັງໝົດ %s ຊົ່ວໂມງ."
+
+#. module: hr_contract_salary_payroll
+#. odoo-python
+#: code:addons/hr_contract_salary_payroll/controllers/main.py:0
+msgid ""
+"This link is invalid. Please contact the HR Responsible to get a new one..."
+msgstr "ລິ້ງນີ້ບໍ່ຖືກຕ້ອງ. ກະລຸນາຕິດຕໍ່ຜູ້ຮັບຜິດຊອບຝ່າຍບຸກຄົນເພື່ອຂໍລິ້ງໃໝ່..."
+
+#. module: hr_contract_salary_payroll
+#. odoo-python
+#: code:addons/hr_contract_salary_payroll/controllers/main.py:0
+msgid "This offer is a simulation. You cannot submit this salary package."
+msgstr "ຂໍ້ສະເໜີນີ້ແມ່ນການຈຳລອງ. ທ່ານບໍ່ສາມາດສົ່ງຊຸດເງິນເດືອນນີ້ໄດ້."
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__display_name
+msgid "Title"
+msgstr "ຫົວຂໍ້"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__value_type
+msgid "Value Type"
+msgstr "ປະເພດຄ່າ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__wage_on_signature
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__wage_on_signature
+msgid "Wage on Signature"
+msgstr "ຄ່າຈ້າງຕອນເຊັນສັນຍາ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__wage_with_holidays
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__wage_with_holidays
+msgid "Wage with Holidays"
+msgstr "ຄ່າຈ້າງລວມວັນພັກ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__resource_calendar_id
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.salary_package_sidebar_payroll
+msgid "Working Schedule"
+msgstr "ຕາຕະລາງການເຮັດວຽກ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__yearly_benefits
+msgid "Yearly Benefits"
+msgstr "ສະຫວັດດີການປະຈຳປີ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_employee__final_yearly_costs
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_version__final_yearly_costs
+msgid "Yearly Cost"
+msgstr "ຄ່າໃຊ້ຈ່າຍປະຈຳປີ"
+
+#. module: hr_contract_salary_payroll
+#: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_offer__yearly_employer_cost
+#: model:ir.model.fields.selection,name:hr_contract_salary_payroll.selection__hr_contract_salary_offer__budget_type__yearly_employer
+msgid "Yearly Employer Cost"
+msgstr "ຄ່າໃຊ້ຈ່າຍຂອງນາຍຈ້າງປະຈຳປີ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "month"
+msgstr "ເດືອນ"
+
+#. module: hr_contract_salary_payroll
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form
+#: model_terms:ir.ui.view,arch_db:hr_contract_salary_payroll.hr_contract_salary_offer_view_form_inherit
+msgid "year"
+msgstr "ປີ"

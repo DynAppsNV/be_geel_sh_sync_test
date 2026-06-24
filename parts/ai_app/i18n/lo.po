@@ -1,0 +1,295 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * ai_app
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:41+0000\n"
+"PO-Revision-Date: 2026-06-06 14:46+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/ai_app/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid ""
+"<i class=\"fa fa-clock-o me-2\"/>\n"
+"                            <span>Processing your sources, it might take a few minutes...</span>"
+msgstr ""
+"<i class=\"fa fa-clock-o me-2\"/>\n"
+"                            <span>ກຳລັງປະມວນຜົນແຫຼ່ງຂໍ້ມູນຂອງທ່ານ, ມັນອາດຈະໃຊ້ເວລາຄາວໜຶ່"
+"ງ...</span>"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid ""
+"<span class=\"me-1\">Refresh</span>\n"
+"                            <i class=\"fa fa-refresh me-1\"/>"
+msgstr ""
+"<span class=\"me-1\">ໂຫຼດໃໝ່</span>\n"
+"                            <i class=\"fa fa-refresh me-1\"/>"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid ""
+"<span class=\"text-muted\" invisible=\"(not is_system_default or "
+"focused_models) and interface_key != 'systray_ai_button'\">All Models</span>"
+msgstr ""
+"<span class=\"text-muted\" invisible=\"(not is_system_default or "
+"focused_models) and interface_key != 'systray_ai_button'\">ທຸກໂມເດວ</span>"
+
+#. module: ai_app
+#: model:ir.ui.menu,name:ai_app.ai_menu_root
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+msgid "AI"
+msgstr "AI"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid "Add a source"
+msgstr "ເພີ່ມແຫຼ່ງຂໍ້ມູນ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_kanban
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+msgid "Agent"
+msgstr "ຕົວແທນ"
+
+#. module: ai_app
+#. odoo-javascript
+#: code:addons/ai_app/static/src/command_palette.js:0
+#: model:ir.actions.act_window,name:ai_app.ai_agent_action
+#: model:ir.ui.menu,name:ai_app.ai_agent_menu_action
+#: model:ir.ui.menu,name:ai_app.ai_menu
+msgid "Agents"
+msgstr "ຕົວແທນ"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_agent_action
+msgid "Agents help you manage and organize your AI operations."
+msgstr "ຕົວແທນຊ່ວຍທ່ານຈັດການ ແລະ ຈັດລະບຽບການດຳເນີນງານ AI ຂອງທ່ານ."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "All Models"
+msgstr "ທຸກໂມເດວ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_kanban
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+msgid "Archived"
+msgstr "ເກັບໄວ້ໃນຄັງ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "Buttons"
+msgstr "ປຸ່ມ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "Call the Agent"
+msgstr "ເອີ້ນໃຊ້ຕົວແທນ"
+
+#. module: ai_app
+#: model:ir.ui.menu,name:ai_app.ai_config_menu
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_kanban
+msgid "Configuration"
+msgstr "ການກຳນົດຄ່າ"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_agent_action
+msgid "Create your first Agent!"
+msgstr "ສ້າງຕົວແທນທຳອິດຂອງທ່ານ!"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_topic_action
+msgid "Create your first topic!"
+msgstr "ສ້າງຫົວຂໍ້ທຳອິດຂອງທ່ານ!"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_view_search
+msgid "Custom Rules"
+msgstr "ກົດລະບຽບທີ່ກຳນົດເອງ"
+
+#. module: ai_app
+#: model:ir.actions.act_window,name:ai_app.ai_composer_action
+#: model:ir.ui.menu,name:ai_app.menu_ai_composer
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_tree
+msgid "Default Prompts"
+msgstr "ຄຳສັ່ງເລີ່ມຕົ້ນ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_form
+msgid "Explain to the Agent what they need to do..."
+msgstr "ອະທິບາຍໃຫ້ຕົວແທນຮູ້ວ່າພວກເຂົາຕ້ອງເຮັດຫຍັງ..."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_view_search
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+msgid "Key"
+msgstr "ຄີ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "Mail Template extra prompt"
+msgstr "ຄຳສັ່ງເພີ່ມເຕີມສຳລັບແມ່ແບບອີເມວ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+msgid "Model"
+msgstr "ໂມເດວ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_tree
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_kanban
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_tree
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_composer_action
+msgid "No Default Prompts found!"
+msgstr "ບໍ່ພົບຄຳສັ່ງເລີ່ມຕົ້ນ!"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "On the Model"
+msgstr "ໃນໂມເດວ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_tree
+msgid "Properties"
+msgstr "ຄຸນສົມບັດ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+msgid "Provide your API key to connect with your account"
+msgstr "ລະບຸ API key ຂອງທ່ານເພື່ອເຊື່ອມຕໍ່ກັບບັນຊີຂອງທ່ານ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+msgid "Providers"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid "Reprocess"
+msgstr "ປະມວນຜົນຄືນໃໝ່"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid "Retry"
+msgstr "ລອງໃໝ່"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "Rule Name"
+msgstr "ຊື່ກົດລະບຽບ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "Select an action..."
+msgstr "ເລືອກການດຳເນີນການ..."
+
+#. module: ai_app
+#: model:ir.actions.act_window,name:ai_app.ai_settings_action
+#: model:ir.ui.menu,name:ai_app.ai_general_settings_menu
+msgid "Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+msgid "Sources"
+msgstr "ແຫຼ່ງຂໍ້ມູນ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_form
+msgid "Summarize what this topic does"
+msgstr "ສະຫຼຸບສິ່ງທີ່ຫົວຂໍ້ນີ້ເຮັດ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_view_search
+msgid "System Rules"
+msgstr "ກົດລະບຽບລະບົບ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid "Test"
+msgstr "ທົດສອບ"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_composer_action
+msgid ""
+"Those are used to configure when to call a specific agent, or to add an "
+"extra prompt to your request."
+msgstr ""
+"ສິ່ງເຫຼົ່ານີ້ຖືກໃຊ້ເພື່ອ ກຳນົດຄ່າວ່າເມື່ອໃດຄວນເອີ້ນໃຊ້ຕົວແທນໃດໜຶ່ງ, ຫຼື ເພື່ອເພີ່ມຄຳສັ່ງເພີ່ມເຕີມເຂົ້າໃນຄຳຮ້ອງຂໍຂອ"
+"ງທ່ານ."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_search
+msgid "Topic"
+msgstr "ຫົວຂໍ້"
+
+#. module: ai_app
+#: model:ir.actions.act_window,name:ai_app.ai_topic_action
+#: model:ir.ui.menu,name:ai_app.ai_topic_menu_action
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+msgid "Topics"
+msgstr "ຫົວຂໍ້"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_topic_action
+msgid "Topics help you manage and organize your AI operations."
+msgstr "ຫົວຂໍ້ຊ່ວຍທ່ານຈັດການ ແລະ ຈັດລະບຽບການດຳເນີນງານ AI ຂອງທ່ານ."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+msgid "Use your own ChatGPT account"
+msgstr "ໃຊ້ບັນຊີ ChatGPT ຂອງທ່ານເອງ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+msgid "Use your own Google Gemini account"
+msgstr "ໃຊ້ບັນຊີ Google Gemini ຂອງທ່ານເອງ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "When users need to"
+msgstr "ເມື່ອຜູ້ໃຊ້ຕ້ອງການ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid "Write your prompt..."
+msgstr "ຂຽນຄຳສັ່ງຂອງທ່ານ..."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_form
+msgid "e.g. Chat with customers"
+msgstr "ຕ.ຢ. ສົນທະນາກັບລູກຄ້າ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid "e.g. Get tips to close more sales"
+msgstr "ຕ.ຢ. ຮັບເຄັດລັບເພື່ອປິດການຂາຍໃຫ້ໄດ້ຫຼາຍຂຶ້ນ"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid "e.g. SDR Advisor"
+msgstr "ຕ.ຢ. ທີ່ປຶກສາ SDR"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid ""
+"e.g. You are a support operator, you can answer questions related to ..."
+msgstr "ຕ.ຢ. ທ່ານແມ່ນເຈົ້າໜ້າທີ່ຊ່ວຍເຫຼືອ, ທ່ານສາມາດຕອບຄຳຖາມທີ່ກ່ຽວຂ້ອງກັບ ..."

@@ -1,0 +1,135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_spreadsheet_survey
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:46+0000\n"
+"PO-Revision-Date: 2025-10-08 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: documents_spreadsheet_survey
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet_survey.survey_page_statistics_header_spreadsheet
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet_survey.survey_survey_view_form
+#, fuzzy
+msgid "Analyze results"
+msgstr "Natijalarni tahlil qilish"
+
+#. module: documents_spreadsheet_survey
+#. odoo-python
+#: code:addons/documents_spreadsheet_survey/models/survey_survey.py:0
+#, fuzzy
+msgid "Attempts"
+msgstr "Urinishlar"
+
+#. module: documents_spreadsheet_survey
+#. odoo-python
+#: code:addons/documents_spreadsheet_survey/models/survey_survey.py:0
+#, fuzzy
+msgid "Comments"
+msgstr "Izohlar"
+
+#. module: documents_spreadsheet_survey
+#: model:ir.model.fields,field_description:documents_spreadsheet_survey.field_survey_survey__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan ism"
+
+#. module: documents_spreadsheet_survey
+#: model:ir.model.fields,field_description:documents_spreadsheet_survey.field_survey_survey__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: documents_spreadsheet_survey
+#. odoo-python
+#: code:addons/documents_spreadsheet_survey/models/survey_survey.py:0
+#, fuzzy
+msgid "Quiz passed"
+msgstr "Viktorina o‘tdi"
+
+#. module: documents_spreadsheet_survey
+#. odoo-javascript
+#: code:addons/documents_spreadsheet_survey/static/src/spreadsheet/survey_functions.js:0
+#, fuzzy
+msgid "Return the results of a survey."
+msgstr "So‘rovnoma natijalarini qaytarish"
+
+#. module: documents_spreadsheet_survey
+#. odoo-python
+#: code:addons/documents_spreadsheet_survey/models/survey_survey.py:0
+#, fuzzy
+msgid "Score (%)"
+msgstr "Ball (%)"
+
+#. module: documents_spreadsheet_survey
+#. odoo-javascript
+#: code:addons/documents_spreadsheet_survey/static/src/spreadsheet/survey_menu_items.js:0
+#, fuzzy
+msgid "See survey"
+msgstr "So‘rovnomani ko‘rish"
+
+#. module: documents_spreadsheet_survey
+#. odoo-javascript
+#: code:addons/documents_spreadsheet_survey/static/src/spreadsheet/survey_menu_items.js:0
+#, fuzzy
+msgid "See survey participation"
+msgstr "So‘rovnomada qatnashishni ko‘rish"
+
+#. module: documents_spreadsheet_survey
+#: model:ir.model.fields,field_description:documents_spreadsheet_survey.field_survey_survey__spreadsheet_document_id
+#, fuzzy
+msgid "Spreadsheet Document"
+msgstr "Elektron jadval"
+
+#. module: documents_spreadsheet_survey
+#. odoo-python
+#: code:addons/documents_spreadsheet_survey/models/survey_survey.py:0
+#: model:ir.model,name:documents_spreadsheet_survey.model_survey_survey
+#, fuzzy
+msgid "Survey"
+msgstr "So‘rovnoma"
+
+#. module: documents_spreadsheet_survey
+#. odoo-javascript
+#: code:addons/documents_spreadsheet_survey/static/src/spreadsheet/survey_plugin.js:0
+#, fuzzy
+msgid "Survey %s not available"
+msgstr "%s so‘rovnomasi mavjud emas"
+
+#. module: documents_spreadsheet_survey
+#. odoo-javascript
+#: code:addons/documents_spreadsheet_survey/static/src/spreadsheet/survey_functions.js:0
+#, fuzzy
+msgid "The survey id"
+msgstr "So‘rovnoma identifikatori"
+
+#. module: documents_spreadsheet_survey
+#. odoo-python
+#: code:addons/documents_spreadsheet_survey/models/survey_survey.py:0
+#, fuzzy
+msgid "Timestamp"
+msgstr "Vaqt belgisi"
+
+#. module: documents_spreadsheet_survey
+#. odoo-python
+#: code:addons/documents_spreadsheet_survey/models/survey_survey.py:0
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"

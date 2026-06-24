@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="0">
+    <record
+        id="dyn_dashboard_user"
+        model="res.users"
+        context="{'no_reset_password': True}"
+    >
+        <field name="name">Demo Dashboard User</field>
+        <field name="login">bi_demo</field>
+        <field name="password">bi_demo</field>
+        <field
+            name="group_ids"
+            eval="[(4, ref('dyn_dashboard.dyn_dashboard_group_user'))]"
+        />
+    </record>
+
+    <record
+        id="dyn_dashboard_manager"
+        model="res.users"
+        context="{'no_reset_password': True}"
+    >
+        <field name="name">Demo Dashboard Manager</field>
+        <field name="login">bi_mgr</field>
+        <field name="password">bi_mgr</field>
+        <field
+            name="group_ids"
+            eval="[(4, ref('dyn_dashboard.dyn_dashboard_group_manager'))]"
+        />
+    </record>
+
+    <!--    Dashboard config-->
+    <record id="xx_dashboard_demo" model="xx.dashboard">
+        <field name="name">Demo Dashboard</field>
+        <field name="menu_name">Demo Dashboard</field>
+        <field name="show_date_filter" eval="True" />
+    </record>
+
+    <record id="xx_dashboard_drill" model="xx.dashboard">
+        <field name="name">Drill Dashboard</field>
+        <field name="menu_name">Drill Dashboard</field>
+        <field name="show_date_filter" eval="True" />
+    </record>
+
+    <record id="xx_dashboard_formatting" model="xx.dashboard">
+        <field name="name">Formatting Examples</field>
+        <field name="menu_name">Formatting</field>
+    </record>
+
+    <!--    Initial Dashboard Filter Selections   -->
+    <!--    Is a company    -->
+    <record
+        id="xx_dyn_custom_filter_selection_company"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is a company</field>
+        <field name="value">true</field>
+        <field name="sequence">0</field>
+    </record>
+    <record
+        id="xx_dyn_custom_filter_selection_notcompany"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is not a company</field>
+        <field name="value">false</field>
+        <field name="sequence">1</field>
+    </record>
+
+    <record id="xx_dyn_custom_filter_1" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="filter_name">-- Is Company --</field>
+        <field name="wildcard">_IS_COMPANY_</field>
+        <field name="query_wildcard_replace">is_company in ( _IS_COMPANY_ )</field>
+        <field
+            name="manual_selection_ids"
+            eval="[(6, 0, [ref('xx_dyn_custom_filter_selection_company'), ref('xx_dyn_custom_filter_selection_notcompany')])]"
+        />
+    </record>
+
+    <!--    is active   -->
+    <record
+        id="xx_dyn_custom_filter_selection_active"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is active</field>
+        <field name="value">true</field>
+        <field name="sequence">0</field>
+    </record>
+
+    <record
+        id="xx_dyn_custom_filter_selection_notactive"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is not active</field>
+        <field name="value">false</field>
+        <field name="sequence">1</field>
+    </record>
+
+    <record id="xx_dyn_custom_filter_2" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="filter_name">-- Is Active --</field>
+        <field name="wildcard">_IS_ACTIVE_</field>
+        <field name="query_wildcard_replace">active in ( _IS_ACTIVE_ )</field>
+        <field
+            name="manual_selection_ids"
+            eval="[(6, 0, [ref('xx_dyn_custom_filter_selection_active'), ref('xx_dyn_custom_filter_selection_notactive')])]"
+        />
+    </record>
+
+    <!-- partner model -->
+    <record id="xx_dyn_custom_filter_3" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="filter_name">-- Partner demo--</field>
+        <field name="wildcard">_PARTNER_IDS_</field>
+        <field name="query_wildcard_replace">p.id in ( _PARTNER_IDS_ )</field>
+        <field name="use_odoo_data">true</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="model_field_name" ref="base.field_res_partner__display_name" />
+        <field name="model_field_value" ref="base.field_res_partner__id" />
+        <field name="multiselect">true</field>
+    </record>
+
+    <!-- country model -->
+    <record id="xx_dyn_custom_filter_4" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="filter_name">-- Country demo--</field>
+        <field name="wildcard">_COUNTRY_IDS_</field>
+        <field name="query_wildcard_replace">p.country_id in ( _COUNTRY_IDS_ )</field>
+        <field name="use_odoo_data">true</field>
+        <field name="model_id" ref="base.model_res_country" />
+        <field name="model_field_name" ref="base.field_res_country__display_name" />
+        <field name="model_field_value" ref="base.field_res_country__id" />
+        <field name="multiselect">true</field>
+    </record>
+
+    <!-- free text field -->
+    <record id="xx_dyn_custom_filter_5" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="filter_name">-- Partner Name --</field>
+        <field name="wildcard">_NAME_</field>
+        <field name="query_wildcard_replace">p.name ilike '%_NAME_%'</field>
+        <field name="use_odoo_data">false</field>
+    </record>
+
+    <!--    Hidden filter for drilling-->
+    <record id="xx_dyn_custom_filter_6" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="filter_name">-- Hidden --</field>
+        <field name="wildcard">_ID_</field>
+        <field name="query_wildcard_replace">p.id = _ID_</field>
+        <field name="use_odoo_data">true</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="model_field_name" ref="base.field_res_partner__display_name" />
+        <field name="model_field_value" ref="base.field_res_partner__id" />
+        <field name="multiselect">false</field>
+        <field name="hidden">true</field>
+    </record>
+
+    <!--  function -->
+    <record
+        id="xx_dyn_custom_filter_selection_function1"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">None</field>
+        <field name="value" />
+        <field name="sequence">0</field>
+    </record>
+
+    <record
+        id="xx_dyn_custom_filter_selection_function2"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">Software Developer</field>
+        <field name="value">Software Developer</field>
+        <field name="sequence">1</field>
+    </record>
+    <record
+        id="xx_dyn_custom_filter_selection_function3"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">Analyst</field>
+        <field name="value">Analyst</field>
+        <field name="sequence">2</field>
+    </record>
+    <record
+        id="xx_dyn_custom_filter_selection_function4"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">Director</field>
+        <field name="value">Director</field>
+        <field name="sequence">3</field>
+    </record>
+    <record
+        id="xx_dyn_custom_filter_selection_function5"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">Senior Consultant</field>
+        <field name="value">Senior Consultant</field>
+        <field name="sequence">4</field>
+    </record>
+    <record id="xx_dyn_custom_filter_function" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="filter_name">Function</field>
+        <field name="wildcard">_FUNCTION_</field>
+        <field name="query_wildcard_replace">p.function = _FUNCTION_</field>
+        <field
+            name="manual_selection_ids"
+            eval="[(6, 0, [ref('xx_dyn_custom_filter_selection_function1'), ref('xx_dyn_custom_filter_selection_function2'),ref('xx_dyn_custom_filter_selection_function3'), ref('xx_dyn_custom_filter_selection_function4'), ref('xx_dyn_custom_filter_selection_function5')])]"
+        />
+        <field name="multiselect">false</field>
+    </record>
+
+    <!-- drill dashboard filters -->
+    <!--    Is a company    -->
+    <record
+        id="xx_dyn_custom_filter_selection_companydrill"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is a company</field>
+        <field name="value">true</field>
+        <field name="sequence">0</field>
+    </record>
+
+    <record
+        id="xx_dyn_custom_filter_selection_notcompanydrill"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is not a company</field>
+        <field name="value">false</field>
+        <field name="sequence">1</field>
+    </record>
+
+    <record id="xx_dyn_custom_filter_21" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="filter_name">-- Is Company --</field>
+        <field name="wildcard">_IS_COMPANY_</field>
+        <field name="query_wildcard_replace">is_company in ( _IS_COMPANY_ )</field>
+        <field
+            name="manual_selection_ids"
+            eval="[(6, 0, [ref('xx_dyn_custom_filter_selection_companydrill'), ref('xx_dyn_custom_filter_selection_notcompanydrill')])]"
+        />
+    </record>
+
+    <!--    is active   -->
+    <record
+        id="xx_dyn_custom_filter_selection_activedrill"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is active</field>
+        <field name="value">true</field>
+        <field name="sequence">0</field>
+    </record>
+    <record
+        id="xx_dyn_custom_filter_selection_notactivedrill"
+        model="xx.dyn.custom.filter.selection"
+    >
+        <field name="name">is not active</field>
+        <field name="value">false</field>
+        <field name="sequence">1</field>
+    </record>
+
+    <record id="xx_dyn_custom_filter_22" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="filter_name">-- Is Active --</field>
+        <field name="wildcard">_IS_ACTIVE_</field>
+        <field name="query_wildcard_replace">active in ( _IS_ACTIVE_ )</field>
+        <field
+            name="manual_selection_ids"
+            eval="[(6, 0, [ref('xx_dyn_custom_filter_selection_activedrill'), ref('xx_dyn_custom_filter_selection_notactivedrill')])]"
+        />
+    </record>
+
+    <!-- partner model -->
+    <record id="xx_dyn_custom_filter_23" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="filter_name">-- Partner demo--</field>
+        <field name="wildcard">_PARTNER_IDS_</field>
+        <field name="query_wildcard_replace">p.id in ( _PARTNER_IDS_ )</field>
+        <field name="use_odoo_data">true</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="model_field_name" ref="base.field_res_partner__display_name" />
+        <field name="model_field_value" ref="base.field_res_partner__id" />
+        <field name="multiselect">true</field>
+    </record>
+
+    <!-- country model -->
+    <record id="xx_dyn_custom_filter_24" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="filter_name">-- Country demo--</field>
+        <field name="wildcard">_COUNTRY_IDS_</field>
+        <field name="query_wildcard_replace">p.country_id in ( _COUNTRY_IDS_ )</field>
+        <field name="use_odoo_data">true</field>
+        <field name="model_id" ref="base.model_res_country" />
+        <field name="model_field_name" ref="base.field_res_country__display_name" />
+        <field name="model_field_value" ref="base.field_res_country__id" />
+        <field name="multiselect">true</field>
+    </record>
+    <!-- free text field -->
+
+    <record id="xx_dyn_custom_filter_26" model="xx.dyn.custom.filter">
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="filter_name">-- Partner Name --</field>
+        <field name="wildcard">_NAME_</field>
+        <field name="query_wildcard_replace">p.name ilike '%_NAME_%'</field>
+        <field name="use_odoo_data">false</field>
+    </record>
+    <!--    Dashboard Tiles-->
+
+    <!--  Text -->
+    <record id="xx_dashboard_tile_text" model="xx.dashboard.tile">
+        <field name="sequence">1</field>
+        <field name="name">Title</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">text</field>
+        <field name="font_size_text">24</field>
+        <field name="width">16</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field
+            name="plain_text"
+        >This is a Demo Dashboard only loaded when the Odoo database is created with the demo data
+            option checked
+        </field>
+    </record>
+
+    <!--    Selected Dates Table -->
+    <record id="xx_dashboard_tile_datestable" model="xx.dashboard.tile">
+        <field name="sequence">101</field>
+        <field name="name">Selected Dates table</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">table</field>
+        <field name="width">16</field>
+        <field name="height">2</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select %TIMESTAMPSTART as STRTTS, %TIMESTAMPEND as ENDTS,
+                %DATESTART as STRT, %DATEEND as ND, P.id, P.create_date, P.name, P.city
+            from res_partner p
+            left join res_country rc on rc.id = p.country_id
+            where p.create_date between %TIMESTAMPSTART and %TIMESTAMPEND and p.name ilike '%_NAME_%' and p.country_id in ( _COUNTRY_IDS_ )
+            order by p.id;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="drill_type">filter</field>
+        <field name="filter_drill" ref="dyn_dashboard.xx_dyn_custom_filter_6" />
+    </record>
+
+    <record id="xx_dashboard_tile_partnercountrytab" model="xx.dashboard.tile">
+        <field name="sequence">111</field>
+        <field name="name">Partners by country table</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">table</field>
+        <field name="width">16</field>
+        <field name="height">2</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select rc.name->>'en_US' "Country", count(p.id) as "#Partners",
+            coalesce(string_agg(P.id::text,',' order by p.id),'0') ids
+            from res_partner p
+            left join res_country rc on rc.id = p.country_id
+            group by rc.name
+            order by rc.name;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="download_data">True</field>
+        <field name="pdf_orientation">portrait</field>
+    </record>
+
+    <!--    KPI -->
+    <record id="xx_dashboard_tile_demo-kpi" model="xx.dashboard.tile">
+        <field name="sequence">102</field>
+        <field name="name">Total # Partners KPI</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">kpi</field>
+        <field name="width">4</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            WITH kpi_data as (
+            select p.id
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            and p.country_id in ( _COUNTRY_IDS_ )
+            )
+            select count(id)::text as kpi, coalesce(string_agg(id::text,',' order by id),'0') ids
+            from kpi_data;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="new_tab" eval="True" />
+    </record>
+
+    <!--    KPI -->
+    <record id="xx_dashboard_tile_demo-kpi-current" model="xx.dashboard.tile">
+        <field name="sequence">150</field>
+        <field name="name">KPI(drill in current tab)</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">kpi</field>
+        <field name="width">4</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            WITH kpi_data as (
+            select p.id
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            and p.country_id in ( _COUNTRY_IDS_ )
+            )
+            select count(id)::text as kpi, coalesce(string_agg(id::text,',' order by id),'0') ids
+            from kpi_data;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="new_tab" eval="False" />
+    </record>
+
+    <record id="xx_dashboard_tile_demo-kpi-filter" model="xx.dashboard.tile">
+        <field name="sequence">160</field>
+        <field name="name">Drill Here</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">text</field>
+        <field name="width">4</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="plain_text">Click to Drill!</field>
+        <field name="direction">horizontal</field>
+        <field name="new_tab" eval="False" />
+        <field name="drill_type">dashboard</field>
+        <field name="xx_dashboard_drill" ref="dyn_dashboard.xx_dashboard_drill" />
+    </record>
+
+    <!--    Vertical Bar chart-->
+    <record id="xx_dashboard_tile_demo-ver-bar" model="xx.dashboard.tile">
+        <field name="sequence">201</field>
+        <field name="name"># Partners by state verbar</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">bar_chart</field>
+        <field name="width">10</field>
+        <field name="height">3</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select count(1)*1000 "# Partners", s.name "State Name"
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id = _ID_
+            group by "State Name";
+        </field>
+        <field name="direction">vertical</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+    </record>
+
+    <!--    Horizontal Bar chart-->
+    <record id="xx_dashboard_tile_horbarchart" model="xx.dashboard.tile">
+        <field name="sequence">202</field>
+        <field name="name"># Partners by state horbar</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">bar_chart</field>
+        <field name="width">10</field>
+        <field name="height">3</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select count(1)*1000 "# Partners", s.name "State Name"
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            group by "State Name";
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+    </record>
+
+    <!--    Horizontal Bar chart-->
+    <record id="xx_dashboard_tile_radialbarchart" model="xx.dashboard.tile">
+        <field name="sequence">203</field>
+        <field name="name"># Partners by state horbar</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">radial_bar</field>
+        <field name="width">10</field>
+        <field name="height">3</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select count(1)*1000 "# Partners", s.name "State Name"
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            group by "State Name";
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="graph_locale">en-US</field>
+    </record>
+
+    <!--    Linechart -->
+    <record id="xx_dashboard_tile_linechart" model="xx.dashboard.tile">
+        <field name="sequence">203</field>
+        <field name="name"># Partners linechart</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">line_chart</field>
+        <field name="width">10</field>
+        <field name="height">3</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select count(1)*1000 "# Partners", s.name "State Name"
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            group by "State Name";
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+    </record>
+
+    <!--Linechart column-->
+    <record id="xx_dashboard_tile_linechart-column" model="xx.dashboard.tile">
+        <field name="sequence">203</field>
+        <field name="name"># Partners linechart (column)</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">line_chart</field>
+        <field name="width">10</field>
+        <field name="height">3</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select to_char(date_trunc('MONTH',P.create_date::date),'YYYY-Mon') as PRD, S.name state
+            , count(*) as aantal
+            from res_partner P
+            join res_country_state S on S.id = P.state_id
+            group by to_char(date_trunc('MONTH',P.create_date::date),'YYYY-Mon'), S.name
+            order by to_char(date_trunc('MONTH',P.create_date::date),'YYYY-Mon')
+            limit 20;
+        </field>
+        <field name="direction" />
+        <field name="is_stacked">True</field>
+        <field name="show_labels">False</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">False</field>
+    </record>
+    <!--    Pie chart-->
+    <record id="xx_dashboard_tile_piechart" model="xx.dashboard.tile">
+        <field name="sequence">125</field>
+        <field name="name"># Partners by state pie</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">pie</field>
+        <field name="width">4</field>
+        <field name="height">3</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select count(1) "# Partners", s.name "State Name"
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            group by "State Name";
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+    </record>
+
+    <!--    Dummy -->
+    <record id="xx_dashboard_tile_dummy" model="xx.dashboard.tile">
+        <field name="sequence">300</field>
+        <field name="name">Dummy</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">dummy</field>
+        <field name="width">24</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select count(1)
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and p.id in ( _PARTNER_IDS_ )
+            and active in ( _IS_ACTIVE_ );
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+    </record>
+
+    <!--    Table -->
+    <record id="xx_dashboard_tile_table" model="xx.dashboard.tile">
+        <field name="sequence">400</field>
+        <field name="name">Partner states table</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">table</field>
+        <field name="width">24</field>
+        <field name="height">2</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select p.id as id, p.name "Partner", p.function, s.name "State Name", type, city,
+            is_company
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            and p.name ilike '%_NAME_%'
+            and p.function = _FUNCTION_;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="download_data">True</field>
+        <field name="pdf_orientation">landscape</field>
+        <field name="model_id" ref="base.model_res_partner" />
+    </record>
+
+    <!--    Table Drill in same tab -->
+    <record id="xx_dashboard_tile_demo-table-current" model="xx.dashboard.tile">
+        <field name="sequence">400</field>
+        <field name="name">Partner states table (drill current tab)</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">table</field>
+        <field name="width">24</field>
+        <field name="height">2</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select p.id as id, p.name "Partner", s.name "State Name", type, is_company
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            and p.name ilike '%_NAME_%';
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="new_tab" eval="False" />
+    </record>
+
+    <!--    Table Drill attachments  -->
+    <record id="xx_dashboard_tile_demo-activities_table" model="xx.dashboard.tile">
+        <field name="sequence">420</field>
+        <field name="name">Activities table</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_demo" />
+        <field name="display_type">table</field>
+        <field name="width">24</field>
+        <field name="height">2</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select name, name, store_fname, res_id as id, res_model
+            from ir_attachment
+            where index_content = 'image';
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_ir_attachment" />
+        <field name="new_tab" eval="True" />
+    </record>
+
+    <!--Drill Dashboard Tiles-->
+    <!--    KPI Dashboard Drill -->
+    <record id="xx_dashboard_tile_demo-kpidrill" model="xx.dashboard.tile">
+        <field name="sequence">150</field>
+        <field name="name">JAKPI</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="display_type">kpi</field>
+        <field name="width">4</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select name from res_partner p
+            where p.name ilike '%_NAME_%';
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="new_tab" eval="False" />
+    </record>
+
+    <!--    KPI -->
+    <record id="xx_dashboard_tile_demodrillkpi" model="xx.dashboard.tile">
+        <field name="sequence">102</field>
+        <field name="name">Total # Partners KPI</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="display_type">kpi</field>
+        <field name="width">4</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            WITH kpi_data as (
+            select p.id
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            and p.country_id in ( _COUNTRY_IDS_ )
+            )
+            select count(id)::text as kpi, coalesce(string_agg(id::text,',' order by id),'0') ids
+            from kpi_data;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="new_tab" eval="True" />
+    </record>
+
+    <!--    Selected Dates Table -->
+    <record id="xx_dashboard_tile_drilldatestable" model="xx.dashboard.tile">
+        <field name="sequence">101</field>
+        <field name="name">Selected Dates table</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="display_type">table</field>
+        <field name="width">16</field>
+        <field name="height">2</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select %TIMESTAMPSTART as STRTDT  ,%TIMESTAMPEND as ENDDT,
+                %DATESTART as STRT  ,%DATEEND as ND,
+                P.create_date, P.id, P.name
+            from res_partner p
+            left join res_country rc on rc.id = p.country_id
+            where p.create_date between %TIMESTAMPSTART and %TIMESTAMPEND
+            and p.name ilike '%_NAME_%'
+            and p.country_id in ( _COUNTRY_IDS_ )
+            order by p.id;
+
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+    </record>
+
+    <record id="xx_dashboard_tile_drillkpicurrent" model="xx.dashboard.tile">
+        <field name="sequence">150</field>
+        <field name="name">KPI(drill in current tab)</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_drill" />
+        <field name="display_type">kpi</field>
+        <field name="width">4</field>
+        <field name="height">1</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            WITH kpi_data as (
+            select p.id
+            from res_partner p join res_country_state s on p.state_id = s.id
+            where is_company in ( _IS_COMPANY_ )
+            and active in ( _IS_ACTIVE_ )
+            and p.id in ( _PARTNER_IDS_ )
+            and p.country_id in ( _COUNTRY_IDS_ )
+            )
+            select count(id)::text as kpi, coalesce(string_agg(id::text,',' order by id),'0') ids
+            from kpi_data;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="show_labels">True</field>
+        <field name="show_legend">True</field>
+        <field name="show_markers">True</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="new_tab" eval="False" />
+    </record>
+
+    <!-- Formatting Examples -->
+    <!--  Text -->
+    <record id="xx_dashboard_tile_formatbluecenter" model="xx.dashboard.tile">
+        <field name="sequence">1</field>
+        <field name="name">Blue centered</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_formatting" />
+        <field name="display_type">text</field>
+        <field name="font_size_text">24</field>
+        <field name="bg_color_header">#1B3D81</field>
+        <field name="text_align_header">center</field>
+        <field name="width">3</field>
+        <field name="height">1</field>
+        <field name="plain_text">Demo</field>
+    </record>
+
+    <record id="xx_dashboard_tile_formatredright" model="xx.dashboard.tile">
+        <field name="sequence">1</field>
+        <field name="name">Red right</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_formatting" />
+        <field name="display_type">text</field>
+        <field name="font_size_text">24</field>
+        <field name="bg_color_header">#7A0600</field>
+        <field name="text_align_header">right</field>
+        <field name="width">3</field>
+        <field name="height">1</field>
+        <field name="plain_text">Demo</field>
+    </record>
+</odoo>

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_xx_dynapps_export_settings,access_xx_dynapps_export_settings,model_xx_dynapps_export_settings,base.group_user,1,1,1,0
+access_xx_module_custom_fields,access_xx_module_custom_fields,model_xx_module_custom_fields,base.group_user,1,0,0,0
+access_xx_module_data,access_xx_module_data,model_xx_module_data,base.group_user,1,0,0,0
+access_xx_partner_logo,access_xx_partner_logo,model_xx_partner_logo,base.group_user,1,0,0,0

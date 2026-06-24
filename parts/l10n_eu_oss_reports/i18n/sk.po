@@ -1,0 +1,306 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * l10n_eu_oss_reports
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Tomáš Píšek <Tomas.Pisek@seznam.cz>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 19:06+0000\n"
+"PO-Revision-Date: 2026-04-20 07:21+0000\n"
+"Last-Translator: Tomáš Píšek <Tomas.Pisek@seznam.cz>\n"
+"Language-Team: Slovak <https://translate.odoo.com/projects/odoo-19-l10n/"
+"l10n_eu_oss_reports/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "<span>Download your OSS return</span><br/>"
+msgstr "<span>Stiahnuť OSS zúčtovanie</span><br/>"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_account_report
+msgid "Accounting Report"
+msgstr "Účtovný výkaz"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_account_return
+msgid "Accounting Return"
+msgstr "Účtovná závierka"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_account_return_type
+msgid "Accounting Return Type"
+msgstr "Typ účtovnej závierky"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_account_report__availability_condition
+msgid "Availability"
+msgstr "Dostupnosť"
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_generic_tax_report.py:0
+msgid "Choose a month or quarter to export the OSS report"
+msgstr "Vyberte mesiac alebo štvrťrok, za ktorý chcete exportovať výkaz OSS"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_res_company
+msgid "Companies"
+msgstr "Spoločnosti"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__country_code
+msgid "Country Code"
+msgstr "Kód krajiny"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__create_uid
+msgid "Created by"
+msgstr "Vytvoril"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__create_date
+msgid "Created on"
+msgstr "Vytvorené"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_account_report__display_name
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_account_return__display_name
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_account_return_type__display_name
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_imports_tax_report_handler__display_name
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_sales_tax_report_handler__display_name
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_tax_report_handler__display_name
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_res_company__display_name
+msgid "Display Name"
+msgstr "Zobrazovaný názov"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "Download XML"
+msgstr "Stiahnuť XML"
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_return.py:0
+msgid "EUR Currency"
+msgstr "EUR mena"
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_return.py:0
+msgid "Exclude any domestic or extra-EU sales from the OSS report."
+msgstr "Z výkazu OSS vynechajte všetky predaje na domácom trhu alebo mimo EÚ."
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_account_report__id
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_account_return__id
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_account_return_type__id
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_imports_tax_report_handler__id
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__id
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_sales_tax_report_handler__id
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_tax_report_handler__id
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_res_company__ioss
+msgid "IOSS Number"
+msgstr "IOSS číslo"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,help:l10n_eu_oss_reports.field_res_company__ioss
+msgid ""
+"Identification number for companies that import goods and services into the "
+"EU. For use in OSS reports."
+msgstr ""
+"Identifikačné číslo pre spoločnosti, ktoré dovážajú tovar a služby do EÚ. "
+"Určené na použitie vo výkazoch OSS."
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_generic_tax_report.py:0
+msgid ""
+"Inconsistent setup: OSS tax %s is mapped in fiscal positions from different "
+"countries."
+msgstr ""
+"Nekonzistentné nastavenie: Daň OSS %s je priradená k fiškálnym pozíciám z "
+"rôznych krajín."
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__instructions
+msgid "Instructions"
+msgstr "Inštrukcie"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_res_company__intermediary_no
+msgid "Intermediary Number"
+msgstr "Číslo sprostredkovateľa"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "Intervat"
+msgstr "Intervat"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Naposledy upravoval"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__write_date
+msgid "Last Updated on"
+msgstr "Naposledy upravované"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "Log in to"
+msgstr "Prihlásiť sa do"
+
+#. module: l10n_eu_oss_reports
+#: model:account.return.type,name:l10n_eu_oss_reports.eu_oss_imports_tax_return_type
+msgid "OSS Imports Return (CG)"
+msgstr "OSS zúčtovanie dovozu (CG)"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_l10n_eu_oss_reports_return_submission_wizard
+msgid "OSS Return Submission Wizard"
+msgstr "OSS zúčtovanie - sprievodca podaním"
+
+#. module: l10n_eu_oss_reports
+#: model:account.return.type,name:l10n_eu_oss_reports.eu_oss_sales_tax_return_type
+msgid "OSS Sales Return (CG)"
+msgstr "OSS zúčtovanie predaja (CG)"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_l10n_eu_oss_tax_report_handler
+msgid "OSS Tax Report Custom Handler"
+msgstr "Daňový výkaz OSS - vlastné spracovanie"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_l10n_eu_oss_imports_tax_report_handler
+msgid "OSS Tax Report Custom Handler (Imports)"
+msgstr "Daňový výkaz OSS - vlastné spracovanie (dovoz)"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model,name:l10n_eu_oss_reports.model_l10n_eu_oss_sales_tax_report_handler
+msgid "OSS Tax Report Custom Handler (Sales)"
+msgstr "Daňový výkaz OSS - vlastné spracovanie (predaj)"
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_return.py:0
+msgid "OSS reports must be submitted in euros."
+msgstr "Výkazy OSS sa musia predkladať v eurách."
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_return.py:0
+msgid "Only B2C transactions"
+msgstr "Iba transakcie typu B2C"
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_return.py:0
+msgid "Only B2C transactions should be included in the OSS report."
+msgstr "Do výkazu OSS by mali byť zahrnuté iba transakcie typu B2C."
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_return.py:0
+msgid "Only intra-EU transactions"
+msgstr "Iba transakcie v rámci EÚ"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.product_template_form
+msgid "Reporting"
+msgstr "Prehľady"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__return_id
+msgid "Return"
+msgstr "Zúčtovanie"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "Select Intervat &gt; Dashboard"
+msgstr "Vyberte Intervat &gt; Riadiaci panel"
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_generic_tax_report.py:0
+msgid ""
+"Tax %s is used on some OSS-tagged journal items in the period, but is not "
+"mapped by any fiscal position with a country set."
+msgstr ""
+"Daň %s sa v danom období uplatňuje na niektoré položky denníka označené "
+"kódom OSS, nie je však priradená k žiadnej fiškálnej pozícii s nastavenou "
+"krajinou."
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,help:l10n_eu_oss_reports.field_l10n_eu_oss_reports_return_submission_wizard__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"ISO kód krajiny v dvoch znakoch.\n"
+"Môžete použiť toto pole pre rýchle vyhľadanie."
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "Upload it to the tax administration"
+msgstr "Nahrajte to na daňový úrad"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "Upload the XML file on the right panel and click \"Continue\""
+msgstr "Nahrajte súbor XML v pravom paneli a kliknite na „Pokračovať“"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,help:l10n_eu_oss_reports.field_res_company__intermediary_no
+msgid ""
+"Used for companies outside EU that import into the EU via an intermediary "
+"for OSS taxes"
+msgstr ""
+"Určené pre spoločnosti mimo EÚ, ktoré dovážajú do EÚ prostredníctvom "
+"sprostredkovateľa v rámci systému OSS"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,help:l10n_eu_oss_reports.field_res_company__voes
+msgid "Used for companies outside EU that want to make use of OSS"
+msgstr "Určené pre spoločnosti mimo EÚ, ktoré chcú využívať OSS"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields.selection,name:l10n_eu_oss_reports.selection__account_report__availability_condition__oss
+msgid "Using OSS"
+msgstr "Používanie OSS"
+
+#. module: l10n_eu_oss_reports
+#: model:ir.model.fields,field_description:l10n_eu_oss_reports.field_res_company__voes
+msgid "VOES Number"
+msgstr "VOES číslo"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "Validate the return"
+msgstr "Potvrdiť zúčtovanie"
+
+#. module: l10n_eu_oss_reports
+#. odoo-python
+#: code:addons/l10n_eu_oss_reports/models/account_generic_tax_report.py:0
+msgid "XML"
+msgstr "XML"
+
+#. module: l10n_eu_oss_reports
+#: model_terms:ir.ui.view,arch_db:l10n_eu_oss_reports.oss_return_submission_wizard_form
+msgid "using Itsme or your card reader"
+msgstr "pomocou aplikácie Itsme alebo čítačky kariet"

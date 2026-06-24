@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_enterprise
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:46+0000\n"
+"PO-Revision-Date: 2025-10-08 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: event_enterprise
+#: model_terms:ir.ui.view,arch_db:event_enterprise.event_view_gantt
+#, fuzzy
+msgid "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
+msgstr "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
+
+#. module: event_enterprise
+#: model_terms:ir.ui.view,arch_db:event_enterprise.event_view_gantt
+#, fuzzy
+msgid "<strong>Stage — </strong>"
+msgstr "<strong>Bosqich — </strong>"
+
+#. module: event_enterprise
+#: model_terms:ir.ui.view,arch_db:event_enterprise.event_registration_view_cohort
+#, fuzzy
+msgid "Attendees"
+msgstr "Ishtirokchilar"
+
+#. module: event_enterprise
+#: model:ir.model.fields,field_description:event_enterprise.field_event_registration__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: event_enterprise
+#: model:ir.model,name:event_enterprise.model_event_registration
+#, fuzzy
+msgid "Event Registration"
+msgstr "Tadbir ro‘yxatdan o‘tkazilishi"
+
+#. module: event_enterprise
+#: model:ir.model.fields,field_description:event_enterprise.field_event_registration__event_begin_date
+#, fuzzy
+msgid "Event Start Date"
+msgstr "Tadbir boshlanish sanasi"
+
+#. module: event_enterprise
+#: model:ir.model.fields,field_description:event_enterprise.field_event_registration__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: event_enterprise
+#: model_terms:ir.ui.view,arch_db:event_enterprise.event_event_view_map
+#, fuzzy
+msgid "Name"
+msgstr "Nomi"
+
+#. module: event_enterprise
+#: model_terms:ir.ui.view,arch_db:event_enterprise.event_event_view_map
+#, fuzzy
+msgid "Venue"
+msgstr "Joyi"

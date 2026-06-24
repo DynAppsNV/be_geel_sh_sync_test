@@ -1,0 +1,311 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm_stock
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08 18:47+0000\n"
+"PO-Revision-Date: 2025-10-08 18:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_task_form2_inherit
+#, fuzzy
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                            to Pick up\n"
+"                        </span>"
+msgstr "<span class=\"o_stat_text\">olish uchun</span>"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_task_form2_inherit
+#, fuzzy
+msgid "<span>Products</span>"
+msgstr "<span>Mahsulotlar</span>"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/product.py:0
+#, fuzzy
+msgid ""
+"Adding or updating this product is restricted due to its tracked status. "
+"Your current access rights do not allow you to perform these actions. Please "
+"contact your administrator to request the necessary permissions."
+msgstr ""
+"Ushbu mahsulotni qo‘shish yoki yangilash uning kuzatilayotgan holati tufayli "
+"cheklangan. Hozirgi kirish huquqlaringiz bu amallarni bajarishga ruxsat "
+"bermaydi. Zarur ruxsatlarni so‘rash uchun administrator bilan bog‘laning."
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Already Delivered"
+msgstr "Allaqachon yetkazib berilgan"
+
+#. module: industry_fsm_stock
+#: model:ir.model,website_form_label:industry_fsm_stock.model_project_task
+#, fuzzy
+msgid "Create a Task"
+msgstr "Vazifa yaratish"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__create_uid
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__create_date
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Discard"
+msgstr "Bekor qilish"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_product_product__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_stock_move__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/wizard/fsm_stock_tracking.py:0
+#, fuzzy
+msgid "Each line needs a Lot/Serial Number"
+msgstr "Har bir satr uchun Partiya/Seriya raqami kerak"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,help:industry_fsm_stock.field_fsm_stock_tracking__tracking
+#, fuzzy
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Omboringizda saqlanadigan mahsulotning kuzatib borilishini ta'minlang."
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order_line__fsm_lot_id
+#, fuzzy
+msgid "Fsm Lot"
+msgstr "Fsm partiyasi"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_product_product__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order_line__id
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_stock_move__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__write_uid
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__write_date
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_fsm_stock_tracking_line
+#, fuzzy
+msgid "Lines for FSM Stock Tracking"
+msgstr "FSM zaxiralarini kuzatish qatorlari"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__lot_id
+#, fuzzy
+msgid "Lot/Serial Number"
+msgstr "Partiya/Seriya raqami"
+
+#. module: industry_fsm_stock
+#. odoo-javascript
+#: code:addons/industry_fsm_stock/static/src/js/product_catalog/sale_order_line/sale_order_line.xml:0
+#, fuzzy
+msgid "Lot/Serial number"
+msgstr "Partiya/Seriya raqami"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/project_task.py:0
+#, fuzzy
+msgid "Pick Up Material"
+msgstr "Materiallarni olish"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__product_id
+#, fuzzy
+msgid "Product"
+msgstr "Mahsulot"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_product_product
+#, fuzzy
+msgid "Product Variant"
+msgstr "Mahsulot varianti"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_task_form2_inherit
+#, fuzzy
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_project_project
+#, fuzzy
+msgid "Project"
+msgstr "Loyiha"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__quantity
+#, fuzzy
+msgid "Quantity"
+msgstr "Miqdor"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_move_kanban_picking_redirect
+#, fuzzy
+msgid "Quantity:"
+msgstr "Miqdor:"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_sale_order
+#, fuzzy
+msgid "Sales Order"
+msgstr "Sotish buyurtmasi"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_sale_order_line
+#, fuzzy
+msgid "Sales Order Line"
+msgstr "Sotish buyurtmasi qatori"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.view_move_kanban_picking_redirect
+#, fuzzy
+msgid "Source Location:"
+msgstr "Manba joylashuvi:"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_stock_move
+#, fuzzy
+msgid "Stock Move"
+msgstr "Zaxira harakati"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_project_task__stock_move_customer_product_count
+#, fuzzy
+msgid "Stock Move Customer Product Count"
+msgstr "Mijoz mahsulotlari soni harakati"
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_project_task
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__task_id
+#, fuzzy
+msgid "Task"
+msgstr "Vazifa"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/product.py:0
+#, fuzzy
+msgid ""
+"The ordered quantity cannot be decreased below the amount already delivered. "
+"Instead, create a return in your inventory."
+msgstr ""
+"Buyurtma qilingan miqdorni allaqachon yetkazib berilgan miqdordan kamaytirib "
+"bo‘lmaydi. Buning o‘rniga, inventaringizda qaytarish amalga oshiring."
+
+#. module: industry_fsm_stock
+#: model:ir.model,name:industry_fsm_stock.model_fsm_stock_tracking
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_line_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Track Stock"
+msgstr "Zaxirani kuzatish"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__tracking
+#, fuzzy
+msgid "Tracking"
+msgstr "Kuzatish"
+
+#. module: industry_fsm_stock
+#: model:ir.model.fields,help:industry_fsm_stock.field_project_task__display_name
+#, fuzzy
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a medium priority\n"
+"        !! Set the task a high priority\n"
+"        !!! Set the task a urgent priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"Yangi vazifalarni belgilash uchun sarlavhada ushbu kalit so‘zlardan "
+"foydalaning: 30s Vazifaga 30 soat ajrating #teglar Vazifaga teglar qo‘ying "
+"@foydalanuvchi Vazifani foydalanuvchiga tayinlang ! Vazifaga o‘rtacha "
+"ustuvorlik bering !! Vazifaga yuqori ustuvorlik bering !!! Vazifaga "
+"shoshilinch ustuvorlik bering To‘g‘ri format va tartibdan foydalaning, "
+"masalan: Sozlamalar ekranini yaxshilash 5s #xususiyat #v16 @Mitchell !"
+
+#. module: industry_fsm_stock
+#: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
+#, fuzzy
+msgid "Validate"
+msgstr "Tasdiqlash"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/product.py:0
+#, fuzzy
+msgid "Validate Lot/Serial Number"
+msgstr "Partiya/Seriya raqamini tasdiqlash"
+
+#. module: industry_fsm_stock
+#. odoo-python
+#: code:addons/industry_fsm_stock/models/project_task.py:0
+#, fuzzy
+msgid "id"
+msgstr "id"

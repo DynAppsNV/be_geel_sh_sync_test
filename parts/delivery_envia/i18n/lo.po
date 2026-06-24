@@ -1,0 +1,851 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * delivery_envia
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:41+0000\n"
+"PO-Revision-Date: 2026-06-06 11:48+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"delivery_envia/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "%(field_name)s must be set on Partner: %(partner_name)s."
+msgstr "%(field_name)s ຕ້ອງໄດ້ຖືກກໍານົດໃຫ້ກັບ ຄູ່ຄ້າ: %(partner_name)s."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ". This link will give you personalized attention plus lower prices."
+msgstr ". ລິງນີ້ຈະຊ່ວຍໃຫ້ທ່ານໄດ້ຮັບການເບິ່ງແຍງເປັນພິເສດ ພ້ອມກັບລາຄາທີ່ຖືກລົງ."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_shipping_method_envia
+msgid ""
+"<i class=\"fa fa-info-circle\"/> Available shipping services depend on "
+"enabled carriers in your Envia account."
+msgstr ""
+"<i class=\"fa fa-info-circle\"/> ບໍລິການຈັດສົ່ງທີ່ມີໃຫ້ ແມ່ນຂຶ້ນກັບຜູ້ໃຫ້ບໍລິການຂົນສົ່ງທີ່ເປີດໃຊ້ໃນບັນ"
+"ຊີ Envia ຂອງທ່ານ."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"A note, some countries support unique additional services for pallet "
+"shipments or boxes. For example, Canada has the option to handle missed "
+"deliveries by returning them back to your warehouse or abandoning on the "
+"doorstep. To enable this feature, enable Returned at Shippers Expense "
+"otherwise it will be abandoned at the customer's door."
+msgstr ""
+"ໝາຍເຫດ, ບາງປະເທດຮອງຮັບບໍລິການເສີມພິເສດສຳລັບການຈັດສົ່ງແບບພາເລດ ຫຼື ແບບກ່ອງ. ຕົວຢ່າງ, ປະເທດກາ"
+"ນາດາມີທາງເລືອກໃນການຈັດການການຈັດສົ່ງທີ່ບໍ່ສຳເລັດ ໂດຍການສົ່ງພວກມັນກັບຄືນໄປຫາສາງສິນຄ້າຂອງທ່ານ ຫຼື ປະໄ"
+"ວ້ຢູ່ໜ້າປະຕູ. ເພື່ອເປີດໃຊ້ຄຸນສົມບັດນີ້, ໃຫ້ເປີດໃຊ້ 'ສົ່ງຄືນໂດຍຄ່າໃຊ້ຈ່າຍຂອງຜູ້ສົ່ງ' ຖ້າບໍ່ດັ່ງນັ້ນ ມັນຈະຖືກປະໄວ້ຢູ່ໜ້"
+"າປະຕູຂອງລູກຄ້າ."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "A phone number must be set on Partner: %(partner_name)s"
+msgstr "ຕ້ອງກຳນົດເບີໂທລະສັບໃຫ້ກັບ ຄູ່ຄ້າ: %(partner_name)s"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Add New Carriers in Envia"
+msgstr "ເພີ່ມຜູ້ໃຫ້ບໍລິການຂົນສົ່ງໃໝ່ໃນ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__stock_package_type__envia_mail_type__box
+msgid "Box"
+msgstr "ກ່ອງ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_shipping_method_envia
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_stock_package_type__package_carrier_type
+msgid "Carrier"
+msgstr "ຜູ້ໃຫ້ບໍລິການຂົນສົ່ງ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_stock_package_type__shipper_package_code
+msgid "Carrier Code"
+msgstr "ລະຫັດຜູ້ໃຫ້ບໍລິການ"
+
+#. module: delivery_envia
+#. odoo-javascript
+#: code:addons/delivery_envia/static/src/components/envia_service_selection_widget.xml:0
+msgid "Carrier:"
+msgstr "ຜູ້ໃຫ້ບໍລິການຂົນສົ່ງ:"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/wizard/envia_shipping_wizard.py:0
+msgid ""
+"Carriers and Services must be selected from the list of available shipping "
+"methods."
+msgstr "ຕ້ອງເລືອກຜູ້ໃຫ້ບໍລິການ ແລະ ບໍລິການ ຈາກລາຍຊື່ວິທີການຈັດສົ່ງທີ່ມີໃຫ້."
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_residential_delivery
+msgid ""
+"Certain carriers like UPS will charge an extra fee to deliver to a "
+"residential zone (United States Only)"
+msgstr ""
+"ຜູ້ໃຫ້ບໍລິການບາງລາຍ ເຊັ່ນ UPS ຈະເກັບຄ່າທຳນຽມເພີ່ມເຕີມສຳລັບການຈັດສົ່ງໄປຍັງເຂດທີ່ພັກອາໄສ (ສະເພາະໃນສ"
+"ະຫະລັດອາເມລິກາ)"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_residential_pickup
+msgid ""
+"Certain carriers like UPS will charge an extra fee to pickup from "
+"residential zones (United States Only)"
+msgstr ""
+"ຜູ້ໃຫ້ບໍລິການບາງລາຍ ເຊັ່ນ UPS ຈະເກັບຄ່າທຳນຽມເພີ່ມເຕີມສຳລັບການຮັບສິນຄ້າຈາກເຂດທີ່ພັກອາໄສ (ສະເພາະໃນ"
+"ສະຫະລັດອາເມລິກາ)"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/delivery_carrier.py:0
+msgid "Choose an Envia.com Shipping Service"
+msgstr "ເລືອກບໍລິການຈັດສົ່ງຂອງ Envia.com"
+
+#. module: delivery_envia
+#: model:ir.model,name:delivery_envia.model_envia_shipping_wizard
+msgid "Choose from the available Envia.com shipping methods"
+msgstr "ເລືອກຈາກວິທີການຈັດສົ່ງຂອງ Envia.com ທີ່ມີໃຫ້"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_shipping_method_envia
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_envia_shipping_wizard__available_services
+msgid ""
+"Contains the list of available services for the Envia.com account to select "
+"from."
+msgstr "ປະກອບມີລາຍຊື່ບໍລິການທີ່ມີໃຫ້ສຳລັບບັນຊີ Envia.com ເພື່ອໃຫ້ເລືອກໃຊ້."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Copy over the API Key from Envia into either the sandbox or production field"
+" in Delivery Methods."
+msgstr ""
+"ຄັດລອກ API Key ຈາກ Envia ໄປໃສ່ໃນຊ່ອງ sandbox ຫຼື production ໃນວິທີການຈັດສົ່ງ."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Create an Account"
+msgstr "ສ້າງບັນຊີ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Create and edit a package for this delivery method to be used as reference "
+"for quotations and labels. This package can be of type <b>box</b>, "
+"<b>envelope</b>, or <b>pallet</b>, which determines the carriers that can be"
+" used."
+msgstr ""
+"ສ້າງ ແລະ ແກ້ໄຂເຄື່ອງຫຸ້ມຫໍ່ສຳລັບວິທີການຈັດສົ່ງນີ້ ເພື່ອໃຊ້ເປັນບ່ອນອີງໃນການສະເໜີລາຄາ ແລະ ສະຕິກເກີຕິດໜ້າກ່ອ"
+"ງ. ເຄື່ອງຫຸ້ມຫໍ່ນີ້ສາມາດເປັນປະເພດ <b>ກ່ອງ</b>, <b>ຊອງ</b>, ຫຼື <b>ພາເລດ</b>, ເຊິ່ງຈະເປັນຕົວຊີ້ບ"
+"ອກວ່າຜູ້ໃຫ້ບໍລິການຂົນສົ່ງໃດທີ່ສາມາດໃຊ້ໄດ້."
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_currency_id
+msgid "Currency set in Envia"
+msgstr "ສະກຸນເງິນທີ່ກຳນົດໄວ້ໃນ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__carrier_id
+msgid "Delivery"
+msgstr "ການຈັດສົ່ງ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_residential_delivery
+msgid "Delivery Residential Zone"
+msgstr "ການຈັດສົ່ງໄປເຂດທີ່ພັກອາໄສ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_shipping_method_envia
+msgid "Delivery Service"
+msgstr "ບໍລິການຈັດສົ່ງ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__display_name
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__display_name
+#: model:ir.model.fields,field_description:delivery_envia.field_stock_package_type__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Don't worry about the printing options, just note which ones exist for your "
+"favorite carrier as we will select them in Odoo."
+msgstr ""
+"ບໍ່ຕ້ອງກັງວົນກ່ຽວກັບຕົວເລືອກການພິມ, ພຽງແຕ່ໝາຍໄວ້ວ່າອັນໃດມີໃຫ້ສຳລັບຜູ້ໃຫ້ບໍລິການທີ່ທ່ານມັກ ເພາະພວກເຮົາຈະໄ"
+"ປເລືອກພວກມັນໃນ Odoo."
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_file_type__epl
+msgid "EPL"
+msgstr "EPL"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__stock_package_type__envia_mail_type__envelope
+msgid "Envelope"
+msgstr "ຊອງ"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__delivery_type__envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__stock_package_type__package_carrier_type__envia
+msgid "Envia"
+msgstr "Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_currency_id
+msgid "Envia Account Main Currency"
+msgstr "ສະກຸນເງິນຫຼັກຂອງບັນຊີ Envia"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Envia Configuration"
+msgstr "ການຕັ້ງຄ່າ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_default_package_type_id
+msgid "Envia Default Package"
+msgstr "ເຄື່ອງຫຸ້ມຫໍ່ເລີ່ມຕົ້ນຂອງ Envia"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "Envia Documents:"
+msgstr "ເອກະສານ Envia:"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "Envia Error: %(description)s - %(message)s"
+msgstr "ຂໍ້ຜິດພາດ Envia: %(description)s - %(message)s"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid ""
+"Envia Error: %(message)s - %(description)s %(location)s (Reference code: "
+"%(reference)s)"
+msgstr ""
+"ຂໍ້ຜິດພາດ Envia: %(message)s - %(description)s %(location)s (ລະຫັດອ້າງອີງ: %"
+"(reference)s)"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid ""
+"Envia Error: The API key you entered for %(carrier_name)s seems to be "
+"invalid"
+msgstr ""
+"ຂໍ້ຜິດພາດ Envia: API key ທີ່ທ່ານປ້ອນສຳລັບ %(carrier_name)s ເບິ່ງຄືວ່າບໍ່ຖືກຕ້ອງ"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid ""
+"Envia Error: The Envia Mail Type (%(package_types)s) set on the package(s) "
+"does not match the type set on the carrier (%(carrier_package_type)s). Use a"
+" different package or different carrier that matches the mail type."
+msgstr ""
+"ຂໍ້ຜິດພາດ Envia: ປະເພດການສົ່ງ (%(package_types)s) ທີ່ກຳນົດໃນເຄື່ອງຫຸ້ມຫໍ່ ບໍ່ກົງກັບປະເພດທີ່ກຳນົດໃນ"
+"ຜູ້ໃຫ້ບໍລິການ (%(carrier_package_type)s). ກະລຸນາໃຊ້ເຄື່ອງຫຸ້ມຫໍ່ອື່ນ ຫຼື ຜູ້ໃຫ້ບໍລິການອື່ນທີ່ກົງກັບປະເພດກ"
+"ານສົ່ງ."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid ""
+"Envia Error: The following products don't have weights set: "
+"%(product_names)s"
+msgstr "ຂໍ້ຜິດພາດ Envia: ສິນຄ້າຕໍ່ໄປນີ້ຍັງບໍ່ໄດ້ກຳນົດນ້ຳໜັກ: %(product_names)s"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_label_file_type
+msgid "Envia Label File Type"
+msgstr "ປະເພດໄຟລ໌ສະຕິກເກີຂອງ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_label_stock_type
+msgid "Envia Label Type"
+msgstr "ປະເພດສະຕິກເກີຂອງ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_mail_type
+#: model:ir.model.fields,field_description:delivery_envia.field_stock_package_type__envia_mail_type
+msgid "Envia Package Type"
+msgstr "ປະເພດເຄື່ອງຫຸ້ມຫໍ່ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_production_api_key
+msgid "Envia Production Access Token"
+msgstr "Token ສຳລັບລະບົບຈິງ (Production) ຂອງ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_sandbox_api_key
+msgid "Envia Sandbox Access Token"
+msgstr "Token ສຳລັບລະບົບທົດລອງ (Sandbox) ຂອງ Envia"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Envia Setup"
+msgstr "ການຕັ້ງຄ່າ Envia"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/delivery_carrier.py:0
+msgid "Envia order(s) not found to cancel shipment!"
+msgstr "ບໍ່ພົບຄຳສັ່ງຊື້ຂອງ Envia ເພື່ອຍົກເລີກການຈັດສົ່ງ!"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_default_package_type_id
+msgid ""
+"Envia requires package dimensions for getting accurate rate, you can define "
+"these in a package type that you set as default"
+msgstr ""
+"Envia ຕ້ອງການຂະໜາດຂອງເຄື່ອງຫຸ້ມຫໍ່ເພື່ອຄິດໄລ່ລາຄາທີ່ຖືກຕ້ອງ, ທ່ານສາມາດກຳນົດສິ່ງເຫຼົ່ານີ້ໃນປະເພດເຄື່ອງຫຸ້ມ"
+"ຫໍ່ທີ່ທ່ານຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນ"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid ""
+"Envia was unable to locate a postal code for the partner: %(partner_name)s. "
+"Make sure city/commune and state/region are set otherwise enter a postal "
+"code directly"
+msgstr ""
+"Envia ບໍ່ສາມາດຄົ້ນຫາລະຫັດໄປສະນີສຳລັບຄູ່ຄ້າ: %(partner_name)s. ກະລຸນາກວດສອບວ່າໄດ້ກຳນົດ ເມືອງ/"
+"ແຂວງ ແລະ ລັດ/ພາກພື້ນ ແລ້ວ ຫຼື ປ້ອນລະຫັດໄປສະນີໂດຍກົງ"
+
+#. module: delivery_envia
+#: model:delivery.carrier,name:delivery_envia.delivery_carrier_envia
+#: model:product.template,name:delivery_envia.product_product_delivery_envia_product_template
+msgid "Envia.com"
+msgstr "Envia.com"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_carrier_code
+msgid "Envia.com Carrier Code"
+msgstr "ລະຫັດຜູ້ໃຫ້ບໍລິການຂອງ Envia.com"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_service_code
+msgid "Envia.com Service Code"
+msgstr "ລະຫັດບໍລິການຂອງ Envia.com"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_service_name
+msgid "Envia.com Service Name"
+msgstr "ຊື່ບໍລິການຂອງ Envia.com"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.res_config_settings_view_form_sale_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.res_config_settings_view_form_stock_envia
+msgid "Envia.com Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງຂອງ Envia.com"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/delivery_carrier.py:0
+msgid "Failed to fetch Envia Carriers, Please try again later."
+msgstr "ບໍ່ສາມາດດຶງຂໍ້ມູນຜູ້ໃຫ້ບໍລິການ Envia ໄດ້, ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid ""
+"For LTL shipments in Mexico, a Bill of Landing (Carta Porte) is required, in"
+" order to send the required information you need to set the UNSPSC code in "
+"the following product: %(product_name)s"
+msgstr ""
+"ສຳລັບການຈັດສົ່ງແບບ LTL ໃນເມັກຊິໂກ, ຕ້ອງມີໃບກຳກັບສິນຄ້າ (Carta Porte), ເພື່ອສົ່ງຂໍ້ມູນທີ່ຈຳເປັນ ທ່ານ"
+"ຕ້ອງກຳນົດລະຫັດ UNSPSC ໃນສິນຄ້າຕໍ່ໄປນີ້: %(product_name)s"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"For any carriers you'd like to use that are not activated, be sure to "
+"activate it here."
+msgstr ""
+"ສຳລັບຜູ້ໃຫ້ບໍລິການໃດທີ່ທ່ານຕ້ອງການໃຊ້ແຕ່ຍັງບໍ່ທັນໄດ້ເປີດໃຊ້, ໃຫ້ແນ່ໃຈວ່າໄດ້ເປີດໃຊ້ຢູ່ບ່ອນນີ້."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"For your available carriers you'll need to make sure that they are available"
+" through Envia (make sure to select all available countries):<br/>"
+msgstr ""
+"ສຳລັບຜູ້ໃຫ້ບໍລິການທີ່ມີໃຫ້ຂອງທ່ານ ທ່ານຕ້ອງກວດສອບໃຫ້ແນ່ໃຈວ່າພວກເຂົາມີໃຫ້ບໍລິການຜ່ານ Envia (ຢ່າລືມເລືອກທຸ"
+"ກປະເທດທີ່ມີໃຫ້):<br/>"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_production_api_key
+msgid "Generate an Access Token from within the Production Portal of Envia"
+msgstr "ສ້າງ Access Token ຈາກພາຍໃນ Production Portal ຂອງ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_sandbox_api_key
+msgid "Generate an Access Token from within the Sandbox Portal of Envia"
+msgstr "ສ້າງ Access Token ຈາກພາຍໃນ Sandbox Portal ຂອງ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__id
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__id
+#: model:ir.model.fields,field_description:delivery_envia.field_stock_package_type__id
+msgid "ID"
+msgstr "ID"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_return_at_senders_expense
+msgid ""
+"If the carrier is unable to deliver the package, the package can be returned"
+" to the shipper or abandoned at the door. (Canada only)"
+msgstr ""
+"ຖ້າຜູ້ໃຫ້ບໍລິການບໍ່ສາມາດຈັດສົ່ງເຄື່ອງໄດ້, ເຄື່ອງສາມາດຖືກສົ່ງຄືນໃຫ້ຜູ້ສົ່ງ ຫຼື ປະໄວ້ຢູ່ໜ້າປະຕູ. (ສະເພາະປະເທດກາ"
+"ນາດາ)"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "If you don't have an account"
+msgstr "ຖ້າທ່ານຍັງບໍ່ມີບັນຊີ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "If you don't have an account, we recommend heading to"
+msgstr "ຖ້າທ່ານຍັງບໍ່ມີບັນຊີ, ພວກເຮົາແນະນຳໃຫ້ໄປທີ່"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດລ້າສຸດໂດຍ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດລ້າສຸດເມື່ອ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Lastly, head to the Developers / API Keys section and generate a new API "
+"Key. This will be used by Odoo to communicate with Envia so note it down for"
+" later."
+msgstr ""
+"ສຸດທ້າຍ, ໄປທີ່ພາກສ່ວນ Developers / API Keys ແລະ ສ້າງ API Key ໃໝ່. ອັນນີ້ຈະຖືກໃຊ້ໂດຍ Odoo "
+"ເພື່ອສື່ສານກັບ Envia, ດັ່ງນັ້ນໃຫ້ບັນທຶກມັນໄວ້."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/stock_package_type.py:0
+msgid "Length, Width, and Height is necessary for a Envia Package."
+msgstr "ຄວາມຍາວ, ຄວາມກວ້າງ, ແລະ ຄວາມສູງ ແມ່ນຈຳເປັນສຳລັບເຄື່ອງຫຸ້ມຫໍ່ Envia."
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_lift_delivery
+msgid "Lift Assistance on Delivery"
+msgstr "ການຊ່ວຍເຫຼືອໃນການຍົກເຄື່ອງຂຶ້ນ-ລົງ ເມື່ອຈັດສົ່ງ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_lift_pickup
+msgid "Lift Assistance on Pickup"
+msgstr "ການຊ່ວຍເຫຼືອໃນການຍົກເຄື່ອງຂຶ້ນ-ລົງ ເມື່ອຮັບເຄື່ອງ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Make sure to select the appropriate country for your main billing, if you "
+"have multi country operations you can also create two separate accounts, "
+"keep in mind that your billing will be done in your main currency. <br/>"
+msgstr ""
+"ໃຫ້ແນ່ໃຈວ່າໄດ້ເລືອກປະເທດທີ່ເໝາະສົມສຳລັບການຮຽກເກັບເງິນຫຼັກຂອງທ່ານ, ຖ້າທ່ານມີການດຳເນີນງານໃນຫຼາຍປະເ"
+"ທດ ທ່ານສາມາດສ້າງສອງບັນຊີແຍກກັນໄດ້, ໃຫ້ຈື່ໄວ້ວ່າການຮຽກເກັບເງິນຈະເຮັດເປັນສະກຸນເງິນຫຼັກຂອງທ່ານ. "
+"<br/>"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid ""
+"Missing Fields:\n"
+"%s"
+msgstr ""
+"ຂໍ້ມູນທີ່ຂາດຫາຍໄປ:\n"
+"%s"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/delivery_carrier.py:0
+msgid ""
+"No carrier is set on \"%(delivery_method)s\". To use Envia.com, you'll need "
+"to sync your carriers with your account."
+msgstr ""
+"ຍັງບໍ່ໄດ້ກຳນົດຜູ້ໃຫ້ບໍລິການໃນ \"%(delivery_method)s\". ເພື່ອໃຊ້ Envia.com, ທ່ານຕ້ອງຊິງຄ໌ຜູ້ໃຫ້ບໍລິກ"
+"ານຂອງທ່ານກັບບັນຊີຂອງທ່ານ."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "No rate found"
+msgstr "ບໍ່ພົບລາຄາ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Once your delivery method is properly configured, you can sync the carriers "
+"Envia provides for your country of origin: <br/>"
+msgstr ""
+"ເມື່ອວິທີການຈັດສົ່ງຂອງທ່ານຖືກຕັ້ງຄ່າຢ່າງຖືກຕ້ອງແລ້ວ, ທ່ານສາມາດຊິງຄ໌ຜູ້ໃຫ້ບໍລິການທີ່ Envia ມີໃຫ້ສຳລັບປະເທດຕົ້"
+"ນທາງຂອງທ່ານ: <br/>"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Options"
+msgstr "ຕົວເລືອກ"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__paper_4x6
+msgid "PAPER_4X6"
+msgstr "PAPER_4X6"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__paper_4x8
+msgid "PAPER_4X8"
+msgstr "PAPER_4X8"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__paper_7x4_75
+msgid "PAPER_7X4.75"
+msgstr "PAPER_7X4.75"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__paper_8_27x11_67
+msgid "PAPER_8.27X11.67"
+msgstr "PAPER_8.27X11.67"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__paper_8_5x11
+msgid "PAPER_8.5X11"
+msgstr "PAPER_8.5X11"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__paper_8_5x11_bottom_half_label
+msgid "PAPER_8.5X11_BOTTOM_HALF_LABEL"
+msgstr "PAPER_8.5X11_BOTTOM_HALF_LABEL"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_file_type__pdf
+msgid "PDF"
+msgstr "PDF"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_file_type__png
+msgid "PNG"
+msgstr "PNG"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__stock_package_type__envia_mail_type__pallet
+msgid "Pallet"
+msgstr "ພາເລດ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_residential_pickup
+msgid "Pickup Residential Zone"
+msgstr "ການຮັບເຄື່ອງຈາກເຂດທີ່ພັກອາໄສ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_lift_delivery
+msgid ""
+"Provide liftgate assistance if the recipient doesn't have a dock or forklift"
+" to unload the shipment. (United States and Mexico Only)"
+msgstr ""
+"ໃຫ້ບໍລິການຊ່ວຍເຫຼືອໃນການຍົກເຄື່ອງລົງ ຖ້າຜູ້ຮັບບໍ່ມີບ່ອນຈອດ ຫຼື ລົດຍົກສຳລັບເອົາເຄື່ອງລົງ. (ສະເພາະໃນສະຫະລັດ"
+"ອາເມລິກາ ແລະ ເມັກຊິໂກ)"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_lift_pickup
+msgid ""
+"Provide liftgate assitance if the supplier doesn't have a dock or forklift "
+"to load the shipment. (United States and Mexico Only)"
+msgstr ""
+"ໃຫ້ບໍລິການຊ່ວຍເຫຼືອໃນການຍົກເຄື່ອງຂຶ້ນ ຖ້າຜູ້ສົ່ງບໍ່ມີບ່ອນຈອດ ຫຼື ລົດຍົກສຳລັບເອົາເຄື່ອງຂຶ້ນ. (ສະເພາະໃນສະຫະລັດ"
+"ອາເມລິກາ ແລະ ເມັກຊິໂກ)"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__envia_return_at_senders_expense
+msgid "Returned at Shippers Expense"
+msgstr "ສົ່ງຄືນໂດຍຄ່າໃຊ້ຈ່າຍຂອງຜູ້ສົ່ງ"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_2_4x6
+msgid "STOCK_2.4X6"
+msgstr "STOCK_2.4X6"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_2_9x5
+msgid "STOCK_2.9X5"
+msgstr "STOCK_2.9X5"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_3_8x4_2
+msgid "STOCK_3.8X4.2"
+msgstr "STOCK_3.8X4.2"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_3_9x7
+msgid "STOCK_3.9X7"
+msgstr "STOCK_3.9X7"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_4x4
+msgid "STOCK_4X4"
+msgstr "STOCK_4X4"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_4x6
+msgid "STOCK_4X6"
+msgstr "STOCK_4X6"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_4x6_5
+msgid "STOCK_4X6.5"
+msgstr "STOCK_4X6.5"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_4x6_75_leading_doc_tab
+msgid "STOCK_4X6.75_LEADING_DOC_TAB"
+msgstr "STOCK_4X6.75_LEADING_DOC_TAB"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_4x7_5
+msgid "STOCK_4X7.5"
+msgstr "STOCK_4X7.5"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_stock_type__stock_4x8
+msgid "STOCK_4X8"
+msgstr "STOCK_4X8"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "Sale Order is required to get rate."
+msgstr "ຕ້ອງມີຄຳສັ່ງຂາຍເພື່ອຂໍລາຄາ."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "Sale Order or Picking is required to convert currency."
+msgstr "ຕ້ອງມີຄຳສັ່ງຂາຍ ຫຼື ການເບີກສິນຄ້າ ເພື່ອແປງສະກຸນເງິນ."
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__country_id
+msgid "Select the country to be used by this delivery method"
+msgstr "ເລືອກປະເທດທີ່ຈະໃຊ້ສຳລັບວິທີການຈັດສົ່ງນີ້"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_mail_type
+#: model:ir.model.fields,help:delivery_envia.field_stock_package_type__envia_mail_type
+msgid "Select the package type for the shipment"
+msgstr "ເລືອກປະເພດເຄື່ອງຫຸ້ມຫໍ່ສຳລັບການຈັດສົ່ງ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_label_stock_type
+msgid "Select the size of the label"
+msgstr "ເລືອກຂະໜາດຂອງສະຕິກເກີ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_label_file_type
+msgid "Select the printing format of the label"
+msgstr "ເລືອກຮູບແບບການພິມຂອງສະຕິກເກີ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__selected_carrier_code
+msgid "Selected Carrier"
+msgstr "ຜູ້ໃຫ້ບໍລິການທີ່ເລືອກ"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_envia_shipping_wizard__selected_service_code
+msgid "Selected Service"
+msgstr "ບໍລິການທີ່ເລືອກ"
+
+#. module: delivery_envia
+#. odoo-javascript
+#: code:addons/delivery_envia/static/src/components/envia_service_selection_widget.xml:0
+msgid "Service:"
+msgstr "ບໍລິການ:"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Setup In Odoo"
+msgstr "ການຕັ້ງຄ່າໃນ Odoo"
+
+#. module: delivery_envia
+#: model:ir.model.fields,field_description:delivery_envia.field_delivery_carrier__country_id
+msgid "Ship From"
+msgstr "ຈັດສົ່ງຈາກ"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "Shipment created into Envia"
+msgstr "ສ້າງການຈັດສົ່ງໃນ Envia ແລ້ວ"
+
+#. module: delivery_envia
+#: model:ir.model,name:delivery_envia.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "ວິທີການຈັດສົ່ງ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_shipping_method_envia
+msgid "Shipping Product"
+msgstr "ສິນຄ້າການຈັດສົ່ງ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Specify the Origin country that this connector will ship from. By default "
+"this is the company's country."
+msgstr "ລະບຸປະເທດຕົ້ນທາງທີ່ຈະຈັດສົ່ງອອກ. ໂດຍເລີ່ມຕົ້ນ ແມ່ນຈະໃຊ້ປະເທດຂອງບໍລິສັດ."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"Specify the currency your Envia account is configured in. By default this is"
+" the company's currency."
+msgstr ""
+"ລະບຸສະກຸນເງິນທີ່ບັນຊີ Envia ຂອງທ່ານຕັ້ງຄ່າໄວ້. ໂດຍເລີ່ມຕົ້ນ ແມ່ນຈະໃຊ້ສະກຸນເງິນຂອງບໍລິສັດ."
+
+#. module: delivery_envia
+#: model:ir.model,name:delivery_envia.model_stock_package_type
+msgid "Stock package type"
+msgstr "ປະເພດເຄື່ອງຫຸ້ມຫໍ່ສິນຄ້າ"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Sync Carriers/Services from Envia"
+msgstr "ຊິງຄ໌ ຜູ້ໃຫ້ບໍລິການ/ບໍລິການ ຈາກ Envia"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "Sync Envia Carriers"
+msgstr "ຊິງຄ໌ຜູ້ໃຫ້ບໍລິການ Envia"
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_carrier_code
+msgid ""
+"The carrier on Envia.com used by this carrier. The service code belongs to "
+"it."
+msgstr ""
+"ຜູ້ໃຫ້ບໍລິການໃນ Envia.com ທີ່ຖືກໃຊ້ໂດຍຜູ້ໃຫ້ບໍລິການນີ້. ລະຫັດບໍລິການແມ່ນຂຶ້ນກັບມັນ."
+
+#. module: delivery_envia
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_service_code
+#: model:ir.model.fields,help:delivery_envia.field_delivery_carrier__envia_service_name
+msgid ""
+"The service that will be used for this carrier. This is set when you select "
+"a carrier from the wizard."
+msgstr ""
+"ບໍລິການທີ່ຈະຖືກໃຊ້ສຳລັບຜູ້ໃຫ້ບໍລິການນີ້. ອັນນີ້ຈະຖືກຕັ້ງຄ່າເມື່ອທ່ານເລືອກຜູ້ໃຫ້ບໍລິການຈາກ wizard."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/delivery_carrier.py:0
+msgid "This action requires an Envia.com carrier."
+msgstr "ການດຳເນີນການນີ້ຕ້ອງການຜູ້ໃຫ້ບໍລິການຂອງ Envia.com."
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/envia_request.py:0
+msgid "Tracking Numbers:"
+msgstr "ເລກຕິດຕາມເຄື່ອງ:"
+
+#. module: delivery_envia
+#. odoo-python
+#: code:addons/delivery_envia/models/delivery_carrier.py:0
+msgid "Unable to cancel order: %(order_number)s"
+msgstr "ບໍ່ສາມາດຍົກເລີກຄຳສັ່ງຊື້ໄດ້: %(order_number)s"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"You can also preselect which services will be used, our recommendation is to"
+" not limit this as we will pick them in Odoo anyway."
+msgstr ""
+"ທ່ານສາມາດເລືອກໄວ້ກ່ອນໄດ້ວ່າຈະໃຊ້ບໍລິການໃດ, ແຕ່ພວກເຮົາແນະນຳວ່າບໍ່ຄວນຈຳກັດສິ່ງນີ້ ເພາະພວກເຮົາຈະໄປເລື"
+"ອກໃນ Odoo ຢູ່ແລ້ວ."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"You should also make sure that if you export to other countries, you have to"
+" select who will pay for customs duties."
+msgstr ""
+"ທ່ານຄວນກວດສອບໃຫ້ແນ່ໃຈວ່າ ຖ້າທ່ານສົ່ງອອກໄປປະເທດອື່ນ, ທ່ານຕ້ອງເລືອກວ່າໃຜຈະເປັນຜູ້ຈ່າຍພາສີຂາເຂົ້າ."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"You will be able to specify a specific Envia carrier and service that you "
+"intend to use in this region. Note that each service can have different "
+"pricing and availability."
+msgstr ""
+"ທ່ານຈະສາມາດລະບຸຜູ້ໃຫ້ບໍລິການ ແລະ ບໍລິການຂອງ Envia ທີ່ທ່ານຕ້ອງການໃຊ້ໃນພາກພື້ນນີ້. ໝາຍເຫດວ່າແຕ່ລະບໍລິ"
+"ການອາດມີລາຄາ ແລະ ເງື່ອນໄຂການໃຫ້ບໍລິການທີ່ແຕກຕ່າງກັນ."
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid ""
+"You will be asked to confirm your email address and phone number via SMS."
+msgstr ""
+"ທ່ານຈະໄດ້ຮັບການຮ້ອງຂໍໃຫ້ຢືນຢັນທີ່ຢູ່ອີເມລ ແລະ ເບີໂທລະສັບຂອງທ່ານຜ່ານ SMS."
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_file_type__zpl
+msgid "ZPL"
+msgstr "ZPL"
+
+#. module: delivery_envia
+#: model:ir.model.fields.selection,name:delivery_envia.selection__delivery_carrier__envia_label_file_type__zplii
+msgid "ZPLII"
+msgstr "ZPLII"
+
+#. module: delivery_envia
+#: model_terms:ir.ui.view,arch_db:delivery_envia.view_delivery_carrier_form_inherit_delivery_envia
+msgid "our personalized link"
+msgstr "ລິງພິເສດຂອງທ່ານ"

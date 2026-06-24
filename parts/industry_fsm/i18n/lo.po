@@ -1,0 +1,1501 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * industry_fsm
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:45+0000\n"
+"PO-Revision-Date: 2026-06-06 14:14+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/industry_fsm/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__nbr
+msgid "# of Tasks"
+msgstr "ຈຳນວນວຽກ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "%(partner)s has %(number)s tasks at the same time."
+msgstr "%(partner)s ມີ %(number)s ວຽກໃນເວລາດຽວກັນ."
+
+#. module: industry_fsm
+#: model:ir.actions.report,print_report_name:industry_fsm.task_custom_report
+msgid ""
+"'Field Service Report - %s - %s' % (object.name, object.partner_id.name)"
+msgstr ""
+"'ລາຍງານການບໍລິການພາກສະໜາມ - %s - %s' % (object.name, object.partner_id.name)"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_sharing_inherit_project_task_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "(incl."
+msgstr "(ລວມທັງ."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "10 days"
+msgstr "10 ວັນ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "5 days"
+msgstr "5 ວັນ"
+
+#. module: industry_fsm
+#: model:mail.template,body_html:industry_fsm.mail_template_data_intervention_details
+msgid ""
+"<div>\n"
+"    <t t-set=\"date_begin\" t-value=\"format_datetime(object.planned_date_begin, tz=object.partner_id.tz, lang_code=object.partner_id.lang)\"/>\n"
+"\n"
+"    <t t-set=\"date_end\" t-value=\"format_datetime(object.date_deadline, tz=object.partner_id.tz, lang_code=object.partner_id.lang)\"/>\n"
+"\n"
+"    Dear <t t-out=\"object.partner_id.name or 'customer'\">customer</t>,<br/><br/>\n"
+"    <t t-if=\"date_begin and date_end\">\n"
+"        Your <t t-out=\"object.name or ''\">Boiler maintenance</t> intervention is scheduled from the <t t-out=\"date_begin or ''\">05/31/2021 12:30:00</t> to the <t t-out=\"date_end or ''\">05/31/2021 14:30:00</t>.\n"
+"    </t>\n"
+"    <t t-else=\"\">\n"
+"        Your <t t-out=\"object.name or ''\">Boiler maintenance</t> intervention is scheduled.\n"
+"    </t>\n"
+"    <br/><br/>\n"
+"    Best regards,\n"
+"    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"        <br/>\n"
+"        <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n"
+"    </t>\n"
+"</div>\n"
+"        "
+msgstr ""
+"<div>\n"
+"    <t t-set=\"date_begin\" t-value=\"format_datetime"
+"(object.planned_date_begin, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang)\"/>\n"
+"\n"
+"    <t t-set=\"date_end\" t-value=\"format_datetime(object.date_deadline, "
+"tz=object.partner_id.tz, lang_code=object.partner_id.lang)\"/>\n"
+"\n"
+"    ຮຽນ <t t-out=\"object.partner_id.name or 'customer'\">ລູກຄ້າ</t>,<br/><br/>"
+"\n"
+"    <t t-if=\"date_begin and date_end\">\n"
+"        ການດຳເນີນການ <t t-out=\"object.name or ''\">ບຳລຸງຮັກສາໝໍ້ຕົ້ມ</t> ຂອງທ່ານແມ່ນມີ"
+"ກຳນົດແຕ່ວັນທີ <t t-out=\"date_begin or ''\">05/31/2021 12:30:00</t> ຫາ <t t-"
+"out=\"date_end or ''\">05/31/2021 14:30:00</t>.\n"
+"    </t>\n"
+"    <t t-else=\"\">\n"
+"        ການດຳເນີນການ <t t-out=\"object.name or ''\">ບຳລຸງຮັກສາໝໍ້ຕົ້ມ</t> ຂອງທ່ານແມ່ນໄ"
+"ດ້ຖືກກຳນົດແລ້ວ.\n"
+"    </t>\n"
+"    <br/><br/>\n"
+"    ດ້ວຍຄວາມນັບຖື,\n"
+"    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"        <br/>\n"
+"        <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-"
+"out=\"user.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>"
+"\n"
+"    </t>\n"
+"</div>\n"
+"        "
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_button
+msgid "<i class=\"fa fa-check me-1\"/>Sign Report"
+msgstr "<i class=\"fa fa-check me-1\"/>ເຊັນລາຍງານ"
+
+#. module: industry_fsm
+#: model:mail.template,body_html:industry_fsm.mail_template_data_task_report
+msgid ""
+"<p>\n"
+"                Dear <t t-out=\"object.partner_id.name or 'Customer'\">Customer</t>,<br/><br/>\n"
+"                Please find attached the field service report for our onsite operation. <br/><br/>\n"
+"                Feel free to contact us if you have any questions.<br/><br/>\n"
+"                Best regards,<br/><br/>\n"
+"            </p>\n"
+"        "
+msgstr ""
+"<p>\n"
+"                ຮຽນ <t t-out=\"object.partner_id.name or 'Customer'\">ລູກຄ້າ</"
+"t>,<br/><br/>\n"
+"                ກະລຸນາເບິ່ງລາຍງານການບໍລິການພາກສະໜາມສຳລັບການປະຕິບັດງານຢູ່ສະຖານທີ່ຂອງພວກເຮົາ"
+"ທີ່ຄັດຕິດມານີ້. <br/><br/>\n"
+"                ທ່ານສາມາດຕິດຕໍ່ຫາພວກເຮົາໄດ້ທຸກເວລາຫາກມີຄຳຖາມໃດໆ.<br/><br/>\n"
+"                ດ້ວຍຄວາມນັບຖື,<br/><br/>\n"
+"            </p>\n"
+"        "
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid ""
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+"title=\"By saving this change, the customer contact number will also be "
+"updated.\" invisible=\"not partner_id or not is_task_phone_update\"/>"
+msgstr ""
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+"title=\"ເມື່ອບັນທຶກການປ່ຽນແປງນີ້, ເບີໂທລະສັບຕິດຕໍ່ຂອງລູກຄ້າຈະຖືກອັບເດດຄືກັນ.\" invisible=\"not "
+"partner_id or not is_task_phone_update\"/>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "<span class=\"o_stat_text text-wrap\">Customer Preview</span>"
+msgstr "<span class=\"o_stat_text text-wrap\">ສະແດງຕົວຢ່າງສຳລັບລູກຄ້າ</span>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid ""
+"<span style=\"                             font-size: 10px;                             color: #fff;                             text-transform: uppercase;                             text-align: center;                             font-weight: bold; line-height: 20px;                             transform: rotate(45deg);                             width: 100px; height: auto; display: block;                             background: green;                             position: absolute;                             top: 19px; right: -21px; left: auto;                             padding: 0;\">\n"
+"                            Signed\n"
+"                        </span>"
+msgstr ""
+"<span style=\"                             font-size: "
+"10px;                             color: #fff;                             "
+"text-transform: uppercase;                             text-align: "
+"center;                             font-weight: bold; line-height: "
+"20px;                             transform: rotate(45deg)"
+";                             width: 100px; height: auto; display: "
+"block;                             background: "
+"green;                             position: "
+"absolute;                             top: 19px; right: -21px; left: "
+"auto;                             padding: 0;\">\n"
+"                            ເຊັນແລ້ວ\n"
+"                        </span>"
+
+#. module: industry_fsm
+#: model_terms:web_tour.tour,rainbow_man_message:industry_fsm.industry_fsm_tour
+msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
+msgstr "<span><b>ເກັ່ງຫຼາຍ!</b> ທ່ານໄດ້ສຳເລັດທຸກຂັ້ນຕອນການແນະນຳນີ້ແລ້ວ.</span>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "<strong class=\"me-2\">Total</strong>"
+msgstr "<strong class=\"me-2\">ລວມ</strong>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "<strong>Customer: </strong>"
+msgstr "<strong>ລູກຄ້າ: </strong>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "<strong>Technician: </strong>"
+msgstr "<strong>ຊ່າງເຕັກນິກ: </strong>"
+
+#. module: industry_fsm
+#: model:ir.model.constraint,message:industry_fsm.constraint_project_project_company_id_required_for_fsm_project
+msgid "A fsm project must be company restricted"
+msgstr "ໂຄງການ FSM ຕ້ອງໄດ້ຮັບການຈຳກັດສະເພາະບໍລິສັດ"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.mail_activity_plan_menu_config_task
+msgid "Activity Plans"
+msgstr "ແຜນກິດຈະກຳ"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_config_activity_type
+msgid "Activity Types"
+msgstr "ປະເພດກິດຈະກຳ"
+
+#. module: industry_fsm
+#: model:res.groups,name:industry_fsm.group_fsm_manager
+msgid "Administrator"
+msgstr "ຜູ້ດູແລລະບົບ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_all_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_all_fsm2
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_root
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_todo
+msgid "All Tasks"
+msgstr "ວຽກທັງໝົດ"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_all_fsm_server_action
+msgid "All Tasks Server Action"
+msgstr "ການປະຕິບັດງານເຊີບເວີຂອງວຽກທັງໝົດ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "All running timers should be linked to a timesheet and a task."
+msgstr "ໂມງຈັບເວລາທີ່ກຳລັງແລ່ນຢູ່ທັງໝົດຄວນເຊື່ອມຕໍ່ກັບໃບບັນທຶກເວລາ ແລະ ວຽກ."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__allocated_hours
+msgid "Allocated Time"
+msgstr "ເວລາທີ່ຈັດສັນ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "ລາຍການວິເຄາະ"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_user_action_report_fsm
+msgid ""
+"Analyze the progress of your tasks and the performance of your technicians."
+msgstr "ວິເຄາະຄວາມຄືບໜ້າຂອງວຽກ ແລະ ປະສິດທິພາບການເຮັດວຽກຂອງຊ່າງເຕັກນິກ."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__user_ids
+msgid "Assignees"
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_assign
+msgid "Assignment Date"
+msgstr "ວັນທີມອບໝາຍ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__rating_avg
+msgid "Average Rating (1-5)"
+msgstr "ຄະແນນສະເລ່ຍ (1-5)"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__dependent_ids
+msgid "Block"
+msgstr "ບລັອກ"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.project_task_menu_planning_by_location_fsm
+msgid "By Location"
+msgstr "ຕາມສະຖານທີ່"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.project_task_menu_planning_by_project_fsm
+msgid "By Project"
+msgstr "ຕາມໂໂຄງການ"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.project_task_menu_planning_by_user_fsm
+msgid "By User"
+msgstr "ຕາມຜູ້ໃຊ້"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+msgid "Cancelled"
+msgstr "ຍົກເລີກແລ້ວ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_city
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_city
+msgid "City"
+msgstr "ເມືອງ/ແຂວງ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_modal
+msgid "Close"
+msgstr "ປິດ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__is_closed
+msgid "Closed state"
+msgstr "ສະຖານະປິດແລ້ວ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_res_company
+msgid "Companies"
+msgstr "ບໍລິສັດ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "ຮູບແບບເອກະສານບໍລິສັດ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings
+msgid "Configuration"
+msgstr "ການກຳນົດຄ່າ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_stop_timer_wizard_form
+msgid "Confirm"
+msgstr "ຢືນຢັນ"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid ""
+"Confirm the <b>time spent</b> on your task. <i>Tip: note that the duration "
+"has automatically been rounded to 15 minutes.</i>"
+msgstr ""
+"ຢືນຢັນ <b>ເວລາທີ່ໃຊ້</b> ໃນວຽກຂອງທ່ານ. <i>ຄຳແນະນຳ: ໄລຍະເວລາຈະຖືກປັບໃຫ້ເປັນ 15 ນາທີໂດຍອັດຕ"
+"ະໂນມັດ.</i>"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_hr_timesheet_stop_timer_confirmation_wizard
+msgid "Confirm timesheet creation when stop timer"
+msgstr "ຢືນຢັນການສ້າງໃບບັນທຶກເວລາເມື່ອຢຸດໂມງຈັບເວລາ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_res_partner
+msgid "Contact"
+msgstr "ຜູ້ຕິດຕໍ່"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_map_view_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_mobile_form
+msgid "Contact Number"
+msgstr "ເບີໂທຕິດຕໍ່"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_country_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_country_id
+msgid "Country"
+msgstr "ປະເທດ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_project_view_form_simplified_footer_fsm
+msgid "Create"
+msgstr "ສ້າງ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__create_date
+msgid "Create Date"
+msgstr "ວັນທີສ້າງ"
+
+#. module: industry_fsm
+#: model:ir.model,website_form_label:industry_fsm.model_res_partner
+msgid "Create a Customer"
+msgstr "ສ້າງລູກຄ້າ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.open_create_project_fsm
+msgid "Create a Project"
+msgstr "ສ້າງໂຄງການ"
+
+#. module: industry_fsm
+#: model:ir.model,website_form_label:industry_fsm.model_project_task
+msgid "Create a Task"
+msgstr "ສ້າງວຽກ"
+
+#. module: industry_fsm
+#: model:res.groups,name:industry_fsm.group_fsm_quotation_from_task
+msgid "Create new quotations directly from the tasks"
+msgstr "ສ້າງໃບສະເໜີລາຄາໃໝ່ໂດຍກົງຈາກວຽກ"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_project_action_only_fsm
+msgid ""
+"Create projects to organize your tasks and define a different workflow for "
+"each project."
+msgstr ""
+"ສ້າງໂຄງການເພື່ອຈັດລະບຽບວຽກ ແລະ ກຳນົດຂັ້ນຕອນການເຮັດວຽກທີ່ແຕກຕ່າງກັນສຳລັບແຕ່ລະໂຄງການ."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__create_uid
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__create_date
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_id
+msgid "Customer"
+msgstr "ລູກຄ້າ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.rating_rating_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_reporting_customer_ratings
+msgid "Customer Ratings"
+msgstr "ການໃຫ້ຄະແນນຂອງລູກຄ້າ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_state_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_state_id
+msgid "Customer State"
+msgstr "ແຂວງຂອງລູກຄ້າ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__delay_endings_days
+msgid "Days to Deadline"
+msgstr "ຈຳນວນວັນກ່ອນຮອດກຳນົດ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_deadline
+msgid "Deadline"
+msgstr "ກຳນົດສົ່ງ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__description
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Description"
+msgstr "ຄຳອະທິບາຍ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
+msgid ""
+"Design tailored worksheet templates for various interventions, and analyze "
+"collected intervention data."
+msgstr ""
+"ອອກແບບຮູບແບບແຜ່ນວຽກໃຫ້ເໝາະສົມກັບການດຳເນີນການຕ່າງໆ ແລະ ວິເຄາະຂໍ້ມູນທີ່ເກັບກຳໄດ້."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_project_view_form_simplified_footer_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_partner_address_form_industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_stop_timer_wizard_form
+msgid "Discard"
+msgstr "ຍົກເລີກ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_account_analytic_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_ui_menu__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_recurrence__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_type__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_rating_rating__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_report_industry_fsm_worksheet_custom__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_res_company__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_res_partner__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,help:industry_fsm.field_project_project__is_fsm
+#: model:ir.model.fields,help:industry_fsm.field_project_task__is_fsm
+msgid ""
+"Display tasks in the Field Service module and allow planning with start/end "
+"dates."
+msgstr ""
+"ສະແດງວຽກໃນໂມດູນການບໍລິການພາກສະໜາມ ແລະ ອະນຸຍາດໃຫ້ວາງແຜນດ້ວຍວັນທີເລີ່ມຕົ້ນ/ສິ້ນສຸດ."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "Do you want to stop the running timers?"
+msgstr "ທ່ານຕ້ອງການຢຸດໂມງຈັບເວລາທີ່ກຳລັງແລ່ນຢູ່ບໍ່?"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+msgid "Done"
+msgstr "ສຳເລັດ"
+
+#. module: industry_fsm
+#: model:mail.template,description:industry_fsm.mail_template_data_task_report
+msgid "Email sent when clicking on \"send report\" in a task"
+msgstr "ອີເມວຈະຖືກສົ່ງເມື່ອກົດ \"ສົ່ງລາຍງານ\" ໃນວຽກ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_end
+msgid "Ending Date"
+msgstr "ວັນທີສິ້ນສຸດ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_report_project_task_user_fsm
+msgid "FSM Tasks Analysis"
+msgstr "ການວິເຄາະວຽກ FSM"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#: code:addons/industry_fsm/models/res_company.py:0
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__is_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__is_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_root
+#: model:project.project,name:industry_fsm.fsm_project
+#: model:res.groups.privilege,name:industry_fsm.res_groups_privilege_field_service
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_view_form_inherit
+#: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
+msgid "Field Service"
+msgstr "ການບໍລິການພາກສະໜາມ"
+
+#. module: industry_fsm
+#: model:ir.actions.report,name:industry_fsm.task_custom_report
+msgid "Field Service Report"
+msgstr "ລາຍງານການບໍລິການພາກສະໜາມ"
+
+#. module: industry_fsm
+#: model:mail.template,subject:industry_fsm.mail_template_data_task_report
+msgid "Field Service Report - {{ object.name }}"
+msgstr "ລາຍງານການບໍລິການພາກສະໜາມ - {{ object.name }}"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Field Service Report:"
+msgstr "ລາຍງານການບໍລິການພາກສະໜາມ:"
+
+#. module: industry_fsm
+#: model:mail.template,name:industry_fsm.mail_template_data_task_report
+msgid "Field Service: Field Service Report"
+msgstr "ການບໍລິການພາກສະໜາມ: ລາຍງານການບໍລິການພາກສະໜາມ"
+
+#. module: industry_fsm
+#: model:mail.template,name:industry_fsm.mail_template_data_intervention_details
+msgid "Field Service: Intervention Scheduled"
+msgstr "ການບໍລິການພາກສະໜາມ: ໄດ້ວາງແຜນການດຳເນີນການແລ້ວ"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map2
+msgid "Find here your itinerary for today's tasks."
+msgstr "ຄົ້ນຫາແຜນການເດີນທາງຂອງທ່ານສຳລັບວຽກໃນມື້ນີ້ໄດ້ທີ່ນີ້."
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm2
+msgid "Find here your upcoming tasks for the next few days."
+msgstr "ຄົ້ນຫາວຽກທີ່ກຳລັງຈະມາເຖິງຂອງທ່ານໃນອີກບໍ່ກີ່ວັນຂ້າງໜ້າໄດ້ທີ່ນີ້."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Future"
+msgstr "ອະນາຄົດ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Future Activities"
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "GPS Coordinates: %(localisation_start)s (%(latitude)s, %(longitude)s)"
+msgstr "ພິກັດ GPS: %(localisation_start)s (%(latitude)s, %(longitude)s)"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+msgid "GPS Coordinates: %(localisation_stop)s (%(latitude)s, %(longitude)s)"
+msgstr "ພິກັດ GPS: %(localisation_stop)s (%(latitude)s, %(longitude)s)"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__allow_geolocation
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__allow_geolocation
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__allow_geolocation
+msgid "Geolocation"
+msgstr "ພິກັດພູມສາດ"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid ""
+"Give it a <b>title</b> <i>(e.g. Boiler maintenance, Air-conditioning "
+"installation, etc.).</i>"
+msgstr ""
+"ຕັ້ງ <b>ຊື່ວຽກ</b> <i>(ຕົວຢ່າງ: ບຳລຸງຮັກສາໝໍ້ຕົ້ມ, ຕິດຕັ້ງແອ, ແລະ ອື່ນໆ).</i>"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__has_template_ancestor
+msgid "Has Template Ancestor"
+msgstr "ມີແມ່ແບບຕົ້ນສະບັບ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_account_analytic_line__id
+#: model:ir.model.fields,field_description:industry_fsm.field_base_document_layout__id
+#: model:ir.model.fields,field_description:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__id
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_ui_menu__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_recurrence__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_type__id
+#: model:ir.model.fields,field_description:industry_fsm.field_rating_rating__id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_industry_fsm_worksheet_custom__id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__id
+#: model:ir.model.fields,field_description:industry_fsm.field_res_company__id
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__id
+#: model:ir.model.fields,field_description:industry_fsm.field_res_partner__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#: model:project.task.type,name:industry_fsm.planning_project_stage_2
+msgid "In Progress"
+msgstr "ກຳລັງດຳເນີນການ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+msgid "Invalid Task."
+msgstr "ວຽກບໍ່ຖືກຕ້ອງ."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+msgid "Invalid signature data."
+msgstr "ຂໍ້ມູນລາຍເຊັນບໍ່ຖືກຕ້ອງ."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__message_is_follower
+msgid "Is Follower"
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__is_template
+msgid "Is Template"
+msgstr "ແມ່ນແມ່ແບບ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Jane Technician"
+msgstr "ຊ່າງເຕັກນິກ ເຈນ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Jane smith"
+msgstr "ເຈນ ສະມິດ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
+msgid ""
+"Keep track of the products used for your tasks, and invoice your time and "
+"material to your customers"
+msgstr ""
+"ຕິດຕາມສິນຄ້າທີ່ໃຊ້ໃນວຽກຂອງທ່ານ ແລະ ອອກໃບແຈ້ງໜີ້ຕາມເວລາ ແລະ ວັດສະດຸໃຫ້ກັບລູກຄ້າ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__rating_last_value
+msgid "Last Rating (1-5)"
+msgstr "ການໃຫ້ຄະແນນລ່າສຸດ (1-5)"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_last_stage_update
+msgid "Last Stage Update"
+msgstr "ອັບເດດຂັ້ນຕອນລ່າສຸດ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__write_uid
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດລ່າສຸດໂດຍ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__write_date
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດລ່າສຸດເມື່ອ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Late Activities"
+msgstr "ກິດຈະກຳທີ່ຫຼ້າຊ້າ"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid "Launch the timer to <b>track the time spent</b> on your task."
+msgstr "ເລີ່ມໂມງຈັບເວລາເພື່ອ <b>ຕິດຕາມເວລາທີ່ໃຊ້</b> ໃນວຽກຂອງທ່ານ."
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid ""
+"Let's <b>mark your task as done!</b> <i>Tip: when doing so, your stock will "
+"automatically be updated, and your task will be closed.</i>"
+msgstr ""
+"ມາ <b>ໝາຍວຽກຂອງທ່ານວ່າສຳເລັດ!</b> <i>ຄຳແນະນຳ: ເມື່ອເຮັດແນວນັ້ນ, ສະຕັອກສິນຄ້າຈະຖືກອັບເດດໂດຍ"
+"ອັດຕະໂນມັດ ແລະ ວຽກຂອງທ່ານຈະຖືກປິດ.</i>"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid "Let's create your first <b>task</b>."
+msgstr "ມາສ້າງ <b>ວຽກ</b> ທຳອິດຂອງທ່ານ."
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid "Let's start from scratch."
+msgstr "ມາເລີ່ມຕົ້ນໃໝ່ແຕ່ຕົ້ນ."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__line_ids
+msgid "Line"
+msgstr "ລາຍການ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+msgid "Location error"
+msgstr "ຂໍ້ຜິດພາດຂອງສະຖານທີ່"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/services/timer_geolocation_service.js:0
+msgid "Location error: %s"
+msgstr "ຂໍ້ຜິດພາດຂອງສະຖານທີ່: %s"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Manage SME"
+msgstr "ຈັດການ SME"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_view_form_inherit
+msgid "Manage tasks in the Field Service module"
+msgstr "ຈັດການວຽກໃນໂມດູນການບໍລິການພາກສະໜາມ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_map
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_map2
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_tasks_map
+msgid "Map"
+msgstr "ແຜນທີ່"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_map_server_action
+msgid "Map Server Action"
+msgstr "ການປະຕິບັດງານເຊີບເວີແຜນທີ່"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Marc Demo"
+msgstr "ມາກ ເດໂມ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "Mark as done"
+msgstr "ໝາຍວ່າສຳເລັດ"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.rating_rating_action_fsm
+msgid ""
+"Measure your customer satisfaction by sending rating requests when your "
+"tasks reach a certain stage."
+msgstr ""
+"ວັດແທກຄວາມເພິ່ງພໍໃຈຂອງລູກຄ້າໂດຍການສົ່ງຄຳຮ້ອງຂໍການໃຫ້ຄະແນນເມື່ອວຽກຮອດຂັ້ນຕອນໃດໜຶ່ງ."
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_ir_ui_menu
+msgid "Menu"
+msgstr "ເມນູ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__milestone_id
+msgid "Milestone"
+msgstr "ຈຸດໝາຍສຳຄັນ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "My Activities"
+msgstr "ກິດຈະກຳຂອງຂ້ອຍ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/webmanifest.py:0
+msgid "My Calendar"
+msgstr "ປະຕິທິນຂອງຂ້ອຍ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/webmanifest.py:0
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm2
+#: model:ir.ui.menu,name:industry_fsm.fsm_tasks_menu
+msgid "My Tasks"
+msgstr "ວຽກຂອງຂ້ອຍ"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_server_action
+msgid "My Tasks Server Action"
+msgstr "ການປະຕິບັດງານເຊີບເວີຂອງວຽກຂອງຂ້ອຍ"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_mobile_server_action
+msgid "My Tasks in mobile Server Action"
+msgstr "ການປະຕິບັດງານເຊີບເວີຂອງວຽກຂອງຂ້ອຍໃນມືຖື"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_project_fsm
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_partner_address_form_industry_fsm
+msgid "Navigate To"
+msgstr "ນຳທາງໄປຫາ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+msgid "New"
+msgstr "ໃໝ່"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/webmanifest.py:0
+msgid "New task"
+msgstr "ວຽກໃໝ່"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.rating_rating_action_fsm
+msgid "No customer ratings yet"
+msgstr "ຍັງບໍ່ມີການໃຫ້ຄະແນນຈາກລູກຄ້າ"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_user_action_report_fsm
+msgid "No data yet!"
+msgstr "ຍັງບໍ່ມີຂໍ້ມູນ!"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_project_action_only_fsm
+msgid "No projects found. Let's create one!"
+msgstr "ບໍ່ພົບໂຄງການ. ມາສ້າງໂຄງການໃໝ່ກັນເລີຍ!"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_type_action_fsm
+msgid "No stages found. Let's create one!"
+msgstr "ບໍ່ພົບຂັ້ນຕອນ. ມາສ້າງຂັ້ນຕອນໃໝ່ກັນເລີຍ!"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_tasks_action_fsm
+msgid "No tasks found. Let's create one!"
+msgstr "ບໍ່ພົບວຽກ. ມາສ້າງວຽກໃໝ່ກັນເລີຍ!"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__overtime
+msgid "Overtime"
+msgstr "ເວລານອກໂມງການ (OT)"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__parent_id
+msgid "Parent Task"
+msgstr "ວຽກຫຼັກ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__personal_stage_type_ids
+msgid "Personal Stage"
+msgstr "ຂັ້ນຕອນສ່ວນຕົວ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#: model:project.task.type,name:industry_fsm.planning_project_stage_1
+msgid "Planned"
+msgstr "ວາງແຜນແລ້ວ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_sharing_inherit_project_task_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_list_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "Planned Date"
+msgstr "ວັນທີວາງແຜນ"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_planning
+msgid "Planning"
+msgstr "ການວາງແຜນ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_location
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_location2
+msgid "Planning by Location"
+msgstr "ວາງແຜນຕາມສະຖານທີ່"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_planning_groupby_location_server_action
+msgid "Planning by Location Server Action"
+msgstr "ການປະຕິບັດງານເຊີບເວີຂອງການວາງແຜນຕາມສະຖານທີ່"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_project
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_project2
+msgid "Planning by Project"
+msgstr "ວາງແຜນຕາມໂໂຄງການ"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_planning_groupby_project_server_action
+msgid "Planning by Project Server Action"
+msgstr "ການປະຕິບັດງານເຊີບເວີຂອງການວາງແຜນຕາມໂຄງການ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_user
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_user2
+msgid "Planning by User"
+msgstr "ວາງແຜນຕາມຜູ້ໃຊ້"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_planning_groupby_user_server_action
+msgid "Planning by User Action"
+msgstr "ການປະຕິບັດງານຂອງການວາງແຜນຕາມຜູ້ໃຊ້"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "Preview"
+msgstr "ສະແດງຕົວຢ່າງ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__priority
+msgid "Priority"
+msgstr "ລຳດັບຄວາມສຳຄັນ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__progress
+msgid "Progress"
+msgstr "ຄວາມຄືບໜ້າ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_project
+#: model:ir.model.fields,field_description:industry_fsm.field_rating_rating__project_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__project_id
+msgid "Project"
+msgstr "ໂຄງການ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_project_action_only_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings_project
+msgid "Projects"
+msgstr "ໂຄງການ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Properties"
+msgstr "ຄຸນສົມບັດ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_rating_rating
+msgid "Rating"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid ""
+"Ready to <b>manage your onsite interventions</b>? <i>Click Field Service to "
+"start.</i>"
+msgstr ""
+"ພ້ອມທີ່ຈະ <b>ຈັດການການດຳເນີນການຢູ່ສະຖານທີ່</b> ຂອງທ່ານແລ້ວບໍ່? <i>ກົດ ການບໍລິການພາກສະໜາມ ເພື່ອເ"
+"ລີ່ມຕົ້ນ.</i>"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_ir_actions_report
+msgid "Report Action"
+msgstr "ການປະຕິບັດງານລາຍງານ"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_reporting
+msgid "Reporting"
+msgstr "ການລາຍງານ"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm2
+msgid "Schedule your tasks and assign them to your technicians."
+msgstr "ຈັດຕາຕະລາງວຽກຂອງທ່ານ ແລະ ມອບໝາຍໃຫ້ກັບຊ່າງເຕັກນິກ."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.report_project_task_user_fsm_view_search
+msgid "Search Planning"
+msgstr "ຄົ້ນຫາການວາງແຜນ"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid "Select the <b>customer</b> for your task."
+msgstr "ເລືອກ <b>ລູກຄ້າ</b> ສຳລັບວຽກຂອງທ່ານ."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "Send Field Service Report"
+msgstr "ສົ່ງລາຍງານການບໍລິການພາກສະໜາມ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "Send Report"
+msgstr "ສົ່ງລາຍງານ"
+
+#. module: industry_fsm
+#: model:mail.template,description:industry_fsm.mail_template_data_intervention_details
+msgid ""
+"Set this template on a project's stage to automate email when tasks reach "
+"stages"
+msgstr ""
+"ຕັ້ງແມ່ແບບນີ້ໄວ້ໃນຂັ້ນຕອນຂອງໂຄງການເພື່ອສົ່ງອີເມວອັດຕະໂນມັດເມື່ອວຽກຮອດຂັ້ນຕອນນັ້ນ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.res_config_settings_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings_res_config
+msgid "Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Show all records whose next activity date is past"
+msgstr "ສະແດງຂໍ້ມູນທັງໝົດທີ່ວັນທີກິດຈະກຳຖັດໄປໄດ້ຜ່ານໄປແລ້ວ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_modal
+msgid "Sign Field Service Report"
+msgstr "ເຊັນລາຍງານການບໍລິການພາກສະໜາມ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_modal
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "Sign Report"
+msgstr "ເຊັນລາຍງານ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__worksheet_signature
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_my_task
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Signature"
+msgstr "ລາຍເຊັນ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+msgid "Signature is missing."
+msgstr "ບໍ່ມີລາຍເຊັນ."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__worksheet_signed_by
+msgid "Signed By"
+msgstr "ເຊັນໂດຍ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__user_skill_ids
+msgid "Skills"
+msgstr "ທັກສະ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_stop_timer_wizard_form
+msgid ""
+"Some employees are still running their timer for this task. Are you sure you"
+" want to continue?"
+msgstr ""
+"ພະນັກງານບາງຄົນຍັງເປີດໂມງຈັບເວລາສຳລັບວຽກນີ້ຢູ່. ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການສືບຕໍ່?"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__stage_id
+msgid "Stage"
+msgstr "ຂັ້ນຕອນ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_type_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings_stage
+msgid "Stages"
+msgstr "ຂັ້ນຕອນ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Start Date"
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__planned_date_begin
+msgid "Start date"
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__state
+msgid "State"
+msgstr "ສະຖານະ"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+msgid "Stop the <b>timer</b> when you are done."
+msgstr "ຢຸດ <b>ໂມງຈັບເວລາ</b> ເມື່ອທ່ານເຮັດວຽກສຳເລັດ."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_street
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_street
+msgid "Street"
+msgstr "ຖະໜົນ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_street2
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_street2
+msgid "Street2"
+msgstr "ຖະໜົນສາຍ 2"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.report_project_task_user_fsm_view_tree
+msgid "Sum of Effective Hours"
+msgstr "ຜົນລວມຂອງຊົ່ວໂມງທີ່ເຮັດວຽກຕົວຈິງ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__tag_ids
+#: model:ir.ui.menu,name:industry_fsm.menu_project_tags_act
+msgid "Tags"
+msgstr "ແທັກ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__task_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__task_id
+msgid "Task"
+msgstr "ວຽກ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__fsm_done
+msgid "Task Done"
+msgstr "ວຽກສຳເລັດແລ້ວ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_recurrence
+msgid "Task Recurrence"
+msgstr "ການເຮັດຊ້ຳຂອງວຽກ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_type
+msgid "Task Stage"
+msgstr "ຂັ້ນຕອນຂອງວຽກ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__name
+msgid "Task Title"
+msgstr "ຊື່ວຽກ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_report_industry_fsm_worksheet_custom
+msgid "Task Worksheet Custom Report"
+msgstr "ລາຍງານແຜ່ນວຽກແບບກຳນົດເອງ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_stop_timers_wizard
+msgid "Task stop running timers confirmation wizard"
+msgstr "ຕົວຊ່ວຍຢືນຢັນການຢຸດໂມງຈັບເວລາຂອງວຽກ"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_stop_timers_wizard_line
+msgid "Task stop running timers confirmation wizard line"
+msgstr "ລາຍການໃນຕົວຊ່ວຍຢືນຢັນການຢຸດໂມງຈັບເວລາຂອງວຽກ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_tasks_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_tasks_kanban
+#: model:project.project,label_tasks:industry_fsm.fsm_project
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_calendar_fsm
+msgid "Tasks"
+msgstr "ວຽກ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_user_action_report_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_reporting_task_analysis
+#: model_terms:ir.ui.view,arch_db:industry_fsm.report_project_task_user_fsm_view_tree
+msgid "Tasks Analysis"
+msgstr "ການວິເຄາະວຽກ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Technician"
+msgstr "ຊ່າງເຕັກນິກ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+msgid "The field service report has been signed by the customer."
+msgstr "ລາຍງານການບໍລິການພາກສະໜາມໄດ້ຖືກເຊັນໂດຍລູກຄ້າແລ້ວ."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/ir_actions_report.py:0
+msgid ""
+"The field service report is unavailable for the selected tasks as they do "
+"not contain any timesheets, products, or worksheets."
+msgstr ""
+"ລາຍງານການບໍລິການພາກສະໜາມບໍ່ມີໃຫ້ສຳລັບວຽກທີ່ເລືອກ ເພາະວ່າບໍ່ມີຂໍ້ມູນໃບບັນທຶກເວລາ, ສິນຄ້າ ຫຼື ແຜ່ນວຽກ."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+msgid "The worksheet is not in a state requiring customer signature."
+msgstr "ແຜ່ນວຽກບໍ່ໄດ້ຢູ່ໃນສະຖານະທີ່ຕ້ອງການລາຍເຊັນຂອງລູກຄ້າ."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "There are no reports to send."
+msgstr "ບໍ່ມີລາຍງານທີ່ຈະສົ່ງ."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "Time"
+msgstr "ເວລາ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__remaining_hours
+msgid "Time Remaining"
+msgstr "ເວລາທີ່ເຫຼືອ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__remaining_hours_percentage
+msgid "Time Remaining Percentage"
+msgstr "ເປີເຊັນເວລາທີ່ເຫຼືອ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__effective_hours
+#: model_terms:ir.ui.view,arch_db:industry_fsm.timesheet_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Time Spent"
+msgstr "ເວລາທີ່ໃຊ້"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__module_industry_fsm_sale
+msgid "Time and Material Invoicing"
+msgstr "ການອອກໃບແຈ້ງໜີ້ຕາມເວລາ ແລະ ວັດສະດຸ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/account_analytic_line.py:0
+#: code:addons/industry_fsm/models/project_task.py:0
+msgid "Timer started at: %(date)s %(time)s"
+msgstr "ໂມງຈັບເວລາເລີ່ມຕົ້ນເມື່ອ: %(date)s %(time)s"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/account_analytic_line.py:0
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+msgid "Timer stopped at: %(date)s %(time)s"
+msgstr "ໂມງຈັບເວລາຢຸດເມື່ອ: %(date)s %(time)s"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.timesheet_view_form
+msgid "Timesheet"
+msgstr "ໃບບັນທຶກເວລາ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+msgid "Timesheets"
+msgstr "ໃບບັນທຶກເວລາ"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_to_schedule_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_to_schedule_fsm2
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_schedule
+msgid "To Schedule"
+msgstr "ລໍຖ້າຈັດຕາຕະລາງ"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_to_schedule_fsm_server_action
+msgid "To Schedule Server Action"
+msgstr "ການປະຕິບັດງານເຊີບເວີຂອງວຽກທີ່ລໍຖ້າຈັດຕາຕະລາງ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "To Schedule/Assign"
+msgstr "ລໍຖ້າຈັດຕາຕະລາງ/ມອບໝາຍ"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm2
+msgid ""
+"To get things done, plan activities and use the task status.<br>\n"
+"                Collaborate efficiently by chatting in real-time or via email."
+msgstr ""
+"ເພື່ອເຮັດວຽກໃຫ້ສຳເລັດ, ໃຫ້ວາງແຜນກິດຈະກຳ ແລະ ໃຊ້ສະຖານະຂອງວຽກ.<br>\n"
+"                ຮ່ວມມືກັນຢ່າງມີປະສິດທິພາບຜ່ານການແຊັດແບບສົດໆ ຫຼື ຜ່ານອີເມວ."
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_tasks_action_fsm
+msgid ""
+"To get things done, use activities and status on tasks.<br>\n"
+"                Chat in real-time or by email to collaborate efficiently."
+msgstr ""
+"ເພື່ອເຮັດວຽກໃຫ້ສຳເລັດ, ໃຫ້ໃຊ້ກິດຈະກຳ ແລະ ສະຖານະໃນວຽກ.<br>\n"
+"                ແຊັດແບບສົດໆ ຫຼື ສົ່ງອີເມວເພື່ອຮ່ວມມືກັນຢ່າງມີປະສິດທິພາບ."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Today"
+msgstr "ມື້ນີ້"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Today Activities"
+msgstr "ກິດຈະກຳມື້ນີ້"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_view_form_inherit
+msgid "Track technician location when running the timer"
+msgstr "ຕິດຕາມສະຖານທີ່ຂອງຊ່າງເຕັກນິກເມື່ອເປີດໂມງຈັບເວລາ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,help:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__allow_geolocation
+#: model:ir.model.fields,help:industry_fsm.field_project_project__allow_geolocation
+#: model:ir.model.fields,help:industry_fsm.field_project_task__allow_geolocation
+msgid "Track technician location when running the timer."
+msgstr "ຕິດຕາມສະຖານທີ່ຂອງຊ່າງເຕັກນິກເມື່ອເປີດໂມງຈັບເວລາ."
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_type_action_fsm
+msgid "Track the progress of your tasks from their creation to their closing."
+msgstr "ຕິດຕາມຄວາມຄືບໜ້າຂອງວຽກຕັ້ງແຕ່ເລີ່ມສ້າງຈົນເຖິງປິດວຽກ."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+msgid "Unread Messages"
+msgstr "ຂໍ້ຄວາມທີ່ຍັງບໍ່ໄດ້ອ່ານ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,help:industry_fsm.field_project_task__display_name
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a medium priority\n"
+"        !! Set the task a high priority\n"
+"        !!! Set the task a urgent priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"ໃຊ້ຄຳສຳຄັນເຫຼົ່ານີ້ໃນຊື່ເພື່ອຕັ້ງວຽກໃໝ່:\n"
+"\n"
+"        30h ຈັດສັນເວລາ 30 ຊົ່ວໂມງໃຫ້ກັບວຽກ\n"
+"        #tags ຕັ້ງແທັກໃຫ້ກັບວຽກ\n"
+"        @user ມອບໝາຍວຽກໃຫ້ກັບຜູ້ໃຊ້\n"
+"        ! ຕັ້ງວຽກໃຫ້ມີລຳດັບຄວາມສຳຄັນປານກາງ\n"
+"        !! ຕັ້ງວຽກໃຫ້ມີລຳດັບຄວາມສຳຄັນສູງ\n"
+"        !!! ຕັ້ງວຽກໃຫ້ມີລຳດັບຄວາມສຳຄັນເລັ່ງດ່ວນ\n"
+"\n"
+"        ກະລຸນາໃຊ້ຮູບແບບ ແລະ ລຳດັບທີ່ຖືກຕ້ອງ ເຊັ່ນ: ປັບປຸງໜ້າຈໍການກຳນົດຄ່າ 5h #feature #v16 "
+"@Mitchell !"
+
+#. module: industry_fsm
+#: model:res.groups,name:industry_fsm.group_fsm_user
+msgid "User"
+msgstr "ຜູ້ໃຊ້"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "View Itinerary"
+msgstr "ເບິ່ງແຜນການເດີນທາງ"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+msgid "View on Map"
+msgstr "ເບິ່ງໃນແຜນທີ່"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__wizard_id
+msgid "Wizard"
+msgstr "ຕົວຊ່ວຍ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_days_open
+msgid "Working Days to Assign"
+msgstr "ຈຳນວນມື້ເຮັດວຽກກ່ອນການມອບໝາຍ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_days_close
+msgid "Working Days to Close"
+msgstr "ຈຳນວນມື້ເຮັດວຽກກ່ອນການປິດ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_hours_open
+msgid "Working Hours to Assign"
+msgstr "ຈຳນວນຊົ່ວໂມງເຮັດວຽກກ່ອນການມອບໝາຍ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_hours_close
+msgid "Working Hours to Close"
+msgstr "ຈຳນວນຊົ່ວໂມງເຮັດວຽກກ່ອນການປິດ"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__module_industry_fsm_report
+msgid "Worksheet Templates"
+msgstr "ແມ່ແບບແຜ່ນວຽກ"
+
+#. module: industry_fsm
+#: model:mail.template,subject:industry_fsm.mail_template_data_intervention_details
+msgid ""
+"Your intervention is scheduled {{ object.planned_date_begin and "
+"object.date_deadline and 'from the ' + "
+"format_datetime(object.planned_date_begin, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) + ' to the ' + "
+"format_datetime(object.date_deadline, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) or '' }}"
+msgstr ""
+"ການດຳເນີນການຂອງທ່ານມີກຳນົດ {{ object.planned_date_begin and object.date_deadline "
+"and 'from the ' + format_datetime(object.planned_date_begin, "
+"tz=object.partner_id.tz, lang_code=object.partner_id.lang) + ' to the ' + "
+"format_datetime(object.date_deadline, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) or '' }}"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_zip
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_zip
+msgid "ZIP"
+msgstr "ລະຫັດໄປສະນີ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.quick_create_task_form_fsm_inherited
+msgid "e.g. Boiler replacement"
+msgstr "ຕົວຢ່າງ: ການປ່ຽນໝໍ້ຕົ້ມ"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid "is FSM?"
+msgstr "ແມ່ນ FSM ບໍ່?"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_sharing_inherit_project_task_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+msgid ""
+"on\n"
+"                        <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
+msgstr ""
+"ໃນ\n"
+"                        <span class=\"fw-bold text-dark\"> ວຽກຍ່ອຍ</span>)"

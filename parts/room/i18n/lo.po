@@ -1,0 +1,668 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * room
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:42+0000\n"
+"PO-Revision-Date: 2026-06-06 11:42+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/room/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "1 hour"
+msgstr "1 ຊົ່ວໂມງ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "15 min"
+msgstr "15 ນາທີ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "30 min"
+msgstr "30 ນາທີ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_kanban
+msgid "<i class=\"fa fa-long-arrow-right mx-1\" title=\"Until\"/>"
+msgstr "<i class=\"fa fa-long-arrow-right mx-1\" title=\"ຈົນເຖິງ\"/>"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_gantt
+msgid "<i class=\"fa fa-long-arrow-right\" title=\"Until\"/>"
+msgstr "<i class=\"fa fa-long-arrow-right\" title=\"ຈົນເຖິງ\"/>"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "<span class=\"o_stat_text\">Next Meeting</span>"
+msgstr "<span class=\"o_stat_text\">ການປະຊຸມຖັດໄປ</span>"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "<span invisible=\"next_booking_start\">No Upcoming Meetings</span>"
+msgstr "<span invisible=\"next_booking_start\">ບໍ່ມີການປະຊຸມທີ່ຈະມາເຖິງ</span>"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_kanban
+msgid "<strong>Date: </strong>"
+msgstr "<strong>ວັນທີ: </strong>"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_gantt
+msgid "<strong>Organizer: </strong>"
+msgstr "<strong>ຜູ້ຈັດງານ: </strong>"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_kanban
+msgid "<strong>Room: </strong>"
+msgstr "<strong>ຫ້ອງ: </strong>"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__access_token
+msgid "Access Token"
+msgstr "ໂຕເຄັນເຂົ້າເຖິງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_needaction
+#: model:ir.model.fields,field_description:room.field_room_room__message_needaction
+msgid "Action Needed"
+msgstr "ຈໍາເປັນຕ້ອງມີການດໍາເນີນການ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__active
+msgid "Active"
+msgstr "ໃຊ້ງານຢູ່"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_form/room_booking_form.xml:0
+msgid "Add"
+msgstr "ເພີ່ມ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "Add a Booking"
+msgstr "ເພີ່ມການຈອງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__description
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "Amenities"
+msgstr "ສິ່ງອໍານວຍຄວາມສະດວກ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "Appearance"
+msgstr "ຮູບລັກສະນະ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_search
+msgid "Archived"
+msgstr "ຈັດເກັບແລ້ວ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.js:0
+msgid "Are you sure you want to delete this booking?"
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບການຈອງນີ້?"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.js:0
+msgid "Are you sure you want to end the current booking ?"
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການສິ້ນສຸດການຈອງໃນຕອນນີ້?"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_attachment_count
+#: model:ir.model.fields,field_description:room.field_room_room__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈໍານວນໄຟລ໌ຄັດຕິດ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_kanban
+msgid "Available"
+msgstr "ວ່າງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__bookable_background_color
+msgid "Available Background Color"
+msgstr "ສີພື້ນຫຼັງທີ່ສາມາດຈອງໄດ້"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__room_background_image
+msgid "Background Image"
+msgstr "ຮູບພື້ນຫຼັງ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "Booked"
+msgstr "ຈອງແລ້ວ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__booked_background_color
+msgid "Booked Background Color"
+msgstr "ສີພື້ນຫຼັງທີ່ຖືກຈອງ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_search
+msgid "Booking"
+msgstr "ການຈອງ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_form/room_booking_form.xml:0
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+#: model:ir.model.fields,field_description:room.field_room_booking__name
+msgid "Booking Name"
+msgstr "ຊື່ການຈອງ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "Booking Now"
+msgstr "ຈອງຕອນນີ້"
+
+#. module: room
+#. odoo-python
+#: code:addons/room/models/room_room.py:0
+#: model:ir.actions.act_window,name:room.room_booking_action
+#: model:ir.model.fields,field_description:room.field_room_room__room_booking_ids
+#: model:ir.ui.menu,name:room.room_booking_menu
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_gantt
+msgid "Bookings"
+msgstr "ການຈອງທັງໝົດ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_kanban
+msgid "Busy"
+msgstr "ບໍ່ວ່າງ"
+
+#. module: room
+#: model_terms:room.room,description:room.room_room_main_office_room_3
+msgid "Capacity: 6 people"
+msgstr "ຄວາມຈຸ: 6 ຄົນ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__company_id
+#: model:ir.model.fields,field_description:room.field_room_office__company_id
+#: model:ir.model.fields,field_description:room.field_room_room__company_id
+msgid "Company"
+msgstr "ບໍລິສັດ"
+
+#. module: room
+#: model_terms:ir.actions.act_window,help:room.room_room_action
+msgid "Create Rooms"
+msgstr "ສ້າງຫ້ອງ"
+
+#. module: room
+#. odoo-python
+#: code:addons/room/models/room_booking.py:0
+msgid "Create a Room"
+msgstr "ສ້າງຫ້ອງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__create_uid
+#: model:ir.model.fields,field_description:room.field_room_office__create_uid
+#: model:ir.model.fields,field_description:room.field_room_room__create_uid
+msgid "Created by"
+msgstr "ສ້າງໂດຍ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__create_date
+#: model:ir.model.fields,field_description:room.field_room_office__create_date
+#: model:ir.model.fields,field_description:room.field_room_room__create_date
+msgid "Created on"
+msgstr "ສ້າງເມື່ອ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_form
+msgid "Date"
+msgstr "ວັນທີ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.js:0
+msgid "Delete"
+msgstr "ລຶບ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_form/room_booking_form.xml:0
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "Discard"
+msgstr "ຖິ້ມ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_ir_http__display_name
+#: model:ir.model.fields,field_description:room.field_room_booking__display_name
+#: model:ir.model.fields,field_description:room.field_room_office__display_name
+#: model:ir.model.fields,field_description:room.field_room_room__display_name
+msgid "Display Name"
+msgstr "ຊື່ສະແດງ"
+
+#. module: room
+#: model:res.groups,comment:room.group_room_manager
+msgid "Enable the user to manage meeting rooms available for booking"
+msgstr "ອະນຸຍາດໃຫ້ຜູ້ໃຊ້ຈັດການຫ້ອງປະຊຸມທີ່ວ່າງສຳລັບການຈອງ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.js:0
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "End Booking"
+msgstr "ສິ້ນສຸດການຈອງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__stop_datetime
+msgid "End Datetime"
+msgstr "ວັນເວລາສິ້ນສຸດ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_follower_ids
+#: model:ir.model.fields,field_description:room.field_room_room__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_partner_ids
+#: model:ir.model.fields,field_description:room.field_room_room__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: room
+#: model:ir.model,name:room.model_ir_http
+msgid "HTTP Routing"
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__has_message
+#: model:ir.model.fields,field_description:room.field_room_room__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: room
+#: model:room.office,name:room.room_office_head_office
+msgid "Head Office"
+msgstr "ສຳນັກງານໃຫຍ່"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_ir_http__id
+#: model:ir.model.fields,field_description:room.field_room_booking__id
+#: model:ir.model.fields,field_description:room.field_room_office__id
+#: model:ir.model.fields,field_description:room.field_room_room__id
+msgid "ID"
+msgstr "ລະຫັດ"
+
+#. module: room
+#: model:ir.model.fields,help:room.field_room_booking__message_needaction
+#: model:ir.model.fields,help:room.field_room_room__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງໄດ້ຮັບຄວາມສົນໃຈຈາກທ່ານ."
+
+#. module: room
+#: model:ir.model.fields,help:room.field_room_booking__message_has_error
+#: model:ir.model.fields,help:room.field_room_room__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "Install Application"
+msgstr "ຕິດຕັ້ງແອັບພລິເຄຊັນ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_list
+msgid "Is Currently Available"
+msgstr "ວ່າງຢູ່ໃນຂະນະນີ້"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_is_follower
+#: model:ir.model.fields,field_description:room.field_room_room__message_is_follower
+msgid "Is Follower"
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__is_available
+msgid "Is Room Currently Available"
+msgstr "ຫ້ອງວ່າງຢູ່ໃນຂະນະນີ້ບໍ່"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__write_uid
+#: model:ir.model.fields,field_description:room.field_room_office__write_uid
+#: model:ir.model.fields,field_description:room.field_room_room__write_uid
+msgid "Last Updated by"
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__write_date
+#: model:ir.model.fields,field_description:room.field_room_office__write_date
+#: model:ir.model.fields,field_description:room.field_room_room__write_date
+msgid "Last Updated on"
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+
+#. module: room
+#: model:room.office,name:room.room_office_main_office
+msgid "Main Office"
+msgstr "ສຳນັກງານຫຼັກ"
+
+#. module: room
+#: model_terms:ir.actions.act_window,help:room.room_booking_action
+msgid ""
+"Make meeting room sharing easy by centralizing all meetings in this App"
+msgstr ""
+"ເຮັດໃຫ້ການແບ່ງປັນຫ້ອງປະຊຸມເປັນເລື່ອງງ່າຍ ໂດຍການລວມການປະຊຸມທັງໝົດໄວ້ໃນແອັບນີ້"
+
+#. module: room
+#: model:res.groups,name:room.group_room_manager
+msgid "Manage Rooms"
+msgstr "ຈັດການຫ້ອງ"
+
+#. module: room
+#: model:ir.ui.menu,name:room.room_menu_root
+msgid "Meeting Rooms"
+msgstr "ຫ້ອງປະຊຸມ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_search
+msgid "Meeting name"
+msgstr "ຊື່ການປະຊຸມ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_has_error
+#: model:ir.model.fields,field_description:room.field_room_room__message_has_error
+msgid "Message Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_ids
+#: model:ir.model.fields,field_description:room.field_room_room__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_search
+msgid "My Meetings"
+msgstr "ການປະຊຸມຂອງຂ້ອຍ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_list
+msgid "Name"
+msgstr "ຊື່"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__next_booking_start
+msgid "Next Booking Start"
+msgstr "ເລີ່ມການຈອງຄັ້ງຖັດໄປ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_form/room_booking_form.xml:0
+msgid "Next Week"
+msgstr "ອາທິດໜ້າ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "No Bookings Planned"
+msgstr "ບໍ່ມີແຜນການຈອງ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "No Bookings for Today"
+msgstr "ບໍ່ມີການຈອງສຳລັບມື້ນີ້"
+
+#. module: room
+#: model_terms:ir.actions.act_window,help:room.room_booking_action
+msgid "No Bookings found. Let’s schedule one!"
+msgstr "ບໍ່ພົບການຈອງ. ມາເລີ່ມກຳນົດເວລາຈອງກັນເລີຍ!"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_needaction_counter
+#: model:ir.model.fields,field_description:room.field_room_room__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈໍານວນການດໍາເນີນການ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__message_has_error_counter
+#: model:ir.model.fields,field_description:room.field_room_room__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈໍານວນຂໍ້ຜິດພາດ"
+
+#. module: room
+#: model:ir.model.fields,help:room.field_room_booking__message_needaction_counter
+#: model:ir.model.fields,help:room.field_room_room__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "ຈໍານວນຂໍ້ຄວາມທີ່ຕ້ອງດໍາເນີນການ"
+
+#. module: room
+#: model:ir.model.fields,help:room.field_room_booking__message_has_error_counter
+#: model:ir.model.fields,help:room.field_room_room__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈໍານວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__office_id
+#: model:ir.model.fields,field_description:room.field_room_room__office_id
+msgid "Office"
+msgstr "ຫ້ອງການ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_office__name
+#: model_terms:ir.ui.view,arch_db:room.room_office_view_form
+msgid "Office Name"
+msgstr "ຊື່ຫ້ອງການ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "Open"
+msgstr "ເປີດ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "Or"
+msgstr "ຫຼື"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__organizer_id
+msgid "Organizer"
+msgstr "ຜູ້ຈັດງານ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_form/room_booking_form.xml:0
+msgid "Previous Week"
+msgstr "ອາທິດກ່ອນ"
+
+#. module: room
+#: model_terms:room.room,description:room.room_room_main_office_room_2
+msgid "Projector"
+msgstr "ໂປຣເຈັກເຕີ"
+
+#. module: room
+#: model_terms:room.room,description:room.room_room_main_office_room_1
+msgid "Projector, whiteboard"
+msgstr "ໂປຣເຈັກເຕີ, ກະດານໄວບອດ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__room_properties
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_search
+msgid "Properties"
+msgstr "ຄຸນສົມບັດ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.js:0
+msgid "Public Booking"
+msgstr "ການຈອງສາທາລະນະ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__rating_ids
+#: model:ir.model.fields,field_description:room.field_room_room__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: room
+#: model:ir.actions.act_window,name:room.room_room_action
+#: model:ir.model,name:room.model_room_room
+#: model:ir.model.fields,field_description:room.field_room_booking__room_id
+#: model:res.groups.privilege,name:room.res_groups_privilege_room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_search
+msgid "Room"
+msgstr "ຫ້ອງ"
+
+#. module: room
+#. odoo-python
+#: code:addons/room/models/room_booking.py:0
+msgid "Room %(room_name)s is already booked during the selected time slot."
+msgstr "ຫ້ອງ %(room_name)s ຖືກຈອງໄວ້ແລ້ວໃນຊ່ວງເວລາທີ່ເລືອກ."
+
+#. module: room
+#: model:ir.model,name:room.model_room_booking
+msgid "Room Booking"
+msgstr "ການຈອງຫ້ອງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__room_booking_url
+msgid "Room Link"
+msgstr "ລິ້ງຫ້ອງ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__name
+msgid "Room Name"
+msgstr "ຊື່ຫ້ອງ"
+
+#. module: room
+#: model:ir.model,name:room.model_room_office
+msgid "Room Office"
+msgstr "ຫ້ອງການ"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_office__room_properties_definition
+msgid "Room Properties"
+msgstr "ຄຸນສົມບັດຫ້ອງ"
+
+#. module: room
+#: model:ir.ui.menu,name:room.room_room_menu
+msgid "Rooms"
+msgstr "ຫ້ອງ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_form
+msgid "Select a Room..."
+msgstr "ເລືອກຫ້ອງ..."
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_room__short_code
+msgid "Short Code"
+msgstr "ລະຫັດຫຍໍ້"
+
+#. module: room
+#: model:ir.model.fields,field_description:room.field_room_booking__start_datetime
+msgid "Start Datetime"
+msgstr "ວັນເວລາເລີ່ມຕົ້ນ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "Start now"
+msgstr "ເລີ່ມຕອນນີ້"
+
+#. module: room
+#: model:ir.model.constraint,message:room.constraint_room_room_uniq_access_token
+msgid "The access token must be unique"
+msgstr "ໂຕເຄັນເຂົ້າເຖິງຕ້ອງບໍ່ຊໍ້າກັນ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.js:0
+msgid "The booking you were editing has been updated or deleted."
+msgstr "ການຈອງທີ່ທ່ານກໍາລັງແກ້ໄຂໄດ້ຖືກອັບເດດ ຫຼື ລຶບອອກແລ້ວ."
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "The next booking is starting soon."
+msgstr "ການຈອງຄັ້ງຖັດໄປກຳລັງຈະເລີ່ມໃນໄວໆນີ້."
+
+#. module: room
+#: model:ir.model.constraint,message:room.constraint_room_room_uniq_short_code
+msgid "The short code must be unique."
+msgstr "ລະຫັດຫຍໍ້ຕ້ອງບໍ່ຊໍ້າກັນ."
+
+#. module: room
+#. odoo-python
+#: code:addons/room/models/room_booking.py:0
+msgid "The start date of %(booking_name)s must be earlier than the end date."
+msgstr "ວັນທີເລີ່ມຕົ້ນຂອງ %(booking_name)s ຕ້ອງກ່ອນວັນທີສິ້ນສຸດ."
+
+#. module: room
+#: model_terms:ir.actions.act_window,help:room.room_room_action
+msgid "They can then be booked for meetings from a Tablet or the back-end."
+msgstr "ຈາກນັ້ນສາມາດຈອງເພື່ອປະຊຸມໄດ້ຜ່ານ Tablet ຫຼື ລະບົບຫຼັງບ້ານ."
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_view/room_booking_view.xml:0
+msgid "This room is as free as a fish in a sea of endless possibilities"
+msgstr "ຫ້ອງນີ້ວ່າງຫຼາຍ ຄືກັບປາຢູ່ໃນທະເລທີ່ມີຄວາມເປັນໄປໄດ້ທີ່ບໍ່ສິ້ນສຸດ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_kanban
+msgid "Until"
+msgstr "ຈົນເຖິງ"
+
+#. module: room
+#. odoo-javascript
+#: code:addons/room/static/src/room_booking/room_booking_form/room_booking_form.xml:0
+msgid "Update Meeting"
+msgstr "ອັບເດດການປະຊຸມ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "e.g. Blue Meeting Room"
+msgstr "ຕົວຢ່າງ: ຫ້ອງປະຊຸມສີຟ້າ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "e.g. Headquarters"
+msgstr "ຕົວຢ່າງ: ສຳນັກງານໃຫຍ່"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_booking_view_form
+msgid "e.g. Team Meeting"
+msgstr "ຕົວຢ່າງ: ການປະຊຸມທີມ"
+
+#. module: room
+#: model_terms:ir.ui.view,arch_db:room.room_room_view_form
+msgid "e.g. projector, capacity 6 people"
+msgstr "ຕົວຢ່າງ: ໂປຣເຈັກເຕີ, ຄວາມຈຸ 6 ຄົນ"
+
+#. module: room
+#. odoo-python
+#: code:addons/room/models/room_room.py:0
+msgid "room_id"
+msgstr "ລະຫັດຫ້ອງ"

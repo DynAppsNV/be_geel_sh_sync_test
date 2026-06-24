@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="0">
+    <!--    Dashboard config-->
+    <record id="xx_dashboard_dates_demo" model="xx.dashboard">
+        <field name="name">Demo Dates Dashboard</field>
+        <field name="menu_name">Demo Dates Dashboard</field>
+        <field name="show_date_filter" eval="True" />
+    </record>
+
+    <!--    Dashboard Tiles-->
+    <!--    Selected Dates Table -->
+    <record id="xx_dashboard_tile_demo_dates_table" model="xx.dashboard.tile">
+        <field name="sequence">101</field>
+        <field name="name">Selected Dates table</field>
+        <field name="dashboard_id" ref="dyn_dashboard.xx_dashboard_dates_demo" />
+        <field name="display_type">table</field>
+        <field name="width">16</field>
+        <field name="height">2</field>
+        <field name="bg_color_header">#AAA</field>
+        <field name="query">
+            select
+                %DATESTART as "Start Date",
+                %DATEEND as "End Date",
+                %TIMESTAMPSTART as "Start Datetime(UTC)",
+                %TIMESTAMPEND as "End Datetime(UTC)",
+                %TIMESTAMPSTART::timestamp as "Start Timestamp",
+                %TIMESTAMPEND::timestamp as "End Timestamp",
+
+                P.id, P.create_date, P.name, P.city
+            from res_partner p
+            left join res_country rc on rc.id = p.country_id
+            where p.create_date between %TIMESTAMPSTART and %TIMESTAMPEND
+            order by p.id;
+        </field>
+        <field name="direction">horizontal</field>
+        <field name="drill_type">model</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="new_tab" eval="True" />
+    </record>
+</odoo>

@@ -1,0 +1,51 @@
+<odoo>
+    <record id="dyn_dashboard_export_wizard_form_view" model="ir.ui.view">
+        <field name="name">xx.dashboard.export.wizard.form.view</field>
+        <field name="model">xx.dashboard.export.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Export Dashboard">
+                <group string="Export settings" name="export_settings">
+                    <field name="model_id" readonly="1" force_save="1" />
+                    <field name="export_items" widget="many2many_tags" />
+                    <field name="name" />
+                    <button
+                        name="export_xml"
+                        string="Export"
+                        type="object"
+                        class="oe_highlight"
+                        readonly="[('export_items', '=', False)]"
+                    />
+                </group>
+                <group string="Import settings" name="import_settings">
+                    <field name="filecontent" filename="filename" widget="binary" />
+                    <button
+                        name="import_xmlfile"
+                        string="Import"
+                        type="object"
+                        invisible="not filecontent"
+                    />
+                </group>
+                <footer>
+                    <button string="Close" class="btn-secondary" special="cancel" />
+                    <field name="action_log" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="dyn_dashboard_export_action" model="ir.actions.act_window">
+        <field name="name">Export Dashboards</field>
+        <field name="res_model">xx.dashboard.export.wizard</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="dyn_dashboard_export_wizard_form_view" />
+        <field name="target">new</field>
+    </record>
+
+    <record id="action_dashboard_export_wizard" model="ir.actions.act_window">
+        <field name="name">Dashboard Export</field>
+        <field name="res_model">xx.dashboard.export.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

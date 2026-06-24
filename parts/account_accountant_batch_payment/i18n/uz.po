@@ -1,0 +1,81 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_accountant_batch_payment
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2025-10-08 18:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_accountant_batch_payment
+#: model:ir.model,name:account_accountant_batch_payment.model_account_bank_statement_line
+#, fuzzy
+msgid "Bank Statement Line"
+msgstr "Bank ko‘chirmasi satri"
+
+#. module: account_accountant_batch_payment
+#. odoo-python
+#: code:addons/account_accountant_batch_payment/models/account_batch_payment.py:0
+#: model:ir.model,name:account_accountant_batch_payment.model_account_batch_payment
+#, fuzzy
+msgid "Batch Payment"
+msgstr "Ommaviy to‘lov"
+
+#. module: account_accountant_batch_payment
+#. odoo-javascript
+#: code:addons/account_accountant_batch_payment/static/src/components/bank_reconciliation/button_list/button_list.js:0
+#, fuzzy
+msgid "Batches"
+msgstr "To‘plamlar"
+
+#. module: account_accountant_batch_payment
+#: model:ir.model.fields,field_description:account_accountant_batch_payment.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:account_accountant_batch_payment.field_account_batch_payment__display_name
+#: model:ir.model.fields,field_description:account_accountant_batch_payment.field_account_move_line__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: account_accountant_batch_payment
+#: model:ir.model.fields,field_description:account_accountant_batch_payment.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:account_accountant_batch_payment.field_account_batch_payment__id
+#: model:ir.model.fields,field_description:account_accountant_batch_payment.field_account_move_line__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: account_accountant_batch_payment
+#: model:ir.model,name:account_accountant_batch_payment.model_account_move_line
+#, fuzzy
+msgid "Journal Item"
+msgstr "Jurnal yozuvi"
+
+#. module: account_accountant_batch_payment
+#: model:ir.model.fields,field_description:account_accountant_batch_payment.field_account_move_line__payment_lines_ids
+#, fuzzy
+msgid "Payment Lines"
+msgstr "To‘lov qatorlari"
+
+#. module: account_accountant_batch_payment
+#. odoo-javascript
+#: code:addons/account_accountant_batch_payment/static/src/components/bank_reconciliation/button_list/button_list.js:0
+#, fuzzy
+msgid "Search: Batch Payment"
+msgstr "Qidirish: Ommaviy to‘lov"

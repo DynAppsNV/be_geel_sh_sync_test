@@ -1,0 +1,70 @@
+<odoo>
+    <record id="res_config_settings_view_form_xx_horizon" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.my.module</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app string="Horizon Sync" name="xx_horizon">
+                    <block title="Horizon Auth Settings">
+                        <setting string="Tenant ID">
+                            <field name="xx_horizon_auth_tenant_id" />
+                        </setting>
+
+                        <setting string="Auth URL">
+                            <field name="xx_horizon_auth_url" />
+                        </setting>
+
+                        <setting string="Client ID">
+                            <field name="xx_horizon_auth_client_id" />
+                        </setting>
+
+                        <setting string="Scope">
+                            <field name="xx_horizon_auth_scope" />
+                        </setting>
+
+                        <setting string="Grant Type">
+                            <field name="xx_horizon_auth_grant_type" />
+                        </setting>
+
+                        <setting string="Client Secret">
+                            <field
+                                name="xx_horizon_auth_client_secret"
+                                password="True"
+                            />
+                        </setting>
+                    </block>
+                    <block title="Horizon PAS Settings">
+                        <setting string="PAS Base URL">
+                            <field name="xx_horizon_pas_base_url" />
+                        </setting>
+
+                        <setting string="PAS Contact Endpoint">
+                            <field name="xx_horizon_pas_contact_endpoint" />
+                        </setting>
+
+                        <setting string="PAS Credit Limit Endpoint">
+                            <field name="xx_horizon_pas_creditlimit_endpoint" />
+                        </setting>
+
+                        <setting string="PAS Journal Endpoint">
+                            <field name="xx_horizon_pas_journal_endpoint" />
+                        </setting>
+
+                        <setting string="PAS Purchase Endpoint">
+                            <field name="xx_horizon_pas_purchase_endpoint" />
+                        </setting>
+
+                        <setting string="PAS Currency Endpoint">
+                            <field name="xx_horizon_pas_currency_endpoint" />
+                        </setting>
+
+                        <setting string="PAS Param Endpoint">
+                            <field name="xx_horizon_pas_param_endpoint" />
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+</odoo>

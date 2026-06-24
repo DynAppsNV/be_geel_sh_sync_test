@@ -1,0 +1,1450 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dyn_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-03 12:36+0000\n"
+"PO-Revision-Date: 2025-02-03 12:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__ls_pastwithout_now
+msgid " Past Excluding Today"
+msgstr "Verleden buiten vandaag"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__stacked_type__100%
+msgid "100 %"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Actie venster weergave"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__alignment
+msgid "Alignment"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.ui.menu,name:dyn_dashboard.menu_dyn_dashboard_overview
+msgid "All Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/xml/dyn_dashboard_renderer.xml:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__l_none
+msgid "All Time"
+msgstr "Geen filter"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/xml/dyn_dashboard_renderer.xml:0
+msgid "Apply"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__type_output__area
+msgid "Area"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__axis_label_color
+msgid "Axis Label Color"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__bg_color
+msgid "Background color"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__bar_chart
+msgid "Bar Chart"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__alignment__center
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__text_align_header__center
+msgid "Center"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_export_wizard_form_view
+msgid "Close"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__type_output__column
+msgid "Column"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.ui.menu,name:dyn_dashboard.menu_dyn_dashboard_settings
+msgid "Config"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.actions.act_window,name:dyn_dashboard.dyn_dashboard_action
+#: model:ir.ui.menu,name:dyn_dashboard.menu_dyn_dashboard
+msgid "Config Dashboards"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__country_id
+msgid "Country"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__create_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__create_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__custom_color_array
+msgid "Custom Color Array"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__l_custom
+msgid "Custom Filter"
+msgstr "Aangepaste filter"
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dyn_custom_filter_value
+msgid "Custom Filter User Values for Dynapps Dashboard "
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_res_users__xx_dyn_custom_filter_value_ids
+msgid "Custom Filter Values"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__xx_custom_filter_ids
+msgid "Custom Filters"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dyn_custom_filter
+msgid "Custom Filters for Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_form_view
+msgid "Custom filters"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_view.esm.js:0
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__dashboard_id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__dashboard_id
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__drill_type__dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_form_view
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__xx_dashboard_drill
+msgid "Dashboard Action"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__dashboard_end_date
+msgid "Dashboard End Date"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-python
+#: code:addons/dyn_dashboard/models/export_import.py:0
+#: model:ir.actions.act_window,name:dyn_dashboard.action_dashboard_export_wizard
+msgid "Dashboard Export"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:res.groups,name:dyn_dashboard.dyn_dashboard_group_manager
+msgid "Dashboard Manager"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__dashboard_start_date
+msgid "Dashboard Start Date"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__dashboard_tile_id
+msgid "Dashboard Tile"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:res.groups,name:dyn_dashboard.dyn_dashboard_group_user
+msgid "Dashboard User"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.ui.menu,name:dyn_dashboard.dyn_dashboard_menu_root
+msgid "Dashboards"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+msgid "Date Filter"
+msgstr "Datumfilter"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__date_filter_selection
+msgid "Default Date Filter"
+msgstr "Standaard datum filter"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__direction
+msgid "Direction"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__display_name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__dashboard_tile_type
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__display_type
+msgid "Display Type"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__donut
+msgid "Donut Chart"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__download
+msgid "Download"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__download_data
+msgid "Download Data"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Drill Action"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__drill_hierarchy
+msgid "Drill Hierarchy"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__drill_type
+msgid "Drill Type"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__dummy
+msgid "Dummy"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__ir_ui_view__type__dyn_dashboard
+msgid "DynApps Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dashboard_export_wizard
+#: model:ir.model,name:dyn_dashboard.model_xx_export_items
+msgid "DynApps Dashboard Export"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dashboard_query_field
+msgid "DynApps Dashboard Query Field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.module.category,name:dyn_dashboard.dyn_dashboard_security_groups
+msgid "DynApps Dashboard Rights"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dashboard_tile
+msgid "DynApps Dashboard Tile"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dashboard_validation_patterns
+msgid "DynApps Dashboard Validation Patterns"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__ir_actions_act_window_view__view_mode__dyn_dashboard
+msgid "Dynapps Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-python
+#: code:addons/dyn_dashboard/models/dashboard.py:0
+msgid "Error creating dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-python
+#: code:addons/dyn_dashboard/models/dashboard_tile.py:0
+msgid "Error refreshing query : {}"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_export_wizard_form_view
+msgid "Export"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/xml/dyn_dashboard_renderer.xml:0
+msgid "Export CSV"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_export_wizard_form_view
+msgid "Export Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.actions.act_window,name:dyn_dashboard.dyn_dashboard_export_action
+msgid "Export Dashboards"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__name
+msgid "Export File Prefix"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/xml/dyn_dashboard_renderer.xml:0
+msgid "Export JSON"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/xml/dyn_dashboard_renderer.xml:0
+msgid "Export PDF"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/xml/dyn_dashboard_renderer.xml:0
+msgid "Export XLSX"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_export_wizard_form_view
+msgid "Export settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.ui.menu,name:dyn_dashboard.menu_dyn_dashboard_export
+msgid "Export/import Dashboards"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__field_label
+msgid "Field Label"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__field_layout_params
+msgid "Field Layout Params"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__model_field_name
+msgid "Field Name"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__model_field_value
+msgid "Field Value"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__filecontent
+msgid "Filecontent"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__filename
+msgid "Filename"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__filter_drill
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__filter_id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__filter_id
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__drill_type__filter
+msgid "Filter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__filter_name
+msgid "Filter Name"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__filter_drill
+msgid "Filter name to be set on drill action"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__formatter
+msgid "Formatter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__formatter_params
+msgid "Formatter Params"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__formatter
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__formatter_params
+msgid "Formatter config for the Grid field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__field_layout_params
+msgid "Formatter config for the field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__table_format_params
+msgid "Formatter config for the table tile"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__n_future_starting_now
+msgid "Future Starting Now"
+msgstr "Toekomst vanaf nu"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__n_futurestarting_tomorrow
+msgid "Future Starting Tomorrow"
+msgstr "Toekomst vanaf nu"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__graph_locale
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__graph_locale
+msgid "Graph Locale"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__graph_theme_palette
+msgid "Graph Theme Palette"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Graph settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__has_filter
+msgid "Has Filter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__has_res_model
+msgid "Has Res Model"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__bg_color_header
+msgid "Header Background color"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__header_filter
+msgid "Header Filter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__header_filter_params
+msgid "Header Filter Params"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__text_align_header
+msgid "Header alignment"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__height
+msgid "Height (rows)"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__bg_color
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__bg_color_header
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__font_color_text
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__font_color_title
+msgid "Hex-code or named color"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__hidden
+msgid "Hide Filter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__direction__horizontal
+msgid "Horizontal"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__id
+msgid "ID"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__icon
+msgid "Icon"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__icon_size
+msgid "Icon size (in px)"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dyn_custom_filter__use_odoo_data
+msgid "If selected, the selection will be filled with Odoo data."
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__opposite_axis_label
+msgid "If yes, label is shown on the right side of the graph"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_export_wizard_form_view
+msgid "Import"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__action_log
+msgid "Import / Export Log"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__import_status
+msgid "Import Status"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_export_wizard_form_view
+msgid "Import settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-python
+#: code:addons/dyn_dashboard/models/dashboard_tile.py:0
+msgid "Invalid query in"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__is_area
+msgid "Is Area"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__is_group_by
+msgid "Is Group By"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__is_radial_semi_circle
+msgid "Is Radial Semi Circle"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__is_stacked
+msgid "Is Stacked"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__is_visible
+msgid "Is Visible"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__res_id
+msgid "Item Id"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__name
+msgid "Item Name"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__pdf_orientation__landscape
+msgid "Landscape"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__l_months
+msgid "Last 30 days"
+msgstr "Afgelopen 30 dagen"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__l_years
+msgid "Last 365 days"
+msgstr "Afgelopen jaar"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__l_weeks
+msgid "Last 7 days"
+msgstr "Afgelopen 7 dagen"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__l_quarters
+msgid "Last 90 days"
+msgstr "Laatste 90 dagen"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__ls_days
+msgid "Last Day"
+msgstr "Afgelopen dag"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__ls_months
+msgid "Last Month"
+msgstr "Afgelopen maand"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__ls_quarters
+msgid "Last Quarter"
+msgstr "Afgelopen kwartaal"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__write_uid
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__write_date
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__ls_weeks
+msgid "Last Week"
+msgstr "Afgelopen week"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__ls_years
+msgid "Last Year"
+msgstr "Afgelopen jaar"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_res_users__xx_dyn_dashboard_last_selected_end_date
+msgid "Last selected End Date"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_res_users__xx_dyn_dashboard_last_selected_start_date
+msgid "Last selected Start Date"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__alignment__left
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__text_align_header__left
+msgid "Left"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__show_on_axis__legend
+msgid "Legend"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__type_output__line
+msgid "Line"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__line_chart
+msgid "Line Chart"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard__graph_locale
+msgid "Locale in format 'language-COUNTRY"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-python
+#: code:addons/dyn_dashboard/models/dashboard_tile.py:0
+msgid "Make sure all necessary modules are installed"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__manual_selection_ids
+msgid "Manual Selection"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__menu_id
+msgid "Menu"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__menu_action_id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__xx_dashboard_action
+msgid "Menu Action"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__menu_name
+msgid "Menu Name"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__model_id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__model_id
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__model_id
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__drill_type__model
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Model"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__multiselect
+msgid "Multiselect"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.actions.act_window,name:dyn_dashboard.dyn_my_dashboard_action
+msgid "My Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__name
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__name
+msgid "Name"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__n_days
+msgid "Next Day"
+msgstr "Morgen"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__n_months
+msgid "Next Month"
+msgstr "Volgende maand"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__n_quarters
+msgid "Next Quarter"
+msgstr "Volgend kwartaal"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__n_weeks
+msgid "Next Week"
+msgstr "Volgende week"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__n_years
+msgid "Next Year"
+msgstr "Volgend jaar"
+
+#. module: dyn_dashboard
+#: model_terms:ir.actions.act_window,help:dyn_dashboard.dyn_my_dashboard_action
+msgid "No data yet!"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__stacked_type__normal
+msgid "Normal"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__is_stacked
+msgid "Only applicable for bar/mixed charts"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__is_area
+msgid "Only applicable for line charts"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Open Field settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_form_view
+msgid "Open filter settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__new_tab
+msgid "Open new tab"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_form_view
+msgid "Open tile settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__opposite_axis_label
+msgid "Opposite Axis Label"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__pdf_orientation
+msgid "Page orientation of the PDF data export"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__parent_menu_id
+msgid "Parent Menu"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+msgid "Past Excluding Today"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__ls_past_until_now
+msgid "Past Till Now"
+msgstr "Verleden tot nu"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__pdf_orientation
+msgid "Pdf Orientation"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__pie
+msgid "Pie Chart"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__plain_text
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Plain Text"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__pdf_orientation__portrait
+msgid "Portrait"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__custom_color_array
+msgid ""
+"Provide as a comma separated list of hex or rgb/rgba formatif set it "
+"overrules the setting 'graph theme palette'As default the stephenFew colors "
+"are set"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__query
+msgid "Query"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Query & Data options"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_query_field_form_view
+msgid "Query Field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__query_key_ids
+msgid "Query Key"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__query_threshold
+msgid "Query Threshold"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__query_wildcard_replace
+msgid "Query Wildcard Replace"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Query settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__radial_bar
+msgid "Radial Bar"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dyn_custom_filter__query_wildcard_replace
+msgid "Replace if filter is empty"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__alignment__right
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__text_align_header__right
+msgid "Right"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_export_wizard__import_status__running
+msgid "Running"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid ""
+"Select a model to drill to a list of ids.<br/>\n"
+"                            In your query provide the list of IDs that need to be displayed on the selected model."
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__show_on_axis
+msgid "Select axis for this field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__alignment
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__text_align_header
+msgid "Select the alignment of this field in the Grid view"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__type_output
+msgid "Select the output type for this field, used in a Bar/Line/Mixed Chart"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_export_wizard__export_items
+msgid "Selected Items To Export"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__selection_ids
+msgid "Selection"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_xx_dyn_custom_filter_selection
+msgid "Selection options for Custom Filters for Dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__sequence
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__sequence
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__sequence
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid ""
+"Set a dashboard if you want to drill from this tile to another dashboard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__width
+msgid "Set a fixed width in pixels, only numeric, for the Grid field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dyn_custom_filter__query_threshold
+msgid "Set lower limit to use SQL query."
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__axis_label_color
+msgid "Set the colors of the Y-Axis info for this field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__field_label
+msgid ""
+"Set the label shown in the column header (for table view) or as Axis-label "
+"for line"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__header_filter_params
+msgid ""
+"Set to config the special filter field, leave blank for normal Grid filter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__header_filter
+msgid "Set to special filter field, leave blank for normal Grid filter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__show_date_filter
+msgid "Show Date Filter"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__show_labels
+msgid "Show Labels"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__show_legend
+msgid "Show Legend"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__show_markers
+msgid "Show Markers"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__show_on_axis
+msgid "Show On Axis"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__download_data
+msgid "Show buttons to download data in CSV/XLSX/PDF/JSON file"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__show_labels
+msgid "Show/Hide labels on the bars/parts of pie/donut."
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__show_legend
+msgid "Show/Hide legend on the charts."
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__show_markers
+msgid "Show/Hide markers on the line charts."
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__stacked_type
+msgid "Stacked Type"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_export_wizard__import_status__stopped
+msgid "Stopped"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Styling options"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__sub_title
+msgid "Sub Title"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__table
+msgid "Table"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__table_format_params
+msgid "Table Format Params"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid "Table settings"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__text
+msgid "Text"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__font_color_text
+msgid "Text Font color"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__font_size_text
+msgid "Text Font size (in px)"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_export_wizard__model_id
+msgid "The model object to export"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model_terms:ir.ui.view,arch_db:dyn_dashboard.dyn_dashboard_item_form_view
+msgid ""
+"The model referenced in res_model field will be used to drill down on the "
+"selected record."
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__t_months
+msgid "This Month"
+msgstr "Deze maand"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__t_quarters
+msgid "This Quarter"
+msgstr "Dit kwartaal"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__t_weeks
+msgid "This Week"
+msgstr "Deze week"
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__t_years
+msgid "This Year"
+msgstr "Dit jaar"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__name
+msgid "This will appear in the red bar of the tile"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__is_group_by
+msgid "Tick to filter on this field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__has_filter
+msgid "Tick to show a filter on the Grid field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard__tile_ids
+msgid "Tile"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__plain_text
+msgid "Tile can be use to show a simple text message"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__font_color_title
+msgid "Title Font color"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__font_size_title
+msgid "Title Font size (in px)"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__sub_title
+msgid "Title shown within the graph"
+msgstr ""
+
+#. module: dyn_dashboard
+#. odoo-javascript
+#: code:addons/dyn_dashboard/static/src/js/dyn_dashboard_renderer.esm.js:0
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard__date_filter_selection__l_days
+msgid "Today"
+msgstr "Vandaag"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__type_output
+msgid "Type Output"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__pattern_type
+msgid "Type of validation"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__download
+msgid "Uncheck to exclude from table download"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_query_field__is_visible
+msgid "Uncheck to hide this column for this Grid field"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__use_odoo_data
+msgid "Use Odoo Data"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__icon
+msgid "Use the font awesome class name. E.g. 'fa-thermometer-full'"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_res_users
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__user_id
+msgid "User"
+msgstr "Gebruiker"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__pattern
+msgid "Validation Pattern"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.actions.act_window,name:dyn_dashboard.validation_pattern_action
+#: model:ir.ui.menu,name:dyn_dashboard.menu_validation_pattern
+msgid "Validation Patterns"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_validation_patterns__validation_rule
+msgid "Validation Rule"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_selection__value
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter_value__value
+msgid "Value"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__graph_locale
+msgid "Value to overwrite dashboard locale in format 'language-COUNTRY"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__direction__vertical
+msgid "Vertical"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model,name:dyn_dashboard.model_ir_ui_view
+msgid "View"
+msgstr "Weergave"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:dyn_dashboard.field_ir_ui_view__type
+msgid "View Type"
+msgstr "Soort weergave"
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,help:dyn_dashboard.field_xx_dashboard_tile__is_radial_semi_circle
+msgid "When true data is displayed as half a circle."
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_query_field__width
+msgid "Width"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dashboard_tile__width
+msgid "Width (cols)"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_dyn_custom_filter__wildcard
+msgid "Wildcard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields,field_description:dyn_dashboard.field_xx_export_items__wizard_id
+msgid "Wizard"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__show_on_axis__xaxis
+msgid "X-axis"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_query_field__show_on_axis__yaxis
+msgid "Y-axis"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__display_type__kpi
+msgid "kpi"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette1
+msgid "palette1"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette10
+msgid "palette10"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette2
+msgid "palette2"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette3
+msgid "palette3"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette4
+msgid "palette4"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette5
+msgid "palette5"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette6
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette7
+msgid "palette7"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette8
+msgid "palette8"
+msgstr ""
+
+#. module: dyn_dashboard
+#: model:ir.model.fields.selection,name:dyn_dashboard.selection__xx_dashboard_tile__graph_theme_palette__palette9
+msgid "palette9"
+msgstr ""

@@ -1,0 +1,426 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_hr_referral
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-30 18:48+0000\n"
+"PO-Revision-Date: 2025-10-08 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#, fuzzy
+msgid " days"
+msgstr "kun"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "# Applications"
+msgstr "# ariza"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "# Offers"
+msgstr "# taklif"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "32 days"
+msgstr "32 kun"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "45 days"
+msgstr "45 kun"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Applications"
+msgstr "Arizalar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Applications refused per stage"
+msgstr "Har bosqichda rad etilgan arizalar soni"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Consultant"
+msgstr "Maslahatchi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Contract Proposal"
+msgstr "Shartnoma taklifi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Contract Signed"
+msgstr "Imzolangan shartnoma"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Creation date"
+msgstr "Yaratilgan sana"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Current"
+msgstr "Joriy"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Customer Support Representative"
+msgstr "Mijozlarni qo‘llab-quvvatlash vakili"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Data Analyst"
+msgstr "Ma'lumotlar tahlilchisi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#, fuzzy
+msgid "Date"
+msgstr "Sana"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Experienced Developer"
+msgstr "Tajribali dasturchi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "First Interview"
+msgstr "Birinchi suhbat"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Hired"
+msgstr "Ishga olingan"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Hired Rate"
+msgstr "Ishga olish ko‘rsatkichi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Hired by referral"
+msgstr "Tavsiya orqali ishga olingan"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#, fuzzy
+msgid "Hired ratio"
+msgstr "Ishga olinganlar nisbati"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Human Resources Manager"
+msgstr "Inson resurslari boshqaruvchisi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Job Position"
+msgstr "Lavozim"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Junior Developer"
+msgstr "Yordamchi dasturchi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Marketing and Community Manager"
+msgstr "Marketing va jamiyat boshqaruvchisi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Medium"
+msgstr "O‘rtacha"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Most Hired Job Positions"
+msgstr "Eng ko‘p ishga olingan lavozimlar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "New Applications"
+msgstr "Yangi arizalar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "New Hires"
+msgstr "Yangi xodimlar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "New applicants"
+msgstr "Yangi nomzodlar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Previous"
+msgstr "Oldingi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Process Duration"
+msgstr "Jarayon davomiyligi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#, fuzzy
+msgid "Process duration"
+msgstr "Jarayon davomiyligi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+msgid "Qualification"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Rate"
+msgstr "Ko‘rsatkich"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Reason"
+msgstr "Sabab"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Recent Job Positions"
+msgstr "So‘nggi lavozimlar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Recruiter"
+msgstr "Ishga oluvchi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_hr_referral.spreadsheet_dashboard_recruitment
+#, fuzzy
+msgid "Recruitment"
+msgstr "Ishga olish"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Referral rate"
+msgstr "Tavsiya ko‘rsatkichi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Sales Manager"
+msgstr "Savdo boshqaruvchisi"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Second Interview"
+msgstr "Ikkinchi suhbat"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Source"
+msgstr "Manba"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Applicant Refuse Reasons"
+msgstr "Nomzodlarning rad etish bo‘yicha asosiy sabablari"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Job Positions"
+msgstr "Eng yuqori lavozimlar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Mediums"
+msgstr "Eng yaxshi vositalar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Offer Refuse Reasons"
+msgstr "Taklifni rad etishning asosiy sabablari"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Recruiters"
+msgstr "Eng yaxshi ishga oluvchilar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Top Sources"
+msgstr "Asosiy manbalar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Total offers per validity date"
+msgstr "Amal qilish muddati bo‘yicha jami takliflar"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "Trainee"
+msgstr "Stajyor"
+
+#. module: spreadsheet_dashboard_hr_referral
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_referral/data/files/recruitment_sample_dashboard.json:0
+#, fuzzy
+msgid "UX/UI Designer"
+msgstr "UX/UI dizayner"
+
+#, fuzzy
+#~ msgid "Initial Qualification"
+#~ msgstr "Dastlabki malaka"

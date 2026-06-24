@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="credit_line_search" model="ir.ui.view">
+        <field name="name">xx.credit.line.search</field>
+        <field name="model">xx.credit.line</field>
+        <field name="arch" type="xml">
+            <search string="Credit Line">
+                <group>
+                    <filter
+                        string="Customer"
+                        name="customer"
+                        context="{'group_by':'customer_id'}"
+                    />
+                    <filter
+                        string="Type"
+                        name="type"
+                        context="{'group_by':'credit_line_type_id'}"
+                    />
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

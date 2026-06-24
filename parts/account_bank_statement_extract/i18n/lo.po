@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_bank_statement_extract
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2026-06-06 15:53+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"account_bank_statement_extract/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_needaction
+msgid "Action Needed"
+msgstr "ການດຳເນີນການທີ່ຈຳເປັນ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_attachment_count
+msgid "Attachment Count"
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model,name:account_bank_statement_extract.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "ໃບແຈ້ງຍອດທະນາຄານ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model,name:account_bank_statement_extract.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "ລາຍການໃບແຈ້ງຍອດທະນາຄານ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_res_config_settings__extract_bank_statement_digitalization_mode
+msgid "Bank Statements"
+msgstr "ໃບແຈ້ງຍອດທະນາຄານ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extract_can_show_send_button
+msgid "Can show the ocr send button"
+msgstr "ສາມາດສະແດງປຸ່ມສົ່ງ OCR"
+
+#. module: account_bank_statement_extract
+#: model:ir.model,name:account_bank_statement_extract.model_res_company
+msgid "Companies"
+msgstr "ບໍລິສັດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model,name:account_bank_statement_extract.model_res_config_settings
+msgid "Config Settings"
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement_line__credit
+msgid "Credit"
+msgstr "ເຄຣດິດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement_line__debit
+msgid "Debit"
+msgstr "ເດບິດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_res_company__extract_bank_statement_digitalization_mode
+msgid "Digitization mode on bank statements"
+msgstr "ໂໝດການແປງເປັນດິຈິຕອນໃນໃບແຈ້ງຍອດທະນາຄານ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields.selection,name:account_bank_statement_extract.selection__res_company__extract_bank_statement_digitalization_mode__auto_send
+msgid "Digitize automatically"
+msgstr "ແປງເປັນດິຈິຕອນໂດຍອັດຕະໂນມັດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_journal__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "ຊື່ທີ່ສະແດງ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields.selection,name:account_bank_statement_extract.selection__res_company__extract_bank_statement_digitalization_mode__no_send
+msgid "Do not digitize"
+msgstr "ບໍ່ຕ້ອງແປງເປັນດິຈິຕອນ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extract_error_message
+msgid "Error message"
+msgstr "ຂໍ້ຄວາມຂໍ້ຜິດພາດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extract_attachment_id
+msgid "Extract Attachment"
+msgstr "ແຍກໄຟລ໌ຄັດຕິດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extract_state_processed
+msgid "Extract State Processed"
+msgstr "ສະຖານະການແຍກຂໍ້ມູນທີ່ປະມວນຜົນແລ້ວ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extract_state
+msgid "Extract state"
+msgstr "ສະຖານະການແຍກຂໍ້ມູນ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extract_status
+msgid "Extract status"
+msgstr "ສະຖານະການແຍກຂໍ້ມູນ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extracted_dates
+msgid "Extracted Dates"
+msgstr "ວັນທີທີ່ແຍກໄດ້"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extracted_numbers
+msgid "Extracted Numbers"
+msgstr "ຕົວເລກທີ່ແຍກໄດ້"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extracted_words
+msgid "Extracted Words"
+msgstr "ຄຳສັບທີ່ແຍກໄດ້"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_follower_ids
+msgid "Followers"
+msgstr "ຜູ້ຕິດຕາມ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+
+#. module: account_bank_statement_extract
+#. odoo-python
+#: code:addons/account_bank_statement_extract/models/account_journal.py:0
+msgid "Generated Bank Statements"
+msgstr "ໃບແຈ້ງຍອດທະນາຄານທີ່ສ້າງຂຶ້ນ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__has_message
+msgid "Has Message"
+msgstr "ມີຂໍ້ຄວາມ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__id
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_journal__id
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_res_company__id
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_res_config_settings__id
+msgid "ID"
+msgstr "ໄອດີ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__extract_document_uuid
+msgid "ID of the request to IAP-OCR"
+msgstr "ໄອດີຂອງການຮ້ອງຂໍໄປຫາ IAP-OCR"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,help:account_bank_statement_extract.field_account_bank_statement__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງໄດ້ຮັບຄວາມສົນໃຈຈາກທ່ານ."
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,help:account_bank_statement_extract.field_account_bank_statement__message_has_error
+#: model:ir.model.fields,help:account_bank_statement_extract.field_account_bank_statement__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_is_follower
+msgid "Is Follower"
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__is_in_extractable_state
+msgid "Is In Extractable State"
+msgstr "ຢູ່ໃນສະຖານະທີ່ສາມາດແຍກຂໍ້ມູນໄດ້"
+
+#. module: account_bank_statement_extract
+#: model:ir.model,name:account_bank_statement_extract.model_account_journal
+msgid "Journal"
+msgstr "ສະມຸດລາຍວັນ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "ໄຟລ໌ຄັດຕິດຫຼັກ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_has_error
+msgid "Message Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_ids
+msgid "Messages"
+msgstr "ຂໍ້ຄວາມ"
+
+#. module: account_bank_statement_extract
+#. odoo-python
+#: code:addons/account_bank_statement_extract/models/account_journal.py:0
+msgid "Mixing PDF/Image files with other file types is not allowed."
+msgstr "ບໍ່ອະນຸຍາດໃຫ້ປະສົມໄຟລ໌ PDF/ຮູບພາບ ກັບໄຟລ໌ປະເພດອື່ນ."
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_needaction_counter
+msgid "Number of Actions"
+msgstr "ຈຳນວນການດຳເນີນການ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_has_error_counter
+msgid "Number of errors"
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,help:account_bank_statement_extract.field_account_bank_statement__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງໄດ້ດຳເນີນການ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,help:account_bank_statement_extract.field_account_bank_statement__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__rating_ids
+msgid "Ratings"
+msgstr "ການໃຫ້ຄະແນນ"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+
+#. module: account_bank_statement_extract
+#. odoo-python
+#: code:addons/account_bank_statement_extract/models/account_bank_statement.py:0
+msgid ""
+"Statement and transactions have been updated using Artificial Intelligence."
+msgstr "ໃບແຈ້ງຍອດ ແລະ ລາຍການທຸລະກຳໄດ້ຮັບການອັບເດດໂດຍໃຊ້ປັນຍາປະດິດ (AI)."
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,field_description:account_bank_statement_extract.field_account_bank_statement__website_message_ids
+msgid "Website Messages"
+msgstr "ຂໍ້ຄວາມເວັບໄຊທ໌"
+
+#. module: account_bank_statement_extract
+#: model:ir.model.fields,help:account_bank_statement_extract.field_account_bank_statement__website_message_ids
+msgid "Website communication history"
+msgstr "ປະຫວັດການສື່ສານເວັບໄຊທ໌"

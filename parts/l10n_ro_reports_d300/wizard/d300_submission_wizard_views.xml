@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="l10n_ro_d300_submission_wizard_form" model="ir.ui.view">
+            <field name="name">l10n_ro.d300.submission.wizard.form</field>
+            <field name="model">l10n_ro.d300.submission.wizard</field>
+            <field name="inherit_id" ref="account_reports.return_submission_wizard_form"/>
+            <field name="mode">primary</field>
+            <field name="arch" type="xml">
+                <field name="instructions" position="replace">
+                        <ol colspan="2">
+                            <li>
+                                <div class="d-inline-block align-top">
+                                    <span>Download D300 VAT declaration</span><br/>
+                                    <button string='Download XML' name="print_xml" type="object" class="btn-secondary"/>
+                                </div>
+                            </li>
+                            <li>Download the <a href="https://static.anaf.ro/static/10/Anaf/Declaratii_R/300.html" target="_blank">last D300 PDF</a> and use "Import XML"</li>
+                            <li>Login to <a href="https://www.e-guvernare.ro" target="_blank">e-guvernare portal</a></li>
+                            <li>Upload the file in the section "Depunere declarații ANAF" (ANAF Declaration Submission)</li>
+                        </ol>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

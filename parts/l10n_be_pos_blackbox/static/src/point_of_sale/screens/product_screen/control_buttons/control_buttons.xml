@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_sale.ControlButtons" t-inherit="point_of_sale.ControlButtons" t-inherit-mode="extension">
+        <xpath
+            expr="//t[@t-if='props.showRemainingButtons']/div/button[hasclass('o_pricelist_button')]"
+            position="before">
+            <button t-if="this.pos.cashier._role != 'minimal' and this.pos.blackbox.isActive" t-att-class="buttonClass" t-on-click="() => this.onClickSalesReports()">
+                <i class="fa fa-file-text me-1" role="img" aria-label="Sales details" title="Sales details" /> Sales details reports
+            </button>
+        </xpath>
+        <xpath
+            expr="//t[@t-if='props.showRemainingButtons']/div/button[hasclass('o_pricelist_button')]"
+            position="before">
+            <button t-if="this.pos.cashier._role != 'minimal' and this.pos.blackbox.isActive" t-att-class="buttonClass" t-on-click="() => this.onClickUserReports()">
+                <i class="fa fa-file-text me-1" role="img" aria-label="Users reports" title="Users reports" /> Users reports
+            </button>
+        </xpath>
+    </t>
+</templates>

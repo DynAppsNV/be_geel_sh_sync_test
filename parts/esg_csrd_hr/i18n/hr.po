@@ -1,0 +1,129 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* esg_csrd_hr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-30 18:46+0000\n"
+"PO-Revision-Date: 2026-01-30 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_non_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_type_non_employees_table
+msgid "<strong>% of Total - Base Year</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_non_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_type_non_employees_table
+msgid "<strong>% of Total - Reporting Year</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_contract_type_pay_gap_table
+msgid "<strong>Contract Type</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_pay_gap_table
+msgid "<strong>Country</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_type_non_employees_table
+msgid "<strong>Employment Type</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_contract_type_pay_gap_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_pay_gap_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_pay_gap_table
+msgid "<strong>Female Median Hourly Salary</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_management_level_gender_table
+msgid "<strong>Female</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_management_level_gender_table
+msgid "<strong>Gender Ratio (F:M)</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_pay_gap_table
+msgid "<strong>Job Position / Function</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_contract_type_pay_gap_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_pay_gap_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_pay_gap_table
+msgid "<strong>Male Median Hourly Salary</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_management_level_gender_table
+msgid "<strong>Male</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_management_level_gender_table
+msgid "<strong>Management Level</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_employees_table
+msgid "<strong>Number of Employees - Base Year</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_employees_table
+msgid "<strong>Number of Employees - Reporting Year</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_non_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_type_non_employees_table
+msgid "<strong>Number of Non-Employees - Base Year</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_non_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_type_non_employees_table
+msgid "<strong>Number of Non-Employees - Reporting Year</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_management_level_gender_table
+msgid "<strong>Other</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_contract_type_pay_gap_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_pay_gap_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_pay_gap_table
+msgid "<strong>Pay Gap (%)</strong>"
+msgstr ""
+
+#. module: esg_csrd_hr
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_country_employees_table
+#: model_terms:ir.ui.view,arch_db:esg_csrd_hr.esg_csrd_hr_report_department_non_employees_table
+msgid "<strong>Region / Location</strong>"
+msgstr ""

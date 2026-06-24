@@ -1,0 +1,335 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_helpdesk
+#
+# Translators:
+# Martin Trigaux <mat@odoo.com>, 2017
+# Bone NI <bounkirdni@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.saas~18+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:01+0000\n"
+"PO-Revision-Date: 2026-06-08 08:25+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-19/"
+"website_helpdesk/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team
+msgid "<b>About our team</b>"
+msgstr "<b>ກ່ຽວກັບທີມງານຂອງພວກເຮົາ</b>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submited
+msgid "<i class=\"fa fa-check-circle fa-1x text-success me-2\" role=\"img\" aria-label=\"Success\" title=\"Success\"/>"
+msgstr ""
+"<i class=\"fa fa-check-circle fa-1x text-success me-2\" role=\"img\" aria-"
+"label=\"Success\" title=\"Success\"/>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.navbar
+msgid "<span class=\"navbar-brand h4 my-0 me-auto\">Help Center</span>"
+msgstr "<span class=\"navbar-brand h4 my-0 me-auto\">ສູນຊ່ວຍເຫຼືອ</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submit_form
+msgid "<span class=\"s_website_form_label_content\">Attachment</span>"
+msgstr "<span class=\"s_website_form_label_content\">ເອກະສານຄັດຕິດ</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submit_form
+msgid "<span class=\"s_website_form_label_content\">Description</span>"
+msgstr "<span class=\"s_website_form_label_content\">ຄຳອະທິບາຍ</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submit_form
+msgid ""
+"<span class=\"s_website_form_label_content\">Subject</span>\n"
+"                                            <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">ຫົວຂໍ້</span>\n"
+"                                            <span "
+"class=\"s_website_form_mark\"> *</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submit_form
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Email</span>\n"
+"                                            <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">ອີເມວຂອງທ່ານ</span>\n"
+"                                            <span "
+"class=\"s_website_form_mark\"> *</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submit_form
+msgid ""
+"<span class=\"s_website_form_label_content\">Your Name</span>\n"
+"                                            <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">ຊື່ຂອງທ່ານ</span>\n"
+"                                            <span "
+"class=\"s_website_form_mark\"> *</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.search_results
+msgid "<span class=\"text-600\">Search results for</span>"
+msgstr "<span class=\"text-600\">ຜົນການຄົ້ນຫາສຳລັບ</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.footer
+msgid "<span style=\"font-size: 24px;\">Can't find your answer? Our support team is here to help.</span>"
+msgstr ""
+"<span style=\"font-size: 24px;\">ບໍ່ພົບຄຳຕອບຂອງທ່ານບໍ? ທີມງານຊ່ວຍເຫຼືອຂອງພວກເຮົາມີໄວ້ເພື່ອຊ່"
+"ວຍທ່ານ.</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.knowledge_base
+msgid "<span style=\"font-size: 48px; font-weight: bolder;\">How can we help you?</span>"
+msgstr ""
+"<span style=\"font-size: 48px; font-weight: bolder;\">ພວກເຮົາສາມາດຊ່ວຍທ່ານໄດ້ແນວໃ"
+"ດ?</span>"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.navbar_search_date
+msgid "All"
+msgstr "ທັງໝົດ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.navbar_search_tag
+msgid "All Tags"
+msgstr "ແທັກທັງໝົດ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.navbar_search_type
+msgid "All Types"
+msgstr "ປະເພດທັງໝົດ"
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/xml/website_helpdesk.xml:0
+msgid "All results"
+msgstr "ຜົນການຄົ້ນຫາທັງໝົດ"
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Attachment"
+msgstr "ເອກະສານຄັດຕິດ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.navbar_search_date
+msgid "By Date"
+msgstr "ຕາມວັນທີ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.navbar_search_tag
+msgid "By Tags"
+msgstr "ຕາມແທັກ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.navbar_search_type
+msgid "By Type"
+msgstr "ຕາມປະເພດ"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__can_publish
+msgid "Can Publish"
+msgstr "ສາມາດເຜີຍແຜ່ໄດ້"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.footer
+msgid "Contact Us"
+msgstr "ຕິດຕໍ່ພວກເຮົາ"
+
+#. module: website_helpdesk
+#. odoo-python
+#: code:addons/website_helpdesk/__init__.py:0
+msgid "Customer Care"
+msgstr "ການເບິ່ງແຍງລູກຄ້າ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.snippet_options
+msgid "Date Filter"
+msgstr "ການກັ່ນຕອງວັນທີ"
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Description"
+msgstr "ຄຳອະທິບາຍ"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__website_form_view_id
+msgid "Form"
+msgstr "ແບບຟອມ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submited
+msgid "Go to the Homepage"
+msgstr "ໄປທີ່ໜ້າຫຼັກ"
+
+#. module: website_helpdesk
+#. odoo-python
+#: code:addons/website_helpdesk/models/helpdesk.py:0
+#: code:addons/website_helpdesk/models/website.py:0
+msgid "Help"
+msgstr "ຊ່ວຍເຫຼືອ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.snippet_options
+msgid "Help Center Page"
+msgstr "ໜ້າສູນຊ່ວຍເຫຼືອ"
+
+#. module: website_helpdesk
+#. odoo-python
+#: code:addons/website_helpdesk/models/website.py:0
+msgid "Helpdesk Customer Satisfaction"
+msgstr "ຄວາມເພິ່ງພໍໃຈຂອງລູກຄ້າຕໍ່ການບໍລິການຊ່ວຍເຫຼືອ"
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+#: model:ir.model,name:website_helpdesk.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "ທີມງານຊ່ວຍເຫຼືອ"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__is_published
+msgid "Is Published"
+msgstr "ຖືກເຜີຍແຜ່ແລ້ວ"
+
+#. module: website_helpdesk
+#. odoo-python
+#: code:addons/website_helpdesk/controllers/main.py:0
+msgid "Last Month"
+msgstr "ເດືອນແລ້ວ"
+
+#. module: website_helpdesk
+#. odoo-python
+#: code:addons/website_helpdesk/controllers/main.py:0
+msgid "Last Week"
+msgstr "ອາທິດແລ້ວ"
+
+#. module: website_helpdesk
+#. odoo-python
+#: code:addons/website_helpdesk/controllers/main.py:0
+msgid "Last Year"
+msgstr "ປີແລ້ວ"
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/xml/website_helpdesk.xml:0
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.search_results
+msgid "No results found. Please try another search."
+msgstr "ບໍ່ພົບຜົນການຄົ້ນຫາ. ກະລຸນາລອງຄົ້ນຫາໃໝ່."
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.knowledge_base
+msgid "Search for articles, best practices and more..."
+msgstr "ຄົ້ນຫາບົດຄວາມ, ວິທີການທີ່ດີທີ່ສຸດ ແລະ ອື່ນໆ..."
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Subject"
+msgstr "ຫົວຂໍ້"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submit_form
+msgid "Submit Ticket"
+msgstr "ສົ່ງທິກເກັດ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.team_form_1
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submit_form
+msgid "Submit a Ticket"
+msgstr "ສົ່ງທິກເກັດ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.snippet_options
+msgid "Tags Filter"
+msgstr "ການກັ່ນຕອງແທັກ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submited
+msgid "Thank you for contacting us, our team will get right on it!"
+msgstr "ຂອບໃຈທີ່ຕິດຕໍ່ພວກເຮົາ, ທີມງານຂອງພວກເຮົາຈະເລີ່ມດຳເນີນການໃນທັນທີ!"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,help:website_helpdesk.field_helpdesk_team__website_url
+msgid "The full URL to access the document through the website."
+msgstr "URL ເຕັມເພື່ອເຂົ້າເຖິງເອກະສານຜ່ານເວັບໄຊ."
+
+#. module: website_helpdesk
+#. odoo-python
+#: code:addons/website_helpdesk/models/helpdesk.py:0
+msgid "The team company and the website company should match"
+msgstr "ບໍລິສັດຂອງທີມງານ ແລະ ບໍລິສັດຂອງເວັບໄຊຄວນຈະກົງກັນ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.snippet_options
+msgid "Type Filter"
+msgstr "ການກັ່ນຕອງປະເພດ"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__feature_form_url
+msgid "URL to Submit Issue"
+msgstr "URL ເພື່ອສົ່ງບັນຫາ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submited
+msgid "View Ticket"
+msgstr "ເບິ່ງທິກເກັດ"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__website_published
+msgid "Visible on current website"
+msgstr "ສະແດງຢູ່ໃນເວັບໄຊປະຈຸບັນ"
+
+#. module: website_helpdesk
+#: model:ir.model,name:website_helpdesk.model_website
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__website_id
+msgid "Website"
+msgstr "ເວັບໄຊ"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__website_menu_id
+msgid "Website Menu"
+msgstr "ເມນູເວັບໄຊ"
+
+#. module: website_helpdesk
+#: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__website_url
+msgid "Website URL"
+msgstr "URL ເວັບໄຊ"
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Your Email"
+msgstr "ອີເມວຂອງທ່ານ"
+
+#. module: website_helpdesk
+#. odoo-javascript
+#: code:addons/website_helpdesk/static/src/js/website_helpdesk_form_editor.js:0
+msgid "Your Name"
+msgstr "ຊື່ຂອງທ່ານ"
+
+#. module: website_helpdesk
+#: model_terms:ir.ui.view,arch_db:website_helpdesk.ticket_submited
+msgid "Your Ticket Number is"
+msgstr "ເລກທິກເກັດຂອງທ່ານແມ່ນ"

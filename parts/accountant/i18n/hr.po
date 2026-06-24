@@ -1,0 +1,103 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * accountant
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Boris Peko <boris.peko@ecodica.eu>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-17 18:44+0000\n"
+"PO-Revision-Date: 2026-04-20 09:04+0000\n"
+"Last-Translator: Boris Peko <boris.peko@ecodica.eu>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-19/"
+"accountant/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. module: accountant
+#: model:ir.model,name:accountant.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "Predložak kontnog plana"
+
+#. module: accountant
+#: model:ir.ui.menu,name:accountant.menu_accounting
+#: model_terms:ir.ui.view,arch_db:accountant.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:accountant.res_partner_view_form
+msgid "Accounting"
+msgstr "Računovodstvo"
+
+#. module: accountant
+#: model:ir.ui.menu,name:accountant.account_assets_liabilities_menu
+msgid "Assets & Liabilities"
+msgstr "Imovina i obveze"
+
+#. module: accountant
+#: model:res.groups,name:accountant.group_account_user
+msgid "Bookkeeper"
+msgstr ""
+
+#. module: accountant
+#: model:ir.model,name:accountant.model_res_company
+msgid "Companies"
+msgstr "Tvrtke"
+
+#. module: accountant
+#: model:ir.model.fields,field_description:accountant.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:accountant.field_account_move__display_name
+#: model:ir.model.fields,field_description:accountant.field_res_company__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: accountant
+#: model:ir.model.fields,field_description:accountant.field_account_chart_template__id
+#: model:ir.model.fields,field_description:accountant.field_account_move__id
+#: model:ir.model.fields,field_description:accountant.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: accountant
+#: model:ir.model.fields,field_description:accountant.field_res_company__account_tax_return_journal_id
+msgid "Journal"
+msgstr "Dnevnik"
+
+#. module: accountant
+#: model:ir.model,name:accountant.model_account_move
+msgid "Journal Entry"
+msgstr "Temeljnica"
+
+#. module: accountant
+#. odoo-javascript
+#: code:addons/accountant/static/src/js/tours/accountant.js:0
+msgid "Let’s automate your bills, bank transactions and accounting processes."
+msgstr ""
+"Automatizirajmo vaše ulazne račune, bankovne transakcije i računovodstvene "
+"procese."
+
+#. module: accountant
+#: model:res.groups,name:accountant.group_account_readonly
+msgid "Read-only"
+msgstr "Samo za čitanje"
+
+#. module: accountant
+#: model:res.groups,comment:accountant.group_account_user
+msgid ""
+"access to all Accounting features, including reporting, asset management, "
+"analytic accounting, without configuration rights."
+msgstr ""
+"Pristup svim računovodstvenim značajkama, uključujući izvještavanje, "
+"upravljanje imovinom, analitičko računovodstvo, bez prava konfiguracije."
+
+#. module: accountant
+#: model:res.groups,comment:accountant.group_account_readonly
+msgid ""
+"access to all the accounting data but in readonly mode, no actions allowed."
+msgstr ""
+"Pristup svim računovodstvenim podacima, ali u načinu samo za čitanje, nisu "
+"dopuštene nikakve radnje."

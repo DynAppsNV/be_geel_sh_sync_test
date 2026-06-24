@@ -1,0 +1,1957 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_bank_statement_import_camt
+#
+# Translators:
+# Tina Milas, 2022
+# Vladimir Olujić <olujic.vladimir@storm.hr>, 2022
+# Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2022
+# Karolina Tonković <karolina.tonkovic@storm.hr>, 2022
+# Martin Trigaux, 2022
+# Filip Cuk <filipcuk2@gmail.com>, 2022
+# Milan Tribuson <one.mile.code@gmail.com>, 2022
+# Bole <bole@dajmi5.com>, 2022
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Boris Peko <boris.peko@ecodica.eu>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~15.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:43+0000\n"
+"PO-Revision-Date: 2026-04-10 18:01+0000\n"
+"Last-Translator: Boris Peko <boris.peko@ecodica.eu>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-19/"
+"account_bank_statement_import_camt/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Concentration"
+msgstr "ACH koncentracija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Corporate Trade"
+msgstr "ACH korporativno trgovanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Credit"
+msgstr "ACH uplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Debit"
+msgstr "ACH isplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Pre-Authorised"
+msgstr "ACH prethodno odobreno"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Return"
+msgstr "ACH povrat"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Reversal"
+msgstr "ACH storno"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Settlement"
+msgstr "ACH podmirenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ACH Transaction"
+msgstr "ACH transakcija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "ARP Debit"
+msgstr "ARP terećenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Balancing"
+msgstr "Uravnoteženje konta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Closing"
+msgstr "Zatvaranje konta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Management"
+msgstr "Upravljanje kontom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Opening"
+msgstr "Otvaranje konta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Account Transfer"
+msgstr "Prijenos konta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Additional Info: %s"
+msgstr "Dodatni podaci: %s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Additional Miscellaneous Credit Operations"
+msgstr "Dodatne razne kreditne operacije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Additional Miscellaneous Debit Operations"
+msgstr "Dodatne razne debitne operacije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid ""
+"Address:\n"
+"%s"
+msgstr ""
+"Adresa:\n"
+"%s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Adjustments"
+msgstr "Prilagodbe"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Automatic Transfer"
+msgstr "Automatski prenos"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Back Value"
+msgstr "Vrijednost unatrag"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Bank Cheque"
+msgstr "Ček banke"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Bank Fees"
+msgstr "Bankovne naknade"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Blocked Transactions"
+msgstr "Blokirane transakcije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Bonus Issue/Capitalisation Issue"
+msgstr "Bonus emisija / emisija kapitalizacijom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Borrowing fee"
+msgstr "Naknada za posudbu"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Branch Account Transfer"
+msgstr "Prijenos između poslovnica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Branch Deposit"
+msgstr "Polog poslovnice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Branch Withdrawal"
+msgstr "Podizanje u poslovnici"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Brokerage fee"
+msgstr "Brokerska naknada"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Buy Sell Back"
+msgstr "Kupnja s ponovnom prodajom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "CSD Blocked Transactions"
+msgstr "CSD blokirane transakcije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Call on intermediate securities"
+msgstr "Poziv na privremene vrijednosnice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Capital Gains Distribution"
+msgstr "Raspodjela kapitalnih dobitaka"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Deposit"
+msgstr "Gotovinski polog"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Dividend"
+msgstr "Novčana dividenda"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Letter"
+msgstr "Gotovinski nalog"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Letter Adjustment"
+msgstr "Prilagodba gotovinskog naloga"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Management"
+msgstr "Upravljanje gotovinom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Pooling"
+msgstr "Udruživanje gotovine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash Withdrawal"
+msgstr "Podizanje gotovine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cash in lieu"
+msgstr "Novac umjesto"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Certified Customer Cheque"
+msgstr "Ovjereni ček kupca"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Charge/fees"
+msgstr "Trošak/Naknada"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Charges"
+msgstr "Troškovi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Check Number: %s"
+msgstr "Broj čeka: %s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque"
+msgstr "Ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque Deposit"
+msgstr "Polog čeka"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque Reversal"
+msgstr "Storno čeka"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cheque Under Reserve"
+msgstr "Ček pod rezervom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Circular Cheque"
+msgstr "Kružni ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Clean Collection"
+msgstr "Čista naplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Client Owned Collateral"
+msgstr "Kolateral u vlasništvu klijenta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Collateral Management"
+msgstr "Upravljanje kolateralom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commission"
+msgstr "Provizija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commission excluding taxes"
+msgstr "Provizije bez poreza"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commission including taxes"
+msgstr "Provizije sa porezima"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Commodities"
+msgstr "Robe"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Compensation/Claims"
+msgstr "Kompenzacija / potraživanja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Consumer Loans"
+msgstr "Korisničke pozajmice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Controlled Disbursement"
+msgstr "Kontrolirana isplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Conversion"
+msgstr "Konverzija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate Action"
+msgstr "Korporativna akcija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate Own Account Transfer"
+msgstr "Prijenos na vlastiti korporativni račun"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate Rebate"
+msgstr "Korporativni rabat"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate mark broker owned"
+msgstr "Korporativna oznaka u vlasništvu brokera"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Corporate mark client owned"
+msgstr "Korporativna oznaka u vlasništvu klijenta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Counter Party: %(partner)s"
+msgstr "Druga strana: %(partner)s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Counter Transactions"
+msgstr "Protustavke"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Adjustment"
+msgstr "Prilagodba uplate"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Adjustments"
+msgstr "Prilagodbe uplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Card Payment"
+msgstr "Plaćanja karticama"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Credit Transfer with agreed Commercial Information"
+msgstr "Kreditni prijenos s dogovorenim komercijalnim podacima"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross Trade"
+msgstr "Unakrsna trgovina"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border"
+msgstr "Prekogranično"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Cash Withdrawal"
+msgstr "Prekogranično podizanje gotovine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Credit Card Payment"
+msgstr "Prekogranično plaćanje kreditnom karticom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Credit Transfer"
+msgstr "Prekogranični kreditni prijenos"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Direct Debit"
+msgstr "Prekogranično izravno terećenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Intra Company Transfer"
+msgstr "Prekogranični prijenos unutar tvrtke"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Payroll/Salary Payment"
+msgstr "Prekogranično plaćanje plaće"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Cross-Border Standing Order"
+msgstr "Prekogranični trajni nalog"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Crossed Cheque"
+msgstr "Barirani ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Custody"
+msgstr "Skrbništvo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Custody Collection"
+msgstr "Skrbnička naplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Customer Card Transactions"
+msgstr "Transakcije kupca karticom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Debit"
+msgstr "Duguje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Debit Adjustments"
+msgstr "Prilagodbe isplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Decrease in Value"
+msgstr "Smanjenje vrijednosti"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Delivery"
+msgstr "Otprema"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Deposit"
+msgstr "Depozit"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Deposit/Contribution"
+msgstr "Polog / doprinos"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Depositary Receipt Issue"
+msgstr "Izdavanje depozitarnih potvrda"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Derivatives"
+msgstr "Derivati"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Direct Debit"
+msgstr "Izravno terećenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Direct Debit Payment"
+msgstr "Plaćanje izravnim terećenjem"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Direct Debit under reserve"
+msgstr "Izravno terećenje pod rezervom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Discounted Draft"
+msgstr "Diskontirana mjenica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dishonoured/Unpaid Draft"
+msgstr "Neakceptirana / neplaćena mjenica"
+
+#. module: account_bank_statement_import_camt
+#: model:ir.model.fields,field_description:account_bank_statement_import_camt.field_account_journal__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dividend Option"
+msgstr "Opcija dividende"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dividend Reinvestment"
+msgstr "Reinvestiranje dividende"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Documentary Collection"
+msgstr "Dokumentarna naplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Documentary Credit"
+msgstr "Dokumentarni akreditiv"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Domestic Credit Transfer"
+msgstr "Domaći kreditni prijenos"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Draft Maturity Change"
+msgstr "Promjena dospijeća mjenice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Drafts/BillOfOrders"
+msgstr "Mjenice / nalozi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Drawdown"
+msgstr "Povlačenje sredstava"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Drawing"
+msgstr "Povlačenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Dutch Auction"
+msgstr "Nizozemska aukcija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "End to end ID: %s"
+msgstr "End-to-end ID: %s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Entry Info: %s"
+msgstr "Podaci o stavci: %s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Equity Premium Reserve"
+msgstr "Rezerva premije kapitala"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Equity mark broker owned"
+msgstr "Kapitalna oznaka u vlasništvu brokera"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Equity mark client owned"
+msgstr "Kapitalna oznaka u vlasništvu klijenta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange"
+msgstr "Razmijeni"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Rate Adjustment"
+msgstr "Prilagodba tečaja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Traded"
+msgstr "Trgovano na burzi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Traded CCP"
+msgstr "Burzovno trgovano CCP"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Exchange Traded Non-CCP"
+msgstr "Burzovno trgovano ne-CCP"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Extended Domain"
+msgstr "Proširena domena"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "External Account Transfer"
+msgstr "Prijenos na vanjski račun"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Factor Update"
+msgstr "Ažuriranje faktora"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fees"
+msgstr "Naknade"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fees, Commission , Taxes, Charges and Interest"
+msgstr "Naknade, provizije, porezi, troškovi i kamate"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Final Maturity"
+msgstr "Konačno dospijeće"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Final Payment"
+msgstr "Konačno plaćanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Financial Institution Credit Transfer"
+msgstr "Kreditni prijenos financijske institucije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Financial Institution Direct Debit Payment"
+msgstr "Plaćanje izravnim terećenjem financijske institucije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Financial Institution Own Account Transfer"
+msgstr "Prijenos na vlastiti račun financijske institucije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fixed Deposit Interest Amount"
+msgstr "Iznos kamata oročenog depozita"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fixed Term Deposits"
+msgstr "Oročeni depoziti"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Fixed Term Loans"
+msgstr "Oročeni krediti"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Float adjustment"
+msgstr "Prilagodba fluktuacije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Cheque"
+msgstr "Devizni ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Cheque Under Reserve"
+msgstr "Devizni ček pod rezervom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Currency Deposit"
+msgstr "Devizni polog"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Currency Withdrawal"
+msgstr "Devizno podizanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Foreign Exchange"
+msgstr "Devizno poslovanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Forwards"
+msgstr "Forwardi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Forwards broker owned collateral"
+msgstr "Forwardi - kolateral u vlasništvu brokera"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Forwards client owned collateral"
+msgstr "Forwardi - kolateral u vlasništvu klijenta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Freeze of funds"
+msgstr "Zamrzavanje sredstava"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Full Call / Early Redemption"
+msgstr "Puni otkup / rani otkup"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Future Variation Margin"
+msgstr "Varijacijska marža futuresa"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Futures"
+msgstr "Futuresi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Futures Commission"
+msgstr "Provizija futuresa"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Futures Residual Amount"
+msgstr "Preostali iznos futuresa"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Guarantees"
+msgstr "Garancije"
+
+#. module: account_bank_statement_import_camt
+#: model:ir.model.fields,field_description:account_bank_statement_import_camt.field_account_journal__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Inspeci/Share Exchange"
+msgstr "Inspekcija / razmjena dionica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Instruction ID: %s"
+msgstr "ID upute: %s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Interest"
+msgstr "Kamata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Interest Payment"
+msgstr "Plaćanje kamata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Interest Payment with Principle"
+msgstr "Plaćanje kamata s glavnicom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Internal Account Transfer"
+msgstr "Interni prijenos na račun"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Internal Book Transfer"
+msgstr "Interni knjigovodstveni prijenos"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Intra Company Transfer"
+msgstr "Prijenos unutar tvrtke"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Invoice Accepted with Differed Due Date"
+msgstr "Račun prihvaćen s odgođenim datumom dospijeća"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Cash Concentration Transactions"
+msgstr "Izdane transakcije koncentracije gotovine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Cheques"
+msgstr "Izdani čekovi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Credit Transfers"
+msgstr "Izdani kreditni prijenosi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Direct Debits"
+msgstr "Izdana izravna terećenja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Issued Real Time Credit Transfer"
+msgstr "Izdani kreditni prijenos u stvarnom vremenu"
+
+#. module: account_bank_statement_import_camt
+#: model:ir.model,name:account_bank_statement_import_camt.model_account_journal
+msgid "Journal"
+msgstr "Dnevnik"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lack"
+msgstr "Manjak"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lending Broker Owned Cash Collateral"
+msgstr "Novčani kolateral za kreditiranje u vlasništvu brokera"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lending Client Owned Cash Collateral"
+msgstr "Novčani kolateral za kreditiranje u vlasništvu klijenta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lending income"
+msgstr "Prihod od kreditiranja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Liquidation Dividend / Liquidation Payment"
+msgstr "Likvidacijska dividenda / likvidacijska isplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Listed Derivatives – Futures"
+msgstr "Uvrštene izvedenice – futuresi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Listed Derivatives – Options"
+msgstr "Uvrštene izvedenice – opcije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Loans, Deposits & Syndications"
+msgstr "Krediti, depoziti i sindikacije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Lockbox Transactions"
+msgstr "Transakcije zaključanog sandučića"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Management Fees"
+msgstr "Naknade upravljanja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Mandate ID: %s"
+msgstr "ID mandata: %s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Margin Payments"
+msgstr "Plaćanja marže"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Margin client owned cash collateral"
+msgstr "Novčani kolateral marže u vlasništvu klijenta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Merchant Card Transactions"
+msgstr "Transakcije trgovačkih kartica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Merger"
+msgstr "Spajanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Credit Operations"
+msgstr "Razne kreditne operacije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Debit Operations"
+msgstr "Razne debitne operacije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Deposit"
+msgstr "Razni depozit"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Miscellaneous Securities Operations"
+msgstr "Razne operacije vrijednosnica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Mixed Deposit"
+msgstr "Mješoviti depozit"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Mortgage Loans"
+msgstr "Hipotekarni krediti"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Netting"
+msgstr "Netiranje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid ""
+"No exchange rate was found to convert an amount into the currency of the "
+"journal"
+msgstr "Nije pronađen tečaj za pretvaranje iznosa u valutu dnevnika"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Deliverable"
+msgstr "Neisporučivo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Settled"
+msgstr "Nepodmireno"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Syndicated"
+msgstr "Nesindicirano"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non Taxable commissions"
+msgstr "Neoporezive provizije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Non-Presented Circular Cheque"
+msgstr "Nepodneseni kružni ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Not available"
+msgstr "Nije dostupno"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Notice Deposits"
+msgstr "Depoziti s najavom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Notice Loans"
+msgstr "Krediti s najavom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC"
+msgstr "OTC"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC CCP"
+msgstr "OTC CCP"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Bonds"
+msgstr "OTC izvedenice – obveznice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Credit Derivatives"
+msgstr "OTC izvedenice – kreditne izvedenice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Equity"
+msgstr "OTC izvedenice – kapital"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Interest Rates"
+msgstr "OTC izvedenice – kamatne stope"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Structured Exotic Derivatives"
+msgstr "OTC izvedenice – strukturirane egzotične izvedenice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Derivatives – Swaps"
+msgstr "OTC izvedenice – swapovi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "OTC Non-CCP"
+msgstr "OTC ne-CCP"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Odd Lot Sale/Purchase"
+msgstr "Kupoprodaja nestandardnog lota"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "One-Off Direct Debit"
+msgstr "Jednokratno izravno terećenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Open Cheque"
+msgstr "Otvoreni ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Opening & Closing"
+msgstr "Otvaranje i zatvaranje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Option broker owned collateral"
+msgstr "Opcijski kolateral u vlasništvu brokera"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Option client owned collateral"
+msgstr "Opcijski kolateral u vlasništvu klijenta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Options"
+msgstr "Opcije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Order Cheque"
+msgstr "Ček po nalogu"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Other"
+msgstr "Ostalo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Overdraft"
+msgstr "Prekoračenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Overdraft Charge"
+msgstr "Naknada prekoračenja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Pair-Off"
+msgstr "Uparivanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Partial Payment"
+msgstr "Djelomično plaćanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Partial Redemption Without Reduction of Nominal Value"
+msgstr "Djelomični otkup bez smanjenja nominalne vrijednosti"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Partial Redemption with reduction of nominal value"
+msgstr "Djelomični otkup sa smanjenjem nominalne vrijednosti"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Payments"
+msgstr "Plaćanja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Payroll/Salary Payment"
+msgstr "Plaćanje plaće"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Placement"
+msgstr "Pozicija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid ""
+"Please check the currency on your bank journal.\n"
+"No statements in currency %s were found in this CAMT file."
+msgstr ""
+"Molimo provjerite valutu na svom bankovnom dnevniku.\n"
+"U ovoj CAMT datoteci nisu pronađeni izvodi u valuti %s."
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid ""
+"Please set the IBAN account on your bank journal.\n"
+"\n"
+"This CAMT file is targeting several IBAN accounts but none match the current "
+"journal."
+msgstr ""
+"Molimo postavite IBAN bankovnog računa na dnevnik banke.\n"
+"\n"
+"Ova CAMT datoteka odnosi se na nekoliko IBAN računa ali niti jedan nije "
+"povezan sa trenutnim dnevnikom."
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Point-of-Sale (POS) Payment"
+msgstr "Plaćanje na prodajnom mjestu (POS)"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Point-of-Sale (POS) Payment - Debit Card"
+msgstr "Plaćanje na prodajnom mjestu (POS) - debitna kartica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Portfolio Move"
+msgstr "Prijenos portfelja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Posting Error"
+msgstr "Pogreška knjiženja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Pre-Authorised Direct Debit"
+msgstr "Prethodno odobreno izravno terećenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Precious Metal"
+msgstr "Plemeniti metal"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Principal Pay-down/pay-up"
+msgstr "Otplata glavnice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Principal Payment"
+msgstr "Plaćanje glavnice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Priority Credit Transfer"
+msgstr "Prioritetni kreditni prijenos"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Priority Issue"
+msgstr "Prioritetna emisija"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Put Redemption"
+msgstr "Otkup put opcije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Cash Concentration Transactions"
+msgstr "Primljene transakcije koncentracije gotovine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Cheques"
+msgstr "Primljeni čekovi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Credit Transfers"
+msgstr "Primljeni kreditni prijenosi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Direct Debits"
+msgstr "Primljena izravna terećenja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Received Real Time Credit Transfer"
+msgstr "Primljeni kreditni prijenos u stvarnom vremenu"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Redemption"
+msgstr "Otkup"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Redemption Asset Allocation"
+msgstr "Raspodjela otkupa imovine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Redemption Withdrawing Plan"
+msgstr "Plan povlačenja otkupa"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reimbursements"
+msgstr "Povrati"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Renewal"
+msgstr "Obnova"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Repayment"
+msgstr "Otplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Repo"
+msgstr "Repo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Repurchase offer/Issuer Bid/Reverse Rights."
+msgstr "Ponuda za otkup / ponuda izdavatelja / obrnuta prava."
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reset Payment"
+msgstr "Poništi plaćanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Payment Cancellation Request"
+msgstr "Storno zbog zahtjeva za otkazivanje plaćanja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Payment Return/reimbursement of a Credit Transfer"
+msgstr "Storno zbog povrata plaćanja kreditnog prijenosa"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Payment Reversal"
+msgstr "Storno zbog storniranja plaćanja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to Return/Unpaid Direct Debit"
+msgstr "Storno zbog povrata / neplaćenog izravnog terećenja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reversal due to a Payment Cancellation Request"
+msgstr "Storno zbog zahtjeva za otkazivanje plaćanja"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Reverse Repo"
+msgstr "Obrnuti repo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Rights Issue/Subscription Rights/Rights Offer"
+msgstr "Emisija prava / prava na upis / ponuda prava"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "SEPA B2B Direct Debit"
+msgstr "SEPA B2B izravno terećenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "SEPA Core Direct Debit"
+msgstr "SEPA Core izravno terećenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "SEPA Credit Transfer"
+msgstr "SEPA kreditni transfer"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Same Day Value Credit Transfer"
+msgstr "Kreditni prijenos s istim datumom valute"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Securities"
+msgstr "Vrijednosnice"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Securities Borrowing"
+msgstr "Posuđivanje vrijednosnica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Securities Lending"
+msgstr "Pozajmljivanje vrijednosnica"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Sell Buy Back"
+msgstr "Prodaja s ponovnom kupnjom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement"
+msgstr "Podmirenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement after collection"
+msgstr "Podmirenje nakon naplate"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement against bank guarantee"
+msgstr "Podmirenje protiv bankovne garancije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement at Maturity"
+msgstr "Podmirenje na dospijeću"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement of Sight Export document"
+msgstr "Podmirenje izvoznog dokumenta po viđenju"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement of Sight Import document"
+msgstr "Podmirenje uvoznog dokumenta po viđenju"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Settlement under reserve"
+msgstr "Podmirenje pod rezervom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Smart-Card Payment"
+msgstr "Plaćanje pametnom karticom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Spots"
+msgstr "Spot transakcije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Stamp duty"
+msgstr "Pristojba za pečat"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Stand-By Letter Of Credit"
+msgstr "Stand-by akreditiv"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Standing Order"
+msgstr "Trajni nalog"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Subscription"
+msgstr "Pretplata"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Subscription Asset Allocation"
+msgstr "Raspodjela imovine upisa"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Subscription Savings Plan"
+msgstr "Plan štednje s upisom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Swap Payment"
+msgstr "Plaćanje swapa"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Swap broker owned collateral"
+msgstr "Swap kolateral u vlasništvu brokera"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Swaps"
+msgstr "Swapovi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Sweep"
+msgstr "Pomet"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Sweeping"
+msgstr "Pometanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Switch"
+msgstr "Prebaci"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Syndicated"
+msgstr "Sindicirano"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Syndications"
+msgstr "Sindikacije"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "TBA closing"
+msgstr "TBA zatvaranje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Tax Reclaim"
+msgstr "Povrat poreza"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Taxes"
+msgstr "Porezi"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Tender"
+msgstr "Ponuda"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Topping"
+msgstr "Nadopunjavanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Trade"
+msgstr "Trgovina"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Trade Services"
+msgstr "Usluge trgovine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Trade, Clearing and Settlement"
+msgstr "Trgovina, obračun i podmirenje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Transaction Fees"
+msgstr "Transakcijske naknade"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/models/account_journal.py:0
+msgid "Transaction ID: %s"
+msgstr "ID transakcije: %s"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Transfer In"
+msgstr "Prijenos unutra"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Transfer Out"
+msgstr "Prijenos van"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Travellers Cheques Deposit"
+msgstr "Polog putničkih čekova"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Travellers Cheques Withdrawal"
+msgstr "Podizanje putničkih čekova"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Treasury Tax And Loan Service"
+msgstr "Usluga trezorskih poreza i zajmova"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Triparty Repo"
+msgstr "Tripartitni repo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Triparty Reverse Repo"
+msgstr "Tripartitni obrnuti repo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Turnaround"
+msgstr "Obrtanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Underwriting Commission"
+msgstr "Provizija za pokroviteljstvo"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Unpaid Card Transaction"
+msgstr "Neplaćena transakcija karticom"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Unpaid Cheque"
+msgstr "Neplaćeni ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Unpaid Foreign Cheque"
+msgstr "Neplaćeni devizni ček"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Upfront Payment"
+msgstr "Unaprijed plaćanje"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Value Date"
+msgstr "Datum valute"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Warrant Exercise/Warrant Conversion"
+msgstr "Izvršenje varanta / konverzija varanta"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Withdrawal/distribution"
+msgstr "Povlačenje / raspodjela"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Withholding Tax"
+msgstr "Porez po odbitku"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "YTD Adjustment"
+msgstr "Prilagodba od početka godine"
+
+#. module: account_bank_statement_import_camt
+#. odoo-python
+#: code:addons/account_bank_statement_import_camt/lib/camt.py:0
+msgid "Zero Balancing"
+msgstr "Ujednačavanje na nulu"
+
+#~ msgid "Address:\n"
+#~ msgstr "Adresa:\n"

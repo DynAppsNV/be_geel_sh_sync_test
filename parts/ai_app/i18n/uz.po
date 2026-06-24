@@ -1,0 +1,350 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ai_app
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-30 18:41+0000\n"
+"PO-Revision-Date: 2025-10-08 18:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-clock-o me-2\"/>\n"
+"                            <span>Processing your sources, it might take a "
+"few minutes...</span>"
+msgstr ""
+"<i class=\"fa fa-clock-o me-2\"/> <span>Manbalaringiz qayta ishlanmoqda, bu "
+"bir necha daqiqa vaqt olishi mumkin...</span>"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid ""
+"<span class=\"me-1\">Refresh</span>\n"
+"                            <i class=\"fa fa-refresh me-1\"/>"
+msgstr ""
+"<span class=\"me-1\">Yangilash</span> <i class=\"fa fa-refresh me-1\"/>"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+msgid ""
+"<span class=\"text-muted\" invisible=\"(not is_system_default or "
+"focused_models) and interface_key != 'systray_ai_button'\">All Models</span>"
+msgstr ""
+
+#. module: ai_app
+#: model:ir.ui.menu,name:ai_app.ai_menu_root
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+#, fuzzy
+msgid "AI"
+msgstr "Sun'iy intellekt"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid "Add a source"
+msgstr "Manba qo‘shish"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_kanban
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+#, fuzzy
+msgid "Agent"
+msgstr "Agent"
+
+#. module: ai_app
+#. odoo-javascript
+#: code:addons/ai_app/static/src/command_palette.js:0
+#: model:ir.actions.act_window,name:ai_app.ai_agent_action
+#: model:ir.ui.menu,name:ai_app.ai_agent_menu_action
+#: model:ir.ui.menu,name:ai_app.ai_menu
+#, fuzzy
+msgid "Agents"
+msgstr "Agentlar"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_agent_action
+#, fuzzy
+msgid "Agents help you manage and organize your AI operations."
+msgstr ""
+"Agentlar sun'iy intellekt operatsiyalaringizni boshqarish va tashkil etishda "
+"yordam beradi."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "All Models"
+msgstr "Barcha modellar"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_kanban
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+#, fuzzy
+msgid "Archived"
+msgstr "Arxivlangan"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "Buttons"
+msgstr "Tugmalar"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "Call the Agent"
+msgstr "Agentni chaqirish"
+
+#. module: ai_app
+#: model:ir.ui.menu,name:ai_app.ai_config_menu
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_kanban
+#, fuzzy
+msgid "Configuration"
+msgstr "Sozlamalar"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_agent_action
+#, fuzzy
+msgid "Create your first Agent!"
+msgstr "Birinchi agentingizni yarating!"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_topic_action
+#, fuzzy
+msgid "Create your first topic!"
+msgstr "Birinchi mavzuingizni yarating!"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_view_search
+#, fuzzy
+msgid "Custom Rules"
+msgstr "Maxsus qoidalar"
+
+#. module: ai_app
+#: model:ir.actions.act_window,name:ai_app.ai_composer_action
+#: model:ir.ui.menu,name:ai_app.menu_ai_composer
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_tree
+#, fuzzy
+msgid "Default Prompts"
+msgstr "Standart so‘rovlar"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_form
+#, fuzzy
+msgid "Explain to the Agent what they need to do..."
+msgstr "Agentga nima qilishi kerakligini tushuntiring..."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_view_search
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+#, fuzzy
+msgid "Key"
+msgstr "Kalit"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "Mail Template extra prompt"
+msgstr "Xat shabloni qo‘shimcha so‘rovi"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+#, fuzzy
+msgid "Model"
+msgstr "Model"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_tree
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_kanban
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_tree
+#, fuzzy
+msgid "Name"
+msgstr "Nomi"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_composer_action
+#, fuzzy
+msgid "No Default Prompts found!"
+msgstr "Standart so‘rovlar topilmadi!"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "On the Model"
+msgstr "Model bo‘yicha"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_tree
+#, fuzzy
+msgid "Properties"
+msgstr "Xususiyatlar"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+#, fuzzy
+msgid "Provide your API key to connect with your account"
+msgstr "Hisobingizga ulanish uchun API kalitini kiriting"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+#, fuzzy
+msgid "Providers"
+msgstr "Provayderlar"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+msgid "Reprocess"
+msgstr ""
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid "Retry"
+msgstr "Qayta urinish"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "Rule Name"
+msgstr "Qoida nomi"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "Select an action..."
+msgstr "Harakatni tanlang..."
+
+#. module: ai_app
+#: model:ir.actions.act_window,name:ai_app.ai_settings_action
+#: model:ir.ui.menu,name:ai_app.ai_general_settings_menu
+#, fuzzy
+msgid "Settings"
+msgstr "Sozlamalar"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+#, fuzzy
+msgid "Sources"
+msgstr "Manbalar"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_form
+#, fuzzy
+msgid "Summarize what this topic does"
+msgstr "Bu mavzu nimaga bag‘ishlanganini qisqacha tavsiflang"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_view_search
+#, fuzzy
+msgid "System Rules"
+msgstr "Tizim qoidalari"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid "Test"
+msgstr "Sinov"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_composer_action
+#, fuzzy
+msgid ""
+"Those are used to configure when to call a specific agent, or to add an "
+"extra prompt to your request."
+msgstr ""
+"Bular ma'lum bir agentni qachon chaqirish yoki so‘rovingizga qo‘shimcha "
+"so‘rov kiritish uchun ishlatiladi."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_search
+#, fuzzy
+msgid "Topic"
+msgstr "Mavzu"
+
+#. module: ai_app
+#: model:ir.actions.act_window,name:ai_app.ai_topic_action
+#: model:ir.ui.menu,name:ai_app.ai_topic_menu_action
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_search
+#, fuzzy
+msgid "Topics"
+msgstr "Mavzular"
+
+#. module: ai_app
+#: model_terms:ir.actions.act_window,help:ai_app.ai_topic_action
+#, fuzzy
+msgid "Topics help you manage and organize your AI operations."
+msgstr ""
+"Mavzular sun'iy intellekt operatsiyalaringizni boshqarish va tashkil etishda "
+"yordam beradi."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+#, fuzzy
+msgid "Use your own ChatGPT account"
+msgstr "O‘z ChatGPT hisobingizdan foydalaning"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.res_config_settings_view_form
+#, fuzzy
+msgid "Use your own Google Gemini account"
+msgstr "O‘z Google Gemini hisobingizdan foydalaning"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "When users need to"
+msgstr "Foydalanuvchilarga kerak bo‘lganda"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_composer_form
+#, fuzzy
+msgid "Write your prompt..."
+msgstr "So‘rovingizni yozing..."
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_topic_view_form
+#, fuzzy
+msgid "e.g. Chat with customers"
+msgstr "masalan, Mijozlar bilan suhbatlashish"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid "e.g. Get tips to close more sales"
+msgstr "masalan, Ko‘proq savdo bitimlarini yopish bo‘yicha maslahatlar olish"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid "e.g. SDR Advisor"
+msgstr "masalan, SDR maslahatchisi"
+
+#. module: ai_app
+#: model_terms:ir.ui.view,arch_db:ai_app.ai_agent_view_form
+#, fuzzy
+msgid ""
+"e.g. You are a support operator, you can answer questions related to ..."
+msgstr ""
+"masalan, Siz qo‘llab-quvvatlash operatorisiz, ... ga oid savollarga javob "
+"bera olasiz"

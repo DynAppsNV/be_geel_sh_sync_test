@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!-- This data file is intentionally not included in the module demo data:
+    - Cause the SPF require these specific set of data to test the POS during certification process
+    - This data is not relevant outside of the certification process and would only add noise to the demo data of the module
+-->
+<odoo>
+    <data noupdate="1">
+        <record id="fake_employee_advanced" model="hr.employee">
+            <field name="name">Fake Employee</field>
+            <field name="company_id" ref="base.demo_company_be"/>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="l10n_be_insz_or_bis_number">00000000097</field>
+        </record>
+
+        <record id="fake_employee_basic" model="hr.employee">
+            <field name="name">Fake Employee Basic</field>
+            <field name="company_id" ref="base.demo_company_be"/>
+            <field name="l10n_be_insz_or_bis_number">00000000097</field>
+        </record>
+
+        <record id="hr.employee_admin" model="hr.employee">
+            <field name="l10n_be_insz_or_bis_number">00000000097</field>
+        </record>
+
+        <record id="l10n_be_pos_blackbox.main_be_pos_config" model="pos.config">
+            <field name="module_pos_hr">True</field>
+            <field name="basic_employee_ids" eval="[(6, 0, [ref('fake_employee_basic')])]"/>
+            <field name="advanced_employee_ids" eval="[(6, 0, [ref('fake_employee_advanced')], [ref('hr.employee_admin')])]"/>
+        </record>
+
+        <record id="l10n_be_pos_blackbox.training_main_be_pos_config" model="pos.config">
+            <field name="module_pos_hr">True</field>
+            <field name="l10n_be_training_mode">True</field>
+            <field name="basic_employee_ids" eval="[(6, 0, [ref('fake_employee_basic')])]"/>
+            <field name="advanced_employee_ids" eval="[(6, 0, [ref('fake_employee_advanced')], [ref('hr.employee_admin')])]"/>
+        </record>
+    </data>
+</odoo>

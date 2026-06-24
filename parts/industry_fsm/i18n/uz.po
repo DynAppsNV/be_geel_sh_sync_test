@@ -1,0 +1,1750 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* industry_fsm
+#
+#
+# Translated by:
+# Deepvision - info@deepvision.uz | +998 77-093-0007
+# Amon Olimov - amon.bars@gmail.com
+# Jonibek Yorqulov - j.yorqulov@deepvision.uz
+# Mirzohidkhon Ulugkhujaev ulugkhujayevmirzohidxon@gmail.com
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-10 18:45+0000\n"
+"PO-Revision-Date: 2025-10-08 18:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__nbr
+#, fuzzy
+msgid "# of Tasks"
+msgstr "# ta vazifa"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "%(partner)s has %(number)s tasks at the same time."
+msgstr "%(partner)s bir vaqtning o‘zida %(number)s ta vazifaga ega."
+
+#. module: industry_fsm
+#: model:ir.actions.report,print_report_name:industry_fsm.task_custom_report
+#, fuzzy
+msgid ""
+"'Field Service Report - %s - %s' % (object.name, object.partner_id.name)"
+msgstr ""
+"'Dala xizmati hisoboti - %s - %s' % (object.name, object.partner_id.name)"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_sharing_inherit_project_task_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "(incl."
+msgstr "(jumladan"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "10 days"
+msgstr "10 kun"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "5 days"
+msgstr "5 kun"
+
+#. module: industry_fsm
+#: model:mail.template,body_html:industry_fsm.mail_template_data_intervention_details
+#, fuzzy
+msgid ""
+"<div>\n"
+"    <t t-set=\"date_begin\" t-"
+"value=\"format_datetime(object.planned_date_begin, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang)\"/>\n"
+"\n"
+"    <t t-set=\"date_end\" t-value=\"format_datetime(object.date_deadline, "
+"tz=object.partner_id.tz, lang_code=object.partner_id.lang)\"/>\n"
+"\n"
+"    Dear <t t-out=\"object.partner_id.name or 'customer'\">customer</t>,<br/"
+"><br/>\n"
+"    <t t-if=\"date_begin and date_end\">\n"
+"        Your <t t-out=\"object.name or ''\">Boiler maintenance</t> "
+"intervention is scheduled from the <t t-out=\"date_begin or ''\">05/31/2021 "
+"12:30:00</t> to the <t t-out=\"date_end or ''\">05/31/2021 14:30:00</t>.\n"
+"    </t>\n"
+"    <t t-else=\"\">\n"
+"        Your <t t-out=\"object.name or ''\">Boiler maintenance</t> "
+"intervention is scheduled.\n"
+"    </t>\n"
+"    <br/><br/>\n"
+"    Best regards,\n"
+"    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"        <br/>\n"
+"        <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-"
+"out=\"user.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></"
+"div>\n"
+"    </t>\n"
+"</div>\n"
+"        "
+msgstr ""
+"<div> <t t-set=\"date_begin\" t-"
+"value=\"format_datetime(object.planned_date_begin, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang)\"/> <t t-set=\"date_end\" t-"
+"value=\"format_datetime(object.date_deadline, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang)\"/> Hurmatli <t t-"
+"out=\"object.partner_id.name or 'mijoz'\">mijoz</t>,<br/><br/> <t t-"
+"if=\"date_begin and date_end\"> Sizning <t t-out=\"object.name or ''\">Qozon "
+"ta'mirlash</t> xizmatimiz <t t-out=\"date_begin or ''\">31.05.2021 12:30:00</"
+"t> dan <t t-out=\"date_end or ''\">31.05.2021 14:30:00</t> gacha "
+"rejalashtirilgan.     </t> <t t-else=\"\"> Sizning <t t-out=\"object.name or "
+"''\">Qozon ta'mirlash</t> xizmatimiz rejalashtirilgan.     </t> <br/><br/> "
+"Hurmat bilan, <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\"> "
+"<br/> <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-"
+"out=\"user.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></"
+"div> </t> </div>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_button
+#, fuzzy
+msgid "<i class=\"fa fa-check me-1\"/>Sign Report"
+msgstr "<i class=\"fa fa-check me-1\"/>Hisobotni imzolash"
+
+#. module: industry_fsm
+#: model:mail.template,body_html:industry_fsm.mail_template_data_task_report
+#, fuzzy
+msgid ""
+"<p>\n"
+"                Dear <t t-out=\"object.partner_id.name or "
+"'Customer'\">Customer</t>,<br/><br/>\n"
+"                Please find attached the field service report for our onsite "
+"operation. <br/><br/>\n"
+"                Feel free to contact us if you have any questions.<br/><br/"
+">\n"
+"                Best regards,<br/><br/>\n"
+"            </p>\n"
+"        "
+msgstr ""
+"<p> Hurmatli <t t-out=\"object.partner_id.name or 'Mijoz'\">Mijoz</t>,<br/"
+"><br/> Ilova qilingan joyda o‘tkazilgan xizmat hisobotini ko‘rishingiz "
+"mumkin. <br/><br/> Savollaringiz bo‘lsa, biz bilan bog‘lanishingiz mumkin."
+"<br/><br/> Hurmat bilan,<br/><br/> </p>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid ""
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+"title=\"By saving this change, the customer contact number will also be "
+"updated.\" invisible=\"not partner_id or not is_task_phone_update\"/>"
+msgstr ""
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+"title=\"Ushbu o‘zgarishni saqlash orqali mijozning aloqa raqami ham "
+"yangilanadi.\" invisible=\"not partner_id or not is_task_phone_update\"/>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "<span class=\"o_stat_text text-wrap\">Customer Preview</span>"
+msgstr "<span class=\"o_stat_text text-wrap\">Mijoz ko‘rinishi</span>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid ""
+"<span style=\"                             font-size: "
+"10px;                             color: #fff;                             "
+"text-transform: uppercase;                             text-align: "
+"center;                             font-weight: bold; line-height: "
+"20px;                             transform: "
+"rotate(45deg);                             width: 100px; height: auto; "
+"display: block;                             background: "
+"green;                             position: "
+"absolute;                             top: 19px; right: -21px; left: "
+"auto;                             padding: 0;\">\n"
+"                            Signed\n"
+"                        </span>"
+msgstr ""
+"<span style=\" font-size: 10px; color: #fff; text-transform: uppercase; text-"
+"align: center; font-weight: bold; line-height: 20px; transform: "
+"rotate(45deg); width: 100px; height: auto; display: block; background: "
+"green; position: absolute; top: 19px; right: -21px; left: auto; padding: "
+"0;\"> Imzolangan </span>"
+
+#. module: industry_fsm
+#: model_terms:web_tour.tour,rainbow_man_message:industry_fsm.industry_fsm_tour
+#, fuzzy
+msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
+msgstr ""
+"<span><b>Barakalla!</b> Siz ushbu sayyohlikning barcha bosqichlarini "
+"muvaffaqiyatli yakunladingiz.</span>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "<strong class=\"me-2\">Total</strong>"
+msgstr "<strong class=\"me-2\">Jami</strong>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "<strong>Customer: </strong>"
+msgstr "<strong>Mijoz: </strong>"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "<strong>Technician: </strong>"
+msgstr "<strong>Texnik xodim: </strong>"
+
+#. module: industry_fsm
+#: model:ir.model.constraint,message:industry_fsm.constraint_project_project_company_id_required_for_fsm_project
+#, fuzzy
+msgid "A fsm project must be company restricted"
+msgstr "FSM loyihasi faqat kompaniya doirasida cheklangan bo‘lishi kerak"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.mail_activity_plan_menu_config_task
+#, fuzzy
+msgid "Activity Plans"
+msgstr "Faoliyat rejalari"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_config_activity_type
+#, fuzzy
+msgid "Activity Types"
+msgstr "Faoliyat turlari"
+
+#. module: industry_fsm
+#: model:res.groups,name:industry_fsm.group_fsm_manager
+#, fuzzy
+msgid "Administrator"
+msgstr "Administrator"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_all_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_all_fsm2
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_root
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_todo
+#, fuzzy
+msgid "All Tasks"
+msgstr "Barcha vazifalar"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_all_fsm_server_action
+#, fuzzy
+msgid "All Tasks Server Action"
+msgstr "Barcha vazifalar server harakati"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "All running timers should be linked to a timesheet and a task."
+msgstr ""
+"Barcha ishlab turgan taymerlar tabel va vazifaga bog‘langan bo‘lishi shart."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__allocated_hours
+#, fuzzy
+msgid "Allocated Time"
+msgstr "Ajratilgan vaqt"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_account_analytic_line
+#, fuzzy
+msgid "Analytic Line"
+msgstr "Tahliliy chiziq"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_user_action_report_fsm
+#, fuzzy
+msgid ""
+"Analyze the progress of your tasks and the performance of your technicians."
+msgstr ""
+"Vazifalaringiz taraqqiyotini va texnik xodimlaringiz samaradorligini tahlil "
+"qiling."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__user_ids
+#, fuzzy
+msgid "Assignees"
+msgstr "Topshiriq oluvchilar"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_assign
+#, fuzzy
+msgid "Assignment Date"
+msgstr "Topshirish sanasi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__rating_avg
+#, fuzzy
+msgid "Average Rating (1-5)"
+msgstr "O‘rtacha reyting (1-5)"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__dependent_ids
+#, fuzzy
+msgid "Block"
+msgstr "Bloklash"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.project_task_menu_planning_by_location_fsm
+#, fuzzy
+msgid "By Location"
+msgstr "Joylashuv bo‘yicha"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.project_task_menu_planning_by_project_fsm
+#, fuzzy
+msgid "By Project"
+msgstr "Loyiha bo‘yicha"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.project_task_menu_planning_by_user_fsm
+#, fuzzy
+msgid "By User"
+msgstr "Foydalanuvchi bo‘yicha"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#, fuzzy
+msgid "Cancelled"
+msgstr "Bekor qilingan"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_city
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_city
+#, fuzzy
+msgid "City"
+msgstr "Shahar"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_modal
+#, fuzzy
+msgid "Close"
+msgstr "Yopish"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__is_closed
+#, fuzzy
+msgid "Closed state"
+msgstr "Yopiq holat"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_res_company
+#, fuzzy
+msgid "Companies"
+msgstr "Kompaniyalar"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__company_id
+#, fuzzy
+msgid "Company"
+msgstr "Kompaniya"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_base_document_layout
+#, fuzzy
+msgid "Company Document Layout"
+msgstr "Kompaniya hujjatlari maketi"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_res_config_settings
+#, fuzzy
+msgid "Config Settings"
+msgstr "Sozlamalarni moslash"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings
+#, fuzzy
+msgid "Configuration"
+msgstr "Konfiguratsiya"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_stop_timer_wizard_form
+#, fuzzy
+msgid "Confirm"
+msgstr "Tasdiqlash"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid ""
+"Confirm the <b>time spent</b> on your task. <i>Tip: note that the duration "
+"has automatically been rounded to 15 minutes.</i>"
+msgstr ""
+"Vazifangizga sarflangan <b>vaqtni</b> tasdiqlang. <i>Maslahat: davomiylik "
+"avtomatik ravishda 15 daqiqagacha yaxlitlanganini e'tiborga oling.</i>"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_hr_timesheet_stop_timer_confirmation_wizard
+#, fuzzy
+msgid "Confirm timesheet creation when stop timer"
+msgstr "Taymerni to‘xtatganda tabel yaratilishini tasdiqlash"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_res_partner
+#, fuzzy
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_map_view_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_mobile_form
+#, fuzzy
+msgid "Contact Number"
+msgstr "Aloqa raqami"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_country_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_country_id
+#, fuzzy
+msgid "Country"
+msgstr "Mamlakat"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_project_view_form_simplified_footer_fsm
+#, fuzzy
+msgid "Create"
+msgstr "Yaratish"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__create_date
+#, fuzzy
+msgid "Create Date"
+msgstr "Yaratilgan sana"
+
+#. module: industry_fsm
+#: model:ir.model,website_form_label:industry_fsm.model_res_partner
+#, fuzzy
+msgid "Create a Customer"
+msgstr "Mijoz yaratish"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.open_create_project_fsm
+#, fuzzy
+msgid "Create a Project"
+msgstr "Loyiha yaratish"
+
+#. module: industry_fsm
+#: model:ir.model,website_form_label:industry_fsm.model_project_task
+#, fuzzy
+msgid "Create a Task"
+msgstr "Vazifa yaratish"
+
+#. module: industry_fsm
+#: model:res.groups,name:industry_fsm.group_fsm_quotation_from_task
+#, fuzzy
+msgid "Create new quotations directly from the tasks"
+msgstr "Vazifalardan to‘g‘ridan-to‘g‘ri yangi taklifnomalar yaratish"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_project_action_only_fsm
+#, fuzzy
+msgid ""
+"Create projects to organize your tasks and define a different workflow for "
+"each project."
+msgstr ""
+"Vazifalaringizni tashkil etish va har bir loyiha uchun alohida ish "
+"jarayonini belgilash maqsadida loyihalar yarating."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__create_uid
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Yaratuvchi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__create_date
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Yaratilgan sana"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_id
+#, fuzzy
+msgid "Customer"
+msgstr "Mijoz"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.rating_rating_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_reporting_customer_ratings
+#, fuzzy
+msgid "Customer Ratings"
+msgstr "Mijozlar reytingi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_state_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_state_id
+#, fuzzy
+msgid "Customer State"
+msgstr "Mijoz holati"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Date"
+msgstr "Sana"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__delay_endings_days
+#, fuzzy
+msgid "Days to Deadline"
+msgstr "Muddatgacha qolgan kunlar"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_deadline
+#, fuzzy
+msgid "Deadline"
+msgstr "Muddat"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__description
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Description"
+msgstr "Tavsif"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
+#, fuzzy
+msgid ""
+"Design tailored worksheet templates for various interventions, and analyze "
+"collected intervention data."
+msgstr ""
+"Turli aralashuvlar uchun moslashtirilgan ish varaqlari shablonlarini "
+"yaratish va to‘plangan aralashuv ma'lumotlarini tahlil qilish."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_project_view_form_simplified_footer_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_partner_address_form_industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_stop_timer_wizard_form
+#, fuzzy
+msgid "Discard"
+msgstr "Bekor qilish"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_account_analytic_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_base_document_layout__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_ui_menu__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_recurrence__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_type__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_rating_rating__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_report_industry_fsm_worksheet_custom__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_res_company__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:industry_fsm.field_res_partner__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Ko‘rsatiladigan nom"
+
+#. module: industry_fsm
+#: model:ir.model.fields,help:industry_fsm.field_project_project__is_fsm
+#: model:ir.model.fields,help:industry_fsm.field_project_task__is_fsm
+#, fuzzy
+msgid ""
+"Display tasks in the Field Service module and allow planning with start/end "
+"dates."
+msgstr ""
+"Dala xizmati modulida vazifalarni ko‘rsatish va boshlanish/tugash sanalari "
+"bilan rejalashtirish imkonini berish."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "Do you want to stop the running timers?"
+msgstr "Ishlab turgan taymerni to‘xtatmoqchimisiz?"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#, fuzzy
+msgid "Done"
+msgstr "Bajarildi"
+
+#. module: industry_fsm
+#: model:mail.template,description:industry_fsm.mail_template_data_task_report
+#, fuzzy
+msgid "Email sent when clicking on \"send report\" in a task"
+msgstr "Vazifada \"hisobot yuborish\" tugmasi bosilganda jo‘natiladigan xat"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_end
+#, fuzzy
+msgid "Ending Date"
+msgstr "Tugash sanasi"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_report_project_task_user_fsm
+#, fuzzy
+msgid "FSM Tasks Analysis"
+msgstr "FSM vazifalari tahlili"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#: code:addons/industry_fsm/models/res_company.py:0
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__is_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__is_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_root
+#: model:project.project,name:industry_fsm.fsm_project
+#: model:res.groups.privilege,name:industry_fsm.res_groups_privilege_field_service
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_view_form_inherit
+#: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
+#, fuzzy
+msgid "Field Service"
+msgstr "Dala xizmati"
+
+#. module: industry_fsm
+#: model:ir.actions.report,name:industry_fsm.task_custom_report
+#, fuzzy
+msgid "Field Service Report"
+msgstr "Dala xizmati hisoboti"
+
+#. module: industry_fsm
+#: model:mail.template,subject:industry_fsm.mail_template_data_task_report
+#, fuzzy
+msgid "Field Service Report - {{ object.name }}"
+msgstr "Dala xizmati hisoboti - {{ object.name }}"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Field Service Report:"
+msgstr "Dala xizmati hisoboti:"
+
+#. module: industry_fsm
+#: model:mail.template,name:industry_fsm.mail_template_data_task_report
+#, fuzzy
+msgid "Field Service: Field Service Report"
+msgstr "Dala xizmati: Dala xizmati hisoboti"
+
+#. module: industry_fsm
+#: model:mail.template,name:industry_fsm.mail_template_data_intervention_details
+#, fuzzy
+msgid "Field Service: Intervention Scheduled"
+msgstr "Dala xizmati: Rejalashtirilgan aralashuv"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map2
+#, fuzzy
+msgid "Find here your itinerary for today's tasks."
+msgstr "Bugungi vazifalaringiz uchun yo‘nalishingizni shu yerdan topasiz."
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm2
+#, fuzzy
+msgid "Find here your upcoming tasks for the next few days."
+msgstr "Keyingi bir necha kunlik vazifalaringizni shu yerdan topasiz."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Future"
+msgstr "Kelajak"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Future Activities"
+msgstr "Kelgusi faoliyatlar"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "GPS Coordinates: %(localisation_start)s (%(latitude)s, %(longitude)s)"
+msgstr ""
+"GPS koordinatalari: %(localisation_start)s (%(latitude)s, %(longitude)s)"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+#, fuzzy
+msgid "GPS Coordinates: %(localisation_stop)s (%(latitude)s, %(longitude)s)"
+msgstr ""
+"GPS koordinatalari: %(localisation_stop)s (%(latitude)s, %(longitude)s)"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__allow_geolocation
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__allow_geolocation
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__allow_geolocation
+#, fuzzy
+msgid "Geolocation"
+msgstr "Geolokatsiya"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid ""
+"Give it a <b>title</b> <i>(e.g. Boiler maintenance, Air-conditioning "
+"installation, etc.).</i>"
+msgstr ""
+"Unga <b>sarlavha</b> <i>bering (masalan, qozonlarga texnik xizmat "
+"ko‘rsatish, konditsioner o‘rnatish va hokazo).</i>"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__has_template_ancestor
+#, fuzzy
+msgid "Has Template Ancestor"
+msgstr "Andoza ajdodiga ega"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_account_analytic_line__id
+#: model:ir.model.fields,field_description:industry_fsm.field_base_document_layout__id
+#: model:ir.model.fields,field_description:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__id
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:industry_fsm.field_ir_ui_menu__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_project__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_recurrence__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__id
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_type__id
+#: model:ir.model.fields,field_description:industry_fsm.field_rating_rating__id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_industry_fsm_worksheet_custom__id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__id
+#: model:ir.model.fields,field_description:industry_fsm.field_res_company__id
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__id
+#: model:ir.model.fields,field_description:industry_fsm.field_res_partner__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#: model:project.task.type,name:industry_fsm.planning_project_stage_2
+#, fuzzy
+msgid "In Progress"
+msgstr "Bajarilmoqda"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+#, fuzzy
+msgid "Invalid Task."
+msgstr "Noto‘g‘ri vazifa."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+#, fuzzy
+msgid "Invalid signature data."
+msgstr "Noto‘g‘ri imzo ma'lumotlari."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__message_is_follower
+#, fuzzy
+msgid "Is Follower"
+msgstr "Kuzatuvchi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__is_template
+#, fuzzy
+msgid "Is Template"
+msgstr "Andoza"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Jane Technician"
+msgstr "Jeyn texnik"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Jane smith"
+msgstr "Jeyn Smit"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
+#, fuzzy
+msgid ""
+"Keep track of the products used for your tasks, and invoice your time and "
+"material to your customers"
+msgstr ""
+"Vazifalaringiz uchun foydalaniladigan mahsulotlarni kuzatib boring va "
+"vaqtingiz hamda materiallaringiz uchun mijozlaringizga hisob-kitob qiling"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__rating_last_value
+#, fuzzy
+msgid "Last Rating (1-5)"
+msgstr "Oxirgi reyting (1-5)"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_last_stage_update
+#, fuzzy
+msgid "Last Stage Update"
+msgstr "Oxirgi bosqich yangilanishi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__write_uid
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Oxirgi yangilovchi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__write_date
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Oxirgi yangilangan sana"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Late Activities"
+msgstr "Kechikkan faoliyatlar"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid "Launch the timer to <b>track the time spent</b> on your task."
+msgstr ""
+"Vazifangizga sarflangan vaqtni <b>kuzatish</b> uchun taymerni ishga "
+"tushiring."
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid ""
+"Let's <b>mark your task as done!</b> <i>Tip: when doing so, your stock will "
+"automatically be updated, and your task will be closed.</i>"
+msgstr ""
+"Keling, vazifangizni <b>bajarilgan deb belgilaymiz!</b> <i>Maslahat: shunday "
+"qilganingizda, zaxirangiz avtomatik ravishda yangilanadi va vazifangiz "
+"yopiladi.</i>"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid "Let's create your first <b>task</b>."
+msgstr "Keling, birinchi <b>vazifangizni</b> yaratamiz."
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid "Let's start from scratch."
+msgstr "Keling, boshidan boshlaymiz."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard__line_ids
+#, fuzzy
+msgid "Line"
+msgstr "Qator"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+#, fuzzy
+msgid "Location error"
+msgstr "Joylashuv xatosi"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/services/timer_geolocation_service.js:0
+#, fuzzy
+msgid "Location error: %s"
+msgstr "Joylashuv xatosi: %s"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Manage SME"
+msgstr "KO‘B boshqaruvi"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_view_form_inherit
+#, fuzzy
+msgid "Manage tasks in the Field Service module"
+msgstr "Dala xizmati modulida vazifalarni boshqarish"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_map
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_map2
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_tasks_map
+#, fuzzy
+msgid "Map"
+msgstr "Xarita"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_map_server_action
+#, fuzzy
+msgid "Map Server Action"
+msgstr "Xarita serveri amali"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Marc Demo"
+msgstr "Mark namoyishi"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "Mark as done"
+msgstr "Bajarildi deb belgilash"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.rating_rating_action_fsm
+#, fuzzy
+msgid ""
+"Measure your customer satisfaction by sending rating requests when your "
+"tasks reach a certain stage."
+msgstr ""
+"Vazifalaringiz muayyan bosqichga yetganda baholash so‘rovlarini yuborib, "
+"mijozlar mamnuniyatini o‘lchang."
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_ir_ui_menu
+#, fuzzy
+msgid "Menu"
+msgstr "Menyu"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__milestone_id
+#, fuzzy
+msgid "Milestone"
+msgstr "Muhim bosqich"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "My Activities"
+msgstr "Faoliyatlarim"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/webmanifest.py:0
+#, fuzzy
+msgid "My Calendar"
+msgstr "Taqvimim"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/webmanifest.py:0
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm2
+#: model:ir.ui.menu,name:industry_fsm.fsm_tasks_menu
+#, fuzzy
+msgid "My Tasks"
+msgstr "Vazifalarim"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_server_action
+#, fuzzy
+msgid "My Tasks Server Action"
+msgstr "Vazifalarim server amali"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_mobile_server_action
+#, fuzzy
+msgid "My Tasks in mobile Server Action"
+msgstr "Mobil qurilmadagi vazifalarim server amali"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_project_fsm
+#, fuzzy
+msgid "Name"
+msgstr "Nom"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_partner_address_form_industry_fsm
+#, fuzzy
+msgid "Navigate To"
+msgstr "O‘tish"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#, fuzzy
+msgid "New"
+msgstr "Yangi"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/webmanifest.py:0
+#, fuzzy
+msgid "New task"
+msgstr "Yangi vazifa"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.rating_rating_action_fsm
+#, fuzzy
+msgid "No customer ratings yet"
+msgstr "Hozircha mijoz baholari yo‘q"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_user_action_report_fsm
+#, fuzzy
+msgid "No data yet!"
+msgstr "Hali ma'lumot yo‘q!"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_project_action_only_fsm
+#, fuzzy
+msgid "No projects found. Let's create one!"
+msgstr "Loyihalar topilmadi. Keling, yangi loyiha yarataylik!"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_type_action_fsm
+#, fuzzy
+msgid "No stages found. Let's create one!"
+msgstr "Bosqichlar topilmadi. Keling, yangi bosqich yarataylik!"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_tasks_action_fsm
+#, fuzzy
+msgid "No tasks found. Let's create one!"
+msgstr "Vazifalar topilmadi. Keling, yangi vazifa yarataylik!"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__overtime
+#, fuzzy
+msgid "Overtime"
+msgstr "Qo‘shimcha ish vaqti"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__parent_id
+#, fuzzy
+msgid "Parent Task"
+msgstr "Asosiy vazifa"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__personal_stage_type_ids
+#, fuzzy
+msgid "Personal Stage"
+msgstr "Shaxsiy bosqich"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_project.py:0
+#: model:project.task.type,name:industry_fsm.planning_project_stage_1
+#, fuzzy
+msgid "Planned"
+msgstr "Rejalashtirilgan"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_sharing_inherit_project_task_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_list_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "Planned Date"
+msgstr "Rejalashtirilgan sana"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_planning
+#, fuzzy
+msgid "Planning"
+msgstr "Rejalashtirish"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_location
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_location2
+#, fuzzy
+msgid "Planning by Location"
+msgstr "Joylashuv bo‘yicha rejalashtirish"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_planning_groupby_location_server_action
+#, fuzzy
+msgid "Planning by Location Server Action"
+msgstr "Joylashuv bo‘yicha rejalashtirish server amali"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_project
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_project2
+#, fuzzy
+msgid "Planning by Project"
+msgstr "Loyiha bo‘yicha rejalashtirish"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_planning_groupby_project_server_action
+#, fuzzy
+msgid "Planning by Project Server Action"
+msgstr "Loyiha bo‘yicha rejalashtirish server amali"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_user
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_user2
+#, fuzzy
+msgid "Planning by User"
+msgstr "Foydalanuvchi bo‘yicha rejalashtirish"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_fsm_planning_groupby_user_server_action
+#, fuzzy
+msgid "Planning by User Action"
+msgstr "Foydalanuvchi bo‘yicha rejalashtirish amali"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "Preview"
+msgstr "Ko‘rib chiqish"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__priority
+#, fuzzy
+msgid "Priority"
+msgstr "Muhimlik darajasi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__progress
+#, fuzzy
+msgid "Progress"
+msgstr "Jarayon"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_project
+#: model:ir.model.fields,field_description:industry_fsm.field_rating_rating__project_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__project_id
+#, fuzzy
+msgid "Project"
+msgstr "Loyiha"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_project_action_only_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings_project
+#, fuzzy
+msgid "Projects"
+msgstr "Loyihalar"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Properties"
+msgstr "Xususiyatlar"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_rating_rating
+#, fuzzy
+msgid "Rating"
+msgstr "Baholash"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid ""
+"Ready to <b>manage your onsite interventions</b>? <i>Click Field Service to "
+"start.</i>"
+msgstr ""
+"<b>Joyida xizmat ko‘rsatishni boshqarishga</b> tayyormisiz? <i>Boshlash "
+"uchun \"Dala xizmati\" tugmasini bosing.</i>"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_ir_actions_report
+#, fuzzy
+msgid "Report Action"
+msgstr "Hisobot amali"
+
+#. module: industry_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_reporting
+#, fuzzy
+msgid "Reporting"
+msgstr "Hisobot berish"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_location2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user2
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm2
+#, fuzzy
+msgid "Schedule your tasks and assign them to your technicians."
+msgstr "Vazifalaringizni rejalashtiring va texniklarga tayinlang."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.report_project_task_user_fsm_view_search
+#, fuzzy
+msgid "Search Planning"
+msgstr "Rejalashtirish qidiruvi"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid "Select the <b>customer</b> for your task."
+msgstr "Vazifangiz uchun <b>mijozni</b> tanlang."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "Send Field Service Report"
+msgstr "Dala xizmati hisobotini yuborish"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "Send Report"
+msgstr "Hisobot yuborish"
+
+#. module: industry_fsm
+#: model:mail.template,description:industry_fsm.mail_template_data_intervention_details
+#, fuzzy
+msgid ""
+"Set this template on a project's stage to automate email when tasks reach "
+"stages"
+msgstr ""
+"Vazifalar muayyan bosqichga yetganda elektron xabarni avtomatik yuborish "
+"uchun ushbu shablonni loyiha bosqichida o‘rnating"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.res_config_settings_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings_res_config
+#, fuzzy
+msgid "Settings"
+msgstr "Sozlamalar"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Show all records whose next activity date is past"
+msgstr "Keyingi faoliyat sanasi o‘tgan barcha yozuvlarni ko‘rsatish"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_modal
+#, fuzzy
+msgid "Sign Field Service Report"
+msgstr "Dala xizmati hisobotini imzolash"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_task_sign_modal
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "Sign Report"
+msgstr "Hisobotni imzolash"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__worksheet_signature
+#: model_terms:ir.ui.view,arch_db:industry_fsm.portal_my_task
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Signature"
+msgstr "Imzo"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+#, fuzzy
+msgid "Signature is missing."
+msgstr "Imzo mavjud emas."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__worksheet_signed_by
+#, fuzzy
+msgid "Signed By"
+msgstr "Imzolagan shaxs"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__user_skill_ids
+#, fuzzy
+msgid "Skills"
+msgstr "Ko‘nikmalar"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_stop_timer_wizard_form
+#, fuzzy
+msgid ""
+"Some employees are still running their timer for this task. Are you sure you "
+"want to continue?"
+msgstr ""
+"Ba'zi xodimlar hali ham bu vazifa uchun vaqt hisoblagichini ishga "
+"tushirmoqda. Davom etishni xohlaysizmi?"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__stage_id
+#, fuzzy
+msgid "Stage"
+msgstr "Bosqich"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_type_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_settings_stage
+#, fuzzy
+msgid "Stages"
+msgstr "Bosqichlar"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Start Date"
+msgstr "Boshlanish sanasi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__planned_date_begin
+#, fuzzy
+msgid "Start date"
+msgstr "Boshlanish sanasi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__state
+#, fuzzy
+msgid "State"
+msgstr "Holat"
+
+#. module: industry_fsm
+#. odoo-javascript
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
+#, fuzzy
+msgid "Stop the <b>timer</b> when you are done."
+msgstr "Ishni tugatganingizdan so‘ng <b>vaqt hisoblagichi</b>ni to‘xtating."
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_street
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_street
+#, fuzzy
+msgid "Street"
+msgstr "Ko‘cha"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_street2
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_street2
+#, fuzzy
+msgid "Street2"
+msgstr "Ko‘cha 2"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.report_project_task_user_fsm_view_tree
+#, fuzzy
+msgid "Sum of Effective Hours"
+msgstr "Samarali soatlar yig‘indisi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__tag_ids
+#: model:ir.ui.menu,name:industry_fsm.menu_project_tags_act
+#, fuzzy
+msgid "Tags"
+msgstr "Teglar"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__task_id
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__task_id
+#, fuzzy
+msgid "Task"
+msgstr "Vazifa"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__fsm_done
+#, fuzzy
+msgid "Task Done"
+msgstr "Vazifa bajarildi"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_recurrence
+#, fuzzy
+msgid "Task Recurrence"
+msgstr "Vazifaning takrorlanishi"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_type
+#, fuzzy
+msgid "Task Stage"
+msgstr "Vazifa bosqichi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__name
+#, fuzzy
+msgid "Task Title"
+msgstr "Vazifa nomi"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_report_industry_fsm_worksheet_custom
+#, fuzzy
+msgid "Task Worksheet Custom Report"
+msgstr "Vazifa ish varag‘i maxsus hisoboti"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_stop_timers_wizard
+#, fuzzy
+msgid "Task stop running timers confirmation wizard"
+msgstr "Vazifani to‘xtatish va vaqt hisoblagichlarini tasdiqlash ustasi"
+
+#. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_project_task_stop_timers_wizard_line
+#, fuzzy
+msgid "Task stop running timers confirmation wizard line"
+msgstr "Vazifani to‘xtatish va vaqt hisoblagichlarini tasdiqlash ustasi qatori"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_tasks_action_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_tasks_kanban
+#: model:project.project,label_tasks:industry_fsm.fsm_project
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_calendar_fsm
+#, fuzzy
+msgid "Tasks"
+msgstr "Vazifalar"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_user_action_report_fsm
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_reporting_task_analysis
+#: model_terms:ir.ui.view,arch_db:industry_fsm.report_project_task_user_fsm_view_tree
+#, fuzzy
+msgid "Tasks Analysis"
+msgstr "Vazifalar tahlili"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Technician"
+msgstr "Texnik xodim"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+#, fuzzy
+msgid "The field service report has been signed by the customer."
+msgstr "Dala xizmati hisoboti mijoz tomonidan imzolandi."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/ir_actions_report.py:0
+#, fuzzy
+msgid ""
+"The field service report is unavailable for the selected tasks as they do "
+"not contain any timesheets, products, or worksheets."
+msgstr ""
+"Tanlangan vazifalar uchun dala xizmati hisoboti mavjud emas, chunki ularda "
+"hech qanday vaqt jadvallari, mahsulotlar yoki ish varaqalari yo‘q."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/controllers/portal.py:0
+#, fuzzy
+msgid "The worksheet is not in a state requiring customer signature."
+msgstr "Ish varag‘i mijoz imzosini talab qiladigan holatda emas."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "There are no reports to send."
+msgstr "Yuborish uchun hisobotlar mavjud emas."
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "Time"
+msgstr "Vaqt"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__remaining_hours
+#, fuzzy
+msgid "Time Remaining"
+msgstr "Qolgan vaqt"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__remaining_hours_percentage
+#, fuzzy
+msgid "Time Remaining Percentage"
+msgstr "Qolgan vaqt foizi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__effective_hours
+#: model_terms:ir.ui.view,arch_db:industry_fsm.timesheet_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Time Spent"
+msgstr "Sarflangan vaqt"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__module_industry_fsm_sale
+#, fuzzy
+msgid "Time and Material Invoicing"
+msgstr "Vaqt va material bo‘yicha hisob-kitob"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/account_analytic_line.py:0
+#: code:addons/industry_fsm/models/project_task.py:0
+#, fuzzy
+msgid "Timer started at: %(date)s %(time)s"
+msgstr "Vaqt hisoblagichi boshlandi: %(date)s %(time)s"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/account_analytic_line.py:0
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+#, fuzzy
+msgid "Timer stopped at: %(date)s %(time)s"
+msgstr "Vaqt hisoblagichi to‘xtatildi: %(date)s %(time)s"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.timesheet_view_form
+#, fuzzy
+msgid "Timesheet"
+msgstr "Vaqt jadvali"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.worksheet_custom_page
+#, fuzzy
+msgid "Timesheets"
+msgstr "Vaqt jadvallari"
+
+#. module: industry_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_to_schedule_fsm
+#: model:ir.actions.act_window,name:industry_fsm.project_task_action_to_schedule_fsm2
+#: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_schedule
+#, fuzzy
+msgid "To Schedule"
+msgstr "Rejalashtirish"
+
+#. module: industry_fsm
+#: model:ir.actions.server,name:industry_fsm.project_task_to_schedule_fsm_server_action
+#, fuzzy
+msgid "To Schedule Server Action"
+msgstr "Server harakatini rejalashtirish"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "To Schedule/Assign"
+msgstr "Rejalashtirish/Tayinlash"
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm2
+#, fuzzy
+msgid ""
+"To get things done, plan activities and use the task status.<br>\n"
+"                Collaborate efficiently by chatting in real-time or via "
+"email."
+msgstr ""
+"Ishlarni bajarish uchun faoliyatlarni rejalashtiring va vazifa holatidan "
+"foydalaning.<br> Real vaqt rejimida yoki elektron pochta orqali muloqot "
+"qilib, samarali hamkorlik qiling."
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_tasks_action_fsm
+#, fuzzy
+msgid ""
+"To get things done, use activities and status on tasks.<br>\n"
+"                Chat in real-time or by email to collaborate efficiently."
+msgstr ""
+"Ishlarni bajarish uchun vazifalar va holatdan foydalaning.<br> Samarali "
+"hamkorlik qilish uchun real vaqt rejimida yoki elektron pochta orqali "
+"muloqot qiling."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Today"
+msgstr "Bugun"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Today Activities"
+msgstr "Bugungi faoliyatlar"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_view_form_inherit
+#, fuzzy
+msgid "Track technician location when running the timer"
+msgstr ""
+"Vaqt hisoblagichi ishlayotganda texnik xodim joylashuvini kuzatib boring"
+
+#. module: industry_fsm
+#: model:ir.model.fields,help:industry_fsm.field_hr_timesheet_stop_timer_confirmation_wizard__allow_geolocation
+#: model:ir.model.fields,help:industry_fsm.field_project_project__allow_geolocation
+#: model:ir.model.fields,help:industry_fsm.field_project_task__allow_geolocation
+#, fuzzy
+msgid "Track technician location when running the timer."
+msgstr "Taymerni ishga tushirganda texnikning joylashuvini kuzatib boring."
+
+#. module: industry_fsm
+#: model_terms:ir.actions.act_window,help:industry_fsm.project_task_type_action_fsm
+#, fuzzy
+msgid "Track the progress of your tasks from their creation to their closing."
+msgstr ""
+"Vazifalaringizning yaratilishidan yakunlanishigacha bo‘lgan jarayonni "
+"kuzating."
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
+#, fuzzy
+msgid "Unread Messages"
+msgstr "O‘qilmagan xabarlar"
+
+#. module: industry_fsm
+#: model:ir.model.fields,help:industry_fsm.field_project_task__display_name
+#, fuzzy
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"        30h Allocate 30 hours to the task\n"
+"        #tags Set tags on the task\n"
+"        @user Assign the task to a user\n"
+"        ! Set the task a medium priority\n"
+"        !! Set the task a high priority\n"
+"        !!! Set the task a urgent priority\n"
+"\n"
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+msgstr ""
+"Yangi vazifalar yaratish uchun sarlavhada quyidagi kalit so‘zlardan "
+"foydalaning: 30s Vazifaga 30 soat ajratish #teglar Vazifaga teglar qo‘yish "
+"@foydalanuvchi Vazifani foydalanuvchiga topshirish ! Vazifani o‘rtacha "
+"ustuvorlikka qo‘yish !! Vazifani yuqori ustuvorlikka qo‘yish !!! Vazifani "
+"juda shoshilinch ustuvorlikka qo‘yish To‘g‘ri format va tartibdan "
+"foydalanishni unutmang, masalan: Sozlamalar oynasini takomillashtirish 5s "
+"#funksiya #v16 @Mitchell !"
+
+#. module: industry_fsm
+#: model:res.groups,name:industry_fsm.group_fsm_user
+#, fuzzy
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "View Itinerary"
+msgstr "Yo‘nalishni ko‘rish"
+
+#. module: industry_fsm
+#. odoo-python
+#: code:addons/industry_fsm/models/project_task.py:0
+#: code:addons/industry_fsm/wizard/hr_timesheet_stop_timer_confirmation_wizard.py:0
+#, fuzzy
+msgid "View on Map"
+msgstr "Xaritada ko‘rish"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task_stop_timers_wizard_line__wizard_id
+#, fuzzy
+msgid "Wizard"
+msgstr "Yordamchi"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_days_open
+#, fuzzy
+msgid "Working Days to Assign"
+msgstr "Belgilash uchun ish kunlari"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_days_close
+#, fuzzy
+msgid "Working Days to Close"
+msgstr "Yakunlash uchun ish kunlari"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_hours_open
+#, fuzzy
+msgid "Working Hours to Assign"
+msgstr "Belgilash uchun ish soatlari"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_hours_close
+#, fuzzy
+msgid "Working Hours to Close"
+msgstr "Yakunlash uchun ish soatlari"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__module_industry_fsm_report
+#, fuzzy
+msgid "Worksheet Templates"
+msgstr "Ish varaqasi shablonlari"
+
+#. module: industry_fsm
+#: model:mail.template,subject:industry_fsm.mail_template_data_intervention_details
+#, fuzzy
+msgid ""
+"Your intervention is scheduled {{ object.planned_date_begin and "
+"object.date_deadline and 'from the ' + "
+"format_datetime(object.planned_date_begin, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) + ' to the ' + "
+"format_datetime(object.date_deadline, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) or '' }}"
+msgstr ""
+"Sizning aralashuvingiz {{ object.planned_date_begin and object.date_deadline "
+"and 'from the ' + format_datetime(object.planned_date_begin, "
+"tz=object.partner_id.tz, lang_code=object.partner_id.lang) + ' to the ' + "
+"format_datetime(object.date_deadline, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) or '' }} ga rejalashtirilgan"
+
+#. module: industry_fsm
+#: model:ir.model.fields,field_description:industry_fsm.field_project_task__partner_zip
+#: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__partner_zip
+#, fuzzy
+msgid "ZIP"
+msgstr "Pochta indeksi"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.quick_create_task_form_fsm_inherited
+#, fuzzy
+msgid "e.g. Boiler replacement"
+msgstr "masalan, Qozon almashtirish"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid "is FSM?"
+msgstr "FSM bormi?"
+
+#. module: industry_fsm
+#: model_terms:ir.ui.view,arch_db:industry_fsm.project_sharing_inherit_project_task_view_form
+#: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
+#, fuzzy
+msgid ""
+"on\n"
+"                        <span class=\"fw-bold text-dark\"> Sub-tasks</span>)"
+msgstr "<span class=\"fw-bold text-dark\"> Ichki vazifalar</span> bo‘yicha)"
